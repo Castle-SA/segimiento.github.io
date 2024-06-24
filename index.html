@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSV Table Viewer</title>
+    <style>
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+        th, td {
+            border: 1px solid #dddddd;
+            text-align: left;
+            padding: 8px;
+        }
+        th {
+            background-color: #f2f2f2;
+        }
+    </style>
+</head>
+<body>
+    <div id="table-container">
+        <table id="csv-table">
+            <!-- Table content will be populated dynamically -->
+        </table>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.3.0/papaparse.min.js"></script>
+    <script>
+        // URL to your CSV file
+        const csvFilePath = 'https://4294049.app.netsuite.com/core/media/media.nl?id=644575&c=4294049&h=c4C59eNecrzcRucBskrcWgr-PKVGOBxW6bYdk70sNEojNNCL&_xt=.csv';
+
+        // Function to fetch and parse CSV
+        async function fetchAndParseCSV() {
+            const response = await fetch(csvFilePath);
+            const reader = response.body.getReader();
+            const result = await reader.read();
+            const decoder = new TextDecoder('utf-8');
+            const csvString = decoder.decode(result.value);
+            
+            // Parse CSV using PapaParse library
+            const parsedData = Papa.parse(csvString, { header: true }).data;
+            displayTable(parsedData);
+        }
+
+        // Function to display table
+        function displayTable(data) {
+            const table = document.getElementById('csv-table');
+
+            // Clear existing table rows
+            table.innerHTML = '';
+
+            // Add table headers
+            const headers = Object.keys(data[0]);
+            const headerRow = table.insertRow();
+            headers.forEach(headerText => {
+                const th = document.createElement('th');
+                th.textContent = headerText;
+                headerRow.appendChild(th);
+            });
+
+            // Add table rows
+            data.forEach(rowData => {
+                const row = table.insertRow();
+                headers.forEach(header => {
+                    const cell = row.insertCell();
+                    cell.textContent = rowData[header];
+                });
+            });
+        }
+
+        // Load and display CSV data when the page loads
+        document.addEventListener('DOMContentLoaded', () => {
+            fetchAndParseCSV();
+        });
+    </script>
+</body>
+</html>
