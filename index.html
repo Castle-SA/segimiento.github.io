@@ -34,7 +34,7 @@
 
         // Function to fetch and parse CSV
         async function fetchAndParseCSV() {
-            const response = await fetch(csvFilePath, {mode: 'no-cors'});
+            const response = await fetch(csvFilePath);
             const reader = response.body.getReader();
             const result = await reader.read();
             const decoder = new TextDecoder('utf-8');
