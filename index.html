@@ -1,81 +1,99 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:400,300,700">
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Seguimiento Castle</title>
-    <style>
-        table {
-            width: 100%;
-            border-collapse: collapse;
-            margin-top: 20px;
-        }
-        th, td {
-            border: 1px solid #dddddd;
-            text-align: left;
-            padding: 8px;
-        }
-        th {
-            background-color: #f2f2f2;
-        }
-    </style>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:400,300,700">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Seguimiento Castle</title>
+  <style>
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 20px;
+    }
+    th, td {
+      border: 1px solid #dddddd;
+      text-align: left;
+      padding: 8px;
+    }
+    th {
+      background-color: #f2f2f2;
+    }
+    .table-container {
+      margin-bottom: 20px; /* Add spacing between tables */
+    }
+  </style>
 </head>
 <body style="font-family: 'Open Sans', sans-serif; font-size: 14px;">
-    <div id="table-container">
-        <table id="csv-table">
-            <!-- Table content will be populated dynamically -->
-        </table>
+  <div id="tables-container">
     </div>
 
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.3.0/papaparse.min.js"></script>
-    <script>
-        // URL to your CSV file
-        const csvFilePath = 'https://docs.google.com/spreadsheets/d/e/2PACX-1vR4E5klg4xrK_-HSTwNy2YHyKGcstOURl43hzeznkIGHodhlqKqhI2u7zOcvQCAl6PcgQ3pNzVXTwrA/pub?gid=0&single=true&output=csv';
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.3.0/papaparse.min.js"></script>
+  <script>
+    // Replace with your actual CSV file locations and table names
+    const tableData = [
+      { url: 'https://docs.google.com/spreadsheets/d/e/2PACX-1vR4E5klg4xrK_-HSTwNy2YHyKGcstOURl43hzeznkIGHodhlqKqhI2u7zOcvQCAl6PcgQ3pNzVXTwrA/pub?gid=1130322350&single=true&output=csv', title: 'Control GP' },
+      { url: 'https://docs.google.com/spreadsheets/d/e/2PACX-1vR4E5klg4xrK_-HSTwNy2YHyKGcstOURl43hzeznkIGHodhlqKqhI2u7zOcvQCAl6PcgQ3pNzVXTwrA/pub?gid=1534160424&single=true&output=csv', title: 'Control Financiero' },
+      { url: 'https://docs.google.com/spreadsheets/d/e/2PACX-1vR4E5klg4xrK_-HSTwNy2YHyKGcstOURl43hzeznkIGHodhlqKqhI2u7zOcvQCAl6PcgQ3pNzVXTwrA/pub?gid=1395385815&single=true&output=csv', title: 'Control Fecha de Entrega' },
+      { url: 'https://docs.google.com/spreadsheets/d/e/2PACX-1vR4E5klg4xrK_-HSTwNy2YHyKGcstOURl43hzeznkIGHodhlqKqhI2u7zOcvQCAl6PcgQ3pNzVXTwrA/pub?gid=279030133&single=true&output=csv', title: 'Control Financiero 2' },
+      { url: 'https://docs.google.com/spreadsheets/d/e/2PACX-1vR4E5klg4xrK_-HSTwNy2YHyKGcstOURl43hzeznkIGHodhlqKqhI2u7zOcvQCAl6PcgQ3pNzVXTwrA/pub?gid=1173243566&single=true&output=csv', title: 'Preparacion' },
+    ];
 
-        // Function to fetch and parse CSV
-        async function fetchAndParseCSV() {
-            const response = await fetch(csvFilePath);
-            const reader = response.body.getReader();
-            const result = await reader.read();
-            const decoder = new TextDecoder('utf-8');
-            const csvString = decoder.decode(result.value);
-            
-            // Parse CSV using PapaParse library
-            const parsedData = Papa.parse(csvString, { header: true }).data;
-            displayTable(parsedData);
-        }
+    async function fetchAndParseCSV() {
+      for (const tableInfo of tableData) {
+        const csvFilePath = tableInfo.url;
+        const response = await fetch(csvFilePath);
+        const reader = response.body.getReader();
+        const result = await reader.read();
+        const decoder = new TextDecoder('utf-8');
+        const csvString = decoder.decode(result.value);
 
-        // Function to display table
-        function displayTable(data) {
-            const table = document.getElementById('csv-table');
+        // Parse CSV using PapaParse library
+        const parsedData = Papa.parse(csvString, { header: true }).data;
+        createAndDisplayTable(parsedData, tableInfo.title);
+      }
+    }
 
-            // Clear existing table rows
-            table.innerHTML = '';
+    function createAndDisplayTable(data, title) {
+      const tableContainer = document.getElementById('tables-container');
+      const newTableContainer = document.createElement('div');
+      newTableContainer.classList.add('table-container');
 
-            // Add table headers
-            const headers = Object.keys(data[0]);
-            const headerRow = table.insertRow();
-            headers.forEach(headerText => {
-                const th = document.createElement('th');
-                th.textContent = headerText;
-                headerRow.appendChild(th);
-            });
+      const table = document.createElement('table');
 
-            // Add table rows
-            data.forEach(rowData => {
-                const row = table.insertRow();
-                headers.forEach(header => {
-                    const cell = row.insertCell();
-                    cell.textContent = rowData[header];
-                });
-            });
-        }
+      // Add table title (if provided)
+      if (title) {
+        const titleElement = document.createElement('h2');
+        titleElement.textContent = title;
+        newTableContainer.appendChild(titleElement);
+      }
 
-        // Load and display CSV data when the page loads
-        document.addEventListener('DOMContentLoaded', () => {
-            fetchAndParseCSV();
+      // ... rest of the code to populate table (see below)
+
+      newTableContainer.appendChild(table);
+      tableContainer.appendChild(newTableContainer);
+
+      // Existing code to display table (with minor adjustment)
+      const headers = Object.keys(data[0]);
+      const headerRow = table.insertRow();
+      headers.forEach(headerText => {
+        const th = document.createElement('th');
+        th.textContent = headerText;
+        headerRow.appendChild(th);
+      });
+
+      data.forEach(rowData => {
+        const row = table.insertRow();
+        headers.forEach(header => {
+          const cell = row.insertCell();
+          cell.textContent = rowData[header];
         });
-    </script>
+      });
+    }
+
+    document.addEventListener('DOMContentLoaded', () => {
+      fetchAndParseCSV();
+    });
+  </script>
 </body>
 </html>
