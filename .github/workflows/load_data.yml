@@ -3,9 +3,7 @@ name: Load Data
 on:
   # Schedule to run daily (adjust as needed)
   workflow_dispatch:  # Enable manual triggering
-  schedule:
-    cron: '0 0 * * *'  # Every day at midnight (UTC)
-
+  
 jobs:
   load_data:
     runs-on: ubuntu-latest  # Specify the runner environment
