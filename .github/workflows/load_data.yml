@@ -2,8 +2,9 @@ name: Load Data
 
 on:
   # Schedule to run daily (adjust as needed)
-  workflow_dispatch:  # Enable manual triggering
-  
+  schedule:
+    cron: '0 0 * * *'  # Every day at midnight (UTC)
+
 jobs:
   load_data:
     runs-on: ubuntu-latest  # Specify the runner environment
@@ -21,7 +22,8 @@ jobs:
 
          - name: Download CSV  # Download data using axios
            run: |
-          curl -o data.csv https://docs.google.com/spreadsheets/d/e/2PACX-1vR4E5klg4xrK_-HSTwNy2YHyKGcstOURl43hzeznkIGHodhlqKqhI2u7zOcvQCAl6PcgQ3pNzVXTwrA/pub?gid=1130322350&single=true&output=csv
+             curl -o data.csv https://github.com/orgs/community/discussions/106844
+
          - name: Convert CSV to JSON  # Convert data using Papa Parse
            run: |
              node script.js  # Replace with your conversion script
