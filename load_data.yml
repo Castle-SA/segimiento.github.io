@@ -1,1 +1,41 @@
-sfsdfs
+name: Load Data
+
+on:
+  # Schedule to run daily (adjust as needed)
+  schedule:
+    cron: '0 0 * * *'  # Every day at midnight (UTC)
+
+jobs:
+  load_data:
+    runs-on: ubuntu-latest  # Specify the runner environment
+
+    steps:
+      - uses: actions/checkout@v3  # Checkout repository code
+      - name: Use Node.js 16  # Specify Node.js version
+        uses: actions/setup-node@v3
+        with:
+          node-version: 16
+
+      - name: Install dependencies  # Install required libraries
+        run: npm install axios
+
+      - name: Download CSV  # Download data using axios
+        run: |
+          curl -o data.csv https://github.com/orgs/community/discussions/106844
+
+      - name: Convert CSV to JSON  # Convert data using Papa Parse
+        run: |
+          node script.js  # Replace with your conversion script
+
+      - name: Commit changes  # Commit generated JSON file
+        run: |
+          git config --global user.email "you@example.com"
+          git config --global user.name "Your Name"
+          git add data.json
+          git commit -m "Updated data.json"
+
+      - name: Push changes  # Push changes to repository
+        uses: ad-actions/push-to-repo@v2
+        with:
+          folder: .  # Push entire repository (adjust as needed)
+          github-token: ${{ secrets.GITHUB_TOKEN }}
