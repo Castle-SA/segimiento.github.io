@@ -35,7 +35,7 @@ jobs:
           if [ -f data.csv ] && [ "$(stat -c%s data.csv)" -gt 0 ]; then
 
             echo $_input  # Print the value of _input
-            node -p "require('papaparse').parse(process.stdin.read(), { header: true }).data" < data.csv > data.json
+            node -p "require('papaparse').parse(process.stdin.read(), { skipEmptyLines: true, header: true }).data" < data.csv > data.json
           else
             echo "Error: Failed to download data.csv"
             exit 1
