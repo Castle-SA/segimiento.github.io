@@ -25,7 +25,7 @@ jobs:
 
       - name: Download CSV  # Download data using curl
         run: |
-          curl -o data.csv -f https://docs.google.com/spreadsheets/d/e/2PACX-1vR4E5klg4xrK_-HSTwNy2YHyKGcstOURl43hzeznkIGHodhlqKqhI2u7zOcvQCAl6PcgQ3pNzVXTwrA/pub?gid=1130322350&single=true&output=csv
+          curl -o data.csv -f https://docs.google.com/spreadsheets/d/e/2PACX-1vR4E5klg4xrK_-HSTwNy2YHyKGcstOURl43hzeznkIGHodhlqKqhI2u7zOcvQCAl6PcgQ3pNzVXTwrA/pub?gid=1173243566&single=true&output=csv
 
       - name: Check file size  # Verify successful download
         run: ls -l data.csv
