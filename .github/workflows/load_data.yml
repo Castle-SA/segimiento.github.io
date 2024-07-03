@@ -27,9 +27,17 @@ jobs:
         run: |
           curl -o data.csv https://docs.google.com/spreadsheets/d/e/2PACX-1vR4E5klg4xrK_-HSTwNy2YHyKGcstOURl43hzeznkIGHodhlqKqhI2u7zOcvQCAl6PcgQ3pNzVXTwrA/pub?gid=1130322350&single=true&output=csv
 
+      - name: Check file size  # Verify successful download
+        run: ls -l data.csv
+
       - name: Convert CSV to JSON (example)  # Replace with your conversion logic
         run: |
-          node -p "require('papaparse').parse(process.stdin.read(), { header: true }).data" < data.csv > data.json
+          if [ -f data.csv ] && [ "$(stat -c%s data.csv)" -gt 0 ]; then
+            node -p "require('papaparse').parse(process.stdin.read(), { header: true }).data" < data.csv > data.json
+          else
+            echo "Error: Failed to download data.csv"
+            exit 1
+          fi
 
       - name: Store data.json (optional)  # Persist data within the repository
         uses: actions/upload-artifact@v3
