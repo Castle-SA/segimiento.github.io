@@ -5,6 +5,9 @@ on:
   schedule:
     - cron: '0 0 * * *'  # Every day at midnight (UTC)
 
+      # New trigger for manual runs
+  workflow_dispatch:
+
 jobs:
   load_data:
     runs-on: ubuntu-latest  # Specify the runner environment
