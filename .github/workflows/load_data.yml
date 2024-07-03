@@ -33,6 +33,7 @@ jobs:
       - name: Convert CSV to JSON (example)  # Replace with your conversion logic
         run: |
           if [ -f data.csv ] && [ "$(stat -c%s data.csv)" -gt 0 ]; then
+            console.log("_input object:", _input);  # Debugging log
             node -p "require('papaparse').parse(process.stdin.read(), { header: true }).data" < data.csv > data.json
           else
             echo "Error: Failed to download data.csv"
