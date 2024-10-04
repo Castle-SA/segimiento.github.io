@@ -1,54 +1,26 @@
-name: Load Data
+name: Update CSV
 
 on:
-  # Schedule to run daily (adjust as needed)
   schedule:
-    - cron: '0 0 * * *'  # Every day at midnight (UTC)
-
-      # New trigger for manual runs
-  workflow_dispatch:
+    - cron: '0 * * * *' # Runs every hour, you can adjust as needed
+  workflow_dispatch: # Allows manual trigger from GitHub Actions tab
 
 jobs:
-  load_data:
-    runs-on: ubuntu-latest  # Specify the runner environment
+  update-csv:
+    runs-on: ubuntu-latest
 
     steps:
-      - uses: actions/checkout@v3  # Checkout repository code (optional)
+    - name: Checkout repository
+      uses: actions/checkout@v2
 
-      - name: Use Node.js 16  # Specify Node.js version
-        uses: actions/setup-node@v3
-        with:
-          node-version: 16
+    - name: Download CSV from NetSuite
+      run: |
+        curl -o path/to/local.csv 'https://docs.google.com/spreadsheets/d/e/2PACX-1vR4E5klg4xrK_-HSTwNy2YHyKGcstOURl43hzeznkIGHodhlqKqhI2u7zOcvQCAl6PcgQ3pNzVXTwrA/pub?gid=1173243566&single=true&output=csv'  # Replace with your actual URL
 
-      - name: Install Papa Parse  # Library for CSV parsing
-        run: npm install papaparse
-
-      - name: Download CSV  # Download data using curl
-        run: |
-          curl -o data.csv -f https://docs.google.com/spreadsheets/d/e/2PACX-1vR4E5klg4xrK_-HSTwNy2YHyKGcstOURl43hzeznkIGHodhlqKqhI2u7zOcvQCAl6PcgQ3pNzVXTwrA/pub?gid=1173243566&single=true&output=csv
-
-      - name: Check file size  # Verify successful download
-        run: ls -l data.csv
-
-      - name: Convert CSV to JSON (example)  # Replace with your conversion logic
-        run: |
-          if [ -f data.csv ] && [ "$(stat -c%s data.csv)" -gt 0 ]; then
-
-            echo $_input  # Print the value of _input
-            node -p "require('papaparse').parse(process.stdin.read(), { skipEmptyLines: true, header: true }).data" < data.csv > data.json
-          else
-            echo "Error: Failed to download data.csv"
-            exit 1
-          fi
-          
-      - name: Store data.json (optional)  # Persist data within the repository
-        uses: actions/upload-artifact@v3
-        with:
-          name: processed-data
-          path: data.json
-
-# This section is commented out as it's not recommended for sensitive data
-# - name: Push data.json to FTP (not recommended)  # (replace with your FTP upload logic)
-#   uses: (alternative_action_here)  # Replace with a suitable FTP upload action
-#   with:
-#     # ... FTP connection details
+    - name: Commit and push changes
+      run: |
+        git config --local user.email "you@example.com"
+        git config --local user.name "Your Name"
+        git add path/to/local.csv
+        git commit -m "Update CSV file"
+        git push
