@@ -2,7 +2,7 @@ name: Update CSV
 
 on:
   schedule:
-    - cron: '0 * * * *' # Runs every hour, adjust as needed
+    - cron: '0 * * * *' # Adjust this to your desired frequency
   workflow_dispatch: # Allows manual trigger from GitHub Actions tab
 
 jobs:
