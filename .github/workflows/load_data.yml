@@ -1,8 +1,8 @@
-name: Update CSV
+name: Update CSV Tables
 
 on:
   schedule:
-    - cron: '0 * * * *' # Adjust this to your desired frequency
+    - cron: '*/15 * * * *' # Runs every 15 minutes
   workflow_dispatch: # Allows manual trigger from GitHub Actions tab
 
 jobs:
@@ -13,19 +13,28 @@ jobs:
     - name: Checkout repository
       uses: actions/checkout@v2
 
-    - name: Create directory for CSV if it doesn't exist
+    - name: Create directory for CSVs if it doesn't exist
       run: mkdir -p path/to
 
-    - name: Download CSV from Google Sheets
+    - name: Download CSVs from Google Sheets
       run: |
-        curl -o path/to/local.csv 'https://docs.google.com/spreadsheets/d/e/2PACX-1vR4E5klg4xrK_-HSTwNy2YHyKGcstOURl43hzeznkIGHodhlqKqhI2u7zOcvQCAl6PcgQ3pNzVXTwrA/pub?gid=1173243566&single=true&output=csv'
+        curl -o path/to/control_gp.csv 'https://docs.google.com/spreadsheets/d/e/2PACX-1vR4E5klg4xrK_-HSTwNy2YHyKGcstOURl43hzeznkIGHodhlqKqhI2u7zOcvQCAl6PcgQ3pNzVXTwrA/pub?gid=1130322350&single=true&output=csv'
+        curl -o path/to/control_financiero.csv 'https://docs.google.com/spreadsheets/d/e/2PACX-1vR4E5klg4xrK_-HSTwNy2YHyKGcstOURl43hzeznkIGHodhlqKqhI2u7zOcvQCAl6PcgQ3pNzVXTwrA/pub?gid=1534160424&single=true&output=csv'
+        curl -o path/to/control_fecha_entrega.csv 'https://docs.google.com/spreadsheets/d/e/2PACX-1vR4E5klg4xrK_-HSTwNy2YHyKGcstOURl43hzeznkIGHodhlqKqhI2u7zOcvQCAl6PcgQ3pNzVXTwrA/pub?gid=1395385815&single=true&output=csv'
+        curl -o path/to/control_financiero_2.csv 'https://docs.google.com/spreadsheets/d/e/2PACX-1vR4E5klg4xrK_-HSTwNy2YHyKGcstOURl43hzeznkIGHodhlqKqhI2u7zOcvQCAl6PcgQ3pNzVXTwrA/pub?gid=279030133&single=true&output=csv'
+        curl -o path/to/preparacion.csv 'https://docs.google.com/spreadsheets/d/e/2PACX-1vR4E5klg4xrK_-HSTwNy2YHyKGcstOURl43hzeznkIGHodhlqKqhI2u7zOcvQCAl6PcgQ3pNzVXTwrA/pub?gid=1173243566&single=true&output=csv'
 
-    - name: Commit and push changes
+    - name: Check for changes
       run: |
         git config --local user.email "you@example.com"
         git config --local user.name "Your Name"
-        git add path/to/local.csv
-        git commit -m "Update CSV file"
+        git add path/to/*.csv
+        git diff --exit-code || echo "Changes detected"
+
+    - name: Commit and push changes if they exist
+      if: success() # Only proceed if changes are detected
+      run: |
+        git commit -m "Update CSV files" || echo "No changes to commit"
         git push https://x-access-token:${{ secrets.GH_PAT }}@github.com/Castle-SA/segimiento.github.io.git
       env:
         GITHUB_TOKEN: ${{ secrets.GH_PAT }}
