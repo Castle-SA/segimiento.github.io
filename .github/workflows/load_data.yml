@@ -2,7 +2,7 @@ name: Update CSV
 
 on:
   schedule:
-    - cron: '0 * * * *' # Runs every hour, you can adjust as needed
+    - cron: '0 * * * *' # Runs every hour, adjust as needed
   workflow_dispatch: # Allows manual trigger from GitHub Actions tab
 
 jobs:
@@ -13,9 +13,12 @@ jobs:
     - name: Checkout repository
       uses: actions/checkout@v2
 
-    - name: Download CSV from NetSuite
+    - name: Create directory for CSV if it doesn't exist
+      run: mkdir -p path/to
+
+    - name: Download CSV from Google Sheets
       run: |
-        curl -o path/to/local.csv 'https://docs.google.com/spreadsheets/d/e/2PACX-1vR4E5klg4xrK_-HSTwNy2YHyKGcstOURl43hzeznkIGHodhlqKqhI2u7zOcvQCAl6PcgQ3pNzVXTwrA/pub?gid=1173243566&single=true&output=csv'  # Replace with your actual URL
+        curl -o path/to/local.csv 'https://docs.google.com/spreadsheets/d/e/2PACX-1vR4E5klg4xrK_-HSTwNy2YHyKGcstOURl43hzeznkIGHodhlqKqhI2u7zOcvQCAl6PcgQ3pNzVXTwrA/pub?gid=1173243566&single=true&output=csv'
 
     - name: Commit and push changes
       run: |
