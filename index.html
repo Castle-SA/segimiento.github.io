@@ -1,99 +1,35 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:400,300,700">
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Seguimiento Castle</title>
-  <style>
-    table {
-      width: 100%;
-      border-collapse: collapse;
-      margin-top: 20px;
-    }
-    th, td {
-      border: 1px solid #dddddd;
-      text-align: left;
-      padding: 8px;
-    }
-    th {
-      background-color: #f2f2f2;
-    }
-    .table-container {
-      margin-bottom: 20px; /* Add spacing between tables */
-    }
-  </style>
-</head>
-<body style="font-family: 'Open Sans', sans-serif; font-size: 14px;">
-  <div id="tables-container">
-    </div>
+name: Update CSV Tables
 
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.3.0/papaparse.min.js"></script>
-  <script>
-    // Replace with your actual CSV file locations and table names
-    const tableData = [
-      { url: 'https://docs.google.com/spreadsheets/d/e/2PACX-1vR4E5klg4xrK_-HSTwNy2YHyKGcstOURl43hzeznkIGHodhlqKqhI2u7zOcvQCAl6PcgQ3pNzVXTwrA/pub?gid=1130322350&single=true&output=csv', title: 'Control GP' },
-      { url: 'https://docs.google.com/spreadsheets/d/e/2PACX-1vR4E5klg4xrK_-HSTwNy2YHyKGcstOURl43hzeznkIGHodhlqKqhI2u7zOcvQCAl6PcgQ3pNzVXTwrA/pub?gid=1534160424&single=true&output=csv', title: 'Control Financiero' },
-      { url: 'https://docs.google.com/spreadsheets/d/e/2PACX-1vR4E5klg4xrK_-HSTwNy2YHyKGcstOURl43hzeznkIGHodhlqKqhI2u7zOcvQCAl6PcgQ3pNzVXTwrA/pub?gid=1395385815&single=true&output=csv', title: 'Control Fecha de Entrega' },
-      { url: 'https://docs.google.com/spreadsheets/d/e/2PACX-1vR4E5klg4xrK_-HSTwNy2YHyKGcstOURl43hzeznkIGHodhlqKqhI2u7zOcvQCAl6PcgQ3pNzVXTwrA/pub?gid=279030133&single=true&output=csv', title: 'Control Financiero 2' },
-      { url: 'https://docs.google.com/spreadsheets/d/e/2PACX-1vR4E5klg4xrK_-HSTwNy2YHyKGcstOURl43hzeznkIGHodhlqKqhI2u7zOcvQCAl6PcgQ3pNzVXTwrA/pub?gid=1173243566&single=true&output=csv', title: 'Preparacion' },
-    ];
+on:
+  schedule:
+    - cron: '0 * * * *' # Runs every hour, adjust as needed
+  workflow_dispatch: # Allows manual trigger from GitHub Actions tab
 
-    async function fetchAndParseCSV() {
-      for (const tableInfo of tableData) {
-        const csvFilePath = tableInfo.url;
-        const response = await fetch(csvFilePath);
-        const reader = response.body.getReader();
-        const result = await reader.read();
-        const decoder = new TextDecoder('utf-8');
-        const csvString = decoder.decode(result.value);
+jobs:
+  update-csv:
+    runs-on: ubuntu-latest
 
-        // Parse CSV using PapaParse library
-        const parsedData = Papa.parse(csvString, { header: true }).data;
-        createAndDisplayTable(parsedData, tableInfo.title);
-      }
-    }
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v2
 
-    function createAndDisplayTable(data, title) {
-      const tableContainer = document.getElementById('tables-container');
-      const newTableContainer = document.createElement('div');
-      newTableContainer.classList.add('table-container');
+    - name: Create directory for CSVs if it doesn't exist
+      run: mkdir -p path/to
 
-      const table = document.createElement('table');
+    - name: Download CSVs from Google Sheets
+      run: |
+        curl -o path/to/control_gp.csv 'https://docs.google.com/spreadsheets/d/e/2PACX-1vR4E5klg4xrK_-HSTwNy2YHyKGcstOURl43hzeznkIGHodhlqKqhI2u7zOcvQCAl6PcgQ3pNzVXTwrA/pub?gid=1130322350&single=true&output=csv'
+        curl -o path/to/control_financiero.csv 'https://docs.google.com/spreadsheets/d/e/2PACX-1vR4E5klg4xrK_-HSTwNy2YHyKGcstOURl43hzeznkIGHodhlqKqhI2u7zOcvQCAl6PcgQ3pNzVXTwrA/pub?gid=1534160424&single=true&output=csv'
+        curl -o path/to/control_fecha_entrega.csv 'https://docs.google.com/spreadsheets/d/e/2PACX-1vR4E5klg4xrK_-HSTwNy2YHyKGcstOURl43hzeznkIGHodhlqKqhI2u7zOcvQCAl6PcgQ3pNzVXTwrA/pub?gid=1395385815&single=true&output=csv'
+        curl -o path/to/control_financiero_2.csv 'https://docs.google.com/spreadsheets/d/e/2PACX-1vR4E5klg4xrK_-HSTwNy2YHyKGcstOURl43hzeznkIGHodhlqKqhI2u7zOcvQCAl6PcgQ3pNzVXTwrA/pub?gid=279030133&single=true&output=csv'
+        curl -o path/to/preparacion.csv 'https://docs.google.com/spreadsheets/d/e/2PACX-1vR4E5klg4xrK_-HSTwNy2YHyKGcstOURl43hzeznkIGHodhlqKqhI2u7zOcvQCAl6PcgQ3pNzVXTwrA/pub?gid=1173243566&single=true&output=csv'
 
-      // Add table title (if provided)
-      if (title) {
-        const titleElement = document.createElement('h2');
-        titleElement.textContent = title;
-        newTableContainer.appendChild(titleElement);
-      }
-
-      // ... rest of the code to populate table (see below)
-
-      newTableContainer.appendChild(table);
-      tableContainer.appendChild(newTableContainer);
-
-      // Existing code to display table (with minor adjustment)
-      const headers = Object.keys(data[0]);
-      const headerRow = table.insertRow();
-      headers.forEach(headerText => {
-        const th = document.createElement('th');
-        th.textContent = headerText;
-        headerRow.appendChild(th);
-      });
-
-      data.forEach(rowData => {
-        const row = table.insertRow();
-        headers.forEach(header => {
-          const cell = row.insertCell();
-          cell.textContent = rowData[header];
-        });
-      });
-    }
-
-    document.addEventListener('DOMContentLoaded', () => {
-      fetchAndParseCSV();
-    });
-  </script>
-</body>
-</html>
+    - name: Commit and push changes
+      run: |
+        git config --local user.email "you@example.com"
+        git config --local user.name "Your Name"
+        git add path/to/*.csv
+        git commit -m "Update CSV files"
+        git push https://x-access-token:${{ secrets.GH_PAT }}@github.com/Castle-SA/segimiento.github.io.git
+      env:
+        GITHUB_TOKEN: ${{ secrets.GH_PAT }}
