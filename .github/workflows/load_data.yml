@@ -18,11 +18,11 @@ jobs:
 
     - name: Download CSVs from Google Sheets
       run: |
-        curl -o path/to/control_gp.csv 'https://docs.google.com/spreadsheets/d/e/2PACX-1vR4E5klg4xrK_-HSTwNy2YHyKGcstOURl43hzeznkIGHodhlqKqhI2u7zOcvQCAl6PcgQ3pNzVXTwrA/pub?gid=1130322350&single=true&output=csv'
-        curl -o path/to/control_financiero.csv 'https://docs.google.com/spreadsheets/d/e/2PACX-1vR4E5klg4xrK_-HSTwNy2YHyKGcstOURl43hzeznkIGHodhlqKqhI2u7zOcvQCAl6PcgQ3pNzVXTwrA/pub?gid=1534160424&single=true&output=csv'
-        curl -o path/to/control_fecha_entrega.csv 'https://docs.google.com/spreadsheets/d/e/2PACX-1vR4E5klg4xrK_-HSTwNy2YHyKGcstOURl43hzeznkIGHodhlqKqhI2u7zOcvQCAl6PcgQ3pNzVXTwrA/pub?gid=1395385815&single=true&output=csv'
-        curl -o path/to/control_financiero_2.csv 'https://docs.google.com/spreadsheets/d/e/2PACX-1vR4E5klg4xrK_-HSTwNy2YHyKGcstOURl43hzeznkIGHodhlqKqhI2u7zOcvQCAl6PcgQ3pNzVXTwrA/pub?gid=279030133&single=true&output=csv'
-        curl -o path/to/preparacion.csv 'https://docs.google.com/spreadsheets/d/e/2PACX-1vR4E5klg4xrK_-HSTwNy2YHyKGcstOURl43hzeznkIGHodhlqKqhI2u7zOcvQCAl6PcgQ3pNzVXTwrA/pub?gid=1173243566&single=true&output=csv'
+        curl -L -o path/to/control_gp.csv 'https://docs.google.com/spreadsheets/d/e/2PACX-1vR4E5klg4xrK_-HSTwNy2YHyKGcstOURl43hzeznkIGHodhlqKqhI2u7zOcvQCAl6PcgQ3pNzVXTwrA/pub?gid=1130322350&single=true&output=csv'
+        curl -L -o path/to/control_financiero.csv 'https://docs.google.com/spreadsheets/d/e/2PACX-1vR4E5klg4xrK_-HSTwNy2YHyKGcstOURl43hzeznkIGHodhlqKqhI2u7zOcvQCAl6PcgQ3pNzVXTwrA/pub?gid=1534160424&single=true&output=csv'
+        curl -L -o path/to/control_fecha_entrega.csv 'https://docs.google.com/spreadsheets/d/e/2PACX-1vR4E5klg4xrK_-HSTwNy2YHyKGcstOURl43hzeznkIGHodhlqKqhI2u7zOcvQCAl6PcgQ3pNzVXTwrA/pub?gid=1395385815&single=true&output=csv'
+        curl -L -o path/to/control_financiero_2.csv 'https://docs.google.com/spreadsheets/d/e/2PACX-1vR4E5klg4xrK_-HSTwNy2YHyKGcstOURl43hzeznkIGHodhlqKqhI2u7zOcvQCAl6PcgQ3pNzVXTwrA/pub?gid=279030133&single=true&output=csv'
+        curl -L -o path/to/preparacion.csv 'https://docs.google.com/spreadsheets/d/e/2PACX-1vR4E5klg4xrK_-HSTwNy2YHyKGcstOURl43hzeznkIGHodhlqKqhI2u7zOcvQCAl6PcgQ3pNzVXTwrA/pub?gid=1173243566&single=true&output=csv'
 
     - name: Check for changes
       run: |
