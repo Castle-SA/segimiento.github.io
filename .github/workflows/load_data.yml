@@ -27,3 +27,5 @@ jobs:
         git add path/to/local.csv
         git commit -m "Update CSV file"
         git push
+      env:
+        GITHUB_TOKEN: ${{ secrets.GH_PAT }}
