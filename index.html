@@ -1,35 +1,105 @@
-name: Update CSV Tables
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Company Tracking Dashboard</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+    }
+    h1, h2 {
+      text-align: center;
+    }
+    .table-container {
+      margin: 20px auto;
+      width: 90%;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-bottom: 50px;
+    }
+    th, td {
+      border: 1px solid #dddddd;
+      padding: 8px;
+      text-align: left;
+    }
+    th {
+      background-color: #f2f2f2;
+    }
+  </style>
+</head>
+<body>
 
-on:
-  schedule:
-    - cron: '0 * * * *' # Runs every hour, adjust as needed
-  workflow_dispatch: # Allows manual trigger from GitHub Actions tab
+  <h1>Company Tracking Dashboard</h1>
 
-jobs:
-  update-csv:
-    runs-on: ubuntu-latest
+  <div id="tables-container" class="table-container"></div>
 
-    steps:
-    - name: Checkout repository
-      uses: actions/checkout@v2
+  <script>
+    // Array of CSV files and their titles in the desired order
+    const csvFiles = [
+      { file: 'data/control_gp.csv', title: 'Control GP' },
+      { file: 'data/control_financiero.csv', title: 'Control Financiero' },
+      { file: 'data/control_fecha_entrega.csv', title: 'Control Fecha de Entrega' },
+      { file: 'data/control_financiero_2.csv', title: 'Control Financiero 2' },
+      { file: 'data/preparacion.csv', title: 'Preparación' }
+    ];
 
-    - name: Create directory for CSVs if it doesn't exist
-      run: mkdir -p path/to
+    // Function to fetch and display a CSV file as a table
+    function loadCSV(filePath, title) {
+      fetch(filePath)
+        .then(response => response.text())
+        .then(data => {
+          const tableContainer = document.getElementById('tables-container');
 
-    - name: Download CSVs from Google Sheets
-      run: |
-        curl -o path/to/control_gp.csv 'https://docs.google.com/spreadsheets/d/e/2PACX-1vR4E5klg4xrK_-HSTwNy2YHyKGcstOURl43hzeznkIGHodhlqKqhI2u7zOcvQCAl6PcgQ3pNzVXTwrA/pub?gid=1130322350&single=true&output=csv'
-        curl -o path/to/control_financiero.csv 'https://docs.google.com/spreadsheets/d/e/2PACX-1vR4E5klg4xrK_-HSTwNy2YHyKGcstOURl43hzeznkIGHodhlqKqhI2u7zOcvQCAl6PcgQ3pNzVXTwrA/pub?gid=1534160424&single=true&output=csv'
-        curl -o path/to/control_fecha_entrega.csv 'https://docs.google.com/spreadsheets/d/e/2PACX-1vR4E5klg4xrK_-HSTwNy2YHyKGcstOURl43hzeznkIGHodhlqKqhI2u7zOcvQCAl6PcgQ3pNzVXTwrA/pub?gid=1395385815&single=true&output=csv'
-        curl -o path/to/control_financiero_2.csv 'https://docs.google.com/spreadsheets/d/e/2PACX-1vR4E5klg4xrK_-HSTwNy2YHyKGcstOURl43hzeznkIGHodhlqKqhI2u7zOcvQCAl6PcgQ3pNzVXTwrA/pub?gid=279030133&single=true&output=csv'
-        curl -o path/to/preparacion.csv 'https://docs.google.com/spreadsheets/d/e/2PACX-1vR4E5klg4xrK_-HSTwNy2YHyKGcstOURl43hzeznkIGHodhlqKqhI2u7zOcvQCAl6PcgQ3pNzVXTwrA/pub?gid=1173243566&single=true&output=csv'
+          // Create a title for the table
+          const tableTitle = document.createElement('h2');
+          tableTitle.textContent = title;
+          tableContainer.appendChild(tableTitle);
 
-    - name: Commit and push changes
-      run: |
-        git config --local user.email "you@example.com"
-        git config --local user.name "Your Name"
-        git add path/to/*.csv
-        git commit -m "Update CSV files"
-        git push https://x-access-token:${{ secrets.GH_PAT }}@github.com/Castle-SA/segimiento.github.io.git
-      env:
-        GITHUB_TOKEN: ${{ secrets.GH_PAT }}
+          // Parse CSV data
+          const rows = data.trim().split('\n').map(row => row.split(','));
+
+          // Create table elements
+          const table = document.createElement('table');
+          const thead = document.createElement('thead');
+          const tbody = document.createElement('tbody');
+
+          // Create table header
+          const headerRow = document.createElement('tr');
+          rows[0].forEach(cellText => {
+            const th = document.createElement('th');
+            th.textContent = cellText;
+            headerRow.appendChild(th);
+          });
+          thead.appendChild(headerRow);
+          table.appendChild(thead);
+
+          // Create table body
+          for (let i = 1; i < rows.length; i++) {
+            const row = document.createElement('tr');
+            rows[i].forEach(cellText => {
+              const td = document.createElement('td');
+              td.textContent = cellText;
+              row.appendChild(td);
+            });
+            tbody.appendChild(row);
+          }
+          table.appendChild(tbody);
+
+          // Add the table to the container
+          tableContainer.appendChild(table);
+        })
+        .catch(error => {
+          console.error('Error loading CSV file:', filePath, error);
+        });
+    }
+
+    // Load all CSV files in order
+    csvFiles.forEach(csv => {
+      loadCSV(csv.file, csv.title);
+    });
+  </script>
+
+</body>
+</html>
