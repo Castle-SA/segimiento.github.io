@@ -1,92 +1,105 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CSV Data Display</title>
-    <style>
-        table {
-            width: 100%;
-            border-collapse: collapse;
-            margin-bottom: 20px;
-        }
-        table, th, td {
-            border: 1px solid black;
-        }
-        th, td {
-            padding: 8px;
-            text-align: left;
-        }
-        th {
-            background-color: #f2f2f2;
-        }
-    </style>
+  <meta charset="UTF-8">
+  <title>Company Tracking Dashboard</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+    }
+    h1, h2 {
+      text-align: center;
+    }
+    .table-container {
+      margin: 20px auto;
+      width: 90%;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-bottom: 50px;
+    }
+    th, td {
+      border: 1px solid #dddddd;
+      padding: 8px;
+      text-align: left;
+    }
+    th {
+      background-color: #f2f2f2;
+    }
+  </style>
 </head>
 <body>
-    <h1>CSV Data Tables</h1>
 
-    <div id="tables">
-        <!-- Tables will be inserted here by JavaScript -->
-    </div>
+  <h1>Company Tracking Dashboard</h1>
 
-    <script>
-        // Array of CSV file paths and table titles
-        const csvFiles = [
-            { file: 'path/to/control_gp.csv', title: 'Control GP' },
-            { file: 'path/to/control_financiero.csv', title: 'Control Financiero' },
-            { file: 'path/to/control_fecha_entrega.csv', title: 'Control Fecha de Entrega' },
-            { file: 'path/to/control_financiero_2.csv', title: 'Control Financiero 2' },
-            { file: 'path/to/preparacion.csv', title: 'Preparación' }
-        ];
+  <div id="tables-container" class="table-container"></div>
 
-        // Function to fetch CSV and convert it to a table
-        function fetchAndDisplayCSV(file, title) {
-            fetch(file)
-                .then(response => response.text())
-                .then(csv => {
-                    const rows = csv.split('\n').map(row => row.split(','));
-                    const table = document.createElement('table');
-                    const thead = document.createElement('thead');
-                    const tbody = document.createElement('tbody');
-                    
-                    // Add title above the table
-                    const h2 = document.createElement('h2');
-                    h2.textContent = title;
-                    document.getElementById('tables').appendChild(h2);
+  <script>
+    // Array of CSV files and their titles in the desired order
+    const csvFiles = [
+      { file: 'data/control_gp.csv', title: 'Control GP' },
+      { file: 'data/control_financiero.csv', title: 'Control Financiero' },
+      { file: 'data/control_fecha_entrega.csv', title: 'Control Fecha de Entrega' },
+      { file: 'data/control_financiero_2.csv', title: 'Control Financiero 2' },
+      { file: 'data/preparacion.csv', title: 'Preparación' }
+    ];
 
-                    // Create table headers
-                    const headers = rows[0];
-                    const headerRow = document.createElement('tr');
-                    headers.forEach(header => {
-                        const th = document.createElement('th');
-                        th.textContent = header;
-                        headerRow.appendChild(th);
-                    });
-                    thead.appendChild(headerRow);
+    // Function to fetch and display a CSV file as a table
+    function loadCSV(filePath, title) {
+      fetch(filePath)
+        .then(response => response.text())
+        .then(data => {
+          const tableContainer = document.getElementById('tables-container');
 
-                    // Create table body rows
-                    rows.slice(1).forEach(row => {
-                        const tr = document.createElement('tr');
-                        row.forEach(cell => {
-                            const td = document.createElement('td');
-                            td.textContent = cell;
-                            tr.appendChild(td);
-                        });
-                        tbody.appendChild(tr);
-                    });
+          // Create a title for the table
+          const tableTitle = document.createElement('h2');
+          tableTitle.textContent = title;
+          tableContainer.appendChild(tableTitle);
 
-                    // Append thead and tbody to table
-                    table.appendChild(thead);
-                    table.appendChild(tbody);
-                    document.getElementById('tables').appendChild(table);
-                })
-                .catch(error => console.error('Error fetching CSV:', error));
-        }
+          // Parse CSV data
+          const rows = data.trim().split('\n').map(row => row.split(','));
 
-        // Loop through the CSV files and display each one
-        csvFiles.forEach(fileInfo => {
-            fetchAndDisplayCSV(fileInfo.file, fileInfo.title);
+          // Create table elements
+          const table = document.createElement('table');
+          const thead = document.createElement('thead');
+          const tbody = document.createElement('tbody');
+
+          // Create table header
+          const headerRow = document.createElement('tr');
+          rows[0].forEach(cellText => {
+            const th = document.createElement('th');
+            th.textContent = cellText;
+            headerRow.appendChild(th);
+          });
+          thead.appendChild(headerRow);
+          table.appendChild(thead);
+
+          // Create table body
+          for (let i = 1; i < rows.length; i++) {
+            const row = document.createElement('tr');
+            rows[i].forEach(cellText => {
+              const td = document.createElement('td');
+              td.textContent = cellText;
+              row.appendChild(td);
+            });
+            tbody.appendChild(row);
+          }
+          table.appendChild(tbody);
+
+          // Add the table to the container
+          tableContainer.appendChild(table);
+        })
+        .catch(error => {
+          console.error('Error loading CSV file:', filePath, error);
         });
-    </script>
+    }
+
+    // Load all CSV files in order
+    csvFiles.forEach(csv => {
+      loadCSV(csv.file, csv.title);
+    });
+  </script>
+
 </body>
 </html>
