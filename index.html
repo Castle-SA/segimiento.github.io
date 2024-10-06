@@ -59,7 +59,7 @@
     </div>
 
     <script>
-        // Array of CSV file paths and table titles for the original layout
+        // CSV file paths for the original tables
         const csvFiles = [
             { file: 'path/to/control_gp.csv', title: 'Control GP' },
             { file: 'path/to/control_financiero.csv', title: 'Control Financiero' },
@@ -68,19 +68,17 @@
             { file: 'path/to/preparacion.csv', title: 'Preparación' } // This will be split into several tables
         ];
 
-        // URL of the published Google Sheet containing file IDs and links for matching with "Numero de Remito"
+        // URL of the Google Sheet published as CSV for matching Facturación files
         const sheetUrl = 'https://docs.google.com/spreadsheets/d/e/2PACX-1vTmBAXWedGqxYfGaVoGXyCQwBE54QDjnKa5Eel4TTV1-pfqUYYHXrPuww_VBGFMJAqKCD_P9X1nWX_t/pub?output=csv';
 
-        // Function to fetch CSV and convert it to a table
+        // Function to fetch CSV and convert it to a table for the original layout
         function fetchAndDisplayCSV(file, title) {
             fetch(file)
                 .then(response => response.text())
                 .then(csv => {
                     const rows = csv.split('\n').map(row => row.split(','));
-
                     if (title === 'Preparación') {
-                        // Split the "Preparación" table into 3 parts
-                        splitPreparacion(rows);
+                        splitPreparacion(rows); // Custom logic to split Preparación
                     } else {
                         createTable(rows, title);
                     }
@@ -88,14 +86,14 @@
                 .catch(error => console.error('Error fetching CSV:', error));
         }
 
-        // Function to fetch the CSV data from Google Sheets (for facturacion matching)
+        // Function to fetch the CSV data from Google Sheets for Facturación file matching
         async function fetchCsvData(url) {
             const response = await fetch(url);
             const data = await response.text();
             return data;
         }
 
-        // Function to parse the CSV data into an array of objects (for facturacion matching)
+        // Function to parse the CSV data into an array of objects
         function parseCsvData(csv) {
             const lines = csv.split('\n');
             const rows = lines.slice(1); // Skip the headers
@@ -109,7 +107,7 @@
             });
         }
 
-        // Function to compare "Numero de Remito" with Google Sheet data
+        // Function to compare "Numero de Remito" with Google Sheet data (facturación)
         function compareRemitoWithFiles(remitos, files) {
             const despachadoRows = [];
             remitos.forEach(remito => {
@@ -124,7 +122,7 @@
             return despachadoRows;
         }
 
-        // Function to create and display the Facturación table with matching "Numero de Remito" and file links
+        // Function to create and display the Facturación table
         function createFacturacionTable(rows, matchedFiles) {
             const section = document.createElement('div');
             section.classList.add('table-section');
@@ -147,31 +145,25 @@
             });
             thead.appendChild(headerRow);
 
-            // Track unique "Numero de Remito" values
-            const seenRemitoNumbers = new Set();
-
-            // Create table body rows with matched file links
-            rows.slice(1).forEach(row => {
+            // Create table body rows with file links
+            rows.forEach(row => {
                 const remitoNumber = row[2]; // "Numero de Remito" column
-                if (!seenRemitoNumbers.has(remitoNumber)) {
-                    seenRemitoNumbers.add(remitoNumber); // Track uniqueness
+                const tr = document.createElement('tr');
 
-                    const tr = document.createElement('tr');
-                    const fileMatch = matchedFiles.find(file => file.remito === remitoNumber);
-                    const fileLink = fileMatch ? `<a href="${fileMatch.fileLink}" target="_blank">View File</a>` : 'No Match';
+                // Add the first 3 columns (GOA, Cliente, Numero de Remito)
+                row.slice(0, 3).forEach(cell => {
+                    const td = document.createElement('td');
+                    td.textContent = cell;
+                    tr.appendChild(td);
+                });
 
-                    row.slice(0, 3).forEach(cell => {
-                        const td = document.createElement('td');
-                        td.textContent = cell;
-                        tr.appendChild(td);
-                    });
+                // Find and append file link in the fourth column
+                const fileMatch = matchedFiles.find(file => file.remito === remitoNumber);
+                const linkCell = document.createElement('td');
+                linkCell.innerHTML = fileMatch ? `<a href="${fileMatch.fileLink}" target="_blank">View File</a>` : 'No Match';
+                tr.appendChild(linkCell);
 
-                    const linkCell = document.createElement('td');
-                    linkCell.innerHTML = fileLink; // Add the link to the matched file
-                    tr.appendChild(linkCell);
-
-                    tbody.appendChild(tr);
-                }
+                tbody.appendChild(tr);
             });
 
             // Append thead and tbody to table
@@ -189,6 +181,49 @@
             // ...
         }
 
+        // Function to create and display a generic table (for other CSV files)
+        function createTable(rows, title) {
+            const section = document.createElement('div');
+            section.classList.add('table-section');
+
+            const h2 = document.createElement('h2');
+            h2.textContent = title;
+            section.appendChild(h2);
+
+            const table = document.createElement('table');
+            const thead = document.createElement('thead');
+            const tbody = document.createElement('tbody');
+
+            // Create table headers
+            const headers = rows[0];
+            const headerRow = document.createElement('tr');
+            headers.forEach(header => {
+                const th = document.createElement('th');
+                th.textContent = header;
+                headerRow.appendChild(th);
+            });
+            thead.appendChild(headerRow);
+
+            // Create table body rows
+            rows.slice(1).forEach(row => {
+                const tr = document.createElement('tr');
+                row.forEach(cell => {
+                    const td = document.createElement('td');
+                    td.textContent = cell;
+                    tr.appendChild(td);
+                });
+                tbody.appendChild(tr);
+            });
+
+            // Append thead and tbody to table
+            table.appendChild(thead);
+            table.appendChild(tbody);
+            section.appendChild(table);
+
+            // Append the table section to the container
+            document.getElementById('tables').appendChild(section);
+        }
+
         // Fetch and display the original CSV files
         csvFiles.forEach(fileInfo => {
             fetchAndDisplayCSV(fileInfo.file, fileInfo.title);
@@ -199,18 +234,18 @@
             const csvData = await fetchCsvData(sheetUrl);
             const files = parseCsvData(csvData);
 
-            // Example "Numero de Remito" values (replace these with actual remito values from the facturacion data)
-            const remitos = ['12345', '67890', '11111'];
+            // You will replace this with the actual Facturación table data
+            const facturacionRows = [
+                ['GOA123', 'Cliente1', '12345'],
+                ['GOA456', 'Cliente2', '67890'],
+                ['GOA789', 'Cliente3', '11111']
+            ]; // This should contain the actual facturación rows
 
-            const matchedFiles = compareRemitoWithFiles(remitos, files);
-
-            // Assuming facturacionRows is the data of the Facturación table you already have
-            // You will need to pass the correct facturación rows here
-            const facturacionRows = [/* Facturación data goes here */];
+            const matchedFiles = compareRemitoWithFiles(facturacionRows.map(row => row[2]), files);
             createFacturacionTable(facturacionRows, matchedFiles);
         }
 
-        // Run the init function for fetching file links on page load
+        // Run the init function on page load for Facturación and file matching
         init();
     </script>
 </body>
