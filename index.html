@@ -115,8 +115,8 @@
                 }
             });
 
-            // Sort the factuRows by "Numero de Remito" (3rd column) in ascending order
-            factuRows.slice(1).sort((a, b) => a[2].localeCompare(b[2]));
+            // Sort the factuRows by "Numero de Remito" (3rd column) as integers in ascending order
+            factuRows.slice(1).sort((a, b) => parseInt(a[2], 10) - parseInt(b[2], 10));
 
             // Create tables in a single column
             createTable(pickingRows, 'Picking');
