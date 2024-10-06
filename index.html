@@ -19,11 +19,20 @@
             font-weight: 600;
         }
 
+        h2 {
+            font-size: 14px;
+        }
+
+        .container {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr); /* Create 3 equal columns */
+            grid-gap: 20px; /* Space between the columns */
+        }
+
         table {
             width: 100%;
             border-collapse: collapse;
-            margin-bottom: 20px;
-            font-size: 14px;
+            font-size: 12px; /* Smaller text */
         }
 
         table, th, td {
@@ -31,20 +40,24 @@
         }
 
         th, td {
-            padding: 8px;
+            padding: 6px;
             text-align: left;
         }
 
         th {
             background-color: #f2f2f2;
         }
+
+        .table-section {
+            margin-bottom: 20px;
+        }
     </style>
 </head>
 <body>
     <h1>CSV Data Tables</h1>
 
-    <div id="tables">
-        <!-- Tables will be inserted here by JavaScript -->
+    <div class="container" id="tables">
+        <!-- Tables will be inserted here by JavaScript in a grid format -->
     </div>
 
     <script>
@@ -54,7 +67,7 @@
             { file: 'path/to/control_financiero.csv', title: 'Control Financiero' },
             { file: 'path/to/control_fecha_entrega.csv', title: 'Control Fecha de Entrega' },
             { file: 'path/to/control_financiero_2.csv', title: 'Control Financiero 2' },
-            { file: 'path/to/preparacion.csv', title: 'Preparación' } // This will be split
+            { file: 'path/to/preparacion.csv', title: 'Preparación' } // This will be split into several tables
         ];
 
         // Function to fetch CSV and convert it to a table
@@ -85,15 +98,15 @@
             const pickingRows = [headers];
             const produccionRows = [headers];
             const pedidosRows = [headers];
-            const factuRows = [headers];  // For "Factu" rows
+            const factuRows = [headers]; // New table for rows starting with "Factu" in "Estado"
 
-            // Classify rows based on the "Orden. Especial?" and "Estado" columns
+            // Classify rows based on the "Orden. Especial?" column and "Estado" column
             rows.slice(1).forEach(row => {
                 const ordenEspecial = row[indexOrdenEspecial]?.trim();
                 const estado = row[indexEstado]?.trim();
 
-                if (estado.startsWith('Factu')) {
-                    // "Factu" rows go into the Factu table and are excluded from others
+                if (estado && estado.startsWith('Factu')) {
+                    // "Factu" -> Facturación table
                     factuRows.push(row);
                 } else if (!ordenEspecial) {
                     // No data in "Orden. Especial?" column -> Picking
@@ -111,19 +124,21 @@
             createTable(pickingRows, 'Picking');
             createTable(produccionRows, 'Producción');
             createTable(pedidosRows, 'Pedidos');
-            createTable(factuRows, 'Facturación');
+            createTable(factuRows, 'Facturación'); // New Facturación table
         }
 
         // Function to create and display a table
         function createTable(rows, title) {
+            const section = document.createElement('div');
+            section.classList.add('table-section');
+            
+            const h2 = document.createElement('h2');
+            h2.textContent = title;
+            section.appendChild(h2);
+
             const table = document.createElement('table');
             const thead = document.createElement('thead');
             const tbody = document.createElement('tbody');
-
-            // Add title above the table
-            const h2 = document.createElement('h2');
-            h2.textContent = title;
-            document.getElementById('tables').appendChild(h2);
 
             // Create table headers
             const headers = rows[0];
@@ -149,7 +164,10 @@
             // Append thead and tbody to table
             table.appendChild(thead);
             table.appendChild(tbody);
-            document.getElementById('tables').appendChild(table);
+            section.appendChild(table);
+
+            // Append the table section to the container
+            document.getElementById('tables').appendChild(section);
         }
 
         // Loop through the CSV files and display each one
