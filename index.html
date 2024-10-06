@@ -92,6 +92,7 @@
 
             const indexOrdenEspecial = headers.indexOf('Orden. Especial?');
             const indexEstado = headers.indexOf('Estado');
+            const indexEstadoOrdenEspecial = headers.indexOf('Estado Orden. Especial'); // Column for the state check
 
             // Extract indices of the relevant columns for Picking (corrected for accents)
             const indexNumeroDocumento = headers.indexOf('Número de documento');
@@ -108,6 +109,7 @@
             rows.slice(1).forEach(row => {
                 const ordenEspecial = row[indexOrdenEspecial]?.trim();
                 const estado = row[indexEstado]?.trim();
+                const estadoOrdenEspecial = row[indexEstadoOrdenEspecial]?.trim();
 
                 if (ordenEspecial && ordenEspecial.startsWith('Ejecución')) {
                     // Add first two columns + "Numero de Remito" (last 5 digits of "Orden. Especial?")
@@ -122,8 +124,18 @@
                         row[indexCantidad]
                     ]);
                 } else if (ordenEspecial.startsWith('Orden de trabajo')) {
-                    // "Orden de trabajo" -> Producción
-                    produccionRows.push(row);
+                    if (estadoOrdenEspecial === 'Ensamblada') {
+                        // Move to Picking if "Estado Orden. Especial" is "Ensamblada"
+                        pickingRows.push([
+                            row[indexNumeroDocumento],
+                            row[indexNombre],
+                            row[indexArticulo],
+                            row[indexCantidad]
+                        ]);
+                    } else {
+                        // Otherwise keep it in Producción
+                        produccionRows.push(row);
+                    }
                 }
             });
 
