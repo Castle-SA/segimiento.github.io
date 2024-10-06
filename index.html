@@ -92,9 +92,15 @@
             const indexOrdenEspecial = headers.indexOf('Orden. Especial?');
             const indexEstado = headers.indexOf('Estado');
 
+            // Extract indices of the relevant columns for Picking
+            const indexNumeroDocumento = headers.indexOf('Numero de documento');
+            const indexNombre = headers.indexOf('Nombre');
+            const indexArticulo = headers.indexOf('Articulo');
+            const indexCantidad = headers.indexOf('Cantidad');
+
             // Initialize arrays to hold different rows
-            const pickingRows = [headers];
-            const produccionRows = [headers];
+            const pickingRows = [['GOA', 'Cliente', 'Art.', 'Cantidad']]; // Renamed columns for Picking
+            const produccionRows = [headers]; // Default headers for Producción
             const factuRows = [['GOA', 'Cliente', 'Numero de Remito']]; // Facturación table with correct column names
 
             // Classify rows based on the "Orden. Especial?" column and "Estado" column
@@ -107,8 +113,13 @@
                     const numeroRemito = ordenEspecial.slice(-5);
                     factuRows.push([row[0], row[1], numeroRemito, ordenEspecial]);
                 } else if (!ordenEspecial) {
-                    // No data in "Orden. Especial?" column -> Picking
-                    pickingRows.push(row);
+                    // Picking -> Only include relevant columns
+                    pickingRows.push([
+                        row[indexNumeroDocumento],
+                        row[indexNombre],
+                        row[indexArticulo],
+                        row[indexCantidad]
+                    ]);
                 } else if (ordenEspecial.startsWith('Orden de trabajo')) {
                     // "Orden de trabajo" -> Producción
                     produccionRows.push(row);
@@ -119,9 +130,52 @@
             factuRows.slice(1).sort((a, b) => parseInt(a[2], 10) - parseInt(b[2], 10));
 
             // Create tables in a single column
-            createTable(pickingRows, 'Picking');
+            createPickingTable(pickingRows); // Custom Picking table with specific columns
             createTable(produccionRows, 'Producción');
             createFacturacionTable(factuRows); // Facturación table with custom columns
+        }
+
+        // Function to create and display the Picking table with only selected columns
+        function createPickingTable(rows) {
+            const section = document.createElement('div');
+            section.classList.add('table-section');
+            
+            const h2 = document.createElement('h2');
+            h2.textContent = 'Picking';
+            section.appendChild(h2);
+
+            const table = document.createElement('table');
+            const thead = document.createElement('thead');
+            const tbody = document.createElement('tbody');
+
+            // Create table headers
+            const headers = rows[0];
+            const headerRow = document.createElement('tr');
+            headers.forEach(header => {
+                const th = document.createElement('th');
+                th.textContent = header;
+                headerRow.appendChild(th);
+            });
+            thead.appendChild(headerRow);
+
+            // Create table body rows
+            rows.slice(1).forEach(row => {
+                const tr = document.createElement('tr');
+                row.forEach(cell => {
+                    const td = document.createElement('td');
+                    td.textContent = cell;
+                    tr.appendChild(td);
+                });
+                tbody.appendChild(tr);
+            });
+
+            // Append thead and tbody to table
+            table.appendChild(thead);
+            table.appendChild(tbody);
+            section.appendChild(table);
+
+            // Append the table section to the container
+            document.getElementById('tables').appendChild(section);
         }
 
         // Function to create and display a Facturación table (excluding the hidden "Orden. Especial?")
