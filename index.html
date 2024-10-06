@@ -95,7 +95,7 @@
             // Initialize arrays to hold different rows
             const pickingRows = [headers];
             const produccionRows = [headers];
-            const factuRows = [headers]; // New table for rows starting with "Ejecución" in "Orden. Especial?"
+            const factuRows = [['Column 1', 'Column 2', 'Numero de Remito']]; // Facturación table with modified columns
 
             // Classify rows based on the "Orden. Especial?" column and "Estado" column
             rows.slice(1).forEach(row => {
@@ -103,8 +103,9 @@
                 const estado = row[indexEstado]?.trim();
 
                 if (ordenEspecial && ordenEspecial.startsWith('Ejecución')) {
-                    // "Ejecución" -> Facturación table
-                    factuRows.push(row);
+                    // Add first two columns + "Numero de Remito" (last 5 digits of "Orden. Especial?")
+                    const numeroRemito = ordenEspecial.slice(-5);
+                    factuRows.push([row[0], row[1], numeroRemito]);
                 } else if (!ordenEspecial) {
                     // No data in "Orden. Especial?" column -> Picking
                     pickingRows.push(row);
@@ -117,7 +118,7 @@
             // Create tables in a single column
             createTable(pickingRows, 'Picking');
             createTable(produccionRows, 'Producción');
-            createTable(factuRows, 'Facturación'); // Facturación table
+            createTable(factuRows, 'Facturación'); // Facturación table with custom columns
         }
 
         // Function to create and display a table
