@@ -2,8 +2,8 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 37670,272 TALLERES METALURGICOS BAMBI S.A.,Ejecución de la orden pendiente,Todo Aprobado, ,, ,PPAR1072T,0,0
 37670,272 TALLERES METALURGICOS BAMBI S.A.,Ejecución de la orden pendiente,Todo Aprobado, ,, ,0272/004,640,0
 37670,272 TALLERES METALURGICOS BAMBI S.A.,Ejecución de la orden pendiente,Todo Aprobado, ,, ,0272/003,100,0
-37675,3096 FRECICAR SRL,Parcialmente ejecutada,Todo Aprobado,Ejecución de pedido de artículo 19378,Enviado, ,52330-00040-00,14,8
 37675,3096 FRECICAR SRL,Parcialmente ejecutada,Todo Aprobado,Ejecución de pedido de artículo 19386,Enviado, ,52330-00040-00,14,8
+37675,3096 FRECICAR SRL,Parcialmente ejecutada,Todo Aprobado,Ejecución de pedido de artículo 19378,Enviado, ,52330-00040-00,14,8
 37676,3096 FRECICAR SRL,Ejecución de la orden pendiente,Todo Aprobado, ,, ,52330-00040-00,7,0
 37677,3096 FRECICAR SRL,Ejecución de la orden pendiente,Todo Aprobado, ,, ,52330-00040-00,7,0
 37682,3096 FRECICAR SRL,Ejecución de la orden pendiente,Todo Aprobado, ,, ,52330-00040-00,7,0
@@ -11,7 +11,6 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 37684,3096 FRECICAR SRL,Ejecución de la orden pendiente,Todo Aprobado, ,, ,52330-00040-00,7,0
 37685,3096 FRECICAR SRL,Ejecución de la orden pendiente,Todo Aprobado, ,, ,52330-00040-00,7,0
 37686,3096 FRECICAR SRL,Ejecución de la orden pendiente,Todo Aprobado, ,, ,52330-00040-00,7,0
-38012,50 DADA S.A.,Facturada,Todo Aprobado,Ejecución de pedido de artículo 21210,Enviado, ,VCI410,1500,1500
 38013,50 DADA S.A.,Ejecución de la orden pendiente,Todo Aprobado, ,, ,VCI410,1500,0
 38014,50 DADA S.A.,Ejecución de la orden pendiente,Todo Aprobado, ,, ,VCI410,1500,0
 38509,4733 TECNOSISTEM SRL,Ejecución de la orden pendiente,Todo Aprobado, ,, ,MTS548B,540,0
@@ -39,17 +38,11 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 39169,9400753 RIS S.A,Ejecución de la orden pendiente,Todo Aprobado, ,, ,PPAR1048T,288,0
 39170,9400753 RIS S.A,Ejecución de la orden pendiente,Todo Aprobado, ,, ,PPAR1048T,288,0
 39170,9400753 RIS S.A,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Liberada, ,9400753/001,1008,0
-39268,1189 SAFER SYSTEMS SOUTH AMERICA S.A.,Parcialmente ejecutada,Todo Aprobado,Ejecución de pedido de artículo 21209,Enviado, ,1189/002,500,570
 39268,1189 SAFER SYSTEMS SOUTH AMERICA S.A.,Parcialmente ejecutada,Todo Aprobado,Pedido ,Factura pendiente,Recepción de artículo #32258,1189/002,500,570
+39268,1189 SAFER SYSTEMS SOUTH AMERICA S.A.,Parcialmente ejecutada,Todo Aprobado,Ejecución de pedido de artículo 21209,Enviado, ,1189/002,500,570
 39268,1189 SAFER SYSTEMS SOUTH AMERICA S.A.,Parcialmente ejecutada,Todo Aprobado,Pedido ,Factura pendiente,Recepción de artículo #32266,1189/003,500,0
-39270,472 EMBALAJES SRL,Facturada,Todo Aprobado,Ejecución de pedido de artículo 21208,Enviado, ,FLJPP7005B,1,1
 39280,9400536 MILKAUT SA,Parcialmente ejecutada,Todo Aprobado,Ejecución de pedido de artículo 21205,Enviado, ,PPHR15048XT,282,173
 39280,9400536 MILKAUT SA,Parcialmente ejecutada,Todo Aprobado,Ejecución de pedido de artículo 21217,Enviado, ,PPHR15048XT,282,173
-39311,3051 FRIMETAL S.A.,Facturada,Todo Aprobado,Orden de trabajo ,Ensamblada,Construcción de ensamblaje #4531,0272/003,400,400
-39311,3051 FRIMETAL S.A.,Facturada,Todo Aprobado,Orden de trabajo ,Ensamblada,Construcción de ensamblaje #4637,0272/003,400,400
-39311,3051 FRIMETAL S.A.,Facturada,Todo Aprobado,Ejecución de pedido de artículo 21204,Enviado, ,0272/003,400,400
-39311,3051 FRIMETAL S.A.,Facturada,Todo Aprobado,Ejecución de pedido de artículo 20958,Enviado, ,0272/003,400,400
-39311,3051 FRIMETAL S.A.,Facturada,Todo Aprobado,Ejecución de pedido de artículo 20887,Enviado, ,0272/003,400,400
 39318,143 EPTA ARGENTINA S.A.,Facturada,Todo Aprobado,Ejecución de pedido de artículo 21162,Enviado, ,MTS536B,336,336
 39318,143 EPTA ARGENTINA S.A.,Facturada,Todo Aprobado,Ejecución de pedido de artículo 21245,Enviado, ,0143/008,250,270
 39318,143 EPTA ARGENTINA S.A.,Facturada,Todo Aprobado,Pedido ,Factura pendiente,Recepción de artículo #32265,0143/008,250,270
@@ -58,22 +51,20 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 39386,260 SUCESION DE BARCIA CLAUDIO RODRIGO,Parcialmente ejecutada,Todo Aprobado,Ejecución de pedido de artículo 20968,Enviado, ,04169-00056-93,36,4
 39390,5019 GRANJA TRES ARROYOS SACAFEI,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Liberada, ,PPHR1216B,1728,0
 39413,9401339 QUICKFOOD S.A.,Facturada,Todo Aprobado,Ejecución de pedido de artículo 21218,Enviado, ,PPAR1048T,540,540
-39423,4095 REFINERIA DEL CENTRO SA,Facturada,Todo Aprobado,Ejecución de pedido de artículo 21200,Enviado, ,H11/72,30,30
 39440,1029 DREAN SA,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Ensamblada,Construcción de ensamblaje #4657,1153/001,18000,0
 39445,3089 ARNEG ARGENTINA S.A.,Parcialmente ejecutada,Todo Aprobado,Ejecución de pedido de artículo 21163,Enviado, ,PER3040U,100,150
 39445,3089 ARNEG ARGENTINA S.A.,Parcialmente ejecutada,Todo Aprobado,Orden de trabajo ,Ensamblada,Construcción de ensamblaje #4641,3089/029,50000,0
 39460,6142 PAPELERA DEL SUR SRL,Facturada,Todo Aprobado,Ejecución de pedido de artículo 21061,Enviado, ,PPA1048F,36,36
 39460,6142 PAPELERA DEL SUR SRL,Facturada,Todo Aprobado,Ejecución de pedido de artículo 21061,Enviado, ,PPAR1048T,540,540
-39460,6142 PAPELERA DEL SUR SRL,Facturada,Todo Aprobado,Ejecución de pedido de artículo 21078,Enviado, ,PPAR1024T,720,730
 39460,6142 PAPELERA DEL SUR SRL,Facturada,Todo Aprobado,Ejecución de pedido de artículo 21232,Enviado, ,PPAR1024T,720,730
-39460,6142 PAPELERA DEL SUR SRL,Facturada,Todo Aprobado,Ejecución de pedido de artículo 21159,Enviado, ,PPAR1024T,720,730
+39460,6142 PAPELERA DEL SUR SRL,Facturada,Todo Aprobado,Ejecución de pedido de artículo 21078,Enviado, ,PPAR1024T,720,730
 39460,6142 PAPELERA DEL SUR SRL,Facturada,Todo Aprobado,Ejecución de pedido de artículo 21061,Enviado, ,PPAR1024T,720,730
+39460,6142 PAPELERA DEL SUR SRL,Facturada,Todo Aprobado,Ejecución de pedido de artículo 21159,Enviado, ,PPAR1024T,720,730
 39460,6142 PAPELERA DEL SUR SRL,Facturada,Todo Aprobado,Ejecución de pedido de artículo 21061,Enviado, ,MTS518B,288,288
 39460,6142 PAPELERA DEL SUR SRL,Facturada,Todo Aprobado,Ejecución de pedido de artículo 21061,Enviado, ,MTS524B,216,216
 39460,6142 PAPELERA DEL SUR SRL,Facturada,Todo Aprobado,Ejecución de pedido de artículo 21061,Enviado, ,MTS548B,180,180
 39461,3051 FRIMETAL S.A.,Parcialmente ejecutada,Todo Aprobado,Ejecución de pedido de artículo 21092,Enviado, ,2280/004,10500,10500
 39461,3051 FRIMETAL S.A.,Parcialmente ejecutada,Todo Aprobado,Ejecución de pedido de artículo 21092,Enviado, ,3051/017,20000,14400
-39464,12849 FERRERO ARGENTINA SA,Facturada,Todo Aprobado,Ejecución de pedido de artículo 21212,Enviado, ,PPAR1072T,240,240
 39466,64 ALL PUMPS ARGENTINA SA,Ejecución de la orden pendiente,Todo Aprobado,Pedido ,Recepción pendiente, ,0064/0013,350,0
 39518,3089 ARNEG ARGENTINA S.A.,Parcialmente ejecutada,Todo Aprobado,Ejecución de pedido de artículo 21122,Enviado, ,PVC672B,96,96
 39518,3089 ARNEG ARGENTINA S.A.,Parcialmente ejecutada,Todo Aprobado,Orden de trabajo ,Ensamblada,Construcción de ensamblaje #4594,PVC672B,96,96
@@ -87,71 +78,33 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 39545,3089 ARNEG ARGENTINA S.A.,Ejecución de la orden pendiente,Todo Aprobado, ,, ,PPAR1072T,48,0
 39547,1490 IPLOV SRL,Ejecución de la orden pendiente,Todo Aprobado,Pedido ,Aprobación del supervisor pendiente, ,1490/001,360,0
 39549,178 DROGUERIA DEL SUD S.A.,Ejecución de la orden pendiente,Todo Aprobado,Pedido ,Recepción pendiente, ,0178/002,500,0
-39560,9401911 WASITECH MODULAR S.A.,Facturada,Todo Aprobado,Ejecución de pedido de artículo 21211,Enviado, ,TERM420,160,160
 39561,4628 KELES MARIO LEONARDO,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Liberada, ,3901/001,360,0
 39561,4628 KELES MARIO LEONARDO,Ejecución de la orden pendiente,Todo Aprobado,Pedido ,Recepción pendiente, ,HWF125,100,0
-39562,9400716 RAFAELA ALIMENTOS SA,Facturada,Todo Aprobado,Ejecución de pedido de artículo 21194,Enviado, ,PPAR15048T,204,204
-39562,9400716 RAFAELA ALIMENTOS SA,Facturada,Todo Aprobado,Ejecución de pedido de artículo 21194,Enviado, ,PPAR1048T,1800,1800
 39563,12837 FRIGORIFICO SAN FRANCISCO S.A,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Liberada, ,2837/001,1152,0
-39564,3089 ARNEG ARGENTINA S.A.,Facturada,Todo Aprobado,Ejecución de pedido de artículo 21196,Enviado, ,3089/017,15000,15000
-39564,3089 ARNEG ARGENTINA S.A.,Facturada,Todo Aprobado,Orden de trabajo ,Ensamblada,Construcción de ensamblaje #4629,3089/017,15000,15000
-39564,3089 ARNEG ARGENTINA S.A.,Facturada,Todo Aprobado,Ejecución de pedido de artículo 21196,Enviado, ,3089/077,10000,10500
-39564,3089 ARNEG ARGENTINA S.A.,Facturada,Todo Aprobado,Orden de trabajo ,Ensamblada,Construcción de ensamblaje #4624,3089/077,10000,10500
 39565,272 TALLERES METALURGICOS BAMBI S.A.,Ejecución de la orden pendiente,Todo Aprobado, ,, ,PPAR1072T,5184,0
 39565,272 TALLERES METALURGICOS BAMBI S.A.,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Liberada, ,0272/005,1200,0
 39565,272 TALLERES METALURGICOS BAMBI S.A.,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Liberada, ,0272/006,240,0
 39570,17260 COMPANIA BERNAL SA,Ejecución de la orden pendiente,Todo Aprobado, ,, ,PPAR10048T,378,0
-39581,3089 ARNEG ARGENTINA S.A.,Facturada,Todo Aprobado,Orden de trabajo ,Ensamblada,Construcción de ensamblaje #4625,3089/077,15000,15000
-39581,3089 ARNEG ARGENTINA S.A.,Facturada,Todo Aprobado,Ejecución de pedido de artículo 21197,Enviado, ,3089/077,15000,15000
-39581,3089 ARNEG ARGENTINA S.A.,Facturada,Todo Aprobado,Orden de trabajo ,Ensamblada,Construcción de ensamblaje #4626,3089/078,15000,15000
-39581,3089 ARNEG ARGENTINA S.A.,Facturada,Todo Aprobado,Ejecución de pedido de artículo 21197,Enviado, ,3089/078,15000,15000
-39581,3089 ARNEG ARGENTINA S.A.,Facturada,Todo Aprobado,Ejecución de pedido de artículo 21197,Enviado, ,3089/079,15000,15000
-39581,3089 ARNEG ARGENTINA S.A.,Facturada,Todo Aprobado,Orden de trabajo ,Ensamblada,Construcción de ensamblaje #4627,3089/079,15000,15000
-39581,3089 ARNEG ARGENTINA S.A.,Facturada,Todo Aprobado,Ejecución de pedido de artículo 21197,Enviado, ,3089/080,15000,15000
-39581,3089 ARNEG ARGENTINA S.A.,Facturada,Todo Aprobado,Orden de trabajo ,Ensamblada,Construcción de ensamblaje #4628,3089/080,15000,15000
-39584,9402119 TERENGHI FERNANDO JAVIER,Facturada,Todo Aprobado,Ejecución de pedido de artículo 21201,Enviado, ,07063-00001-24,30,30
-39584,9402119 TERENGHI FERNANDO JAVIER,Facturada,Todo Aprobado,Orden de trabajo ,Ensamblada,Construcción de ensamblaje #4634,07063-00001-24,30,30
-39586,132 MAHLE VALVULAS DE ARGENTINA SA,Facturada,Todo Aprobado,Ejecución de pedido de artículo 21207,Enviado, ,LC579,9600,9600
-39586,132 MAHLE VALVULAS DE ARGENTINA SA,Facturada,Todo Aprobado,Ejecución de pedido de artículo 21207,Enviado, ,BV002,800,800
 39589,9401339 QUICKFOOD S.A.,Ejecución de la orden pendiente,Todo Aprobado, ,, ,PPAR1048T,540,0
 39590,9401339 QUICKFOOD S.A.,Ejecución de la orden pendiente,Todo Aprobado, ,, ,PPAR15048T,180,0
-39591,9401926 INDUSTRIAS FRIGORIFICAS RECREO SAIC,Facturada,Todo Aprobado,Ejecución de pedido de artículo 21195,Enviado, ,PPA1548TE,1008,1008
-39591,9401926 INDUSTRIAS FRIGORIFICAS RECREO SAIC,Facturada,Todo Aprobado,Ejecución de pedido de artículo 21195,Enviado, ,H11/CPE,4,4
-39591,9401926 INDUSTRIAS FRIGORIFICAS RECREO SAIC,Facturada,Todo Aprobado,Ejecución de pedido de artículo 21195,Enviado, ,PPAR1048T,1908,1908
-39593,9400945 LAMED S.A.,Facturada,Todo Aprobado,Ejecución de pedido de artículo 21198,Enviado, ,PPA1048F,108,108
-39595,812 SYSTEL SA,Facturada,Todo Aprobado,Ejecución de pedido de artículo 21202,Enviado, ,04965-00176-00,5,5
-39595,812 SYSTEL SA,Facturada,Todo Aprobado,Orden de trabajo ,Ensamblada,Construcción de ensamblaje #4635,04965-00176-00,5,5
-39595,812 SYSTEL SA,Facturada,Todo Aprobado,Orden de trabajo ,Ensamblada,Construcción de ensamblaje #4632,07063-00012-16,5,5
-39595,812 SYSTEL SA,Facturada,Todo Aprobado,Ejecución de pedido de artículo 21202,Enviado, ,07063-00012-16,5,5
-39595,812 SYSTEL SA,Facturada,Todo Aprobado,Orden de trabajo ,Ensamblada,Construcción de ensamblaje #4633,07063-00012-24,10,10
-39595,812 SYSTEL SA,Facturada,Todo Aprobado,Ejecución de pedido de artículo 21202,Enviado, ,07063-00012-24,10,10
 39596,4095 REFINERIA DEL CENTRO SA,Ejecución de la orden pendiente,Todo Aprobado, ,, ,PPAR1072T,2712,0
 39596,4095 REFINERIA DEL CENTRO SA,Ejecución de la orden pendiente,Todo Aprobado, ,, ,PPHR10048T,54,0
-39597,199 ARDENT SRL,Facturada,Todo Aprobado,Ejecución de pedido de artículo 21199,Enviado, ,PPA1548TE,360,360
-39597,199 ARDENT SRL,Facturada,Todo Aprobado,Ejecución de pedido de artículo 21199,Enviado, ,H11/CPE,2,2
-39598,674 KRETZ SA,Facturada,Todo Aprobado,Orden de trabajo ,Ensamblada,Construcción de ensamblaje #4638,0674/002,30,30
-39598,674 KRETZ SA,Facturada,Todo Aprobado,Ejecución de pedido de artículo 21203,Enviado, ,0674/002,30,30
-39598,674 KRETZ SA,Facturada,Todo Aprobado,Orden de trabajo ,Ensamblada,Construcción de ensamblaje #4636,0674/003,30,30
-39598,674 KRETZ SA,Facturada,Todo Aprobado,Ejecución de pedido de artículo 21203,Enviado, ,0674/003,30,30
-39598,674 KRETZ SA,Facturada,Todo Aprobado,Ejecución de pedido de artículo 21203,Enviado, ,PPAR1072T,48,48
-39599,1606 DANES SRL,Facturada,Todo Aprobado,Ejecución de pedido de artículo 21193,Enviado, ,MTS536B,1008,1008
 39600,12707 PORTA HNOS. SA,Ejecución de la orden pendiente,Todo Aprobado, ,, ,PPAR15048T,60,0
 39601,9401339 QUICKFOOD S.A.,Ejecución de la orden pendiente,Todo Aprobado, ,, ,PPAR15048T,378,0
 39602,410 DROGUERIA DEM SRL,Facturada,Todo Aprobado,Ejecución de pedido de artículo 21214,Enviado, ,MTS524B,360,360
-39603,12662 PRINTEMPS S.R.L.,Facturada,Todo Aprobado,Orden de trabajo ,Ensamblada,Construcción de ensamblaje #4646,64621-00003-00,300,300
 39603,12662 PRINTEMPS S.R.L.,Facturada,Todo Aprobado,Ejecución de pedido de artículo 21216,Enviado, ,64621-00003-00,300,300
+39603,12662 PRINTEMPS S.R.L.,Facturada,Todo Aprobado,Orden de trabajo ,Ensamblada,Construcción de ensamblaje #4646,64621-00003-00,300,300
 39605,3014 PAPELERA ENTRE RIOS S.A.,Facturada,Todo Aprobado,Ejecución de pedido de artículo 21229,Enviado, ,64621-00048-00,200,200
 39605,3014 PAPELERA ENTRE RIOS S.A.,Facturada,Todo Aprobado,Orden de trabajo ,Ensamblada,Construcción de ensamblaje #4653,64621-00048-00,200,200
 39605,3014 PAPELERA ENTRE RIOS S.A.,Facturada,Todo Aprobado,Ejecución de pedido de artículo 21229,Enviado, ,04965-00179-00,25,25
 39605,3014 PAPELERA ENTRE RIOS S.A.,Facturada,Todo Aprobado,Orden de trabajo ,Ensamblada,Construcción de ensamblaje #4645,04965-00179-00,25,25
 39607,898 LA CASA DEL RETEN SRL,Facturada,Todo Aprobado,Ejecución de pedido de artículo 21215,Enviado, ,PPA1548TE,180,180
-39609,4438 FRIGOSUR SRL,Facturada,Todo Aprobado,Ejecución de pedido de artículo 21213,Enviado, ,PPAR1048T,720,720
 39610,9402056 BUSTAMANTE CRISTIAN JAVIER (PLAZA FERRETERA),Facturada,Todo Aprobado,Ejecución de pedido de artículo 21239,Enviado, ,MTS518B,192,192
 39610,9402056 BUSTAMANTE CRISTIAN JAVIER (PLAZA FERRETERA),Facturada,Todo Aprobado,Ejecución de pedido de artículo 21239,Enviado, ,MTS548B,216,216
-39612,3938 ELECTRO HOGAR INTERNACIONAL SA,Facturada,Todo Aprobado,Ejecución de pedido de artículo 21227,Enviado, ,0272/003,3,3
 39612,3938 ELECTRO HOGAR INTERNACIONAL SA,Facturada,Todo Aprobado,Orden de trabajo ,Ensamblada,Construcción de ensamblaje #4647,0272/003,3,3
-39612,3938 ELECTRO HOGAR INTERNACIONAL SA,Facturada,Todo Aprobado,Orden de trabajo ,Ensamblada,Construcción de ensamblaje #4652,PVC624A,72,72
+39612,3938 ELECTRO HOGAR INTERNACIONAL SA,Facturada,Todo Aprobado,Ejecución de pedido de artículo 21227,Enviado, ,0272/003,3,3
 39612,3938 ELECTRO HOGAR INTERNACIONAL SA,Facturada,Todo Aprobado,Ejecución de pedido de artículo 21227,Enviado, ,PVC624A,72,72
+39612,3938 ELECTRO HOGAR INTERNACIONAL SA,Facturada,Todo Aprobado,Orden de trabajo ,Ensamblada,Construcción de ensamblaje #4652,PVC624A,72,72
 39613,655 SWIFT SA ARGENTINA,Facturada,Todo Aprobado,Ejecución de pedido de artículo 21244,Enviado, ,PPAR15048T,6,6
 39613,655 SWIFT SA ARGENTINA,Facturada,Todo Aprobado,Ejecución de pedido de artículo 21244,Enviado, ,PPAR1048T,2,2
 39613,655 SWIFT SA ARGENTINA,Facturada,Todo Aprobado,Ejecución de pedido de artículo 21244,Enviado, ,PPHR1048T,2,2
@@ -188,8 +141,8 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 39634,260 SUCESION DE BARCIA CLAUDIO RODRIGO,Facturada,Todo Aprobado,Ejecución de pedido de artículo 21238,Enviado, ,MTS548B,144,144
 39635,3926 ASERRADERO GOTTERT de GOTTERT RODOLFO RICARDO y OTROS SH,Facturada,Todo Aprobado,Ejecución de pedido de artículo 21231,Enviado, ,VCI410,80,80
 39635,3926 ASERRADERO GOTTERT de GOTTERT RODOLFO RICARDO y OTROS SH,Facturada,Todo Aprobado,Ejecución de pedido de artículo 21231,Enviado, ,VCI420,40,40
-39636,4920 ROTOPLAS ARGENTINA SA,Facturada,Todo Aprobado,Orden de trabajo ,Ensamblada,Construcción de ensamblaje #4650,6158/001,2,2
 39636,4920 ROTOPLAS ARGENTINA SA,Facturada,Todo Aprobado,Ejecución de pedido de artículo 21224,Enviado, ,6158/001,2,2
+39636,4920 ROTOPLAS ARGENTINA SA,Facturada,Todo Aprobado,Orden de trabajo ,Ensamblada,Construcción de ensamblaje #4650,6158/001,2,2
 39637,178 DROGUERIA DEL SUD S.A.,Facturada,Todo Aprobado,Ejecución de pedido de artículo 21236,Enviado, ,PPAR1048T,684,684
 39639,2515 CONGELADOS ARTICO SA,Ejecución de la orden pendiente,Todo Aprobado, ,, ,PPAR1072T,720,0
 39640,9402100 COOPERATIVA AGRICOLA TAMBERA DE JAMES CRAIK LIMITADA,Ejecución de la orden pendiente,Todo Aprobado, ,, ,H11/CPE,2,0
