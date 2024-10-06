@@ -20,19 +20,29 @@
         }
 
         h2 {
-            font-size: 14px;
+            font-size: 13px; /* Smaller heading text */
         }
 
         .container {
             display: flex;
-            flex-wrap: nowrap; /* Make columns stay in one row */
-            gap: 20px;
+            flex-wrap: nowrap; /* Keep columns side by side */
+            gap: 20px; /* Spacing between columns */
         }
 
         .column {
-            flex: 1;
-            min-width: 30%; /* Three columns */
-            box-sizing: border-box; /* Ensure padding and margins don't affect width */
+            box-sizing: border-box;
+        }
+
+        /* First column (smaller tables) will be narrower */
+        #first-column {
+            flex: 1; /* Make the first column narrower */
+            min-width: 20%; /* Smaller width */
+        }
+
+        /* Second and third columns will be wider */
+        #second-column, #third-column {
+            flex: 2; /* Give more space to second and third columns */
+            min-width: 40%;
         }
 
         .table-section {
@@ -42,7 +52,7 @@
         table {
             width: 100%;
             border-collapse: collapse;
-            font-size: 12px; /* Smaller text */
+            font-size: 11px; /* Smaller text for table content */
         }
 
         table, th, td {
