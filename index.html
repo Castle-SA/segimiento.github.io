@@ -124,13 +124,13 @@
             return { matched, unmatched };
         }
 
-        // Function to create and display the Facturación table (unmatched rows)
+        // Function to create and display the Despachos Recientes table (unmatched rows)
         function createFacturacionTable(facturacionRows, unmatchedRows) {
             const section = document.createElement('div');
             section.classList.add('table-section');
             
             const h2 = document.createElement('h2');
-            h2.textContent = 'Facturación (No Match)';
+            h2.textContent = 'Despachos Recientes';
             section.appendChild(h2);
 
             const table = document.createElement('table');
@@ -148,7 +148,7 @@
             thead.appendChild(headerRow);
 
             // Create table body rows (only rows with no match)
-            facturacionRows.forEach(row => {
+            facturacionRows.slice(1).forEach(row => { // Use slice(1) to skip any extra headers
                 const remitoNumber = row[2]; // "Numero de Remito" column
 
                 // Only display rows without a match
@@ -186,7 +186,7 @@
             const tbody = document.createElement('tbody');
 
             // Create table headers
-            const headers = ['GOA', 'Cliente', 'Numero de Remito', 'File Link'];
+            const headers = ['GOA', 'Cliente', 'Numero de Remito', 'Remito'];
             const headerRow = document.createElement('tr');
             headers.forEach(header => {
                 const th = document.createElement('th');
@@ -209,7 +209,7 @@
                     });
 
                     const linkCell = document.createElement('td');
-                    linkCell.innerHTML = `<a href="${matched.fileLink}" target="_blank">View File</a>`;
+                    linkCell.innerHTML = `<a href="${matched.fileLink}" target="_blank">Ver</a>`;
                     tr.appendChild(linkCell);
 
                     tbody.appendChild(tr);
@@ -280,7 +280,7 @@
             fetchCsvData(sheetUrl).then(csvData => {
                 const files = parseCsvData(csvData);
                 const { matched, unmatched } = compareRemitoWithFiles(facturacionRows.map(row => row[2]), files);
-                createFacturacionTable(facturacionRows, unmatched); // First display the unmatched table
+                createFacturacionTable(facturacionRows, unmatched); // First display the unmatched table (Despachos Recientes)
                 createDespachadoTable(facturacionRows, matched);    // Then display the Despachado table
             });
         }
