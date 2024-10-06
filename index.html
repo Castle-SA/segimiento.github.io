@@ -221,7 +221,7 @@
             table.appendChild(tbody);
             section.appendChild(table);
 
-            // Append the table section to the container
+            // Append the table section at the end
             document.getElementById('tables').appendChild(section);
         }
 
@@ -276,12 +276,12 @@
             createPickingTable(pickingRows);
             createTable(produccionRows, 'Producción');
             
-            // Fetch file data and populate Despachado and Facturación tables
+            // Fetch file data and populate Facturación and Despachado tables
             fetchCsvData(sheetUrl).then(csvData => {
                 const files = parseCsvData(csvData);
                 const { matched, unmatched } = compareRemitoWithFiles(facturacionRows.map(row => row[2]), files);
-                createDespachadoTable(facturacionRows, matched);
-                createFacturacionTable(facturacionRows, unmatched);
+                createFacturacionTable(facturacionRows, unmatched); // First display the unmatched table
+                createDespachadoTable(facturacionRows, matched);    // Then display the Despachado table
             });
         }
 
