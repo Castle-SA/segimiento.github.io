@@ -64,21 +64,19 @@
             { file: 'path/to/control_gp.csv', title: 'Control GP' },
             { file: 'path/to/control_financiero.csv', title: 'Control Financiero' },
             { file: 'path/to/control_fecha_entrega.csv', title: 'Control Fecha de Entrega' },
-            { file: 'path/to/control_financiero_2.csv', title: 'Ultimo Control Financiero' }, // Updated name
-            { file: 'path/to/preparacion.csv', title: 'Preparación' } // This will be split into several tables
+            { file: 'path/to/control_financiero_2.csv', title: 'Ultimo Control Financiero' }, 
+            { file: 'path/to/preparacion.csv', title: 'Preparación' } 
         ];
 
-        // URL of the Google Sheet published as CSV for matching Facturación files
         const sheetUrl = 'https://docs.google.com/spreadsheets/d/e/2PACX-1vTmBAXWedGqxYfGaVoGXyCQwBE54QDjnKa5Eel4TTV1-pfqUYYHXrPuww_VBGFMJAqKCD_P9X1nWX_t/pub?output=csv';
 
-        // Function to fetch CSV and convert it to a table for the original layout
         function fetchAndDisplayCSV(file, title) {
             fetch(file)
                 .then(response => response.text())
                 .then(csv => {
                     const rows = csv.split('\n').map(row => row.split(','));
                     if (title === 'Preparación') {
-                        splitPreparacion(rows); // Custom logic to split Preparación
+                        splitPreparacion(rows);
                     } else {
                         createTable(rows, title);
                     }
@@ -86,28 +84,25 @@
                 .catch(error => console.error('Error fetching CSV:', error));
         }
 
-        // Function to fetch the CSV data from Google Sheets for Facturación file matching
         async function fetchCsvData(url) {
             const response = await fetch(url);
             const data = await response.text();
             return data;
         }
 
-        // Function to parse the CSV data into an array of objects
         function parseCsvData(csv) {
             const lines = csv.split('\n');
-            const rows = lines.slice(1); // Skip the headers
+            const rows = lines.slice(1);
             return rows.map(row => {
                 const values = row.split(',');
                 return {
-                    name: values[0], // File Name
-                    id: values[1],   // File ID
-                    link: values[2]  // Public Link
+                    name: values[0], 
+                    id: values[1],   
+                    link: values[2]  
                 };
             });
         }
 
-        // Function to compare "Numero de Remito" with Google Sheet data (facturación)
         function compareRemitoWithFiles(remitos, files) {
             const matched = [];
             const unmatched = [];
@@ -124,7 +119,6 @@
             return { matched, unmatched };
         }
 
-        // Function to create and display the Despachos Recientes table (unmatched rows)
         function createFacturacionTable(facturacionRows, unmatchedRows) {
             const section = document.createElement('div');
             section.classList.add('table-section');
@@ -137,7 +131,6 @@
             const thead = document.createElement('thead');
             const tbody = document.createElement('tbody');
 
-            // Create table headers
             const headers = ['GOA', 'Cliente', 'Numero de Remito'];
             const headerRow = document.createElement('tr');
             headers.forEach(header => {
@@ -147,11 +140,9 @@
             });
             thead.appendChild(headerRow);
 
-            // Create table body rows (only rows with no match)
-            facturacionRows.slice(1).forEach(row => { // Use slice(1) to skip any extra headers
-                const remitoNumber = row[2]; // "Numero de Remito" column
+            facturacionRows.slice(1).forEach(row => {
+                const remitoNumber = row[2]; 
 
-                // Only display rows without a match
                 if (unmatchedRows.find(unmatched => unmatched.remito === remitoNumber)) {
                     const tr = document.createElement('tr');
                     row.slice(0, 3).forEach(cell => {
@@ -163,16 +154,13 @@
                 }
             });
 
-            // Append thead and tbody to table
             table.appendChild(thead);
             table.appendChild(tbody);
             section.appendChild(table);
 
-            // Append the table section to the container
             document.getElementById('tables').appendChild(section);
         }
 
-        // Function to create and display the Despachado table (matched rows)
         function createDespachadoTable(facturacionRows, matchedRows) {
             const section = document.createElement('div');
             section.classList.add('table-section');
@@ -185,7 +173,6 @@
             const thead = document.createElement('thead');
             const tbody = document.createElement('tbody');
 
-            // Create table headers
             const headers = ['GOA', 'Cliente', 'Numero de Remito', 'Remito'];
             const headerRow = document.createElement('tr');
             headers.forEach(header => {
@@ -195,9 +182,8 @@
             });
             thead.appendChild(headerRow);
 
-            // Create table body rows with file links (only matched rows)
             facturacionRows.forEach(row => {
-                const remitoNumber = row[2]; // "Numero de Remito" column
+                const remitoNumber = row[2]; 
 
                 const matched = matchedRows.find(match => match.remito === remitoNumber);
                 if (matched) {
@@ -216,76 +202,49 @@
                 }
             });
 
-            // Append thead and tbody to table
             table.appendChild(thead);
             table.appendChild(tbody);
             section.appendChild(table);
 
-            // Append the table section at the end
             document.getElementById('tables').appendChild(section);
         }
 
-        // Function to split the "Preparación" table into Picking, Producción, and Facturación
         function splitPreparacion(rows) {
-            // Extract headers
             const headers = rows[0];
 
-            const indexOrdenEspecial = headers.indexOf('Orden. Especial?');
-            const indexEstadoOrdenEspecial = headers.indexOf('Estado Orden. Especial');
             const indexNumeroDocumento = headers.indexOf('Número de documento');
             const indexNombre = headers.indexOf('Nombre');
             const indexArticulo = headers.indexOf('Artículo');
             const indexCantidad = headers.indexOf('Cantidad');
 
             const pickingRows = [['GOA', 'Cliente', 'Art.', 'Cantidad']];
-            const produccionRows = [headers];
-            const facturacionRows = [['GOA', 'Cliente', 'Numero de Remito']];
+            const produccionRows = [['GOA', 'Cliente', 'Art.', 'Cantidad']]; // Only selected columns
 
             rows.slice(1).forEach(row => {
-                const ordenEspecial = row[indexOrdenEspecial]?.trim();
-                const estadoOrdenEspecial = row[indexEstadoOrdenEspecial]?.trim();
+                const ordenEspecial = row[headers.indexOf('Orden. Especial?')]?.trim();
+                const estadoOrdenEspecial = row[headers.indexOf('Estado Orden. Especial')]?.trim();
 
-                if (ordenEspecial && ordenEspecial.startsWith('Ejecución')) {
-                    const remito = ordenEspecial.slice(-5); // Extract last 5 digits for "Numero de Remito"
-                    facturacionRows.push([row[0], row[1], remito]);
-                } else if (!ordenEspecial) {
-                    // Picking
+                if (!ordenEspecial) {
                     pickingRows.push([
                         row[indexNumeroDocumento],
                         row[indexNombre],
                         row[indexArticulo],
                         row[indexCantidad]
                     ]);
-                } else if (ordenEspecial.startsWith('Orden de trabajo')) {
-                    if (estadoOrdenEspecial === 'Ensamblada') {
-                        // Move to Picking if "Estado Orden. Especial" is "Ensamblada"
-                        pickingRows.push([
-                            row[indexNumeroDocumento],
-                            row[indexNombre],
-                            row[indexArticulo],
-                            row[indexCantidad]
-                        ]);
-                    } else {
-                        // Producción
-                        produccionRows.push(row);
-                    }
+                } else if (ordenEspecial.startsWith('Orden de trabajo') && estadoOrdenEspecial !== 'Ensamblada') {
+                    produccionRows.push([
+                        row[indexNumeroDocumento],
+                        row[indexNombre],
+                        row[indexArticulo],
+                        row[indexCantidad]
+                    ]);
                 }
             });
 
-            // Display Picking, Producción, and Facturación tables
             createPickingTable(pickingRows);
-            createTable(produccionRows, 'Producción');
-            
-            // Fetch file data and populate Facturación and Despachado tables
-            fetchCsvData(sheetUrl).then(csvData => {
-                const files = parseCsvData(csvData);
-                const { matched, unmatched } = compareRemitoWithFiles(facturacionRows.map(row => row[2]), files);
-                createFacturacionTable(facturacionRows, unmatched); // First display the unmatched table
-                createDespachadoTable(facturacionRows, matched);    // Then display the Despachado table
-            });
+            createProduccionTable(produccionRows);
         }
 
-        // Function to create and display the Picking table
         function createPickingTable(rows) {
             const section = document.createElement('div');
             section.classList.add('table-section');
@@ -298,7 +257,6 @@
             const thead = document.createElement('thead');
             const tbody = document.createElement('tbody');
 
-            // Create table headers
             const headers = rows[0];
             const headerRow = document.createElement('tr');
             headers.forEach(header => {
@@ -308,7 +266,6 @@
             });
             thead.appendChild(headerRow);
 
-            // Create table body rows
             rows.slice(1).forEach(row => {
                 const tr = document.createElement('tr');
                 row.forEach(cell => {
@@ -319,29 +276,26 @@
                 tbody.appendChild(tr);
             });
 
-            // Append thead and tbody to table
             table.appendChild(thead);
             table.appendChild(tbody);
             section.appendChild(table);
 
-            // Append the table section to the container
             document.getElementById('tables').appendChild(section);
         }
 
-        // Function to create and display a generic table (for other CSV files)
-        function createTable(rows, title) {
+        // Function to create and display the Producción table
+        function createProduccionTable(rows) {
             const section = document.createElement('div');
             section.classList.add('table-section');
-
+            
             const h2 = document.createElement('h2');
-            h2.textContent = title;
+            h2.textContent = 'Producción';
             section.appendChild(h2);
 
             const table = document.createElement('table');
             const thead = document.createElement('thead');
             const tbody = document.createElement('tbody');
 
-            // Create table headers
             const headers = rows[0];
             const headerRow = document.createElement('tr');
             headers.forEach(header => {
@@ -351,7 +305,6 @@
             });
             thead.appendChild(headerRow);
 
-            // Create table body rows
             rows.slice(1).forEach(row => {
                 const tr = document.createElement('tr');
                 row.forEach(cell => {
@@ -362,23 +315,19 @@
                 tbody.appendChild(tr);
             });
 
-            // Append thead and tbody to table
             table.appendChild(thead);
             table.appendChild(tbody);
             section.appendChild(table);
 
-            // Append the table section to the container
             document.getElementById('tables').appendChild(section);
         }
 
-        // Fetch and display the original CSV files (other than Preparación)
         csvFiles.forEach(fileInfo => {
             if (fileInfo.title !== 'Preparación') {
                 fetchAndDisplayCSV(fileInfo.file, fileInfo.title);
             }
         });
 
-        // Run the splitting of Preparación and fetching of Facturación files
         fetchAndDisplayCSV('path/to/preparacion.csv', 'Preparación');
     </script>
 </body>
