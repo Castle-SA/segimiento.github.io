@@ -105,7 +105,8 @@
                 if (ordenEspecial && ordenEspecial.startsWith('Ejecución')) {
                     // Add first two columns + "Numero de Remito" (last 5 digits of "Orden. Especial?")
                     const numeroRemito = ordenEspecial.slice(-5);
-                    factuRows.push([row[0], row[1], numeroRemito]);
+                    // Add entire row with "Orden. Especial?" as the fourth element (hidden later)
+                    factuRows.push([row[0], row[1], numeroRemito, ordenEspecial]);
                 } else if (!ordenEspecial) {
                     // No data in "Orden. Especial?" column -> Picking
                     pickingRows.push(row);
@@ -115,13 +116,56 @@
                 }
             });
 
-            // Sort the factuRows by "Numero de Remito" (3rd column) as integers in ascending order
-            factuRows.slice(1).sort((a, b) => parseInt(a[2], 10) - parseInt(b[2], 10));
+            // Sort the factuRows by the hidden "Orden. Especial?" column (4th column)
+            factuRows.slice(1).sort((a, b) => a[3].localeCompare(b[3]));
 
             // Create tables in a single column
             createTable(pickingRows, 'Picking');
             createTable(produccionRows, 'Producción');
-            createTable(factuRows, 'Facturación'); // Facturación table with custom columns
+            createFacturacionTable(factuRows); // Facturación table with custom columns
+        }
+
+        // Function to create and display a Facturación table (excluding the hidden "Orden. Especial?")
+        function createFacturacionTable(rows) {
+            const section = document.createElement('div');
+            section.classList.add('table-section');
+            
+            const h2 = document.createElement('h2');
+            h2.textContent = 'Facturación';
+            section.appendChild(h2);
+
+            const table = document.createElement('table');
+            const thead = document.createElement('thead');
+            const tbody = document.createElement('tbody');
+
+            // Create table headers
+            const headers = ['GOA', 'Cliente', 'Numero de Remito'];
+            const headerRow = document.createElement('tr');
+            headers.forEach(header => {
+                const th = document.createElement('th');
+                th.textContent = header;
+                headerRow.appendChild(th);
+            });
+            thead.appendChild(headerRow);
+
+            // Create table body rows (excluding the 4th column "Orden. Especial?")
+            rows.slice(1).forEach(row => {
+                const tr = document.createElement('tr');
+                row.slice(0, 3).forEach(cell => {
+                    const td = document.createElement('td');
+                    td.textContent = cell;
+                    tr.appendChild(td);
+                });
+                tbody.appendChild(tr);
+            });
+
+            // Append thead and tbody to table
+            table.appendChild(thead);
+            table.appendChild(tbody);
+            section.appendChild(table);
+
+            // Append the table section to the container
+            document.getElementById('tables').appendChild(section);
         }
 
         // Function to create and display a table
