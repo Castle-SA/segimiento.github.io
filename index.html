@@ -89,13 +89,14 @@
         function splitPreparacion(rows) {
             // Extract headers
             const headers = rows[0];
+
             const indexOrdenEspecial = headers.indexOf('Orden. Especial?');
             const indexEstado = headers.indexOf('Estado');
 
-            // Extract indices of the relevant columns for Picking
-            const indexNumeroDocumento = headers.indexOf('Numero de documento');
+            // Extract indices of the relevant columns for Picking (corrected for accents)
+            const indexNumeroDocumento = headers.indexOf('Número de documento');
             const indexNombre = headers.indexOf('Nombre');
-            const indexArticulo = headers.indexOf('Articulo');
+            const indexArticulo = headers.indexOf('Artículo');
             const indexCantidad = headers.indexOf('Cantidad');
 
             // Initialize arrays to hold different rows
