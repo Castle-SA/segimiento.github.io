@@ -79,18 +79,23 @@
             // Extract headers
             const headers = rows[0];
             const indexOrdenEspecial = headers.indexOf('Orden. Especial?');
+            const indexEstado = headers.indexOf('Estado');
 
             // Initialize arrays to hold different rows
             const pickingRows = [headers];
             const produccionRows = [headers];
             const pedidosRows = [headers];
-            const remitoRows = [headers];  // New table for "Remito"
+            const factuRows = [headers];  // For "Factu" rows
 
-            // Classify rows based on the "Orden. Especial?" column
+            // Classify rows based on the "Orden. Especial?" and "Estado" columns
             rows.slice(1).forEach(row => {
                 const ordenEspecial = row[indexOrdenEspecial]?.trim();
+                const estado = row[indexEstado]?.trim();
 
-                if (!ordenEspecial) {
+                if (estado.startsWith('Factu')) {
+                    // "Factu" rows go into the Factu table and are excluded from others
+                    factuRows.push(row);
+                } else if (!ordenEspecial) {
                     // No data in "Orden. Especial?" column -> Picking
                     pickingRows.push(row);
                 } else if (ordenEspecial.startsWith('Orden de trabajo')) {
@@ -99,9 +104,6 @@
                 } else if (ordenEspecial.startsWith('Pedido')) {
                     // "Pedido" -> Pedidos
                     pedidosRows.push(row);
-                } else if (ordenEspecial.startsWith('Remito')) {
-                    // "Remito" -> Remito
-                    remitoRows.push(row);
                 }
             });
 
@@ -109,7 +111,7 @@
             createTable(pickingRows, 'Picking');
             createTable(produccionRows, 'Producción');
             createTable(pedidosRows, 'Pedidos');
-            createTable(remitoRows, 'Remito');  // New table for "Remito"
+            createTable(factuRows, 'Facturación');
         }
 
         // Function to create and display a table
