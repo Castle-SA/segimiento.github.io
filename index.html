@@ -25,7 +25,7 @@
 
         .container {
             display: flex;
-            flex-wrap: wrap;
+            flex-wrap: nowrap; /* Make columns stay in one row */
             gap: 20px;
         }
 
@@ -63,26 +63,28 @@
     <h1>CSV Data Tables</h1>
 
     <div class="container">
-        <!-- Three columns for tables -->
-        <div class="column" id="left-column">
-            <!-- Left column tables will be inserted here by JavaScript -->
+        <!-- First column for smaller tables -->
+        <div class="column" id="first-column">
+            <!-- Smaller tables will be inserted here by JavaScript -->
         </div>
-        <div class="column" id="center-column">
-            <!-- Center column tables will be inserted here by JavaScript -->
+        <!-- Second column for Picking and Producción -->
+        <div class="column" id="second-column">
+            <!-- Picking and Producción tables will be inserted here by JavaScript -->
         </div>
-        <div class="column" id="right-column">
-            <!-- Right column tables will be inserted here by JavaScript -->
+        <!-- Third column for Facturación -->
+        <div class="column" id="third-column">
+            <!-- Facturación table will be inserted here by JavaScript -->
         </div>
     </div>
 
     <script>
         // Array of CSV file paths and table titles
         const csvFiles = [
-            { file: 'path/to/control_gp.csv', title: 'Control GP' },
-            { file: 'path/to/control_financiero.csv', title: 'Control Financiero' },
-            { file: 'path/to/control_fecha_entrega.csv', title: 'Control Fecha de Entrega' },
-            { file: 'path/to/control_financiero_2.csv', title: 'Control Financiero 2' },
-            { file: 'path/to/preparacion.csv', title: 'Preparación' } // This will be split into several tables
+            { file: 'path/to/control_gp.csv', title: 'Control GP', columnId: 'first-column' },
+            { file: 'path/to/control_financiero.csv', title: 'Control Financiero', columnId: 'first-column' },
+            { file: 'path/to/control_fecha_entrega.csv', title: 'Control Fecha de Entrega', columnId: 'first-column' },
+            { file: 'path/to/control_financiero_2.csv', title: 'Control Financiero 2', columnId: 'first-column' },
+            { file: 'path/to/preparacion.csv', title: 'Preparación', columnId: 'second-column' } // This will be split into several tables
         ];
 
         // Function to fetch CSV and convert it to a table
@@ -93,7 +95,7 @@
                     const rows = csv.split('\n').map(row => row.split(','));
 
                     if (title === 'Preparación') {
-                        // Split the "Preparación" table into 4 parts
+                        // Split the "Preparación" table into 3 parts
                         splitPreparacion(rows);
                     } else {
                         createTable(rows, title, columnId);
@@ -112,7 +114,6 @@
             // Initialize arrays to hold different rows
             const pickingRows = [headers];
             const produccionRows = [headers];
-            const pedidosRows = [headers];
             const factuRows = [headers]; // New table for rows starting with "Factu" in "Estado"
 
             // Classify rows based on the "Orden. Especial?" column and "Estado" column
@@ -129,17 +130,13 @@
                 } else if (ordenEspecial.startsWith('Orden de trabajo')) {
                     // "Orden de trabajo" -> Producción
                     produccionRows.push(row);
-                } else if (ordenEspecial.startsWith('Pedido')) {
-                    // "Pedido" -> Pedidos
-                    pedidosRows.push(row);
                 }
             });
 
-            // Split tables across columns
-            createTable(pickingRows, 'Picking', 'left-column');
-            createTable(produccionRows, 'Producción', 'center-column');
-            createTable(pedidosRows, 'Pedidos', 'right-column');
-            createTable(factuRows, 'Facturación', 'left-column'); // New Facturación table
+            // Create tables in the appropriate columns
+            createTable(pickingRows, 'Picking', 'second-column');
+            createTable(produccionRows, 'Producción', 'second-column');
+            createTable(factuRows, 'Facturación', 'third-column'); // Facturación table in third column
         }
 
         // Function to create and display a table
@@ -185,14 +182,9 @@
             document.getElementById(columnId).appendChild(section);
         }
 
-        // Loop through the CSV files and display each one, alternating columns
-        let currentColumn = 0;
-        const columns = ['left-column', 'center-column', 'right-column'];
-
+        // Loop through the CSV files and display each one, manually assigning to columns
         csvFiles.forEach(fileInfo => {
-            const columnId = columns[currentColumn];
-            fetchAndDisplayCSV(fileInfo.file, fileInfo.title, columnId);
-            currentColumn = (currentColumn + 1) % columns.length; // Rotate between columns
+            fetchAndDisplayCSV(fileInfo.file, fileInfo.title, fileInfo.columnId);
         });
     </script>
 </body>
