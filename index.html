@@ -105,7 +105,6 @@
                 if (ordenEspecial && ordenEspecial.startsWith('Ejecución')) {
                     // Add first two columns + "Numero de Remito" (last 5 digits of "Orden. Especial?")
                     const numeroRemito = ordenEspecial.slice(-5);
-                    // Add entire row with "Orden. Especial?" as the fourth element (hidden later)
                     factuRows.push([row[0], row[1], numeroRemito, ordenEspecial]);
                 } else if (!ordenEspecial) {
                     // No data in "Orden. Especial?" column -> Picking
@@ -116,8 +115,8 @@
                 }
             });
 
-            // Sort the factuRows by the hidden "Orden. Especial?" column (4th column)
-            factuRows.slice(1).sort((a, b) => a[3].localeCompare(b[3]));
+            // Sort factuRows by "Numero de Remito" column (3rd column) as integers
+            factuRows.slice(1).sort((a, b) => parseInt(a[2], 10) - parseInt(b[2], 10));
 
             // Create tables in a single column
             createTable(pickingRows, 'Picking');
