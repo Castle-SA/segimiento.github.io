@@ -24,15 +24,21 @@
         }
 
         .container {
-            display: grid;
-            grid-template-columns: repeat(3, 1fr); /* Create 3 equal columns */
-            grid-gap: 20px; /* Space between the columns */
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+
+        .column {
+            flex: 1; /* Columns will take up equal space */
+            min-width: 45%; /* Ensure columns don't shrink too much */
         }
 
         table {
             width: 100%;
             border-collapse: collapse;
             font-size: 12px; /* Smaller text */
+            margin-bottom: 20px;
         }
 
         table, th, td {
@@ -56,8 +62,16 @@
 <body>
     <h1>CSV Data Tables</h1>
 
-    <div class="container" id="tables">
-        <!-- Tables will be inserted here by JavaScript in a grid format -->
+    <div class="container">
+        <!-- First column for some tables -->
+        <div class="column" id="left-column">
+            <!-- Tables will be inserted here by JavaScript -->
+        </div>
+
+        <!-- Second column for other tables -->
+        <div class="column" id="right-column">
+            <!-- Tables will be inserted here by JavaScript -->
+        </div>
     </div>
 
     <script>
@@ -71,7 +85,7 @@
         ];
 
         // Function to fetch CSV and convert it to a table
-        function fetchAndDisplayCSV(file, title) {
+        function fetchAndDisplayCSV(file, title, columnId) {
             fetch(file)
                 .then(response => response.text())
                 .then(csv => {
@@ -81,7 +95,7 @@
                         // Split the "Preparación" table into 4 parts
                         splitPreparacion(rows);
                     } else {
-                        createTable(rows, title);
+                        createTable(rows, title, columnId);
                     }
                 })
                 .catch(error => console.error('Error fetching CSV:', error));
@@ -120,15 +134,15 @@
                 }
             });
 
-            // Create separate tables for each part
-            createTable(pickingRows, 'Picking');
-            createTable(produccionRows, 'Producción');
-            createTable(pedidosRows, 'Pedidos');
-            createTable(factuRows, 'Facturación'); // New Facturación table
+            // Split tables across columns
+            createTable(pickingRows, 'Picking', 'left-column');
+            createTable(produccionRows, 'Producción', 'right-column');
+            createTable(pedidosRows, 'Pedidos', 'left-column');
+            createTable(factuRows, 'Facturación', 'right-column'); // New Facturación table
         }
 
         // Function to create and display a table
-        function createTable(rows, title) {
+        function createTable(rows, title, columnId) {
             const section = document.createElement('div');
             section.classList.add('table-section');
             
@@ -166,13 +180,16 @@
             table.appendChild(tbody);
             section.appendChild(table);
 
-            // Append the table section to the container
-            document.getElementById('tables').appendChild(section);
+            // Append the table section to the appropriate column
+            document.getElementById(columnId).appendChild(section);
         }
 
-        // Loop through the CSV files and display each one
+        // Loop through the CSV files and display each one, alternating columns
+        let leftColumn = true;
         csvFiles.forEach(fileInfo => {
-            fetchAndDisplayCSV(fileInfo.file, fileInfo.title);
+            const columnId = leftColumn ? 'left-column' : 'right-column';
+            fetchAndDisplayCSV(fileInfo.file, fileInfo.title, columnId);
+            leftColumn = !leftColumn; // Alternate between left and right columns
         });
     </script>
 </body>
