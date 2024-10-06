@@ -115,6 +115,9 @@
                 }
             });
 
+            // Sort the factuRows by "Numero de Remito" (3rd column) in ascending order
+            factuRows.slice(1).sort((a, b) => a[2].localeCompare(b[2]));
+
             // Create tables in a single column
             createTable(pickingRows, 'Picking');
             createTable(produccionRows, 'Producción');
