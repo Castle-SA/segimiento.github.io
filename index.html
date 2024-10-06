@@ -109,26 +109,76 @@
 
         // Function to compare "Numero de Remito" with Google Sheet data (facturación)
         function compareRemitoWithFiles(remitos, files) {
-            const despachadoRows = [];
+            const matched = [];
+            const unmatched = [];
+
             remitos.forEach(remito => {
                 const matchedFile = files.find(file => file.name.startsWith(remito + '-Cu'));
                 if (matchedFile) {
-                    despachadoRows.push({
-                        remito: remito,
-                        fileLink: matchedFile.link // Store public link for creating clickable links
-                    });
+                    matched.push({ remito, fileLink: matchedFile.link });
+                } else {
+                    unmatched.push({ remito });
                 }
             });
-            return despachadoRows;
+
+            return { matched, unmatched };
         }
 
-        // Function to create and display the Facturación table
-        function createFacturacionTable(facturacionRows, matchedFiles) {
+        // Function to create and display the Facturación table (unmatched rows)
+        function createFacturacionTable(facturacionRows, unmatchedRows) {
             const section = document.createElement('div');
             section.classList.add('table-section');
             
             const h2 = document.createElement('h2');
-            h2.textContent = 'Facturación';
+            h2.textContent = 'Facturación (No Match)';
+            section.appendChild(h2);
+
+            const table = document.createElement('table');
+            const thead = document.createElement('thead');
+            const tbody = document.createElement('tbody');
+
+            // Create table headers
+            const headers = ['GOA', 'Cliente', 'Numero de Remito'];
+            const headerRow = document.createElement('tr');
+            headers.forEach(header => {
+                const th = document.createElement('th');
+                th.textContent = header;
+                headerRow.appendChild(th);
+            });
+            thead.appendChild(headerRow);
+
+            // Create table body rows (only rows with no match)
+            facturacionRows.forEach(row => {
+                const remitoNumber = row[2]; // "Numero de Remito" column
+
+                // Only display rows without a match
+                if (unmatchedRows.find(unmatched => unmatched.remito === remitoNumber)) {
+                    const tr = document.createElement('tr');
+                    row.slice(0, 3).forEach(cell => {
+                        const td = document.createElement('td');
+                        td.textContent = cell;
+                        tr.appendChild(td);
+                    });
+                    tbody.appendChild(tr);
+                }
+            });
+
+            // Append thead and tbody to table
+            table.appendChild(thead);
+            table.appendChild(tbody);
+            section.appendChild(table);
+
+            // Append the table section to the container
+            document.getElementById('tables').appendChild(section);
+        }
+
+        // Function to create and display the Despachado table (matched rows)
+        function createDespachadoTable(facturacionRows, matchedRows) {
+            const section = document.createElement('div');
+            section.classList.add('table-section');
+            
+            const h2 = document.createElement('h2');
+            h2.textContent = 'Despachado';
             section.appendChild(h2);
 
             const table = document.createElement('table');
@@ -145,25 +195,25 @@
             });
             thead.appendChild(headerRow);
 
-            // Create table body rows with file links
+            // Create table body rows with file links (only matched rows)
             facturacionRows.forEach(row => {
                 const remitoNumber = row[2]; // "Numero de Remito" column
-                const tr = document.createElement('tr');
 
-                // Add the first 3 columns (GOA, Cliente, Numero de Remito)
-                row.slice(0, 3).forEach(cell => {
-                    const td = document.createElement('td');
-                    td.textContent = cell;
-                    tr.appendChild(td);
-                });
+                const matched = matchedRows.find(match => match.remito === remitoNumber);
+                if (matched) {
+                    const tr = document.createElement('tr');
+                    row.slice(0, 3).forEach(cell => {
+                        const td = document.createElement('td');
+                        td.textContent = cell;
+                        tr.appendChild(td);
+                    });
 
-                // Find and append file link in the fourth column
-                const fileMatch = matchedFiles.find(file => file.remito === remitoNumber);
-                const linkCell = document.createElement('td');
-                linkCell.innerHTML = fileMatch ? `<a href="${fileMatch.fileLink}" target="_blank">View File</a>` : 'No Match';
-                tr.appendChild(linkCell);
+                    const linkCell = document.createElement('td');
+                    linkCell.innerHTML = `<a href="${matched.fileLink}" target="_blank">View File</a>`;
+                    tr.appendChild(linkCell);
 
-                tbody.appendChild(tr);
+                    tbody.appendChild(tr);
+                }
             });
 
             // Append thead and tbody to table
@@ -226,11 +276,12 @@
             createPickingTable(pickingRows);
             createTable(produccionRows, 'Producción');
             
-            // Fetch file data and populate Facturación table
+            // Fetch file data and populate Despachado and Facturación tables
             fetchCsvData(sheetUrl).then(csvData => {
                 const files = parseCsvData(csvData);
-                const matchedFiles = compareRemitoWithFiles(facturacionRows.map(row => row[2]), files);
-                createFacturacionTable(facturacionRows, matchedFiles);
+                const { matched, unmatched } = compareRemitoWithFiles(facturacionRows.map(row => row[2]), files);
+                createDespachadoTable(facturacionRows, matched);
+                createFacturacionTable(facturacionRows, unmatched);
             });
         }
 
