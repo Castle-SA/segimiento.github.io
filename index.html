@@ -148,15 +148,23 @@
             });
             thead.appendChild(headerRow);
 
+            // Track unique "Numero de Remito" values
+            const seenRemitoNumbers = new Set();
+
             // Create table body rows (excluding the 4th column "Orden. Especial?")
             rows.slice(1).forEach(row => {
-                const tr = document.createElement('tr');
-                row.slice(0, 3).forEach(cell => {
-                    const td = document.createElement('td');
-                    td.textContent = cell;
-                    tr.appendChild(td);
-                });
-                tbody.appendChild(tr);
+                const remitoNumber = row[2]; // "Numero de Remito" column
+                if (!seenRemitoNumbers.has(remitoNumber)) {
+                    seenRemitoNumbers.add(remitoNumber); // Add to set to track uniqueness
+
+                    const tr = document.createElement('tr');
+                    row.slice(0, 3).forEach(cell => {
+                        const td = document.createElement('td');
+                        td.textContent = cell;
+                        tr.appendChild(td);
+                    });
+                    tbody.appendChild(tr);
+                }
             });
 
             // Append thead and tbody to table
