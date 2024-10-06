@@ -95,15 +95,15 @@
             // Initialize arrays to hold different rows
             const pickingRows = [headers];
             const produccionRows = [headers];
-            const factuRows = [headers]; // New table for rows starting with "Factu" in "Estado"
+            const factuRows = [headers]; // New table for rows starting with "Ejecución" in "Orden. Especial?"
 
             // Classify rows based on the "Orden. Especial?" column and "Estado" column
             rows.slice(1).forEach(row => {
                 const ordenEspecial = row[indexOrdenEspecial]?.trim();
                 const estado = row[indexEstado]?.trim();
 
-                if (estado && estado.startsWith('Factu')) {
-                    // "Factu" -> Facturación table
+                if (ordenEspecial && ordenEspecial.startsWith('Ejecución')) {
+                    // "Ejecución" -> Facturación table
                     factuRows.push(row);
                 } else if (!ordenEspecial) {
                     // No data in "Orden. Especial?" column -> Picking
