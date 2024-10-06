@@ -30,15 +30,19 @@
         }
 
         .column {
-            flex: 1; /* Columns will take up equal space */
-            min-width: 30%; /* Ensure columns don't shrink too much */
+            flex: 1;
+            min-width: 30%; /* Three columns */
+            box-sizing: border-box; /* Ensure padding and margins don't affect width */
+        }
+
+        .table-section {
+            margin-bottom: 20px;
         }
 
         table {
             width: 100%;
             border-collapse: collapse;
             font-size: 12px; /* Smaller text */
-            margin-bottom: 20px;
         }
 
         table, th, td {
@@ -53,24 +57,21 @@
         th {
             background-color: #f2f2f2;
         }
-
-        .table-section {
-            margin-bottom: 20px;
-        }
     </style>
 </head>
 <body>
     <h1>CSV Data Tables</h1>
 
     <div class="container">
-        <!-- First column for some tables -->
+        <!-- Three columns for tables -->
         <div class="column" id="left-column">
-            <!-- Tables will be inserted here by JavaScript -->
+            <!-- Left column tables will be inserted here by JavaScript -->
         </div>
-
-        <!-- Second column for other tables -->
+        <div class="column" id="center-column">
+            <!-- Center column tables will be inserted here by JavaScript -->
+        </div>
         <div class="column" id="right-column">
-            <!-- Tables will be inserted here by JavaScript -->
+            <!-- Right column tables will be inserted here by JavaScript -->
         </div>
     </div>
 
@@ -136,9 +137,9 @@
 
             // Split tables across columns
             createTable(pickingRows, 'Picking', 'left-column');
-            createTable(produccionRows, 'Producción', 'right-column');
-            createTable(pedidosRows, 'Pedidos', 'left-column');
-            createTable(factuRows, 'Facturación', 'right-column'); // New Facturación table
+            createTable(produccionRows, 'Producción', 'center-column');
+            createTable(pedidosRows, 'Pedidos', 'right-column');
+            createTable(factuRows, 'Facturación', 'left-column'); // New Facturación table
         }
 
         // Function to create and display a table
@@ -185,11 +186,13 @@
         }
 
         // Loop through the CSV files and display each one, alternating columns
-        let leftColumn = true;
+        let currentColumn = 0;
+        const columns = ['left-column', 'center-column', 'right-column'];
+
         csvFiles.forEach(fileInfo => {
-            const columnId = leftColumn ? 'left-column' : 'right-column';
+            const columnId = columns[currentColumn];
             fetchAndDisplayCSV(fileInfo.file, fileInfo.title, columnId);
-            leftColumn = !leftColumn; // Alternate between left and right columns
+            currentColumn = (currentColumn + 1) % columns.length; // Rotate between columns
         });
     </script>
 </body>
