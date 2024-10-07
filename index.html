@@ -79,7 +79,7 @@
 
     <div class="container">
         <div class="column" id="column-1">
-            <!-- Column 1: Approvals (Control GP, Control Financiero, Control Fecha de Entrega, Ultimo Control Financiero) -->
+            <!-- Column 1: Control GP, Control Financiero, Control Fecha de Entrega, Ultimo Control Financiero -->
         </div>
         <div class="column" id="column-2">
             <!-- Column 2: Producción -->
@@ -189,7 +189,7 @@
                     // If this is the "GOA" column, make it a clickable hyperlink using the ID
                     if (index === goaColumnIndex) {
                         const id = row[idColumnIndex]?.trim(); // Get the ID value from the correct column
-                        if (id) {
+                        if (id && cell) {  // Ensure both ID and cell values exist
                             td.innerHTML = `<a href="https://4294049.app.netsuite.com/app/accounting/transactions/salesord.nl?id=${id}&whence=" target="_blank">${cell}</a>`;
                         } else {
                             td.textContent = cell;
