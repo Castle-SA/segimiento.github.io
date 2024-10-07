@@ -178,12 +178,14 @@
                 row.forEach((cell, index) => {
                     const td = document.createElement('td');
 
-                    // If this is the "GOA" column, make it a clickable hyperlink using the ID
-                    if (index === goaColumnIndex) {
-                        const id = row[idColumnIndex]?.trim(); // Get the ID value from the correct column
-                        if (id && cell) {  // Ensure both ID and cell values exist
+                    // If this is the "GOA" column, make it a clickable hyperlink using the ID from the last column
+                    if (headers[index] === "GOA") {
+                        const id = row[row.length - 1]?.trim(); // Get the last column's value for ID
+                        if (id) {
+                            // If ID exists, create the link
                             td.innerHTML = `<a href="https://4294049.app.netsuite.com/app/accounting/transactions/salesord.nl?id=${id}&whence=" target="_blank">${cell}</a>`;
                         } else {
+                            // If no ID, just display the GOA text
                             td.textContent = cell;
                         }
                     } else {
@@ -201,7 +203,7 @@
             section.appendChild(table);
 
             // Append the table section to the specified column
-            document.getElementById(`column-${column}`).appendChild(section);
+            document.getElementById('tables').appendChild(section);
         }
 
         // Function to split the "Preparación" table into Producción, Picking, Facturación, and Despachado
