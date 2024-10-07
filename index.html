@@ -149,6 +149,7 @@
                     if (headers[index] === "GOA") {
                         const idIndex = headers.indexOf("ID"); // Find the "ID" column index
                         const id = row[idIndex]?.trim(); // Ensure ID is retrieved correctly
+                        console.log(`GOA Value: ${cell}, ID Value: ${id}`); // Debugging: log GOA and ID values
                         td.innerHTML = id ? `<a href="https://4294049.app.netsuite.com/app/accounting/transactions/salesord.nl?id=${id}&whence=" target="_blank">${cell}</a>` : cell;
                     } else {
                         td.textContent = cell;
