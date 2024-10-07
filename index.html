@@ -173,6 +173,7 @@
             thead.appendChild(headerRow);
 
             const idColumnIndex = findIdColumnIndex(headers); // Get the index of the "ID" column
+            const goaColumnIndex = headers.indexOf('Número de documento'); // Find the original "Número de documento" column
 
             // Create table body rows
             rows.slice(1).forEach(row => {
@@ -185,8 +186,8 @@
                         td.classList.add('hidden'); // Hide the ID column in rows as well
                     }
 
-                    // If this is the "GOA" column, make it a clickable hyperlink using the ID
-                    if (headers[index] === "GOA") {
+                    // If this is the original "Número de documento" column (renamed to "GOA"), make it a clickable hyperlink using the ID
+                    if (index === goaColumnIndex) {
                         const id = row[idColumnIndex]?.trim(); // Get the ID value from the correct column
                         if (id) {
                             td.innerHTML = `<a href="https://4294049.app.netsuite.com/app/accounting/transactions/salesord.nl?id=${id}&whence=" target="_blank">${cell}</a>`;
