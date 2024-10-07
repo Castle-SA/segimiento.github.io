@@ -91,18 +91,16 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 39596,4095 REFINERIA DEL CENTRO SA,Ejecución de la orden pendiente,Todo Aprobado, ,, ,PPHR10048T,54,0,,325133
 39600,12707 PORTA HNOS. SA,Ejecución de la orden pendiente,Todo Aprobado, ,, ,PPAR15048T,60,0,,325776
 39601,9401339 QUICKFOOD S.A.,Ejecución de la orden pendiente,Todo Aprobado, ,, ,PPAR15048T,378,0,,325892
-39602,410 DROGUERIA DEM SRL,Facturada,Todo Aprobado,Ejecución de pedido de artículo 21214,Enviado, ,MTS524B,360,360,01/10/2024,326030
-39603,12662 PRINTEMPS S.R.L.,Facturada,Todo Aprobado,Orden de trabajo ,Ensamblada,Construcción de ensamblaje #4646,64621-00003-00,300,300,,326130
 39603,12662 PRINTEMPS S.R.L.,Facturada,Todo Aprobado,Ejecución de pedido de artículo 21216,Enviado, ,64621-00003-00,300,300,02/10/2024,326130
+39603,12662 PRINTEMPS S.R.L.,Facturada,Todo Aprobado,Orden de trabajo ,Ensamblada,Construcción de ensamblaje #4646,64621-00003-00,300,300,,326130
 39605,3014 PAPELERA ENTRE RIOS S.A.,Facturada,Todo Aprobado,Orden de trabajo ,Ensamblada,Construcción de ensamblaje #4653,64621-00048-00,200,200,,326264
 39605,3014 PAPELERA ENTRE RIOS S.A.,Facturada,Todo Aprobado,Ejecución de pedido de artículo 21229,Enviado, ,64621-00048-00,200,200,03/10/2024,326264
 39605,3014 PAPELERA ENTRE RIOS S.A.,Facturada,Todo Aprobado,Ejecución de pedido de artículo 21229,Enviado, ,04965-00179-00,25,25,03/10/2024,326264
 39605,3014 PAPELERA ENTRE RIOS S.A.,Facturada,Todo Aprobado,Orden de trabajo ,Ensamblada,Construcción de ensamblaje #4645,04965-00179-00,25,25,,326264
-39607,898 LA CASA DEL RETEN SRL,Facturada,Todo Aprobado,Ejecución de pedido de artículo 21215,Enviado, ,PPA1548TE,180,180,01/10/2024,326513
 39610,9402056 BUSTAMANTE CRISTIAN JAVIER (PLAZA FERRETERA),Facturada,Todo Aprobado,Ejecución de pedido de artículo 21239,Enviado, ,MTS518B,192,192,04/10/2024,326787
 39610,9402056 BUSTAMANTE CRISTIAN JAVIER (PLAZA FERRETERA),Facturada,Todo Aprobado,Ejecución de pedido de artículo 21239,Enviado, ,MTS548B,216,216,04/10/2024,326787
-39612,3938 ELECTRO HOGAR INTERNACIONAL SA,Facturada,Todo Aprobado,Orden de trabajo ,Ensamblada,Construcción de ensamblaje #4647,0272/003,3,3,,326951
 39612,3938 ELECTRO HOGAR INTERNACIONAL SA,Facturada,Todo Aprobado,Ejecución de pedido de artículo 21227,Enviado, ,0272/003,3,3,03/10/2024,326951
+39612,3938 ELECTRO HOGAR INTERNACIONAL SA,Facturada,Todo Aprobado,Orden de trabajo ,Ensamblada,Construcción de ensamblaje #4647,0272/003,3,3,,326951
 39612,3938 ELECTRO HOGAR INTERNACIONAL SA,Facturada,Todo Aprobado,Orden de trabajo ,Ensamblada,Construcción de ensamblaje #4652,PVC624A,72,72,,326951
 39612,3938 ELECTRO HOGAR INTERNACIONAL SA,Facturada,Todo Aprobado,Ejecución de pedido de artículo 21227,Enviado, ,PVC624A,72,72,03/10/2024,326951
 39613,655 SWIFT SA ARGENTINA,Facturada,Todo Aprobado,Ejecución de pedido de artículo 21244,Enviado, ,PPAR15048T,6,6,04/10/2024,327055
@@ -117,8 +115,8 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 39618,1029 DREAN SA,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Ensamblada,Construcción de ensamblaje #4655,1153/001,18000,0,,327379
 39619,1029 DREAN SA,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Ensamblada,Construcción de ensamblaje #4656,1153/001,18000,0,,327380
 39620,2515 CONGELADOS ARTICO SA,Facturada,Todo Aprobado,Ejecución de pedido de artículo 21241,Enviado, ,PPAR1072T,720,720,04/10/2024,327389
-39621,1638 GANI SA,Facturada,Todo Aprobado,Orden de trabajo ,Ensamblada,Construcción de ensamblaje #4651,9400856/001,100,100,,327490
 39621,1638 GANI SA,Facturada,Todo Aprobado,Ejecución de pedido de artículo 21228,Enviado, ,9400856/001,100,100,03/10/2024,327490
+39621,1638 GANI SA,Facturada,Todo Aprobado,Orden de trabajo ,Ensamblada,Construcción de ensamblaje #4651,9400856/001,100,100,,327490
 39622,9400962 CRYSTAL-ICE SRL,Ejecución de la orden pendiente,Todo Aprobado, ,, ,PPAR1048T,6,0,,327590
 39622,9400962 CRYSTAL-ICE SRL,Ejecución de la orden pendiente,Todo Aprobado, ,, ,PPAR1072T,6,0,,327590
 39623,3598 DEL VALLE EMBALAJES SRL,Ejecución de la orden pendiente,Todo Aprobado, ,, ,PPAR1048T,3600,0,,327610
