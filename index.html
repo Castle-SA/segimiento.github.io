@@ -77,7 +77,11 @@
                 .then(response => response.text())
                 .then(csv => {
                     const rows = csv.split('\n').map(row => row.split(','));
-                    createTable(rows, title);
+                    if (title === 'Preparación') {
+                        splitPreparacion(rows); // Split Preparación into multiple tables
+                    } else {
+                        createTable(rows, title);
+                    }
                 })
                 .catch(error => console.error('Error fetching CSV:', error));
         }
@@ -264,49 +268,66 @@
             document.getElementById('tables').appendChild(section);
         }
 
-        // Function to split the "Preparación" table into Picking, Producción, and Facturación
+        // Function to split the "Preparación" table into Picking, Producción, Facturación, and Despachado
         function splitPreparacion(rows) {
-            // Extract headers
             const headers = rows[0];
 
             const indexNumeroDocumento = headers.indexOf('Número de documento');
             const indexNombre = headers.indexOf('Nombre');
             const indexArticulo = headers.indexOf('Artículo');
             const indexCantidad = headers.indexOf('Cantidad');
+            const indexOrdenEspecial = headers.indexOf('Orden. Especial?');
+            const indexEstadoOrdenEspecial = headers.indexOf('Estado Orden. Especial');
 
             const pickingRows = [['GOA', 'Cliente', 'Art.', 'Cantidad']];
-            const produccionRows = [['GOA', 'Cliente', 'Art.', 'Cantidad']]; // Only selected columns
+            const produccionRows = [['GOA', 'Cliente', 'Art.', 'Cantidad']];
+            const facturacionRows = [['GOA', 'Cliente', 'Numero de Remito']];
 
             rows.slice(1).forEach(row => {
-                const ordenEspecial = row[headers.indexOf('Orden. Especial?')]?.trim();
-                const estadoOrdenEspecial = row[headers.indexOf('Estado Orden. Especial')]?.trim();
+                const ordenEspecial = row[indexOrdenEspecial]?.trim();
+                const estadoOrdenEspecial = row[indexEstadoOrdenEspecial]?.trim();
 
-                if (!ordenEspecial) {
+                if (ordenEspecial && ordenEspecial.startsWith('Ejecución')) {
+                    // Facturación
+                    const remito = ordenEspecial.slice(-5); // Extract last 5 digits for "Numero de Remito"
+                    facturacionRows.push([row[0], row[1], remito]);
+                } else if (!ordenEspecial) {
+                    // Picking -> Only include relevant columns
                     pickingRows.push([
                         row[indexNumeroDocumento],
                         row[indexNombre],
                         row[indexArticulo],
                         row[indexCantidad]
                     ]);
-                } else if (ordenEspecial.startsWith('Orden de trabajo') && estadoOrdenEspecial !== 'Ensamblada') {
-                    produccionRows.push([
-                        row[indexNumeroDocumento],
-                        row[indexNombre],
-                        row[indexArticulo],
-                        row[indexCantidad]
-                    ]);
+                } else if (ordenEspecial.startsWith('Orden de trabajo')) {
+                    // Producción or Picking based on "Estado Orden. Especial"
+                    if (estadoOrdenEspecial === 'Ensamblada') {
+                        pickingRows.push([
+                            row[indexNumeroDocumento],
+                            row[indexNombre],
+                            row[indexArticulo],
+                            row[indexCantidad]
+                        ]);
+                    } else {
+                        produccionRows.push([
+                            row[indexNumeroDocumento],
+                            row[indexNombre],
+                            row[indexArticulo],
+                            row[indexCantidad]
+                        ]);
+                    }
                 }
             });
 
-            createPickingTable(pickingRows);
-            createProduccionTable(produccionRows);
-
+            createPickingTable(pickingRows); // Custom Picking table
+            createProduccionTable(produccionRows); // Producción table
+            
             // Fetch file data and populate Facturación and Despachado tables
             fetchCsvData(sheetUrl).then(csvData => {
                 const files = parseCsvData(csvData);
-                const { matched, unmatched } = compareRemitoWithFiles(produccionRows.map(row => row[2]), files);
-                createFacturacionTable(produccionRows, unmatched); // First display the unmatched table
-                createDespachadoTable(produccionRows, matched);    // Then display the Despachado table
+                const { matched, unmatched } = compareRemitoWithFiles(facturacionRows.map(row => row[2]), files);
+                createFacturacionTable(facturacionRows, unmatched); // Display unmatched table first
+                createDespachadoTable(facturacionRows, matched);    // Display Despachado table next
             });
         }
 
