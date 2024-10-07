@@ -176,8 +176,8 @@
         function splitPreparacion(rows) {
             const headers = rows[0];
 
-            const indexNumeroDocumento = headers.indexOf('Número de documento');
-            const indexNombre = headers.indexOf('Nombre');
+            const indexNumeroDocumento = headers.indexOf('GOA');
+            const indexNombre = headers.indexOf('Cliente');
             const indexArticulo = headers.indexOf('Artículo');
             const indexCantidad = headers.indexOf('Cantidad');
             const indexOrdenEspecial = headers.indexOf('Orden. Especial?');
@@ -208,8 +208,8 @@
                 }
             });
 
-            createPickingTable(pickingRows); // Custom Picking table
-            createProduccionTable(produccionRows); // Producción table
+            createPickingTableWithLinks(pickingRows); // Custom Picking table
+            createProduccionTableWithLinks(produccionRows); // Producción table
             
             // Fetch file data and populate Facturación and Despachado tables
             fetchCsvData(sheetUrl).then(csvData => {
@@ -220,8 +220,8 @@
             });
         }
 
-        // Function to create and display the Picking table
-        function createPickingTable(rows) {
+        // Function to create and display the Picking table with links
+        function createPickingTableWithLinks(rows) {
             const section = document.createElement('div');
             section.classList.add('table-section');
             
@@ -249,9 +249,21 @@
 
             rows.slice(1).forEach(row => {
                 const tr = document.createElement('tr');
-                row.forEach(cell => {
+                row.forEach((cell, index) => {
                     const td = document.createElement('td');
-                    td.textContent = cell;
+
+                    // If this is the "GOA" column, make it a clickable hyperlink using the last column for the ID
+                    if (headers[index] === "GOA") {
+                        const id = row[row.length - 1]?.trim(); // Get the last column's value for ID
+                        if (id) {
+                            td.innerHTML = `<a href="https://4294049.app.netsuite.com/app/accounting/transactions/salesord.nl?id=${id}&whence=" target="_blank">${cell}</a>`;
+                        } else {
+                            td.textContent = cell;
+                        }
+                    } else {
+                        td.textContent = cell;
+                    }
+
                     tr.appendChild(td);
                 });
                 tbody.appendChild(tr);
@@ -264,8 +276,8 @@
             document.getElementById('tables').appendChild(section);
         }
 
-        // Function to create and display the Producción table
-        function createProduccionTable(rows) {
+        // Function to create and display the Producción table with links
+        function createProduccionTableWithLinks(rows) {
             const section = document.createElement('div');
             section.classList.add('table-section');
             
@@ -293,9 +305,20 @@
 
             rows.slice(1).forEach(row => {
                 const tr = document.createElement('tr');
-                row.forEach(cell => {
+                row.forEach((cell, index) => {
                     const td = document.createElement('td');
-                    td.textContent = cell;
+
+                    if (headers[index] === "GOA") {
+                        const id = row[row.length - 1]?.trim(); // Get the last column's value for ID
+                        if (id) {
+                            td.innerHTML = `<a href="https://4294049.app.netsuite.com/app/accounting/transactions/salesord.nl?id=${id}&whence=" target="_blank">${cell}</a>`;
+                        } else {
+                            td.textContent = cell;
+                        }
+                    } else {
+                        td.textContent = cell;
+                    }
+
                     tr.appendChild(td);
                 });
                 tbody.appendChild(tr);
