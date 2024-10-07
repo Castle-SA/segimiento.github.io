@@ -214,7 +214,7 @@
             const indexCantidad = headers.indexOf('Cantidad');
             const indexOrdenEspecial = headers.indexOf('Orden. Especial?');
             const indexEstadoOrdenEspecial = headers.indexOf('Estado Orden. Especial');
-            const idColumnIndex = findIdColumnIndex(headers); // Get the ID column index
+            const idColumnIndex = headers.indexOf('ID'); // Get the ID column index
 
             const pickingRows = [['GOA', 'Cliente', 'Art.', 'Cantidad', 'ID']];
             const produccionRows = [['GOA', 'Cliente', 'Art.', 'Cantidad', 'ID']];
