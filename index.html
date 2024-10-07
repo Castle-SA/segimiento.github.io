@@ -145,10 +145,9 @@
                 row.forEach((cell, index) => {
                     const td = document.createElement('td');
 
-                    // If this is the "GOA" column, make it a clickable hyperlink using the ID column
+                    // If this is the "GOA" column, make it a clickable hyperlink using the ID from the last column
                     if (headers[index] === "GOA") {
-                        const idIndex = headers.indexOf("ID"); // Find the "ID" column index
-                        const id = row[idIndex]?.trim(); // Ensure ID is retrieved correctly
+                        const id = row[row.length - 1]?.trim(); // Get the last column's value for ID
                         if (id) {
                             // If ID exists, create the link
                             td.innerHTML = `<a href="https://4294049.app.netsuite.com/app/accounting/transactions/salesord.nl?id=${id}&whence=" target="_blank">${cell}</a>`;
