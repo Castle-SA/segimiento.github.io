@@ -105,7 +105,7 @@
             createTableWithLinks(rows, title);
         }
 
-        // Create table and add links to GOA column
+        // Create table and add links to GOA column (using ID)
         function createTableWithLinks(rows, title) {
             const section = document.createElement('div');
             section.classList.add('table-section');
@@ -136,7 +136,7 @@
 
                     // If this is the "GOA" column, make it a clickable hyperlink
                     if (headers[index] === "GOA" && row[0]) {
-                        const id = row[0]; // Assuming "GOA" value is used as ID
+                        const id = row[headers.indexOf('ID')]; // Using the ID value
                         td.innerHTML = `<a href="https://4294049.app.netsuite.com/app/accounting/transactions/salesord.nl?id=${id}&whence=" target="_blank">${cell}</a>`;
                     } else {
                         td.textContent = cell;
