@@ -276,6 +276,99 @@
             document.getElementById('tables').appendChild(section);
         }
 
+        // Function to create and display the Remisiones Recientes table (unmatched rows)
+        function createFacturacionTable(facturacionRows, unmatchedRows) {
+            const section = document.createElement('div');
+            section.classList.add('table-section');
+            
+            const h2 = document.createElement('h2');
+            h2.textContent = 'Remisiones Recientes';
+            section.appendChild(h2);
+
+            const table = document.createElement('table');
+            const thead = document.createElement('thead');
+            const tbody = document.createElement('tbody');
+
+            const headers = ['GOA', 'Cliente', 'Numero de Remito'];
+            const headerRow = document.createElement('tr');
+            headers.forEach(header => {
+                const th = document.createElement('th');
+                th.textContent = header;
+                headerRow.appendChild(th);
+            });
+            thead.appendChild(headerRow);
+
+            facturacionRows.slice(1).forEach(row => {
+                const remitoNumber = row[2]; // "Numero de Remito" column
+
+                // Only display rows without a match
+                if (unmatchedRows.find(unmatched => unmatched.remito === remitoNumber)) {
+                    const tr = document.createElement('tr');
+                    row.slice(0, 3).forEach(cell => {
+                        const td = document.createElement('td');
+                        td.textContent = cell;
+                        tr.appendChild(td);
+                    });
+                    tbody.appendChild(tr);
+                }
+            });
+
+            table.appendChild(thead);
+            table.appendChild(tbody);
+            section.appendChild(table);
+
+            document.getElementById('tables').appendChild(section);
+        }
+
+        // Function to create and display the Despachado table (matched rows)
+        function createDespachadoTable(facturacionRows, matchedRows) {
+            const section = document.createElement('div');
+            section.classList.add('table-section');
+            
+            const h2 = document.createElement('h2');
+            h2.textContent = 'Despachado';
+            section.appendChild(h2);
+
+            const table = document.createElement('table');
+            const thead = document.createElement('thead');
+            const tbody = document.createElement('tbody');
+
+            const headers = ['GOA', 'Cliente', 'Numero de Remito', 'Remito'];
+            const headerRow = document.createElement('tr');
+            headers.forEach(header => {
+                const th = document.createElement('th');
+                th.textContent = header;
+                headerRow.appendChild(th);
+            });
+            thead.appendChild(headerRow);
+
+            facturacionRows.forEach(row => {
+                const remitoNumber = row[2]; // "Numero de Remito" column
+
+                const matched = matchedRows.find(match => match.remito === remitoNumber);
+                if (matched) {
+                    const tr = document.createElement('tr');
+                    row.slice(0, 3).forEach(cell => {
+                        const td = document.createElement('td');
+                        td.textContent = cell;
+                        tr.appendChild(td);
+                    });
+
+                    const linkCell = document.createElement('td');
+                    linkCell.innerHTML = `<a href="${matched.fileLink}" target="_blank">Ver</a>`;
+                    tr.appendChild(linkCell);
+
+                    tbody.appendChild(tr);
+                }
+            });
+
+            table.appendChild(thead);
+            table.appendChild(tbody);
+            section.appendChild(table);
+
+            document.getElementById('tables').appendChild(section);
+        }
+
         // Fetch and display the original CSV files (including column renaming for the first four tables)
         csvFiles.forEach(fileInfo => {
             fetchAndDisplayCSV(fileInfo.file, fileInfo.title);
