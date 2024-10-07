@@ -49,6 +49,15 @@
         th {
             background-color: #f2f2f2;
         }
+
+        a {
+            color: blue;
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
     </style>
 </head>
 <body>
@@ -69,6 +78,7 @@
 
         const sheetUrl = 'https://docs.google.com/spreadsheets/d/e/2PACX-1vTmBAXWedGqxYfGaVoGXyCQwBE54QDjnKa5Eel4TTV1-pfqUYYHXrPuww_VBGFMJAqKCD_P9X1nWX_t/pub?output=csv';
 
+        // Function to fetch and display CSV files
         function fetchAndDisplayCSV(file, title) {
             fetch(file)
                 .then(response => response.text())
@@ -83,42 +93,7 @@
                 .catch(error => console.error('Error fetching CSV:', error));
         }
 
-        async function fetchCsvData(url) {
-            const response = await fetch(url);
-            const data = await response.text();
-            return data;
-        }
-
-        function parseCsvData(csv) {
-            const lines = csv.split('\n');
-            const rows = lines.slice(1);
-            return rows.map(row => {
-                const values = row.split(',');
-                return {
-                    name: values[0], // File Name
-                    id: values[1],   // File ID
-                    link: values[2]
-                };
-            });
-        }
-
-        function compareRemitoWithFiles(remitos, files) {
-            const matched = [];
-            const unmatched = [];
-
-            remitos.forEach(remito => {
-                const matchedFile = files.find(file => file.name.startsWith(remito + '-Cu'));
-                if (matchedFile) {
-                    matched.push({ remito, fileLink: matchedFile.link });
-                } else {
-                    unmatched.push({ remito });
-                }
-            });
-
-            return { matched, unmatched };
-        }
-
-        // Rename "Número de documento" to "GOA" and "Nombre" to "Cliente"
+        // Rename columns and create the table
         function renameAndDisplayTable(rows, title) {
             const headers = rows[0].map(header => {
                 if (header === "Número de documento") return "GOA";
@@ -127,10 +102,11 @@
             });
 
             rows[0] = headers;
-            createTable(rows, title);
+            createTableWithLinks(rows, title);
         }
 
-        function createTable(rows, title) {
+        // Create table and add links to GOA column
+        function createTableWithLinks(rows, title) {
             const section = document.createElement('div');
             section.classList.add('table-section');
 
@@ -142,6 +118,7 @@
             const thead = document.createElement('thead');
             const tbody = document.createElement('tbody');
 
+            // Create table headers
             const headers = rows[0];
             const headerRow = document.createElement('tr');
             headers.forEach(header => {
@@ -151,11 +128,20 @@
             });
             thead.appendChild(headerRow);
 
+            // Create table rows
             rows.slice(1).forEach(row => {
                 const tr = document.createElement('tr');
-                row.forEach(cell => {
+                row.forEach((cell, index) => {
                     const td = document.createElement('td');
-                    td.textContent = cell;
+
+                    // If this is the "GOA" column, make it a clickable hyperlink
+                    if (headers[index] === "GOA" && row[0]) {
+                        const id = row[0]; // Assuming "GOA" value is used as ID
+                        td.innerHTML = `<a href="https://4294049.app.netsuite.com/app/accounting/transactions/salesord.nl?id=${id}&whence=" target="_blank">${cell}</a>`;
+                    } else {
+                        td.textContent = cell;
+                    }
+
                     tr.appendChild(td);
                 });
                 tbody.appendChild(tr);
@@ -168,6 +154,7 @@
             document.getElementById('tables').appendChild(section);
         }
 
+        // Function to create the Remisiones Recientes table
         function createFacturacionTable(facturacionRows, unmatchedRows) {
             const section = document.createElement('div');
             section.classList.add('table-section');
@@ -190,16 +177,17 @@
             thead.appendChild(headerRow);
 
             facturacionRows.slice(1).forEach(row => {
-                const remitoNumber = row[2];
-                const id = row[4]; // Assuming "ID" is the 5th column
-                
+                const remitoNumber = row[3]; // "Numero de Remito"
+                const id = row[4]; // "ID"
+
                 if (unmatchedRows.find(unmatched => unmatched.remito === remitoNumber)) {
                     const tr = document.createElement('tr');
                     row.slice(0, 4).forEach((cell, index) => {
                         const td = document.createElement('td');
                         
+                        // Link the "GOA" number to NetSuite
                         if (index === 0) {
-                            td.innerHTML = `<a href="https://4294049.app.netsuite.com/app/accounting/transactions/salesord.nl?id=${id}&whence=">${cell}</a>`;
+                            td.innerHTML = `<a href="https://4294049.app.netsuite.com/app/accounting/transactions/salesord.nl?id=${id}&whence=" target="_blank">${cell}</a>`;
                         } else {
                             td.textContent = cell;
                         }
@@ -216,6 +204,7 @@
             document.getElementById('tables').appendChild(section);
         }
 
+        // Function to create the Despachado table
         function createDespachadoTable(facturacionRows, matchedRows) {
             const section = document.createElement('div');
             section.classList.add('table-section');
@@ -238,8 +227,8 @@
             thead.appendChild(headerRow);
 
             facturacionRows.forEach(row => {
-                const remitoNumber = row[2];
-                const id = row[4];
+                const remitoNumber = row[3]; // "Numero de Remito"
+                const id = row[4]; // "ID"
 
                 const matched = matchedRows.find(match => match.remito === remitoNumber);
                 if (matched) {
@@ -247,8 +236,9 @@
                     row.slice(0, 4).forEach((cell, index) => {
                         const td = document.createElement('td');
 
+                        // Link the "GOA" number to NetSuite
                         if (index === 0) {
-                            td.innerHTML = `<a href="https://4294049.app.netsuite.com/app/accounting/transactions/salesord.nl?id=${id}&whence=">${cell}</a>`;
+                            td.innerHTML = `<a href="https://4294049.app.netsuite.com/app/accounting/transactions/salesord.nl?id=${id}&whence=" target="_blank">${cell}</a>`;
                         } else {
                             td.textContent = cell;
                         }
@@ -270,6 +260,7 @@
             document.getElementById('tables').appendChild(section);
         }
 
+        // Function to split the Preparación table and populate the other tables
         function splitPreparacion(rows) {
             const headers = rows[0];
             const indexNumeroDocumento = headers.indexOf('Número de documento');
@@ -278,8 +269,7 @@
             const indexCantidad = headers.indexOf('Cantidad');
             const indexFecha = headers.indexOf('Fecha');
             const indexOrdenEspecial = headers.indexOf('Orden. Especial?');
-            const indexEstadoOrdenEspecial = headers.indexOf('Estado Orden. Especial');
-            const indexID = headers.indexOf('ID');
+            const indexID = headers.indexOf('ID'); // Assuming "ID" column is present
 
             const pickingRows = [['GOA', 'Cliente', 'Art.', 'Cantidad']];
             const produccionRows = [['GOA', 'Cliente', 'Art.', 'Cantidad']];
@@ -287,7 +277,6 @@
 
             rows.slice(1).forEach(row => {
                 const ordenEspecial = row[indexOrdenEspecial]?.trim();
-                const estadoOrdenEspecial = row[indexEstadoOrdenEspecial]?.trim();
 
                 if (ordenEspecial && ordenEspecial.startsWith('Ejecución')) {
                     const remito = ordenEspecial.slice(-5);
@@ -295,11 +284,7 @@
                 } else if (!ordenEspecial) {
                     pickingRows.push([row[indexNumeroDocumento], row[indexNombre], row[indexArticulo], row[indexCantidad]]);
                 } else if (ordenEspecial.startsWith('Orden de trabajo')) {
-                    if (estadoOrdenEspecial === 'Ensamblada') {
-                        pickingRows.push([row[indexNumeroDocumento], row[indexNombre], row[indexArticulo], row[indexCantidad]]);
-                    } else {
-                        produccionRows.push([row[indexNumeroDocumento], row[indexNombre], row[indexArticulo], row[indexCantidad]]);
-                    }
+                    produccionRows.push([row[indexNumeroDocumento], row[indexNombre], row[indexArticulo], row[indexCantidad]]);
                 }
             });
 
@@ -314,88 +299,23 @@
             });
         }
 
+        // Helper functions to create Picking and Producción tables
         function createPickingTable(rows) {
-            const section = document.createElement('div');
-            section.classList.add('table-section');
-            
-            const h2 = document.createElement('h2');
-            h2.textContent = 'Picking';
-            section.appendChild(h2);
-
-            const table = document.createElement('table');
-            const thead = document.createElement('thead');
-            const tbody = document.createElement('tbody');
-
-            const headers = rows[0];
-            const headerRow = document.createElement('tr');
-            headers.forEach(header => {
-                const th = document.createElement('th');
-                th.textContent = header;
-                headerRow.appendChild(th);
-            });
-            thead.appendChild(headerRow);
-
-            rows.slice(1).forEach(row => {
-                const tr = document.createElement('tr');
-                row.forEach(cell => {
-                    const td = document.createElement('td');
-                    td.textContent = cell;
-                    tr.appendChild(td);
-                });
-                tbody.appendChild(tr);
-            });
-
-            table.appendChild(thead);
-            table.appendChild(tbody);
-            section.appendChild(table);
-
-            document.getElementById('tables').appendChild(section);
+            createTableWithLinks(rows, 'Picking');
         }
 
         function createProduccionTable(rows) {
-            const section = document.createElement('div');
-            section.classList.add('table-section');
-            
-            const h2 = document.createElement('h2');
-            h2.textContent = 'Producción';
-            section.appendChild(h2);
-
-            const table = document.createElement('table');
-            const thead = document.createElement('thead');
-            const tbody = document.createElement('tbody');
-
-            const headers = rows[0];
-            const headerRow = document.createElement('tr');
-            headers.forEach(header => {
-                const th = document.createElement('th');
-                th.textContent = header;
-                headerRow.appendChild(th);
-            });
-            thead.appendChild(headerRow);
-
-            rows.slice(1).forEach(row => {
-                const tr = document.createElement('tr');
-                row.forEach(cell => {
-                    const td = document.createElement('td');
-                    td.textContent = cell;
-                    tr.appendChild(td);
-                });
-                tbody.appendChild(tr);
-            });
-
-            table.appendChild(thead);
-            table.appendChild(tbody);
-            section.appendChild(table);
-
-            document.getElementById('tables').appendChild(section);
+            createTableWithLinks(rows, 'Producción');
         }
 
+        // Fetch all CSV files except Preparación and display them
         csvFiles.forEach(fileInfo => {
             if (fileInfo.title !== 'Preparación') {
                 fetchAndDisplayCSV(fileInfo.file, fileInfo.title);
             }
         });
 
+        // Fetch and display the Preparación table
         fetchAndDisplayCSV('path/to/preparacion.csv', 'Preparación');
     </script>
 </body>
