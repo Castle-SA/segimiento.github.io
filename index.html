@@ -68,35 +68,45 @@
     </div>
 
     <script>
-        // CSV file paths for the original tables
         const csvFiles = [
             { file: 'path/to/control_gp.csv', title: 'Control GP' },
             { file: 'path/to/control_financiero.csv', title: 'Control Financiero' },
             { file: 'path/to/control_fecha_entrega.csv', title: 'Control Fecha de Entrega' },
             { file: 'path/to/control_financiero_2.csv', title: 'Ultimo Control Financiero' },
-            { file: 'path/to/preparacion.csv', title: 'Preparación' } 
+            { file: 'path/to/preparacion.csv', title: 'Preparación' }
         ];
 
-        // URL of the Google Sheet published as CSV for matching Facturación files
         const sheetUrl = 'https://docs.google.com/spreadsheets/d/e/2PACX-1vTmBAXWedGqxYfGaVoGXyCQwBE54QDjnKa5Eel4TTV1-pfqUYYHXrPuww_VBGFMJAqKCD_P9X1nWX_t/pub?output=csv';
 
-        // Function to fetch CSV and convert it to a table for the original layout
+        // Function to fetch and display CSV files
         function fetchAndDisplayCSV(file, title) {
             fetch(file)
                 .then(response => response.text())
                 .then(csv => {
                     const rows = csv.split('\n').map(row => row.split(','));
                     if (title === 'Preparación') {
-                        splitPreparacion(rows); // Split Preparación into multiple tables
+                        splitPreparacion(rows);
                     } else {
-                        createTable(rows, title);
+                        renameAndDisplayTable(rows, title);
                     }
                 })
                 .catch(error => console.error('Error fetching CSV:', error));
         }
 
-        // Function to create and display a generic table
-        function createTable(rows, title) {
+        // Rename columns and create the table
+        function renameAndDisplayTable(rows, title) {
+            const headers = rows[0].map(header => {
+                if (header === "Número de documento") return "GOA";
+                if (header === "Nombre") return "Cliente";
+                return header;
+            });
+
+            rows[0] = headers;
+            createTableWithLinks(rows, title);
+        }
+
+        // Create table and add links to GOA column
+        function createTableWithLinks(rows, title) {
             const section = document.createElement('div');
             section.classList.add('table-section');
 
@@ -108,13 +118,8 @@
             const thead = document.createElement('thead');
             const tbody = document.createElement('tbody');
 
-            // Modify the headers (Nombre -> Cliente, Número de documento -> GOA)
-            const headers = rows[0].map(header => {
-                if (header === 'Nombre') return 'Cliente';
-                if (header === 'Número de documento') return 'GOA';
-                return header;
-            });
-
+            // Create table headers
+            const headers = rows[0];
             const headerRow = document.createElement('tr');
             headers.forEach(header => {
                 const th = document.createElement('th');
@@ -123,23 +128,16 @@
             });
             thead.appendChild(headerRow);
 
-            // Create table body rows
-            const indexID = headers.indexOf('ID');
-            const indexGOA = headers.indexOf('GOA');
-
+            // Create table rows
             rows.slice(1).forEach(row => {
                 const tr = document.createElement('tr');
                 row.forEach((cell, index) => {
                     const td = document.createElement('td');
 
-                    // If this is the "GOA" column, make the value a clickable hyperlink
-                    if (index === indexGOA && indexID !== -1) {
-                        const idValue = row[indexID];
-                        const a = document.createElement('a');
-                        a.href = `https://4294049.app.netsuite.com/app/accounting/transactions/salesord.nl?id=${idValue}&whence=`;
-                        a.textContent = cell;
-                        a.target = "_blank"; // Open in a new tab
-                        td.appendChild(a);
+                    // If this is the "GOA" column, make it a clickable hyperlink
+                    if (headers[index] === "GOA" && row[0]) {
+                        const id = row[0]; // Assuming "GOA" value is used as ID
+                        td.innerHTML = `<a href="https://4294049.app.netsuite.com/app/accounting/transactions/salesord.nl?id=${id}&whence=" target="_blank">${cell}</a>`;
                     } else {
                         td.textContent = cell;
                     }
@@ -156,92 +154,168 @@
             document.getElementById('tables').appendChild(section);
         }
 
-        // Function to create and display the Picking table
+        // Function to create the Remisiones Recientes table
+        function createFacturacionTable(facturacionRows, unmatchedRows) {
+            const section = document.createElement('div');
+            section.classList.add('table-section');
+            
+            const h2 = document.createElement('h2');
+            h2.textContent = 'Remisiones Recientes';
+            section.appendChild(h2);
+
+            const table = document.createElement('table');
+            const thead = document.createElement('thead');
+            const tbody = document.createElement('tbody');
+
+            const headers = ['GOA', 'Fecha', 'Cliente', 'Numero de Remito'];
+            const headerRow = document.createElement('tr');
+            headers.forEach(header => {
+                const th = document.createElement('th');
+                th.textContent = header;
+                headerRow.appendChild(th);
+            });
+            thead.appendChild(headerRow);
+
+            facturacionRows.slice(1).forEach(row => {
+                const remitoNumber = row[3]; // "Numero de Remito"
+                const id = row[4]; // "ID"
+
+                if (unmatchedRows.find(unmatched => unmatched.remito === remitoNumber)) {
+                    const tr = document.createElement('tr');
+                    row.slice(0, 4).forEach((cell, index) => {
+                        const td = document.createElement('td');
+                        
+                        // Link the "GOA" number to NetSuite
+                        if (index === 0) {
+                            td.innerHTML = `<a href="https://4294049.app.netsuite.com/app/accounting/transactions/salesord.nl?id=${id}&whence=" target="_blank">${cell}</a>`;
+                        } else {
+                            td.textContent = cell;
+                        }
+                        tr.appendChild(td);
+                    });
+                    tbody.appendChild(tr);
+                }
+            });
+
+            table.appendChild(thead);
+            table.appendChild(tbody);
+            section.appendChild(table);
+
+            document.getElementById('tables').appendChild(section);
+        }
+
+        // Function to create the Despachado table
+        function createDespachadoTable(facturacionRows, matchedRows) {
+            const section = document.createElement('div');
+            section.classList.add('table-section');
+            
+            const h2 = document.createElement('h2');
+            h2.textContent = 'Despachado';
+            section.appendChild(h2);
+
+            const table = document.createElement('table');
+            const thead = document.createElement('thead');
+            const tbody = document.createElement('tbody');
+
+            const headers = ['GOA', 'Fecha', 'Cliente', 'Numero de Remito', 'Remito'];
+            const headerRow = document.createElement('tr');
+            headers.forEach(header => {
+                const th = document.createElement('th');
+                th.textContent = header;
+                headerRow.appendChild(th);
+            });
+            thead.appendChild(headerRow);
+
+            facturacionRows.forEach(row => {
+                const remitoNumber = row[3]; // "Numero de Remito"
+                const id = row[4]; // "ID"
+
+                const matched = matchedRows.find(match => match.remito === remitoNumber);
+                if (matched) {
+                    const tr = document.createElement('tr');
+                    row.slice(0, 4).forEach((cell, index) => {
+                        const td = document.createElement('td');
+
+                        // Link the "GOA" number to NetSuite
+                        if (index === 0) {
+                            td.innerHTML = `<a href="https://4294049.app.netsuite.com/app/accounting/transactions/salesord.nl?id=${id}&whence=" target="_blank">${cell}</a>`;
+                        } else {
+                            td.textContent = cell;
+                        }
+                        tr.appendChild(td);
+                    });
+
+                    const linkCell = document.createElement('td');
+                    linkCell.innerHTML = `<a href="${matched.fileLink}" target="_blank">Ver</a>`;
+                    tr.appendChild(linkCell);
+
+                    tbody.appendChild(tr);
+                }
+            });
+
+            table.appendChild(thead);
+            table.appendChild(tbody);
+            section.appendChild(table);
+
+            document.getElementById('tables').appendChild(section);
+        }
+
+        // Function to split the Preparación table and populate the other tables
+        function splitPreparacion(rows) {
+            const headers = rows[0];
+            const indexNumeroDocumento = headers.indexOf('Número de documento');
+            const indexNombre = headers.indexOf('Nombre');
+            const indexArticulo = headers.indexOf('Artículo');
+            const indexCantidad = headers.indexOf('Cantidad');
+            const indexFecha = headers.indexOf('Fecha');
+            const indexOrdenEspecial = headers.indexOf('Orden. Especial?');
+            const indexID = headers.indexOf('ID'); // Assuming "ID" column is present
+
+            const pickingRows = [['GOA', 'Cliente', 'Art.', 'Cantidad']];
+            const produccionRows = [['GOA', 'Cliente', 'Art.', 'Cantidad']];
+            const facturacionRows = [['GOA', 'Fecha', 'Cliente', 'Numero de Remito', 'ID']];
+
+            rows.slice(1).forEach(row => {
+                const ordenEspecial = row[indexOrdenEspecial]?.trim();
+
+                if (ordenEspecial && ordenEspecial.startsWith('Ejecución')) {
+                    const remito = ordenEspecial.slice(-5);
+                    facturacionRows.push([row[indexNumeroDocumento], row[indexFecha], row[indexNombre], remito, row[indexID]]);
+                } else if (!ordenEspecial) {
+                    pickingRows.push([row[indexNumeroDocumento], row[indexNombre], row[indexArticulo], row[indexCantidad]]);
+                } else if (ordenEspecial.startsWith('Orden de trabajo')) {
+                    produccionRows.push([row[indexNumeroDocumento], row[indexNombre], row[indexArticulo], row[indexCantidad]]);
+                }
+            });
+
+            createPickingTable(pickingRows);
+            createProduccionTable(produccionRows);
+            
+            fetchCsvData(sheetUrl).then(csvData => {
+                const files = parseCsvData(csvData);
+                const { matched, unmatched } = compareRemitoWithFiles(facturacionRows.map(row => row[3]), files);
+                createFacturacionTable(facturacionRows, unmatched);
+                createDespachadoTable(facturacionRows, matched);
+            });
+        }
+
+        // Helper functions to create Picking and Producción tables
         function createPickingTable(rows) {
-            const section = document.createElement('div');
-            section.classList.add('table-section');
-            
-            const h2 = document.createElement('h2');
-            h2.textContent = 'Picking';
-            section.appendChild(h2);
-
-            const table = document.createElement('table');
-            const thead = document.createElement('thead');
-            const tbody = document.createElement('tbody');
-
-            const headers = rows[0];
-            const headerRow = document.createElement('tr');
-            headers.forEach(header => {
-                const th = document.createElement('th');
-                th.textContent = header;
-                headerRow.appendChild(th);
-            });
-            thead.appendChild(headerRow);
-
-            rows.slice(1).forEach(row => {
-                const tr = document.createElement('tr');
-                row.forEach(cell => {
-                    const td = document.createElement('td');
-                    td.textContent = cell;
-                    tr.appendChild(td);
-                });
-                tbody.appendChild(tr);
-            });
-
-            table.appendChild(thead);
-            table.appendChild(tbody);
-            section.appendChild(table);
-
-            document.getElementById('tables').appendChild(section);
+            createTableWithLinks(rows, 'Picking');
         }
 
-        // Function to create and display the Producción table
         function createProduccionTable(rows) {
-            const section = document.createElement('div');
-            section.classList.add('table-section');
-            
-            const h2 = document.createElement('h2');
-            h2.textContent = 'Producción';
-            section.appendChild(h2);
-
-            const table = document.createElement('table');
-            const thead = document.createElement('thead');
-            const tbody = document.createElement('tbody');
-
-            const headers = rows[0];
-            const headerRow = document.createElement('tr');
-            headers.forEach(header => {
-                const th = document.createElement('th');
-                th.textContent = header;
-                headerRow.appendChild(th);
-            });
-            thead.appendChild(headerRow);
-
-            rows.slice(1).forEach(row => {
-                const tr = document.createElement('tr');
-                row.forEach(cell => {
-                    const td = document.createElement('td');
-                    td.textContent = cell;
-                    tr.appendChild(td);
-                });
-                tbody.appendChild(tr);
-            });
-
-            table.appendChild(thead);
-            table.appendChild(tbody);
-            section.appendChild(table);
-
-            document.getElementById('tables').appendChild(section);
+            createTableWithLinks(rows, 'Producción');
         }
 
-        // Fetch and display the original CSV files (other than Preparación)
+        // Fetch all CSV files except Preparación and display them
         csvFiles.forEach(fileInfo => {
             if (fileInfo.title !== 'Preparación') {
                 fetchAndDisplayCSV(fileInfo.file, fileInfo.title);
             }
         });
 
-        // Run the splitting of Preparación and fetching of Facturación files
+        // Fetch and display the Preparación table
         fetchAndDisplayCSV('path/to/preparacion.csv', 'Preparación');
     </script>
 </body>
