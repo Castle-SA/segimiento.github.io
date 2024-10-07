@@ -94,6 +94,8 @@
             const pickingRows = [headers];
             const produccionRows = [headers];
             const pedidosRows = [headers];
+            const remitidoRows = [headers]; // "Recientemente Remitido"
+            const despachadoRows = [headers]; // "Despachado"
 
             // Classify rows based on the "Orden. Especial?" column
             rows.slice(1).forEach(row => {
@@ -109,6 +111,12 @@
                 } else if (ordenEspecial.startsWith('Pedido')) {
                     // "Pedido" -> Pedidos
                     pedidosRows.push(row);
+                } else if (ordenEspecial.startsWith('Remito')) {
+                    // "Remito" -> Recientemente Remitido
+                    remitidoRows.push(row);
+                } else if (ordenEspecial.startsWith('Despacho')) {
+                    // "Despacho" -> Despachado
+                    despachadoRows.push(row);
                 }
             });
 
@@ -116,6 +124,8 @@
             createTable(pickingRows, 'Picking');
             createTable(produccionRows, 'Producción');
             createTable(pedidosRows, 'Pedidos');
+            createTable(remitidoRows, 'Recientemente Remitido');
+            createTable(despachadoRows, 'Despachado');
         }
 
         // Function to create and display a table
