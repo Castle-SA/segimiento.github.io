@@ -31,9 +31,12 @@
         }
 
         .container {
-            display: grid;
-            grid-template-columns: repeat(3, 1fr); /* 3-column layout */
+            display: flex;
             gap: 20px;
+        }
+
+        .column {
+            flex: 1; /* Ensures each column takes up equal space */
         }
 
         .table-section {
@@ -77,18 +80,26 @@
 <body>
     <h1>Castle SA - Seguimiento</h1>
 
-    <div class="container" id="tables">
-        <!-- Tables will be inserted here by JavaScript -->
+    <div class="container">
+        <div class="column" id="column-1">
+            <!-- First Column: Control GP, Control Financiero, Control Fecha de Entrega, Ultimo Control Financiero -->
+        </div>
+        <div class="column" id="column-2">
+            <!-- Second Column: Picking, Producción -->
+        </div>
+        <div class="column" id="column-3">
+            <!-- Third Column: Remisiones Recientes, Despachado -->
+        </div>
     </div>
 
     <script>
         // CSV file paths for the original tables
         const csvFiles = [
-            { file: 'path/to/control_gp.csv', title: 'Control GP' },
-            { file: 'path/to/control_financiero.csv', title: 'Control Financiero' },
-            { file: 'path/to/control_fecha_entrega.csv', title: 'Control Fecha de Entrega' },
-            { file: 'path/to/control_financiero_2.csv', title: 'Ultimo Control Financiero' },
-            { file: 'path/to/preparacion.csv', title: 'Preparación' }
+            { file: 'path/to/control_gp.csv', title: 'Control GP', column: 1 },
+            { file: 'path/to/control_financiero.csv', title: 'Control Financiero', column: 1 },
+            { file: 'path/to/control_fecha_entrega.csv', title: 'Control Fecha de Entrega', column: 1 },
+            { file: 'path/to/control_financiero_2.csv', title: 'Ultimo Control Financiero', column: 1 },
+            { file: 'path/to/preparacion.csv', title: 'Preparación', column: 2 } // Preparación will be split into Picking and Producción
         ];
 
         // URL of the Google Sheet published as CSV for matching Facturación files
@@ -110,7 +121,7 @@
         }
 
         // Function to fetch CSV and convert it to a table for the original layout
-        function fetchAndDisplayCSV(file, title) {
+        function fetchAndDisplayCSV(file, title, column) {
             fetch(file)
                 .then(response => response.text())
                 .then(csv => {
@@ -124,7 +135,7 @@
                     if (title === 'Preparación') {
                         splitPreparacion(rows); // Split Preparación into multiple tables
                     } else {
-                        createTableWithLinks(rows, title);
+                        createTableWithLinks(rows, title, column);
                     }
                 })
                 .catch(error => console.error('Error fetching CSV:', error));
@@ -136,7 +147,7 @@
         }
 
         // Function to create and display a table with links in the "GOA" column
-        function createTableWithLinks(rows, title) {
+        function createTableWithLinks(rows, title, column) {
             const section = document.createElement('div');
             section.classList.add('table-section');
 
@@ -196,7 +207,8 @@
             table.appendChild(tbody);
             section.appendChild(table);
 
-            document.getElementById('tables').appendChild(section);
+            // Append the table section to the specified column
+            document.getElementById(`column-${column}`).appendChild(section);
         }
 
         // Function to split the "Preparación" table into Picking, Producción, Facturación, and Despachado
@@ -250,121 +262,12 @@
 
         // Function to create and display the Picking table with links
         function createPickingTableWithLinks(rows) {
-            const section = document.createElement('div');
-            section.classList.add('table-section');
-            
-            const h2 = document.createElement('h2');
-            h2.textContent = 'Picking';
-            section.appendChild(h2);
-
-            const table = document.createElement('table');
-            const thead = document.createElement('thead');
-            const tbody = document.createElement('tbody');
-
-            const headers = rows[0];
-
-            const headerRow = document.createElement('tr');
-            headers.forEach(header => {
-                const th = document.createElement('th');
-                if (header === 'ID') {
-                    th.classList.add('hidden'); // Hide ID column header
-                }
-                th.textContent = header;
-                headerRow.appendChild(th);
-            });
-            thead.appendChild(headerRow);
-
-            rows.slice(1).forEach(row => {
-                const tr = document.createElement('tr');
-                row.forEach((cell, index) => {
-                    const td = document.createElement('td');
-
-                    // Hide the "ID" column
-                    if (headers[index] === 'ID') {
-                        td.classList.add('hidden'); // Hide the ID column in rows as well
-                    }
-
-                    // If this is the "GOA" column, make it a clickable hyperlink using the correct ID
-                    if (headers[index] === "GOA") {
-                        const id = row[headers.length - 1]?.trim(); // Ensure we're using the correct ID column
-                        if (id) {
-                            td.innerHTML = `<a href="https://4294049.app.netsuite.com/app/accounting/transactions/salesord.nl?id=${id}&whence=" target="_blank">${cell}</a>`;
-                        } else {
-                            td.textContent = cell;
-                        }
-                    } else {
-                        td.textContent = cell;
-                    }
-
-                    tr.appendChild(td);
-                });
-                tbody.appendChild(tr);
-            });
-
-            table.appendChild(thead);
-            table.appendChild(tbody);
-            section.appendChild(table);
-
-            document.getElementById('tables').appendChild(section);
+            createTableWithLinks(rows, 'Picking', 2); // Display in column 2
         }
 
         // Function to create and display the Producción table with links
         function createProduccionTableWithLinks(rows) {
-            const section = document.createElement('div');
-            section.classList.add('table-section');
-            
-            const h2 = document.createElement('h2');
-            h2.textContent = 'Producción';
-            section.appendChild(h2);
-
-            const table = document.createElement('table');
-            const thead = document.createElement('thead');
-            const tbody = document.createElement('tbody');
-
-            const headers = rows[0];
-
-            const headerRow = document.createElement('tr');
-            headers.forEach(header => {
-                const th = document.createElement('th');
-                if (header === 'ID') {
-                    th.classList.add('hidden'); // Hide ID column header
-                }
-                th.textContent = header;
-                headerRow.appendChild(th);
-            });
-            thead.appendChild(headerRow);
-
-            rows.slice(1).forEach(row => {
-                const tr = document.createElement('tr');
-                row.forEach((cell, index) => {
-                    const td = document.createElement('td');
-
-                    // Hide the "ID" column
-                    if (headers[index] === 'ID') {
-                        td.classList.add('hidden'); // Hide the ID column in rows as well
-                    }
-
-                    if (headers[index] === "GOA") {
-                        const id = row[headers.length - 1]?.trim(); // Ensure we're using the correct ID column
-                        if (id) {
-                            td.innerHTML = `<a href="https://4294049.app.netsuite.com/app/accounting/transactions/salesord.nl?id=${id}&whence=" target="_blank">${cell}</a>`;
-                        } else {
-                            td.textContent = cell;
-                        }
-                    } else {
-                        td.textContent = cell;
-                    }
-
-                    tr.appendChild(td);
-                });
-                tbody.appendChild(tr);
-            });
-
-            table.appendChild(thead);
-            table.appendChild(tbody);
-            section.appendChild(table);
-
-            document.getElementById('tables').appendChild(section);
+            createTableWithLinks(rows, 'Producción', 2); // Display in column 2
         }
 
         // Function to create and display the Remisiones Recientes table (unmatched rows)
@@ -408,7 +311,7 @@
             table.appendChild(tbody);
             section.appendChild(table);
 
-            document.getElementById('tables').appendChild(section);
+            document.getElementById('column-3').appendChild(section); // Display in column 3
         }
 
         // Function to create and display the Despachado table (matched rows)
@@ -457,7 +360,7 @@
             table.appendChild(tbody);
             section.appendChild(table);
 
-            document.getElementById('tables').appendChild(section);
+            document.getElementById('column-3').appendChild(section); // Display in column 3
         }
 
         // Function to fetch Google Sheet CSV data and parse it
@@ -500,7 +403,7 @@
 
         // Fetch and display the original CSV files (including column renaming for the first four tables)
         csvFiles.forEach(fileInfo => {
-            fetchAndDisplayCSV(fileInfo.file, fileInfo.title);
+            fetchAndDisplayCSV(fileInfo.file, fileInfo.title, fileInfo.column);
         });
 
     </script>
