@@ -79,13 +79,13 @@
 
     <div class="container">
         <div class="column" id="column-1">
-            <!-- Column 1: Control GP, Control Financiero -->
+            <!-- Column 1: Approvals (Control GP, Control Financiero, Control Fecha de Entrega, Ultimo Control Financiero) -->
         </div>
         <div class="column" id="column-2">
-            <!-- Column 2: Control Fecha de Entrega, Ultimo Control Financiero -->
+            <!-- Column 2: Producción -->
         </div>
         <div class="column" id="column-3">
-            <!-- Column 3: Picking, Producción -->
+            <!-- Column 3: Picking -->
         </div>
         <div class="column" id="column-4">
             <!-- Column 4: Remisiones Recientes, Despachado -->
@@ -97,9 +97,9 @@
         const csvFiles = [
             { file: 'path/to/control_gp.csv', title: 'Control GP', column: 1 },
             { file: 'path/to/control_financiero.csv', title: 'Control Financiero', column: 1 },
-            { file: 'path/to/control_fecha_entrega.csv', title: 'Control Fecha de Entrega', column: 2 },
-            { file: 'path/to/control_financiero_2.csv', title: 'Ultimo Control Financiero', column: 2 },
-            { file: 'path/to/preparacion.csv', title: 'Preparación', column: 3 } // Preparación will be split into Picking and Producción
+            { file: 'path/to/control_fecha_entrega.csv', title: 'Control Fecha de Entrega', column: 1 },
+            { file: 'path/to/control_financiero_2.csv', title: 'Ultimo Control Financiero', column: 1 },
+            { file: 'path/to/preparacion.csv', title: 'Preparación', column: 2 } // Preparación will be split into Producción and Picking
         ];
 
         // URL of the Google Sheet published as CSV for matching Facturación files
@@ -212,7 +212,7 @@
             document.getElementById(`column-${column}`).appendChild(section);
         }
 
-        // Function to split the "Preparación" table into Picking, Producción, Facturación, and Despachado
+        // Function to split the "Preparación" table into Producción, Picking, Facturación, and Despachado
         function splitPreparacion(rows) {
             const headers = rows[0];
 
@@ -249,8 +249,8 @@
                 }
             });
 
-            createPickingTableWithLinks(pickingRows); // Custom Picking table
-            createProduccionTableWithLinks(produccionRows); // Producción table
+            createProduccionTableWithLinks(produccionRows); // Custom Producción table
+            createPickingTableWithLinks(pickingRows);       // Picking table
             
             // Fetch file data and populate Facturación and Despachado tables
             fetchCsvData(sheetUrl).then(csvData => {
@@ -268,7 +268,7 @@
 
         // Function to create and display the Producción table with links
         function createProduccionTableWithLinks(rows) {
-            createTableWithLinks(rows, 'Producción', 3); // Display in column 3
+            createTableWithLinks(rows, 'Producción', 2); // Display in column 2
         }
 
         // Function to create and display the Remisiones Recientes table (unmatched rows)
