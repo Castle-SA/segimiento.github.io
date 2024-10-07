@@ -171,8 +171,8 @@
         function splitPreparacion(rows) {
             const headers = rows[0];
 
-            const indexNumeroDocumento = headers.indexOf('GOA');
-            const indexNombre = headers.indexOf('Cliente');
+            const indexNumeroDocumento = headers.indexOf('Número de documento');
+            const indexNombre = headers.indexOf('Nombre');
             const indexArticulo = headers.indexOf('Artículo');
             const indexCantidad = headers.indexOf('Cantidad');
             const indexOrdenEspecial = headers.indexOf('Orden. Especial?');
@@ -228,7 +228,12 @@
             const thead = document.createElement('thead');
             const tbody = document.createElement('tbody');
 
-            const headers = rows[0];
+            const headers = rows[0].map(header => {
+                if (header === 'Número de documento') return 'GOA';
+                if (header === 'Nombre') return 'Cliente';
+                return header;
+            });
+
             const headerRow = document.createElement('tr');
             headers.forEach(header => {
                 const th = document.createElement('th');
@@ -267,7 +272,12 @@
             const thead = document.createElement('thead');
             const tbody = document.createElement('tbody');
 
-            const headers = rows[0];
+            const headers = rows[0].map(header => {
+                if (header === 'Número de documento') return 'GOA';
+                if (header === 'Nombre') return 'Cliente';
+                return header;
+            });
+
             const headerRow = document.createElement('tr');
             headers.forEach(header => {
                 const th = document.createElement('th');
