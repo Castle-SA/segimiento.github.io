@@ -19,12 +19,21 @@
             font-weight: 600;
         }
 
+        h1 {
+            font-size: 24px;
+        }
+
         h2 {
-            font-size: 13px; /* Smaller heading text */
+            font-size: 16px;
+            margin-bottom: 10px;
+            font-weight: bold;
+            color: #333;
         }
 
         .container {
-            display: block; /* Single-column layout */
+            display: grid;
+            grid-template-columns: repeat(3, 1fr); /* 3-column layout */
+            gap: 20px;
         }
 
         .table-section {
@@ -34,7 +43,8 @@
         table {
             width: 100%;
             border-collapse: collapse;
-            font-size: 12px; /* Slightly larger text for easier viewing */
+            font-size: 11px; /* Smaller text */
+            font-weight: bold; /* Bold text */
         }
 
         table, th, td {
