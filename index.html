@@ -118,7 +118,7 @@
 
         // Function to find the index of the "ID" column
         function findIdColumnIndex(headers) {
-            return headers.indexOf('ID');
+            return headers.indexOf('ID'); // The ID column should be in every CSV file
         }
 
         // Function to create and display a table with links in the "GOA" column
@@ -181,16 +181,16 @@
         function splitPreparacion(rows) {
             const headers = rows[0];
 
-            const indexNumeroDocumento = headers.indexOf('GOA');
-            const indexNombre = headers.indexOf('Cliente');
+            const indexNumeroDocumento = headers.indexOf('Número de documento');
+            const indexNombre = headers.indexOf('Nombre');
             const indexArticulo = headers.indexOf('Artículo');
             const indexCantidad = headers.indexOf('Cantidad');
             const indexOrdenEspecial = headers.indexOf('Orden. Especial?');
             const indexEstadoOrdenEspecial = headers.indexOf('Estado Orden. Especial');
             const idColumnIndex = findIdColumnIndex(headers); // Get the ID column index
 
-            const pickingRows = [['GOA', 'Cliente', 'Art.', 'Cantidad']];
-            const produccionRows = [['GOA', 'Cliente', 'Art.', 'Cantidad']];
+            const pickingRows = [['GOA', 'Cliente', 'Art.', 'Cantidad', 'ID']];
+            const produccionRows = [['GOA', 'Cliente', 'Art.', 'Cantidad', 'ID']];
             const facturacionRows = [['GOA', 'Cliente', 'Numero de Remito', 'ID']];
 
             rows.slice(1).forEach(row => {
@@ -203,13 +203,13 @@
                     facturacionRows.push([row[indexNumeroDocumento], row[indexNombre], remito, row[idColumnIndex]]);
                 } else if (!ordenEspecial) {
                     // Picking -> Only include relevant columns
-                    pickingRows.push([row[indexNumeroDocumento], row[indexNombre], row[indexArticulo], row[indexCantidad]]);
+                    pickingRows.push([row[indexNumeroDocumento], row[indexNombre], row[indexArticulo], row[indexCantidad], row[idColumnIndex]]);
                 } else if (ordenEspecial.startsWith('Orden de trabajo')) {
                     // Producción or Picking based on "Estado Orden. Especial"
                     if (estadoOrdenEspecial === 'Ensamblada') {
-                        pickingRows.push([row[indexNumeroDocumento], row[indexNombre], row[indexArticulo], row[indexCantidad]]);
+                        pickingRows.push([row[indexNumeroDocumento], row[indexNombre], row[indexArticulo], row[indexCantidad], row[idColumnIndex]]);
                     } else {
-                        produccionRows.push([row[indexNumeroDocumento], row[indexNombre], row[indexArticulo], row[indexCantidad]]);
+                        produccionRows.push([row[indexNumeroDocumento], row[indexNombre], row[indexArticulo], row[indexCantidad], row[idColumnIndex]]);
                     }
                 }
             });
@@ -227,7 +227,7 @@
         }
 
         // Function to create and display the Picking table with links
-        function createPickingTableWithLinks(rows, idColumnIndex) {
+        function createPickingTableWithLinks(rows) {
             const section = document.createElement('div');
             section.classList.add('table-section');
             
@@ -256,7 +256,7 @@
 
                     // If this is the "GOA" column, make it a clickable hyperlink using the correct ID
                     if (headers[index] === "GOA") {
-                        const id = row[idColumnIndex]?.trim(); // Get the ID value from the correct column
+                        const id = row[headers.length - 1]?.trim(); // Ensure we're using the correct ID column
                         if (id) {
                             td.innerHTML = `<a href="https://4294049.app.netsuite.com/app/accounting/transactions/salesord.nl?id=${id}&whence=" target="_blank">${cell}</a>`;
                         } else {
@@ -279,7 +279,7 @@
         }
 
         // Function to create and display the Producción table with links
-        function createProduccionTableWithLinks(rows, idColumnIndex) {
+        function createProduccionTableWithLinks(rows) {
             const section = document.createElement('div');
             section.classList.add('table-section');
             
@@ -307,7 +307,7 @@
                     const td = document.createElement('td');
 
                     if (headers[index] === "GOA") {
-                        const id = row[idColumnIndex]?.trim(); // Get the ID value from the correct column
+                        const id = row[headers.length - 1]?.trim(); // Ensure we're using the correct ID column
                         if (id) {
                             td.innerHTML = `<a href="https://4294049.app.netsuite.com/app/accounting/transactions/salesord.nl?id=${id}&whence=" target="_blank">${cell}</a>`;
                         } else {
