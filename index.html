@@ -135,10 +135,10 @@
                     const td = document.createElement('td');
 
                     // If this is the "GOA" column, make it a clickable hyperlink
-                    if (headers[index] === "GOA" && row[0]) {
+                    if (headers[index] === "GOA") {
                         const idIndex = headers.indexOf("ID"); // Find the "ID" column index
-                        const id = row[idIndex]; // Use the "ID" value for the link
-                        td.innerHTML = `<a href="https://4294049.app.netsuite.com/app/accounting/transactions/salesord.nl?id=${id}&whence=" target="_blank">${cell}</a>`;
+                        const id = row[idIndex]; // Use the "ID" value for the link if available
+                        td.innerHTML = id ? `<a href="https://4294049.app.netsuite.com/app/accounting/transactions/salesord.nl?id=${id}&whence=" target="_blank">${cell}</a>` : cell;
                     } else {
                         td.textContent = cell;
                     }
@@ -188,7 +188,7 @@
                         
                         // Link the "GOA" number to NetSuite
                         if (index === 0) {
-                            td.innerHTML = `<a href="https://4294049.app.netsuite.com/app/accounting/transactions/salesord.nl?id=${id}&whence=" target="_blank">${cell}</a>`;
+                            td.innerHTML = id ? `<a href="https://4294049.app.netsuite.com/app/accounting/transactions/salesord.nl?id=${id}&whence=" target="_blank">${cell}</a>` : cell;
                         } else {
                             td.textContent = cell;
                         }
@@ -239,7 +239,7 @@
 
                         // Link the "GOA" number to NetSuite
                         if (index === 0) {
-                            td.innerHTML = `<a href="https://4294049.app.netsuite.com/app/accounting/transactions/salesord.nl?id=${id}&whence=" target="_blank">${cell}</a>`;
+                            td.innerHTML = id ? `<a href="https://4294049.app.netsuite.com/app/accounting/transactions/salesord.nl?id=${id}&whence=" target="_blank">${cell}</a>` : cell;
                         } else {
                             td.textContent = cell;
                         }
