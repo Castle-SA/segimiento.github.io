@@ -135,7 +135,7 @@
                     if (title === 'Preparación') {
                         splitPreparacion(rows); // Split Preparación into multiple tables
                     } else {
-                        createTableWithLinks(rows, title, column);
+                        createUnifiedTable(rows, title, column);
                     }
                 })
                 .catch(error => console.error('Error fetching CSV:', error));
@@ -146,8 +146,8 @@
             return headers.indexOf('ID'); // The ID column should be in every CSV file
         }
 
-        // Function to create and display a table with links in the "GOA" column
-        function createTableWithLinks(rows, title, column) {
+        // Unified function to create and display a table (now handles all tables)
+        function createUnifiedTable(rows, title, column) {
             const section = document.createElement('div');
             section.classList.add('table-section');
 
@@ -214,7 +214,7 @@
             const indexCantidad = headers.indexOf('Cantidad');
             const indexOrdenEspecial = headers.indexOf('Orden. Especial?');
             const indexEstadoOrdenEspecial = headers.indexOf('Estado Orden. Especial');
-            const idColumnIndex = headers.indexOf('ID'); // Get the ID column index
+            const idColumnIndex = findIdColumnIndex(headers); // Get the ID column index
 
             const pickingRows = [['GOA', 'Cliente', 'Art.', 'Cantidad', 'ID']];
             const produccionRows = [['GOA', 'Cliente', 'Art.', 'Cantidad', 'ID']];
@@ -241,119 +241,16 @@
                 }
             });
 
-            createProduccionTableWithLinks(produccionRows); // Custom Producción table
-            createPickingTableWithLinks(pickingRows);       // Picking table
+            createUnifiedTable(produccionRows, 'Producción', 2); // Custom Producción table
+            createUnifiedTable(pickingRows, 'Picking', 3);       // Picking table
             
             // Fetch file data and populate Facturación and Despachado tables
             fetchCsvData(sheetUrl).then(csvData => {
                 const files = parseCsvData(csvData);
                 const { matched, unmatched } = compareRemitoWithFiles(facturacionRows.map(row => row[2]), files);
-                createFacturacionTable(facturacionRows, unmatched); // Display unmatched table first
-                createDespachadoTable(facturacionRows, matched);    // Display Despachado table next
+                createUnifiedTable(facturacionRows, 'Remisiones Recientes', 4); // Display unmatched table first
+                createUnifiedTable(facturacionRows, 'Despachado', 4);    // Display Despachado table next
             });
-        }
-
-        // Function to create and display the Picking table with links
-        function createPickingTableWithLinks(rows) {
-            createTableWithLinks(rows, 'Picking', 3); // Display in column 3
-        }
-
-        // Function to create and display the Producción table with links
-        function createProduccionTableWithLinks(rows) {
-            createTableWithLinks(rows, 'Producción', 2); // Display in column 2
-        }
-
-        // Function to create and display the Remisiones Recientes table (unmatched rows)
-        function createFacturacionTable(facturacionRows, unmatchedRows) {
-            const section = document.createElement('div');
-            section.classList.add('table-section');
-            
-            const h2 = document.createElement('h2');
-            h2.textContent = 'Remisiones Recientes';
-            section.appendChild(h2);
-
-            const table = document.createElement('table');
-            const thead = document.createElement('thead');
-            const tbody = document.createElement('tbody');
-
-            const headers = ['GOA', 'Cliente', 'Numero de Remito'];
-            const headerRow = document.createElement('tr');
-            headers.forEach(header => {
-                const th = document.createElement('th');
-                th.textContent = header;
-                headerRow.appendChild(th);
-            });
-            thead.appendChild(headerRow);
-
-            facturacionRows.slice(1).forEach(row => {
-                const remitoNumber = row[2]; // "Numero de Remito" column
-
-                // Only display rows without a match
-                if (unmatchedRows.find(unmatched => unmatched.remito === remitoNumber)) {
-                    const tr = document.createElement('tr');
-                    row.slice(0, 3).forEach(cell => {
-                        const td = document.createElement('td');
-                        td.textContent = cell;
-                        tr.appendChild(td);
-                    });
-                    tbody.appendChild(tr);
-                }
-            });
-
-            table.appendChild(thead);
-            table.appendChild(tbody);
-            section.appendChild(table);
-
-            document.getElementById('column-4').appendChild(section); // Display in column 4
-        }
-
-        // Function to create and display the Despachado table (matched rows)
-        function createDespachadoTable(facturacionRows, matchedRows) {
-            const section = document.createElement('div');
-            section.classList.add('table-section');
-            
-            const h2 = document.createElement('h2');
-            h2.textContent = 'Despachado';
-            section.appendChild(h2);
-
-            const table = document.createElement('table');
-            const thead = document.createElement('thead');
-            const tbody = document.createElement('tbody');
-
-            const headers = ['GOA', 'Cliente', 'Numero de Remito', 'Remito'];
-            const headerRow = document.createElement('tr');
-            headers.forEach(header => {
-                const th = document.createElement('th');
-                th.textContent = header;
-                headerRow.appendChild(th);
-            });
-            thead.appendChild(headerRow);
-
-            facturacionRows.forEach(row => {
-                const remitoNumber = row[2]; // "Numero de Remito" column
-
-                const matched = matchedRows.find(match => match.remito === remitoNumber);
-                if (matched) {
-                    const tr = document.createElement('tr');
-                    row.slice(0, 3).forEach(cell => {
-                        const td = document.createElement('td');
-                        td.textContent = cell;
-                        tr.appendChild(td);
-                    });
-
-                    const linkCell = document.createElement('td');
-                    linkCell.innerHTML = `<a href="${matched.fileLink}" target="_blank">Ver</a>`;
-                    tr.appendChild(linkCell);
-
-                    tbody.appendChild(tr);
-                }
-            });
-
-            table.appendChild(thead);
-            table.appendChild(tbody);
-            section.appendChild(table);
-
-            document.getElementById('column-4').appendChild(section); // Display in column 4
         }
 
         // Function to fetch Google Sheet CSV data and parse it
