@@ -74,7 +74,7 @@
                     const rows = csv.split('\n').map(row => row.split(','));
 
                     if (title === 'Preparación') {
-                        // Split the "Preparación" table into 4 parts
+                        // Split the "Preparación" table into 3 parts
                         splitPreparacion(rows);
                     } else {
                         createTable(rows, title);
@@ -94,7 +94,6 @@
             const pickingRows = [headers];
             const produccionRows = [headers];
             const pedidosRows = [headers];
-            const remitoRows = [headers];  // New table for "Remito"
 
             // Classify rows based on the "Orden. Especial?" column
             rows.slice(1).forEach(row => {
@@ -110,9 +109,6 @@
                 } else if (ordenEspecial.startsWith('Pedido')) {
                     // "Pedido" -> Pedidos
                     pedidosRows.push(row);
-                } else if (ordenEspecial.startsWith('Remito')) {
-                    // "Remito" -> Remito
-                    remitoRows.push(row);
                 }
             });
 
@@ -120,7 +116,6 @@
             createTable(pickingRows, 'Picking');
             createTable(produccionRows, 'Producción');
             createTable(pedidosRows, 'Pedidos');
-            createTable(remitoRows, 'Remito');  // New table for "Remito"
         }
 
         // Function to create and display a table
