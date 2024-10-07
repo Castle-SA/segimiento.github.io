@@ -58,6 +58,10 @@
         a:hover {
             text-decoration: underline;
         }
+
+        .hidden {
+            display: none;
+        }
     </style>
 </head>
 <body>
@@ -139,6 +143,9 @@
             const headerRow = document.createElement('tr');
             headers.forEach(header => {
                 const th = document.createElement('th');
+                if (header === 'ID') {
+                    th.classList.add('hidden'); // Hide ID column header
+                }
                 th.textContent = header;
                 headerRow.appendChild(th);
             });
@@ -151,6 +158,11 @@
                 const tr = document.createElement('tr');
                 row.forEach((cell, index) => {
                     const td = document.createElement('td');
+
+                    // Hide the "ID" column
+                    if (headers[index] === 'ID') {
+                        td.classList.add('hidden'); // Hide the ID column in rows as well
+                    }
 
                     // If this is the "GOA" column, make it a clickable hyperlink using the ID
                     if (headers[index] === "GOA") {
@@ -214,8 +226,8 @@
                 }
             });
 
-            createPickingTableWithLinks(pickingRows, idColumnIndex); // Custom Picking table
-            createProduccionTableWithLinks(produccionRows, idColumnIndex); // Producción table
+            createPickingTableWithLinks(pickingRows); // Custom Picking table
+            createProduccionTableWithLinks(produccionRows); // Producción table
             
             // Fetch file data and populate Facturación and Despachado tables
             fetchCsvData(sheetUrl).then(csvData => {
@@ -244,6 +256,9 @@
             const headerRow = document.createElement('tr');
             headers.forEach(header => {
                 const th = document.createElement('th');
+                if (header === 'ID') {
+                    th.classList.add('hidden'); // Hide ID column header
+                }
                 th.textContent = header;
                 headerRow.appendChild(th);
             });
@@ -253,6 +268,11 @@
                 const tr = document.createElement('tr');
                 row.forEach((cell, index) => {
                     const td = document.createElement('td');
+
+                    // Hide the "ID" column
+                    if (headers[index] === 'ID') {
+                        td.classList.add('hidden'); // Hide the ID column in rows as well
+                    }
 
                     // If this is the "GOA" column, make it a clickable hyperlink using the correct ID
                     if (headers[index] === "GOA") {
@@ -296,6 +316,9 @@
             const headerRow = document.createElement('tr');
             headers.forEach(header => {
                 const th = document.createElement('th');
+                if (header === 'ID') {
+                    th.classList.add('hidden'); // Hide ID column header
+                }
                 th.textContent = header;
                 headerRow.appendChild(th);
             });
@@ -305,6 +328,11 @@
                 const tr = document.createElement('tr');
                 row.forEach((cell, index) => {
                     const td = document.createElement('td');
+
+                    // Hide the "ID" column
+                    if (headers[index] === 'ID') {
+                        td.classList.add('hidden'); // Hide the ID column in rows as well
+                    }
 
                     if (headers[index] === "GOA") {
                         const id = row[headers.length - 1]?.trim(); // Ensure we're using the correct ID column
