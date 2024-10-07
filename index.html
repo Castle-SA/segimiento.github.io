@@ -105,7 +105,7 @@
             createTableWithLinks(rows, title);
         }
 
-        // Create table and add links to GOA column (using ID)
+        // Create table and add links to GOA column
         function createTableWithLinks(rows, title) {
             const section = document.createElement('div');
             section.classList.add('table-section');
@@ -135,10 +135,9 @@
                     const td = document.createElement('td');
 
                     // If this is the "GOA" column, make it a clickable hyperlink
-                    if (headers[index] === "GOA") {
-                        const idIndex = headers.indexOf("ID"); // Find the "ID" column index
-                        const id = row[idIndex]; // Use the "ID" value for the link if available
-                        td.innerHTML = id ? `<a href="https://4294049.app.netsuite.com/app/accounting/transactions/salesord.nl?id=${id}&whence=" target="_blank">${cell}</a>` : cell;
+                    if (headers[index] === "GOA" && row[0]) {
+                        const id = row[0]; // Assuming "GOA" value is used as ID
+                        td.innerHTML = `<a href="https://4294049.app.netsuite.com/app/accounting/transactions/salesord.nl?id=${id}&whence=" target="_blank">${cell}</a>`;
                     } else {
                         td.textContent = cell;
                     }
@@ -188,7 +187,7 @@
                         
                         // Link the "GOA" number to NetSuite
                         if (index === 0) {
-                            td.innerHTML = id ? `<a href="https://4294049.app.netsuite.com/app/accounting/transactions/salesord.nl?id=${id}&whence=" target="_blank">${cell}</a>` : cell;
+                            td.innerHTML = `<a href="https://4294049.app.netsuite.com/app/accounting/transactions/salesord.nl?id=${id}&whence=" target="_blank">${cell}</a>`;
                         } else {
                             td.textContent = cell;
                         }
@@ -239,7 +238,7 @@
 
                         // Link the "GOA" number to NetSuite
                         if (index === 0) {
-                            td.innerHTML = id ? `<a href="https://4294049.app.netsuite.com/app/accounting/transactions/salesord.nl?id=${id}&whence=" target="_blank">${cell}</a>` : cell;
+                            td.innerHTML = `<a href="https://4294049.app.netsuite.com/app/accounting/transactions/salesord.nl?id=${id}&whence=" target="_blank">${cell}</a>`;
                         } else {
                             td.textContent = cell;
                         }
