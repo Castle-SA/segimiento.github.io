@@ -148,7 +148,7 @@
                     // If this is the "GOA" column, make it a clickable hyperlink using the ID column
                     if (headers[index] === "GOA") {
                         const idIndex = headers.indexOf("ID"); // Find the "ID" column index
-                        const id = row[idIndex]; // Use the "ID" value for the link if available
+                        const id = row[idIndex]?.trim(); // Use the "ID" value for the link if available
                         td.innerHTML = id ? `<a href="https://4294049.app.netsuite.com/app/accounting/transactions/salesord.nl?id=${id}&whence=" target="_blank">${cell}</a>` : cell;
                     } else {
                         td.textContent = cell;
