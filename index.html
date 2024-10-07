@@ -31,12 +31,9 @@
         }
 
         .container {
-            display: flex;
+            display: grid;
+            grid-template-columns: repeat(4, 1fr); /* 4-column layout */
             gap: 20px;
-        }
-
-        .column {
-            flex: 1; /* Ensures each column takes up equal space */
         }
 
         .table-section {
@@ -82,13 +79,16 @@
 
     <div class="container">
         <div class="column" id="column-1">
-            <!-- First Column: Control GP, Control Financiero, Control Fecha de Entrega, Ultimo Control Financiero -->
+            <!-- Column 1: Control GP, Control Financiero -->
         </div>
         <div class="column" id="column-2">
-            <!-- Second Column: Picking, Producción -->
+            <!-- Column 2: Control Fecha de Entrega, Ultimo Control Financiero -->
         </div>
         <div class="column" id="column-3">
-            <!-- Third Column: Remisiones Recientes, Despachado -->
+            <!-- Column 3: Picking, Producción -->
+        </div>
+        <div class="column" id="column-4">
+            <!-- Column 4: Remisiones Recientes, Despachado -->
         </div>
     </div>
 
@@ -97,9 +97,9 @@
         const csvFiles = [
             { file: 'path/to/control_gp.csv', title: 'Control GP', column: 1 },
             { file: 'path/to/control_financiero.csv', title: 'Control Financiero', column: 1 },
-            { file: 'path/to/control_fecha_entrega.csv', title: 'Control Fecha de Entrega', column: 1 },
-            { file: 'path/to/control_financiero_2.csv', title: 'Ultimo Control Financiero', column: 1 },
-            { file: 'path/to/preparacion.csv', title: 'Preparación', column: 2 } // Preparación will be split into Picking and Producción
+            { file: 'path/to/control_fecha_entrega.csv', title: 'Control Fecha de Entrega', column: 2 },
+            { file: 'path/to/control_financiero_2.csv', title: 'Ultimo Control Financiero', column: 2 },
+            { file: 'path/to/preparacion.csv', title: 'Preparación', column: 3 } // Preparación will be split into Picking and Producción
         ];
 
         // URL of the Google Sheet published as CSV for matching Facturación files
@@ -173,7 +173,7 @@
             thead.appendChild(headerRow);
 
             const idColumnIndex = findIdColumnIndex(headers); // Get the index of the "ID" column
-            const goaColumnIndex = headers.indexOf('Número de documento'); // Find the original "Número de documento" column
+            const goaColumnIndex = headers.indexOf('GOA') !== -1 ? headers.indexOf('GOA') : headers.indexOf('Número de documento'); // Handle renamed GOA column
 
             // Create table body rows
             rows.slice(1).forEach(row => {
@@ -186,7 +186,7 @@
                         td.classList.add('hidden'); // Hide the ID column in rows as well
                     }
 
-                    // If this is the original "Número de documento" column (renamed to "GOA"), make it a clickable hyperlink using the ID
+                    // If this is the "GOA" column, make it a clickable hyperlink using the ID
                     if (index === goaColumnIndex) {
                         const id = row[idColumnIndex]?.trim(); // Get the ID value from the correct column
                         if (id) {
@@ -263,12 +263,12 @@
 
         // Function to create and display the Picking table with links
         function createPickingTableWithLinks(rows) {
-            createTableWithLinks(rows, 'Picking', 2); // Display in column 2
+            createTableWithLinks(rows, 'Picking', 3); // Display in column 3
         }
 
         // Function to create and display the Producción table with links
         function createProduccionTableWithLinks(rows) {
-            createTableWithLinks(rows, 'Producción', 2); // Display in column 2
+            createTableWithLinks(rows, 'Producción', 3); // Display in column 3
         }
 
         // Function to create and display the Remisiones Recientes table (unmatched rows)
@@ -312,7 +312,7 @@
             table.appendChild(tbody);
             section.appendChild(table);
 
-            document.getElementById('column-3').appendChild(section); // Display in column 3
+            document.getElementById('column-4').appendChild(section); // Display in column 4
         }
 
         // Function to create and display the Despachado table (matched rows)
@@ -361,7 +361,7 @@
             table.appendChild(tbody);
             section.appendChild(table);
 
-            document.getElementById('column-3').appendChild(section); // Display in column 3
+            document.getElementById('column-4').appendChild(section); // Display in column 4
         }
 
         // Function to fetch Google Sheet CSV data and parse it
