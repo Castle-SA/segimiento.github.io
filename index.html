@@ -146,11 +146,11 @@
             return headers.indexOf('ID'); // The ID column should be in every CSV file
         }
 
-        // Adjusted createTableWithLinks function to control whether the ID column is hidden
+        // Function to create and display a table with links in the "GOA" column
         function createTableWithLinks(rows, title, column, hideIdColumn = true) {
             const section = document.createElement('div');
             section.classList.add('table-section');
-    
+
             const h2 = document.createElement('h2');
             h2.textContent = title;
             section.appendChild(h2);
@@ -181,7 +181,7 @@
                 row.forEach((cell, index) => {
                     const td = document.createElement('td');
 
-            // Optionally hide the ID column
+                    // Optionally hide the ID column
                     if (headers[index] === 'ID' && hideIdColumn) {
                         td.classList.add('hidden'); // Hide the ID column in rows as well
                     }
@@ -261,7 +261,7 @@
             });
         }
 
-        // Function to create and display the Picking table with links
+        // Function to create and display the Picking table with the ID column
         function createPickingTableWithLinks(rows) {
             createTableWithLinks(rows, 'Picking', 3, false); // Display in column 3, do not hide the ID column
         }
@@ -270,7 +270,6 @@
         function createProduccionTableWithLinks(rows) {
             createTableWithLinks(rows, 'Producción', 2, false); // Display in column 2, do not hide the ID column
         }
-
 
         // Function to create and display the Remisiones Recientes table (unmatched rows)
         function createFacturacionTable(facturacionRows, unmatchedRows) {
