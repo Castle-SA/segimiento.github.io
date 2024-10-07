@@ -164,9 +164,6 @@
             const headerRow = document.createElement('tr');
             headers.forEach(header => {
                 const th = document.createElement('th');
-                if (header === 'ID') {
-                    th.classList.add('hidden'); // Hide ID column header
-                }
                 th.textContent = header;
                 headerRow.appendChild(th);
             });
@@ -180,11 +177,6 @@
                 const tr = document.createElement('tr');
                 row.forEach((cell, index) => {
                     const td = document.createElement('td');
-
-                    // Hide the "ID" column
-                    if (headers[index] === 'ID') {
-                        td.classList.add('hidden'); // Hide the ID column in rows as well
-                    }
 
                     // If this is the "GOA" column, make it a clickable hyperlink using the ID
                     if (index === goaColumnIndex) {
