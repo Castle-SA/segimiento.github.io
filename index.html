@@ -65,7 +65,7 @@
             { file: 'path/to/control_financiero.csv', title: 'Control Financiero' },
             { file: 'path/to/control_fecha_entrega.csv', title: 'Control Fecha de Entrega' },
             { file: 'path/to/control_financiero_2.csv', title: 'Ultimo Control Financiero' },
-            { file: 'path/to/preparacion.csv', title: 'Preparación' } // This will be split into several tables
+            { file: 'path/to/preparacion.csv', title: 'Preparación' }
         ];
 
         // URL of the Google Sheet published as CSV for matching Facturación files
@@ -193,6 +193,10 @@
             fetchCsvData(sheetUrl).then(csvData => {
                 const files = parseCsvData(csvData);
                 const { matched, unmatched } = compareRemitoWithFiles(facturacionRows.map(row => row[2]), files);
+
+                console.log('Matched rows: ', matched);
+                console.log('Unmatched rows: ', unmatched);
+
                 createFacturacionTable(facturacionRows, unmatched); // Display unmatched table first
                 createDespachadoTable(facturacionRows, matched);    // Display Despachado table next
             });
@@ -367,6 +371,44 @@
             section.appendChild(table);
 
             document.getElementById('tables').appendChild(section);
+        }
+
+        // Function to fetch Google Sheet CSV data and parse it
+        async function fetchCsvData(url) {
+            const response = await fetch(url);
+            const data = await response.text();
+            return data;
+        }
+
+        // Parse the CSV data into an array of objects (files)
+        function parseCsvData(csv) {
+            const lines = csv.split('\n');
+            const rows = lines.slice(1); // Skip the headers
+            return rows.map(row => {
+                const values = row.split(',');
+                return {
+                    name: values[0], // File Name
+                    id: values[1],   // File ID
+                    link: values[2]  // Public Link
+                };
+            });
+        }
+
+        // Compare "Numero de Remito" with Google Sheet data (files)
+        function compareRemitoWithFiles(remitos, files) {
+            const matched = [];
+            const unmatched = [];
+
+            remitos.forEach(remito => {
+                const matchedFile = files.find(file => file.name.startsWith(remito + '-Cu'));
+                if (matchedFile) {
+                    matched.push({ remito, fileLink: matchedFile.link });
+                } else {
+                    unmatched.push({ remito });
+                }
+            });
+
+            return { matched, unmatched };
         }
 
         // Fetch and display the original CSV files (including column renaming for the first four tables)
