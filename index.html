@@ -328,7 +328,11 @@
         function createPickingTableWithLinks(rows) {
             createTableWithLinks(rows, 'Picking', 3, false);
         }
-
+        // Log the headers of the CSV to see if "Fecha" exists
+        function logHeaders(headers) {
+            logDebug('CSV Headers:', headers);
+        }
+                // Function to create and display the Remisiones Recientes table (unmatched rows) with GOA hyperlinks and Fecha
                 // Function to create and display the Remisiones Recientes table (unmatched rows) with GOA hyperlinks and Fecha
         function createFacturacionTable(facturacionRows, unmatchedRows) {
             logDebug('Creating Remisiones Recientes table');
@@ -351,6 +355,9 @@
                 headerRow.appendChild(th);
             });
             thead.appendChild(headerRow);
+    
+            // Log the CSV headers
+            logHeaders(facturacionRows[0]);
     
             // Find the ID and Fecha column indices correctly
             const idColumnIndex = findIdColumnIndex(facturacionRows[0]); // Index of ID in the actual rows
@@ -404,6 +411,7 @@
             document.getElementById('column-4').appendChild(section);
             logDebug('Appended Remisiones Recientes table to column 4');
         }
+
     
         // Function to create and display the Despachado table (matched rows) with GOA hyperlinks and Fecha
         function createDespachadoTable(facturacionRows, matchedRows) {
