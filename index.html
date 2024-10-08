@@ -244,49 +244,47 @@
                 console.log(`DEBUG: ${message}`);
             }
         }
-        // Function to clean up and convert the date from dd/mm/yyyy to yyyy-mm-dd format
-        function cleanUpDate(dateString) {
-            if (!dateString) return null;
         
-            // Split the date string by '/'
-            const parts = dateString.split('/');
-            
-            // Ensure the date string has three parts: dd, mm, yyyy
-            if (parts.length !== 3) {
-                logDebug(`Invalid date format detected: ${dateString}`);
-                return null;
-            }
-        
-            const day = parts[0].padStart(2, '0'); // Ensure day is always two digits
-            const month = parts[1].padStart(2, '0'); // Ensure month is always two digits
-            const year = parts[2];
-        
-            // Return the date in yyyy-mm-dd format
-            const cleanedDate = `${year}-${month}-${day}`;
-            logDebug(`Cleaned Date: ${cleanedDate} from original: ${dateString}`);
-            return cleanedDate;
-        }
-        // Split the "Preparación" table into multiple tables (Producción, Picking, Pedidos en Espera)
         function splitPreparacion(rows) {
             logDebug('splitPreparacion function called');
             const headers = rows[0];
         
+            // Log headers to ensure we see "Fecha" exists
             logDebug('Preparacion CSV Headers:', headers);
         
             const idColumnIndex = findIdColumnIndex(headers);
             const fechaColumnIndex = headers.indexOf('Fecha'); // Index for "Fecha" column
             logDebug('Fecha column index:', fechaColumnIndex); // Ensure we have the correct index
         
-            const pickingRows = [['GOA', 'Fecha', 'Cliente', 'Art.', 'Cantidad', 'ID']];
+            const pickingRows = [['GOA', 'Fecha', 'Cliente', 'Art.', 'Cantidad', 'ID']]; 
             const produccionRows = [['GOA', 'Fecha', 'Cliente', 'Art.', 'Cantidad', 'ID']];
-            const pedidosEnEsperaRows = [['GOA', 'Fecha', 'Cliente', 'Art.', 'Cantidad', 'ID']];
+            const pedidosEnEsperaRows = [['GOA', 'Fecha', 'Cliente', 'Art.', 'Cantidad', 'ID']]; 
             const facturacionRows = [['GOA', 'Cliente', 'Numero de Remito', 'Fecha', 'ID']];
+        
+            // Helper function to check if a date is within the next 3 days
+            function isWithinNext3Days(dateString) {
+                if (!dateString) return false;  // Treat empty date as not within 3 days
+        
+                const currentDate = new Date();
+                const inputDate = new Date(dateString);
+        
+                // Log if the date cannot be parsed
+                if (isNaN(inputDate.getTime())) {
+                    logDebug(`Invalid date detected: ${dateString}`);
+                    return false;  // Invalid date
+                }
+        
+                const differenceInTime = inputDate - currentDate;
+                const differenceInDays = differenceInTime / (1000 * 3600 * 24);
+        
+                return differenceInDays >= 0 && differenceInDays <= 3;  // Return true if within the next 3 days
+            }
         
             rows.slice(1).forEach(row => {
                 const ordenEspecial = row[headers.indexOf('Orden. Especial?')]?.trim();
                 const estadoOrdenEspecial = row[headers.indexOf('Estado Orden. Especial')]?.trim();
                 const fecha = row[fechaColumnIndex]?.trim(); // Get and trim Fecha for each row
-                logDebug('Processing row Fecha:', fecha);
+                logDebug('Processing row Fecha:', fecha); // Log each Fecha value
         
                 if (ordenEspecial && ordenEspecial.startsWith('Ejecución')) {
                     const remito = ordenEspecial.slice(-5);
@@ -317,34 +315,34 @@
         
             // Sort Picking, Producción, and Pedidos en Espera tables by Fecha (empty dates at the bottom)
             pickingRows.slice(1).sort((a, b) => {
-                const dateA = a[1] ? new Date(cleanUpDate(a[1])) : new Date(0); // Clean the date first
-                const dateB = b[1] ? new Date(cleanUpDate(b[1])) : new Date(0);
-                logDebug('Picking Table: Sorting Dates:', { dateA: a[1], dateB: b[1] });
+                const dateA = a[1] ? new Date(a[1]) : new Date(0); // Use new Date(0) for empty dates (sort them to the bottom)
+                const dateB = b[1] ? new Date(b[1]) : new Date(0);
+                logDebug('Picking Table: Sorting Dates:', { dateA: a[1], dateB: b[1] }); // Log date values being compared
                 return dateA - dateB;  // Sort by date
             });
         
             produccionRows.slice(1).sort((a, b) => {
-                const dateA = a[1] ? new Date(cleanUpDate(a[1])) : new Date(0); // Clean the date first
-                const dateB = b[1] ? new Date(cleanUpDate(b[1])) : new Date(0);
-                logDebug('Produccion Table: Sorting Dates:', { dateA: a[1], dateB: b[1] });
+                const dateA = a[1] ? new Date(a[1]) : new Date(0); // Use new Date(0) for empty dates (sort them to the bottom)
+                const dateB = b[1] ? new Date(b[1]) : new Date(0);
+                logDebug('Produccion Table: Sorting Dates:', { dateA: a[1], dateB: b[1] }); // Log date values being compared
                 return dateA - dateB;  // Sort by date
             });
         
             pedidosEnEsperaRows.slice(1).sort((a, b) => {
-                const dateA = a[1] ? new Date(cleanUpDate(a[1])) : new Date(0); // Clean the date first
-                const dateB = b[1] ? new Date(cleanUpDate(b[1])) : new Date(0);
-                logDebug('Pedidos en Espera Table: Sorting Dates:', { dateA: a[1], dateB: b[1] });
+                const dateA = a[1] ? new Date(a[1]) : new Date(0); // Use new Date(0) for empty dates (sort them to the bottom)
+                const dateB = b[1] ? new Date(b[1]) : new Date(0);
+                logDebug('Pedidos en Espera Table: Sorting Dates:', { dateA: a[1], dateB: b[1] }); // Log date values being compared
                 return dateA - dateB;  // Sort by date
             });
         
-            logDebug('Sorted Picking Rows:', pickingRows);
-            logDebug('Sorted Produccion Rows:', produccionRows);
-            logDebug('Sorted Pedidos en Espera Rows:', pedidosEnEsperaRows);
+            logDebug('Sorted Picking Rows:', pickingRows); // Log sorted picking rows
+            logDebug('Sorted Produccion Rows:', produccionRows); // Log sorted produccion rows
+            logDebug('Sorted Pedidos en Espera Rows:', pedidosEnEsperaRows); // Log sorted Pedidos en Espera rows
         
             // Display the tables
             createProduccionTableWithLinks(produccionRows);
             createPickingTableWithLinks(pickingRows);
-            createPedidosEnEsperaTableWithLinks(pedidosEnEsperaRows);
+            createPedidosEnEsperaTableWithLinks(pedidosEnEsperaRows); // New table for Pedidos en Espera
         
             // Fetch data for Remisiones Recientes and Despachado
             fetchCsvData(sheetUrl).then(csvData => {
