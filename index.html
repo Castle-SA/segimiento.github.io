@@ -329,8 +329,7 @@
             createTableWithLinks(rows, 'Picking', 3, false);
         }
 
-            // Function to create and display the Remisiones Recientes table (unmatched rows) with GOA hyperlinks and Fecha
-            // Function to create and display the Remisiones Recientes table (unmatched rows) with GOA hyperlinks and Fecha
+                // Function to create and display the Remisiones Recientes table (unmatched rows) with GOA hyperlinks and Fecha
         function createFacturacionTable(facturacionRows, unmatchedRows) {
             logDebug('Creating Remisiones Recientes table');
             const section = document.createElement('div');
@@ -353,16 +352,20 @@
             });
             thead.appendChild(headerRow);
     
-            const idColumnIndex = findIdColumnIndex(['GOA', 'Cliente', 'Numero de Remito', 'Fecha', 'ID']); // Ensure we have the ID column index
+            // Find the ID and Fecha column indices correctly
+            const idColumnIndex = findIdColumnIndex(facturacionRows[0]); // Index of ID in the actual rows
+            const fechaColumnIndex = facturacionRows[0].indexOf('Fecha'); // Index for "Fecha" column
+            logDebug('ID column index:', idColumnIndex);
+            logDebug('Fecha column index:', fechaColumnIndex);
     
-            // Sort rows by Numero de Remito without disrupting ID
-            const sortedRows = facturacionRows.slice(1).sort((a, b) => a[2].trim() - b[2].trim());
+            // Sort rows by Numero de Remito (column 3)
+            const sortedRows = facturacionRows.slice(1).sort((a, b) => a[2] - b[2]);
     
             // Add rows
             sortedRows.forEach(row => {
                 const remitoNumber = row[2]; // "Numero de Remito" column
                 const goaNumber = row[0];    // "GOA" column
-                const fecha = row[4];        // "Fecha" column
+                const fecha = row[fechaColumnIndex]; // "Fecha" column
                 const id = row[idColumnIndex]?.trim(); // ID value
     
                 if (unmatchedRows.find(unmatched => unmatched.remito === remitoNumber)) {
@@ -425,15 +428,19 @@
             });
             thead.appendChild(headerRow);
     
-            const idColumnIndex = findIdColumnIndex(['GOA', 'Cliente', 'Numero de Remito', 'Fecha', 'ID']); // Ensure we have the ID column index
+            // Find the ID and Fecha column indices correctly
+            const idColumnIndex = findIdColumnIndex(facturacionRows[0]); // Index of ID in the actual rows
+            const fechaColumnIndex = facturacionRows[0].indexOf('Fecha'); // Index for "Fecha" column
+            logDebug('ID column index:', idColumnIndex);
+            logDebug('Fecha column index:', fechaColumnIndex);
     
-            // Sort rows by Numero de Remito without disrupting ID
-            const sortedRows = facturacionRows.sort((a, b) => a[2].trim() - b[2].trim());
+            // Sort rows by Numero de Remito (column 3)
+            const sortedRows = facturacionRows.sort((a, b) => a[2] - b[2]);
     
             sortedRows.forEach(row => {
                 const remitoNumber = row[2]; // "Numero de Remito" column
                 const goaNumber = row[0];    // "GOA" column
-                const fecha = row[4];        // "Fecha" column
+                const fecha = row[fechaColumnIndex]; // "Fecha" column
                 const id = row[idColumnIndex]?.trim(); // ID value
     
                 const matched = matchedRows.find(match => match.remito === remitoNumber);
