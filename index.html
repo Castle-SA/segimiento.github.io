@@ -245,8 +245,9 @@
             }
         }
         
+        // Split the "Preparación" table into multiple tables (Producción, Picking, Pedidos en Espera, Remisiones Recientes, Despachado)
         function splitPreparacion(rows) {
-            logDebug('splitPreparacion function called');  // Log when the function starts
+            logDebug('splitPreparacion function called');
             const headers = rows[0];
         
             // Log headers to ensure we see "Fecha" exists
@@ -256,10 +257,10 @@
             const fechaColumnIndex = headers.indexOf('Fecha'); // Index for "Fecha" column
             logDebug('Fecha column index:', fechaColumnIndex); // Ensure we have the correct index
         
-            const pickingRows = [['GOA', 'Fecha', 'Cliente', 'Art.', 'Cantidad', 'ID']]; // Added Fecha column
-            const produccionRows = [['GOA', 'Fecha', 'Cliente', 'Art.', 'Cantidad', 'ID']]; // Added Fecha column
+            const pickingRows = [['GOA', 'Fecha', 'Cliente', 'Art.', 'Cantidad', 'ID']];
+            const produccionRows = [['GOA', 'Fecha', 'Cliente', 'Art.', 'Cantidad', 'ID']];
             const pedidosEnEsperaRows = [['GOA', 'Fecha', 'Cliente', 'Art.', 'Cantidad', 'ID']]; // New table for Pedidos en Espera
-            const facturacionRows = [['GOA', 'Cliente', 'Numero de Remito', 'Fecha', 'ID']]; // Include Fecha
+            const facturacionRows = [['GOA', 'Cliente', 'Numero de Remito', 'Fecha', 'ID']];
         
             // Helper function to check if a date is within the next 3 days
             function isWithinNext3Days(dateString) {
@@ -283,19 +284,24 @@
                     const remito = ordenEspecial.slice(-5);
                     facturacionRows.push([row[headers.indexOf('Número de documento')], row[headers.indexOf('Nombre')], remito, fecha, row[idColumnIndex]]);
                 } else if (!ordenEspecial) {
-                    if (isWithinNext3Days(fecha)) {
+                    if (fecha && isWithinNext3Days(fecha)) {
+                        logDebug(`Row added to Picking: ${row[headers.indexOf('Número de documento')]}`);
                         pickingRows.push([row[headers.indexOf('Número de documento')], fecha, row[headers.indexOf('Nombre')], row[headers.indexOf('Artículo')], row[headers.indexOf('Cantidad')], row[idColumnIndex]]);
                     } else {
+                        logDebug(`Row added to Pedidos en Espera: ${row[headers.indexOf('Número de documento')]}`);
                         pedidosEnEsperaRows.push([row[headers.indexOf('Número de documento')], fecha, row[headers.indexOf('Nombre')], row[headers.indexOf('Artículo')], row[headers.indexOf('Cantidad')], row[idColumnIndex]]);
                     }
                 } else if (ordenEspecial.startsWith('Orden de trabajo')) {
                     if (estadoOrdenEspecial === 'Ensamblada') {
-                        if (isWithinNext3Days(fecha)) {
+                        if (fecha && isWithinNext3Days(fecha)) {
+                            logDebug(`Row added to Picking (Ensamblada): ${row[headers.indexOf('Número de documento')]}`);
                             pickingRows.push([row[headers.indexOf('Número de documento')], fecha, row[headers.indexOf('Nombre')], row[headers.indexOf('Artículo')], row[headers.indexOf('Cantidad')], row[idColumnIndex]]);
                         } else {
+                            logDebug(`Row added to Pedidos en Espera (Ensamblada): ${row[headers.indexOf('Número de documento')]}`);
                             pedidosEnEsperaRows.push([row[headers.indexOf('Número de documento')], fecha, row[headers.indexOf('Nombre')], row[headers.indexOf('Artículo')], row[headers.indexOf('Cantidad')], row[idColumnIndex]]);
                         }
                     } else {
+                        logDebug(`Row added to Producción: ${row[headers.indexOf('Número de documento')]}`);
                         produccionRows.push([row[headers.indexOf('Número de documento')], fecha, row[headers.indexOf('Nombre')], row[headers.indexOf('Artículo')], row[headers.indexOf('Cantidad')], row[idColumnIndex]]);
                     }
                 }
@@ -341,6 +347,7 @@
                 createDespachadoTable(facturacionRows, matched);
             }).catch(error => logDebug('Error fetching Google Sheet CSV:', error));
         }
+
 
         // ** Function to fetch Google Sheet CSV data ** 
         async function fetchCsvData(url) {
