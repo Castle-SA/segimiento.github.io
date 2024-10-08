@@ -352,9 +352,6 @@
             });
             thead.appendChild(headerRow);
 
-            // Log the CSV headers
-            logHeaders(facturacionRows[0]);
-
             // Find the ID and Fecha column indices correctly
             const idColumnIndex = findIdColumnIndex(facturacionRows[0]); // Index of ID in the actual rows
             const fechaColumnIndex = facturacionRows[0].indexOf('Fecha'); // Index for "Fecha" column
