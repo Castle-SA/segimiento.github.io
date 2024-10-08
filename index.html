@@ -271,6 +271,7 @@
                 const files = parseCsvData(csvData);
                 const { matched, unmatched } = compareRemitoWithFiles(facturacionRows.map(row => row[2]), files);
 
+                // Display both the Remisiones Recientes and Despachado tables in column 4
                 createFacturacionTable(facturacionRows, unmatched);
                 createDespachadoTable(facturacionRows, matched);
             }).catch(error => logDebug('Error fetching Google Sheet CSV:', error));
