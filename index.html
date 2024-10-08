@@ -270,6 +270,19 @@
                 }
             });
         
+            // Sort Picking and Producción tables by Fecha (empty dates at the bottom)
+            pickingRows.slice(1).sort((a, b) => {
+                if (!a[1]) return 1;  // If 'a' has no fecha, move it to the bottom
+                if (!b[1]) return -1; // If 'b' has no fecha, move it to the bottom
+                return new Date(a[1]) - new Date(b[1]); // Compare dates
+            });
+        
+            produccionRows.slice(1).sort((a, b) => {
+                if (!a[1]) return 1;  // If 'a' has no fecha, move it to the bottom
+                if (!b[1]) return -1; // If 'b' has no fecha, move it to the bottom
+                return new Date(a[1]) - new Date(b[1]); // Compare dates
+            });
+        
             // Display the tables
             createProduccionTableWithLinks(produccionRows);
             createPickingTableWithLinks(pickingRows);
