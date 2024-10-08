@@ -236,8 +236,18 @@
             logDebug(`Appended ${title} table to column ${column}`);
         }
 
+        // Global debug function to ensure logs appear in the console
+        function logDebug(message, data = null) {
+            if (data) {
+                console.log(`DEBUG: ${message}`, data);
+            } else {
+                console.log(`DEBUG: ${message}`);
+            }
+        }
+        
         // Split the "Preparación" table into multiple tables (Producción, Picking, Remisiones Recientes, Despachado)
         function splitPreparacion(rows) {
+            logDebug('splitPreparacion function called');  // Log when the function starts
             const headers = rows[0];
             
             // Log headers to ensure we see "Fecha" exists
