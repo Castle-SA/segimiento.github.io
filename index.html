@@ -236,7 +236,7 @@
             logDebug(`Appended ${title} table to column ${column}`);
         }
 
-         // Split the "Preparación" table into multiple tables (Producción, Picking, Remisiones Recientes, Despachado)
+        // Split the "Preparación" table into multiple tables (Producción, Picking, Remisiones Recientes, Despachado)
         function splitPreparacion(rows) {
             const headers = rows[0];
             
@@ -255,6 +255,7 @@
                 const ordenEspecial = row[headers.indexOf('Orden. Especial?')]?.trim();
                 const estadoOrdenEspecial = row[headers.indexOf('Estado Orden. Especial')]?.trim();
                 const fecha = row[fechaColumnIndex]?.trim(); // Get and trim Fecha for each row
+                logDebug('Processing row Fecha:', fecha); // Log each Fecha value
         
                 if (ordenEspecial && ordenEspecial.startsWith('Ejecución')) {
                     const remito = ordenEspecial.slice(-5);
@@ -274,14 +275,19 @@
             pickingRows.slice(1).sort((a, b) => {
                 const dateA = a[1] ? new Date(a[1]) : new Date(0); // Use new Date(0) for empty dates (sort them to the bottom)
                 const dateB = b[1] ? new Date(b[1]) : new Date(0);
+                logDebug('Picking Table: Sorting Dates:', { dateA: a[1], dateB: b[1] }); // Log date values being compared
                 return dateA - dateB;  // Sort by date
             });
         
             produccionRows.slice(1).sort((a, b) => {
                 const dateA = a[1] ? new Date(a[1]) : new Date(0); // Use new Date(0) for empty dates (sort them to the bottom)
                 const dateB = b[1] ? new Date(b[1]) : new Date(0);
+                logDebug('Produccion Table: Sorting Dates:', { dateA: a[1], dateB: b[1] }); // Log date values being compared
                 return dateA - dateB;  // Sort by date
             });
+        
+            logDebug('Sorted Picking Rows:', pickingRows); // Log sorted picking rows
+            logDebug('Sorted Produccion Rows:', produccionRows); // Log sorted produccion rows
         
             // Display the tables
             createProduccionTableWithLinks(produccionRows);
