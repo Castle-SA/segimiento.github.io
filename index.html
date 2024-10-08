@@ -224,11 +224,6 @@
             const indexEstadoOrdenEspecial = headers.indexOf('Estado Orden. Especial');
             const idColumnIndex = headers.indexOf('ID'); // Get the ID column index
 
-            // Log if ID column is missing
-            if (idColumnIndex === -1) {
-                console.error('ID column not found in CSV headers:', headers);
-            }
-
             const pickingRows = [['GOA', 'Cliente', 'Art.', 'Cantidad', 'ID']];
             const produccionRows = [['GOA', 'Cliente', 'Art.', 'Cantidad', 'ID']];
             const facturacionRows = [['GOA', 'Cliente', 'Numero de Remito', 'ID']];
@@ -254,11 +249,18 @@
                 }
             });
 
-            console.log('Picking rows:', pickingRows);
-            console.log('Producción rows:', produccionRows);
-
             createProduccionTableWithLinks(produccionRows); // Custom Producción table
             createPickingTableWithLinks(pickingRows);       // Picking table
+
+            // Fetch file data and populate Facturación and Despachado tables
+            fetchCsvData(sheetUrl).then(csvData => {
+                const files = parseCsvData(csvData);
+                const { matched, unmatched } = compareRemitoWithFiles(facturacionRows.map(row => row[2]), files);
+
+                // Ensure we create the tables even if no matches are found
+                createFacturacionTable(facturacionRows, unmatched);
+                createDespachadoTable(facturacionRows, matched);
+            }).catch(error => console.error('Error fetching Google Sheet CSV:', error));
         }
 
         // Function to create and display the Picking table with the ID column
