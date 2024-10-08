@@ -330,6 +330,7 @@
         }
 
             // Function to create and display the Remisiones Recientes table (unmatched rows) with GOA hyperlinks and Fecha
+            // Function to create and display the Remisiones Recientes table (unmatched rows) with GOA hyperlinks and Fecha
         function createFacturacionTable(facturacionRows, unmatchedRows) {
             logDebug('Creating Remisiones Recientes table');
             const section = document.createElement('div');
@@ -354,15 +355,15 @@
     
             const idColumnIndex = findIdColumnIndex(['GOA', 'Cliente', 'Numero de Remito', 'Fecha', 'ID']); // Ensure we have the ID column index
     
-            // Sort rows by Numero de Remito
-            const sortedRows = facturacionRows.slice(1).sort((a, b) => a[2] - b[2]);
+            // Sort rows by Numero de Remito without disrupting ID
+            const sortedRows = facturacionRows.slice(1).sort((a, b) => a[2].trim() - b[2].trim());
     
             // Add rows
             sortedRows.forEach(row => {
                 const remitoNumber = row[2]; // "Numero de Remito" column
                 const goaNumber = row[0];    // "GOA" column
                 const fecha = row[4];        // "Fecha" column
-                const id = row[idColumnIndex]; // ID value
+                const id = row[idColumnIndex]?.trim(); // ID value
     
                 if (unmatchedRows.find(unmatched => unmatched.remito === remitoNumber)) {
                     const tr = document.createElement('tr');
@@ -426,14 +427,14 @@
     
             const idColumnIndex = findIdColumnIndex(['GOA', 'Cliente', 'Numero de Remito', 'Fecha', 'ID']); // Ensure we have the ID column index
     
-            // Sort rows by Numero de Remito
-            const sortedRows = facturacionRows.sort((a, b) => a[2] - b[2]);
+            // Sort rows by Numero de Remito without disrupting ID
+            const sortedRows = facturacionRows.sort((a, b) => a[2].trim() - b[2].trim());
     
             sortedRows.forEach(row => {
                 const remitoNumber = row[2]; // "Numero de Remito" column
                 const goaNumber = row[0];    // "GOA" column
                 const fecha = row[4];        // "Fecha" column
-                const id = row[idColumnIndex]; // ID value
+                const id = row[idColumnIndex]?.trim(); // ID value
     
                 const matched = matchedRows.find(match => match.remito === remitoNumber);
                 if (matched) {
