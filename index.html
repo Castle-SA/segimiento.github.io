@@ -161,13 +161,21 @@
                 });
         }
 
-        // Function to find the index of the "ID" column
+        // Function to find the index of the "ID" column and handle potential whitespace issues
         function findIdColumnIndex(headers) {
-            logDebug('Finding ID column index in headers:', headers);
-            const idIndex = headers.indexOf('ID');
+            logDebug('Finding ID column index in headers before trimming:', headers);
+    
+            // Trim any trailing or leading whitespace (including \r and \n characters) from the headers
+            const trimmedHeaders = headers.map(header => header.trim());
+    
+            logDebug('Headers after trimming:', trimmedHeaders);
+    
+            const idIndex = trimmedHeaders.indexOf('ID');
+    
             if (idIndex === -1) {
-                logDebug('ID column not found in headers', headers);
+            logDebug('ID column not found in trimmed headers', trimmedHeaders);
             }
+    
             return idIndex;
         }
 
