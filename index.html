@@ -236,7 +236,7 @@
             logDebug(`Appended ${title} table to column ${column}`);
         }
 
-           // Split the "Preparación" table into multiple tables (Producción, Picking, Remisiones Recientes, Despachado)
+         // Split the "Preparación" table into multiple tables (Producción, Picking, Remisiones Recientes, Despachado)
         function splitPreparacion(rows) {
             const headers = rows[0];
             
@@ -272,18 +272,14 @@
         
             // Sort Picking and Producción tables by Fecha (empty dates at the bottom)
             pickingRows.slice(1).sort((a, b) => {
-                const dateA = a[1] ? new Date(a[1]) : null; // Convert to Date object, or null if empty
-                const dateB = b[1] ? new Date(b[1]) : null;
-                if (!dateA) return 1;  // Move empty dates to the bottom
-                if (!dateB) return -1; // Move empty dates to the bottom
+                const dateA = a[1] ? new Date(a[1]) : new Date(0); // Use new Date(0) for empty dates (sort them to the bottom)
+                const dateB = b[1] ? new Date(b[1]) : new Date(0);
                 return dateA - dateB;  // Sort by date
             });
         
             produccionRows.slice(1).sort((a, b) => {
-                const dateA = a[1] ? new Date(a[1]) : null; // Convert to Date object, or null if empty
-                const dateB = b[1] ? new Date(b[1]) : null;
-                if (!dateA) return 1;  // Move empty dates to the bottom
-                if (!dateB) return -1; // Move empty dates to the bottom
+                const dateA = a[1] ? new Date(a[1]) : new Date(0); // Use new Date(0) for empty dates (sort them to the bottom)
+                const dateB = b[1] ? new Date(b[1]) : new Date(0);
                 return dateA - dateB;  // Sort by date
             });
         
