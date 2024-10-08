@@ -239,19 +239,26 @@
         // Split the "Preparación" table into multiple tables (Producción, Picking, Remisiones Recientes, Despachado)
         function splitPreparacion(rows) {
             const headers = rows[0];
+            
+            // Log headers to ensure we see "Fecha" exists
+            logDebug('Preparacion CSV Headers:', headers);
+        
             const idColumnIndex = findIdColumnIndex(headers);
-
+            const fechaColumnIndex = headers.indexOf('Fecha'); // Index for "Fecha" column
+            logDebug('Fecha column index:', fechaColumnIndex); // Ensure we have the correct index
+        
             const pickingRows = [['GOA', 'Cliente', 'Art.', 'Cantidad', 'ID']];
             const produccionRows = [['GOA', 'Cliente', 'Art.', 'Cantidad', 'ID']];
-            const facturacionRows = [['GOA', 'Cliente', 'Numero de Remito', 'ID']];
-
+            const facturacionRows = [['GOA', 'Cliente', 'Numero de Remito', 'Fecha', 'ID']]; // Include Fecha
+        
             rows.slice(1).forEach(row => {
                 const ordenEspecial = row[headers.indexOf('Orden. Especial?')]?.trim();
                 const estadoOrdenEspecial = row[headers.indexOf('Estado Orden. Especial')]?.trim();
-
+                const fecha = row[fechaColumnIndex]; // Get Fecha for each row
+        
                 if (ordenEspecial && ordenEspecial.startsWith('Ejecución')) {
                     const remito = ordenEspecial.slice(-5);
-                    facturacionRows.push([row[headers.indexOf('Número de documento')], row[headers.indexOf('Nombre')], remito, row[idColumnIndex]]);
+                    facturacionRows.push([row[headers.indexOf('Número de documento')], row[headers.indexOf('Nombre')], remito, fecha, row[idColumnIndex]]);
                 } else if (!ordenEspecial) {
                     pickingRows.push([row[headers.indexOf('Número de documento')], row[headers.indexOf('Nombre')], row[headers.indexOf('Artículo')], row[headers.indexOf('Cantidad')], row[idColumnIndex]]);
                 } else if (ordenEspecial.startsWith('Orden de trabajo')) {
@@ -262,16 +269,16 @@
                     }
                 }
             });
-
+        
             // Display the tables
             createProduccionTableWithLinks(produccionRows);
             createPickingTableWithLinks(pickingRows);
-
+        
             // Fetch data for Remisiones Recientes and Despachado
             fetchCsvData(sheetUrl).then(csvData => {
                 const files = parseCsvData(csvData);
                 const { matched, unmatched } = compareRemitoWithFiles(facturacionRows.map(row => row[2]), files);
-
+        
                 createFacturacionTable(facturacionRows, unmatched);
                 createDespachadoTable(facturacionRows, matched);
             }).catch(error => logDebug('Error fetching Google Sheet CSV:', error));
