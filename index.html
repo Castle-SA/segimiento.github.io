@@ -233,6 +233,7 @@
             section.appendChild(table);
 
             document.getElementById(`column-${column}`).appendChild(section);
+            logDebug(`Appended ${title} table to column ${column}`);
         }
 
         // Split the "Preparación" table into multiple tables (Producción, Picking, Remisiones Recientes, Despachado)
@@ -271,7 +272,6 @@
                 const files = parseCsvData(csvData);
                 const { matched, unmatched } = compareRemitoWithFiles(facturacionRows.map(row => row[2]), files);
 
-                // Display both the Remisiones Recientes and Despachado tables in column 4
                 createFacturacionTable(facturacionRows, unmatched);
                 createDespachadoTable(facturacionRows, matched);
             }).catch(error => logDebug('Error fetching Google Sheet CSV:', error));
@@ -287,6 +287,7 @@
         }
 
         function createFacturacionTable(facturacionRows, unmatchedRows) {
+            logDebug('Creating Remisiones Recientes table');
             const section = document.createElement('div');
             section.classList.add('table-section');
 
@@ -310,6 +311,7 @@
             facturacionRows.slice(1).forEach(row => {
                 const remitoNumber = row[2];
 
+                // Only display rows without a match
                 if (unmatchedRows.find(unmatched => unmatched.remito === remitoNumber)) {
                     const tr = document.createElement('tr');
                     row.slice(0, 3).forEach(cell => {
@@ -326,9 +328,11 @@
             section.appendChild(table);
 
             document.getElementById('column-4').appendChild(section);
+            logDebug('Appended Remisiones Recientes table to column 4');
         }
 
         function createDespachadoTable(facturacionRows, matchedRows) {
+            logDebug('Creating Despachado table');
             const section = document.createElement('div');
             section.classList.add('table-section');
 
@@ -374,6 +378,7 @@
             section.appendChild(table);
 
             document.getElementById('column-4').appendChild(section);
+            logDebug('Appended Despachado table to column 4');
         }
 
         // Fetch CSV files for column 1 (first 4 tables)
