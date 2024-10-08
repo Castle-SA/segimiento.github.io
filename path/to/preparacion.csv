@@ -23,7 +23,7 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 38511,4733 TECNOSISTEM SRL,Ejecución de la orden pendiente,Todo Aprobado, ,,,PPAR1048T,180,0,20/12/2024,281743
 38874,105 SCANIA ARGENTINA SAU,Ejecución de la orden pendiente,Todo Aprobado, ,,,1105/001,2000,0,12/11/2024,292823
 38876,3089 ARNEG ARGENTINA S.A.,Ejecución de la orden pendiente,Todo Aprobado, ,,,3089/082,5000,0,12/11/2024,292825
-39168,9400753 RIS S.A,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Liberada,F,9400753/001,1008,0,04/10/2024,301124
+39168,9400753 RIS S.A,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Ensamblada,F,9400753/001,1008,0,04/10/2024,301124
 39168,9400753 RIS S.A,Ejecución de la orden pendiente,Todo Aprobado, ,,,PPAR1048T,288,0,04/10/2024,301124
 39169,9400753 RIS S.A,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Liberada,F,9400753/001,1008,0,08/11/2024,301126
 39169,9400753 RIS S.A,Ejecución de la orden pendiente,Todo Aprobado, ,,,PPAR1048T,288,0,08/11/2024,301126
@@ -46,8 +46,8 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 39464,12849 FERRERO ARGENTINA SA,Facturada,Todo Aprobado,Ejecución de pedido de artículo 21212,Enviado,,PPAR1072T,240,240,30/09/2024,315035
 39466,64 ALL PUMPS ARGENTINA SA,Ejecución de la orden pendiente,Todo Aprobado,Pedido ,Recepción pendiente,,0064/0013,350,0,11/10/2024,315285
 39518,3089 ARNEG ARGENTINA S.A.,Parcialmente ejecutada,Todo Aprobado,Orden de trabajo ,Ensamblada,F,PVC672B,96,96,28/10/2024,318503
-39518,3089 ARNEG ARGENTINA S.A.,Parcialmente ejecutada,Todo Aprobado,Orden de trabajo ,En curso,F,3089/039,50000,32000,28/10/2024,318503
 39518,3089 ARNEG ARGENTINA S.A.,Parcialmente ejecutada,Todo Aprobado,Ejecución de pedido de artículo 21206,Enviado,,3089/039,50000,32000,30/09/2024,318503
+39518,3089 ARNEG ARGENTINA S.A.,Parcialmente ejecutada,Todo Aprobado,Orden de trabajo ,En curso,F,3089/039,50000,32000,28/10/2024,318503
 39526,1029 DREAN SA,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Ensamblada,F,0272/005,240,0,08/10/2024,319118
 39530,9400338 ESTABLECIMIENTO MODELO LAS COLONIAS S A,Facturada,Todo Aprobado,Ejecución de pedido de artículo 21248,Enviado,,PPAR15048T,30,30,07/10/2024,319881
 39536,9400842 LABORATORIOS ASPEN SA,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Liberada,F,9400842/001,360,0,29/10/2024,320370
@@ -167,7 +167,8 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 39662,621 MANUEL LAJARA S.A.,Ejecución de la orden pendiente,Todo Aprobado, ,,,PPAR1048T,360,0,07/10/2024,329471
 39663,3051 FRIMETAL S.A.,Ejecución de la orden pendiente,Todo Aprobado, ,,,2280/004,4500,0,11/10/2024,329608
 39663,3051 FRIMETAL S.A.,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Ensamblada,F,1823/002,4,0,11/10/2024,329608
-39664,3089 ARNEG ARGENTINA S.A.,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Ensamblada,F,3089/029,25000,0,11/10/2024,329610
+39664,3089 ARNEG ARGENTINA S.A.,Facturación pendiente,Todo Aprobado,Ejecución de pedido de artículo 21266,Enviado,,3089/029,25000,25000,08/10/2024,329610
+39664,3089 ARNEG ARGENTINA S.A.,Facturación pendiente,Todo Aprobado,Orden de trabajo ,Ensamblada,F,3089/029,25000,25000,11/10/2024,329610
 39665,3089 ARNEG ARGENTINA S.A.,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Liberada,F,3089/067,20000,0,11/10/2024,329611
 39666,1736 COMPANY SPY SRL,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Liberada,T,1736/001,360,0,31/10/2024,329657
 39668,94010 VISUAR SA,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Liberada,F,1823/002,193,0,31/10/2024,329775
