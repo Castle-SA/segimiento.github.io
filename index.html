@@ -245,66 +245,113 @@
             }
         }
         
-        function cleanUpDate(dateString) {
-            if (!dateString) return null;
-        
-            const parts = dateString.split('/');
-            if (parts.length !== 3) return null;
-        
-            const day = parts[0].padStart(2, '0');
-            const month = parts[1].padStart(2, '0');
-            const year = parts[2];
-        
-            const cleanedDate = `${year}-${month}-${day}`;
-            logDebug(`Cleaned Date: ${cleanedDate} from original: ${dateString}`);
-            return cleanedDate;
-        }
-        
         function splitPreparacion(rows) {
             logDebug('splitPreparacion function called');
             const headers = rows[0];
         
+            // Log headers to ensure we see "Fecha" exists
             logDebug('Preparacion CSV Headers:', headers);
         
             const idColumnIndex = findIdColumnIndex(headers);
-            const fechaColumnIndex = headers.indexOf('Fecha');
-            logDebug('Fecha column index:', fechaColumnIndex);
+            const fechaColumnIndex = headers.indexOf('Fecha'); // Index for "Fecha" column
+            logDebug('Fecha column index:', fechaColumnIndex); // Ensure we have the correct index
         
-            const pickingRows = [['GOA', 'Fecha', 'Cliente', 'Art.', 'Cantidad', 'ID']];
+            const pickingRows = [['GOA', 'Fecha', 'Cliente', 'Art.', 'Cantidad', 'ID']]; 
             const produccionRows = [['GOA', 'Fecha', 'Cliente', 'Art.', 'Cantidad', 'ID']];
-            const pedidosEnEsperaRows = [['GOA', 'Fecha', 'Cliente', 'Art.', 'Cantidad', 'ID']];
+            const pedidosEnEsperaRows = [['GOA', 'Fecha', 'Cliente', 'Art.', 'Cantidad', 'ID']]; 
+            const facturacionRows = [['GOA', 'Cliente', 'Numero de Remito', 'Fecha', 'ID']];
         
             // Helper function to check if a date is within the next 3 days
-            function isWithinNext3Days(cleanedDate) {
-                if (!cleanedDate) return false;
-                const currentDate = new Date();
-                const inputDate = new Date(cleanedDate);
+            function isWithinNext3Days(dateString) {
+                if (!dateString) return false;  // Treat empty date as not within 3 days
         
-                return (inputDate - currentDate) <= (1000 * 3600 * 24 * 3) && inputDate >= currentDate;
+                const currentDate = new Date();
+                const inputDate = new Date(dateString);
+        
+                // Log if the date cannot be parsed
+                if (isNaN(inputDate.getTime())) {
+                    logDebug(`Invalid date detected: ${dateString}`);
+                    return false;  // Invalid date
+                }
+        
+                const differenceInTime = inputDate - currentDate;
+                const differenceInDays = differenceInTime / (1000 * 3600 * 24);
+        
+                return differenceInDays >= 0 && differenceInDays <= 3;  // Return true if within the next 3 days
             }
         
-            // Processing rows
-            rows.slice(1).forEach((row, index) => {
-                const fecha = row[fechaColumnIndex]?.trim();
-                const cleanedDate = cleanUpDate(fecha); // Clean up the date format
+            rows.slice(1).forEach(row => {
+                const ordenEspecial = row[headers.indexOf('Orden. Especial?')]?.trim();
+                const estadoOrdenEspecial = row[headers.indexOf('Estado Orden. Especial')]?.trim();
+                const fecha = row[fechaColumnIndex]?.trim(); // Get and trim Fecha for each row
+                logDebug('Processing row Fecha:', fecha); // Log each Fecha value
         
-                logDebug(`Processing row ${index + 1}: Fecha detected - ${fecha}, Cleaned Date - ${cleanedDate}`);
-        
-                // Handle row sorting logic based on the cleaned date and other criteria
-                if (/* logic for which table the row should go into */) {
-                    // Push the row into the appropriate table
+                if (ordenEspecial && ordenEspecial.startsWith('Ejecución')) {
+                    const remito = ordenEspecial.slice(-5);
+                    facturacionRows.push([row[headers.indexOf('Número de documento')], row[headers.indexOf('Nombre')], remito, fecha, row[idColumnIndex]]);
+                } else if (!ordenEspecial) {
+                    if (fecha && isWithinNext3Days(fecha)) {
+                        logDebug(`Row added to Picking: ${row[headers.indexOf('Número de documento')]} with Fecha: ${fecha}`);
+                        pickingRows.push([row[headers.indexOf('Número de documento')], fecha, row[headers.indexOf('Nombre')], row[headers.indexOf('Artículo')], row[headers.indexOf('Cantidad')], row[idColumnIndex]]);
+                    } else {
+                        logDebug(`Row added to Pedidos en Espera: ${row[headers.indexOf('Número de documento')]} with Fecha: ${fecha || 'No Date'}`);
+                        pedidosEnEsperaRows.push([row[headers.indexOf('Número de documento')], fecha, row[headers.indexOf('Nombre')], row[headers.indexOf('Artículo')], row[headers.indexOf('Cantidad')], row[idColumnIndex]]);
+                    }
+                } else if (ordenEspecial.startsWith('Orden de trabajo')) {
+                    if (estadoOrdenEspecial === 'Ensamblada') {
+                        if (fecha && isWithinNext3Days(fecha)) {
+                            logDebug(`Row added to Picking (Ensamblada): ${row[headers.indexOf('Número de documento')]} with Fecha: ${fecha}`);
+                            pickingRows.push([row[headers.indexOf('Número de documento')], fecha, row[headers.indexOf('Nombre')], row[headers.indexOf('Artículo')], row[headers.indexOf('Cantidad')], row[idColumnIndex]]);
+                        } else {
+                            logDebug(`Row added to Pedidos en Espera (Ensamblada): ${row[headers.indexOf('Número de documento')]} with Fecha: ${fecha || 'No Date'}`);
+                            pedidosEnEsperaRows.push([row[headers.indexOf('Número de documento')], fecha, row[headers.indexOf('Nombre')], row[headers.indexOf('Artículo')], row[headers.indexOf('Cantidad')], row[idColumnIndex]]);
+                        }
+                    } else {
+                        logDebug(`Row added to Producción: ${row[headers.indexOf('Número de documento')]} with Fecha: ${fecha || 'No Date'}`);
+                        produccionRows.push([row[headers.indexOf('Número de documento')], fecha, row[headers.indexOf('Nombre')], row[headers.indexOf('Artículo')], row[headers.indexOf('Cantidad')], row[idColumnIndex]]);
+                    }
                 }
             });
         
-            pickingRows.slice(1).sort((a, b) => new Date(a[1]) - new Date(b[1]));  // Sort picking by Fecha
-            produccionRows.slice(1).sort((a, b) => new Date(a[1]) - new Date(b[1]));  // Sort produccion by Fecha
-            pedidosEnEsperaRows.slice(1).sort((a, b) => new Date(a[1]) - new Date(b[1]));  // Sort pedidos en espera by Fecha
-
+            // Sort Picking, Producción, and Pedidos en Espera tables by Fecha (empty dates at the bottom)
+            pickingRows.slice(1).sort((a, b) => {
+                const dateA = a[1] ? new Date(a[1]) : new Date(0); // Use new Date(0) for empty dates (sort them to the bottom)
+                const dateB = b[1] ? new Date(b[1]) : new Date(0);
+                logDebug('Picking Table: Sorting Dates:', { dateA: a[1], dateB: b[1] }); // Log date values being compared
+                return dateA - dateB;  // Sort by date
+            });
         
-            // Create tables after sorting
-            createPickingTableWithLinks(pickingRows);
+            produccionRows.slice(1).sort((a, b) => {
+                const dateA = a[1] ? new Date(a[1]) : new Date(0); // Use new Date(0) for empty dates (sort them to the bottom)
+                const dateB = b[1] ? new Date(b[1]) : new Date(0);
+                logDebug('Produccion Table: Sorting Dates:', { dateA: a[1], dateB: b[1] }); // Log date values being compared
+                return dateA - dateB;  // Sort by date
+            });
+        
+            pedidosEnEsperaRows.slice(1).sort((a, b) => {
+                const dateA = a[1] ? new Date(a[1]) : new Date(0); // Use new Date(0) for empty dates (sort them to the bottom)
+                const dateB = b[1] ? new Date(b[1]) : new Date(0);
+                logDebug('Pedidos en Espera Table: Sorting Dates:', { dateA: a[1], dateB: b[1] }); // Log date values being compared
+                return dateA - dateB;  // Sort by date
+            });
+        
+            logDebug('Sorted Picking Rows:', pickingRows); // Log sorted picking rows
+            logDebug('Sorted Produccion Rows:', produccionRows); // Log sorted produccion rows
+            logDebug('Sorted Pedidos en Espera Rows:', pedidosEnEsperaRows); // Log sorted Pedidos en Espera rows
+        
+            // Display the tables
             createProduccionTableWithLinks(produccionRows);
+            createPickingTableWithLinks(pickingRows);
             createPedidosEnEsperaTableWithLinks(pedidosEnEsperaRows); // New table for Pedidos en Espera
+        
+            // Fetch data for Remisiones Recientes and Despachado
+            fetchCsvData(sheetUrl).then(csvData => {
+                const files = parseCsvData(csvData);
+                const { matched, unmatched } = compareRemitoWithFiles(facturacionRows.map(row => row[2]), files);
+        
+                createFacturacionTable(facturacionRows, unmatched);
+                createDespachadoTable(facturacionRows, matched);
+            }).catch(error => logDebug('Error fetching Google Sheet CSV:', error));
         }
 
 
