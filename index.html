@@ -329,6 +329,7 @@
             createTableWithLinks(rows, 'Picking', 3, false);
         }
 
+            // Function to create and display the Remisiones Recientes table (unmatched rows) with GOA hyperlinks and Fecha
         function createFacturacionTable(facturacionRows, unmatchedRows) {
             logDebug('Creating Remisiones Recientes table');
             const section = document.createElement('div');
@@ -342,7 +343,7 @@
             const thead = document.createElement('thead');
             const tbody = document.createElement('tbody');
     
-            const headers = ['GOA', 'Cliente', 'Numero de Remito'];
+            const headers = ['GOA', 'Fecha', 'Cliente', 'Numero de Remito'];
             const headerRow = document.createElement('tr');
             headers.forEach(header => {
                 const th = document.createElement('th');
@@ -351,12 +352,16 @@
             });
             thead.appendChild(headerRow);
     
-            const idColumnIndex = findIdColumnIndex(['GOA', 'Cliente', 'Numero de Remito', 'ID']); // Ensure we have the ID column index
+            const idColumnIndex = findIdColumnIndex(['GOA', 'Cliente', 'Numero de Remito', 'Fecha', 'ID']); // Ensure we have the ID column index
+    
+            // Sort rows by Numero de Remito
+            const sortedRows = facturacionRows.slice(1).sort((a, b) => a[2] - b[2]);
     
             // Add rows
-            facturacionRows.slice(1).forEach(row => {
+            sortedRows.forEach(row => {
                 const remitoNumber = row[2]; // "Numero de Remito" column
                 const goaNumber = row[0];    // "GOA" column
+                const fecha = row[4];        // "Fecha" column
                 const id = row[idColumnIndex]; // ID value
     
                 if (unmatchedRows.find(unmatched => unmatched.remito === remitoNumber)) {
@@ -372,6 +377,11 @@
                     }
                     tr.appendChild(goaCell);
     
+                    // Add Fecha column
+                    const fechaCell = document.createElement('td');
+                    fechaCell.textContent = fecha || 'N/A';  // Display N/A if no fecha is available
+                    tr.appendChild(fechaCell);
+    
                     // Add Cliente and Numero de Remito columns
                     row.slice(1, 3).forEach(cell => {
                         const td = document.createElement('td');
@@ -382,6 +392,7 @@
                     tbody.appendChild(tr);
                 }
             });
+    
             table.appendChild(thead);
             table.appendChild(tbody);
             section.appendChild(table);
@@ -389,8 +400,8 @@
             document.getElementById('column-4').appendChild(section);
             logDebug('Appended Remisiones Recientes table to column 4');
         }
-
-        // Function to create and display the Despachado table (matched rows) with GOA hyperlinks
+    
+        // Function to create and display the Despachado table (matched rows) with GOA hyperlinks and Fecha
         function createDespachadoTable(facturacionRows, matchedRows) {
             logDebug('Creating Despachado table');
             const section = document.createElement('div');
@@ -404,7 +415,7 @@
             const thead = document.createElement('thead');
             const tbody = document.createElement('tbody');
     
-            const headers = ['GOA', 'Cliente', 'Numero de Remito', 'Remito'];
+            const headers = ['GOA', 'Fecha', 'Cliente', 'Numero de Remito', 'Remito'];
             const headerRow = document.createElement('tr');
             headers.forEach(header => {
                 const th = document.createElement('th');
@@ -413,11 +424,15 @@
             });
             thead.appendChild(headerRow);
     
-            const idColumnIndex = findIdColumnIndex(['GOA', 'Cliente', 'Numero de Remito', 'ID']); // Ensure we have the ID column index
+            const idColumnIndex = findIdColumnIndex(['GOA', 'Cliente', 'Numero de Remito', 'Fecha', 'ID']); // Ensure we have the ID column index
     
-            facturacionRows.forEach(row => {
+            // Sort rows by Numero de Remito
+            const sortedRows = facturacionRows.sort((a, b) => a[2] - b[2]);
+    
+            sortedRows.forEach(row => {
                 const remitoNumber = row[2]; // "Numero de Remito" column
                 const goaNumber = row[0];    // "GOA" column
+                const fecha = row[4];        // "Fecha" column
                 const id = row[idColumnIndex]; // ID value
     
                 const matched = matchedRows.find(match => match.remito === remitoNumber);
@@ -433,6 +448,11 @@
                         goaCell.textContent = goaNumber;
                     }
                     tr.appendChild(goaCell);
+    
+                    // Add Fecha column
+                    const fechaCell = document.createElement('td');
+                    fechaCell.textContent = fecha || 'N/A';  // Display N/A if no fecha is available
+                    tr.appendChild(fechaCell);
     
                     // Add Cliente, Numero de Remito columns
                     row.slice(1, 3).forEach(cell => {
