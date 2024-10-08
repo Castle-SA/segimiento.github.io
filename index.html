@@ -261,12 +261,29 @@
             const pedidosEnEsperaRows = [['GOA', 'Fecha', 'Cliente', 'Art.', 'Cantidad', 'ID']]; 
             const facturacionRows = [['GOA', 'Cliente', 'Numero de Remito', 'Fecha', 'ID']];
         
+            // Helper function to clean up the date format (dd/mm/yyyy to yyyy-mm-dd)
+            function cleanUpDate(dateString) {
+                if (!dateString) return null;
+        
+                const parts = dateString.split('/');
+                if (parts.length !== 3) return null;
+        
+                const day = parts[0].padStart(2, '0');
+                const month = parts[1].padStart(2, '0');
+                const year = parts[2];
+        
+                const cleanedDate = `${year}-${month}-${day}`;
+                logDebug(`Cleaned Date: ${cleanedDate} from original: ${dateString}`);
+                return cleanedDate;
+            }
+        
             // Helper function to check if a date is within the next 3 days
             function isWithinNext3Days(dateString) {
-                if (!dateString) return false;  // Treat empty date as not within 3 days
+                const cleanedDate = cleanUpDate(dateString);
+                if (!cleanedDate) return false;  // Treat empty date as not within 3 days
         
                 const currentDate = new Date();
-                const inputDate = new Date(dateString);
+                const inputDate = new Date(cleanedDate);
         
                 // Log if the date cannot be parsed
                 if (isNaN(inputDate.getTime())) {
@@ -315,22 +332,22 @@
         
             // Sort Picking, Producción, and Pedidos en Espera tables by Fecha (empty dates at the bottom)
             pickingRows.slice(1).sort((a, b) => {
-                const dateA = a[1] ? new Date(a[1]) : new Date(0); // Use new Date(0) for empty dates (sort them to the bottom)
-                const dateB = b[1] ? new Date(b[1]) : new Date(0);
+                const dateA = a[1] ? new Date(cleanUpDate(a[1])) : new Date(0); // Use new Date(0) for empty dates (sort them to the bottom)
+                const dateB = b[1] ? new Date(cleanUpDate(b[1])) : new Date(0);
                 logDebug('Picking Table: Sorting Dates:', { dateA: a[1], dateB: b[1] }); // Log date values being compared
                 return dateA - dateB;  // Sort by date
             });
         
             produccionRows.slice(1).sort((a, b) => {
-                const dateA = a[1] ? new Date(a[1]) : new Date(0); // Use new Date(0) for empty dates (sort them to the bottom)
-                const dateB = b[1] ? new Date(b[1]) : new Date(0);
+                const dateA = a[1] ? new Date(cleanUpDate(a[1])) : new Date(0); // Use new Date(0) for empty dates (sort them to the bottom)
+                const dateB = b[1] ? new Date(cleanUpDate(b[1])) : new Date(0);
                 logDebug('Produccion Table: Sorting Dates:', { dateA: a[1], dateB: b[1] }); // Log date values being compared
                 return dateA - dateB;  // Sort by date
             });
         
             pedidosEnEsperaRows.slice(1).sort((a, b) => {
-                const dateA = a[1] ? new Date(a[1]) : new Date(0); // Use new Date(0) for empty dates (sort them to the bottom)
-                const dateB = b[1] ? new Date(b[1]) : new Date(0);
+                const dateA = a[1] ? new Date(cleanUpDate(a[1])) : new Date(0); // Use new Date(0) for empty dates (sort them to the bottom)
+                const dateB = b[1] ? new Date(cleanUpDate(b[1])) : new Date(0);
                 logDebug('Pedidos en Espera Table: Sorting Dates:', { dateA: a[1], dateB: b[1] }); // Log date values being compared
                 return dateA - dateB;  // Sort by date
             });
