@@ -302,7 +302,7 @@
         }
 
         // Function to hide the ID column when rendering tables
-          function createTableWithLinks(rows, title, column, hideIdColumn = true) {
+        function createTableWithLinks(rows, title, column, hideIdColumn = true) {
             const section = document.createElement('div');
             section.classList.add('table-section');
         
@@ -322,12 +322,9 @@
             console.log(`${title}: Detected ID Column Index:`, idColumnIndex);
             console.log(`${title}: Detected GOA Column Index:`, goaColumnIndex);
         
-            // Explicitly remove ID column from headers for display
-            let filteredHeaders = [...headers];
-            if (hideIdColumn && idColumnIndex !== -1) {
-                filteredHeaders.splice(idColumnIndex, 1); // Remove ID column by index
-            }
-            console.log(`${title}: Filtered Headers BEFORE rendering:`, filteredHeaders);  // Log filtered headers before rendering
+            // Remove the ID column from headers if hideIdColumn is true
+            const filteredHeaders = headers.filter((header, index) => !(hideIdColumn && index === idColumnIndex));
+            console.log(`${title}: Filtered Headers BEFORE rendering:`, filteredHeaders);
         
             // Add filtered headers to the table
             const headerRow = document.createElement('tr');
@@ -341,13 +338,10 @@
             // Add filtered rows, skipping the ID column explicitly
             rows.slice(1).forEach((row, rowIndex) => {
                 const tr = document.createElement('tr');
-                let filteredRow = [...row];  // Create a copy of the row
-                if (hideIdColumn && idColumnIndex !== -1) {
-                    filteredRow.splice(idColumnIndex, 1);  // Remove the ID column from the row
-                }
+                const filteredRow = row.filter((cell, index) => !(hideIdColumn && index === idColumnIndex));
         
                 // Log the filtered row for debugging
-                console.log(`${title}: Filtered Row ${rowIndex + 1}:`, filteredRow);  // Log each row
+                console.log(`${title}: Filtered Row ${rowIndex + 1}:`, filteredRow);
         
                 filteredRow.forEach((cell, index) => {
                     const td = document.createElement('td');
