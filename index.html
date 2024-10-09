@@ -103,6 +103,29 @@
             }
         }
 
+            // Helper function to clean up the date format (dd/mm/yyyy to yyyy-mm-dd) and add leading zeros
+        function cleanUpDate(dateString) {
+            if (!dateString) return null;
+    
+            const parts = dateString.split('/');
+            if (parts.length !== 3) return null;
+    
+            const day = parts[0].padStart(2, '0');
+            const month = parts[1].padStart(2, '0');
+            const year = parts[2];
+    
+            return `${year}-${month}-${day}`;
+        }
+    
+        // Sort function to compare the 'Fecha' column
+        function sortRowsByDate(rows, fechaColumnIndex) {
+            return rows.slice(1).sort((a, b) => {
+                const dateA = cleanUpDate(a[fechaColumnIndex]) ? new Date(cleanUpDate(a[fechaColumnIndex])) : new Date(0); // Handle empty dates
+                const dateB = cleanUpDate(b[fechaColumnIndex]) ? new Date(cleanUpDate(b[fechaColumnIndex])) : new Date(0);
+                return dateA - dateB;
+            });
+        }
+
         // CSV file paths for the original tables in column 1
         const csvFilesColumn1 = [
             { file: 'path/to/control_gp.csv', title: 'Control GP', column: 1 },
@@ -441,15 +464,20 @@
             createTableWithLinks(rows, 'Pedidos en Espera', 3); // Display Pedidos en Espera in column 3
         }
 
-        // Creating and displaying Producción, Picking, Remisiones Recientes, and Despachado tables
+        // Fetch and display the Producción table, sorted by 'Fecha'
         function createProduccionTableWithLinks(rows) {
-            createTableWithLinks(rows, 'Producción', 2, true); // Pass true to hide the ID column
+            const fechaColumnIndex = rows[0].indexOf('Fecha');  // Get the index of the 'Fecha' column
+            const sortedRows = sortRowsByDate(rows, fechaColumnIndex);  // Sort rows by 'Fecha'
+            createTableWithLinks([rows[0]].concat(sortedRows), 'Producción', 2, true);  // Render the sorted table
         }
-
-       function createPickingTableWithLinks(rows) {
-            createTableWithLinks(rows, 'Picking', 3, true); // Pass true to hide the ID column
+    
+        // Fetch and display the Picking table, sorted by 'Fecha'
+        function createPickingTableWithLinks(rows) {
+            const fechaColumnIndex = rows[0].indexOf('Fecha');  // Get the index of the 'Fecha' column
+            const sortedRows = sortRowsByDate(rows, fechaColumnIndex);  // Sort rows by 'Fecha'
+            createTableWithLinks([rows[0]].concat(sortedRows), 'Picking', 3, true);  // Render the sorted table
         }
-
+        
         // Function to create and display the Remisiones Recientes table (unmatched rows) with GOA hyperlinks and Fecha
         function createFacturacionTable(facturacionRows, unmatchedRows) {
             logDebug('Creating Remisiones Recientes table');
