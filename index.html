@@ -196,15 +196,15 @@
                 console.log(`DEBUG: ${message}`);
             }
         }
+        
         function splitPreparacion(rows) {
             logDebug('splitPreparacion function called');
             const headers = rows[0];
-        
             logDebug('Preparacion CSV Headers:', headers);
         
             const idColumnIndex = findIdColumnIndex(headers);
             const fechaColumnIndex = headers.indexOf('Fecha'); // Index for "Fecha" column
-            logDebug('Fecha column index:', fechaColumnIndex); 
+            logDebug('Fecha column index:', fechaColumnIndex);
         
             const pickingRows = [['GOA', 'Fecha', 'Cliente', 'Art.', 'Cantidad', 'ID']];
             const produccionRows = [['GOA', 'Fecha', 'Cliente', 'Art.', 'Cantidad', 'ID']];
@@ -323,7 +323,7 @@
             }).catch(error => logDebug('Error fetching Google Sheet CSV:', error));
         }
 
-        // Function to move rows with blank or zero 'Cantidad' to the 'Esperando Stock' table
+        // Function to move rows with 'Cantidad' blank or zero to the 'Esperando Stock' table
         function moveRowsToEsperandoStock(pickingRows, pedidosEnEsperaRows) {
             const headers = ['GOA', 'Fecha', 'Cliente', 'Art', 'Faltante'];
             const headerRow = document.createElement('tr');
@@ -346,70 +346,60 @@
                 const remainingRows = [rows[0]];  // Keep the headers intact
         
                 rows.slice(1).forEach(row => {
-                    const cantidad = row[headers.indexOf('Cantidad')];
-                    if (!cantidad || cantidad.trim() === '0' || cantidad.trim() === '') {
-                        movedRows.push(row);
+                    const cantidad = row[headers.indexOf('Cantidad')]; // Assuming 'Cantidad' is in the columns
+                    if (!cantidad || cantidad.trim() === '0') {
+                        movedRows.push(row);  // Move to Esperando Stock
                     } else {
-                        remainingRows.push(row);
+                        remainingRows.push(row);  // Keep in the original table
                     }
                 });
         
                 return { movedRows, remainingRows };
             }
         
-            // Filter and move rows from Picking and Pedidos en Espara tables
-            const { movedRows: movedPickingRows, remainingRows: remainingPickingRows } = filterAndMoveRows(pickingRows);
-            const { movedRows: movedPedidosEnEsperaRows, remainingRows: remainingPedidosEnEsperaRows } = filterAndMoveRows(pedidosEnEsperaRows);
+            // Filter and move rows from Picking and Pedidos en Espera
+            const filteredPicking = filterAndMoveRows(pickingRows);
+            const filteredPedidos = filterAndMoveRows(pedidosEnEsperaRows);
         
-            // Combine the moved rows from both tables
-            const combinedRows = movedPickingRows.concat(movedPedidosEnEsperaRows);
+            const combinedRows = filteredPicking.movedRows.concat(filteredPedidos.movedRows);
         
-            // Add rows to the 'Esperando Stock' table body
+            // Add rows to the Esperando Stock table
             combinedRows.forEach(row => {
                 const tr = document.createElement('tr');
-                const goa = row[headers.indexOf('GOA')];
-                const fecha = row[headers.indexOf('Fecha')];
-                const cliente = row[headers.indexOf('Cliente')];
-                const art = row[headers.indexOf('Art')];
-                const faltante = row[headers.indexOf('Faltante')];
-                const id = row[headers.indexOf('ID')];  // Assuming ID column exists for hyperlink generation
-        
-                // Append the row to the table with a hyperlink for GOA
-                const tdGoa = document.createElement('td');
-                if (id && goa) {
-                    tdGoa.innerHTML = `<a href="https://4294049.app.netsuite.com/app/accounting/transactions/salesord.nl?id=${id}&whence=" target="_blank">${goa}</a>`;
-                } else {
-                    tdGoa.textContent = goa;  // If no ID, just display GOA as plain text
-                }
-                tr.appendChild(tdGoa);
-        
-                // Append the rest of the columns
-                [fecha, cliente, art, faltante].forEach(cellValue => {
+                row.forEach((cell, index) => {
                     const td = document.createElement('td');
-                    td.textContent = cellValue;
+                    if (index === headers.indexOf('GOA')) {
+                        const id = row[headers.indexOf('ID')]; // Use the ID for hyperlink generation
+                        if (id && cell) {
+                            td.innerHTML = `<a href="https://4294049.app.netsuite.com/app/accounting/transactions/salesord.nl?id=${id}&whence=" target="_blank">${cell}</a>`;
+                        } else {
+                            td.textContent = cell;
+                        }
+                    } else {
+                        td.textContent = cell;
+                    }
                     tr.appendChild(td);
                 });
-        
                 tbody.appendChild(tr);
             });
         
-            // Append thead and tbody to the table
             table.appendChild(thead);
             table.appendChild(tbody);
         
-            // Add the 'Esperando Stock' table to the document in column 2 (after Producción)
             const section = document.createElement('div');
             section.classList.add('table-section');
             const h2 = document.createElement('h2');
             h2.textContent = 'Esperando Stock';
             section.appendChild(h2);
             section.appendChild(table);
-            document.getElementById('column-2').appendChild(section);
         
-            // Return the remaining rows for the Picking and Pedidos en Espara tables
-            return { remainingPickingRows, remainingPedidosEnEsperaRows };
+            document.getElementById('column-2').appendChild(section);  // Append to column 2
+        
+            return {
+                remainingPickingRows: filteredPicking.remainingRows,
+                remainingPedidosEnEsperaRows: filteredPedidos.remainingRows,
+            };
         }
-
         // Function to hide the ID column when rendering tables
        function createTableWithLinks(rows, title, column, hideIdColumn = true) {
             const section = document.createElement('div');
