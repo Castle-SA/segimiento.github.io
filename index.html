@@ -302,76 +302,7 @@
         }
 
         // Function to hide the ID column when rendering tables
-        function createTableWithLinks(rows, title, column, hideIdColumn = true) {
-            const section = document.createElement('div');
-            section.classList.add('table-section');
-        
-            const h2 = document.createElement('h2');
-            h2.textContent = title;
-            section.appendChild(h2);
-        
-            const table = document.createElement('table');
-            const thead = document.createElement('thead');
-            const tbody = document.createElement('tbody');
-        
-            const headers = rows[0];  // The header row
-            const idColumnIndex = findIdColumnIndex(headers); // Get the index of the "ID" column
-            const goaColumnIndex = headers.indexOf('GOA') !== -1 ? headers.indexOf('GOA') : headers.indexOf('Número de documento'); // Handle renamed GOA column
-        
-            // Debugging the index detection
-            console.log(`${title}: Detected ID Column Index:`, idColumnIndex);
-            console.log(`${title}: Detected GOA Column Index:`, goaColumnIndex);
-        
-            // Remove the ID column from headers if hideIdColumn is true
-            const filteredHeaders = headers.filter((header, index) => !(hideIdColumn && index === idColumnIndex));
-            console.log(`${title}: Filtered Headers BEFORE rendering:`, filteredHeaders);
-        
-            // Add filtered headers to the table
-            const headerRow = document.createElement('tr');
-            filteredHeaders.forEach(header => {
-                const th = document.createElement('th');
-                th.textContent = header;
-                headerRow.appendChild(th);
-            });
-            thead.appendChild(headerRow);
-        
-            // Add filtered rows, skipping the ID column explicitly
-            rows.slice(1).forEach((row, rowIndex) => {
-                const tr = document.createElement('tr');
-                const filteredRow = row.filter((cell, index) => !(hideIdColumn && index === idColumnIndex));
-        
-                // Log the filtered row for debugging
-                console.log(`${title}: Filtered Row ${rowIndex + 1}:`, filteredRow);
-        
-                filteredRow.forEach((cell, index) => {
-                    const td = document.createElement('td');
-        
-                    // If this is the "GOA" column, make it a clickable hyperlink using the original row's ID
-                    if (index === goaColumnIndex) {
-                        const id = row[idColumnIndex]?.trim();
-                        if (id && cell) {
-                            td.innerHTML = `<a href="https://4294049.app.netsuite.com/app/accounting/transactions/salesord.nl?id=${id}&whence=" target="_blank">${cell}</a>`;
-                            console.log(`${title}: Created hyperlink for GOA: ${cell} with ID: ${id}`);
-                        } else {
-                            td.textContent = cell;
-                        }
-                    } else {
-                        td.textContent = cell;
-                    }
-        
-                    tr.appendChild(td);
-                });
-                tbody.appendChild(tr);
-            });
-        
-            table.appendChild(thead);
-            table.appendChild(tbody);
-            section.appendChild(table);
-        
-            document.getElementById(`column-${column}`).appendChild(section);
-        
-            console.log(`Appended ${title} table to column ${column}`);
-        }
+        Producción: Filtered Headers BEFORE rendering: (6) ['GOA', 'Fecha', 'Cliente', 'Art.', 'Cantidad', 'ID']
         
         // Function to hide ID column elements after table generation
         function hideIdColumnElements(table, idColumnIndex) {
