@@ -180,6 +180,11 @@
 
         // Function to find the ID column index with header trimming
         function findIdColumnIndex(headers) {
+            if (!headers || !headers.map) {
+                console.error('Headers are undefined or not an array:', headers);  // Add a console log to catch undefined headers
+                return -1;  // Return an invalid index if headers are not available
+            }
+        
             const trimmedHeaders = headers.map(header => header.trim());
             logDebug('Trimmed Headers:', trimmedHeaders);
             const idIndex = trimmedHeaders.indexOf('ID');
