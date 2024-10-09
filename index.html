@@ -196,24 +196,22 @@
                 console.log(`DEBUG: ${message}`);
             }
         }
-        
         function splitPreparacion(rows) {
             logDebug('splitPreparacion function called');
             const headers = rows[0];
         
-            // Log headers to ensure we see "Fecha" exists
             logDebug('Preparacion CSV Headers:', headers);
         
             const idColumnIndex = findIdColumnIndex(headers);
             const fechaColumnIndex = headers.indexOf('Fecha'); // Index for "Fecha" column
-            logDebug('Fecha column index:', fechaColumnIndex); // Ensure we have the correct index
+            logDebug('Fecha column index:', fechaColumnIndex); 
         
-            const pickingRows = [['GOA', 'Fecha', 'Cliente', 'Art.', 'Cantidad', 'ID']]; 
+            const pickingRows = [['GOA', 'Fecha', 'Cliente', 'Art.', 'Cantidad', 'ID']];
             const produccionRows = [['GOA', 'Fecha', 'Cliente', 'Art.', 'Cantidad', 'ID']];
-            const pedidosEnEsperaRows = [['GOA', 'Fecha', 'Cliente', 'Art.', 'Cantidad', 'ID']]; 
+            const pedidosEnEsperaRows = [['GOA', 'Fecha', 'Cliente', 'Art.', 'Cantidad', 'ID']];
             const facturacionRows = [['GOA', 'Cliente', 'Numero de Remito', 'Fecha', 'ID']];
         
-            // Helper function to clean up the date format (dd/mm/yyyy to yyyy-mm-dd) and add leading zeros
+            // Helper function to clean up the date format (dd/mm/yyyy to yyyy-mm-dd)
             function cleanUpDate(dateString) {
                 if (!dateString) return null;
         
@@ -229,32 +227,30 @@
                 return cleanedDate;
             }
         
-            // Helper function to check if a date is either within the next 3 days or in the past
+            // Helper function to check if a date is within the next 3 days or in the past
             function isWithinNext3DaysOrPast(dateString) {
                 const cleanedDate = cleanUpDate(dateString);
-                if (!cleanedDate) return false;  // Treat empty date as not within range
+                if (!cleanedDate) return false;
         
                 const currentDate = new Date();
                 const inputDate = new Date(cleanedDate);
         
-                // Log if the date cannot be parsed
                 if (isNaN(inputDate.getTime())) {
                     logDebug(`Invalid date detected: ${dateString}`);
-                    return false;  // Invalid date
+                    return false;
                 }
         
                 const differenceInTime = inputDate - currentDate;
                 const differenceInDays = differenceInTime / (1000 * 3600 * 24);
         
-                // Include dates in the past or within the next 3 days
-                return differenceInDays <= 3;  
+                return differenceInDays <= 3;
             }
         
             rows.slice(1).forEach(row => {
                 const ordenEspecial = row[headers.indexOf('Orden. Especial?')]?.trim();
                 const estadoOrdenEspecial = row[headers.indexOf('Estado Orden. Especial')]?.trim();
-                const fecha = row[fechaColumnIndex]?.trim(); // Get and trim Fecha for each row
-                logDebug('Processing row Fecha:', fecha); // Log each Fecha value
+                const fecha = row[fechaColumnIndex]?.trim(); 
+                logDebug('Processing row Fecha:', fecha);
         
                 if (ordenEspecial && ordenEspecial.startsWith('Ejecución')) {
                     const remito = ordenEspecial.slice(-5);
@@ -283,37 +279,40 @@
                 }
             });
         
-            // Sort Picking, Producción, and Pedidos en Espera tables by Fecha (empty dates at the bottom)
+            // Sort Picking, Producción, and Pedidos en Espera tables by Fecha
             pickingRows.slice(1).sort((a, b) => {
-                const dateA = a[1] ? new Date(cleanUpDate(a[1])) : new Date(0); // Use new Date(0) for empty dates (sort them to the bottom)
+                const dateA = a[1] ? new Date(cleanUpDate(a[1])) : new Date(0);
                 const dateB = b[1] ? new Date(cleanUpDate(b[1])) : new Date(0);
-                logDebug('Picking Table: Sorting Dates:', { dateA: a[1], dateB: b[1] }); // Log date values being compared
-                return dateA - dateB;  // Sort by date
+                logDebug('Picking Table: Sorting Dates:', { dateA: a[1], dateB: b[1] });
+                return dateA - dateB;
             });
         
             produccionRows.slice(1).sort((a, b) => {
-                const dateA = a[1] ? new Date(cleanUpDate(a[1])) : new Date(0); // Use new Date(0) for empty dates (sort them to the bottom)
+                const dateA = a[1] ? new Date(cleanUpDate(a[1])) : new Date(0);
                 const dateB = b[1] ? new Date(cleanUpDate(b[1])) : new Date(0);
-                logDebug('Produccion Table: Sorting Dates:', { dateA: a[1], dateB: b[1] }); // Log date values being compared
-                return dateA - dateB;  // Sort by date
+                logDebug('Produccion Table: Sorting Dates:', { dateA: a[1], dateB: b[1] });
+                return dateA - dateB;
             });
         
             pedidosEnEsperaRows.slice(1).sort((a, b) => {
-                const dateA = a[1] ? new Date(cleanUpDate(a[1])) : new Date(0); // Use new Date(0) for empty dates (sort them to the bottom)
+                const dateA = a[1] ? new Date(cleanUpDate(a[1])) : new Date(0);
                 const dateB = b[1] ? new Date(cleanUpDate(b[1])) : new Date(0);
-                logDebug('Pedidos en Espera Table: Sorting Dates:', { dateA: a[1], dateB: b[1] }); // Log date values being compared
-                return dateA - dateB;  // Sort by date
+                logDebug('Pedidos en Espera Table: Sorting Dates:', { dateA: a[1], dateB: b[1] });
+                return dateA - dateB;
             });
         
-            logDebug('Sorted Picking Rows:', pickingRows); // Log sorted picking rows
-            logDebug('Sorted Produccion Rows:', produccionRows); // Log sorted produccion rows
-            logDebug('Sorted Pedidos en Espera Rows:', pedidosEnEsperaRows); // Log sorted Pedidos en Espera rows
+            logDebug('Sorted Picking Rows:', pickingRows); 
+            logDebug('Sorted Produccion Rows:', produccionRows);
+            logDebug('Sorted Pedidos en Espera Rows:', pedidosEnEsperaRows);
         
-            // Display the tables
+            // Move rows to 'Esperando Stock' and generate the table
+            const { remainingPickingRows, remainingPedidosEnEsperaRows } = moveRowsToEsperandoStock(pickingRows, pedidosEnEsperaRows);
+        
+            // Display the remaining rows in the Picking and Pedidos en Espera tables
             createProduccionTableWithLinks(produccionRows);
-            createPickingTableWithLinks(pickingRows);
-            createPedidosEnEsperaTableWithLinks(pedidosEnEsperaRows); // New table for Pedidos en Espera
-            generateEsperandoStockTable(pickingRows, pedidosEnEsperaRows);
+            createPickingTableWithLinks(remainingPickingRows);
+            createPedidosEnEsperaTableWithLinks(remainingPedidosEnEsperaRows);
+        
             // Fetch data for Remisiones Recientes and Despachado
             fetchCsvData(sheetUrl).then(csvData => {
                 const files = parseCsvData(csvData);
@@ -322,6 +321,93 @@
                 createFacturacionTable(facturacionRows, unmatched);
                 createDespachadoTable(facturacionRows, matched);
             }).catch(error => logDebug('Error fetching Google Sheet CSV:', error));
+        }
+
+        // Function to move rows with blank or zero 'Cantidad' to the 'Esperando Stock' table
+        function moveRowsToEsperandoStock(pickingRows, pedidosEnEsperaRows) {
+            const headers = ['GOA', 'Fecha', 'Cliente', 'Art', 'Faltante'];
+            const headerRow = document.createElement('tr');
+        
+            // Create the header row
+            headers.forEach(header => {
+                const th = document.createElement('th');
+                th.textContent = header;
+                headerRow.appendChild(th);
+            });
+        
+            const table = document.createElement('table');
+            const thead = document.createElement('thead');
+            const tbody = document.createElement('tbody');
+            thead.appendChild(headerRow);
+        
+            // Helper function to filter rows by 'Cantidad'
+            function filterAndMoveRows(rows) {
+                const movedRows = [];
+                const remainingRows = [rows[0]];  // Keep the headers intact
+        
+                rows.slice(1).forEach(row => {
+                    const cantidad = row[headers.indexOf('Cantidad')];
+                    if (!cantidad || cantidad.trim() === '0' || cantidad.trim() === '') {
+                        movedRows.push(row);
+                    } else {
+                        remainingRows.push(row);
+                    }
+                });
+        
+                return { movedRows, remainingRows };
+            }
+        
+            // Filter and move rows from Picking and Pedidos en Espara tables
+            const { movedRows: movedPickingRows, remainingRows: remainingPickingRows } = filterAndMoveRows(pickingRows);
+            const { movedRows: movedPedidosEnEsperaRows, remainingRows: remainingPedidosEnEsperaRows } = filterAndMoveRows(pedidosEnEsperaRows);
+        
+            // Combine the moved rows from both tables
+            const combinedRows = movedPickingRows.concat(movedPedidosEnEsperaRows);
+        
+            // Add rows to the 'Esperando Stock' table body
+            combinedRows.forEach(row => {
+                const tr = document.createElement('tr');
+                const goa = row[headers.indexOf('GOA')];
+                const fecha = row[headers.indexOf('Fecha')];
+                const cliente = row[headers.indexOf('Cliente')];
+                const art = row[headers.indexOf('Art')];
+                const faltante = row[headers.indexOf('Faltante')];
+                const id = row[headers.indexOf('ID')];  // Assuming ID column exists for hyperlink generation
+        
+                // Append the row to the table with a hyperlink for GOA
+                const tdGoa = document.createElement('td');
+                if (id && goa) {
+                    tdGoa.innerHTML = `<a href="https://4294049.app.netsuite.com/app/accounting/transactions/salesord.nl?id=${id}&whence=" target="_blank">${goa}</a>`;
+                } else {
+                    tdGoa.textContent = goa;  // If no ID, just display GOA as plain text
+                }
+                tr.appendChild(tdGoa);
+        
+                // Append the rest of the columns
+                [fecha, cliente, art, faltante].forEach(cellValue => {
+                    const td = document.createElement('td');
+                    td.textContent = cellValue;
+                    tr.appendChild(td);
+                });
+        
+                tbody.appendChild(tr);
+            });
+        
+            // Append thead and tbody to the table
+            table.appendChild(thead);
+            table.appendChild(tbody);
+        
+            // Add the 'Esperando Stock' table to the document in column 2 (after Producción)
+            const section = document.createElement('div');
+            section.classList.add('table-section');
+            const h2 = document.createElement('h2');
+            h2.textContent = 'Esperando Stock';
+            section.appendChild(h2);
+            section.appendChild(table);
+            document.getElementById('column-2').appendChild(section);
+        
+            // Return the remaining rows for the Picking and Pedidos en Espara tables
+            return { remainingPickingRows, remainingPedidosEnEsperaRows };
         }
 
         // Function to hide the ID column when rendering tables
@@ -542,9 +628,9 @@
 
             return { matched, unmatched };
         }
-
+        
         function createPedidosEnEsperaTableWithLinks(rows) {
-            const fechaColumnIndex = rows[0].indexOf('Fecha');  // Get the index of the 'Fecha' column
+            const fechaColumnIndex = rows[0].indexOf('Fecha');
             const sortedRows = sortRowsByDate(rows, fechaColumnIndex);  // Sort rows by 'Fecha'
             createTableWithLinks([rows[0]].concat(sortedRows), 'Pedidos en Espera', 3, true);  // Render the sorted table
         }
@@ -556,9 +642,8 @@
             createTableWithLinks([rows[0]].concat(sortedRows), 'Producción', 2, true);  // Render the sorted table
         }
     
-        // Fetch and display the Picking table, sorted by 'Fecha'
         function createPickingTableWithLinks(rows) {
-            const fechaColumnIndex = rows[0].indexOf('Fecha');  // Get the index of the 'Fecha' column
+            const fechaColumnIndex = rows[0].indexOf('Fecha');
             const sortedRows = sortRowsByDate(rows, fechaColumnIndex);  // Sort rows by 'Fecha'
             createTableWithLinks([rows[0]].concat(sortedRows), 'Picking', 3, true);  // Render the sorted table
         }
