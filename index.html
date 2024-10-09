@@ -485,7 +485,7 @@
 
         // Function to filter rows with blank or zero 'Cantidad' and create the 'Esperando Stock' table
         function createEsperandoStockTable(pickingRows, pedidosEnEsperaRows) {
-            const headers = ['GOA', 'Fecha', 'Cliente', 'Art', 'Faltante'];
+            const headers = ['GOA', 'Fecha', 'Cliente', 'Art', 'Faltante', 'ID']; // Including 'Faltante' from the CSV
             const headerRow = document.createElement('tr');
             
             // Create the header row
@@ -500,11 +500,12 @@
             const tbody = document.createElement('tbody');
             thead.appendChild(headerRow);
         
-            // Helper function to filter rows by 'Cantidad'
+            // Helper function to filter rows by 'Cantidad' and include 'Faltante'
             function filterRows(rows) {
                 return rows.slice(1).filter(row => {
                     const cantidad = row[headers.indexOf('Cantidad')];
-                    return !cantidad || cantidad.trim() === '0' || cantidad.trim() === '';
+                    const faltante = row[headers.indexOf('Faltante')]; // Pull 'Faltante' from the correct CSV column
+                    return (!cantidad || cantidad.trim() === '0' || cantidad.trim() === '') && faltante; // Include only those with missing 'Cantidad' and valid 'Faltante'
                 });
             }
         
@@ -523,10 +524,7 @@
                 const cliente = row[headers.indexOf('Cliente')];
                 const art = row[headers.indexOf('Art')];
                 const faltante = row[headers.indexOf('Faltante')];
-                const id = row[headers.indexOf('ID')]; // Assuming ID column exists for hyperlink generation
-        
-                // Debugging - check GOA and ID values
-                console.log('GOA:', goa, 'ID:', id);
+                const id = row[headers.indexOf('ID')]; // Use 'ID' for hyperlink generation, but hide it
         
                 // Append the row to the table with hyperlink for GOA
                 const tdGoa = document.createElement('td');
@@ -537,7 +535,7 @@
                 }
                 tr.appendChild(tdGoa);
         
-                // Append the rest of the columns
+                // Append the rest of the columns (Fecha, Cliente, Art, Faltante)
                 [fecha, cliente, art, faltante].forEach(cellValue => {
                     const td = document.createElement('td');
                     td.textContent = cellValue;
@@ -559,26 +557,27 @@
             section.appendChild(h2);
             section.appendChild(table);
         
-            // Append to the 2nd column (after Producción)
+            // Append to the 2nd column (under Producción)
             document.getElementById('column-2').appendChild(section);
+        
+            // Hide the ID column
+            hideIdColumnElements(table, headers.indexOf('ID'));
         }
         
         // Function to trigger filtering for both Picking and Pedidos en Espara
         function generateEsperandoStockTable(pickingRows, pedidosEnEsperaRows) {
             createEsperandoStockTable(pickingRows, pedidosEnEsperaRows);
         }
-        
+        // Function to hide the ID column when rendering tables
         function hideIdColumnElements(table, idColumnIndex) {
             const rows = table.querySelectorAll('tr');
-            rows.forEach((row, rowIndex) => {
+            rows.forEach(row => {
                 const cells = row.querySelectorAll('td, th');
                 if (cells[idColumnIndex]) {
                     cells[idColumnIndex].style.display = 'none'; // Hides the ID column
-                    console.log(`Row ${rowIndex}: Hiding ID column`);
                 }
             });
         }
-
 
 
         // ** Function to fetch Google Sheet CSV data ** 
