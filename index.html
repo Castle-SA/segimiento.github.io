@@ -442,13 +442,24 @@
                 const cliente = row[headers.indexOf('Cliente')];
                 const art = row[headers.indexOf('Art')];
                 const faltante = row[headers.indexOf('Faltante')];
+                const id = row[headers.indexOf('ID')]; // Assuming ID column exists for hyperlink generation
         
-                // Append the row to the table
-                [goa, fecha, cliente, art, faltante].forEach(cellValue => {
+                // Append the row to the table with hyperlink for GOA
+                const tdGoa = document.createElement('td');
+                if (id && goa) {
+                    tdGoa.innerHTML = `<a href="https://4294049.app.netsuite.com/app/accounting/transactions/salesord.nl?id=${id}&whence=" target="_blank">${goa}</a>`;
+                } else {
+                    tdGoa.textContent = goa;  // If no ID, just display GOA as plain text
+                }
+                tr.appendChild(tdGoa);
+        
+                // Append the rest of the columns
+                [fecha, cliente, art, faltante].forEach(cellValue => {
                     const td = document.createElement('td');
                     td.textContent = cellValue;
                     tr.appendChild(td);
                 });
+        
                 tbody.appendChild(tr);
             });
         
@@ -464,7 +475,8 @@
             section.appendChild(h2);
             section.appendChild(table);
         
-            document.getElementById('column-4').appendChild(section); // Append to column 4
+            // Append to the 2nd column (after Producción)
+            document.getElementById('column-2').appendChild(section);
         }
         
         // Function to trigger filtering for both Picking and Pedidos en Espara
