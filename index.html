@@ -318,8 +318,18 @@
             const idColumnIndex = findIdColumnIndex(headers); // Get the index of the "ID" column
             const goaColumnIndex = headers.indexOf('GOA') !== -1 ? headers.indexOf('GOA') : headers.indexOf('Número de documento'); // Handle renamed GOA column
         
+            // Debugging the index detection
+            console.log(`${title}: Detected ID Column Index:`, idColumnIndex);
+            console.log(`${title}: Detected GOA Column Index:`, goaColumnIndex);
+        
+            // If no valid index for ID column, output error and return
+            if (idColumnIndex === -1) {
+                console.log(`${title}: ID column not found, skipping ID column filtering.`);
+            }
+        
             // Filter out the ID column from headers
             const filteredHeaders = hideIdColumn ? headers.filter((_, index) => index !== idColumnIndex) : headers;
+            console.log(`${title}: Filtered Headers:`, filteredHeaders);
         
             // Add filtered headers to the table
             const headerRow = document.createElement('tr');
@@ -330,14 +340,14 @@
             });
             thead.appendChild(headerRow);
         
-            logDebug(`${title} - GOA Column Index:`, goaColumnIndex);
-            logDebug(`${title} - ID Column Index:`, idColumnIndex);
-        
             // Add filtered rows, skipping the ID column
             rows.slice(1).forEach(row => {
                 const tr = document.createElement('tr');
                 const filteredRow = hideIdColumn ? row.filter((_, index) => index !== idColumnIndex) : row;
-                
+        
+                // Log the filtered row for debugging
+                console.log(`${title}: Filtered Row:`, filteredRow);
+        
                 filteredRow.forEach((cell, index) => {
                     const td = document.createElement('td');
         
@@ -346,7 +356,7 @@
                         const id = row[idColumnIndex]?.trim();
                         if (id && cell) {
                             td.innerHTML = `<a href="https://4294049.app.netsuite.com/app/accounting/transactions/salesord.nl?id=${id}&whence=" target="_blank">${cell}</a>`;
-                            logDebug(`Created hyperlink for GOA: ${cell} with ID: ${id}`);
+                            console.log(`${title}: Created hyperlink for GOA: ${cell} with ID: ${id}`);
                         } else {
                             td.textContent = cell;
                         }
@@ -365,7 +375,7 @@
         
             document.getElementById(`column-${column}`).appendChild(section);
         
-            logDebug(`Appended ${title} table to column ${column}`);
+            console.log(`Appended ${title} table to column ${column}`);
         }
         
         // Function to hide ID column elements after table generation
