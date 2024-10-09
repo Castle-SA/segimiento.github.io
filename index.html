@@ -318,6 +318,7 @@
             const headers = rows[0];  // The header row
             const idColumnIndex = findIdColumnIndex(headers); // Get the index of the "ID" column
             const goaColumnIndex = headers.indexOf('GOA') !== -1 ? headers.indexOf('GOA') : headers.indexOf('Número de documento'); // Handle renamed GOA column
+            const clienteColumnIndex = headers.indexOf('Cliente') !== -1 ? headers.indexOf('Cliente') : headers.indexOf('Nombre'); // Index for "Cliente" or "Nombre"
         
             const headerRow = document.createElement('tr');
             headers.forEach((header, index) => {
@@ -352,7 +353,13 @@
                         } else {
                             td.textContent = cell;
                         }
-                    } else {
+                    }
+                    // Filter the "Cliente" or "Nombre" column to remove text before the first space
+                    else if (index === clienteColumnIndex && cell) {
+                        const filteredText = cell.split(' ').slice(1).join(' '); // Remove text before the first space
+                        td.textContent = filteredText || cell; // If no space, use original text
+                    }
+                    else {
                         td.textContent = cell;
                     }
         
