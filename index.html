@@ -165,7 +165,7 @@
         // Function to fetch and display CSV for columns 2, 3, and 4 (Producción, Picking, Remisiones Recientes, Despachado)
         function fetchAndDisplayCSVForLastTables(file, title, column) {
             logDebug(`Fetching CSV: ${title}`);
-            
+        
             fetch(file)
                 .then(response => response.text())
                 .then(csv => {
@@ -174,18 +174,37 @@
                         return;
                     }
         
+                    // Split the CSV into rows
                     let rows = csv.split('\n').map(row => row.split(','));
         
-                    // Check if the rows are valid and have headers
-                    if (rows.length === 0 || rows[0].length === 0) {
-                        console.error(`Error: No headers found in the CSV data for ${title}.`);
+                    // Check if rows are valid
+                    if (!rows || rows.length === 0) {
+                        console.error(`Error: No data found in the CSV file for ${title}.`);
                         return;
                     }
         
+                    // Check if headers are valid (first row of the CSV)
+                    const headers = rows[0];
+                    if (!headers || headers.length === 0) {
+                        console.error(`Error: Headers are undefined or empty in the CSV for ${title}.`);
+                        return;
+                    }
+        
+                    logDebug(`${title} headers:`, headers);
                     logDebug(`${title} rows fetched`, rows);
         
-                    if (title === 'Preparación') {
-                        splitPreparacion(rows);  // Continue with table creation logic
+                    if (title === 'Pedidos en Espera') {
+                        createPedidosEnEsperaTableWithLinks(rows);  // Render Pedidos en Espera table
+                    }
+        
+                    if (title === 'Remisiones Recientes' || title === 'Despachado') {
+                        // Use the appropriate table creation function for the 4th column
+                        if (title === 'Remisiones Recientes') {
+                            createRemisionesRecientesTable(rows);  // Add your actual table creation function here
+                        }
+                        if (title === 'Despachado') {
+                            createDespachadoTable(rows);  // Add your actual table creation function here
+                        }
                     }
                 })
                 .catch(error => logDebug(`Error fetching ${title}:`, error));
@@ -570,14 +589,23 @@
             return { matched, unmatched };
         }
 
-        function createPedidosEnEsperaTableWithLinks(rows, excludedRows) {
+        function createPedidosEnEsperaTableWithLinks(rows) {
+            if (!rows || rows.length === 0) {
+                console.error('Error: Rows data is undefined or empty for Pedidos en Espera table.');
+                return;
+            }
+        
+            logDebug('Pedidos en Espera rows:', rows);
+        
             const fechaColumnIndex = rows[0].indexOf('Fecha');  // Get the index of the 'Fecha' column
+            
+            if (fechaColumnIndex === -1) {
+                console.error('Error: "Fecha" column not found in the Pedidos en Espera table headers.');
+                return;
+            }
         
-            // Filter out the rows that are already in Esperando Stock
-            const filteredRows = rows.slice(1).filter(row => !excludedRows.some(exRow => exRow[0] === row[0]));  // Compare based on GOA (row[0])
-        
-            const sortedRows = sortRowsByDate([rows[0]].concat(filteredRows), fechaColumnIndex);  // Sort rows by 'Fecha'
-            createTableWithLinks(sortedRows, 'Pedidos en Espera', 3, true);  // Render the sorted table
+            const sortedRows = sortRowsByDate(rows, fechaColumnIndex);  // Sort rows by 'Fecha'
+            createTableWithLinks([rows[0]].concat(sortedRows), 'Pedidos en Espera', 3, true);  // Render the sorted table
         }
         
         // Fetch and display the Producción table, sorted by 'Fecha'
@@ -608,6 +636,13 @@
         // Function to create and display the Remisiones Recientes table (unmatched rows) with GOA hyperlinks and Fecha
         function createFacturacionTable(facturacionRows, unmatchedRows) {
             logDebug('Creating Remisiones Recientes table');
+
+                if (!rows || rows.length === 0) {
+                    console.error('Error: Rows data is undefined or empty for Remisiones Recientes table.');
+                    return;
+                }
+            
+                logDebug('Remisiones Recientes rows:', rows);
             const section = document.createElement('div');
             section.classList.add('table-section');
 
@@ -683,7 +718,14 @@
 
         // Function to create and display the Despachado table (matched rows) with GOA hyperlinks and Fecha
         function createDespachadoTable(facturacionRows, matchedRows) {
+            
             logDebug('Creating Despachado table');
+                if (!rows || rows.length === 0) {
+                    console.error('Error: Rows data is undefined or empty for Despachado table.');
+                    return;
+                }
+            
+                logDebug('Despachado rows:', rows);
             const section = document.createElement('div');
             section.classList.add('table-section');
         
