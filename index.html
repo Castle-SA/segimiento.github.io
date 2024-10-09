@@ -333,16 +333,27 @@
             createEsperandoStockTable(esperandoStockRows);
         
             // Fetch Google Sheet data for Remisiones Recientes and Despachado
-            fetchCsvData(sheetUrl).then(csvData => {
-                const files = parseCsvData(csvData);
-                const { matched, unmatched } = compareRemitoWithFiles(facturacionRows.map(row => row[2]), files);
+        // Fetch Google Sheet data for Remisiones Recientes and Despachado
+        fetchCsvData(sheetUrl).then(csvData => {
+            const files = parseCsvData(csvData);
+            const { matched, unmatched } = compareRemitoWithFiles(facturacionRows.map(row => row[2]), files);
         
-                // Create and display Remisiones Recientes table
+            // Create and display Remisiones Recientes table
+            if (unmatched.length > 0) {
                 createFacturacionTable(facturacionRows, unmatched);
-                // Create and display Despachado table
+            } else {
+                logDebug('No unmatched rows for Remisiones Recientes.');
+            }
+        
+            // Create and display Despachado table
+            if (matched.length > 0) {
                 createDespachadoTable(facturacionRows, matched);
-            }).catch(error => logDebug('Error fetching Google Sheet CSV:', error));
-        }
+            } else {
+                logDebug('No matched rows for Despachado.');
+            }
+        }).catch(error => {
+            logDebug('Error fetching Google Sheet CSV:', error);
+        });
 
         // Function to move rows with 'Cantidad' blank or zero to the 'Esperando Stock' table
         function moveRowsToEsperandoStock(pickingRows, pedidosEnEsperaRows) {
@@ -554,6 +565,7 @@
             // Append the Esperando Stock table under Producción in column 2
             document.getElementById('column-2').appendChild(section);
         }
+
         
         // Helper function to filter and move rows for Esperando Stock
         function filterRows(rows) {
