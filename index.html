@@ -302,7 +302,7 @@
         }
 
         // Function to hide the ID column when rendering tables
-        function createTableWithLinks(rows, title, column, hideIdColumn = true) {
+       function createTableWithLinks(rows, title, column, hideIdColumn = true) {
             const section = document.createElement('div');
             section.classList.add('table-section');
         
@@ -328,7 +328,7 @@
             }
         
             // Filter out the ID column from headers
-            const filteredHeaders = hideIdColumn ? headers.filter((_, index) => index !== idColumnIndex) : headers;
+            const filteredHeaders = hideIdColumn && idColumnIndex !== -1 ? headers.filter((_, index) => index !== idColumnIndex) : headers;
             console.log(`${title}: Filtered Headers:`, filteredHeaders);
         
             // Add filtered headers to the table
@@ -343,7 +343,7 @@
             // Add filtered rows, skipping the ID column
             rows.slice(1).forEach(row => {
                 const tr = document.createElement('tr');
-                const filteredRow = hideIdColumn ? row.filter((_, index) => index !== idColumnIndex) : row;
+                const filteredRow = hideIdColumn && idColumnIndex !== -1 ? row.filter((_, index) => index !== idColumnIndex) : row;
         
                 // Log the filtered row for debugging
                 console.log(`${title}: Filtered Row:`, filteredRow);
