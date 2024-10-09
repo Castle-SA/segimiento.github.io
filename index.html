@@ -465,18 +465,23 @@
             const tbody = document.createElement('tbody');
         
             const headers = ['GOA', 'Fecha', 'Cliente', 'Numero de Remito'];
+            
+            // Create header row (only once in the thead)
             const headerRow = document.createElement('tr');
             headers.forEach(header => {
                 const th = document.createElement('th');
                 th.textContent = header;
                 headerRow.appendChild(th);
             });
-            thead.appendChild(headerRow);
+            thead.appendChild(headerRow); // Append header row to thead
+            
+            // Append thead to table
+            table.appendChild(thead);
         
             const clienteColumnIndex = headers.indexOf('Cliente'); // Find "Cliente" column index
         
-            // Add rows
-            facturacionRows.forEach(row => {
+            // Add rows (only to tbody)
+            facturacionRows.slice(1).forEach(row => {  // Make sure not to include header row in data rows
                 const tr = document.createElement('tr');
         
                 row.forEach((cell, index) => {
@@ -493,12 +498,11 @@
                     tr.appendChild(td);
                 });
         
-                tbody.appendChild(tr);
+                tbody.appendChild(tr); // Append row to tbody
             });
         
-            table.appendChild(thead);
-            table.appendChild(tbody);
-            section.appendChild(table);
+            table.appendChild(tbody); // Append tbody to table
+            section.appendChild(table); // Append table to section
         
             document.getElementById('column-4').appendChild(section); // Append to column 4
             logDebug('Appended Remisiones Recientes table to column 4');
@@ -519,18 +523,23 @@
             const tbody = document.createElement('tbody');
         
             const headers = ['GOA', 'Fecha', 'Cliente', 'Numero de Remito', 'Remito'];
+        
+            // Create header row (only once in the thead)
             const headerRow = document.createElement('tr');
             headers.forEach(header => {
                 const th = document.createElement('th');
                 th.textContent = header;
                 headerRow.appendChild(th);
             });
-            thead.appendChild(headerRow);
+            thead.appendChild(headerRow); // Append header row to thead
+            
+            // Append thead to table
+            table.appendChild(thead);
         
             const clienteColumnIndex = headers.indexOf('Cliente'); // Find "Cliente" column index
         
-            // Add rows
-            facturacionRows.forEach(row => {
+            // Add rows (only to tbody)
+            facturacionRows.slice(1).forEach(row => {  // Make sure not to include header row in data rows
                 const tr = document.createElement('tr');
         
                 row.forEach((cell, index) => {
@@ -547,12 +556,11 @@
                     tr.appendChild(td);
                 });
         
-                tbody.appendChild(tr);
+                tbody.appendChild(tr); // Append row to tbody
             });
         
-            table.appendChild(thead);
-            table.appendChild(tbody);
-            section.appendChild(table);
+            table.appendChild(tbody); // Append tbody to table
+            section.appendChild(table); // Append table to section
         
             document.getElementById('column-4').appendChild(section); // Append to column 4
             logDebug('Appended Despachado table to column 4');
