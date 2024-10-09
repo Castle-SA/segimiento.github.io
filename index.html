@@ -483,9 +483,9 @@
             }
         }
 
-        // Function to filter rows with blank or zero 'Cantidad' and create the 'Esperando Stock' table
+       // Function to filter rows with blank or zero 'Cantidad' and create the 'Esperando Stock' table
         function createEsperandoStockTable(pickingRows, pedidosEnEsperaRows) {
-            const headers = ['GOA', 'Fecha', 'Cliente', 'Art', 'Faltante', 'ID']; // Including 'Faltante' from the CSV
+            const headers = ['GOA', 'Fecha', 'Cliente', 'Art', 'Faltante', 'Cantidad', 'ID']; // Correct 'Cantidad' and 'Faltante'
             const headerRow = document.createElement('tr');
             
             // Create the header row
@@ -503,7 +503,7 @@
             // Helper function to filter rows by 'Cantidad' and include 'Faltante'
             function filterRows(rows) {
                 return rows.slice(1).filter(row => {
-                    const cantidad = row[headers.indexOf('Cantidad')];
+                    const cantidad = row[headers.indexOf('Cantidad')]; // Correctly referencing the 'Cantidad' column
                     const faltante = row[headers.indexOf('Faltante')]; // Pull 'Faltante' from the correct CSV column
                     return (!cantidad || cantidad.trim() === '0' || cantidad.trim() === '') && faltante; // Include only those with missing 'Cantidad' and valid 'Faltante'
                 });
@@ -523,7 +523,8 @@
                 const fecha = row[headers.indexOf('Fecha')];
                 const cliente = row[headers.indexOf('Cliente')];
                 const art = row[headers.indexOf('Art')];
-                const faltante = row[headers.indexOf('Faltante')];
+                const faltante = row[headers.indexOf('Faltante')]; // Correctly referencing 'Faltante' column
+                const cantidad = row[headers.indexOf('Cantidad')]; // Correctly referencing 'Cantidad' column
                 const id = row[headers.indexOf('ID')]; // Use 'ID' for hyperlink generation, but hide it
         
                 // Append the row to the table with hyperlink for GOA
@@ -535,8 +536,8 @@
                 }
                 tr.appendChild(tdGoa);
         
-                // Append the rest of the columns (Fecha, Cliente, Art, Faltante)
-                [fecha, cliente, art, faltante].forEach(cellValue => {
+                // Append the rest of the columns (Fecha, Cliente, Art, Faltante, Cantidad)
+                [fecha, cliente, art, faltante, cantidad].forEach(cellValue => {
                     const td = document.createElement('td');
                     td.textContent = cellValue;
                     tr.appendChild(td);
@@ -561,13 +562,14 @@
             document.getElementById('column-2').appendChild(section);
         
             // Hide the ID column
-            hideIdColumnElements(table, headers.indexOf('ID'));
+            hideIdColumnElements(table, headers.indexOf('ID')); // Ensure correct index for 'ID'
         }
         
         // Function to trigger filtering for both Picking and Pedidos en Espara
         function generateEsperandoStockTable(pickingRows, pedidosEnEsperaRows) {
             createEsperandoStockTable(pickingRows, pedidosEnEsperaRows);
         }
+        
         // Function to hide the ID column when rendering tables
         function hideIdColumnElements(table, idColumnIndex) {
             const rows = table.querySelectorAll('tr');
