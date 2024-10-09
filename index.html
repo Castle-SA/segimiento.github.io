@@ -499,11 +499,17 @@
             }
         }
 
-       // Function to filter rows with blank or zero 'Cantidad' and create the 'Esperando Stock' table
-        function createEsperandoStockTable(pickingRows, pedidosEnEsperaRows) {
-            const headers = ['GOA', 'Fecha', 'Cliente', 'Art', 'Faltante', 'Cantidad', 'ID']; // Correct 'Cantidad' and 'Faltante'
+        // Function to filter rows with blank or zero 'Cantidad' and create the 'Esperando Stock' table
+        function createEsperandoStockTable(esperandoStockRows) {
+            // Ensure that rows are valid before processing
+            if (!esperandoStockRows || esperandoStockRows.length === 0) {
+                logDebug("No rows available for Esperando Stock.");
+                return;
+            }
+        
+            const headers = ['GOA', 'Fecha', 'Cliente', 'Art', 'Faltante', 'ID'];
             const headerRow = document.createElement('tr');
-            
+        
             // Create the header row
             headers.forEach(header => {
                 const th = document.createElement('th');
@@ -516,14 +522,57 @@
             const tbody = document.createElement('tbody');
             thead.appendChild(headerRow);
         
-            // Helper function to filter rows by 'Cantidad' and include 'Faltante'
-            function filterRows(rows) {
-                return rows.slice(1).filter(row => {
-                    const cantidad = row[headers.indexOf('Cantidad')]; // Correctly referencing the 'Cantidad' column
-                    const faltante = row[headers.indexOf('Faltante')]; // Pull 'Faltante' from the correct CSV column
-                    return (!cantidad || cantidad.trim() === '0' || cantidad.trim() === '') && faltante; // Include only those with missing 'Cantidad' and valid 'Faltante'
+            // Process the rows for Esperando Stock
+            esperandoStockRows.slice(1).forEach(row => {
+                const tr = document.createElement('tr');
+                row.forEach((cell, index) => {
+                    const td = document.createElement('td');
+                    td.textContent = cell;
+        
+                    // Make the "GOA" column a clickable link using the ID
+                    if (index === headers.indexOf('GOA')) {
+                        const id = row[headers.indexOf('ID')];
+                        if (id && cell) {
+                            td.innerHTML = `<a href="https://4294049.app.netsuite.com/app/accounting/transactions/salesord.nl?id=${id}&whence=" target="_blank">${cell}</a>`;
+                        }
+                    }
+                    tr.appendChild(td);
                 });
+                tbody.appendChild(tr);
+            });
+        
+            table.appendChild(thead);
+            table.appendChild(tbody);
+        
+            const section = document.createElement('div');
+            section.classList.add('table-section');
+            const h2 = document.createElement('h2');
+            h2.textContent = 'Esperando Stock';
+            section.appendChild(h2);
+            section.appendChild(table);
+        
+            // Append the Esperando Stock table under Producción in column 2
+            document.getElementById('column-2').appendChild(section);
+        }
+        
+        // Helper function to filter and move rows for Esperando Stock
+        function filterRows(rows) {
+            // Ensure the rows array is valid
+            if (!rows || rows.length === 0) {
+                logDebug("No rows available for filtering.");
+                return [];
             }
+        
+            const headers = rows[0];
+            const cantidadColumnIndex = headers.indexOf('Cantidad');
+            const faltanteColumnIndex = headers.indexOf('Faltante');
+            
+            return rows.filter(row => {
+                const cantidad = row[cantidadColumnIndex]?.trim();
+                const faltante = row[faltanteColumnIndex]?.trim();
+                return (!cantidad || cantidad === '0') && faltante;
+            });
+        }
         
             // Filter Picking and Pedidos en Espara tables for rows with blank or zero 'Cantidad'
             const filteredPickingRows = filterRows(pickingRows);
