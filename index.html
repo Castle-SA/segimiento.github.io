@@ -459,11 +459,12 @@
             return { matched, unmatched };
         }
 
-        // Function to create and display the Pedidos en Espera table with links
         function createPedidosEnEsperaTableWithLinks(rows) {
-            createTableWithLinks(rows, 'Pedidos en Espera', 3); // Display Pedidos en Espera in column 3
+            const fechaColumnIndex = rows[0].indexOf('Fecha');  // Get the index of the 'Fecha' column
+            const sortedRows = sortRowsByDate(rows, fechaColumnIndex);  // Sort rows by 'Fecha'
+            createTableWithLinks([rows[0]].concat(sortedRows), 'Pedidos en Espera', 3, true);  // Render the sorted table
         }
-
+        
         // Fetch and display the Producción table, sorted by 'Fecha'
         function createProduccionTableWithLinks(rows) {
             const fechaColumnIndex = rows[0].indexOf('Fecha');  // Get the index of the 'Fecha' column
