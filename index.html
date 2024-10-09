@@ -455,56 +455,74 @@
             logDebug('Creating Remisiones Recientes table');
             const section = document.createElement('div');
             section.classList.add('table-section');
-        
+
             const h2 = document.createElement('h2');
             h2.textContent = 'Remisiones Recientes';
             section.appendChild(h2);
-        
+
             const table = document.createElement('table');
             const thead = document.createElement('thead');
             const tbody = document.createElement('tbody');
-        
+
             const headers = ['GOA', 'Fecha', 'Cliente', 'Numero de Remito'];
-            
-            // Create header row (only once in the thead)
             const headerRow = document.createElement('tr');
             headers.forEach(header => {
                 const th = document.createElement('th');
                 th.textContent = header;
                 headerRow.appendChild(th);
             });
-            thead.appendChild(headerRow); // Append header row to thead
-            
-            // Append thead to table
-            table.appendChild(thead);
-        
-            const clienteColumnIndex = headers.indexOf('Cliente'); // Find "Cliente" column index
-        
-            // Add rows (only to tbody)
-            facturacionRows.slice(1).forEach(row => {  // Make sure not to include header row in data rows
-                const tr = document.createElement('tr');
-        
-                row.forEach((cell, index) => {
-                    const td = document.createElement('td');
-        
-                    // Apply text filtering for the "Cliente" column
-                    if (index === clienteColumnIndex && cell) {
-                        const filteredText = cell.split(' ').slice(1).join(' '); // Remove text before the first space
-                        td.textContent = filteredText || cell; // If no space, use original text
+            thead.appendChild(headerRow);
+
+            // Find the ID and Fecha column indices correctly
+            const idColumnIndex = findIdColumnIndex(facturacionRows[0]); // Index of ID in the actual rows
+            const fechaColumnIndex = facturacionRows[0].indexOf('Fecha'); // Index for "Fecha" column
+            logDebug('ID column index:', idColumnIndex);
+            logDebug('Fecha column index:', fechaColumnIndex);
+
+            // Sort rows by Numero de Remito (column 3)
+            const sortedRows = facturacionRows.slice(1).sort((a, b) => a[2] - b[2]);
+
+            // Add rows
+            sortedRows.forEach(row => {
+                const remitoNumber = row[2]; // "Numero de Remito" column
+                const goaNumber = row[0];    // "GOA" column
+                const fecha = row[fechaColumnIndex]; // "Fecha" column
+                const id = row[idColumnIndex]?.trim(); // ID value
+
+                if (unmatchedRows.find(unmatched => unmatched.remito === remitoNumber)) {
+                    const tr = document.createElement('tr');
+
+                    // Add GOA as a hyperlink
+                    const goaCell = document.createElement('td');
+                    if (id && goaNumber) {
+                        goaCell.innerHTML = `<a href="https://4294049.app.netsuite.com/app/accounting/transactions/salesord.nl?id=${id}&whence=" target="_blank">${goaNumber}</a>`;
+                        logDebug(`Created hyperlink for GOA: ${goaNumber} with ID: ${id}`);
                     } else {
-                        td.textContent = cell;
+                        goaCell.textContent = goaNumber;
                     }
-        
-                    tr.appendChild(td);
-                });
-        
-                tbody.appendChild(tr); // Append row to tbody
+                    tr.appendChild(goaCell);
+
+                    // Add Fecha column
+                    const fechaCell = document.createElement('td');
+                    fechaCell.textContent = fecha || 'N/A';  // Display N/A if no fecha is available
+                    tr.appendChild(fechaCell);
+
+                    // Add Cliente and Numero de Remito columns
+                    row.slice(1, 3).forEach(cell => {
+                        const td = document.createElement('td');
+                        td.textContent = cell;
+                        tr.appendChild(td);
+                    });
+
+                    tbody.appendChild(tr);
+                }
             });
-        
-            table.appendChild(tbody); // Append tbody to table
-            section.appendChild(table); // Append table to section
-        
-            document.getElementById('column-4').appendChild(section); // Append to column 4
+
+            table.appendChild(thead);
+            table.appendChild(tbody);
+            section.appendChild(table);
+
+            document.getElementById('column-4').appendChild(section);
             logDebug('Appended Remisiones Recientes table to column 4');
         }
 
@@ -513,56 +531,79 @@
             logDebug('Creating Despachado table');
             const section = document.createElement('div');
             section.classList.add('table-section');
-        
+
             const h2 = document.createElement('h2');
             h2.textContent = 'Despachado';
             section.appendChild(h2);
-        
+
             const table = document.createElement('table');
             const thead = document.createElement('thead');
             const tbody = document.createElement('tbody');
-        
+
             const headers = ['GOA', 'Fecha', 'Cliente', 'Numero de Remito', 'Remito'];
-        
-            // Create header row (only once in the thead)
             const headerRow = document.createElement('tr');
             headers.forEach(header => {
                 const th = document.createElement('th');
                 th.textContent = header;
                 headerRow.appendChild(th);
             });
-            thead.appendChild(headerRow); // Append header row to thead
-            
-            // Append thead to table
-            table.appendChild(thead);
-        
-            const clienteColumnIndex = headers.indexOf('Cliente'); // Find "Cliente" column index
-        
-            // Add rows (only to tbody)
-            facturacionRows.slice(1).forEach(row => {  // Make sure not to include header row in data rows
-                const tr = document.createElement('tr');
-        
-                row.forEach((cell, index) => {
-                    const td = document.createElement('td');
-        
-                    // Apply text filtering for the "Cliente" column
-                    if (index === clienteColumnIndex && cell) {
-                        const filteredText = cell.split(' ').slice(1).join(' '); // Remove text before the first space
-                        td.textContent = filteredText || cell; // If no space, use original text
+            thead.appendChild(headerRow);
+
+            // Find the ID and Fecha column indices correctly
+            const idColumnIndex = findIdColumnIndex(facturacionRows[0]); // Index of ID in the actual rows
+            const fechaColumnIndex = facturacionRows[0].indexOf('Fecha'); // Index for "Fecha" column
+            logDebug('ID column index:', idColumnIndex);
+            logDebug('Fecha column index:', fechaColumnIndex);
+
+            // Sort rows by Numero de Remito (column 3)
+            const sortedRows = facturacionRows.sort((a, b) => a[2] - b[2]);
+
+            sortedRows.forEach(row => {
+                const remitoNumber = row[2]; // "Numero de Remito" column
+                const goaNumber = row[0];    // "GOA" column
+                const fecha = row[fechaColumnIndex]; // "Fecha" column
+                const id = row[idColumnIndex]?.trim(); // ID value
+
+                const matched = matchedRows.find(match => match.remito === remitoNumber);
+                if (matched) {
+                    const tr = document.createElement('tr');
+
+                    // Add GOA as a hyperlink
+                    const goaCell = document.createElement('td');
+                    if (id && goaNumber) {
+                        goaCell.innerHTML = `<a href=".netsuite.com/app/accounting/transactions/salesord.nl?id=${id}&whence=" target="_blank">${goaNumber}</a>`;
+                        logDebug(`Created hyperlink for GOA: ${goaNumber} with ID: ${id}`);
                     } else {
-                        td.textContent = cell;
+                        goaCell.textContent = goaNumber;
                     }
-        
-                    tr.appendChild(td);
-                });
-        
-                tbody.appendChild(tr); // Append row to tbody
+                    tr.appendChild(goaCell);
+
+                    // Add Fecha column
+                    const fechaCell = document.createElement('td');
+                    fechaCell.textContent = fecha || 'N/A';  // Display N/A if no fecha is available
+                    tr.appendChild(fechaCell);
+
+                    // Add Cliente, Numero de Remito columns
+                    row.slice(1, 3).forEach(cell => {
+                        const td = document.createElement('td');
+                        td.textContent = cell;
+                        tr.appendChild(td);
+                    });
+
+                    // Add Remito link
+                    const linkCell = document.createElement('td');
+                    linkCell.innerHTML = `<a href="${matched.fileLink}" target="_blank">Ver</a>`;
+                    tr.appendChild(linkCell);
+
+                    tbody.appendChild(tr);
+                }
             });
-        
-            table.appendChild(tbody); // Append tbody to table
-            section.appendChild(table); // Append table to section
-        
-            document.getElementById('column-4').appendChild(section); // Append to column 4
+
+            table.appendChild(thead);
+            table.appendChild(tbody);
+            section.appendChild(table);
+
+            document.getElementById('column-4').appendChild(section);
             logDebug('Appended Despachado table to column 4');
         }
 
