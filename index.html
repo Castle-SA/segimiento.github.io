@@ -205,6 +205,8 @@
             const idColumnIndex = findIdColumnIndex(headers);
             const fechaColumnIndex = headers.indexOf('Fecha'); // Index for "Fecha" column
             const cantidadColumnIndex = headers.indexOf('Cantidad'); // Index for "Cantidad"
+            const faltanteColumnIndex = headers.indexOf('Faltante'); // Index for "Cantidad"
+
             logDebug('Fecha column index:', fechaColumnIndex);
         
             const pickingRows = [['GOA', 'Fecha', 'Cliente', 'Art.', 'Cantidad', 'ID']];
