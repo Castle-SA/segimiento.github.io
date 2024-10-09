@@ -319,11 +319,8 @@
             const idColumnIndex = findIdColumnIndex(headers); // Get the index of the "ID" column
             const goaColumnIndex = headers.indexOf('GOA') !== -1 ? headers.indexOf('GOA') : headers.indexOf('Número de documento'); // Handle renamed GOA column
         
-            // Debugging the index detection
-            console.log(`${title}: Detected ID Column Index:`, idColumnIndex);
-            console.log(`${title}: Detected GOA Column Index:`, goaColumnIndex);
-        
-            // Create the header row, marking the ID column with a class for hiding
+            // Ensure all tables handle headers the same way
+            console.log(`${title}: Filtered Headers: `, headers);
             const headerRow = document.createElement('tr');
             headers.forEach((header, index) => {
                 const th = document.createElement('th');
@@ -338,7 +335,7 @@
             });
             thead.appendChild(headerRow);
         
-            // Create the body rows, also marking the ID column with a class for hiding
+            // Process the table rows
             rows.slice(1).forEach((row, rowIndex) => {
                 const tr = document.createElement('tr');
                 row.forEach((cell, index) => {
@@ -374,9 +371,13 @@
             document.getElementById(`column-${column}`).appendChild(section);
         
             console.log(`Appended ${title} table to column ${column}`);
+        
+            // Hide the ID column after the table is generated
+            if (hideIdColumn) {
+                hideIdColumnElements(table, idColumnIndex);
+            }
         }
         
-        // Function to hide ID column elements after table generation
         function hideIdColumnElements(table, idColumnIndex) {
             const rows = table.querySelectorAll('tr');
             rows.forEach(row => {
