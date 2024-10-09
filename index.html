@@ -204,6 +204,7 @@
         
             const idColumnIndex = findIdColumnIndex(headers);
             const fechaColumnIndex = headers.indexOf('Fecha'); // Index for "Fecha" column
+            const cantidadColumnIndex = headers.indexOf('Cantidad'); // Index for "Cantidad"
             logDebug('Fecha column index:', fechaColumnIndex);
         
             const pickingRows = [['GOA', 'Fecha', 'Cliente', 'Art.', 'Cantidad', 'ID']];
@@ -246,42 +247,46 @@
                 return differenceInDays <= 3;
             }
         
+            // Process each row, splitting them into different tables
             rows.slice(1).forEach(row => {
                 const ordenEspecial = row[headers.indexOf('Orden. Especial?')]?.trim();
                 const estadoOrdenEspecial = row[headers.indexOf('Estado Orden. Especial')]?.trim();
-                const fecha = row[fechaColumnIndex]?.trim(); 
+                const fecha = row[fechaColumnIndex]?.trim();
+                const cantidad = row[cantidadColumnIndex]?.trim(); // Get the Cantidad column
                 logDebug('Processing row Fecha:', fecha);
         
                 if (ordenEspecial && ordenEspecial.startsWith('Ejecución')) {
                     const remito = ordenEspecial.slice(-5);
                     facturacionRows.push([row[headers.indexOf('Número de documento')], row[headers.indexOf('Nombre')], remito, fecha, row[idColumnIndex]]);
                 } else if (!ordenEspecial) {
+                    // Normal orders, send to Picking or Pedidos en Espera based on the date
                     if (fecha && isWithinNext3DaysOrPast(fecha)) {
                         logDebug(`Row added to Picking: ${row[headers.indexOf('Número de documento')]} with Fecha: ${fecha}`);
-                        pickingRows.push([row[headers.indexOf('Número de documento')], fecha, row[headers.indexOf('Nombre')], row[headers.indexOf('Artículo')], row[headers.indexOf('Cantidad')], row[idColumnIndex]]);
+                        pickingRows.push([row[headers.indexOf('Número de documento')], fecha, row[headers.indexOf('Nombre')], row[headers.indexOf('Artículo')], cantidad, row[idColumnIndex]]);
                     } else {
                         logDebug(`Row added to Pedidos en Espera: ${row[headers.indexOf('Número de documento')]} with Fecha: ${fecha || 'No Date'}`);
-                        pedidosEnEsperaRows.push([row[headers.indexOf('Número de documento')], fecha, row[headers.indexOf('Nombre')], row[headers.indexOf('Artículo')], row[headers.indexOf('Cantidad')], row[idColumnIndex]]);
+                        pedidosEnEsperaRows.push([row[headers.indexOf('Número de documento')], fecha, row[headers.indexOf('Nombre')], row[headers.indexOf('Artículo')], cantidad, row[idColumnIndex]]);
                     }
                 } else if (ordenEspecial.startsWith('Orden de trabajo')) {
+                    // Handle Orden de trabajo, send to Producción or Picking/Pedidos en Espera
                     if (estadoOrdenEspecial === 'Ensamblada') {
                         if (fecha && isWithinNext3DaysOrPast(fecha)) {
                             logDebug(`Row added to Picking (Ensamblada): ${row[headers.indexOf('Número de documento')]} with Fecha: ${fecha}`);
-                            pickingRows.push([row[headers.indexOf('Número de documento')], fecha, row[headers.indexOf('Nombre')], row[headers.indexOf('Artículo')], row[headers.indexOf('Cantidad')], row[idColumnIndex]]);
+                            pickingRows.push([row[headers.indexOf('Número de documento')], fecha, row[headers.indexOf('Nombre')], row[headers.indexOf('Artículo')], cantidad, row[idColumnIndex]]);
                         } else {
                             logDebug(`Row added to Pedidos en Espera (Ensamblada): ${row[headers.indexOf('Número de documento')]} with Fecha: ${fecha || 'No Date'}`);
-                            pedidosEnEsperaRows.push([row[headers.indexOf('Número de documento')], fecha, row[headers.indexOf('Nombre')], row[headers.indexOf('Artículo')], row[headers.indexOf('Cantidad')], row[idColumnIndex]]);
+                            pedidosEnEsperaRows.push([row[headers.indexOf('Número de documento')], fecha, row[headers.indexOf('Nombre')], row[headers.indexOf('Artículo')], cantidad, row[idColumnIndex]]);
                         }
                     } else {
                         logDebug(`Row added to Producción: ${row[headers.indexOf('Número de documento')]} with Fecha: ${fecha || 'No Date'}`);
-                        produccionRows.push([row[headers.indexOf('Número de documento')], fecha, row[headers.indexOf('Nombre')], row[headers.indexOf('Artículo')], row[headers.indexOf('Cantidad')], row[idColumnIndex]]);
+                        produccionRows.push([row[headers.indexOf('Número de documento')], fecha, row[headers.indexOf('Nombre')], row[headers.indexOf('Artículo')], cantidad, row[idColumnIndex]]);
                     }
                 }
             });
         
-            // Sort Picking, Producción, and Pedidos en Espera tables by Fecha
+            // Sort Picking, Producción, and Pedidos en Espera tables by Fecha (empty dates at the bottom)
             pickingRows.slice(1).sort((a, b) => {
-                const dateA = a[1] ? new Date(cleanUpDate(a[1])) : new Date(0);
+                const dateA = a[1] ? new Date(cleanUpDate(a[1])) : new Date(0); // Empty dates go to the bottom
                 const dateB = b[1] ? new Date(cleanUpDate(b[1])) : new Date(0);
                 logDebug('Picking Table: Sorting Dates:', { dateA: a[1], dateB: b[1] });
                 return dateA - dateB;
@@ -301,11 +306,11 @@
                 return dateA - dateB;
             });
         
-            logDebug('Sorted Picking Rows:', pickingRows); 
+            logDebug('Sorted Picking Rows:', pickingRows);
             logDebug('Sorted Produccion Rows:', produccionRows);
             logDebug('Sorted Pedidos en Espera Rows:', pedidosEnEsperaRows);
         
-            // Move rows to 'Esperando Stock' and generate the table
+            // Move rows to 'Esperando Stock' based on Cantidad and generate the table
             const { remainingPickingRows, remainingPedidosEnEsperaRows } = moveRowsToEsperandoStock(pickingRows, pedidosEnEsperaRows);
         
             // Display the remaining rows in the Picking and Pedidos en Espera tables
@@ -325,7 +330,7 @@
 
         // Function to move rows with 'Cantidad' blank or zero to the 'Esperando Stock' table
         function moveRowsToEsperandoStock(pickingRows, pedidosEnEsperaRows) {
-            const headers = ['GOA', 'Fecha', 'Cliente', 'Art', 'Faltante'];
+            const headers = ['GOA', 'Fecha', 'Cliente', 'Art', 'Cantidad', 'ID']; // Ensure 'Cantidad' and 'ID' are included
             const headerRow = document.createElement('tr');
         
             // Create the header row
@@ -340,17 +345,17 @@
             const tbody = document.createElement('tbody');
             thead.appendChild(headerRow);
         
-            // Helper function to filter rows by 'Cantidad'
+            // Helper function to filter rows by 'Cantidad' and move the matching rows to 'Esperando Stock'
             function filterAndMoveRows(rows) {
                 const movedRows = [];
                 const remainingRows = [rows[0]];  // Keep the headers intact
         
                 rows.slice(1).forEach(row => {
-                    const cantidad = row[headers.indexOf('Cantidad')]; // Assuming 'Cantidad' is in the columns
+                    const cantidad = row[headers.indexOf('Cantidad')]; // Find the 'Cantidad' column
                     if (!cantidad || cantidad.trim() === '0') {
-                        movedRows.push(row);  // Move to Esperando Stock
+                        movedRows.push(row);  // Move to Esperando Stock if 'Cantidad' is blank or zero
                     } else {
-                        remainingRows.push(row);  // Keep in the original table
+                        remainingRows.push(row);  // Keep in the original table if 'Cantidad' is non-zero
                     }
                 });
         
@@ -393,11 +398,11 @@
             section.appendChild(h2);
             section.appendChild(table);
         
-            document.getElementById('column-2').appendChild(section);  // Append to column 2
+            document.getElementById('column-2').appendChild(section);  // Append to column 2 after Producción
         
             return {
-                remainingPickingRows: filteredPicking.remainingRows,
-                remainingPedidosEnEsperaRows: filteredPedidos.remainingRows,
+                remainingPickingRows: filteredPicking.remainingRows,  // Rows not moved to Esperando Stock
+                remainingPedidosEnEsperaRows: filteredPedidos.remainingRows,  // Rows not moved to Esperando Stock
             };
         }
         // Function to hide the ID column when rendering tables
