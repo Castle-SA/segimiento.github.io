@@ -309,13 +309,14 @@
             logDebug('Sorted Picking Rows:', pickingRows);
             logDebug('Sorted Produccion Rows:', produccionRows);
             logDebug('Sorted Pedidos en Espera Rows:', pedidosEnEsperaRows);
-        
+            
+            createProduccionTableWithLinks(produccionRows);
+
             // Move rows to 'Esperando Stock' based on Cantidad and generate the table
             const { remainingPickingRows, remainingPedidosEnEsperaRows } = moveRowsToEsperandoStock(pickingRows, pedidosEnEsperaRows);
         
             // Display the remaining rows in the Picking and Pedidos en Espera tables
-            createProduccionTableWithLinks(produccionRows);
-            createEsperandoStockTable(pickingRows, pedidosEnEsperaRows);
+            //createEsperandoStockTable(pickingRows, pedidosEnEsperaRows);
 
             createPickingTableWithLinks(remainingPickingRows);
             createPedidosEnEsperaTableWithLinks(remainingPedidosEnEsperaRows);
