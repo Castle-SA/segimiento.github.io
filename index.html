@@ -165,14 +165,27 @@
         // Function to fetch and display CSV for columns 2, 3, and 4 (Producción, Picking, Remisiones Recientes, Despachado)
         function fetchAndDisplayCSVForLastTables(file, title, column) {
             logDebug(`Fetching CSV: ${title}`);
+            
             fetch(file)
                 .then(response => response.text())
                 .then(csv => {
+                    if (!csv) {
+                        console.error(`Error: CSV data for ${title} is empty or undefined.`);
+                        return;
+                    }
+        
                     let rows = csv.split('\n').map(row => row.split(','));
+        
+                    // Check if the rows are valid and have headers
+                    if (rows.length === 0 || rows[0].length === 0) {
+                        console.error(`Error: No headers found in the CSV data for ${title}.`);
+                        return;
+                    }
+        
                     logDebug(`${title} rows fetched`, rows);
-
+        
                     if (title === 'Preparación') {
-                        splitPreparacion(rows); // This function splits tables into Producción, Picking, etc.
+                        splitPreparacion(rows);  // Continue with table creation logic
                     }
                 })
                 .catch(error => logDebug(`Error fetching ${title}:`, error));
@@ -575,14 +588,21 @@
         }
     
         // Fetch and display the Picking table, sorted by 'Fecha'
-        function createPickingTableWithLinks(rows, excludedRows) {
+        function createPickingTableWithLinks(rows) {
+            if (!rows || rows.length === 0) {
+                console.error('Error: Rows data is undefined or empty for Picking table.');
+                return;
+            }
+        
             const fechaColumnIndex = rows[0].indexOf('Fecha');  // Get the index of the 'Fecha' column
+            
+            if (fechaColumnIndex === -1) {
+                console.error('Error: "Fecha" column not found in the Picking table headers.');
+                return;
+            }
         
-            // Filter out the rows that are already in Esperando Stock
-            const filteredRows = rows.slice(1).filter(row => !excludedRows.some(exRow => exRow[0] === row[0]));  // Compare based on GOA (row[0])
-        
-            const sortedRows = sortRowsByDate([rows[0]].concat(filteredRows), fechaColumnIndex);  // Sort rows by 'Fecha'
-            createTableWithLinks(sortedRows, 'Picking', 3, true);  // Render the sorted table
+            const sortedRows = sortRowsByDate(rows, fechaColumnIndex);  // Sort rows by 'Fecha'
+            createTableWithLinks([rows[0]].concat(sortedRows), 'Picking', 3, true);  // Render the sorted table
         }
         
         // Function to create and display the Remisiones Recientes table (unmatched rows) with GOA hyperlinks and Fecha
