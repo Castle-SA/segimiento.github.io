@@ -313,7 +313,7 @@
             createProduccionTableWithLinks(produccionRows);
             createPickingTableWithLinks(pickingRows);
             createPedidosEnEsperaTableWithLinks(pedidosEnEsperaRows); // New table for Pedidos en Espera
-        
+            generateEsperandoStockTable(pickingRows, pedidosEnEsperaRows);
             // Fetch data for Remisiones Recientes and Despachado
             fetchCsvData(sheetUrl).then(csvData => {
                 const files = parseCsvData(csvData);
@@ -400,6 +400,76 @@
             if (hideIdColumn) {
                 hideIdColumnElements(table, idColumnIndex);
             }
+        }
+
+        // Function to filter rows with blank or zero 'Cantidad' and create the 'Esperando Stock' table
+        function createEsperandoStockTable(pickingRows, pedidosEnEsperaRows) {
+            const headers = ['GOA', 'Fecha', 'Cliente', 'Art', 'Faltante'];
+            const headerRow = document.createElement('tr');
+            
+            // Create the header row
+            headers.forEach(header => {
+                const th = document.createElement('th');
+                th.textContent = header;
+                headerRow.appendChild(th);
+            });
+        
+            const table = document.createElement('table');
+            const thead = document.createElement('thead');
+            const tbody = document.createElement('tbody');
+            thead.appendChild(headerRow);
+        
+            // Helper function to filter rows by 'Cantidad'
+            function filterRows(rows) {
+                return rows.slice(1).filter(row => {
+                    const cantidad = row[headers.indexOf('Cantidad')];
+                    return !cantidad || cantidad.trim() === '0' || cantidad.trim() === '';
+                });
+            }
+        
+            // Filter Picking and Pedidos en Espara tables for rows with blank or zero 'Cantidad'
+            const filteredPickingRows = filterRows(pickingRows);
+            const filteredPedidosEnEsperaRows = filterRows(pedidosEnEsperaRows);
+        
+            // Combine the filtered rows
+            const combinedRows = filteredPickingRows.concat(filteredPedidosEnEsperaRows);
+        
+            // Add rows to the table body
+            combinedRows.forEach(row => {
+                const tr = document.createElement('tr');
+                const goa = row[headers.indexOf('GOA')];
+                const fecha = row[headers.indexOf('Fecha')];
+                const cliente = row[headers.indexOf('Cliente')];
+                const art = row[headers.indexOf('Art')];
+                const faltante = row[headers.indexOf('Faltante')];
+        
+                // Append the row to the table
+                [goa, fecha, cliente, art, faltante].forEach(cellValue => {
+                    const td = document.createElement('td');
+                    td.textContent = cellValue;
+                    tr.appendChild(td);
+                });
+                tbody.appendChild(tr);
+            });
+        
+            // Append thead and tbody to the table
+            table.appendChild(thead);
+            table.appendChild(tbody);
+        
+            // Add the table to the document
+            const section = document.createElement('div');
+            section.classList.add('table-section');
+            const h2 = document.createElement('h2');
+            h2.textContent = 'Esperando Stock';
+            section.appendChild(h2);
+            section.appendChild(table);
+        
+            document.getElementById('column-4').appendChild(section); // Append to column 4
+        }
+        
+        // Function to trigger filtering for both Picking and Pedidos en Espara
+        function generateEsperandoStockTable(pickingRows, pedidosEnEsperaRows) {
+            createEsperandoStockTable(pickingRows, pedidosEnEsperaRows);
         }
         
         function hideIdColumnElements(table, idColumnIndex) {
