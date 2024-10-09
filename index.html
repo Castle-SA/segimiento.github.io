@@ -315,6 +315,8 @@
         
             // Display the remaining rows in the Picking and Pedidos en Espera tables
             createProduccionTableWithLinks(produccionRows);
+            createEsperandoStockTable(pickingRows, pedidosEnEsperaRows);
+
             createPickingTableWithLinks(remainingPickingRows);
             createPedidosEnEsperaTableWithLinks(remainingPedidosEnEsperaRows);
         
@@ -553,9 +555,9 @@
         }
         
         // Function to trigger filtering for both Picking and Pedidos en Espara
-        function generateEsperandoStockTable(pickingRows, pedidosEnEsperaRows) {
-            createEsperandoStockTable(pickingRows, pedidosEnEsperaRows);
-        }
+        //function generateEsperandoStockTable(pickingRows, pedidosEnEsperaRows) {
+        //    createEsperandoStockTable(pickingRows, pedidosEnEsperaRows);
+        //}
         
         // Function to hide the ID column when rendering tables
         function hideIdColumnElements(table, idColumnIndex) {
