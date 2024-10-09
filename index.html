@@ -308,13 +308,11 @@
             logDebug('Sorted Picking Rows:', pickingRows); // Log sorted picking rows
             logDebug('Sorted Produccion Rows:', produccionRows); // Log sorted produccion rows
             logDebug('Sorted Pedidos en Espera Rows:', pedidosEnEsperaRows); // Log sorted Pedidos en Espera rows
-
-            const { filteredPickingRows, filteredPedidosEnEsperaRows } = generateEsperandoStockTable(pickingRows, pedidosEnEsperaRows);
         
             // Display the tables
             createProduccionTableWithLinks(produccionRows);
-            createPickingTableWithLinks(pickingRows, filteredPickingRows);
-            createPedidosEnEsperaTableWithLinks(pedidosEnEsperaRows, filteredPedidosEnEsperaRows);
+            createPickingTableWithLinks(pickingRows);
+            createPedidosEnEsperaTableWithLinks(pedidosEnEsperaRows); // New table for Pedidos en Espera
             generateEsperandoStockTable(pickingRows, pedidosEnEsperaRows);
             // Fetch data for Remisiones Recientes and Despachado
             fetchCsvData(sheetUrl).then(csvData => {
@@ -405,7 +403,6 @@
         }
 
         // Function to filter rows with blank or zero 'Cantidad' and create the 'Esperando Stock' table
-        // Function to filter rows with blank or zero 'Cantidad' and create the 'Esperando Stock' table
         function createEsperandoStockTable(pickingRows, pedidosEnEsperaRows) {
             const headers = ['GOA', 'Fecha', 'Cliente', 'Art', 'Faltante'];
             const headerRow = document.createElement('tr');
@@ -483,9 +480,6 @@
         
             // Append to the 2nd column (after Producción)
             document.getElementById('column-2').appendChild(section);
-        
-            // Return filtered rows to be excluded from original tables
-            return { filteredPickingRows, filteredPedidosEnEsperaRows };
         }
         
         // Function to trigger filtering for both Picking and Pedidos en Espara
@@ -549,14 +543,10 @@
             return { matched, unmatched };
         }
 
-        function createPedidosEnEsperaTableWithLinks(rows, excludedRows) {
+        function createPedidosEnEsperaTableWithLinks(rows) {
             const fechaColumnIndex = rows[0].indexOf('Fecha');  // Get the index of the 'Fecha' column
-        
-            // Filter out the rows that are already in Esperando Stock
-            const filteredRows = rows.slice(1).filter(row => !excludedRows.some(exRow => exRow[0] === row[0]));  // Compare based on GOA (row[0])
-        
-            const sortedRows = sortRowsByDate([rows[0]].concat(filteredRows), fechaColumnIndex);  // Sort rows by 'Fecha'
-            createTableWithLinks(sortedRows, 'Pedidos en Espera', 3, true);  // Render the sorted table
+            const sortedRows = sortRowsByDate(rows, fechaColumnIndex);  // Sort rows by 'Fecha'
+            createTableWithLinks([rows[0]].concat(sortedRows), 'Pedidos en Espera', 3, true);  // Render the sorted table
         }
         
         // Fetch and display the Producción table, sorted by 'Fecha'
@@ -567,14 +557,10 @@
         }
     
         // Fetch and display the Picking table, sorted by 'Fecha'
-        function createPickingTableWithLinks(rows, excludedRows) {
+        function createPickingTableWithLinks(rows) {
             const fechaColumnIndex = rows[0].indexOf('Fecha');  // Get the index of the 'Fecha' column
-        
-            // Filter out the rows that are already in Esperando Stock
-            const filteredRows = rows.slice(1).filter(row => !excludedRows.some(exRow => exRow[0] === row[0]));  // Compare based on GOA (row[0])
-        
-            const sortedRows = sortRowsByDate([rows[0]].concat(filteredRows), fechaColumnIndex);  // Sort rows by 'Fecha'
-            createTableWithLinks(sortedRows, 'Picking', 3, true);  // Render the sorted table
+            const sortedRows = sortRowsByDate(rows, fechaColumnIndex);  // Sort rows by 'Fecha'
+            createTableWithLinks([rows[0]].concat(sortedRows), 'Picking', 3, true);  // Render the sorted table
         }
         
         // Function to create and display the Remisiones Recientes table (unmatched rows) with GOA hyperlinks and Fecha
