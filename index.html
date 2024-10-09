@@ -662,12 +662,16 @@
             });
             thead.appendChild(headerRow);
         
+            // Find the index of "Fecha" and "ID" columns in the facturacionRows
+            const fechaColumnIndex = facturacionRows[0].indexOf('Fecha');
+            const idColumnIndex = facturacionRows[0].indexOf('ID');
+        
             // Debugging to check rows being processed
             console.log('Facturacion Rows:', facturacionRows);
             console.log('Matched Rows:', matchedRows);
         
             // Process matched rows for Despachado table
-            facturacionRows.forEach(row => {
+            facturacionRows.slice(1).forEach(row => { // Skip the header row
                 const remitoNumber = row[2]; // "Numero de Remito" column
                 const goaNumber = row[0];    // "GOA" column
                 const fecha = row[fechaColumnIndex]; // "Fecha" column
