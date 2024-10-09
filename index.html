@@ -322,13 +322,11 @@
             console.log(`${title}: Detected ID Column Index:`, idColumnIndex);
             console.log(`${title}: Detected GOA Column Index:`, goaColumnIndex);
         
-            // If no valid index for ID column, output error and return
-            if (idColumnIndex === -1) {
-                console.log(`${title}: ID column not found, skipping ID column filtering.`);
+            // Explicitly remove ID column from headers for display
+            let filteredHeaders = [...headers];
+            if (hideIdColumn && idColumnIndex !== -1) {
+                filteredHeaders.splice(idColumnIndex, 1); // Remove ID column by index
             }
-        
-            // Filter out the ID column from headers
-            const filteredHeaders = hideIdColumn && idColumnIndex !== -1 ? headers.filter((_, index) => index !== idColumnIndex) : headers;
             console.log(`${title}: Filtered Headers:`, filteredHeaders);
         
             // Add filtered headers to the table
@@ -340,10 +338,13 @@
             });
             thead.appendChild(headerRow);
         
-            // Add filtered rows, skipping the ID column
+            // Add filtered rows, skipping the ID column explicitly
             rows.slice(1).forEach(row => {
                 const tr = document.createElement('tr');
-                const filteredRow = hideIdColumn && idColumnIndex !== -1 ? row.filter((_, index) => index !== idColumnIndex) : row;
+                let filteredRow = [...row];  // Create a copy of the row
+                if (hideIdColumn && idColumnIndex !== -1) {
+                    filteredRow.splice(idColumnIndex, 1);  // Remove the ID column from the row
+                }
         
                 // Log the filtered row for debugging
                 console.log(`${title}: Filtered Row:`, filteredRow);
@@ -351,7 +352,7 @@
                 filteredRow.forEach((cell, index) => {
                     const td = document.createElement('td');
         
-                    // If this is the "GOA" column, make it a clickable hyperlink using the ID
+                    // If this is the "GOA" column, make it a clickable hyperlink using the original row's ID
                     if (index === goaColumnIndex) {
                         const id = row[idColumnIndex]?.trim();
                         if (id && cell) {
