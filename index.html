@@ -197,6 +197,87 @@
                 console.log(`DEBUG: ${message}`);
             }
         }
+
+                // Function to create and display a table with clickable GOA links
+        function createTableWithLinks(rows, title, column, hideIdColumn = true) {
+            const section = document.createElement('div');
+            section.classList.add('table-section');
+        
+            const h2 = document.createElement('h2');
+            h2.textContent = title;
+            section.appendChild(h2);
+        
+            const table = document.createElement('table');
+            const thead = document.createElement('thead');
+            const tbody = document.createElement('tbody');
+        
+            const headers = rows[0];  // The header row
+            const idColumnIndex = findIdColumnIndex(headers); // Get the index of the "ID" column
+            const goaColumnIndex = headers.indexOf('GOA') !== -1 ? headers.indexOf('GOA') : headers.indexOf('Número de documento'); // Handle renamed GOA column
+            const clienteColumnIndex = headers.indexOf('Cliente') !== -1 ? headers.indexOf('Cliente') : headers.indexOf('Nombre'); // Index for "Cliente" or "Nombre"
+        
+            // Create the header row
+            const headerRow = document.createElement('tr');
+            headers.forEach((header, index) => {
+                const th = document.createElement('th');
+                th.textContent = header;
+        
+                // Add the "hidden" class to the ID column if hiding it
+                if (index === idColumnIndex && hideIdColumn) {
+                    th.classList.add('hidden');
+                }
+        
+                headerRow.appendChild(th);
+            });
+            thead.appendChild(headerRow);
+        
+            // Process the table rows
+            rows.slice(1).forEach((row, rowIndex) => {
+                const tr = document.createElement('tr');
+                row.forEach((cell, index) => {
+                    const td = document.createElement('td');
+        
+                    // Hide the ID column cells by applying the "hidden" class
+                    if (index === idColumnIndex && hideIdColumn) {
+                        td.classList.add('hidden');
+                    }
+        
+                    // If this is the "GOA" column, make it a clickable hyperlink using the original row's ID
+                    if (index === goaColumnIndex) {
+                        const id = row[idColumnIndex]?.trim();
+                        if (id && cell) {
+                            td.innerHTML = `<a href="https://4294049.app.netsuite.com/app/accounting/transactions/salesord.nl?id=${id}&whence=" target="_blank">${cell}</a>`;
+                        } else {
+                            td.textContent = cell;
+                        }
+                    }
+                    // Filter the "Cliente" or "Nombre" column to remove text before the first space
+                    else if (index === clienteColumnIndex && cell) {
+                        const filteredText = cell.split(' ').slice(1).join(' '); // Remove text before the first space
+                        td.textContent = filteredText || cell; // If no space, use original text
+                    } else {
+                        td.textContent = cell;
+                    }
+        
+                    tr.appendChild(td);
+                });
+                tbody.appendChild(tr);
+            });
+        
+            table.appendChild(thead);
+            table.appendChild(tbody);
+            section.appendChild(table);
+        
+            // Append the table to the specified column in the container
+            document.getElementById(`column-${column}`).appendChild(section);
+        
+            // Hide the ID column after the table is generated
+            if (hideIdColumn) {
+                hideIdColumnElements(table, idColumnIndex);
+            }
+        }
+
+        
         function splitPreparacion(rows) {
             logDebug('splitPreparacion function called');
             const headers = rows[0];
@@ -434,87 +515,7 @@
             };
         }
             
-        // Function to create and display a table with clickable GOA links
-        function createTableWithLinks(rows, title, column, hideIdColumn = true) {
-            const section = document.createElement('div');
-            section.classList.add('table-section');
-        
-            const h2 = document.createElement('h2');
-            h2.textContent = title;
-            section.appendChild(h2);
-        
-            const table = document.createElement('table');
-            const thead = document.createElement('thead');
-            const tbody = document.createElement('tbody');
-        
-            const headers = rows[0];  // The header row
-            const idColumnIndex = findIdColumnIndex(headers); // Get the index of the "ID" column
-            const goaColumnIndex = headers.indexOf('GOA') !== -1 ? headers.indexOf('GOA') : headers.indexOf('Número de documento'); // Handle renamed GOA column
-            const clienteColumnIndex = headers.indexOf('Cliente') !== -1 ? headers.indexOf('Cliente') : headers.indexOf('Nombre'); // Index for "Cliente" or "Nombre"
-        
-            // Create the header row
-            const headerRow = document.createElement('tr');
-            headers.forEach((header, index) => {
-                const th = document.createElement('th');
-                th.textContent = header;
-        
-                // Add the "hidden" class to the ID column if hiding it
-                if (index === idColumnIndex && hideIdColumn) {
-                    th.classList.add('hidden');
-                }
-        
-                headerRow.appendChild(th);
-            });
-            thead.appendChild(headerRow);
-        
-            // Process the table rows
-            rows.slice(1).forEach((row, rowIndex) => {
-                const tr = document.createElement('tr');
-                row.forEach((cell, index) => {
-                    const td = document.createElement('td');
-        
-                    // Hide the ID column cells by applying the "hidden" class
-                    if (index === idColumnIndex && hideIdColumn) {
-                        td.classList.add('hidden');
-                    }
-        
-                    // If this is the "GOA" column, make it a clickable hyperlink using the original row's ID
-                    if (index === goaColumnIndex) {
-                        const id = row[idColumnIndex]?.trim();
-                        if (id && cell) {
-                            td.innerHTML = `<a href="https://4294049.app.netsuite.com/app/accounting/transactions/salesord.nl?id=${id}&whence=" target="_blank">${cell}</a>`;
-                        } else {
-                            td.textContent = cell;
-                        }
-                    }
-                    // Filter the "Cliente" or "Nombre" column to remove text before the first space
-                    else if (index === clienteColumnIndex && cell) {
-                        const filteredText = cell.split(' ').slice(1).join(' '); // Remove text before the first space
-                        td.textContent = filteredText || cell; // If no space, use original text
-                    } else {
-                        td.textContent = cell;
-                    }
-        
-                    tr.appendChild(td);
-                });
-                tbody.appendChild(tr);
-            });
-        
-            table.appendChild(thead);
-            table.appendChild(tbody);
-            section.appendChild(table);
-        
-            // Append the table to the specified column in the container
-            document.getElementById(`column-${column}`).appendChild(section);
-        
-            // Hide the ID column after the table is generated
-            if (hideIdColumn) {
-                hideIdColumnElements(table, idColumnIndex);
-            }
-        }
-
-
-                    // Helper function to find the ID column index with header trimming
+        // Helper function to find the ID column index with header trimming
         // Helper function to find the ID column index with header trimming
         function findIdColumnIndex(headers) {
             const trimmedHeaders = headers.map(header => header.trim());
