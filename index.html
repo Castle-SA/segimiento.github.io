@@ -319,8 +319,8 @@
             const idColumnIndex = findIdColumnIndex(headers); // Get the index of the "ID" column
             const goaColumnIndex = headers.indexOf('GOA') !== -1 ? headers.indexOf('GOA') : headers.indexOf('Número de documento'); // Handle renamed GOA column
         
-            // Ensure all tables handle headers the same way
             console.log(`${title}: Filtered Headers: `, headers);
+        
             const headerRow = document.createElement('tr');
             headers.forEach((header, index) => {
                 const th = document.createElement('th');
@@ -329,6 +329,7 @@
                 // Add the "hidden" class to the ID column if hiding it
                 if (index === idColumnIndex && hideIdColumn) {
                     th.classList.add('hidden');
+                    console.log(`${title}: Hiding header for ID column`);
                 }
         
                 headerRow.appendChild(th);
@@ -344,6 +345,7 @@
                     // Hide the ID column cells by applying the "hidden" class
                     if (index === idColumnIndex && hideIdColumn) {
                         td.classList.add('hidden');
+                        console.log(`${title}: Hiding data cell for ID column in row ${rowIndex}`);
                     }
         
                     // If this is the "GOA" column, make it a clickable hyperlink using the original row's ID
@@ -380,10 +382,11 @@
         
         function hideIdColumnElements(table, idColumnIndex) {
             const rows = table.querySelectorAll('tr');
-            rows.forEach(row => {
+            rows.forEach((row, rowIndex) => {
                 const cells = row.querySelectorAll('td, th');
                 if (cells[idColumnIndex]) {
                     cells[idColumnIndex].style.display = 'none'; // Hides the ID column
+                    console.log(`Row ${rowIndex}: Hiding ID column`);
                 }
             });
         }
