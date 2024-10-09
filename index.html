@@ -117,6 +117,7 @@
             return `${year}-${month}-${day}`;
         }
     
+        // Helper function to sort rows by date
         function sortRowsByDate(rows, fechaColumnIndex) {
             return rows.slice(1).sort((a, b) => {
                 const dateA = cleanUpDate(a[fechaColumnIndex]) ? new Date(cleanUpDate(a[fechaColumnIndex])) : new Date(9999, 11, 31); // Handle blank dates by pushing them to the future
@@ -512,7 +513,9 @@
             }
         }
 
+
                     // Helper function to find the ID column index with header trimming
+        // Helper function to find the ID column index with header trimming
         function findIdColumnIndex(headers) {
             const trimmedHeaders = headers.map(header => header.trim());
             logDebug('Trimmed Headers:', trimmedHeaders);
@@ -669,7 +672,6 @@
             });
         }
 
-
         // ** Function to fetch Google Sheet CSV data ** 
         async function fetchCsvData(url) {
             try {
@@ -713,23 +715,25 @@
             return { matched, unmatched };
         }
         
+        // Function to create and display the Pedidos en Espera table, sorted by 'Fecha'
         function createPedidosEnEsperaTableWithLinks(rows) {
             const fechaColumnIndex = rows[0].indexOf('Fecha');
             const sortedRows = sortRowsByDate(rows, fechaColumnIndex);  // Sort rows by 'Fecha'
-            createTableWithLinks([rows[0]].concat(sortedRows), 'Pedidos en Espera', 3, true);  // Render the sorted table
+            createTableWithLinks([rows[0]].concat(sortedRows), 'Pedidos en Espera', 3, true);  // Render the sorted table in column 3
         }
         
-        // Fetch and display the Producción table, sorted by 'Fecha'
+        // Function to create and display the Producción table, sorted by 'Fecha'
         function createProduccionTableWithLinks(rows) {
             const fechaColumnIndex = rows[0].indexOf('Fecha');  // Get the index of the 'Fecha' column
             const sortedRows = sortRowsByDate(rows, fechaColumnIndex);  // Sort rows by 'Fecha'
-            createTableWithLinks([rows[0]].concat(sortedRows), 'Producción', 2, true);  // Render the sorted table
+            createTableWithLinks([rows[0]].concat(sortedRows), 'Producción', 2, true);  // Render the sorted table in column 2
         }
     
+        // Function to create and display the Picking table, sorted by 'Fecha'
         function createPickingTableWithLinks(rows) {
             const fechaColumnIndex = rows[0].indexOf('Fecha');
             const sortedRows = sortRowsByDate(rows, fechaColumnIndex);  // Sort rows by 'Fecha'
-            createTableWithLinks([rows[0]].concat(sortedRows), 'Picking', 3, true);  // Render the sorted table
+            createTableWithLinks([rows[0]].concat(sortedRows), 'Picking', 3, true);  // Render the sorted table in column 3
         }
         
         // Function to create and display the Remisiones Recientes table (unmatched rows) with GOA hyperlinks and Fecha
