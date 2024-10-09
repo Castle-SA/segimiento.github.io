@@ -117,11 +117,10 @@
             return `${year}-${month}-${day}`;
         }
     
-        // Sort function to compare the 'Fecha' column
         function sortRowsByDate(rows, fechaColumnIndex) {
             return rows.slice(1).sort((a, b) => {
-                const dateA = cleanUpDate(a[fechaColumnIndex]) ? new Date(cleanUpDate(a[fechaColumnIndex])) : new Date(0); // Handle empty dates
-                const dateB = cleanUpDate(b[fechaColumnIndex]) ? new Date(cleanUpDate(b[fechaColumnIndex])) : new Date(0);
+                const dateA = cleanUpDate(a[fechaColumnIndex]) ? new Date(cleanUpDate(a[fechaColumnIndex])) : new Date(9999, 11, 31); // Handle blank dates by pushing them to the future
+                const dateB = cleanUpDate(b[fechaColumnIndex]) ? new Date(cleanUpDate(b[fechaColumnIndex])) : new Date(9999, 11, 31);
                 return dateA - dateB;
             });
         }
