@@ -10,6 +10,27 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap">
 
     <style>
+
+                /* Styling for the search bar */
+        #searchBarContainer {
+            width: 100%;
+            padding: 10px;
+            background-color: #f0f0f0; /* Light grey background */
+        }
+
+        #searchBar {
+            width: 100%;
+            padding: 10px;
+            font-size: 16px;
+            border: 1px solid #ccc;
+            color: black;
+        }
+
+        /* Highlighted text styling */
+        .highlight {
+            background-color: yellow;
+        }
+        
         body {
             font-family: 'Open Sans', sans-serif;
             margin: 20px;
@@ -101,7 +122,69 @@
         </div>
     </div>
 
+        <!-- Search Bar Container -->
+    <div id="searchBarContainer">
+        <input type="text" id="searchBar" placeholder="Search the page..." />
+    </div>
+
     <script>
+        
+        const searchBar = document.getElementById('searchBar');
+        const content = document.getElementById('content');
+
+        searchBar.addEventListener('input', () => {
+            // Remove previous highlights
+            removeHighlights();
+
+            const query = searchBar.value.trim();
+            if (query !== '') {
+                highlightMatches(query);
+            }
+        });
+
+        function removeHighlights() {
+            const highlightedElements = document.querySelectorAll('.highlight');
+            highlightedElements.forEach(element => {
+                const parent = element.parentNode;
+                parent.replaceChild(document.createTextNode(element.textContent), element);
+                parent.normalize(); // Merge adjacent text nodes
+            });
+        }
+
+        function highlightMatches(query) {
+            const textNodes = getTextNodesUnder(content);
+            const regex = new RegExp(query, 'gi');
+
+            textNodes.forEach(node => {
+                const matches = node.textContent.match(regex);
+                if (matches) {
+                    const span = document.createElement('span');
+                    span.className = 'highlight';
+                    span.textContent = matches[0];
+                    
+                    const before = document.createTextNode(node.textContent.substring(0, matches.index));
+                    const after = document.createTextNode(node.textContent.substring(matches.index + matches[0].length));
+
+                    node.parentNode.insertBefore(before, node);
+                    node.parentNode.insertBefore(span, node);
+                    node.parentNode.insertBefore(after, node);
+                    node.parentNode.removeChild(node);
+                }
+            });
+        }
+
+        function getTextNodesUnder(node) {
+            let all = [];
+            for (node = node.firstChild; node; node = node.nextSibling) {
+                if (node.nodeType == Node.TEXT_NODE) {
+                    all.push(node);
+                } else {
+                    all = all.concat(getTextNodesUnder(node));
+                }
+            }
+            return all;
+        }
+        
         // Debugging Function
         function logDebug(message, data = null) {
             if (data) {
