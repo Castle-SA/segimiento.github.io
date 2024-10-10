@@ -103,7 +103,7 @@
 
         <!-- Search Bar Container -->
     <div id="searchBarContainer">
-        <input type="text" id="searchBar" placeholder="Search the page..." />
+        <input type="text" id="searchBar" placeholder="Buscar..." />
     </div>
 
     <div class="container">
@@ -138,6 +138,7 @@
         });
 
         function removeHighlights() {
+            // Remove all elements with the 'highlight' class
             const highlightedElements = document.querySelectorAll('.highlight');
             highlightedElements.forEach(element => {
                 const parent = element.parentNode;
@@ -145,7 +146,6 @@
                 parent.normalize(); // Merge adjacent text nodes
             });
         }
-
         function highlightMatches(query) {
             const textNodes = getTextNodesUnder(content);
             const regex = new RegExp(query, 'gi');
@@ -166,6 +166,32 @@
                     node.parentNode.removeChild(node);
                 }
             });
+        }
+
+        function searchInNode(node, regex) {
+            if (node.nodeType === Node.TEXT_NODE) {
+                const match = node.nodeValue.match(regex);
+                if (match) {
+                    const span = document.createElement('span');
+                    span.className = 'highlight';
+
+                    const matchedText = match[0];
+                    const beforeText = node.nodeValue.substring(0, match.index);
+                    const afterText = node.nodeValue.substring(match.index + matchedText.length);
+
+                    const beforeNode = document.createTextNode(beforeText);
+                    const afterNode = document.createTextNode(afterText);
+                    span.textContent = matchedText;
+
+                    const parent = node.parentNode;
+                    parent.insertBefore(beforeNode, node);
+                    parent.insertBefore(span, node);
+                    parent.insertBefore(afterNode, node);
+                    parent.removeChild(node);
+                }
+            } else if (node.nodeType === Node.ELEMENT_NODE && node.childNodes) {
+                node.childNodes.forEach(child => searchInNode(child, regex));
+            }
         }
 
         function getTextNodesUnder(node) {
