@@ -35,7 +35,7 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 39413,9401339 QUICKFOOD S.A.,Facturada,Todo Aprobado,Ejecución de pedido de artículo 21218,Enviado,,PPAR1048T,,,02/10/2024,311386
 39440,1029 DREAN SA,Facturada,Todo Aprobado,Ejecución de pedido de artículo 21256,Enviado,,1153/001,,,07/10/2024,313327
 39445,3089 ARNEG ARGENTINA S.A.,Facturada,Todo Aprobado,Ejecución de pedido de artículo 21258,Enviado,,3089/029,,,07/10/2024,313513
-39460,6142 PAPELERA DEL SUR SRL,Facturada,Todo Aprobado,Ejecución de pedido de artículo 21232,Enviado,,PPAR1024T,,,03/10/2024,314925
+39460,6142 PAPELERA DEL SUR SRL,Facturada,Todo Aprobado,Ejecución de pedido de artículo 21232,Enviado,,PPAR1024T,,,3/10/2024,314925
 39466,64 ALL PUMPS ARGENTINA SA,Ejecución de la orden pendiente,Todo Aprobado,Pedido ,Recepción pendiente,,0064/0013,0,350,11/10/2024,315285
 39518,3089 ARNEG ARGENTINA S.A.,Parcialmente ejecutada,Todo Aprobado,Orden de trabajo ,Ensamblada,F,PVC672B,,,28/10/2024,318503
 39518,3089 ARNEG ARGENTINA S.A.,Parcialmente ejecutada,Todo Aprobado,Orden de trabajo ,Ensamblada,F,3089/039,18000,0,28/10/2024,318503
@@ -43,7 +43,7 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 39530,9400338 ESTABLECIMIENTO MODELO LAS COLONIAS S A,Facturada,Todo Aprobado,Ejecución de pedido de artículo 21248,Enviado,,PPAR15048T,,,07/10/2024,319881
 39536,9400842 LABORATORIOS ASPEN SA,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Liberada,F,9400842/001,,,29/10/2024,320370
 39538,279 HONDA MOTOR DE ARGENTINA S.A.,Ejecución de la orden pendiente,Todo Aprobado,Pedido ,Aprobación del supervisor pendiente,,04169-00056-93,0,20, ,320406
-39545,3089 ARNEG ARGENTINA S.A.,Facturada,Todo Aprobado,Ejecución de pedido de artículo 21253,Enviado,,PER3040U,,,7/10/2024,321184
+39545,3089 ARNEG ARGENTINA S.A.,Facturada,Todo Aprobado,Ejecución de pedido de artículo 21253,Enviado,,PER3040U,,,07/10/2024,321184
 39545,3089 ARNEG ARGENTINA S.A.,Facturada,Todo Aprobado,Ejecución de pedido de artículo 21253,Enviado,,PPAR1072T,,,07/10/2024,321184
 39547,1490 IPLOV SRL,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Liberada,F,1490/002,,,,321186
 39549,178 DROGUERIA DEL SUD S.A.,Facturada,Todo Aprobado,Ejecución de pedido de artículo 21259,Enviado,,0178/002,,,07/10/2024,321195
@@ -61,8 +61,8 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 39590,9401339 QUICKFOOD S.A.,Ejecución de la orden pendiente,Todo Aprobado, ,,,PPAR15048T,,,28/11/2024,324879
 39592,9401926 INDUSTRIAS FRIGORIFICAS RECREO SAIC,Ejecución de la orden pendiente,Todo Aprobado, ,,,PPAR1048T,,,07/10/2024,325005
 39596,4095 REFINERIA DEL CENTRO SA,Facturada,Todo Aprobado,Ejecución de pedido de artículo 21271,Enviado,,PPAR1072T,,,09/10/2024,325133
-39596,4095 REFINERIA DEL CENTRO SA,Facturada,Todo Aprobado,Ejecución de pedido de artículo 21250,Enviado,,PPHR10048T,,,07/10/2024,325133
-39600,12707 PORTA HNOS. SA,Facturación pendiente,Todo Aprobado,Ejecución de pedido de artículo 21276,Enviado,,PPAR15048T,,,10/10/2024,325776
+39596,4095 REFINERIA DEL CENTRO SA,Facturada,Todo Aprobado,Ejecución de pedido de artículo 21250,Enviado,,PPHR10048T,,,7/10/2024,325133
+39600,12707 PORTA HNOS. SA,Facturada,Todo Aprobado,Ejecución de pedido de artículo 21276,Enviado,,PPAR15048T,,,10/10/2024,325776
 39601,9401339 QUICKFOOD S.A.,Ejecución de la orden pendiente,Todo Aprobado, ,,,PPAR15048T,42,336,18/10/2024,325892
 39602,410 DROGUERIA DEM SRL,Facturada,Todo Aprobado,Ejecución de pedido de artículo 21214,Enviado,,MTS524B,,,01/10/2024,326030
 39603,12662 PRINTEMPS S.R.L.,Facturada,Todo Aprobado,Ejecución de pedido de artículo 21216,Enviado,,64621-00003-00,,,02/10/2024,326130
@@ -128,8 +128,7 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 39655,3771 PILISAR SA,Ejecución de la orden pendiente,Todo Aprobado, ,,,04968-LOGROLL,1,0,14/11/2024,329152
 39656,12877 BRIKET SA,Facturada,Todo Aprobado,Ejecución de pedido de artículo 21243,Enviado,,0272/004,,,04/10/2024,329159
 39657,3089 ARNEG ARGENTINA S.A.,Facturada,Todo Aprobado,Ejecución de pedido de artículo 21249,Enviado,,PPAR1072T,,,07/10/2024,329254
-39658,132 MAHLE VALVULAS DE ARGENTINA SA,Facturación pendiente,Todo Aprobado,Orden de trabajo ,Ensamblada,F,3351/001,,,10/10/2024,329287
-39658,132 MAHLE VALVULAS DE ARGENTINA SA,Facturación pendiente,Todo Aprobado,Ejecución de pedido de artículo 21275,Enviado,,3351/001,,,10/10/2024,329287
+39658,132 MAHLE VALVULAS DE ARGENTINA SA,Facturada,Todo Aprobado,Ejecución de pedido de artículo 21275,Enviado,,3351/001,,,10/10/2024,329287
 39659,2094 FABEN SA,Facturada,Todo Aprobado,Ejecución de pedido de artículo 21257,Enviado,,2094/002,,,07/10/2024,329314
 39660,9400387 LACTEOS REPUBLICA DE ENTRE RIOS S.R.L,Facturada,Todo Aprobado,Ejecución de pedido de artículo 21251,Enviado,,PPAR10048T,,,07/10/2024,329319
 39661,2638 QUE RICO SA,Facturada,Todo Aprobado,Ejecución de pedido de artículo 21270,Enviado,,PPHR1216B,,,08/10/2024,329320
@@ -159,8 +158,7 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 39691,86 EST GRAFICO IMPRESORES SA,Ejecución de la orden pendiente,Todo Aprobado, ,,,H11/48,5,0,11/10/2024,330985
 39691,86 EST GRAFICO IMPRESORES SA,Ejecución de la orden pendiente,Todo Aprobado, ,,,PPAR1048T,,,11/10/2024,330985
 39694,1176 GITANES SRL,Ejecución de la orden pendiente,Todo Aprobado, ,,,1176/002,,,19/11/2024,330986
-39692,15 INDUSTRIAS JOHN DEERE ARGENTINA S.A.,Facturación pendiente,Todo Aprobado,Ejecución de pedido de artículo 21278,Enviado,,0015/008,,,10/10/2024,331097
-39692,15 INDUSTRIAS JOHN DEERE ARGENTINA S.A.,Facturación pendiente,Todo Aprobado,Orden de trabajo ,Ensamblada,F,0015/008,,,14/10/2024,331097
+39692,15 INDUSTRIAS JOHN DEERE ARGENTINA S.A.,Facturada,Todo Aprobado,Ejecución de pedido de artículo 21278,Enviado,,0015/008,,,10/10/2024,331097
 39693,3560 MEC PARTS SRL,Ejecución de la orden pendiente,Todo Aprobado, ,,,3560/001,,,19/11/2024,331107
 39695,533 METALBO SRL,Facturada,Todo Aprobado,Ejecución de pedido de artículo 21273,Enviado,,07063-00009-24,,,09/10/2024,331208
 39696,7 MARCELO TRENTO S.R.L.,Ejecución de la orden pendiente,Todo Aprobado, ,,,PPAR1048T,,,11/10/2024,331228
