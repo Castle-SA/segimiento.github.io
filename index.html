@@ -220,7 +220,7 @@
             return rows.filter(row => {
                 const cantidad = row[cantidadColumnIndex]?.trim();
                 const faltante = row[faltanteColumnIndex]?.trim();
-                return (!cantidad || cantidad === '0') && faltante;
+                return (!cantidad || cantidad === '0');
             });
         }
 
