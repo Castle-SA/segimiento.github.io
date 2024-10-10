@@ -311,19 +311,14 @@
         
             // Create the remaining tables using the filtered rows
             createProduccionTableWithLinks(produccionRows);
-            createPickingTableWithLinks(remainingPickingRows);
-            
-            const sortedRowsEsperando = sortRowsByDate(combinedRows, fechaColumnIndex);  // Sort rows by 'Fecha'
-
-
-            
+            createPickingTableWithLinks(remainingPickingRows);           
             createPedidosEnEsperaTableWithLinks(remainingPedidosEnEsperaRows);
         
             // Create Esperando Stock Table
             const filteredPickingRows = filterRows(pickingRows);
             const filteredPedidosEnEsperaRows = filterRows(pedidosEnEsperaRows);
             const combinedRows = filteredPickingRows.concat(filteredPedidosEnEsperaRows);
-            createEsperandoStockTable(sortedRowsEsperando);
+            createEsperandoStockTable(combinedRows);
         
             // Fetch data for Remisiones Recientes and Despachado
             fetchCsvData(sheetUrl).then(csvData => {
