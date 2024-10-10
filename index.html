@@ -729,22 +729,18 @@
                     tr.appendChild(fechaCell);
 
                     // Add Cliente and Numero de Remito columns
-                    row.slice(1, 3).forEach((cell, index) => { //
+                    row.slice(1, 3).forEach((cell, index) => {
                         const td = document.createElement('td');
-                        if (index === clienteColumnIndex && cell) {
-                            const filteredText = cell.split(' ').slice(1).join(' '); // Remove text before the first space && cell
-                            
+                        if (index === 0 && cell) { // Index 0 of the sliced array corresponds to 'Cliente'
+                            const filteredText = cell.split(' ').slice(1).join(' '); // Remove text before the first space
                             logDebug('Filtered Text DESPACHADO:', filteredText);
                             td.textContent = filteredText || cell; // If no space, use original text
-                        }
-                        else {
+                        } else {
                             logDebug('@@@@@@@@@@@@@@@ Index:', index);
                             logDebug('@@@@@@@@@@@@@@@ clienteColumnIndex:', clienteColumnIndex);
                             logDebug('@@@@@@@@@@@@@@@ cell:', cell);
-
                             td.textContent = cell;
                         }
-        
                         tr.appendChild(td);
                     });
 
