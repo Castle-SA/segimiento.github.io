@@ -271,17 +271,17 @@
                 } else if (!ordenEspecial) {
                     // Normal orders, send to Picking or Pedidos en Espera based on the date
                     if (fecha && isWithinNext3DaysOrPast(fecha)) {
-                        pickingRows.push([row[headers.indexOf('Número de documento')], fecha, row[headers.indexOf('Nombre')], row[headers.indexOf('Artículo')], cantidad, row[idColumnIndex]]);
+                        pickingRows.push([row[headers.indexOf('Número de documento')], fecha, row[headers.indexOf('Nombre')], row[headers.indexOf('Artículo')], cantidad, faltante, row[idColumnIndex]]);
                     } else {
-                        pedidosEnEsperaRows.push([row[headers.indexOf('Número de documento')], fecha, row[headers.indexOf('Nombre')], row[headers.indexOf('Artículo')], cantidad, row[idColumnIndex]]);
+                        pedidosEnEsperaRows.push([row[headers.indexOf('Número de documento')], fecha, row[headers.indexOf('Nombre')], row[headers.indexOf('Artículo')], cantidad, faltante, row[idColumnIndex]]);
                     }
                 } else if (ordenEspecial.startsWith('Orden de trabajo')) {
                     // Handle Orden de trabajo, send to Producción or Picking/Pedidos en Espera
                     if (estadoOrdenEspecial === 'Ensamblada') {
                         if (fecha && isWithinNext3DaysOrPast(fecha)) {
-                            pickingRows.push([row[headers.indexOf('Número de documento')], fecha, row[headers.indexOf('Nombre')], row[headers.indexOf('Artículo')], cantidad, row[idColumnIndex]]);
+                            pickingRows.push([row[headers.indexOf('Número de documento')], fecha, row[headers.indexOf('Nombre')], row[headers.indexOf('Artículo')], cantidad, faltante, row[idColumnIndex]]);
                         } else {
-                            pedidosEnEsperaRows.push([row[headers.indexOf('Número de documento')], fecha, row[headers.indexOf('Nombre')], row[headers.indexOf('Artículo')], cantidad, row[idColumnIndex]]);
+                            pedidosEnEsperaRows.push([row[headers.indexOf('Número de documento')], fecha, row[headers.indexOf('Nombre')], row[headers.indexOf('Artículo')], cantidad, faltante, row[idColumnIndex]]);
                         }
                     } else {
                         produccionRows.push([row[headers.indexOf('Número de documento')], fecha, row[headers.indexOf('Nombre')], row[headers.indexOf('Artículo')], faltante, row[idColumnIndex]]);
