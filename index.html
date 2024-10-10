@@ -731,8 +731,8 @@
                     // Add Cliente and Numero de Remito columns
                     row.slice(1, 3).forEach((cell, index) => {
                         const td = document.createElement('td');
-                        if (index === clienteColumnIndex && cell) {
-                            const filteredText = cell.split(' ').slice(1).join(' '); // Remove text before the first space
+                        if (index === clienteColumnIndex) {
+                            const filteredText = cell.split(' ').slice(1).join(' '); // Remove text before the first space && cell
                             logDebug('Filtered Text DESPACHADO:', filteredText);
                             td.textContent = filteredText || cell; // If no space, use original text
                         }
