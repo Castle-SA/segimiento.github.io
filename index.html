@@ -393,12 +393,18 @@
             const filteredPedidos = filterAndMoveRows(pedidosEnEsperaRows);
         
             const combinedRows = filteredPicking.movedRows.concat(filteredPedidos.movedRows);
-        
+        //-----------------------------------------------------------------------------------------------------------------------------------------------------------------
             // Add rows to the Esperando Stock table
-            combinedRows.forEach(row => {
+            combinedRows.forEach((row, rowindex) => {
                 const tr = document.createElement('tr');
                 row.forEach((cell, index) => {
                     const td = document.createElement('td');
+
+                                        // Hide the ID column cells by applying the "hidden" class
+                    if (index === idColumnIndex && hideIdColumn) {
+                        td.classList.add('hidden');
+                    }
+        
                     if (index === headers.indexOf('GOA')) {
                         const id = row[headers.indexOf('ID')]; // Use the ID for hyperlink generation
                         if (id && cell) {
@@ -413,7 +419,7 @@
                 });
                 tbody.appendChild(tr);
             });
-        
+        //--------------------------------------------------------------------------------------------------------------------------------------------------------------------------
             table.appendChild(thead);
             table.appendChild(tbody);
         
@@ -500,7 +506,7 @@
                 });
                 tbody.appendChild(tr);
             });
-        
+        //---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
             table.appendChild(thead);
             table.appendChild(tbody);
             section.appendChild(table);
