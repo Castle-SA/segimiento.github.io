@@ -550,11 +550,10 @@
             return { matched, unmatched };
         }
 
-            // Function to display the Esperando Stock table below the Producción table
         function createEsperandoStockTable(pickingRows, pedidosEnEsperaRows) {
-            const headers = ['GOA', 'Fecha', 'Cliente', 'Art', 'Faltante', 'Cantidad', 'ID']; // Correct 'Cantidad' and 'Faltante'
+            const headers = ['GOA', 'Fecha', 'Cliente', 'Art', 'Faltante', 'Cantidad', 'ID']; // Ensure 'Cantidad' and 'Faltante' are included
             const headerRow = document.createElement('tr');
-        
+            
             // Create the header row
             headers.forEach(header => {
                 const th = document.createElement('th');
@@ -567,11 +566,15 @@
             const tbody = document.createElement('tbody');
             thead.appendChild(headerRow);
         
-            // Filter Picking and Pedidos en Espara tables for rows with blank or zero 'Cantidad'
+            // Combine Picking and Pedidos en Espara tables for filtering
             const combinedRows = pickingRows.concat(pedidosEnEsperaRows);
         
-            // Add rows to the table body
-            combinedRows.forEach(row => {
+            // Get the index of the 'Fecha' column for sorting
+            const fechaColumnIndex = headers.indexOf('Fecha');
+            const sortedRows = sortRowsByDate(combinedRows, fechaColumnIndex); // Sort the rows by 'Fecha'
+        
+            // Add sorted rows to the table body
+            sortedRows.forEach(row => {
                 const tr = document.createElement('tr');
                 const goa = row[headers.indexOf('GOA')];
                 const fecha = row[headers.indexOf('Fecha')];
