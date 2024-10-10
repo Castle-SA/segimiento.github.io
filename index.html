@@ -347,7 +347,7 @@
 
         // Function to move rows with 'Cantidad' blank or zero to the 'Esperando Stock' table
         function moveRowsToEsperandoStock(pickingRows, pedidosEnEsperaRows, hideIdColumn = true) {
-            const headers = ['GOA', 'Fecha', 'Cliente', 'Art', 'Faltante', 'ID']; // Ensure 'Cantidad' and 'ID' are included
+            const headers = ['GOA', 'Fecha', 'Cliente', 'Art', 'Cantidad', 'Faltante', 'ID']; // Ensure 'Cantidad' and 'ID' are included
             const headerRow = document.createElement('tr');
 
             const idColumnIndex = findIdColumnIndex(headers); // Get the index of the "ID" column
