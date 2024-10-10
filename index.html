@@ -119,9 +119,10 @@
     
         // Helper function to sort rows by 'Fecha', handling blanks
         function sortRowsByDate(rows, fechaColumnIndex) {
-            return rows.slice(1).sort((a, b) => {
+            return rows.sort((a, b) => {
                 const dateA = cleanUpDate(a[fechaColumnIndex]) ? new Date(cleanUpDate(a[fechaColumnIndex])) : new Date(9999, 11, 31); // Handle blank dates by pushing them to the future
                 const dateB = cleanUpDate(b[fechaColumnIndex]) ? new Date(cleanUpDate(b[fechaColumnIndex])) : new Date(9999, 11, 31);
+                logDebug(`Comparing dates: ${dateA} vs ${dateB}`);
                 return dateA - dateB;
             });
         }
@@ -216,16 +217,17 @@
             const facturacionRows = [['GOA', 'Cliente', 'Numero de Remito', 'Fecha', 'ID']];
         
             // Helper function to clean up the date format (dd/mm/yyyy to yyyy-mm-dd)
+            // Your existing cleanUpDate function with logging
             function cleanUpDate(dateString) {
                 if (!dateString) return null;
-        
+            
                 const parts = dateString.split('/');
                 if (parts.length !== 3) return null;
-        
+            
                 const day = parts[0].padStart(2, '0');
                 const month = parts[1].padStart(2, '0');
                 const year = parts[2];
-        
+            
                 const cleanedDate = `${year}-${month}-${day}`;
                 logDebug(`Cleaned Date: ${cleanedDate} from original: ${dateString}`);
                 return cleanedDate;
@@ -489,7 +491,7 @@
             }
         }
 
-        // Function to display the Esperando Stock table, sorted by 'Fecha'
+           // Function to display the Esperando Stock table, sorted by 'Fecha'
         function createEsperandoStockTable(pickingRows, pedidosEnEsperaRows) {
             const headers = ['GOA', 'Fecha', 'Cliente', 'Art', 'Faltante', 'Cantidad', 'ID']; // Correct 'Cantidad' and 'Faltante'
             const headerRow = document.createElement('tr');
@@ -506,15 +508,19 @@
             const tbody = document.createElement('tbody');
             thead.appendChild(headerRow);
         
-            // Filter Picking and Pedidos en Espara tables for rows with blank or zero 'Cantidad'
+            // Combine Picking and Pedidos en Espera rows
             const combinedRows = pickingRows.concat(pedidosEnEsperaRows);
         
-            // Helper function to clean up the date format (dd/mm/yyyy to yyyy-mm-dd) and sort rows by 'Fecha'
-            const fechaColumnIndex = headers.indexOf('Fecha');  // Index of the 'Fecha' column
+            // Index of the 'Fecha' column
+            const fechaColumnIndex = headers.indexOf('Fecha');
+            logDebug('Fecha Column Index:', fechaColumnIndex);
+        
+            // Sort rows by 'Fecha', handling blanks
             const sortedRows = sortRowsByDate(combinedRows, fechaColumnIndex);  // Sort combined rows by 'Fecha'
         
             // Add rows to the table body, sorted by 'Fecha'
-            sortedRows.forEach(row => {
+            sortedRows.forEach((row, rowIndex) => {
+                logDebug(`Row ${rowIndex}:`, row);  // Log each sorted row for debugging
                 const tr = document.createElement('tr');
                 const goa = row[headers.indexOf('GOA')];
                 const fecha = row[headers.indexOf('Fecha')];
