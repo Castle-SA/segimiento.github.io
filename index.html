@@ -117,6 +117,7 @@
             return `${year}-${month}-${day}`;
         }
     
+        // Helper function to sort rows by 'Fecha', handling blanks
         function sortRowsByDate(rows, fechaColumnIndex) {
             return rows.slice(1).sort((a, b) => {
                 const dateA = cleanUpDate(a[fechaColumnIndex]) ? new Date(cleanUpDate(a[fechaColumnIndex])) : new Date(9999, 11, 31); // Handle blank dates by pushing them to the future
@@ -488,11 +489,11 @@
             }
         }
 
-           // Function to display the Esperando Stock table below the Producción table
+        // Function to display the Esperando Stock table, sorted by 'Fecha'
         function createEsperandoStockTable(pickingRows, pedidosEnEsperaRows) {
             const headers = ['GOA', 'Fecha', 'Cliente', 'Art', 'Faltante', 'Cantidad', 'ID']; // Correct 'Cantidad' and 'Faltante'
             const headerRow = document.createElement('tr');
-        
+            
             // Create the header row
             headers.forEach(header => {
                 const th = document.createElement('th');
@@ -508,8 +509,12 @@
             // Filter Picking and Pedidos en Espara tables for rows with blank or zero 'Cantidad'
             const combinedRows = pickingRows.concat(pedidosEnEsperaRows);
         
-            // Add rows to the table body
-            combinedRows.forEach(row => {
+            // Helper function to clean up the date format (dd/mm/yyyy to yyyy-mm-dd) and sort rows by 'Fecha'
+            const fechaColumnIndex = headers.indexOf('Fecha');  // Index of the 'Fecha' column
+            const sortedRows = sortRowsByDate(combinedRows, fechaColumnIndex);  // Sort combined rows by 'Fecha'
+        
+            // Add rows to the table body, sorted by 'Fecha'
+            sortedRows.forEach(row => {
                 const tr = document.createElement('tr');
                 const goa = row[headers.indexOf('GOA')];
                 const fecha = row[headers.indexOf('Fecha')];
@@ -554,7 +559,7 @@
             document.getElementById('column-2').appendChild(section);
         
             // Hide the ID column
-            hideIdColumnElements(table, headers.indexOf('ID'));
+            hideIdColumnElements(table, headers.indexOf('ID')); // Ensure correct index for 'ID'
         }
         
         // Function to trigger filtering for both Picking and Pedidos en Espara
