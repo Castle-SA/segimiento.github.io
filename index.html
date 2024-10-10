@@ -260,6 +260,8 @@
                 const fecha = row[fechaColumnIndex]?.trim();
                 const cantidad = row[cantidadColumnIndex]?.trim();
                 const faltante = row[faltanteColumnIndex]?.trim();
+
+                logDebug('FALTANTE value!!!!:', faltante);
         
                 if (ordenEspecial && ordenEspecial.startsWith('Ejecución')) {
                     const remito = ordenEspecial.slice(-5);
