@@ -311,10 +311,10 @@
             const filteredPickingRows = filterRows(pickingRows);
             const filteredPedidosEnEsperaRows = filterRows(pedidosEnEsperaRows);
             const combinedRows = filteredPickingRows.concat(filteredPedidosEnEsperaRows);
-            const fechaColumnIndex = combinedRows[0].indexOf('Fecha');
+            const fechaColumnIndex2 = combinedRows[0].indexOf('Fecha');
             const sortedCombinedRows = [combinedRows[0]].concat(combinedRows.slice(1).sort((a, b) => {
-                const dateA = cleanUpDate(a[fechaColumnIndex]);
-                const dateB = cleanUpDate(b[fechaColumnIndex]);
+                const dateA = cleanUpDate(a[fechaColumnIndex2]);
+                const dateB = cleanUpDate(b[fechaColumnIndex2]);
                 if (!dateA && !dateB) return 0; // Both are empty
                 if (!dateA) return 1; // `a` is empty, push it to the end
                 if (!dateB) return -1; // `b` is empty, push it to the end
