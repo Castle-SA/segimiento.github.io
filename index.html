@@ -307,18 +307,24 @@
             logDebug('Sorted Pedidos en Espera Rows:', pedidosEnEsperaRows);
         
             // Move rows to 'Esperando Stock' based on Cantidad and generate the table
-            //const { remainingPickingRows, remainingPedidosEnEsperaRows } = moveRowsToEsperandoStock(pickingRows, pedidosEnEsperaRows);
+            const { remainingPickingRows, remainingPedidosEnEsperaRows } = moveRowsToEsperandoStock(pickingRows, pedidosEnEsperaRows);
         
             // Create the remaining tables using the filtered rows
             createProduccionTableWithLinks(produccionRows);
             createPickingTableWithLinks(remainingPickingRows);
+            
+            const fechaColumnIndex = combinedRows[0].indexOf('Fecha');        
+            const sortedRowsEsperando = sortRowsByDate(combinedRows, fechaColumnIndex);  // Sort rows by 'Fecha'
+
+
+            
             createPedidosEnEsperaTableWithLinks(remainingPedidosEnEsperaRows);
         
             // Create Esperando Stock Table
             const filteredPickingRows = filterRows(pickingRows);
             const filteredPedidosEnEsperaRows = filterRows(pedidosEnEsperaRows);
             const combinedRows = filteredPickingRows.concat(filteredPedidosEnEsperaRows);
-            createEsperandoStockTable(combinedRows);
+            createEsperandoStockTable(sortedRowsEsperando);
         
             // Fetch data for Remisiones Recientes and Despachado
             fetchCsvData(sheetUrl).then(csvData => {
