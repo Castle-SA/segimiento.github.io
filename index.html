@@ -345,11 +345,14 @@
         }
 
         // Function to move rows with 'Cantidad' blank or zero to the 'Esperando Stock' table
-        function moveRowsToEsperandoStock(pickingRows, pedidosEnEsperaRows) {
+        function moveRowsToEsperandoStock(pickingRows, pedidosEnEsperaRows, hideIdColumn = true) {
             const headers = ['GOA', 'Fecha', 'Cliente', 'Art', 'Cantidad', 'ID']; // Ensure 'Cantidad' and 'ID' are included
             const headerRow = document.createElement('tr');
+
+            const idColumnIndex = findIdColumnIndex(headers); // Get the index of the "ID" column
+
         
-            // Create the header row
+            // Create the header rowººººººººººººººººººººººººººººººººººººººººººººººººººººººººººººººººººººººººººººººººººººººººººººººººººººººººººººººººººººººººººººººººººººººººººººººººººººººººººººººººººººººººººººººººººººººººººººººººººººººººººººººººººººººººººººººººººººººººººººººººººººººº
             headers.forEach(header => {
                 const th = document.createElement('th');
 
@@ -360,6 +363,8 @@
                 }
                 headerRow.appendChild(th);
             });
+
+            //ººººººººººººººººººººººººººººººººººººººººººººººººººººººººººººººººººººººººººººººººººººººººººººººººººººººººººººººººººººººººººººººººººººººººººººººººººººººººººººººººººººººººººººººººººººººººººººººººººººººººººººººººººººººººººººººººººººººººººººººººººººººººººººººººº
         
             const table = document.createElement('table');
             const thead = document.createElement('thead');
@@ -438,6 +443,8 @@
             const table = document.createElement('table');
             const thead = document.createElement('thead');
             const tbody = document.createElement('tbody');
+
+           //ºººººººººººººººººººººººººººººººººººººººººººººººººººººººººººººººººººººººººººººººººººººººººººººººººººººººººººººººººººººººººººººººººººººººººººººººººººººººººººººººººººººººººººººººººººººººººººººººººººººººººººººººººººººººººººººººººººººººººººººººººººººººººººººººº
         
             const headers = rows[0];  // The header row
             const idColumnIndex = findIdColumnIndex(headers); // Get the index of the "ID" column
@@ -457,6 +464,8 @@
                 headerRow.appendChild(th);
             });
             thead.appendChild(headerRow);
+
+           //ºººººººººººººººººººººººººººººººººººººººººººººººººººººººººººººººººººººººººººººººººººººººººººººººººººººººººººººººººººººººººººººººººººººººººººººººººººººººººººººººººººººººººººººººººººººººººººººººººººººººººººººººººººººººººººººººººººººººººººº
         
             // Process the table rows
             rows.slice(1).forEach((row, rowIndex) => {
