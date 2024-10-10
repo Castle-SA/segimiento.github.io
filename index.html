@@ -186,6 +186,25 @@
             return idIndex;
         }
 
+        // Helper function to filter and move rows for Esperando Stock
+        function filterRows(rows) {
+            // Ensure the rows array is valid
+            if (!rows || rows.length === 0) {
+                logDebug("No rows available for filtering.");
+                return [];
+            }
+        
+            const headers = rows[0];
+            const cantidadColumnIndex = headers.indexOf('Cantidad');
+            const faltanteColumnIndex = headers.indexOf('Faltante');
+        
+            return rows.filter(row => {
+                const cantidad = row[cantidadColumnIndex]?.trim();
+                const faltante = row[faltanteColumnIndex]?.trim();
+                return (!cantidad || cantidad === '0') && faltante;
+            });
+        }
+
        
 
         // Global debug function to ensure logs appear in the console
@@ -311,14 +330,19 @@
             logDebug('Sorted Picking Rows:', pickingRows);
             logDebug('Sorted Produccion Rows:', produccionRows);
             logDebug('Sorted Pedidos en Espera Rows:', pedidosEnEsperaRows);
+
+            const filteredPickingRows = filterRows(pickingRows);
+            const filteredPedidosEnEsperaRows = filterRows(pedidosEnEsperaRows);
             
             createProduccionTableWithLinks(produccionRows);
 
             // Move rows to 'Esperando Stock' based on Cantidad and generate the table
-            const { remainingPickingRows, remainingPedidosEnEsperaRows } = moveRowsToEsperandoStock(pickingRows, pedidosEnEsperaRows);
-        
+            //const { remainingPickingRows, remainingPedidosEnEsperaRows } = moveRowsToEsperandoStock(pickingRows, pedidosEnEsperaRows);
+
+            const combinedRows = filteredPickingRows.concat(filteredPedidosEnEsperaRows);
+
             // Display the remaining rows in the Picking and Pedidos en Espera tables
-            //createEsperandoStockTable(pickingRows, pedidosEnEsperaRows);
+            createEsperandoStockTable(pickingRows, pedidosEnEsperaRows);
 
             createPickingTableWithLinks(remainingPickingRows);
             createPedidosEnEsperaTableWithLinks(remainingPedidosEnEsperaRows);
@@ -550,12 +574,18 @@
             return { matched, unmatched };
         }
 
-        function createEsperandoStockTable(pickingRows, pedidosEnEsperaRows) {
-            const headers = ['GOA', 'Fecha', 'Cliente', 'Art', 'Faltante', 'Cantidad', 'ID']; // Ensure 'Cantidad' and 'Faltante' are included
+        function createEsperandoStockTable(esperandoStockRows) {
+            // Ensure that rows are valid before processing
+            if (!esperandoStockRows || esperandoStockRows.length === 0) {
+                logDebug("No rows available for Esperando Stock.");
+                return;
+            }
+        
+            const headers = ['GOA', 'Fecha', 'Cliente', 'Art', 'Faltante', 'ID'];
             const headerRow = document.createElement('tr');
-            
+        
             // Create the header row
-            headers.forEach(header => {
+            headers.slice(0, -1).forEach(header => { // Skip 'ID' in the header
                 const th = document.createElement('th');
                 th.textContent = header;
                 headerRow.appendChild(th);
@@ -566,48 +596,34 @@
             const tbody = document.createElement('tbody');
             thead.appendChild(headerRow);
         
-            // Combine Picking and Pedidos en Espara tables for filtering
-            const combinedRows = pickingRows.concat(pedidosEnEsperaRows);
-        
-            // Get the index of the 'Fecha' column for sorting
-            const fechaColumnIndex = headers.indexOf('Fecha');
-            const sortedRows = sortRowsByDate(combinedRows, fechaColumnIndex); // Sort the rows by 'Fecha'
-        
-            // Add sorted rows to the table body
-            sortedRows.forEach(row => {
+            // Process the rows for Esperando Stock
+            esperandoStockRows.slice(1).forEach(row => {
                 const tr = document.createElement('tr');
-                const goa = row[headers.indexOf('GOA')];
-                const fecha = row[headers.indexOf('Fecha')];
-                const cliente = row[headers.indexOf('Cliente')];
-                const art = row[headers.indexOf('Art')];
-                const faltante = row[headers.indexOf('Faltante')];
-                const cantidad = row[headers.indexOf('Cantidad')];
-                const id = row[headers.indexOf('ID')];
+                headers.forEach((header, index) => {
+                    if (header === 'ID') return; // Skip 'ID' column
         
-                // Append the row to the table with hyperlink for GOA
-                const tdGoa = document.createElement('td');
-                if (id && goa) {
-                    tdGoa.innerHTML = `<a href="https://4294049.app.netsuite.com/app/accounting/transactions/salesord.nl?id=${id}&whence=" target="_blank">${goa}</a>`;
-                } else {
-                    tdGoa.textContent = goa;  // If no ID, just display GOA as plain text
-                }
-                tr.appendChild(tdGoa);
-        
-                // Append the rest of the columns (Fecha, Cliente, Art, Faltante, Cantidad)
-                [fecha, cliente, art, faltante, cantidad].forEach(cellValue => {
                     const td = document.createElement('td');
-                    td.textContent = cellValue;
+                    const cellValue = row[index];
+        
+                    // Make the "GOA" column a clickable link using the ID
+                    if (header === 'GOA') {
+                        const id = row[headers.indexOf('ID')];
+                        if (id && cellValue) {
+                            td.innerHTML = `<a href="https://4294049.app.netsuite.com/app/accounting/transactions/salesord.nl?id=${id}&whence=" target="_blank">${cellValue}</a>`;
+                        } else {
+                            td.textContent = cellValue; // If no ID, just display GOA as plain text
+                        }
+                    } else {
+                        td.textContent = cellValue;
+                    }
                     tr.appendChild(td);
                 });
-        
                 tbody.appendChild(tr);
             });
         
-            // Append thead and tbody to the table
             table.appendChild(thead);
             table.appendChild(tbody);
         
-            // Add the table to the document
             const section = document.createElement('div');
             section.classList.add('table-section');
             const h2 = document.createElement('h2');
@@ -615,11 +631,8 @@
             section.appendChild(h2);
             section.appendChild(table);
         
-            // Append to the 2nd column (under Producción)
+            // Append the Esperando Stock table under Producción in column 2
             document.getElementById('column-2').appendChild(section);
-        
-            // Hide the ID column
-            hideIdColumnElements(table, headers.indexOf('ID'));
         }
         
         function createPedidosEnEsperaTableWithLinks(rows) {
