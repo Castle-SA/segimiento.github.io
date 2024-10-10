@@ -116,6 +116,25 @@
     
             return `${year}-${month}-${day}`;
         }
+
+                // Helper function to check if a date is within the next 3 days or in the past
+        function isWithinNext3DaysOrPast(dateString) {
+            const cleanedDate = cleanUpDate(dateString);
+            if (!cleanedDate) return false;
+        
+            const currentDate = new Date();
+            const inputDate = new Date(cleanedDate);
+        
+            if (isNaN(inputDate.getTime())) {
+                logDebug(`Invalid date detected: ${dateString}`);
+                return false;
+            }
+        
+            const differenceInTime = inputDate - currentDate;
+            const differenceInDays = differenceInTime / (1000 * 3600 * 24);
+        
+            return differenceInDays <= 3;
+        }
     
         function sortRowsByDate(rows, fechaColumnIndex) {
             return rows.slice(1).sort((a, b) => {
