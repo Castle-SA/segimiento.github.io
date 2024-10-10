@@ -97,9 +97,9 @@
         // Debugging Function
         function logDebug(message, data = null) {
             if (data) {
-                console.log(`DEBUG: ${message}`, data);
+                // console.log(`DEBUG: ${message}`, data);
             } else {
-                console.log(`DEBUG: ${message}`);
+                // console.log(`DEBUG: ${message}`);
             }
         }
 
@@ -126,7 +126,7 @@
             const inputDate = new Date(cleanedDate);
         
             if (isNaN(inputDate.getTime())) {
-                logDebug(`Invalid date detected: ${dateString}`);
+                // logDebug(`Invalid date detected: ${dateString}`);
                 return false;
             }
         
@@ -157,12 +157,12 @@
 
         // Fetch and display the CSV files for column 1
         function fetchAndDisplayCSVForColumn1(file, title, column) {
-            logDebug(`Fetching CSV for Column 1: ${title}`);
+            // logDebug(`Fetching CSV for Column 1: ${title}`);
             fetch(file)
                 .then(response => response.text())
                 .then(csv => {
                     let rows = csv.split('\n').map(row => row.split(','));
-                    logDebug(`${title} rows fetched for Column 1`, rows);
+                    // logDebug(`${title} rows fetched for Column 1`, rows);
 
                     rows = renameColumns(rows); // Ensure renaming for GOA and Cliente
                     createTableWithLinks(rows, title, column);
@@ -183,12 +183,12 @@
 
         // Function to fetch and display CSV for columns 2, 3, and 4 (Producción, Picking, Remisiones Recientes, Despachado)
         function fetchAndDisplayCSVForLastTables(file, title, column) {
-            logDebug(`Fetching CSV: ${title}`);
+            // logDebug(`Fetching CSV: ${title}`);
             fetch(file)
                 .then(response => response.text())
                 .then(csv => {
                     let rows = csv.split('\n').map(row => row.split(','));
-                    logDebug(`${title} rows fetched`, rows);
+                    // logDebug(`${title} rows fetched`, rows);
 
                     if (title === 'Preparación') {
                         splitPreparacion(rows); // This function splits tables into Producción, Picking, etc.
@@ -200,7 +200,7 @@
         // Function to find the ID column index with header trimming
         function findIdColumnIndex(headers) {
             const trimmedHeaders = headers.map(header => header.trim());
-            logDebug('Trimmed Headers:', trimmedHeaders);
+            // logDebug('Trimmed Headers:', trimmedHeaders);
             const idIndex = trimmedHeaders.indexOf('ID');
             return idIndex;
         }
@@ -209,7 +209,7 @@
         function filterRows(rows) {
             // Ensure the rows array is valid
             if (!rows || rows.length === 0) {
-                logDebug("No rows available for filtering.");
+                // logDebug("No rows available for filtering.");
                 return [];
             }
         
@@ -229,23 +229,23 @@
         // Global debug function to ensure logs appear in the console
         function logDebug(message, data = null) {
             if (data) {
-                console.log(`DEBUG: ${message}`, data);
+                // console.log(`DEBUG: ${message}`, data);
             } else {
-                console.log(`DEBUG: ${message}`);
+                // console.log(`DEBUG: ${message}`);
             }
         }
         
         function splitPreparacion(rows) {
-            logDebug('splitPreparacion function called');
+            // logDebug('splitPreparacion function called');
             const headers = rows[0];
-            logDebug('Preparacion CSV Headers:', headers);
+            // logDebug('Preparacion CSV Headers:', headers);
         
             const idColumnIndex = findIdColumnIndex(headers);
             const fechaColumnIndex = headers.indexOf('Fecha'); // Index for "Fecha" column
             const cantidadColumnIndex = headers.indexOf('Cantidad'); // Index for "Cantidad"
             const faltanteColumnIndex = headers.indexOf('Faltante'); // Index for "Faltante"
         
-            logDebug('Fecha column index:', fechaColumnIndex);
+            // logDebug('Fecha column index:', fechaColumnIndex);
             logDebug('FALTANTE column index:', faltanteColumnIndex);
         
             const pickingRows = [['GOA', 'Fecha', 'Cliente', 'Art.', 'Cantidad', 'Faltante', 'ID']];
@@ -308,9 +308,9 @@
                 return dateA - dateB;
             });
         
-            logDebug('Sorted Picking Rows:', pickingRows);
-            logDebug('Sorted Produccion Rows:', produccionRows);
-            logDebug('Sorted Pedidos en Espera Rows:', pedidosEnEsperaRows);
+            // logDebug('Sorted Picking Rows:', pickingRows);
+            // logDebug('Sorted Produccion Rows:', produccionRows);
+            // logDebug('Sorted Pedidos en Espera Rows:', pedidosEnEsperaRows);
             
             createProduccionTableWithLinks(produccionRows);
 
@@ -552,7 +552,7 @@
                 const data = await response.text();
                 return data;
             } catch (error) {
-                logDebug('Error fetching CSV from Google Sheets', error);
+                // logDebug('Error fetching CSV from Google Sheets', error);
                 throw error;
             }
         }
@@ -591,7 +591,7 @@
         function createEsperandoStockTable(esperandoStockRows) {
             // Ensure that rows are valid before processing
             if (!esperandoStockRows || esperandoStockRows.length === 0) {
-                logDebug("No rows available for Esperando Stock.");
+                // logDebug("No rows available for Esperando Stock.");
                 return;
             }
         
@@ -671,7 +671,7 @@
         //----------------------------------------------------------------XXXXXXXX----------------------------------------------------------------------------------------------
         // Function to create and display the Remisiones Recientes table (unmatched rows) with GOA hyperlinks and Fecha
         function createFacturacionTable(facturacionRows, unmatchedRows) {
-            logDebug('Creating Remisiones Recientes table');
+            // logDebug('Creating Remisiones Recientes table');
             const section = document.createElement('div');
             section.classList.add('table-section');
 
@@ -697,8 +697,8 @@
             const fechaColumnIndex = facturacionRows[0].indexOf('Fecha'); // Index for "Fecha" column
             const clienteColumnIndex = headers.indexOf('Cliente') !== -1 ? headers.indexOf('Cliente') : headers.indexOf('Nombre'); // Index for "Cliente" or "Nombre"
 
-            logDebug('ID column index:', idColumnIndex);
-            logDebug('Fecha column index:', fechaColumnIndex);
+            // logDebug('ID column index:', idColumnIndex);
+            // logDebug('Fecha column index:', fechaColumnIndex);
 
             // Sort rows by Numero de Remito (column 3)
             const sortedRows = facturacionRows.slice(1).sort((a, b) => a[2] - b[2]);
@@ -717,7 +717,7 @@
                     const goaCell = document.createElement('td');
                     if (id && goaNumber) {
                         goaCell.innerHTML = `<a href="https://4294049.app.netsuite.com/app/accounting/transactions/salesord.nl?id=${id}&whence=" target="_blank">${goaNumber}</a>`;
-                        logDebug(`Created hyperlink for GOA: ${goaNumber} with ID: ${id}`);
+                        // logDebug(`Created hyperlink for GOA: ${goaNumber} with ID: ${id}`);
                     } else {
                         goaCell.textContent = goaNumber;
                     }
@@ -733,7 +733,7 @@
                         const td = document.createElement('td');
                         if (index === 0 && cell) { // Index 0 of the sliced array corresponds to 'Cliente'
                             const filteredText = cell.split(' ').slice(1).join(' '); // Remove text before the first space
-                            logDebug('Filtered Text DESPACHADO:', filteredText);
+                            // logDebug('Filtered Text DESPACHADO:', filteredText);
                             td.textContent = filteredText || cell; // If no space, use original text
                         } else {
                             logDebug('@@@@@@@@@@@@@@@ Index:', index);
@@ -753,12 +753,12 @@
             section.appendChild(table);
 
             document.getElementById('column-4').appendChild(section);
-            logDebug('Appended Remisiones Recientes table to column 4');
+            // logDebug('Appended Remisiones Recientes table to column 4');
         }
         //--------------------------------------------------------------------xxxxxxx------------------------------------------------------------------------------------------
         // Function to create and display the Despachado table (matched rows) with GOA hyperlinks and Fecha
         function createDespachadoTable(facturacionRows, matchedRows) {
-            logDebug('Creating Despachado table');
+            // logDebug('Creating Despachado table');
             const section = document.createElement('div');
             section.classList.add('table-section');
         
@@ -786,8 +786,8 @@
 
         
             // Debugging to check rows being processed
-            console.log('Facturacion Rows:', facturacionRows);
-            console.log('Matched Rows:', matchedRows);
+            // console.log('Facturacion Rows:', facturacionRows);
+            // console.log('Matched Rows:', matchedRows);
         
             // Process matched rows for Despachado table
             facturacionRows.slice(1).forEach(row => { // Skip the header row
@@ -804,7 +804,7 @@
                     const goaCell = document.createElement('td');
                     if (id && goaNumber) {
                         goaCell.innerHTML = `<a href="https://4294049.app.netsuite.com/app/accounting/transactions/salesord.nl?id=${id}&whence=" target="_blank">${goaNumber}</a>`;
-                        console.log(`Created hyperlink for GOA: ${goaNumber} with ID: ${id}`);
+                        // console.log(`Created hyperlink for GOA: ${goaNumber} with ID: ${id}`);
                     } else {
                         goaCell.textContent = goaNumber;
                     }
