@@ -346,13 +346,18 @@
 
         // Function to move rows with 'Cantidad' blank or zero to the 'Esperando Stock' table
         function moveRowsToEsperandoStock(pickingRows, pedidosEnEsperaRows) {
-            const headers = ['GOA', 'Fecha', 'Cliente', 'Art', 'Cantidad']; // Ensure 'Cantidad' and 'ID' are included, 'ID'
+            const headers = ['GOA', 'Fecha', 'Cliente', 'Art', 'Cantidad', 'ID']; // Ensure 'Cantidad' and 'ID' are included
             const headerRow = document.createElement('tr');
         
             // Create the header row
             headers.forEach(header => {
                 const th = document.createElement('th');
+
                 th.textContent = header;
+                
+                    if (index === idColumnIndex && hideIdColumn) {
+                    th.classList.add('hidden');
+                }
                 headerRow.appendChild(th);
             });
         
