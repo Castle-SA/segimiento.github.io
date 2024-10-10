@@ -308,17 +308,31 @@
         
             // Move rows to 'Esperando Stock' based on Cantidad and generate the table
             const { remainingPickingRows, remainingPedidosEnEsperaRows } = moveRowsToEsperandoStock(pickingRows, pedidosEnEsperaRows);
-        
+            const filteredPickingRows = filterRows(pickingRows);
+            const filteredPedidosEnEsperaRows = filterRows(pedidosEnEsperaRows);
+            const combinedRows = filteredPickingRows.concat(filteredPedidosEnEsperaRows);
+            const fechaColumnIndex = combinedRows[0].indexOf('Fecha');
+            const sortedCombinedRows = [combinedRows[0]].concat(combinedRows.slice(1).sort((a, b) => {
+                const dateA = cleanUpDate(a[fechaColumnIndex]);
+                const dateB = cleanUpDate(b[fechaColumnIndex]);
+                if (!dateA && !dateB) return 0; // Both are empty
+                if (!dateA) return 1; // `a` is empty, push it to the end
+                if (!dateB) return -1; // `b` is empty, push it to the end
+                return new Date(dateA) - new Date(dateB);
+            }));
+
+
+
+
+
             // Create the remaining tables using the filtered rows
             createProduccionTableWithLinks(produccionRows);
             createPickingTableWithLinks(remainingPickingRows);           
             createPedidosEnEsperaTableWithLinks(remainingPedidosEnEsperaRows);
         
             // Create Esperando Stock Table
-            const filteredPickingRows = filterRows(pickingRows);
-            const filteredPedidosEnEsperaRows = filterRows(pedidosEnEsperaRows);
-            const combinedRows = filteredPickingRows.concat(filteredPedidosEnEsperaRows);
-            createEsperandoStockTable(combinedRows);
+
+            createEsperandoStockTable(sortedCombinedRows);
         
             // Fetch data for Remisiones Recientes and Despachado
             fetchCsvData(sheetUrl).then(csvData => {
