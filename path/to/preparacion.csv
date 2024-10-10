@@ -38,7 +38,7 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 39460,6142 PAPELERA DEL SUR SRL,Facturada,Todo Aprobado,Ejecución de pedido de artículo 21232,Enviado,,PPAR1024T,,,03/10/2024,314925
 39466,64 ALL PUMPS ARGENTINA SA,Ejecución de la orden pendiente,Todo Aprobado,Pedido ,Recepción pendiente,,0064/0013,0,350,11/10/2024,315285
 39518,3089 ARNEG ARGENTINA S.A.,Parcialmente ejecutada,Todo Aprobado,Orden de trabajo ,Ensamblada,F,PVC672B,,,28/10/2024,318503
-39518,3089 ARNEG ARGENTINA S.A.,Parcialmente ejecutada,Todo Aprobado,Orden de trabajo ,En curso,F,3089/039,0,18000,28/10/2024,318503
+39518,3089 ARNEG ARGENTINA S.A.,Parcialmente ejecutada,Todo Aprobado,Orden de trabajo ,Ensamblada,F,3089/039,18000,0,28/10/2024,318503
 39526,1029 DREAN SA,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Ensamblada,F,0272/005,240,0,08/10/2024,319118
 39530,9400338 ESTABLECIMIENTO MODELO LAS COLONIAS S A,Facturada,Todo Aprobado,Ejecución de pedido de artículo 21248,Enviado,,PPAR15048T,,,07/10/2024,319881
 39536,9400842 LABORATORIOS ASPEN SA,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Liberada,F,9400842/001,,,29/10/2024,320370
@@ -139,7 +139,7 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 39663,3051 FRIMETAL S.A.,Facturada,Todo Aprobado,Ejecución de pedido de artículo 21267,Enviado,,2280/004,,,08/10/2024,329608
 39663,3051 FRIMETAL S.A.,Facturada,Todo Aprobado,Ejecución de pedido de artículo 21267,Enviado,,1823/002,,,08/10/2024,329608
 39664,3089 ARNEG ARGENTINA S.A.,Facturada,Todo Aprobado,Ejecución de pedido de artículo 21266,Enviado,,3089/029,,,08/10/2024,329610
-39665,3089 ARNEG ARGENTINA S.A.,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Liberada,F,3089/067,,,11/10/2024,329611
+39665,3089 ARNEG ARGENTINA S.A.,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Ensamblada,F,3089/067,20000,0,11/10/2024,329611
 39666,1736 COMPANY SPY SRL,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Liberada,T,1736/001,,,31/10/2024,329657
 39668,94010 VISUAR SA,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Liberada,F,1823/002,,,31/10/2024,329775
 39669,260 SUCESION DE BARCIA CLAUDIO RODRIGO,Facturada,Todo Aprobado,Ejecución de pedido de artículo 21265,Enviado,,MTS548B,,,08/10/2024,329832
