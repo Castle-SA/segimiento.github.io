@@ -279,7 +279,7 @@
                             pedidosEnEsperaRows.push([row[headers.indexOf('Número de documento')], fecha, row[headers.indexOf('Nombre')], row[headers.indexOf('Artículo')], cantidad, row[idColumnIndex]]);
                         }
                     } else {
-                        produccionRows.push([row[headers.indexOf('Número de documento')], fecha, row[headers.indexOf('Nombre')], row[headers.indexOf('Artículo')], cantidad, row[idColumnIndex]]);
+                        produccionRows.push([row[headers.indexOf('Número de documento')], fecha, row[headers.indexOf('Nombre')], row[headers.indexOf('Artículo')], cantidad,  row[headers.indexOf('Faltante')], row[idColumnIndex]]);
                     }
                 }
             });
