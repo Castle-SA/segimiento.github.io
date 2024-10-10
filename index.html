@@ -727,9 +727,16 @@
                     tr.appendChild(fechaCell);
 
                     // Add Cliente and Numero de Remito columns
-                    row.slice(1, 3).forEach(cell => {
+                    row.slice(1, 3).forEach((cell, index) => {
                         const td = document.createElement('td');
-                        td.textContent = cell;
+                        if (index === clienteColumnIndex && cell) {
+                            const filteredText = cell.split(' ').slice(1).join(' '); // Remove text before the first space
+                            td.textContent = filteredText || cell; // If no space, use original text
+                        }
+                        else {
+                            td.textContent = cell;
+                        }
+        
                         tr.appendChild(td);
                     });
 
