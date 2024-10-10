@@ -104,16 +104,17 @@
         }
 
             // Helper function to clean up the date format (dd/mm/yyyy to yyyy-mm-dd) and add leading zeros
+        // Helper function to clean up date formats (dd/mm/yyyy to yyyy-mm-dd)
         function cleanUpDate(dateString) {
             if (!dateString) return null;
-    
+        
             const parts = dateString.split('/');
             if (parts.length !== 3) return null;
-    
+        
             const day = parts[0].padStart(2, '0');
             const month = parts[1].padStart(2, '0');
             const year = parts[2];
-    
+        
             return `${year}-${month}-${day}`;
         }
     
@@ -413,11 +414,12 @@
                 remainingPedidosEnEsperaRows: filteredPedidos.remainingRows,  // Rows not moved to Esperando Stock
             };
         }
-        // Function to hide the ID column when rendering tables
-       function createTableWithLinks(rows, title, column, hideIdColumn = true) {
+        
+        // Function to create a table with clickable GOA links, restoring hyperlinks for other tables
+        function createTableWithLinks(rows, title, column, hideIdColumn = true) {
             const section = document.createElement('div');
             section.classList.add('table-section');
-        
+            
             const h2 = document.createElement('h2');
             h2.textContent = title;
             section.appendChild(h2);
@@ -446,7 +448,7 @@
             thead.appendChild(headerRow);
         
             // Process the table rows
-            rows.slice(1).forEach((row, rowIndex) => {
+            rows.slice(1).forEach((row) => {
                 const tr = document.createElement('tr');
                 row.forEach((cell, index) => {
                     const td = document.createElement('td');
@@ -491,9 +493,9 @@
             }
         }
 
-           // Function to display the Esperando Stock table, sorted by 'Fecha'
+        // Function to display the Esperando Stock table, sorted by 'Fecha'
         function createEsperandoStockTable(pickingRows, pedidosEnEsperaRows) {
-            const headers = ['GOA', 'Fecha', 'Cliente', 'Art', 'Faltante', 'Cantidad', 'ID']; // Correct 'Cantidad' and 'Faltante'
+            const headers = ['GOA', 'Fecha', 'Cliente', 'Art', 'Faltante', 'Cantidad', 'ID']; // Ensure correct headers
             const headerRow = document.createElement('tr');
             
             // Create the header row
@@ -513,14 +515,16 @@
         
             // Index of the 'Fecha' column
             const fechaColumnIndex = headers.indexOf('Fecha');
-            logDebug('Fecha Column Index:', fechaColumnIndex);
-        
+            
             // Sort rows by 'Fecha', handling blanks
-            const sortedRows = sortRowsByDate(combinedRows, fechaColumnIndex);  // Sort combined rows by 'Fecha'
+            const sortedRows = combinedRows.slice(1).sort((a, b) => {
+                const dateA = cleanUpDate(a[fechaColumnIndex]) ? new Date(cleanUpDate(a[fechaColumnIndex])) : new Date(9999, 11, 31); // Handle blank dates by pushing them to the future
+                const dateB = cleanUpDate(b[fechaColumnIndex]) ? new Date(cleanUpDate(b[fechaColumnIndex])) : new Date(9999, 11, 31);
+                return dateA - dateB;
+            });
         
             // Add rows to the table body, sorted by 'Fecha'
-            sortedRows.forEach((row, rowIndex) => {
-                logDebug(`Row ${rowIndex}:`, row);  // Log each sorted row for debugging
+            sortedRows.forEach(row => {
                 const tr = document.createElement('tr');
                 const goa = row[headers.indexOf('GOA')];
                 const fecha = row[headers.indexOf('Fecha')];
@@ -629,24 +633,25 @@
         }
         
         function createPedidosEnEsperaTableWithLinks(rows) {
-            const fechaColumnIndex = rows[0].indexOf('Fecha');
+            const fechaColumnIndex = rows[0].indexOf('Fecha');  // Get the index of the 'Fecha' column
             const sortedRows = sortRowsByDate(rows, fechaColumnIndex);  // Sort rows by 'Fecha'
-            createTableWithLinks([rows[0]].concat(sortedRows), 'Pedidos en Espera', 3, true);  // Render the sorted table
+            createTableWithLinks([rows[0]].concat(sortedRows), 'Pedidos en Espera', 3, true);  // Render the sorted table in column 3
         }
         
-        // Function to display the Producción table, sorted by 'Fecha'
+        // Fetch and display the Producción, Picking, and Pedidos en Espera tables
         function createProduccionTableWithLinks(rows) {
             const fechaColumnIndex = rows[0].indexOf('Fecha');  // Get the index of the 'Fecha' column
             const sortedRows = sortRowsByDate(rows, fechaColumnIndex);  // Sort rows by 'Fecha'
             createTableWithLinks([rows[0]].concat(sortedRows), 'Producción', 2, true);  // Render the sorted table in column 2
         }
-    
-        function createPickingTableWithLinks(rows) {
-            const fechaColumnIndex = rows[0].indexOf('Fecha');
-            const sortedRows = sortRowsByDate(rows, fechaColumnIndex);  // Sort rows by 'Fecha'
-            createTableWithLinks([rows[0]].concat(sortedRows), 'Picking', 3, true);  // Render the sorted table
-        }
+
         
+        function createPickingTableWithLinks(rows) {
+            const fechaColumnIndex = rows[0].indexOf('Fecha');  // Get the index of the 'Fecha' column
+            const sortedRows = sortRowsByDate(rows, fechaColumnIndex);  // Sort rows by 'Fecha'
+            createTableWithLinks([rows[0]].concat(sortedRows), 'Picking', 3, true);  // Render the sorted table in column 3
+        }
+                
         // Function to create and display the Remisiones Recientes table (unmatched rows) with GOA hyperlinks and Fecha
         function createFacturacionTable(facturacionRows, unmatchedRows) {
             logDebug('Creating Remisiones Recientes table');
