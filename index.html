@@ -695,6 +695,8 @@
             // Find the ID and Fecha column indices correctly
             const idColumnIndex = findIdColumnIndex(facturacionRows[0]); // Index of ID in the actual rows
             const fechaColumnIndex = facturacionRows[0].indexOf('Fecha'); // Index for "Fecha" column
+            const clienteColumnIndex = headers.indexOf('Cliente') !== -1 ? headers.indexOf('Cliente') : headers.indexOf('Nombre'); // Index for "Cliente" or "Nombre"
+
             logDebug('ID column index:', idColumnIndex);
             logDebug('Fecha column index:', fechaColumnIndex);
 
