@@ -146,24 +146,38 @@
                 parent.normalize(); // Merge adjacent text nodes
             });
         }
-        function highlightMatches(query) {
-            const textNodes = getTextNodesUnder(content);
+        
+        function highlightText(query) {
             const regex = new RegExp(query, 'gi');
+            const nodes = getTextNodesUnder(content);
 
-            textNodes.forEach(node => {
-                const matches = node.textContent.match(regex);
-                if (matches) {
-                    const span = document.createElement('span');
-                    span.className = 'highlight';
-                    span.textContent = matches[0];
-                    
-                    const before = document.createTextNode(node.textContent.substring(0, matches.index));
-                    const after = document.createTextNode(node.textContent.substring(matches.index + matches[0].length));
+            nodes.forEach(node => {
+                const nodeText = node.nodeValue;
+                const matches = [...nodeText.matchAll(regex)];
 
-                    node.parentNode.insertBefore(before, node);
-                    node.parentNode.insertBefore(span, node);
-                    node.parentNode.insertBefore(after, node);
-                    node.parentNode.removeChild(node);
+                if (matches.length > 0) {
+                    let currentIndex = 0;
+                    const fragment = document.createDocumentFragment();
+
+                    matches.forEach(match => {
+                        // Text before the match
+                        const beforeText = nodeText.slice(currentIndex, match.index);
+                        fragment.appendChild(document.createTextNode(beforeText));
+
+                        // Highlighted match
+                        const span = document.createElement('span');
+                        span.className = 'highlight';
+                        span.textContent = match[0];
+                        fragment.appendChild(span);
+
+                        currentIndex = match.index + match[0].length;
+                    });
+
+                    // Text after the last match
+                    fragment.appendChild(document.createTextNode(nodeText.slice(currentIndex)));
+
+                    // Replace the original node with the fragment
+                    node.parentNode.replaceChild(fragment, node);
                 }
             });
         }
@@ -195,15 +209,15 @@
         }
 
         function getTextNodesUnder(node) {
-            let all = [];
+            let textNodes = [];
             for (node = node.firstChild; node; node = node.nextSibling) {
-                if (node.nodeType == Node.TEXT_NODE) {
-                    all.push(node);
+                if (node.nodeType === Node.TEXT_NODE) {
+                    textNodes.push(node);
                 } else {
-                    all = all.concat(getTextNodesUnder(node));
+                    textNodes = textNodes.concat(getTextNodesUnder(node));
                 }
             }
-            return all;
+            return textNodes;
         }
         
         // Debugging Function
