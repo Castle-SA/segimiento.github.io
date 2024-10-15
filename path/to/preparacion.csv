@@ -68,6 +68,8 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 39702,3089 ARNEG ARGENTINA S.A.,Facturada,Todo Aprobado,Ejecución de pedido de artículo 21282,Enviado,,3089/019,0,0,14/10/2024,331936
 39702,3089 ARNEG ARGENTINA S.A.,Facturada,Todo Aprobado,Ejecución de pedido de artículo 21282,Enviado,,3089/035,0,0,14/10/2024,331936
 39703,1171 AUTOSAL SA,Facturada,Todo Aprobado,Ejecución de pedido de artículo 21279,Enviado,,PPAR1072T,0,0,14/10/2024,331943
+39547,1490 IPLOV SRL,Facturación pendiente,Todo Aprobado,Ejecución de pedido de artículo 21283,Enviado,,1490/002,0,0,15/10/2024,321186
+39710,34 ARGENTAL S.A.I.C.,Facturación pendiente,Todo Aprobado,Ejecución de pedido de artículo 21284,Enviado,,VCI420,0,-3.3,15/10/2024,332587
 39617,1029 DREAN SA,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Liberada,F,0272/003,0,80,16/10/2024,327362
 39639,2515 CONGELADOS ARTICO SA,Ejecución de la orden pendiente,Todo Aprobado, ,,,PPAR1072T,720,0,16/10/2024,328066
 39650,1029 DREAN SA,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Liberada,F,0272/003,0,80,16/10/2024,328993
@@ -76,7 +78,6 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 39705,4636 FRIGORIFICO BERMEJO SA,Ejecución de la orden pendiente,Todo Aprobado, ,,,PPAR1048T,1800,0,16/10/2024,332157
 39709,3051 FRIMETAL S.A.,Ejecución de la orden pendiente,Todo Aprobado, ,,,2280/004,1800,0,16/10/2024,332476
 39709,3051 FRIMETAL S.A.,Ejecución de la orden pendiente,Todo Aprobado, ,,,2280/004,6000,0,16/10/2024,332476
-39710,34 ARGENTAL S.A.I.C.,Ejecución de la orden pendiente,Todo Aprobado, ,,,VCI420,120,0,16/10/2024,332587
 39711,9400695 PILSEL ADRIAN GUSTAVO,Ejecución de la orden pendiente,Todo Aprobado, ,,,04968-LOGROLL,1,0,16/10/2024,332625
 39713,1809 MERCOMAX SA,Ejecución de la orden pendiente,Todo Aprobado, ,,,PPAR1072T,1056,0,16/10/2024,332726
 39713,1809 MERCOMAX SA,Ejecución de la orden pendiente,Todo Aprobado, ,,,PPAR1048T,864,0,16/10/2024,332726
@@ -135,7 +136,7 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 37676,3096 FRECICAR SRL,Ejecución de la orden pendiente,Todo Aprobado, ,,,52330-00040-00,7,0,,253456
 38013,50 DADA S.A.,Ejecución de la orden pendiente,Todo Aprobado, ,,,VCI410,1500,0,,264847
 39322,86 EST GRAFICO IMPRESORES SA,Ejecución de la orden pendiente,Todo Aprobado, ,,,PPHR15048XT,2,0,,306662
-39547,1490 IPLOV SRL,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Liberada,F,1490/002,0,360,,321186
+39547,1490 IPLOV SRL,Facturación pendiente,Todo Aprobado,Orden de trabajo ,Ensamblada,F,1490/002,0,0,,321186
 39561,4628 KELES MARIO LEONARDO,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Liberada,F,3901/001,0,360,,322676
 39561,4628 KELES MARIO LEONARDO,Ejecución de la orden pendiente,Todo Aprobado,Pedido ,Recepción pendiente,,HWF125,0,100,,322676
 39570,17260 COMPANIA BERNAL SA,Ejecución de la orden pendiente,Todo Aprobado, ,,,PPAR10048T,378,0,,323399
