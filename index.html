@@ -171,34 +171,36 @@
         function highlightText(query) {
             const regex = new RegExp(query, 'gi');
             const nodes = getTextNodesUnder(content);
-
+    
             nodes.forEach(node => {
                 const nodeText = node.nodeValue;
                 const matches = [...nodeText.matchAll(regex)];
-
+    
                 if (matches.length > 0) {
                     let currentIndex = 0;
                     const fragment = document.createDocumentFragment();
-
+    
                     matches.forEach(match => {
                         // Text before the match
                         const beforeText = nodeText.slice(currentIndex, match.index);
                         fragment.appendChild(document.createTextNode(beforeText));
-
+    
                         // Highlighted match
                         const span = document.createElement('span');
                         span.className = 'highlight';
                         span.textContent = match[0];
                         fragment.appendChild(span);
-
+    
                         currentIndex = match.index + match[0].length;
                     });
-
+    
                     // Text after the last match
                     fragment.appendChild(document.createTextNode(nodeText.slice(currentIndex)));
-
+    
                     // Replace the original node with the fragment
-                    node.parentNode.replaceChild(fragment, node);
+                    if (node.parentNode) {
+                        node.parentNode.replaceChild(fragment, node);
+                    }
                 }
             });
         }
