@@ -12,19 +12,18 @@
     <style>
 
                 /* Styling for the search bar */
-        /* Styling for the search bar */
         #searchBarContainer {
             width: 100%;
             padding: 10px;
             background-color: #f0f0f0; /* Light grey background */
-            box-sizing: border-box;
         }
 
         #searchBar {
             width: 100%;
-            padding: 10px;
+            padding: 5px;
+            background-color: #f0f0f0; /* Light grey background */
             font-size: 16px;
-            border: 1px solid #ccc;
+            border: 0px solid #ccc;
             color: black;
         }
 
@@ -102,9 +101,9 @@
     
     <h1>Castle SA - Seguimiento</h1>
 
-    <!-- Search Bar Container -->
+        <!-- Search Bar Container -->
     <div id="searchBarContainer">
-        <input type="text" id="searchBar" placeholder="Search the page..." />
+        <input type="text" id="searchBar" placeholder="Buscar..." />
     </div>
 
     <div class="container">
@@ -125,90 +124,101 @@
 
     <script>
         
-        document.addEventListener('DOMContentLoaded', () => {
-            alert('DOM Content Loaded'); // To confirm if DOM has loaded correctly
+        const searchBar = document.getElementById('searchBar');
+        const content = document.getElementById('content');
 
-            const searchBar = document.getElementById('searchBar');
-            const content = document.getElementById('content');
+        searchBar.addEventListener('input', () => {
+            // Remove previous highlights
+            removeHighlights();
 
-            if (!searchBar || !content) {
-                alert('Search bar or content element not found!');
-                return;
-            }
-
-            alert('Elements found, proceeding to add event listener.');
-
-            searchBar.addEventListener('input', () => {
-                alert('Search bar input event triggered'); // To confirm event listener works
-                
-                // Simple placeholder: highlight all occurrences of the text
-                removeHighlights();
-
-                const query = searchBar.value.trim();
-                if (query !== '') {
-                    highlightText(query);
-                }
-            });
-
-            function removeHighlights() {
-                const highlightedElements = document.querySelectorAll('.highlight');
-                highlightedElements.forEach(element => {
-                    const parent = element.parentNode;
-                    if (parent) {
-                        parent.replaceChild(document.createTextNode(element.textContent), element);
-                        parent.normalize();
-                    }
-                });
-            }
-
-            function highlightText(query) {
-                const regex = new RegExp(query, 'gi');
-                const nodes = getTextNodesUnder(content);
-
-                nodes.forEach(node => {
-                    const nodeText = node.nodeValue;
-                    const matches = [...nodeText.matchAll(regex)];
-
-                    if (matches.length > 0) {
-                        let currentIndex = 0;
-                        const fragment = document.createDocumentFragment();
-
-                        matches.forEach(match => {
-                            const beforeText = nodeText.slice(currentIndex, match.index);
-                            fragment.appendChild(document.createTextNode(beforeText));
-
-                            const span = document.createElement('span');
-                            span.className = 'highlight';
-                            span.textContent = match[0];
-                            fragment.appendChild(span);
-
-                            currentIndex = match.index + match[0].length;
-                        });
-
-                        fragment.appendChild(document.createTextNode(nodeText.slice(currentIndex)));
-
-                        if (node.parentNode) {
-                            node.parentNode.replaceChild(fragment, node);
-                        }
-                    }
-                });
-            }
-
-            function getTextNodesUnder(node) {
-                let textNodes = [];
-                if (!node) return textNodes;
-                
-                for (node = node.firstChild; node; node = node.nextSibling) {
-                    if (node.nodeType === Node.TEXT_NODE) {
-                        textNodes.push(node);
-                    } else {
-                        textNodes = textNodes.concat(getTextNodesUnder(node));
-                    }
-                }
-                return textNodes;
+            const query = searchBar.value.trim();
+            if (query !== '') {
+                highlightMatches(query);
             }
         });
 
+        function removeHighlights() {
+            // Remove all elements with the 'highlight' class
+            const highlightedElements = document.querySelectorAll('.highlight');
+            highlightedElements.forEach(element => {
+                const parent = element.parentNode;
+                parent.replaceChild(document.createTextNode(element.textContent), element);
+                parent.normalize(); // Merge adjacent text nodes
+            });
+        }
+        
+        function highlightText(query) {
+            const regex = new RegExp(query, 'gi');
+            const nodes = getTextNodesUnder(content);
+
+            nodes.forEach(node => {
+                const nodeText = node.nodeValue;
+                const matches = [...nodeText.matchAll(regex)];
+
+                if (matches.length > 0) {
+                    let currentIndex = 0;
+                    const fragment = document.createDocumentFragment();
+
+                    matches.forEach(match => {
+                        // Text before the match
+                        const beforeText = nodeText.slice(currentIndex, match.index);
+                        fragment.appendChild(document.createTextNode(beforeText));
+
+                        // Highlighted match
+                        const span = document.createElement('span');
+                        span.className = 'highlight';
+                        span.textContent = match[0];
+                        fragment.appendChild(span);
+
+                        currentIndex = match.index + match[0].length;
+                    });
+
+                    // Text after the last match
+                    fragment.appendChild(document.createTextNode(nodeText.slice(currentIndex)));
+
+                    // Replace the original node with the fragment
+                    node.parentNode.replaceChild(fragment, node);
+                }
+            });
+        }
+
+        function searchInNode(node, regex) {
+            if (node.nodeType === Node.TEXT_NODE) {
+                const match = node.nodeValue.match(regex);
+                if (match) {
+                    const span = document.createElement('span');
+                    span.className = 'highlight';
+
+                    const matchedText = match[0];
+                    const beforeText = node.nodeValue.substring(0, match.index);
+                    const afterText = node.nodeValue.substring(match.index + matchedText.length);
+
+                    const beforeNode = document.createTextNode(beforeText);
+                    const afterNode = document.createTextNode(afterText);
+                    span.textContent = matchedText;
+
+                    const parent = node.parentNode;
+                    parent.insertBefore(beforeNode, node);
+                    parent.insertBefore(span, node);
+                    parent.insertBefore(afterNode, node);
+                    parent.removeChild(node);
+                }
+            } else if (node.nodeType === Node.ELEMENT_NODE && node.childNodes) {
+                node.childNodes.forEach(child => searchInNode(child, regex));
+            }
+        }
+
+        function getTextNodesUnder(node) {
+            let textNodes = [];
+            for (node = node.firstChild; node; node = node.nextSibling) {
+                if (node.nodeType === Node.TEXT_NODE) {
+                    textNodes.push(node);
+                } else {
+                    textNodes = textNodes.concat(getTextNodesUnder(node));
+                }
+            }
+            return textNodes;
+        }
         
         // Debugging Function
         function logDebug(message, data = null) {
