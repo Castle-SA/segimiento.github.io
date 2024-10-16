@@ -21,8 +21,8 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 39168,9400753 RIS S.A,Facturada,Todo Aprobado,Ejecución de pedido de artículo 21268,Enviado,,9400753/001,0,0,08/10/2024,301124
 39168,9400753 RIS S.A,Facturada,Todo Aprobado,Ejecución de pedido de artículo 21268,Enviado,,PPAR1048T,0,0,08/10/2024,301124
 39526,1029 DREAN SA,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Ensamblada,F,0272/005,240,0,08/10/2024,319118
-39623,3598 DEL VALLE EMBALAJES SRL,Facturación pendiente,Todo Aprobado,Ejecución de pedido de artículo 21263,Enviado,,PPAR1024T,0,0,08/10/2024,327610
-39623,3598 DEL VALLE EMBALAJES SRL,Facturación pendiente,Todo Aprobado,Ejecución de pedido de artículo 21263,Enviado,,PPAR15048T,0,0,08/10/2024,327610
+39623,3598 DEL VALLE EMBALAJES SRL,Facturada,Todo Aprobado,Ejecución de pedido de artículo 21263,Enviado,,PPAR1024T,0,0,08/10/2024,327610
+39623,3598 DEL VALLE EMBALAJES SRL,Facturada,Todo Aprobado,Ejecución de pedido de artículo 21263,Enviado,,PPAR15048T,0,0,08/10/2024,327610
 39661,2638 QUE RICO SA,Facturada,Todo Aprobado,Ejecución de pedido de artículo 21270,Enviado,,PPHR1216B,0,0,08/10/2024,329320
 39661,2638 QUE RICO SA,Facturada,Todo Aprobado,Ejecución de pedido de artículo 21270,Enviado,,PVC612R,0,0,08/10/2024,329320
 39661,2638 QUE RICO SA,Facturada,Todo Aprobado,Ejecución de pedido de artículo 21270,Enviado,,PPAR1048T,0,0,08/10/2024,329320
@@ -86,12 +86,12 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 39536,9400842 LABORATORIOS ASPEN SA,Facturación pendiente,Todo Aprobado,Ejecución de pedido de artículo 21318,Enviado,,9400842/001,0,0,16/10/2024,320370
 39617,1029 DREAN SA,Facturación pendiente,Todo Aprobado,Ejecución de pedido de artículo 21320,Enviado,,0272/003,0,0,16/10/2024,327362
 39617,1029 DREAN SA,Facturación pendiente,Todo Aprobado,Orden de trabajo ,Ensamblada,F,0272/003,0,0,16/10/2024,327362
-39623,3598 DEL VALLE EMBALAJES SRL,Facturación pendiente,Todo Aprobado,Ejecución de pedido de artículo 21305,Enviado,,PPAR1048T,0,0,16/10/2024,327610
+39623,3598 DEL VALLE EMBALAJES SRL,Facturada,Todo Aprobado,Ejecución de pedido de artículo 21305,Enviado,,PPAR1048T,0,0,16/10/2024,327610
 39639,2515 CONGELADOS ARTICO SA,Facturación pendiente,Todo Aprobado,Ejecución de pedido de artículo 21308,Enviado,,PPAR1072T,0,0,16/10/2024,328066
 39643,2106 AGRANA FRUIT ARGENTINA SA,Facturación pendiente,Todo Aprobado,Ejecución de pedido de artículo 21312,Enviado,,PPAR15048T,0,0,16/10/2024,328170
 39643,2106 AGRANA FRUIT ARGENTINA SA,Facturación pendiente,Todo Aprobado,Ejecución de pedido de artículo 21312,Enviado,,PPHR15048XT,0,0,16/10/2024,328170
-39650,1029 DREAN SA,Facturación pendiente,Todo Aprobado,Orden de trabajo ,Ensamblada,F,0272/003,0,0,16/10/2024,328993
 39650,1029 DREAN SA,Facturación pendiente,Todo Aprobado,Ejecución de pedido de artículo 21321,Enviado,,0272/003,0,0,16/10/2024,328993
+39650,1029 DREAN SA,Facturación pendiente,Todo Aprobado,Orden de trabajo ,Ensamblada,F,0272/003,0,0,16/10/2024,328993
 39651,1029 DREAN SA,Facturación pendiente,Todo Aprobado,Orden de trabajo ,Ensamblada,F,0272/005,0,0,16/10/2024,328994
 39651,1029 DREAN SA,Facturación pendiente,Todo Aprobado,Ejecución de pedido de artículo 21322,Enviado,,0272/005,0,0,16/10/2024,328994
 39698,9401928 MAFRALAC ALIMENTICIA S.R.L.,Facturación pendiente,Todo Aprobado,Ejecución de pedido de artículo 21313,Enviado,,MUESTRA ESPECIAL,0,0,16/10/2024,331348
@@ -162,7 +162,7 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 37670,272 TALLERES METALURGICOS BAMBI S.A.,Ejecución de la orden pendiente,Todo Aprobado, ,,,0272/003,0,100,,253174
 37676,3096 FRECICAR SRL,Ejecución de la orden pendiente,Todo Aprobado, ,,,52330-00040-00,7,0,,253456
 38013,50 DADA S.A.,Ejecución de la orden pendiente,Todo Aprobado, ,,,VCI410,1500,0,,264847
-39561,4628 KELES MARIO LEONARDO,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Liberada,F,3901/001,0,360,,322676
+39561,4628 KELES MARIO LEONARDO,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Ensamblada,F,3901/001,360,0,,322676
 39561,4628 KELES MARIO LEONARDO,Ejecución de la orden pendiente,Todo Aprobado,Pedido ,Recepción pendiente,,HWF125,0,100,,322676
 39608,9401290 GLAMOURAMA SRL,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Liberada,T,9401290/002,0,240,,326514
 39611,9400761 TECNOLOGIA GRAFICA SRL,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Liberada,T,9400761/001,0,360,,326788
