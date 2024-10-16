@@ -1,8 +1,6 @@
 Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. Especial,Orden. Especial? 2 ,Artículo,Cantidad,Faltante,Fecha,ID
 39622,9400962 CRYSTAL-ICE SRL,Ejecución de la orden pendiente,Todo Aprobado, ,,,PPAR1048T,6,0,03/10/2024,327590
 39622,9400962 CRYSTAL-ICE SRL,Ejecución de la orden pendiente,Todo Aprobado, ,,,PPAR1072T,6,0,03/10/2024,327590
-39643,2106 AGRANA FRUIT ARGENTINA SA,Ejecución de la orden pendiente,Todo Aprobado, ,,,PPAR15048T,2,0,04/10/2024,328170
-39643,2106 AGRANA FRUIT ARGENTINA SA,Ejecución de la orden pendiente,Todo Aprobado, ,,,PPHR15048XT,2,0,04/10/2024,328170
 39268,1189 SAFER SYSTEMS SOUTH AMERICA S.A.,Facturada,Todo Aprobado,Ejecución de pedido de artículo 21246,Enviado,,1189/003,0,-2,07/10/2024,304549
 39440,1029 DREAN SA,Facturada,Todo Aprobado,Ejecución de pedido de artículo 21256,Enviado,,1153/001,0,0,07/10/2024,313327
 39445,3089 ARNEG ARGENTINA S.A.,Facturada,Todo Aprobado,Ejecución de pedido de artículo 21258,Enviado,,3089/029,0,0,07/10/2024,313513
@@ -85,9 +83,12 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 39711,9400695 PILSEL ADRIAN GUSTAVO,Facturada,Todo Aprobado,Ejecución de pedido de artículo 21288,Enviado,,04968-LOGROLL,0,0,15/10/2024,332625
 39712,1029 DREAN SA,Facturada,Todo Aprobado,Ejecución de pedido de artículo 21286,Enviado,,1153/001,0,0,15/10/2024,332725
 39722,3086 MULTIORIGINAL PARTS SA,Facturada,Todo Aprobado,Ejecución de pedido de artículo 21297,Enviado,,PPAR1048T,0,0,15/10/2024,332840
+39322,86 EST GRAFICO IMPRESORES SA,Facturación pendiente,Todo Aprobado,Ejecución de pedido de artículo 21311,Enviado,,PPHR15048XT,0,0,16/10/2024,306662
 39617,1029 DREAN SA,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Ensamblada,F,0272/003,80,0,16/10/2024,327362
 39623,3598 DEL VALLE EMBALAJES SRL,Facturación pendiente,Todo Aprobado,Ejecución de pedido de artículo 21305,Enviado,,PPAR1048T,0,0,16/10/2024,327610
 39639,2515 CONGELADOS ARTICO SA,Facturación pendiente,Todo Aprobado,Ejecución de pedido de artículo 21308,Enviado,,PPAR1072T,0,0,16/10/2024,328066
+39643,2106 AGRANA FRUIT ARGENTINA SA,Facturación pendiente,Todo Aprobado,Ejecución de pedido de artículo 21312,Enviado,,PPAR15048T,0,0,16/10/2024,328170
+39643,2106 AGRANA FRUIT ARGENTINA SA,Facturación pendiente,Todo Aprobado,Ejecución de pedido de artículo 21312,Enviado,,PPHR15048XT,0,0,16/10/2024,328170
 39650,1029 DREAN SA,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Liberada,F,0272/003,0,80,16/10/2024,328993
 39651,1029 DREAN SA,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Liberada,F,0272/005,0,240,16/10/2024,328994
 39700,4329 COMPANIA ELABORADORA DE PASTAS SA,Facturación pendiente,Todo Aprobado,Ejecución de pedido de artículo 21310,Enviado,,PPAR15048T,0,0,16/10/2024,331778
@@ -100,6 +101,7 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 39723,1269 A.F.A. S.C.L. - RAMALLO UNIDAD VA FORMULADORA,Ejecución de la orden pendiente,Todo Aprobado, ,,,H11/48,15,0,17/10/2024,333075
 39728,9402041 ARAUCO ARGENTINA SA,Ejecución de la orden pendiente,Todo Aprobado, ,,,FLJPET8019V,0,2,17/10/2024,333794
 39728,9402041 ARAUCO ARGENTINA SA,Ejecución de la orden pendiente,Todo Aprobado, ,,,50605-00013-41,0,2,17/10/2024,333794
+39731,9401715 ELABORADORA DE PRODUCTOS CARNICOS CARCARAÑA S.A.,Ejecución de la orden pendiente,Todo Aprobado, ,,,PPAR1072T,120,0,17/10/2024,334345
 38509,4733 TECNOSISTEM SRL,Ejecución de la orden pendiente,Todo Aprobado, ,,,MTS548B,540,0,18/10/2024,281741
 38509,4733 TECNOSISTEM SRL,Ejecución de la orden pendiente,Todo Aprobado, ,,,MTS536B,480,0,18/10/2024,281741
 38509,4733 TECNOSISTEM SRL,Ejecución de la orden pendiente,Todo Aprobado, ,,,PPAR1048T,180,0,18/10/2024,281741
@@ -108,6 +110,7 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 39706,3089 ARNEG ARGENTINA S.A.,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Liberada,F,3089/029,0,40000,21/10/2024,332371
 39706,3089 ARNEG ARGENTINA S.A.,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Ensamblada,F,3089/086,1000,0,21/10/2024,332371
 39706,3089 ARNEG ARGENTINA S.A.,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Ensamblada,F,PVC672B,96,0,21/10/2024,332371
+39730,3769 GAROFOLI CONSTRUCCIONES SRL,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Liberada,F,0727/004,0,50,21/10/2024,334236
 39563,12837 FRIGORIFICO SAN FRANCISCO S.A,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Liberada,T,2837/001,0,1152,23/10/2024,322805
 39684,4095 REFINERIA DEL CENTRO SA,Ejecución de la orden pendiente,Todo Aprobado, ,,,H11/72,30,0,28/10/2024,330078
 39536,9400842 LABORATORIOS ASPEN SA,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Ensamblada,F,9400842/001,360,0,29/10/2024,320370
@@ -137,6 +140,8 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 38511,4733 TECNOSISTEM SRL,Ejecución de la orden pendiente,Todo Aprobado, ,,,MTS548B,540,0,20/12/2024,281743
 38511,4733 TECNOSISTEM SRL,Ejecución de la orden pendiente,Todo Aprobado, ,,,MTS536B,480,0,20/12/2024,281743
 38511,4733 TECNOSISTEM SRL,Ejecución de la orden pendiente,Todo Aprobado, ,,,PPAR1048T,180,0,20/12/2024,281743
+39727,3769 GAROFOLI CONSTRUCCIONES SRL,Ejecución de la orden pendiente,Todo Aprobado, ,,,3769/002,0,1440,01/01/2025,333694
+39727,3769 GAROFOLI CONSTRUCCIONES SRL,Ejecución de la orden pendiente,Todo Aprobado, ,,,3769/003,0,1080,01/01/2025,333694
 37682,3096 FRECICAR SRL,Ejecución de la orden pendiente,Todo Aprobado, ,,,52330-00040-00,4,3,03/01/2025,253463
 37683,3096 FRECICAR SRL,Ejecución de la orden pendiente,Todo Aprobado, ,,,52330-00040-00,0,7,03/02/2025,253464
 37684,3096 FRECICAR SRL,Ejecución de la orden pendiente,Todo Aprobado, ,,,52330-00040-00,0,7,03/03/2025,253465
@@ -148,7 +153,6 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 37670,272 TALLERES METALURGICOS BAMBI S.A.,Ejecución de la orden pendiente,Todo Aprobado, ,,,0272/003,0,100,,253174
 37676,3096 FRECICAR SRL,Ejecución de la orden pendiente,Todo Aprobado, ,,,52330-00040-00,7,0,,253456
 38013,50 DADA S.A.,Ejecución de la orden pendiente,Todo Aprobado, ,,,VCI410,1500,0,,264847
-39322,86 EST GRAFICO IMPRESORES SA,Ejecución de la orden pendiente,Todo Aprobado, ,,,PPHR15048XT,2,0,,306662
 39561,4628 KELES MARIO LEONARDO,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Liberada,F,3901/001,0,360,,322676
 39561,4628 KELES MARIO LEONARDO,Ejecución de la orden pendiente,Todo Aprobado,Pedido ,Recepción pendiente,,HWF125,0,100,,322676
 39608,9401290 GLAMOURAMA SRL,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Liberada,T,9401290/002,0,240,,326514
