@@ -154,7 +154,7 @@
 
             const query = searchBar.value.trim();
             if (query !== '') {
-                highlightMatches(query);
+                highlightText(query);
             }
         });
 
@@ -240,6 +240,20 @@
             }
             return textNodes;
         }
+
+        window.onload = function () {
+            alert('Window loaded'); // Add this to see if the onload event is fired
+        
+            const searchBar = document.getElementById('searchBar');
+            const content = document.getElementById('content');
+        
+            if (!searchBar || !content) {
+                alert('Search bar or content element not found!');
+                return;
+            }
+        
+            alert('Elements found, proceeding to add event listener.');
+        };
         
         // Debugging Function
         function logDebug(message, data = null) {
