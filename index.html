@@ -125,10 +125,12 @@
 
     <script>
         
-        document.addEventListener('DOMContentLoaded', () => {
+        // Execute the code only when the DOM is fully loaded
+        window.onload = function () {
             const searchBar = document.getElementById('searchBar');
             const content = document.getElementById('content');
 
+            // Check if the searchBar and content elements are available
             if (!searchBar || !content) {
                 console.error('Search bar or content element not found!');
                 return;
@@ -206,7 +208,7 @@
                 }
                 return textNodes;
             }
-        });
+        };
 
         
         // Debugging Function
