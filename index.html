@@ -421,8 +421,8 @@
             const faltanteColumnIndex = headers.indexOf('Faltante'); // Index for "Faltante"
             const transporteColumnIndex = headers.indexOf('Transportista'); // Index for "Faltante"
 
-             logDebug('Transporte column index:', transporteColumnIndex);
-            logDebug('FALTANTE column index:', faltanteColumnIndex);
+            logDebug('Transporte column index:', transporteColumnIndex);
+            //logDebug('FALTANTE column index:', faltanteColumnIndex);
         
             const pickingRows = [['GOA', 'Fecha', 'Cliente', 'Art.', 'Cantidad', 'Faltante', 'ID']];
             const produccionRows = [['GOA', 'Fecha', 'Cliente', 'Art.', 'Faltante', 'ID']];
@@ -439,9 +439,9 @@
                 const transporte = row[transporteColumnIndex]?.trim();
 
 
-                logDebug('FALTANTE columnindex12:', faltanteColumnIndex);
+                //logDebug('FALTANTE columnindex12:', faltanteColumnIndex);
 
-                logDebug('FALTANTE value!!!!:', faltante);
+                //logDebug('FALTANTE value!!!!:', faltante);
         
                 if (ordenEspecial && ordenEspecial.startsWith('Ejecución')) {
                     const remito = ordenEspecial.slice(-5);
