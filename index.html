@@ -127,7 +127,7 @@
         <input type="text" id="searchBar" placeholder="Buscar..." />
     </div>
 
-    <div class="container">
+    <div class="container" id="content2">
         <div class="column" id="column-1">
             <!-- Column 1: Control GP, Control Financiero, Control Fecha de Entrega, Ultimo Control Financiero -->
         </div>
@@ -146,7 +146,7 @@
     <script>
         
         const searchBar = document.getElementById('searchBar');
-        const content = document.getElementById('content');
+        const content = document.getElementById('content2');
 
         searchBar.addEventListener('input', () => {
             // Remove previous highlights
