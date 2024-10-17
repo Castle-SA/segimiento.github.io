@@ -421,7 +421,7 @@
             const faltanteColumnIndex = headers.indexOf('Faltante'); // Index for "Faltante"
             const transporteColumnIndex = headers.indexOf('Transportista'); // Index for "Faltante"
 
-             logDebug('Transoprte column index:', transporteColumnIndex);
+             logDebug('Transporte column index:', transporteColumnIndex);
             logDebug('FALTANTE column index:', faltanteColumnIndex);
         
             const pickingRows = [['GOA', 'Fecha', 'Cliente', 'Art.', 'Cantidad', 'Faltante', 'ID']];
@@ -914,9 +914,9 @@
                             // logDebug('Filtered Text DESPACHADO:', filteredText);
                             td.textContent = filteredText || cell; // If no space, use original text
                         } else {
-                            logDebug('@@@@@@@@@@@@@@@ Index:', index);
-                            logDebug('@@@@@@@@@@@@@@@ clienteColumnIndex:', clienteColumnIndex);
-                            logDebug('@@@@@@@@@@@@@@@ cell:', cell);
+                            //logDebug('@@@@@@@@@@@@@@@ Index:', index);
+                            //logDebug('@@@@@@@@@@@@@@@ clienteColumnIndex:', clienteColumnIndex);
+                            //logDebug('@@@@@@@@@@@@@@@ cell:', cell);
                             td.textContent = cell;
                         }
                         tr.appendChild(td);
