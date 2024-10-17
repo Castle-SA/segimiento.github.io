@@ -52,6 +52,16 @@
             font-family: 'Open Sans', sans-serif;
             margin: 10px;
         }
+        .fixed-header {
+            background-color: #812628;
+            color: white;
+            padding: 10px;
+            text-align: center;
+            position: fixed;
+            width: 100%;
+            top: 0;
+            z-index: 1000;
+        }
 
         h1, h2 {
             font-family: 'Open Sans', sans-serif;
@@ -120,15 +130,18 @@
 <body>
     
     <h1>Castle SA - Seguimiento</h1>
+    <header class="fixed-header">
 
-    <div id="content">
-    <img src="images/Logo Castle Nuevo Slogan.png" class="ribbon" alt="" />
-    </div>
+        <div id="content">
+        <img src="images/Logo Castle Nuevo Slogan.png" class="ribbon" alt="" />
+        </div>
+    
+            <!-- Search Bar Container -->
+        <div id="searchBarContainer">
+            <input type="text" id="searchBar" placeholder="Buscar..." />
+        </div>
 
-        <!-- Search Bar Container -->
-    <div id="searchBarContainer">
-        <input type="text" id="searchBar" placeholder="Buscar..." />
-    </div>
+    </header>
 
     <div class="container" id="content2">
         <div class="column" id="column-1">
@@ -255,7 +268,7 @@
                 return;
             }
         
-            alert('Elements found, proceeding to add event listener.');
+            //alert('Elements found, proceeding to add event listener.');
         };
         
         // Debugging Function
