@@ -22,7 +22,6 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 39580,9400017 SPECIALIZED BICYCLE COMPONENTS ARGENTINA S.R.L.,Facturada,Todo Aprobado,Ejecución de pedido de artículo 21272,Enviado,,MTS512B,0,0,09/10/2024,324478
 39580,9400017 SPECIALIZED BICYCLE COMPONENTS ARGENTINA S.R.L.,Facturada,Todo Aprobado,Ejecución de pedido de artículo 21272,Enviado,,PPA1048T040,0,0,09/10/2024,324478
 39596,4095 REFINERIA DEL CENTRO SA,Facturada,Todo Aprobado,Ejecución de pedido de artículo 21271,Enviado,,PPAR1072T,0,0,09/10/2024,325133
-39677,2475 GAMISOL Y CIA SA,Ejecución de la orden pendiente,Todo Aprobado, ,,,PPA1548TE,360,0,09/10/2024,330073
 39695,533 METALBO SRL,Facturada,Todo Aprobado,Ejecución de pedido de artículo 21273,Enviado,,07063-00009-24,0,0,09/10/2024,331208
 39697,533 METALBO SRL,Facturada,Todo Aprobado,Ejecución de pedido de artículo 21274,Enviado,,MUESTRA ESPECIAL,0,0,09/10/2024,331343
 39697,533 METALBO SRL,Facturada,Todo Aprobado,Ejecución de pedido de artículo 21274,Enviado,,MTS548B,0,0,09/10/2024,331343
@@ -86,6 +85,7 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 39592,9401926 INDUSTRIAS FRIGORIFICAS RECREO SAIC,Facturación pendiente,Todo Aprobado,Ejecución de pedido de artículo 21323,Enviado,,PPAR1048T,0,0,17/10/2024,325005
 39614,9401926 INDUSTRIAS FRIGORIFICAS RECREO SAIC,Facturación pendiente,Todo Aprobado,Ejecución de pedido de artículo 21324,Enviado,,PPAR1048T,0,0,17/10/2024,327059
 39640,9402100 COOPERATIVA AGRICOLA TAMBERA DE JAMES CRAIK LIMITADA,Facturación pendiente,Todo Aprobado,Ejecución de pedido de artículo 21331,Enviado,,PPA1548TE,0,0,17/10/2024,328067
+39677,2475 GAMISOL Y CIA SA,Facturación pendiente,Todo Aprobado,Ejecución de pedido de artículo 21332,Enviado,,PPA1548TE,0,0,17/10/2024,330073
 39686,9401840 POLICART LTDA,Facturada,Todo Aprobado,Ejecución de pedido de artículo 21330,Enviado,,PPAR1048T,0,0,17/10/2024,330482
 39690,3096 FRECICAR SRL,Ejecución de la orden pendiente,Todo Aprobado, ,,,H11/CPE,5,0,17/10/2024,330984
 39690,3096 FRECICAR SRL,Ejecución de la orden pendiente,Todo Aprobado, ,,,H11/48,6,0,17/10/2024,330984
@@ -93,17 +93,17 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 39713,1809 MERCOMAX SA,Facturación pendiente,Todo Aprobado,Ejecución de pedido de artículo 21328,Enviado,,PPAR1048T,0,0,17/10/2024,332726
 39721,1809 MERCOMAX SA,Facturación pendiente,Todo Aprobado,Ejecución de pedido de artículo 21327,Enviado,,PPAR1048T,0,0,17/10/2024,332944
 39723,1269 A.F.A. S.C.L. - RAMALLO UNIDAD VA FORMULADORA,Ejecución de la orden pendiente,Todo Aprobado, ,,,H11/48,15,0,17/10/2024,333075
-39729,4111 INDUSTRIALIZADORA S.A.,Ejecución de la orden pendiente,Todo Aprobado, ,,,PPAR1048T,480,0,17/10/2024,333695
+39729,4111 INDUSTRIALIZADORA S.A.,Facturación pendiente,Todo Aprobado,Ejecución de pedido de artículo 21334,Enviado,,PPAR1048T,0,-24,17/10/2024,333695
 39728,9402041 ARAUCO ARGENTINA SA,Ejecución de la orden pendiente,Todo Aprobado, ,,,FLJPET8019V,2,0,17/10/2024,333794
 39728,9402041 ARAUCO ARGENTINA SA,Ejecución de la orden pendiente,Todo Aprobado, ,,,50605-00013-41,0,2,17/10/2024,333794
 39734,9401259 BERTINI S.A,Facturación pendiente,Todo Aprobado,Ejecución de pedido de artículo 21326,Enviado,,H11/CPE,0,0,17/10/2024,334599
+39735,621 MANUEL LAJARA S.A.,Facturación pendiente,Todo Aprobado,Ejecución de pedido de artículo 21333,Enviado,,PPA1548TE,0,0,17/10/2024,334609
 39738,655 SWIFT SA ARGENTINA,Facturación pendiente,Todo Aprobado,Ejecución de pedido de artículo 21329,Enviado,,PPHR15048XT,0,0,17/10/2024,334858
 39738,655 SWIFT SA ARGENTINA,Facturación pendiente,Todo Aprobado,Ejecución de pedido de artículo 21329,Enviado,,PPAR1048M,0,0,17/10/2024,334858
 39738,655 SWIFT SA ARGENTINA,Facturación pendiente,Todo Aprobado,Ejecución de pedido de artículo 21329,Enviado,,FLJSPET12016V,0,0,17/10/2024,334858
 39738,655 SWIFT SA ARGENTINA,Facturación pendiente,Todo Aprobado,Ejecución de pedido de artículo 21329,Enviado,,FLJSTD15016,0,0,17/10/2024,334858
 39601,9401339 QUICKFOOD S.A.,Ejecución de la orden pendiente,Todo Aprobado, ,,,PPAR15048T,34,344,18/10/2024,325892
 39733,9401820 MEI GROUP PTY LTD SUC ARG,Ejecución de la orden pendiente,Todo Aprobado, ,,,TERM420,114,0,18/10/2024,334449
-39735,621 MANUEL LAJARA S.A.,Ejecución de la orden pendiente,Todo Aprobado, ,,,PPA1548TE,360,0,18/10/2024,334609
 39615,9401926 INDUSTRIAS FRIGORIFICAS RECREO SAIC,Ejecución de la orden pendiente,Todo Aprobado, ,,,PPAR1048T,1908,0,21/10/2024,327060
 39706,3089 ARNEG ARGENTINA S.A.,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Liberada,F,3089/029,0,40000,21/10/2024,332371
 39706,3089 ARNEG ARGENTINA S.A.,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Ensamblada,F,3089/086,1000,0,21/10/2024,332371
@@ -123,7 +123,6 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 38510,4733 TECNOSISTEM SRL,Ejecución de la orden pendiente,Todo Aprobado, ,,,MTS548B,540,0,19/11/2024,281742
 38510,4733 TECNOSISTEM SRL,Ejecución de la orden pendiente,Todo Aprobado, ,,,MTS536B,480,0,19/11/2024,281742
 38510,4733 TECNOSISTEM SRL,Ejecución de la orden pendiente,Todo Aprobado, ,,,PPAR1048T,180,0,19/11/2024,281742
-39694,1176 GITANES SRL,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Liberada,T,1176/002,0,720,19/11/2024,330986
 39693,3560 MEC PARTS SRL,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Liberada,T,3560/001,0,360,19/11/2024,331107
 39565,272 TALLERES METALURGICOS BAMBI S.A.,Ejecución de la orden pendiente,Todo Aprobado, ,,,PPAR1072T,5184,0,20/11/2024,322934
 39565,272 TALLERES METALURGICOS BAMBI S.A.,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Liberada,F,0272/005,0,1200,20/11/2024,322934
