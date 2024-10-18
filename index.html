@@ -557,12 +557,14 @@
             const cantidadColumnIndex = headers.indexOf('Cantidad'); // Index for "Cantidad"
             const faltanteColumnIndex = headers.indexOf('Faltante'); // Index for "Faltante"
             const transporteColumnIndex = headers.indexOf('Transportista'); // Index for "Transportista"
+            const pedidoColumnIndex = headers.indexOf('Pedido'); // Index for "Pedido"
         
             logDebug('Transporte column index:', transporteColumnIndex);
             
             const pickingRows = [['GOA', 'Fecha', 'Cliente', 'Art.', 'Cantidad', 'Faltante', 'ID']];
             const produccionRows = [['GOA', 'Fecha', 'Cliente', 'Art.', 'Faltante', 'ID']];
             const pedidosEnEsperaRows = [['GOA', 'Fecha', 'Cliente', 'Art.', 'Cantidad', 'Faltante', 'ID']];
+            const comprasRows = [['GOA', 'Fecha', 'Cliente', 'Art.', 'Faltante', 'ID']];
             const facturacionRows = [['GOA', 'Cliente', 'Numero de Remito', 'Fecha', 'ID', 'Transportista']]; // Added "Transportista"
         
             // Process each row, splitting them into different tables
@@ -573,8 +575,12 @@
                 const cantidad = row[cantidadColumnIndex]?.trim();
                 const faltante = row[faltanteColumnIndex]?.trim();
                 const transporte = row[transporteColumnIndex]?.trim(); // Extract "Transportista"
+                const pedido = row[pedidoColumnIndex]?.trim(); // Extract "Pedido"
         
-                if (ordenEspecial && ordenEspecial.startsWith('Ejecución')) {
+                if (pedido === 'T') {
+                    // Add rows where "Pedido" is "T" to the "Compras" table
+                    comprasRows.push([row[headers.indexOf('Número de documento')], fecha, row[headers.indexOf('Nombre')], row[headers.indexOf('Artículo')], faltante, row[idColumnIndex]]);
+                } else if (ordenEspecial && ordenEspecial.startsWith('Ejecución')) {
                     const remito = ordenEspecial.slice(-5);
                     facturacionRows.push([row[headers.indexOf('Número de documento')], row[headers.indexOf('Nombre')], remito, fecha, row[idColumnIndex], transporte]); // Add "Transportista"
                 } else if (!ordenEspecial) {
@@ -598,7 +604,7 @@
                 }
             });
         
-            // Sort Picking, Producción, and Pedidos en Espera tables by Fecha (empty dates at the bottom)
+            // Sort Picking, Producción, Pedidos en Espera, and Compras tables by Fecha (empty dates at the bottom)
             pickingRows.slice(1).sort((a, b) => {
                 const dateA = a[1] ? new Date(cleanUpDate(a[1])) : new Date(0); // Empty dates go to the bottom
                 const dateB = b[1] ? new Date(cleanUpDate(b[1])) : new Date(0);
@@ -617,28 +623,22 @@
                 return dateA - dateB;
             });
         
+            comprasRows.slice(1).sort((a, b) => {
+                const dateA = a[1] ? new Date(cleanUpDate(a[1])) : new Date(0);
+                const dateB = b[1] ? new Date(cleanUpDate(b[1])) : new Date(0);
+                return dateA - dateB;
+            });
+        
+            // Create tables for each section
             createProduccionTableWithLinks(produccionRows);
+            createComprasTableWithLinks(comprasRows); // Create the "Compras" table
         
             // Move rows to 'Esperando Stock' based on Cantidad and generate the table
             const { remainingPickingRows, remainingPedidosEnEsperaRows } = moveRowsToEsperandoStock(pickingRows, pedidosEnEsperaRows);
-            const filteredPickingRows = filterRows(pickingRows);
-            const filteredPedidosEnEsperaRows = filterRows(pedidosEnEsperaRows);
-            const combinedRows = filteredPickingRows.concat(filteredPedidosEnEsperaRows);
-            const sortedCombinedRows = [combinedRows[0]].concat(combinedRows.slice(1).sort((a, b) => {
-                const dateA = cleanUpDate(a[fechaColumnIndex]);
-                const dateB = cleanUpDate(b[fechaColumnIndex]);
-                if (!dateA && !dateB) return 0; // Both are empty
-                if (!dateA) return 1; // `a` is empty, push it to the end
-                if (!dateB) return -1; // `b` is empty, push it to the end
-                return new Date(dateA) - new Date(dateB);
-            }));
         
             // Create the remaining tables using the filtered rows
             createPickingTableWithLinks(remainingPickingRows);
             createPedidosEnEsperaTableWithLinks(remainingPedidosEnEsperaRows);
-        
-            // Create Esperando Stock Table
-            // createEsperandoStockTable(sortedCombinedRows);
         
             // Fetch data for Remisiones Recientes and Despachado
             fetchCsvData(sheetUrl).then(csvData => {
@@ -649,7 +649,7 @@
                 createDespachadoTable(facturacionRows, matched);
             }).catch(error => logDebug('Error fetching Google Sheet CSV:', error));
         }
-
+        
         // Function to move rows with 'Cantidad' blank or zero to the 'Esperando Stock' table
         function moveRowsToEsperandoStock(pickingRows, pedidosEnEsperaRows, hideIdColumn = true) {
             const headers = ['GOA', 'Fecha', 'Cliente', 'Art', 'Cantidad', 'Faltante', 'ID']; // Ensure 'Cantidad' and 'ID' are included
@@ -742,6 +742,12 @@
                 remainingPickingRows: filteredPicking.remainingRows,  // Rows not moved to Esperando Stock
                 remainingPedidosEnEsperaRows: filteredPedidos.remainingRows,  // Rows not moved to Esperando Stock
             };
+        }
+
+        function createComprasTableWithLinks(rows) {
+            const fechaColumnIndex = rows[0].indexOf('Fecha');
+            const sortedRows = sortRowsByDate(rows, fechaColumnIndex);  
+            createTableWithLinks([rows[0]].concat(sortedRows), 'Compras', 2, true);  
         }
         // Function to hide the ID column when rendering tables
        function createTableWithLinks(rows, title, column, hideIdColumn = true) {
