@@ -87,12 +87,12 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 39738,655 SWIFT SA ARGENTINA,Facturada,Todo Aprobado,Ejecución de pedido de artículo 21329,Enviado,,PPAR1048M,0,0,17/10/2024,BARRY LATIMER,334858
 39738,655 SWIFT SA ARGENTINA,Facturada,Todo Aprobado,Ejecución de pedido de artículo 21329,Enviado,,FLJSPET12016V,0,0,17/10/2024,BARRY LATIMER,334858
 39738,655 SWIFT SA ARGENTINA,Facturada,Todo Aprobado,Ejecución de pedido de artículo 21329,Enviado,,FLJSTD15016,0,0,17/10/2024,BARRY LATIMER,334858
-39601,9401339 QUICKFOOD S.A.,Facturación pendiente,Todo Aprobado,Ejecución de pedido de artículo 21341,Enviado,,PPAR15048T,0,0,18/10/2024,EXPRESO SANTA ROSA,325892
-39611,9400761 TECNOLOGIA GRAFICA SRL,Facturación pendiente/parcialmente ejecutada,Todo Aprobado,Ejecución de pedido de artículo 21343,Enviado,,MTS518B,0,0,18/10/2024,EXPRESO LUJAN DEL CUYO SA,326788
-39741,1906 SOFTBOND SA,Facturación pendiente,Todo Aprobado,Ejecución de pedido de artículo 21344,Enviado,,H11/48,0,0,18/10/2024,EXPRESO CARGO SA,334899
-39741,1906 SOFTBOND SA,Facturación pendiente,Todo Aprobado,Ejecución de pedido de artículo 21344,Enviado,,PPAR1048T,0,0,18/10/2024,EXPRESO CARGO SA,334899
+39601,9401339 QUICKFOOD S.A.,Facturada,Todo Aprobado,Ejecución de pedido de artículo 21341,Enviado,,PPAR15048T,0,0,18/10/2024,EXPRESO SANTA ROSA,325892
+39611,9400761 TECNOLOGIA GRAFICA SRL,Parcialmente ejecutada,Todo Aprobado,Ejecución de pedido de artículo 21343,Enviado,,MTS518B,0,0,18/10/2024,EXPRESO LUJAN DEL CUYO SA,326788
+39741,1906 SOFTBOND SA,Facturada,Todo Aprobado,Ejecución de pedido de artículo 21344,Enviado,,H11/48,0,0,18/10/2024,EXPRESO CARGO SA,334899
+39741,1906 SOFTBOND SA,Facturada,Todo Aprobado,Ejecución de pedido de artículo 21344,Enviado,,PPAR1048T,0,0,18/10/2024,EXPRESO CARGO SA,334899
 39742,1177 POLYGOM SRL,Facturación pendiente,Todo Aprobado,Ejecución de pedido de artículo 21342,Enviado,,PPAR1048T,0,0,18/10/2024,EXPRESO LUJAN DEL CUYO SA,334900
-39746,1386 FRIGORIFICO PALADINI SA,Facturación pendiente,Todo Aprobado,Ejecución de pedido de artículo 21346,Enviado,,PPAR1048T,0,0,18/10/2024,RICARDO PIERONI,335214
+39746,1386 FRIGORIFICO PALADINI SA,Facturada,Todo Aprobado,Ejecución de pedido de artículo 21346,Enviado,,PPAR1048T,0,0,18/10/2024,RICARDO PIERONI,335214
 39747,9400326 KISKALI SA,Ejecución de la orden pendiente,Todo Aprobado, ,,,PPAR15048T,0,1,18/10/2024,EXPRESO CARGO SA,335243
 39759,9400003 LUCIANO TABARES,Facturación pendiente,Todo Aprobado,Ejecución de pedido de artículo 21345,Enviado,,PPAR1048T,0,0,18/10/2024,RETIRAN,335668
 39759,9400003 LUCIANO TABARES,Facturación pendiente,Todo Aprobado,Ejecución de pedido de artículo 21345,Enviado,,PPAR10048T,0,0,18/10/2024,RETIRAN,335668
@@ -156,6 +156,6 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 39561,4628 KELES MARIO LEONARDO,Parcialmente ejecutada,Todo Aprobado,Orden de trabajo ,Ensamblada,F,3901/001,0,0,,RICARDO PIERONI,322676
 39561,4628 KELES MARIO LEONARDO,Parcialmente ejecutada,Todo Aprobado,Pedido ,Recepción pendiente,,HWF125,0,100,,RICARDO PIERONI,322676
 39608,9401290 GLAMOURAMA SRL,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Liberada,T,9401290/002,0,240,,EXPRESO BRIO SRL,326514
-39611,9400761 TECNOLOGIA GRAFICA SRL,Facturación pendiente/parcialmente ejecutada,Todo Aprobado,Orden de trabajo ,Liberada,T,9400761/001,0,360,,EXPRESO LUJAN DEL CUYO SA,326788
+39611,9400761 TECNOLOGIA GRAFICA SRL,Parcialmente ejecutada,Todo Aprobado,Orden de trabajo ,Liberada,T,9400761/001,0,360,,EXPRESO LUJAN DEL CUYO SA,326788
 39689,6467 INDUSTRIAS JUAN F SECCO S.A.,Ejecución de la orden pendiente,Todo Aprobado, ,,,6467/006,0,172,,RICARDO PIERONI,330862
 39689,6467 INDUSTRIAS JUAN F SECCO S.A.,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Liberada,F,MF550T,0,36,,RICARDO PIERONI,330862
