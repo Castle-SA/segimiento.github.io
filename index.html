@@ -86,7 +86,7 @@
             position: fixed;
             left: 0;
             top: 50%;
-            transform: translateY(-50%);
+            transform: translateY(-60%);
             background-color: #812628;
             color: white;
             border: none;
@@ -357,19 +357,19 @@
         const transportCredentials = [
             {
                 transportista: 'Company A',
-                url: 'http://www.companya.com',
+                //url: 'http://www.companya.com',
                 username: 'userA',
                 password: 'passwordA'
             },
             {
                 transportista: 'Company B',
-                url: 'http://www.companyb.com',
+                //url: 'http://www.companyb.com',
                 username: 'userB',
                 password: 'passwordB'
             },
             {
                 transportista: 'Company C',
-                url: 'http://www.companyc.com',
+                //url: 'http://www.companyc.com',
                 username: 'userC',
                 password: 'passwordC'
             }
@@ -380,11 +380,10 @@
             const sidebarContent = document.getElementById('sidebarContent');
             sidebarContent.innerHTML = '';
 
-            transportCredentials.forEach(credential => {
+            transportCredentials.forEach(credential => { //                        <a href="${credential.url}" target="_blank">${credential.url}</a><br>
                 sidebarContent.innerHTML += `
                     <p>
                         <strong>${credential.transportista}</strong><br>
-                        <a href="${credential.url}" target="_blank">${credential.url}</a><br>
                         Username: ${credential.username}<br>
                         Password: ${credential.password}
                     </p>
