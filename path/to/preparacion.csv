@@ -94,9 +94,9 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 39742,1177 POLYGOM SRL,Facturación pendiente,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 21342,Remitido,,PPAR1048T,0,0,18/10/2024,EXPRESO LUJAN DEL CUYO SA,334900
 39746,1386 FRIGORIFICO PALADINI SA,Ejecución de la orden pendiente,Todo Aprobado, ,,,PPAR1048T,1512,0,18/10/2024,RICARDO PIERONI,335214
 39747,9400326 KISKALI SA,Ejecución de la orden pendiente,Todo Aprobado, ,,,PPAR15048T,0,1,18/10/2024,EXPRESO CARGO SA,335243
-39759,9400003 LUCIANO TABARES,Ejecución de la orden pendiente,Todo Aprobado, ,,,PPAR1048T,6,0,18/10/2024,RETIRAN,335668
-39759,9400003 LUCIANO TABARES,Ejecución de la orden pendiente,Todo Aprobado, ,,,PPAR10048T,2,0,18/10/2024,RETIRAN,335668
-39759,9400003 LUCIANO TABARES,Ejecución de la orden pendiente,Todo Aprobado, ,,,PPHR15048XT,2,0,18/10/2024,RETIRAN,335668
+39759,9400003 LUCIANO TABARES,Facturación pendiente,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 21345,Remitido,,PPAR1048T,0,0,18/10/2024,RETIRAN,335668
+39759,9400003 LUCIANO TABARES,Facturación pendiente,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 21345,Remitido,,PPAR10048T,0,0,18/10/2024,RETIRAN,335668
+39759,9400003 LUCIANO TABARES,Facturación pendiente,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 21345,Remitido,,PPHR15048XT,0,0,18/10/2024,RETIRAN,335668
 39615,9401926 INDUSTRIAS FRIGORIFICAS RECREO SAIC,Ejecución de la orden pendiente,Todo Aprobado, ,,,PPAR1048T,1908,0,21/10/2024,EXPRESO LANCIONI,327060
 39750,4277 DISTRIBUIDORA PETS SRL,Ejecución de la orden pendiente,Todo Aprobado, ,,,PPAR1048T,360,0,21/10/2024,RICARDO PIERONI,335345
 39563,12837 FRIGORIFICO SAN FRANCISCO S.A,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Liberada,T,2837/001,0,1152,23/10/2024,TRANSPORTE CARROSIO Y VAIROLATTI,322805
@@ -147,7 +147,7 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 37685,3096 FRECICAR SRL,Ejecución de la orden pendiente,Todo Aprobado, ,,,52330-00040-00,0,7,03/04/2025,RICARDO PIERONI,253466
 37677,3096 FRECICAR SRL,Ejecución de la orden pendiente,Todo Aprobado, ,,,52330-00040-00,7,0,04/04/2025,RICARDO PIERONI,253457
 37686,3096 FRECICAR SRL,Ejecución de la orden pendiente,Todo Aprobado, ,,,52330-00040-00,0,7,05/05/2025,RICARDO PIERONI,253467
-39538,279 HONDA MOTOR DE ARGENTINA S.A.,Ejecución de la orden pendiente,Todo Aprobado,Pedido ,Aprobación del supervisor pendiente,,04169-00056-93,0,20, ,EXPRESO CARGO SA,320406
+39538,279 HONDA MOTOR DE ARGENTINA S.A.,Ejecución de la orden pendiente,Todo Aprobado,Pedido ,Recepción pendiente,,04169-00056-93,0,20, ,EXPRESO CARGO SA,320406
 37670,272 TALLERES METALURGICOS BAMBI S.A.,Ejecución de la orden pendiente,Todo Aprobado, ,,,0272/004,0,640,,RICARDO PIERONI,253174
 37670,272 TALLERES METALURGICOS BAMBI S.A.,Ejecución de la orden pendiente,Todo Aprobado, ,,,0272/003,0,100,,RICARDO PIERONI,253174
 37676,3096 FRECICAR SRL,Ejecución de la orden pendiente,Todo Aprobado, ,,,52330-00040-00,7,0,,RICARDO PIERONI,253456
