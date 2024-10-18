@@ -63,6 +63,57 @@
             top: 0;
             z-index: 1000;
         }
+        /* Sidebar styles */
+        #sidebar {
+            position: fixed;
+            right: -300px; /* Initially hidden */
+            top: 0;
+            height: 100%;
+            width: 300px;
+            background-color: #f8f8f8;
+            box-shadow: -2px 0 5px rgba(0, 0, 0, 0.5);
+            overflow-y: auto;
+            transition: right 0.3s ease; /* Smooth slide animation */
+            padding: 20px;
+            z-index: 1000;
+        }
+
+        #sidebar h3 {
+            text-align: center;
+        }
+
+        #toggleButton {
+            position: fixed;
+            right: 0;
+            top: 50%;
+            transform: translateY(-50%);
+            background-color: #812628;
+            color: white;
+            border: none;
+            border-radius: 5px 0 0 5px;
+            padding: 10px;
+            cursor: pointer;
+            z-index: 1001;
+            transition: right 0.3s ease; /* Smooth slide animation */
+        }
+
+        #toggleButton.open {
+            right: 300px; /* Align with open sidebar */
+        }
+
+        #sidebarContent {
+            font-size: 14px;
+        }
+
+        #sidebarContent p {
+            margin: 10px 0;
+        }
+
+        /* Optional styles for better user experience */
+        #sidebarContent a {
+            color: blue;
+            text-decoration: underline;
+        }
 
         h1, h2 {
             font-family: 'Open Sans', sans-serif;
@@ -128,6 +179,8 @@
         .hidden {
         display: none !important;
         }
+
+        
     </style>
     <link rel="shortcut icon" type="image/x-icon" href="castleicon.ico">
 
@@ -149,6 +202,14 @@
         </div>
 
     </header>
+
+    <div id="sidebar">
+        <h3>Credentials</h3>
+        <div id="sidebarContent"></div>
+    </div>
+
+    <button id="toggleButton">&#9664;</button> <!-- Arrow pointing left -->
+
 
     <div class="container" id="content2">
         <div class="column" id="column-1">
@@ -291,6 +352,65 @@
     
             return `${year}-${month}-${day}`;
         }
+
+        // Manually define the transport credentials
+        const transportCredentials = [
+            {
+                transportista: 'Company A',
+                url: 'http://www.companya.com',
+                username: 'userA',
+                password: 'passwordA'
+            },
+            {
+                transportista: 'Company B',
+                url: 'http://www.companyb.com',
+                username: 'userB',
+                password: 'passwordB'
+            },
+            {
+                transportista: 'Company C',
+                url: 'http://www.companyc.com',
+                username: 'userC',
+                password: 'passwordC'
+            }
+        ];
+
+        // Function to populate the sidebar content
+        function populateSidebar() {
+            const sidebarContent = document.getElementById('sidebarContent');
+            sidebarContent.innerHTML = '';
+
+            transportCredentials.forEach(credential => {
+                sidebarContent.innerHTML += `
+                    <p>
+                        <strong>${credential.transportista}</strong><br>
+                        <a href="${credential.url}" target="_blank">${credential.url}</a><br>
+                        Username: ${credential.username}<br>
+                        Password: ${credential.password}
+                    </p>
+                `;
+            });
+        }
+
+        // Toggle button and sidebar visibility
+        document.addEventListener('DOMContentLoaded', () => {
+            const toggleButton = document.getElementById('toggleButton');
+            const sidebar = document.getElementById('sidebar');
+
+            toggleButton.addEventListener('click', () => {
+                if (sidebar.style.right === '0px') {
+                    sidebar.style.right = '-300px'; // Hide sidebar
+                    toggleButton.innerHTML = '&#9664;'; // Arrow pointing left
+                    toggleButton.classList.remove('open');
+                } else {
+                    sidebar.style.right = '0px'; // Show sidebar
+                    toggleButton.innerHTML = '&#9654;'; // Arrow pointing right
+                    toggleButton.classList.add('open');
+                }
+            });
+
+            populateSidebar(); // Populate the sidebar with the credentials data
+        });
 
                 // Helper function to check if a date is within the next 3 days or in the past
         function isWithinNext3DaysOrPast(dateString) {
