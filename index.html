@@ -63,17 +63,17 @@
             top: 0;
             z-index: 1000;
         }
-        /* Sidebar styles */
+                /* Sidebar styles */
         #sidebar {
             position: fixed;
-            right: -300px; /* Initially hidden */
+            left: -300px; /* Initially hidden */
             top: 0;
             height: 100%;
             width: 300px;
             background-color: #f8f8f8;
-            box-shadow: -2px 0 5px rgba(0, 0, 0, 0.5);
+            box-shadow: 2px 0 5px rgba(0, 0, 0, 0.5);
             overflow-y: auto;
-            transition: right 0.3s ease; /* Smooth slide animation */
+            transition: left 0.3s ease; /* Smooth slide animation */
             padding: 20px;
             z-index: 1000;
         }
@@ -84,21 +84,21 @@
 
         #toggleButton {
             position: fixed;
-            right: 0;
+            left: 0;
             top: 50%;
             transform: translateY(-50%);
             background-color: #812628;
             color: white;
             border: none;
-            border-radius: 5px 0 0 5px;
+            border-radius: 0 5px 5px 0;
             padding: 10px;
             cursor: pointer;
             z-index: 1001;
-            transition: right 0.3s ease; /* Smooth slide animation */
+            transition: left 0.3s ease; /* Smooth slide animation */
         }
 
         #toggleButton.open {
-            right: 300px; /* Align with open sidebar */
+            left: 300px; /* Align with open sidebar */
         }
 
         #sidebarContent {
@@ -208,7 +208,7 @@
         <div id="sidebarContent"></div>
     </div>
 
-    <button id="toggleButton">&#9664;</button> <!-- Arrow pointing left -->
+    <button id="toggleButton">&#9654;</button> <!-- Arrow pointing left -->
 
 
     <div class="container" id="content2">
