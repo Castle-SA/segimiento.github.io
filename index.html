@@ -66,7 +66,7 @@
                 /* Sidebar styles */
         #sidebar {
             position: fixed;
-            left: -320px; /* Initially hidden */
+            left: -340px; /* Initially hidden */
             top: 0;
             height: 100%;
             width: 300px;
@@ -399,7 +399,7 @@
 
             toggleButton.addEventListener('click', () => {
                 if (sidebar.style.left === '0px') {
-                    sidebar.style.left = '-300px'; // Hide sidebar
+                    sidebar.style.left = '-340px'; // Hide sidebar
                     toggleButton.innerHTML = '&#9654;'; // Arrow pointing right
                     toggleButton.classList.remove('open');
                 } else {
