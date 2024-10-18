@@ -419,15 +419,14 @@
             const fechaColumnIndex = headers.indexOf('Fecha'); // Index for "Fecha" column
             const cantidadColumnIndex = headers.indexOf('Cantidad'); // Index for "Cantidad"
             const faltanteColumnIndex = headers.indexOf('Faltante'); // Index for "Faltante"
-            const transporteColumnIndex = headers.indexOf('Transportista'); // Index for "Faltante"
-
-            logDebug('Transporte column index:', transporteColumnIndex);
-            //logDebug('FALTANTE column index:', faltanteColumnIndex);
+            const transporteColumnIndex = headers.indexOf('Transportista'); // Index for "Transportista"
         
+            logDebug('Transporte column index:', transporteColumnIndex);
+            
             const pickingRows = [['GOA', 'Fecha', 'Cliente', 'Art.', 'Cantidad', 'Faltante', 'ID']];
             const produccionRows = [['GOA', 'Fecha', 'Cliente', 'Art.', 'Faltante', 'ID']];
             const pedidosEnEsperaRows = [['GOA', 'Fecha', 'Cliente', 'Art.', 'Cantidad', 'Faltante', 'ID']];
-            const facturacionRows = [['GOA', 'Cliente', 'Numero de Remito', 'Fecha', 'ID']];
+            const facturacionRows = [['GOA', 'Cliente', 'Numero de Remito', 'Fecha', 'ID', 'Transportista']]; // Added "Transportista"
         
             // Process each row, splitting them into different tables
             rows.slice(1).forEach(row => {
@@ -436,16 +435,11 @@
                 const fecha = row[fechaColumnIndex]?.trim();
                 const cantidad = row[cantidadColumnIndex]?.trim();
                 const faltante = row[faltanteColumnIndex]?.trim();
-                const transporte = row[transporteColumnIndex]?.trim();
-
-
-                //logDebug('FALTANTE columnindex12:', faltanteColumnIndex);
-
-                //logDebug('FALTANTE value!!!!:', faltante);
+                const transporte = row[transporteColumnIndex]?.trim(); // Extract "Transportista"
         
                 if (ordenEspecial && ordenEspecial.startsWith('Ejecución')) {
                     const remito = ordenEspecial.slice(-5);
-                    facturacionRows.push([row[headers.indexOf('Número de documento')], row[headers.indexOf('Nombre')], remito, fecha, row[idColumnIndex]]);
+                    facturacionRows.push([row[headers.indexOf('Número de documento')], row[headers.indexOf('Nombre')], remito, fecha, row[idColumnIndex], transporte]); // Add "Transportista"
                 } else if (!ordenEspecial) {
                     // Normal orders, send to Picking or Pedidos en Espera based on the date
                     if (fecha && isWithinNext3DaysOrPast(fecha)) {
@@ -486,12 +480,8 @@
                 return dateA - dateB;
             });
         
-            // logDebug('Sorted Picking Rows:', pickingRows);
-            // logDebug('Sorted Produccion Rows:', produccionRows);
-            // logDebug('Sorted Pedidos en Espera Rows:', pedidosEnEsperaRows);
-            
             createProduccionTableWithLinks(produccionRows);
-
+        
             // Move rows to 'Esperando Stock' based on Cantidad and generate the table
             const { remainingPickingRows, remainingPedidosEnEsperaRows } = moveRowsToEsperandoStock(pickingRows, pedidosEnEsperaRows);
             const filteredPickingRows = filterRows(pickingRows);
@@ -505,18 +495,13 @@
                 if (!dateB) return -1; // `b` is empty, push it to the end
                 return new Date(dateA) - new Date(dateB);
             }));
-
-
-
-
-
+        
             // Create the remaining tables using the filtered rows
-            createPickingTableWithLinks(remainingPickingRows);           
+            createPickingTableWithLinks(remainingPickingRows);
             createPedidosEnEsperaTableWithLinks(remainingPedidosEnEsperaRows);
         
             // Create Esperando Stock Table
-
-            //createEsperandoStockTable(sortedCombinedRows);
+            // createEsperandoStockTable(sortedCombinedRows);
         
             // Fetch data for Remisiones Recientes and Despachado
             fetchCsvData(sheetUrl).then(csvData => {
@@ -852,16 +837,16 @@
             // logDebug('Creating Remisiones Recientes table');
             const section = document.createElement('div');
             section.classList.add('table-section');
-
+        
             const h2 = document.createElement('h2');
             h2.textContent = 'Remisiones Recientes';
             section.appendChild(h2);
-
+        
             const table = document.createElement('table');
             const thead = document.createElement('thead');
             const tbody = document.createElement('tbody');
-
-            const headers = ['GOA', 'Fecha', 'Cliente', 'Numero de Remito'];
+        
+            const headers = ['GOA', 'Fecha', 'Cliente', 'Numero de Remito', 'Transportista']; // Added "Transportista"
             const headerRow = document.createElement('tr');
             headers.forEach(header => {
                 const th = document.createElement('th');
@@ -869,28 +854,31 @@
                 headerRow.appendChild(th);
             });
             thead.appendChild(headerRow);
-
-            // Find the ID and Fecha column indices correctly
+        
+            // Find the ID, Fecha, and Transportista column indices correctly
             const idColumnIndex = findIdColumnIndex(facturacionRows[0]); // Index of ID in the actual rows
             const fechaColumnIndex = facturacionRows[0].indexOf('Fecha'); // Index for "Fecha" column
+            const transporteColumnIndex = facturacionRows[0].indexOf('Transportista'); // Index for "Transportista"
             const clienteColumnIndex = headers.indexOf('Cliente') !== -1 ? headers.indexOf('Cliente') : headers.indexOf('Nombre'); // Index for "Cliente" or "Nombre"
-
+        
             // logDebug('ID column index:', idColumnIndex);
             // logDebug('Fecha column index:', fechaColumnIndex);
-
+            // logDebug('Transportista column index:', transporteColumnIndex);
+        
             // Sort rows by Numero de Remito (column 3)
             const sortedRows = facturacionRows.slice(1).sort((a, b) => a[2] - b[2]);
-
+        
             // Add rows
             sortedRows.forEach(row => {
                 const remitoNumber = row[2]; // "Numero de Remito" column
                 const goaNumber = row[0];    // "GOA" column
                 const fecha = row[fechaColumnIndex]; // "Fecha" column
                 const id = row[idColumnIndex]?.trim(); // ID value
-
+                const transporte = row[transporteColumnIndex]; // "Transportista" column
+        
                 if (unmatchedRows.find(unmatched => unmatched.remito === remitoNumber)) {
                     const tr = document.createElement('tr');
-
+        
                     // Add GOA as a hyperlink
                     const goaCell = document.createElement('td');
                     if (id && goaNumber) {
@@ -900,12 +888,12 @@
                         goaCell.textContent = goaNumber;
                     }
                     tr.appendChild(goaCell);
-
+        
                     // Add Fecha column
                     const fechaCell = document.createElement('td');
                     fechaCell.textContent = fecha || 'N/A';  // Display N/A if no fecha is available
                     tr.appendChild(fechaCell);
-
+        
                     // Add Cliente and Numero de Remito columns
                     row.slice(1, 3).forEach((cell, index) => {
                         const td = document.createElement('td');
@@ -914,22 +902,24 @@
                             // logDebug('Filtered Text DESPACHADO:', filteredText);
                             td.textContent = filteredText || cell; // If no space, use original text
                         } else {
-                            //logDebug('@@@@@@@@@@@@@@@ Index:', index);
-                            //logDebug('@@@@@@@@@@@@@@@ clienteColumnIndex:', clienteColumnIndex);
-                            //logDebug('@@@@@@@@@@@@@@@ cell:', cell);
                             td.textContent = cell;
                         }
                         tr.appendChild(td);
                     });
-
+        
+                    // Add Transportista column
+                    const transporteCell = document.createElement('td');
+                    transporteCell.textContent = transporte || 'N/A';  // Display "N/A" if no transportista is available
+                    tr.appendChild(transporteCell);
+        
                     tbody.appendChild(tr);
                 }
             });
-
+        
             table.appendChild(thead);
             table.appendChild(tbody);
             section.appendChild(table);
-
+        
             document.getElementById('column-4').appendChild(section);
             // logDebug('Appended Remisiones Recientes table to column 4');
         }
