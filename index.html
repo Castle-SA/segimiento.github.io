@@ -707,6 +707,31 @@
             });
         }
 
+        // Function to fetch transport URLs from a CSV file
+        async function fetchTransportUrls() {
+            const urlFilePath = 'path/to/transport_urls.csv'; // Update with the actual path to the CSV file
+            const transportUrls = {};
+        
+            try {
+                const response = await fetch(urlFilePath);
+                const csvText = await response.text();
+                const rows = csvText.split('\n').map(row => row.split(','));
+        
+                // Process each row of the CSV to build the URL dictionary
+                rows.slice(1).forEach(row => {
+                    const transportista = row[0].trim();
+                    const url = row[1].trim();
+                    if (transportista && url) {
+                        transportUrls[transportista] = url;
+                    }
+                });
+            } catch (error) {
+                console.error('Error fetching transport URLs:', error);
+            }
+        
+            return transportUrls;
+        }
+
 
         // ** Function to fetch Google Sheet CSV data ** 
         async function fetchCsvData(url) {
@@ -925,7 +950,10 @@
         }
         //--------------------------------------------------------------------xxxxxxx------------------------------------------------------------------------------------------
         // Function to create and display the Despachado table (matched rows) with GOA hyperlinks and Fecha
-        function createDespachadoTable(facturacionRows, matchedRows) {
+        async function createDespachadoTable(facturacionRows, matchedRows) {
+            // Fetch transport URLs from CSV
+            const transportUrls = await fetchTransportUrls();
+        
             // logDebug('Creating Despachado table');
             const section = document.createElement('div');
             section.classList.add('table-section');
@@ -953,10 +981,6 @@
             const transporteColumnIndex = facturacionRows[0].indexOf('Transportista'); // Index for "Transportista"
             const clienteColumnIndex = headers.indexOf('Cliente') !== -1 ? headers.indexOf('Cliente') : headers.indexOf('Nombre'); // Index for "Cliente" or "Nombre"
         
-            // logDebug('ID column index:', idColumnIndex);
-            // logDebug('Fecha column index:', fechaColumnIndex);
-            // logDebug('Transportista column index:', transporteColumnIndex);
-        
             // Process matched rows for Despachado table
             facturacionRows.slice(1).forEach(row => { // Skip the header row
                 const remitoNumber = row[2]; // "Numero de Remito" column
@@ -973,7 +997,6 @@
                     const goaCell = document.createElement('td');
                     if (id && goaNumber) {
                         goaCell.innerHTML = `<a href="https://4294049.app.netsuite.com/app/accounting/transactions/salesord.nl?id=${id}&whence=" target="_blank">${goaNumber}</a>`;
-                        // logDebug(`Created hyperlink for GOA: ${goaNumber} with ID: ${id}`);
                     } else {
                         goaCell.textContent = goaNumber;
                     }
@@ -996,9 +1019,13 @@
                         tr.appendChild(td);
                     });
         
-                    // Add Transportista column
+                    // Add Transportista column with hyperlink if URL is available
                     const transporteCell = document.createElement('td');
-                    transporteCell.textContent = transporte || 'N/A';  // Display "N/A" if no transportista is available
+                    if (transporte && transportUrls[transporte]) {
+                        transporteCell.innerHTML = `<a href="${transportUrls[transporte]}" target="_blank">${transporte}</a>`;
+                    } else {
+                        transporteCell.textContent = transporte || 'N/A';
+                    }
                     tr.appendChild(transporteCell);
         
                     // Add Remito link
