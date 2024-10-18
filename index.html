@@ -858,7 +858,10 @@
 
         //----------------------------------------------------------------XXXXXXXX-----------------------------------------------------------------------------------------------
         // Function to create and display the Remisiones Recientes table (unmatched rows) with GOA hyperlinks and Fecha
-        function createFacturacionTable(facturacionRows, unmatchedRows) {
+        async function createFacturacionTable(facturacionRows, unmatchedRows) {
+            // Fetch transport URLs from CSV
+            const transportUrls = await fetchTransportUrls();
+        
             // logDebug('Creating Remisiones Recientes table');
             const section = document.createElement('div');
             section.classList.add('table-section');
@@ -924,7 +927,6 @@
                         const td = document.createElement('td');
                         if (index === 0 && cell) { // Index 0 of the sliced array corresponds to 'Cliente'
                             const filteredText = cell.split(' ').slice(1).join(' '); // Remove text before the first space
-                            // logDebug('Filtered Text DESPACHADO:', filteredText);
                             td.textContent = filteredText || cell; // If no space, use original text
                         } else {
                             td.textContent = cell;
@@ -932,9 +934,13 @@
                         tr.appendChild(td);
                     });
         
-                    // Add Transportista column
+                    // Add Transportista column with hyperlink if URL is available
                     const transporteCell = document.createElement('td');
-                    transporteCell.textContent = transporte || 'N/A';  // Display "N/A" if no transportista is available
+                    if (transporte && transportUrls[transporte]) {
+                        transporteCell.innerHTML = `<a href="${transportUrls[transporte]}" target="_blank">${transporte}</a>`;
+                    } else {
+                        transporteCell.textContent = transporte || 'N/A';
+                    }
                     tr.appendChild(transporteCell);
         
                     tbody.appendChild(tr);
