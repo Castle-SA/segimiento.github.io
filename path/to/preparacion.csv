@@ -1,4 +1,5 @@
 Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. Especial,Pedido,Artículo,Cantidad,Faltante,Fecha,Transportista,ID
+39466,64 ALL PUMPS ARGENTINA SA,Ejecución de la orden pendiente,Todo Aprobado,Pedido ,Recepción pendiente,T,0064/0013,0,350,18/09/2024,TRANSPORTE TOMASSINI,315285
 39580,9400017 SPECIALIZED BICYCLE COMPONENTS ARGENTINA S.R.L.,Facturada,Todo Aprobado,Ejecución de pedido de artículo 21272,Enviado,F,MTS512B,0,0,09/10/2024,EXPRESO CARGO SA,324478
 39580,9400017 SPECIALIZED BICYCLE COMPONENTS ARGENTINA S.R.L.,Facturada,Todo Aprobado,Ejecución de pedido de artículo 21272,Enviado,F,PPA1048T040,0,0,09/10/2024,EXPRESO CARGO SA,324478
 39596,4095 REFINERIA DEL CENTRO SA,Facturada,Todo Aprobado,Ejecución de pedido de artículo 21271,Enviado,F,PPAR1072T,0,0,09/10/2024,EXPRESO SANTA ROSA,325133
@@ -10,7 +11,6 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 39658,132 MAHLE VALVULAS DE ARGENTINA SA,Facturada,Todo Aprobado,Ejecución de pedido de artículo 21275,Enviado,F,3351/001,0,0,10/10/2024,EXPRESO SANTA ROSA,329287
 39688,67 FORD ARGENTINA S.C.A.,Facturación pendiente,Todo Aprobado,Ejecución de pedido de artículo 21277,Enviado,F,BV002,0,0,10/10/2024,EXPRESO CARGO SA,330612
 39692,15 INDUSTRIAS JOHN DEERE ARGENTINA S.A.,Facturada,Todo Aprobado,Ejecución de pedido de artículo 21278,Enviado,F,0015/008,0,0,10/10/2024,FELICI JORGE ARIEL,331097
-39466,64 ALL PUMPS ARGENTINA SA,Ejecución de la orden pendiente,Todo Aprobado,Pedido ,Recepción pendiente,T,0064/0013,0,350,11/10/2024,TRANSPORTE TOMASSINI,315285
 39390,5019 GRANJA TRES ARROYOS SACAFEI,Facturada,Todo Aprobado,Ejecución de pedido de artículo 21280,Enviado,F,PPHR1216B,0,0,14/10/2024,EXPRESO CARGO SA,309956
 39665,3089 ARNEG ARGENTINA S.A.,Facturada,Todo Aprobado,Ejecución de pedido de artículo 21281,Enviado,F,3089/067,0,0,14/10/2024,FELICI JORGE ARIEL,329611
 39702,3089 ARNEG ARGENTINA S.A.,Facturada,Todo Aprobado,Ejecución de pedido de artículo 21282,Enviado,F,3089/019,0,0,14/10/2024,FELICI JORGE ARIEL,331936
@@ -96,16 +96,15 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 39759,9400003 LUCIANO TABARES,Facturada,Todo Aprobado,Ejecución de pedido de artículo 21345,Enviado,F,PPAR1048T,0,0,18/10/2024,RETIRAN,335668
 39759,9400003 LUCIANO TABARES,Facturada,Todo Aprobado,Ejecución de pedido de artículo 21345,Enviado,F,PPAR10048T,0,0,18/10/2024,RETIRAN,335668
 39759,9400003 LUCIANO TABARES,Facturada,Todo Aprobado,Ejecución de pedido de artículo 21345,Enviado,F,PPHR15048XT,0,0,18/10/2024,RETIRAN,335668
-39760,9400223 MERCOTEX SA,Facturación pendiente,Todo Aprobado,Ejecución de pedido de artículo 21347,Enviado,F,PPAR1048T,0,0,18/10/2024,RETIRAN,335695
+39760,9400223 MERCOTEX SA,Facturada,Todo Aprobado,Ejecución de pedido de artículo 21347,Enviado,F,PPAR1048T,0,0,18/10/2024,RETIRAN,335695
+39773,131 FARMQUIP SRL,Ejecución de la orden pendiente,Todo Aprobado, ,,F,PB/001,0,30,18/10/2024,RETIRAN,336396
 39615,9401926 INDUSTRIAS FRIGORIFICAS RECREO SAIC,Ejecución de la orden pendiente,Todo Aprobado, ,,F,PPAR1048T,1908,0,21/10/2024,EXPRESO LANCIONI,327060
 39750,4277 DISTRIBUIDORA PETS SRL,Ejecución de la orden pendiente,Todo Aprobado, ,,F,PPAR1048T,360,0,21/10/2024,RICARDO PIERONI,335345
-39563,12837 FRIGORIFICO SAN FRANCISCO S.A,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Liberada,T,2837/001,0,1152,23/10/2024,TRANSPORTE CARROSIO Y VAIROLATTI,322805
 39526,1029 DREAN SA,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Ensamblada,F,0272/005,240,0,24/10/2024,EXPRESO CARGO SA,319118
 39745,12816 CSI ELECTRONICA SRL,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Ensamblada,F,0727/004,100,0,24/10/2024,RICARDO PIERONI,335165
 39684,4095 REFINERIA DEL CENTRO SA,Ejecución de la orden pendiente,Todo Aprobado, ,,F,H11/72,30,0,28/10/2024,EXPRESO SANTA ROSA,330078
 39626,9401339 QUICKFOOD S.A.,Ejecución de la orden pendiente,Todo Aprobado, ,,F,PPAR15048T,172,206,30/10/2024,EXPRESO SANTA ROSA,327823
 39589,9401339 QUICKFOOD S.A.,Ejecución de la orden pendiente,Todo Aprobado, ,,F,PPAR1048T,540,0,31/10/2024,BERGAMASCHI OSVALDO RAMON,324878
-39666,1736 COMPANY SPY SRL,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Liberada,T,1736/001,0,360,31/10/2024,RICARDO PIERONI,329657
 39668,94010 VISUAR SA,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Ensamblada,F,1823/002,193,0,31/10/2024,EXPRESO CARGO SA,329775
 39718,9400536 MILKAUT SA,Ejecución de la orden pendiente,Todo Aprobado, ,,F,PPHR15048XT,198,0,31/10/2024,RICARDO PIERONI,332839
 39737,9400338 ESTABLECIMIENTO MODELO LAS COLONIAS S A,Ejecución de la orden pendiente,Todo Aprobado, ,,F,PPAR15048T,60,0,31/10/2024,TRANSPORTE SNAIDER,334748
@@ -127,7 +126,6 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 38510,4733 TECNOSISTEM SRL,Ejecución de la orden pendiente,Todo Aprobado, ,,F,MTS548B,540,0,19/11/2024,EXPRESO CARGO SA,281742
 38510,4733 TECNOSISTEM SRL,Ejecución de la orden pendiente,Todo Aprobado, ,,F,MTS536B,480,0,19/11/2024,EXPRESO CARGO SA,281742
 38510,4733 TECNOSISTEM SRL,Ejecución de la orden pendiente,Todo Aprobado, ,,F,PPAR1048T,180,0,19/11/2024,EXPRESO CARGO SA,281742
-39693,3560 MEC PARTS SRL,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Liberada,T,3560/001,0,360,19/11/2024,EXPRESO BRIO SRL,331107
 39565,272 TALLERES METALURGICOS BAMBI S.A.,Ejecución de la orden pendiente,Todo Aprobado, ,,F,PPAR1072T,5184,0,20/11/2024,BARRY LATIMER,322934
 39565,272 TALLERES METALURGICOS BAMBI S.A.,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Liberada,F,0272/005,0,1200,20/11/2024,BARRY LATIMER,322934
 39565,272 TALLERES METALURGICOS BAMBI S.A.,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Liberada,F,0272/006,0,240,20/11/2024,BARRY LATIMER,322934
@@ -154,7 +152,10 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 38013,50 DADA S.A.,Ejecución de la orden pendiente,Todo Aprobado, ,,F,VCI410,1500,0,,EXPRESO CARGO SA,264847
 39561,4628 KELES MARIO LEONARDO,Parcialmente ejecutada,Todo Aprobado,Orden de trabajo ,Ensamblada,F,3901/001,0,0,,RICARDO PIERONI,322676
 39561,4628 KELES MARIO LEONARDO,Parcialmente ejecutada,Todo Aprobado,Pedido ,Recepción pendiente,T,HWF125,0,100,,RICARDO PIERONI,322676
+39563,12837 FRIGORIFICO SAN FRANCISCO S.A,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Liberada,T,2837/001,0,1152,,TRANSPORTE CARROSIO Y VAIROLATTI,322805
 39608,9401290 GLAMOURAMA SRL,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Liberada,T,9401290/002,0,240,,EXPRESO BRIO SRL,326514
 39611,9400761 TECNOLOGIA GRAFICA SRL,Parcialmente ejecutada,Todo Aprobado,Orden de trabajo ,Liberada,T,9400761/001,0,360,,EXPRESO LUJAN DEL CUYO SA,326788
+39666,1736 COMPANY SPY SRL,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Liberada,T,1736/001,0,360,,RICARDO PIERONI,329657
 39689,6467 INDUSTRIAS JUAN F SECCO S.A.,Ejecución de la orden pendiente,Todo Aprobado, ,,F,6467/006,0,172,,RICARDO PIERONI,330862
 39689,6467 INDUSTRIAS JUAN F SECCO S.A.,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Liberada,F,MF550T,0,36,,RICARDO PIERONI,330862
+39693,3560 MEC PARTS SRL,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Liberada,T,3560/001,0,360,,EXPRESO BRIO SRL,331107
