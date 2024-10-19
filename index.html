@@ -183,6 +183,22 @@
         display: none !important;
         }
 
+        .gp-brown {
+            color: brown !important;
+        }
+        
+        .gp-yellow {
+            color: yellow !important;
+        }
+        
+        .gp-green {
+            color: green !important;
+        }
+        
+        .gp-purple {
+            color: purple !important;
+        }
+
         
     </style>
     <link rel="shortcut icon" type="image/x-icon" href="castleicon.ico">
@@ -344,17 +360,13 @@
                             const gpValue = parseFloat(row[gpColumnIndex]?.replace(/[^\d.]/g, '').trim());
                             if (!isNaN(gpValue)) {
                                 if (gpValue < 20) {
-                                    td.style.color = 'brown';
-                                    td.style.fontWeight = 'bold'; // Optional: Make text bold for visibility
+                                    td.classList.add('gp-brown');
                                 } else if (gpValue >= 20 && gpValue < 30) {
-                                    td.style.color = 'yellow';
-                                    td.style.fontWeight = 'bold';
+                                    td.classList.add('gp-yellow');
                                 } else if (gpValue >= 30 && gpValue < 45) {
-                                    td.style.color = 'green';
-                                    td.style.fontWeight = 'bold';
+                                    td.classList.add('gp-green');
                                 } else if (gpValue >= 45) {
-                                    td.style.color = 'purple';
-                                    td.style.fontWeight = 'bold';
+                                    td.classList.add('gp-purple');
                                 }
                             }
                         }
@@ -365,13 +377,13 @@
                         // If title is "Control GP", apply color logic
                         if (title === 'Control GP' && !isNaN(gpValue)) {
                             if (gpValue < 20) {
-                                td.style.color = 'brown !important';
+                                td.classList.add('gp-brown');
                             } else if (gpValue >= 20 && gpValue < 30) {
-                                td.style.color = 'yellow !important';
+                                td.classList.add('gp-yellow');
                             } else if (gpValue >= 30 && gpValue < 45) {
-                                td.style.color = 'green !important';
+                                td.classList.add('gp-green');
                             } else if (gpValue >= 45) {
-                                td.style.color = 'purple !important';
+                                td.classList.add('gp-purple');
                             }
                         }
         
