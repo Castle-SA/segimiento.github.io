@@ -255,7 +255,6 @@
             return rows;
         }
 
-
         // Function to fetch and display CSV for the first column tables with the GP column
         function fetchAndDisplayCSVForColumn1(file, title, column) {
             fetch(file)
@@ -268,6 +267,7 @@
                 })
                 .catch(error => console.error(`Error fetching ${title} for Column 1:`, error));
         }
+
         // Function to add the "GP" column
         function addGPColumn(rows) {
             const headers = rows[0];
@@ -276,6 +276,7 @@
             }
             return rows;
         }
+    
         function removeHighlights() {
             // Remove all elements with the 'highlight' class
             const highlightedElements = document.querySelectorAll('.highlight');
@@ -337,6 +338,22 @@
                     } else if (index === clienteColumnIndex && cell) {
                         const filteredText = cell.split(' ').slice(1).join(' ');
                         td.textContent = filteredText || cell;
+        
+                        // Apply color logic for Cliente in columns 2 and 3
+                        if (column === 2 || column === 3) {
+                            const gpValue = parseFloat(row[gpColumnIndex]?.replace(/[^\d.]/g, '').trim());
+                            if (!isNaN(gpValue)) {
+                                if (gpValue < 20) {
+                                    td.style.color = 'brown';
+                                } else if (gpValue >= 20 && gpValue < 30) {
+                                    td.style.color = 'yellow';
+                                } else if (gpValue >= 30 && gpValue < 45) {
+                                    td.style.color = 'green';
+                                } else if (gpValue >= 45) {
+                                    td.style.color = 'purple';
+                                }
+                            }
+                        }
                     } else if (index === gpColumnIndex) {
                         td.textContent = cell;
                         const gpValue = parseFloat(cell.replace(/[^\d.]/g, '').trim()); // Remove non-numeric characters except '.'
