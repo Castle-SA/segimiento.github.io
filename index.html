@@ -884,7 +884,6 @@
             }
         }
 
-                // Function to create tables with links and GP color-coded column
         function createTableWithLinksAndGP(rows, title, column, hideIdColumn = true) {
             const section = document.createElement('div');
             section.classList.add('table-section');
@@ -897,12 +896,14 @@
             const thead = document.createElement('thead');
             const tbody = document.createElement('tbody');
         
+            // Determine the index of the relevant columns
             const headers = rows[0];
             const idColumnIndex = findIdColumnIndex(headers);
             const goaColumnIndex = headers.indexOf('GOA') !== -1 ? headers.indexOf('GOA') : headers.indexOf('Número de documento');
             const clienteColumnIndex = headers.indexOf('Cliente') !== -1 ? headers.indexOf('Cliente') : headers.indexOf('Nombre');
-            const gpColumnIndex = headers.indexOf('GP');
+            const gpColumnIndex = headers.indexOf('GP'); // Dynamically find the GP column index
         
+            // Create the header row
             const headerRow = document.createElement('tr');
             headers.forEach((header, index) => {
                 const th = document.createElement('th');
@@ -916,15 +917,18 @@
             });
             thead.appendChild(headerRow);
         
-            rows.slice(1).forEach((row, rowIndex) => {
+            // Create table rows with logic for color-coding the GP column
+            rows.slice(1).forEach(row => {
                 const tr = document.createElement('tr');
                 row.forEach((cell, index) => {
                     const td = document.createElement('td');
         
+                    // Hide the ID column cells by applying the "hidden" class
                     if (index === idColumnIndex && hideIdColumn) {
                         td.classList.add('hidden');
                     }
         
+                    // If this is the "GOA" column, make it a clickable hyperlink using the original row's ID
                     if (index === goaColumnIndex) {
                         const id = row[idColumnIndex]?.trim();
                         if (id && cell) {
@@ -933,46 +937,41 @@
                             td.textContent = cell;
                         }
                     } else if (index === clienteColumnIndex && cell) {
+                        // Filter the "Cliente" or "Nombre" column to remove text before the first space
                         const filteredText = cell.split(' ').slice(1).join(' ');
                         td.textContent = filteredText || cell;
         
                         // Apply color logic for Cliente in columns 2 and 3
                         if (column === 2 || column === 3) {
                             const gpValue = parseFloat(row[gpColumnIndex]?.replace(/[^\d.]/g, '').trim());
-                                logDebug('GP VALUE:', gpValue);
-
                             if (!isNaN(gpValue)) {
                                 if (gpValue < 20) {
-                                    td.style.backgroundColor = 'brown';
+                                    td.style.backgroundColor = "brown";
                                 } else if (gpValue >= 20 && gpValue < 30) {
-                                    td.style.backgroundColor = '#FFD700'; // Yellow
+                                    td.style.backgroundColor = "#FFD700"; // Yellow
                                 } else if (gpValue >= 30 && gpValue < 45) {
-                                    td.style.backgroundColor = 'green';
+                                    td.style.backgroundColor = "green";
                                 } else if (gpValue >= 45) {
-                                    td.style.backgroundColor = 'purple';
+                                    td.style.backgroundColor = "purple";
                                 }
                             }
                         }
                     } else if (index === gpColumnIndex) {
                         td.textContent = cell;
-                        const gpValue = parseFloat(cell.replace(/[^\d.]/g, '').trim()); // Remove non-numeric characters except '.'
         
-                        console.log(`Processing GP Value: ${gpValue}`); // Debugging line
+                        // Apply color-coding based on the GP value
+                        const gpValue = parseFloat(cell.replace(/[^\d.]/g, '').trim()); // Remove non-numeric characters except '.'
         
                         // If title is "Control GP", apply color logic
                         if (title === 'Control GP' && !isNaN(gpValue)) {
                             if (gpValue < 20) {
-                                td.style.backgroundColor = 'brown';
-                                console.log(`GP Value ${gpValue} is below 20%, set background color to brown`);
+                                td.style.backgroundColor = "brown";
                             } else if (gpValue >= 20 && gpValue < 30) {
-                                td.style.backgroundColor = '#FFD700'; // Yellow
-                                console.log(`GP Value ${gpValue} is between 20% and 30%, set background color to yellow`);
+                                td.style.backgroundColor = "#FFD700"; // Yellow
                             } else if (gpValue >= 30 && gpValue < 45) {
-                                td.style.backgroundColor = 'green';
-                                console.log(`GP Value ${gpValue} is between 30% and 45%, set background color to green`);
+                                td.style.backgroundColor = "green";
                             } else if (gpValue >= 45) {
-                                td.style.backgroundColor = 'purple';
-                                console.log(`GP Value ${gpValue} is above 45%, set background color to purple`);
+                                td.style.backgroundColor = "purple";
                             }
                         }
         
@@ -999,7 +998,6 @@
                 hideIdColumnElements(table, idColumnIndex);
             }
         }
-
        
         
         // Function to trigger filtering for both Picking and Pedidos en Espara
