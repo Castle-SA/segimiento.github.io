@@ -245,7 +245,6 @@
             }
         });
 
-        // Function to rename "Número de documento" to "GOA" and "Nombre" to "Cliente"
         function renameColumns(rows) {
             const headers = rows[0].map(header => {
                 if (header === 'Número de documento') return 'GOA';
@@ -255,6 +254,7 @@
             rows[0] = headers;
             return rows;
         }
+
 
         // Function to fetch and display CSV for the first column tables with the GP column
         function fetchAndDisplayCSVForColumn1(file, title, column) {
@@ -268,7 +268,6 @@
                 })
                 .catch(error => console.error(`Error fetching ${title} for Column 1:`, error));
         }
-        
         // Function to add the "GP" column
         function addGPColumn(rows) {
             const headers = rows[0];
@@ -340,9 +339,10 @@
                         td.textContent = filteredText || cell;
                     } else if (index === gpColumnIndex) {
                         td.textContent = cell;
-                        // Remove the % symbol, trim whitespace, and parse the value
-                        const gpValue = parseFloat(cell.replace(/[^\d.]/g, '').trim());
-                        if (!isNaN(gpValue)) {
+                        const gpValue = parseFloat(cell.replace(/[^\d.]/g, '').trim()); // Remove non-numeric characters except '.'
+        
+                        // If title is "Control GP", apply color logic
+                        if (title === 'Control GP' && !isNaN(gpValue)) {
                             if (gpValue < 20) {
                                 td.style.color = 'brown';
                             } else if (gpValue >= 20 && gpValue < 30) {
@@ -352,6 +352,11 @@
                             } else if (gpValue >= 45) {
                                 td.style.color = 'purple';
                             }
+                        }
+        
+                        // For other tables, display GP in a smaller font
+                        if (title !== 'Control GP') {
+                            td.style.fontSize = '0.7em';
                         }
                     } else {
                         td.textContent = cell;
