@@ -939,6 +939,8 @@
                         // Apply color logic for Cliente in columns 2 and 3
                         if (column === 2 || column === 3) {
                             const gpValue = parseFloat(row[gpColumnIndex]?.replace(/[^\d.]/g, '').trim());
+                                logDebug('GP VALUE:', gpValue);
+
                             if (!isNaN(gpValue)) {
                                 if (gpValue < 20) {
                                     td.style.backgroundColor = 'brown';
