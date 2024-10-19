@@ -287,7 +287,7 @@
             });
         }
 
-        // Function to create tables with links and GP color-coded column
+       // Function to create tables with links and GP color-coded column
         function createTableWithLinksAndGP(rows, title, column, hideIdColumn = true) {
             const section = document.createElement('div');
             section.classList.add('table-section');
@@ -340,7 +340,7 @@
                         td.textContent = filteredText || cell;
                     } else if (index === gpColumnIndex) {
                         td.textContent = cell;
-                        const gpValue = parseFloat(cell);
+                        const gpValue = parseFloat(cell.replace('%', '').trim()); // Remove the % symbol and parse the value
                         if (!isNaN(gpValue)) {
                             if (gpValue < 20) {
                                 td.style.color = 'brown';
