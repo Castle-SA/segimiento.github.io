@@ -303,120 +303,6 @@
                 parent.normalize(); // Merge adjacent text nodes
             });
         }
-
-        // Function to create tables with links and GP color-coded column
-        function createTableWithLinksAndGP(rows, title, column, hideIdColumn = true) {
-            const section = document.createElement('div');
-            section.classList.add('table-section');
-        
-            const h2 = document.createElement('h2');
-            h2.textContent = title;
-            section.appendChild(h2);
-        
-            const table = document.createElement('table');
-            const thead = document.createElement('thead');
-            const tbody = document.createElement('tbody');
-        
-            const headers = rows[0];
-            const idColumnIndex = findIdColumnIndex(headers);
-            const goaColumnIndex = headers.indexOf('GOA') !== -1 ? headers.indexOf('GOA') : headers.indexOf('Número de documento');
-            const clienteColumnIndex = headers.indexOf('Cliente') !== -1 ? headers.indexOf('Cliente') : headers.indexOf('Nombre');
-            const gpColumnIndex = headers.indexOf('GP');
-        
-            const headerRow = document.createElement('tr');
-            headers.forEach((header, index) => {
-                const th = document.createElement('th');
-                th.textContent = header;
-        
-                if (index === idColumnIndex && hideIdColumn) {
-                    th.classList.add('hidden');
-                }
-        
-                headerRow.appendChild(th);
-            });
-            thead.appendChild(headerRow);
-        
-            rows.slice(1).forEach((row, rowIndex) => {
-                const tr = document.createElement('tr');
-                row.forEach((cell, index) => {
-                    const td = document.createElement('td');
-        
-                    if (index === idColumnIndex && hideIdColumn) {
-                        td.classList.add('hidden');
-                    }
-        
-                    if (index === goaColumnIndex) {
-                        const id = row[idColumnIndex]?.trim();
-                        if (id && cell) {
-                            td.innerHTML = `<a href="https://4294049.app.netsuite.com/app/accounting/transactions/salesord.nl?id=${id}&whence=" target="_blank">${cell}</a>`;
-                        } else {
-                            td.textContent = cell;
-                        }
-                    } else if (index === clienteColumnIndex && cell) {
-                        const filteredText = cell.split(' ').slice(1).join(' ');
-                        td.textContent = filteredText || cell;
-        
-                        // Apply color logic for Cliente in columns 2 and 3
-                        if (column === 2 || column === 3) {
-                            const gpValue = parseFloat(row[gpColumnIndex]?.replace(/[^\d.]/g, '').trim());
-                            if (!isNaN(gpValue)) {
-                                if (gpValue < 20) {
-                                    td.style.backgroundColor = 'brown';
-                                } else if (gpValue >= 20 && gpValue < 30) {
-                                    td.style.backgroundColor = '#FFD700'; // Yellow
-                                } else if (gpValue >= 30 && gpValue < 45) {
-                                    td.style.backgroundColor = 'green';
-                                } else if (gpValue >= 45) {
-                                    td.style.backgroundColor = 'purple';
-                                }
-                            }
-                        }
-                    } else if (index === gpColumnIndex) {
-                        td.textContent = cell;
-                        const gpValue = parseFloat(cell.replace(/[^\d.]/g, '').trim()); // Remove non-numeric characters except '.'
-        
-                        console.log(`Processing GP Value: ${gpValue}`); // Debugging line
-        
-                        // If title is "Control GP", apply color logic
-                        if (title === 'Control GP' && !isNaN(gpValue)) {
-                            if (gpValue < 20) {
-                                td.style.backgroundColor = 'brown';
-                                console.log(`GP Value ${gpValue} is below 20%, set background color to brown`);
-                            } else if (gpValue >= 20 && gpValue < 30) {
-                                td.style.backgroundColor = '#FFD700'; // Yellow
-                                console.log(`GP Value ${gpValue} is between 20% and 30%, set background color to yellow`);
-                            } else if (gpValue >= 30 && gpValue < 45) {
-                                td.style.backgroundColor = 'green';
-                                console.log(`GP Value ${gpValue} is between 30% and 45%, set background color to green`);
-                            } else if (gpValue >= 45) {
-                                td.style.backgroundColor = 'purple';
-                                console.log(`GP Value ${gpValue} is above 45%, set background color to purple`);
-                            }
-                        }
-        
-                        // For other tables, display GP in a smaller font
-                        if (title !== 'Control GP') {
-                            td.style.fontSize = '0.7em';
-                        }
-                    } else {
-                        td.textContent = cell;
-                    }
-        
-                    tr.appendChild(td);
-                });
-                tbody.appendChild(tr);
-            });
-        
-            table.appendChild(thead);
-            table.appendChild(tbody);
-            section.appendChild(table);
-        
-            document.getElementById(`column-${column}`).appendChild(section);
-        
-            if (hideIdColumn) {
-                hideIdColumnElements(table, idColumnIndex);
-            }
-        }
         
         function highlightText(query) {
             const regex = new RegExp(query, 'gi');
@@ -993,6 +879,120 @@
             document.getElementById(`column-${column}`).appendChild(section);
         
             // Hide the ID column after the table is generated
+            if (hideIdColumn) {
+                hideIdColumnElements(table, idColumnIndex);
+            }
+        }
+
+                // Function to create tables with links and GP color-coded column
+        function createTableWithLinksAndGP(rows, title, column, hideIdColumn = true) {
+            const section = document.createElement('div');
+            section.classList.add('table-section');
+        
+            const h2 = document.createElement('h2');
+            h2.textContent = title;
+            section.appendChild(h2);
+        
+            const table = document.createElement('table');
+            const thead = document.createElement('thead');
+            const tbody = document.createElement('tbody');
+        
+            const headers = rows[0];
+            const idColumnIndex = findIdColumnIndex(headers);
+            const goaColumnIndex = headers.indexOf('GOA') !== -1 ? headers.indexOf('GOA') : headers.indexOf('Número de documento');
+            const clienteColumnIndex = headers.indexOf('Cliente') !== -1 ? headers.indexOf('Cliente') : headers.indexOf('Nombre');
+            const gpColumnIndex = headers.indexOf('GP');
+        
+            const headerRow = document.createElement('tr');
+            headers.forEach((header, index) => {
+                const th = document.createElement('th');
+                th.textContent = header;
+        
+                if (index === idColumnIndex && hideIdColumn) {
+                    th.classList.add('hidden');
+                }
+        
+                headerRow.appendChild(th);
+            });
+            thead.appendChild(headerRow);
+        
+            rows.slice(1).forEach((row, rowIndex) => {
+                const tr = document.createElement('tr');
+                row.forEach((cell, index) => {
+                    const td = document.createElement('td');
+        
+                    if (index === idColumnIndex && hideIdColumn) {
+                        td.classList.add('hidden');
+                    }
+        
+                    if (index === goaColumnIndex) {
+                        const id = row[idColumnIndex]?.trim();
+                        if (id && cell) {
+                            td.innerHTML = `<a href="https://4294049.app.netsuite.com/app/accounting/transactions/salesord.nl?id=${id}&whence=" target="_blank">${cell}</a>`;
+                        } else {
+                            td.textContent = cell;
+                        }
+                    } else if (index === clienteColumnIndex && cell) {
+                        const filteredText = cell.split(' ').slice(1).join(' ');
+                        td.textContent = filteredText || cell;
+        
+                        // Apply color logic for Cliente in columns 2 and 3
+                        if (column === 2 || column === 3) {
+                            const gpValue = parseFloat(row[gpColumnIndex]?.replace(/[^\d.]/g, '').trim());
+                            if (!isNaN(gpValue)) {
+                                if (gpValue < 20) {
+                                    td.style.backgroundColor = 'brown';
+                                } else if (gpValue >= 20 && gpValue < 30) {
+                                    td.style.backgroundColor = '#FFD700'; // Yellow
+                                } else if (gpValue >= 30 && gpValue < 45) {
+                                    td.style.backgroundColor = 'green';
+                                } else if (gpValue >= 45) {
+                                    td.style.backgroundColor = 'purple';
+                                }
+                            }
+                        }
+                    } else if (index === gpColumnIndex) {
+                        td.textContent = cell;
+                        const gpValue = parseFloat(cell.replace(/[^\d.]/g, '').trim()); // Remove non-numeric characters except '.'
+        
+                        console.log(`Processing GP Value: ${gpValue}`); // Debugging line
+        
+                        // If title is "Control GP", apply color logic
+                        if (title === 'Control GP' && !isNaN(gpValue)) {
+                            if (gpValue < 20) {
+                                td.style.backgroundColor = 'brown';
+                                console.log(`GP Value ${gpValue} is below 20%, set background color to brown`);
+                            } else if (gpValue >= 20 && gpValue < 30) {
+                                td.style.backgroundColor = '#FFD700'; // Yellow
+                                console.log(`GP Value ${gpValue} is between 20% and 30%, set background color to yellow`);
+                            } else if (gpValue >= 30 && gpValue < 45) {
+                                td.style.backgroundColor = 'green';
+                                console.log(`GP Value ${gpValue} is between 30% and 45%, set background color to green`);
+                            } else if (gpValue >= 45) {
+                                td.style.backgroundColor = 'purple';
+                                console.log(`GP Value ${gpValue} is above 45%, set background color to purple`);
+                            }
+                        }
+        
+                        // For other tables, display GP in a smaller font
+                        if (title !== 'Control GP') {
+                            td.style.fontSize = '0.7em';
+                        }
+                    } else {
+                        td.textContent = cell;
+                    }
+        
+                    tr.appendChild(td);
+                });
+                tbody.appendChild(tr);
+            });
+        
+            table.appendChild(thead);
+            table.appendChild(tbody);
+            section.appendChild(table);
+        
+            document.getElementById(`column-${column}`).appendChild(section);
+        
             if (hideIdColumn) {
                 hideIdColumnElements(table, idColumnIndex);
             }
