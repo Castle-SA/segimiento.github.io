@@ -360,13 +360,13 @@
                             const gpValue = parseFloat(row[gpColumnIndex]?.replace(/[^\d.]/g, '').trim());
                             if (!isNaN(gpValue)) {
                                 if (gpValue < 20) {
-                                    td.classList.add('gp-brown');
+                                    td.style.setProperty('color', 'brown', 'important');
                                 } else if (gpValue >= 20 && gpValue < 30) {
-                                    td.classList.add('gp-yellow');
+                                    td.style.setProperty('color', 'yellow', 'important');
                                 } else if (gpValue >= 30 && gpValue < 45) {
-                                    td.classList.add('gp-green');
+                                    td.style.setProperty('color', 'green', 'important');
                                 } else if (gpValue >= 45) {
-                                    td.classList.add('gp-purple');
+                                    td.style.setProperty('color', 'purple', 'important');
                                 }
                             }
                         }
@@ -377,13 +377,13 @@
                         // If title is "Control GP", apply color logic
                         if (title === 'Control GP' && !isNaN(gpValue)) {
                             if (gpValue < 20) {
-                                td.classList.add('gp-brown');
+                                td.style.setProperty('color', 'brown', 'important');
                             } else if (gpValue >= 20 && gpValue < 30) {
-                                td.classList.add('gp-yellow');
+                                td.style.setProperty('color', 'yellow', 'important');
                             } else if (gpValue >= 30 && gpValue < 45) {
-                                td.classList.add('gp-green');
+                                td.style.setProperty('color', 'green', 'important');
                             } else if (gpValue >= 45) {
-                                td.classList.add('gp-purple');
+                                td.style.setProperty('color', 'purple', 'important');
                             }
                         }
         
