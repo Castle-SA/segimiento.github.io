@@ -361,13 +361,13 @@
                             const gpValue = parseFloat(row[gpColumnIndex]?.replace(/[^\d.]/g, '').trim());
                             if (!isNaN(gpValue)) {
                                 if (gpValue < 20) {
-                                    td.style.color = 'brown';
+                                    td.style.backgroundColor = 'brown';
                                 } else if (gpValue >= 20 && gpValue < 30) {
-                                    td.style.color = '#FFD700'; // Yellow
+                                    td.style.backgroundColor = '#FFD700'; // Yellow
                                 } else if (gpValue >= 30 && gpValue < 45) {
-                                    td.style.color = 'green';
+                                    td.style.backgroundColor = 'green';
                                 } else if (gpValue >= 45) {
-                                    td.style.color = 'purple';
+                                    td.style.backgroundColor = 'purple';
                                 }
                             }
                         }
@@ -380,17 +380,17 @@
                         // If title is "Control GP", apply color logic
                         if (title === 'Control GP' && !isNaN(gpValue)) {
                             if (gpValue < 20) {
-                                td.style.color = 'brown';
-                                console.log(`GP Value ${gpValue} is below 20%, set color to brown`);
+                                td.style.backgroundColor = 'brown';
+                                console.log(`GP Value ${gpValue} is below 20%, set background color to brown`);
                             } else if (gpValue >= 20 && gpValue < 30) {
-                                td.style.color = '#FFD700'; // Yellow
-                                console.log(`GP Value ${gpValue} is between 20% and 30%, set color to yellow`);
+                                td.style.backgroundColor = '#FFD700'; // Yellow
+                                console.log(`GP Value ${gpValue} is between 20% and 30%, set background color to yellow`);
                             } else if (gpValue >= 30 && gpValue < 45) {
-                                td.style.color = 'green';
-                                console.log(`GP Value ${gpValue} is between 30% and 45%, set color to green`);
+                                td.style.backgroundColor = 'green';
+                                console.log(`GP Value ${gpValue} is between 30% and 45%, set background color to green`);
                             } else if (gpValue >= 45) {
-                                td.style.color = 'purple';
-                                console.log(`GP Value ${gpValue} is above 45%, set color to purple`);
+                                td.style.backgroundColor = 'purple';
+                                console.log(`GP Value ${gpValue} is above 45%, set background color to purple`);
                             }
                         }
         
