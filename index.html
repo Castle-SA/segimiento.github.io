@@ -345,12 +345,16 @@
                             if (!isNaN(gpValue)) {
                                 if (gpValue < 20) {
                                     td.style.color = 'brown';
+                                    td.style.fontWeight = 'bold'; // Optional: Make text bold for visibility
                                 } else if (gpValue >= 20 && gpValue < 30) {
                                     td.style.color = 'yellow';
+                                    td.style.fontWeight = 'bold';
                                 } else if (gpValue >= 30 && gpValue < 45) {
                                     td.style.color = 'green';
+                                    td.style.fontWeight = 'bold';
                                 } else if (gpValue >= 45) {
                                     td.style.color = 'purple';
+                                    td.style.fontWeight = 'bold';
                                 }
                             }
                         }
@@ -361,13 +365,13 @@
                         // If title is "Control GP", apply color logic
                         if (title === 'Control GP' && !isNaN(gpValue)) {
                             if (gpValue < 20) {
-                                td.style.color = 'brown';
+                                td.style.color = 'brown !important';
                             } else if (gpValue >= 20 && gpValue < 30) {
-                                td.style.color = 'yellow';
+                                td.style.color = 'yellow !important';
                             } else if (gpValue >= 30 && gpValue < 45) {
-                                td.style.color = 'green';
+                                td.style.color = 'green !important';
                             } else if (gpValue >= 45) {
-                                td.style.color = 'purple';
+                                td.style.color = 'purple !important';
                             }
                         }
         
