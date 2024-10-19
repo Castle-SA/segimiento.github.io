@@ -952,13 +952,13 @@
                             logDebug('GP Value:', gpValue);
                             if (!isNaN(gpValue)) {
                                 if (gpValue < 20) {
-                                    td.style.backgroundColor = "brown";
+                                    td.backgroundColor = "brown";
                                 } else if (gpValue >= 20 && gpValue < 30) {
-                                    td.style.backgroundColor = "#FFD700"; // Yellow
+                                    td.backgroundColor = "#FFD700"; // Yellow
                                 } else if (gpValue >= 30 && gpValue < 45) {
-                                    td.style.backgroundColor = "green";
+                                    td.backgroundColor = "green";
                                 } else if (gpValue >= 45) {
-                                    td.style.backgroundColor = "purple";
+                                    td.backgroundColor = "purple";
                                 }
                             }
                         }
@@ -971,13 +971,13 @@
                         // If title is "Control GP", apply color logic
                         if (title === 'Control GP' && !isNaN(gpValue)) {
                             if (gpValue < 20) {
-                                td.style.backgroundColor = "brown";
+                                td.backgroundColor = "brown";
                             } else if (gpValue >= 20 && gpValue < 30) {
-                                td.style.backgroundColor = "#FFD700"; // Yellow
+                                td.backgroundColor = "#FFD700"; // Yellow
                             } else if (gpValue >= 30 && gpValue < 45) {
-                                td.style.backgroundColor = "green";
+                                td.backgroundColor = "green";
                             } else if (gpValue >= 45) {
-                                td.style.backgroundColor = "purple";
+                                td.backgroundColor = "purple";
                             }
                         }
         
