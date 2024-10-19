@@ -183,24 +183,20 @@
         display: none !important;
         }
 
-        table td {
-            font-family: 'Open Sans', sans-serif; /* Ensure consistency of font */
-            color: inherit; /* Allow color changes to propagate properly */
-        }
-        
-        .gp-brown {
+        /* Target <td> with specific classes to ensure the colors apply */
+        table td.gp-brown {
             color: brown !important;
         }
         
-        .gp-yellow {
-            color: #FFD700 !important; /* Changed to a more readable yellow */
+        table td.gp-yellow {
+            color: #FFD700 !important;
         }
         
-        .gp-green {
+        table td.gp-green {
             color: green !important;
         }
         
-        .gp-purple {
+        table td.gp-purple {
             color: purple !important;
         }
 
@@ -365,13 +361,13 @@
                             const gpValue = parseFloat(row[gpColumnIndex]?.replace(/[^\d.]/g, '').trim());
                             if (!isNaN(gpValue)) {
                                 if (gpValue < 20) {
-                                    td.classList.add('gp-brown');
+                                    td.style.color = 'brown';
                                 } else if (gpValue >= 20 && gpValue < 30) {
-                                    td.classList.add('gp-yellow');
+                                    td.style.color = '#FFD700'; // Yellow
                                 } else if (gpValue >= 30 && gpValue < 45) {
-                                    td.classList.add('gp-green');
+                                    td.style.color = 'green';
                                 } else if (gpValue >= 45) {
-                                    td.classList.add('gp-purple');
+                                    td.style.color = 'purple';
                                 }
                             }
                         }
@@ -379,16 +375,22 @@
                         td.textContent = cell;
                         const gpValue = parseFloat(cell.replace(/[^\d.]/g, '').trim()); // Remove non-numeric characters except '.'
         
+                        console.log(`Processing GP Value: ${gpValue}`); // Debugging line
+        
                         // If title is "Control GP", apply color logic
                         if (title === 'Control GP' && !isNaN(gpValue)) {
                             if (gpValue < 20) {
-                                td.classList.add('gp-brown');
+                                td.style.color = 'brown';
+                                console.log(`GP Value ${gpValue} is below 20%, set color to brown`);
                             } else if (gpValue >= 20 && gpValue < 30) {
-                                td.classList.add('gp-yellow');
+                                td.style.color = '#FFD700'; // Yellow
+                                console.log(`GP Value ${gpValue} is between 20% and 30%, set color to yellow`);
                             } else if (gpValue >= 30 && gpValue < 45) {
-                                td.classList.add('gp-green');
+                                td.style.color = 'green';
+                                console.log(`GP Value ${gpValue} is between 30% and 45%, set color to green`);
                             } else if (gpValue >= 45) {
-                                td.classList.add('gp-purple');
+                                td.style.color = 'purple';
+                                console.log(`GP Value ${gpValue} is above 45%, set color to purple`);
                             }
                         }
         
