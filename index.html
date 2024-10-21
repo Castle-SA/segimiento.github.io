@@ -404,73 +404,74 @@
     
             return `${year}-${month}-${day}`;
         }
-
-        // Function to fetch transport URLs from a CSV file
-        async function fetchTransportUrls() {
-            const urlFilePath = 'path/to/transport_urls.csv'; // Update with the actual path to the CSV file
-            const transportUrls = [];
-    
-            try {
-                const response = await fetch(urlFilePath);
-                if (!response.ok) {
-                    throw new Error('Network response was not ok');
-                }
-    
-                const csvText = await response.text();
-                const rows = csvText.split('\n');
-    
-                // Process each row of the CSV to build the URL dictionary
-                rows.slice(1).forEach(row => {
-                    const columns = row.split(',');
-    
-                    // Ensure the row has enough columns to avoid undefined errors
-                    if (columns.length >= 4) {
-                        const transportista = columns[0]?.trim();
-                        const url = columns[1]?.trim();
-                        const user = columns[2]?.trim();
-                        const password = columns[3]?.trim();
-    
-                        if (transportista && url) {
-                            transportUrls.push({
-                                transportista: transportista,
-                                url: url,
-                                user: user,
-                                password: password
-                            });
-                        }
+        
+            // Function to fetch transport URLs from a CSV file
+            async function fetchTransportUrls() {
+                const urlFilePath = 'path/to/transport_urls.csv'; // Update with the actual path to the CSV file
+                const transportUrls = [];
+        
+                try {
+                    const response = await fetch(urlFilePath);
+                    if (!response.ok) {
+                        throw new Error('Network response was not ok');
                     }
+        
+                    const csvText = await response.text();
+                    const rows = csvText.split('\n').filter(row => row.trim() !== ""); // Filter out empty rows
+        
+                    // Process each row of the CSV to build the URL dictionary
+                    rows.slice(1).forEach(row => {
+                        const columns = row.split(',');
+        
+                        // Ensure the row has enough columns to avoid undefined errors
+                        if (columns.length >= 4) {
+                            const transportista = columns[0]?.trim();
+                            const url = columns[1]?.trim();
+                            const user = columns[2]?.trim();
+                            const password = columns[3]?.trim();
+        
+                            if (transportista && url) {
+                                transportUrls.push({
+                                    transportista: transportista,
+                                    url: url,
+                                    user: user,
+                                    password: password
+                                });
+                            }
+                        }
+                    });
+                } catch (error) {
+                    console.error('Error fetching transport URLs:', error);
+                }
+        
+                // Ensure we always return an array
+                return transportUrls;
+            }
+        
+            // Function to populate the sidebar content
+            async function populateSidebar() {
+                const transportUrls = await fetchTransportUrls();
+                
+                // Ensure transportUrls is an array
+                if (!Array.isArray(transportUrls)) {
+                    console.error('Transport URLs is not an array.');
+                    return;
+                }
+        
+                const sidebarContent = document.getElementById('sidebarContent');
+                sidebarContent.innerHTML = '';
+        
+                transportUrls.forEach(credential => {
+                    sidebarContent.innerHTML += `
+                        <p>
+                            <strong>${credential.transportista}</strong><br>
+                            <a href="${credential.url}" target="_blank">${credential.url}</a><br>
+                            User: ${credential.user}<br>
+                            Password: ${credential.password}
+                        </p>
+                    `;
                 });
-            } catch (error) {
-                console.error('Error fetching transport URLs:', error);
             }
-    
-            return transportUrls;
-        }
-    
-        // Function to populate the sidebar content
-        async function populateSidebar() {
-            const transportUrls = await fetchTransportUrls();
-            
-            // Ensure transportUrls is an array
-            if (!Array.isArray(transportUrls)) {
-                console.error('Transport URLs is not an array.');
-                return;
-            }
-    
-            const sidebarContent = document.getElementById('sidebarContent');
-            sidebarContent.innerHTML = '';
-    
-            transportUrls.forEach(credential => {
-                sidebarContent.innerHTML += `
-                    <p>
-                        <strong>${credential.transportista}</strong><br>
-                        <a href="${credential.url}" target="_blank">${credential.url}</a><br>
-                        User: ${credential.user}<br>
-                        Password: ${credential.password}
-                    </p>
-                `;
-            });
-        }
 
                 // Toggle button and sidebar visibility
         document.addEventListener('DOMContentLoaded', () => {
