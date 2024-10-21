@@ -544,21 +544,6 @@
         // URL of the Google Sheet published as CSV for matching Facturación files
         const sheetUrl = 'https://docs.google.com/spreadsheets/d/e/2PACX-1vTmBAXWedGqxYfGaVoGXyCQwBE54QDjnKa5Eel4TTV1-pfqUYYHXrPuww_VBGFMJAqKCD_P9X1nWX_t/pub?output=csv';
 
-        // Fetch and display the CSV files for column 1
-        function fetchAndDisplayCSVForColumn1(file, title, column) {
-            // logDebug(`Fetching CSV for Column 1: ${title}`);
-            fetch(file)
-                .then(response => response.text())
-                .then(csv => {
-                    let rows = csv.split('\n').map(row => row.split(','));
-                    // logDebug(`${title} rows fetched for Column 1`, rows);
-
-                    rows = renameColumns(rows); // Ensure renaming for GOA and Cliente
-                    createTableWithLinks(rows, title, column);
-                })
-                .catch(error => logDebug(`Error fetching ${title} for Column 1:`, error));
-        }
-
         // Function to rename "Número de documento" to "GOA" and "Nombre" to "Cliente"
         function renameColumns(rows) {
             const headers = rows[0].map(header => {
