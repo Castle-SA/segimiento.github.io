@@ -445,15 +445,51 @@
             }
         ];
 
-        // Function to populate the sidebar content
-        function populateSidebar() {
+
+
+        async function fetchTransportUrls() {
+            const urlFilePath = 'path/to/transport_urls.csv'; // Update with the actual path to the CSV file
+            const transportUrls = [];
+
+            try {
+                const response = await fetch(urlFilePath);
+                const csvText = await response.text();
+                const rows = csvText.split('\n').map(row => row.split(','));
+
+                // Process each row of the CSV to build the URL dictionary
+                rows.slice(1).forEach(row => {
+                    const transportista = row[0].trim();
+                    const url = row[1].trim();
+                    const username = row[2]?.trim();
+                    const password = row[3]?.trim();
+
+                    if (transportista && url) {
+                        transportUrls.push({
+                            transportista: transportista,
+                            url: url,
+                            username: username,
+                            password: password
+                        });
+                    }
+                });
+            } catch (error) {
+                console.error('Error fetching transport URLs:', error);
+            }
+
+            return transportUrls;
+        }
+
+                // Function to populate the sidebar content
+        async function populateSidebar() {
+            const transportUrls = await fetchTransportUrls();
             const sidebarContent = document.getElementById('sidebarContent');
             sidebarContent.innerHTML = '';
 
-            transportCredentials.forEach(credential => { //                        <a href="${credential.url}" target="_blank">${credential.url}</a><br>
+            transportUrls.forEach(credential => {
                 sidebarContent.innerHTML += `
                     <p>
                         <strong>${credential.transportista}</strong><br>
+                        <a href="${credential.url}" target="_blank">${credential.url}</a><br>
                         Username: ${credential.username}<br>
                         Password: ${credential.password}
                     </p>
