@@ -405,48 +405,7 @@
             return `${year}-${month}-${day}`;
         }
 
-                // Manually define the transport credentials
-        const transportCredentials = [
-            {
-                transportista: 'Cargo',
-                //url: 'http://www.companya.com',
-                username: '70948976',
-                password: 'cargo40114'
-            },
-            {
-                transportista: 'Lancioni',
-                //url: 'http://www.companyb.com',
-                username: '70948976',
-                password: 'lancioni56137'
-            },
-            {
-                transportista: 'Luyan del Cuyo',
-                //url: 'http://www.companyc.com',
-                username: '284637',
-                password: '284637'
-            },
-            {
-                transportista: 'Cruz del Sur',
-                //url: 'http://www.companyb.com',
-                username: 'gpollard',
-                password: '710095'
-            },
-            {
-                transportista: 'Tomassini',
-                //url: 'http://www.companyb.com',
-                username: 'Castle1',
-                password: 'Castle123'
-            },
-            {
-                transportista: 'Brio',
-                //url: 'http://www.companyb.com',
-                username: 'castle',
-                password: 'Castle123'
-            }
-        ];
-
-
-
+        // Function to fetch transport URLs from a CSV file
         async function fetchTransportUrls() {
             const urlFilePath = 'path/to/transport_urls.csv'; // Update with the actual path to the CSV file
             const transportUrls = [];
@@ -460,14 +419,14 @@
                 rows.slice(1).forEach(row => {
                     const transportista = row[0].trim();
                     const url = row[1].trim();
-                    const username = row[2]?.trim();
+                    const user = row[2]?.trim(); // Changed from username to user
                     const password = row[3]?.trim();
 
                     if (transportista && url) {
                         transportUrls.push({
                             transportista: transportista,
                             url: url,
-                            username: user,
+                            user: user,
                             password: password
                         });
                     }
@@ -479,7 +438,6 @@
             return transportUrls;
         }
 
-                // Function to populate the sidebar content
         async function populateSidebar() {
             const transportUrls = await fetchTransportUrls();
             const sidebarContent = document.getElementById('sidebarContent');
@@ -490,14 +448,14 @@
                     <p>
                         <strong>${credential.transportista}</strong><br>
                         <a href="${credential.url}" target="_blank">${credential.url}</a><br>
-                        Username: ${credential.username}<br>
+                        User: ${credential.user}<br> <!-- Display "User" instead of "Username" -->
                         Password: ${credential.password}
                     </p>
                 `;
             });
         }
 
-        // Toggle button and sidebar visibility
+                // Toggle button and sidebar visibility
         document.addEventListener('DOMContentLoaded', () => {
             const toggleButton = document.getElementById('toggleButton');
             const sidebar = document.getElementById('sidebar');
@@ -513,10 +471,8 @@
                     toggleButton.classList.add('open');
                 }
             });
-
-            populateSidebar(); // Populate the sidebar with the credentials data
+           populateSidebar(); // Populate the sidebar with the credentials data
         });
-
                 // Helper function to check if a date is within the next 3 days or in the past
         function isWithinNext3DaysOrPast(dateString) {
             const cleanedDate = cleanUpDate(dateString);
