@@ -288,7 +288,7 @@
                 .then(csv => {
                     let rows = csv.split('\n').map(row => row.split(','));
                     rows = renameColumns(rows);
-                    rows = addGPColumn(rows); // Add GP column logic
+                    //rows = addGPColumn(rows); // Add GP column logic
                     createTableWithLinksAndGP(rows, title, column);
                 })
                 .catch(error => console.error(`Error fetching ${title} for Column 1:`, error));
