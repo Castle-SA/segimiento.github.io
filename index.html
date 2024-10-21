@@ -121,7 +121,6 @@
         }
 
         h1 {
-            color: crimson;
             font-size: 24px;
             left: 30px;
             margin: 10px;
@@ -964,20 +963,20 @@
         
                         // Apply color logic for Cliente in columns 2 and 3
                         if (column === 2 || column === 3) {
-                            logDebug('Found Column');
+                            console.log('Found Column');
                             
 
                             const gpValue = parseFloat(row[gpColumnIndex]?.replace(/[^\d.]/g, '').trim());
-                            logDebug('GP Value:', gpValue);
+                            console.log('GP Value:', gpValue);
                             if (!isNaN(gpValue)) {
                                 if (gpValue < 20) {
-                                    td.backgroundColor = "brown";
+                                    td.Color = "brown";
                                 } else if (gpValue >= 20 && gpValue < 30) {
-                                    td.backgroundColor = "#FFD700"; // Yellow
+                                    td.Color = "#FFD700"; // Yellow
                                 } else if (gpValue >= 30 && gpValue < 45) {
-                                    td.backgroundColor = "green";
+                                    td.Color = "green";
                                 } else if (gpValue >= 45) {
-                                    td.backgroundColor = "purple";
+                                    td.Color = "purple";
                                 }
                             }
                         }
@@ -990,13 +989,13 @@
                         // If title is "Control GP", apply color logic
                         if (title === 'Control GP' && !isNaN(gpValue)) {
                             if (gpValue < 20) {
-                                td.backgroundColor = "brown";
+                                td.Color = "brown";
                             } else if (gpValue >= 20 && gpValue < 30) {
-                                td.backgroundColor = "#FFD700"; // Yellow
+                                td.Color = "#FFD700"; // Yellow
                             } else if (gpValue >= 30 && gpValue < 45) {
-                                td.backgroundColor = "green";
+                                td.Color = "green";
                             } else if (gpValue >= 45) {
-                                td.backgroundColor = "purple";
+                                td.Color = "purple";
                             }
                         }
         
