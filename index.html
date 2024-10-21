@@ -426,12 +426,12 @@
                 }
         
                 const csvText = await response.text();
-                console.log('Fetched CSV Text:', csvText); // Log the raw CSV text for verification
+                //console.log('Fetched CSV Text:', csvText); // Log the raw CSV text for verification
         
                 const rows = csvText.split('\n').filter(row => row.trim() !== ""); // Filter out empty rows
         
                 // Log parsed rows for troubleshooting
-                console.log('Parsed Rows:', rows);
+                //console.log('Parsed Rows:', rows);
         
                 // Process each row of the CSV to build the URL dictionary
                 rows.slice(1).forEach(row => {
@@ -455,7 +455,7 @@
                     }
                 });
         
-                console.log('Parsed Transport URLs:', transportUrls); // Log the array to see the final structure
+                //console.log('Parsed Transport URLs:', transportUrls); // Log the array to see the final structure
         
             } catch (error) {
                 console.error('Error fetching transport URLs:', error);
@@ -903,6 +903,8 @@
         }
 
         function createTableWithLinksAndGP(rows, title, column, hideIdColumn = true) {
+
+            console.log('Create GP table thing called');
             const section = document.createElement('div');
             section.classList.add('table-section');
         
@@ -920,7 +922,7 @@
             const goaColumnIndex = headers.indexOf('GOA') !== -1 ? headers.indexOf('GOA') : headers.indexOf('Número de documento');
             const clienteColumnIndex = headers.indexOf('Cliente') !== -1 ? headers.indexOf('Cliente') : headers.indexOf('Nombre');
             const gpColumnIndex = headers.indexOf('GP'); // Dynamically find the GP column index
-            logDebug('GP COLUMN INDEX:', gpColumnIndex);
+            console.log('GP COLUMN INDEX:', gpColumnIndex);
 
         
             // Create the header row
