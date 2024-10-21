@@ -34,7 +34,6 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 38509,4733 TECNOSISTEM SRL,Facturada,Todo Aprobado,Ejecución de pedido de artículo 21316,Enviado,F,MTS536B,0,0,16/10/2024,EXPRESO CARGO SA,281741,46.0%
 38509,4733 TECNOSISTEM SRL,Facturada,Todo Aprobado,Ejecución de pedido de artículo 21316,Enviado,F,PPAR1048T,0,0,16/10/2024,EXPRESO CARGO SA,281741,0.0%
 39322,86 EST GRAFICO IMPRESORES SA,Facturada,Todo Aprobado,Ejecución de pedido de artículo 21311,Enviado,F,PPHR15048XT,0,0,16/10/2024,EXPRESO CARGO SA,306662,0.0%
-39531,9400338 ESTABLECIMIENTO MODELO LAS COLONIAS S A,Ejecución de la orden pendiente,Todo Aprobado, ,,F,PPAR15048T,0,30,16/10/2024,TRANSPORTE SNAIDER,319883,59.0%
 39536,9400842 LABORATORIOS ASPEN SA,Facturada,Todo Aprobado,Ejecución de pedido de artículo 21318,Enviado,F,9400842/001,0,0,16/10/2024,EXPRESO CARGO SA,320370,37.0%
 39617,1029 DREAN SA,Facturada,Todo Aprobado,Ejecución de pedido de artículo 21320,Enviado,F,0272/003,0,0,16/10/2024,EXPRESO CARGO SA,327362,42.0%
 39623,3598 DEL VALLE EMBALAJES SRL,Facturada,Todo Aprobado,Ejecución de pedido de artículo 21305,Enviado,F,PPAR1048T,0,0,16/10/2024,FELICI JORGE ARIEL,327610,43.0%
@@ -90,6 +89,7 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 39759,9400003 LUCIANO TABARES,Facturada,Todo Aprobado,Ejecución de pedido de artículo 21345,Enviado,F,PPHR15048XT,0,0,18/10/2024,RETIRAN,335668,0.0%
 39760,9400223 MERCOTEX SA,Facturada,Todo Aprobado,Ejecución de pedido de artículo 21347,Enviado,F,PPAR1048T,0,0,18/10/2024,RETIRAN,335695,61.0%
 39773,131 FARMQUIP SRL,Ejecución de la orden pendiente,Todo Aprobado, ,,F,PB/001,0,30,18/10/2024,RETIRAN,336396,42.0%
+39531,9400338 ESTABLECIMIENTO MODELO LAS COLONIAS S A,Facturación pendiente,Todo Aprobado,Ejecución de pedido de artículo 21354,Enviado,F,PPAR15048T,0,0,21/10/2024,TRANSPORTE SNAIDER,319883,59.0%
 39615,9401926 INDUSTRIAS FRIGORIFICAS RECREO SAIC,Ejecución de la orden pendiente,Todo Aprobado, ,,F,PPAR1048T,1908,0,21/10/2024,TRANSPORTE PEDRITO,327060,49.0%
 39739,9402126 CON ARGENTINA SRL,Facturación pendiente,Todo Aprobado,Ejecución de pedido de artículo 21350,Enviado,F,TERM420,0,0,21/10/2024,EXPRESO CARGO SA,334861,56.0%
 39745,12816 CSI ELECTRONICA SRL,Facturación pendiente,Todo Aprobado,Ejecución de pedido de artículo 21349,Enviado,F,0727/004,0,0,21/10/2024,RICARDO PIERONI,335165,52.0%
@@ -110,7 +110,7 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 39626,9401339 QUICKFOOD S.A.,Ejecución de la orden pendiente,Todo Aprobado, ,,F,PPAR15048T,172,206,30/10/2024,EXPRESO SANTA ROSA,327823,48.0%
 39668,94010 VISUAR SA,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Ensamblada,F,1823/002,193,0,31/10/2024,EXPRESO CARGO SA,329775,53.0%
 39718,9400536 MILKAUT SA,Ejecución de la orden pendiente,Todo Aprobado, ,,F,PPHR15048XT,198,0,31/10/2024,RICARDO PIERONI,332839,53.0%
-39737,9400338 ESTABLECIMIENTO MODELO LAS COLONIAS S A,Ejecución de la orden pendiente,Todo Aprobado, ,,F,PPAR15048T,60,0,31/10/2024,TRANSPORTE SNAIDER,334748,50.0%
+39737,9400338 ESTABLECIMIENTO MODELO LAS COLONIAS S A,Ejecución de la orden pendiente,Todo Aprobado, ,,F,PPAR15048T,30,30,31/10/2024,TRANSPORTE SNAIDER,334748,50.0%
 39740,272 TALLERES METALURGICOS BAMBI S.A.,Ejecución de la orden pendiente,Todo Aprobado, ,,F,PPAR1072T,864,0,04/11/2024,FELICI JORGE ARIEL,334898,72.0%
 39740,272 TALLERES METALURGICOS BAMBI S.A.,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Liberada,F,0272/004,0,320,04/11/2024,FELICI JORGE ARIEL,334898,32.0%
 39740,272 TALLERES METALURGICOS BAMBI S.A.,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Liberada,F,0272/003,0,40,04/11/2024,FELICI JORGE ARIEL,334898,42.0%
