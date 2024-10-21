@@ -466,7 +466,7 @@
     
         // Function to populate the sidebar content
         async function populateSidebar() {
-            const transportUrls = await fetchTransportUrls();
+            const transportUrls = await ();
             
             // Ensure transportUrls is an array
             if (!Array.isArray(transportUrls)) {
@@ -1041,29 +1041,29 @@
         }
 
     
-        //async function fetchTransportUrls() {
-        //    const urlFilePath = 'path/to/transport_urls.csv'; // Update with the actual path to the CSV file
-        //    const transportUrls = {};
+        async function fetchTransportUrls2() {
+            const urlFilePath = 'path/to/transport_urls.csv'; // Update with the actual path to the CSV file
+            const transportUrls = {};
         
-        //    try {
-        //        const response = await fetch(urlFilePath);
-        //        const csvText = await response.text();
-        //        const rows = csvText.split('\n').map(row => row.split(','));
+            try {
+                const response = await fetch(urlFilePath);
+                const csvText = await response.text();
+                const rows = csvText.split('\n').map(row => row.split(','));
         
                 // Process each row of the CSV to build the URL dictionary
-        //        rows.slice(1).forEach(row => {
-        //            const transportista = row[0].trim();
-        //            const url = row[1].trim();
-        //            if (transportista && url) {
-        //                transportUrls[transportista] = url;
-        //            }
-         //       });
-        //    } catch (error) {
-        //        console.error('Error fetching transport URLs:', error);
-        //    }
+                rows.slice(1).forEach(row => {
+                    const transportista = row[0].trim();
+                    const url = row[1].trim();
+                    if (transportista && url) {
+                        transportUrls[transportista] = url;
+                    }
+                });
+            } catch (error) {
+                console.error('Error fetching transport URLs:', error);
+            }
         
-        //    return transportUrls;
-       // }
+            return transportUrls;
+        }
 
 
         // ** Function to fetch Google Sheet CSV data ** 
@@ -1193,7 +1193,7 @@
         // Function to create and display the Remisiones Recientes table (unmatched rows) with GOA hyperlinks and Fecha
         async function createFacturacionTable(facturacionRows, unmatchedRows) {
             // Fetch transport URLs from CSV
-            const transportUrls = await fetchTransportUrls();
+            const transportUrls = await fetchTransportUrls2();
         
             // logDebug('Creating Remisiones Recientes table');
             const section = document.createElement('div');
@@ -1291,7 +1291,7 @@
         // Function to create and display the Despachado table (matched rows) with GOA hyperlinks and Fecha
         async function createDespachadoTable(facturacionRows, matchedRows) {
             // Fetch transport URLs from CSV
-            const transportUrls = await fetchTransportUrls();
+            const transportUrls = await fetchTransportUrls2();
         
             // logDebug('Creating Despachado table');
             const section = document.createElement('div');
