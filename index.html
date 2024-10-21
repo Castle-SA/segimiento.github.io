@@ -890,7 +890,10 @@
         // Function to create tables with links and GP color-coded column
         function createTableWithLinksAndGP(rows, title, column, hideIdColumn = true) {
             console.log('Called GP TABLE thing');
-
+            //--------------------------------------------------------------------------------------------------XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+            //--------------------------------------------------------------------------------------------------XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+            //--------------------------------------------------------------------------------------------------XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+            //--------------------------------------------------------------------------------------------------XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
             const section = document.createElement('div');
             section.classList.add('table-section');
         
@@ -941,12 +944,16 @@
                         } else {
                             td.textContent = cell;
                         }
-                    } else if (index === clienteColumnIndex && cell) {
+                    } 
+                    
+                    if (index === clienteColumnIndex && cell) {
                         console.log('Found cliente column');
 
                         const filteredText = cell.split(' ').slice(1).join(' ');
                         td.textContent = filteredText || cell;
-                    } else if (index === gpColumnIndex) {
+                    } 
+                    
+                    if (index === gpColumnIndex) {
                          console.log('Found GP');
                         td.textContent = cell;
                         const gpValue = parseFloat(cell.replace('%', '').trim()); // Remove the % symbol and parse the value
