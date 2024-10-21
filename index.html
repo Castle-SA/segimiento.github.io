@@ -890,7 +890,7 @@
         function createTableWithLinksAndGP(rows, title, column, hideIdColumn = true) {
 
             console.log('Create GP table thing called');
-            alert('Create GP table thing called');
+            //alert('Create GP table thing called');
             const section = document.createElement('div');
             section.classList.add('table-section');
         
@@ -958,13 +958,13 @@
                             console.log('GP Value:', gpValue);
                             if (!isNaN(gpValue)) {
                                 if (gpValue < 20) {
-                                    td.Color = "brown";
+                                    td.style.backgroundColor = "brown";
                                 } else if (gpValue >= 20 && gpValue < 30) {
-                                    td.Color = "#FFD700"; // Yellow
+                                    td.style.backgroundColor = "#FFD700"; // Yellow
                                 } else if (gpValue >= 30 && gpValue < 45) {
-                                    td.Color = "green";
+                                    td.style.backgroundColor = "green";
                                 } else if (gpValue >= 45) {
-                                    td.Color = "purple";
+                                    td.style.backgroundColor = "purple";
                                 }
                             }
                         }
@@ -977,13 +977,13 @@
                         // If title is "Control GP", apply color logic
                         if (title === 'Control GP' && !isNaN(gpValue)) {
                             if (gpValue < 20) {
-                                td.Color = "brown";
+                                td.style.backgroundColor = "brown";
                             } else if (gpValue >= 20 && gpValue < 30) {
-                                td.Color = "#FFD700"; // Yellow
+                                td.style.backgroundColor = "#FFD700"; // Yellow
                             } else if (gpValue >= 30 && gpValue < 45) {
-                                td.Color = "green";
+                                td.style.backgroundColor = "green";
                             } else if (gpValue >= 45) {
-                                td.Color = "purple";
+                                td.style.backgroundColor = "purple";
                             }
                         }
         
