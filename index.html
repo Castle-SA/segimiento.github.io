@@ -272,6 +272,15 @@
             return rows;
         }
 
+                // Global debug function to ensure logs appear in the console
+        function logDebug(message, data = null) {
+            if (data) {
+                 console.log(`DEBUG: ${message}`, data);
+            } else {
+                 console.log(`DEBUG: ${message}`);
+            }
+        }
+
         // Function to fetch and display CSV for the first column tables with the GP column
         function fetchAndDisplayCSVForColumn1(file, title, column) {
             fetch(file)
@@ -606,14 +615,7 @@
 
        
 
-        // Global debug function to ensure logs appear in the console
-        function logDebug(message, data = null) {
-            if (data) {
-                 console.log(`DEBUG: ${message}`, data);
-            } else {
-                 console.log(`DEBUG: ${message}`);
-            }
-        }
+
         
         function splitPreparacion(rows) {
             // logDebug('splitPreparacion function called');
