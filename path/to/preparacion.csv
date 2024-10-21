@@ -79,7 +79,6 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 39538,279 HONDA MOTOR DE ARGENTINA S.A.,Ejecución de la orden pendiente,Todo Aprobado,Pedido ,Recepción pendiente,T,04169-00056-93,0,20,18/10/2024,EXPRESO CARGO SA,320406,68.0%
 39601,9401339 QUICKFOOD S.A.,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 21341,Remitido,F,PPAR15048T,0,0,18/10/2024,EXPRESO SANTA ROSA,325892,48.0%
 39611,9400761 TECNOLOGIA GRAFICA SRL,Parcialmente ejecutada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 21343,Remitido,F,MTS518B,0,0,18/10/2024,EXPRESO LUJAN DEL CUYO SA,326788,50.0%
-39739,9402126 CON ARGENTINA SRL,Ejecución de la orden pendiente,Todo Aprobado, ,,F,TERM420,76,0,18/10/2024,EXPRESO CARGO SA,334861,56.0%
 39741,1906 SOFTBOND SA,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 21344,Remitido,F,H11/48,0,0,18/10/2024,EXPRESO CARGO SA,334899,68.0%
 39741,1906 SOFTBOND SA,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 21344,Remitido,F,PPAR1048T,0,0,18/10/2024,EXPRESO CARGO SA,334899,50.0%
 39742,1177 POLYGOM SRL,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 21342,Remitido,F,PPAR1048T,0,0,18/10/2024,EXPRESO LUJAN DEL CUYO SA,334900,61.0%
@@ -91,9 +90,16 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 39760,9400223 MERCOTEX SA,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 21347,Remitido,F,PPAR1048T,0,0,18/10/2024,RETIRAN,335695,61.0%
 39773,131 FARMQUIP SRL,Ejecución de la orden pendiente,Todo Aprobado, ,,F,PB/001,0,30,18/10/2024,RETIRAN,336396,42.0%
 39615,9401926 INDUSTRIAS FRIGORIFICAS RECREO SAIC,Ejecución de la orden pendiente,Todo Aprobado, ,,F,PPAR1048T,1908,0,21/10/2024,EXPRESO LANCIONI,327060,49.0%
+39739,9402126 CON ARGENTINA SRL,Facturación pendiente,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 21350,Remitido,F,TERM420,0,0,21/10/2024,EXPRESO CARGO SA,334861,56.0%
+39745,12816 CSI ELECTRONICA SRL,Facturación pendiente,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 21349,Remitido,F,0727/004,0,0,21/10/2024,RICARDO PIERONI,335165,52.0%
 39750,4277 DISTRIBUIDORA PETS SRL,Facturación pendiente,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 21348,Remitido,F,PPAR1048T,0,0,21/10/2024,RICARDO PIERONI,335345,58.0%
+39772,682 MAYO TRANSFORMADORES S.R.L.,Ejecución de la orden pendiente,Todo Aprobado, ,,F,MF512T,69,431,22/10/2024,RICARDO PIERONI,336147,72.0%
 39526,1029 DREAN SA,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Ensamblada,F,0272/005,240,0,24/10/2024,EXPRESO CARGO SA,319118,41.0%
-39745,12816 CSI ELECTRONICA SRL,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Ensamblada,F,0727/004,100,0,24/10/2024,RICARDO PIERONI,335165,52.0%
+39745,12816 CSI ELECTRONICA SRL,Facturación pendiente,Todo Aprobado,Orden de trabajo ,Ensamblada,F,0727/004,0,0,24/10/2024,RICARDO PIERONI,335165,52.0%
+39769,3089 ARNEG ARGENTINA S.A.,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Liberada,F,3089/077,0,10000,25/10/2024,RICARDO PIERONI,336077,63.0%
+39769,3089 ARNEG ARGENTINA S.A.,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Liberada,F,3089/079,0,10000,25/10/2024,RICARDO PIERONI,336077,64.0%
+39769,3089 ARNEG ARGENTINA S.A.,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Liberada,F,3089/034,0,10,25/10/2024,RICARDO PIERONI,336077,89.0%
+39769,3089 ARNEG ARGENTINA S.A.,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Liberada,F,3089/082,0,5000,25/10/2024,RICARDO PIERONI,336077,73.0%
 39589,9401339 QUICKFOOD S.A.,Ejecución de la orden pendiente,Todo Aprobado, ,,F,PPAR1048T,540,0,28/10/2024,BERGAMASCHI OSVALDO RAMON,324878,52.0%
 39684,4095 REFINERIA DEL CENTRO SA,Ejecución de la orden pendiente,Todo Aprobado, ,,F,H11/72,30,0,28/10/2024,EXPRESO SANTA ROSA,330078,66.0%
 39626,9401339 QUICKFOOD S.A.,Ejecución de la orden pendiente,Todo Aprobado, ,,F,PPAR15048T,172,206,30/10/2024,EXPRESO SANTA ROSA,327823,48.0%
@@ -107,7 +113,7 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 39740,272 TALLERES METALURGICOS BAMBI S.A.,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Liberada,F,0272/006,0,120,04/11/2024,FELICI JORGE ARIEL,334898,32.0%
 39169,9400753 RIS S.A,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Liberada,F,9400753/001,0,1008,08/11/2024,EXPRESO CARGO SA,301126,19.0%
 39169,9400753 RIS S.A,Ejecución de la orden pendiente,Todo Aprobado, ,,F,PPAR1048T,288,0,08/11/2024,EXPRESO CARGO SA,301126,48.0%
-38874,105 SCANIA ARGENTINA SAU,Ejecución de la orden pendiente,Todo Aprobado, ,,F,1105/001,0,2000,12/11/2024,BARRY LATIMER,292823,79.0%
+38874,105 SCANIA ARGENTINA SAU,Ejecución de la orden pendiente,Todo Aprobado, ,,F,1105/001,0,2.000,12/11/2024,BARRY LATIMER,292823,79.0%
 38876,3089 ARNEG ARGENTINA S.A.,Ejecución de la orden pendiente,Todo Aprobado, ,,F,3089/082,0,5000,12/11/2024,BARRY LATIMER,292825,62.0%
 39655,3771 PILISAR SA,Ejecución de la orden pendiente,Todo Aprobado, ,,F,04968-LOGROLL,1,0,14/11/2024,BARRY LATIMER,329152,49.0%
 39744,272 TALLERES METALURGICOS BAMBI S.A.,Ejecución de la orden pendiente,Todo Aprobado, ,,F,PPAR1072T,864,0,18/11/2024,FELICI JORGE ARIEL,335117,72.0%
@@ -150,3 +156,4 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 39727,3769 GAROFOLI CONSTRUCCIONES SRL,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Liberada,T,3769/002,0,1440,,RODRIGUEZ HNOS. TRANSP. SA,333694,52.0%
 39727,3769 GAROFOLI CONSTRUCCIONES SRL,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Liberada,T,3769/003,0,1080,,RODRIGUEZ HNOS. TRANSP. SA,333694,65.0%
 39743,4604 TENTO SRL,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Liberada,T,4604/001,0,1008,,RICARDO PIERONI,335017,69.0%
+39770,1269 A.F.A. S.C.L. - RAMALLO UNIDAD VA FORMULADORA,Ejecución de la orden pendiente,Todo Aprobado, ,,F,H11/48,15,0,,EL TERO,336141,68.0%
