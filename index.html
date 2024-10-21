@@ -889,6 +889,8 @@
 
         // Function to create tables with links and GP color-coded column
         function createTableWithLinksAndGP(rows, title, column, hideIdColumn = true) {
+            console.log('Called GP TABLE thing');
+
             const section = document.createElement('div');
             section.classList.add('table-section');
         
@@ -908,6 +910,7 @@
         
             const headerRow = document.createElement('tr');
             headers.forEach((header, index) => {
+                            console.log('For Each Header Row');
                 const th = document.createElement('th');
                 th.textContent = header;
         
@@ -926,6 +929,7 @@
         
                     if (index === idColumnIndex && hideIdColumn) {
                         td.classList.add('hidden');
+                        console.log('Hide ID');
                     }
         
                     if (index === goaColumnIndex) {
@@ -939,8 +943,10 @@
                         const filteredText = cell.split(' ').slice(1).join(' ');
                         td.textContent = filteredText || cell;
                     } else if (index === gpColumnIndex) {
+                         console.log('Found GP');
                         td.textContent = cell;
                         const gpValue = parseFloat(cell.replace('%', '').trim()); // Remove the % symbol and parse the value
+                        console.log('GP Value:', gpValue);
                         if (!isNaN(gpValue)) {
                             if (gpValue < 20) {
                                 td.style.color = 'brown';
