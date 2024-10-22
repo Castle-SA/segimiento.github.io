@@ -1390,11 +1390,12 @@
             // logDebug('Appended Despachado table to column 4');
         }
 
+        fetchAndDisplayCSVForColumn1();
 
         // Fetch CSV files for column 1 (first 4 tables)
-        csvFilesColumn1.forEach(fileInfo => {
-            fetchAndDisplayCSVForColumn1(fileInfo.file, fileInfo.title, fileInfo.column);
-        });
+        //csvFilesColumn1.forEach(fileInfo => {
+        //    fetchAndDisplayCSVForColumn1(fileInfo.file, fileInfo.title, fileInfo.column);
+        //});
 
         // Fetch and display CSV for Producción, Picking, Remisiones Recientes, Despachado (column 2-4)
         fetchAndDisplayCSVForLastTables('path/to/preparacion.csv', 'Preparación', 2);
