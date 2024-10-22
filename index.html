@@ -294,12 +294,21 @@
         //OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO
 
         // Function to fetch and display CSV for the first column tables with the GP column
+        // Function to fetch and display CSV for the first column tables in the correct order
         function fetchAndDisplayCSVForColumn1(index = 0) {
-            if (index >= csvFilesColumn1.length) {
-                return; // Stop if all tables are processed
+            // Make sure index is within the bounds of the array
+            if (index < 0 || index >= csvFilesColumn1.length) {
+                return; // Stop if all tables are processed or if the index is out of bounds
             }
         
             const fileInfo = csvFilesColumn1[index];
+            
+            // Check if fileInfo exists before proceeding
+            if (!fileInfo) {
+                console.error(`Invalid fileInfo at index ${index}`);
+                return;
+            }
+        
             fetch(fileInfo.file)
                 .then(response => response.text())
                 .then(csv => {
