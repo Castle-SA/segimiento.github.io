@@ -294,32 +294,17 @@
         //OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO
 
         // Function to fetch and display CSV for the first column tables with the GP column
-        // Function to fetch and display CSV for the first column tables in the correct order
-        function fetchAndDisplayCSVForColumn1(index = 0) {
-            // Make sure index is within the bounds of the array
-            if (index < 0 || index >= csvFilesColumn1.length) {
-                return; // Stop if all tables are processed or if the index is out of bounds
-            }
-        
-            const fileInfo = csvFilesColumn1[index];
-            
-            // Check if fileInfo exists before proceeding
-            if (!fileInfo) {
-                console.error(`Invalid fileInfo at index ${index}`);
-                return;
-            }
-        
-            fetch(fileInfo.file)
+        function fetchAndDisplayCSVForColumn1(file, title, column) {
+            fetch(file)
                 .then(response => response.text())
                 .then(csv => {
                     let rows = csv.split('\n').map(row => row.split(','));
                     rows = renameColumns(rows);
-                    createTableWithLinksAndGP(rows, fileInfo.title, fileInfo.column);
-                    // Recursively call the function to fetch the next table
-                    fetchAndDisplayCSVForColumn1(index + 1);
+                    //rows = addGPColumn(rows); // Add GP column logic
+                    createTableWithLinksAndGP(rows, title, column);
                 })
-                .catch(error => console.error(`Error fetching ${fileInfo.title} for Column 1:`, error));
-        }
+                .catch(error => console.error(Error fetching ${title} for Column 1:, error));
+        }" function to do this
 
         //OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO
         //OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO
