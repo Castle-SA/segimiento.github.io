@@ -113,8 +113,8 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 39769,3089 ARNEG ARGENTINA S.A.,Facturación pendiente,Todo Aprobado,Ejecución de pedido de artículo 21368,Enviado,F,3089/079,0,-500,23/10/2024,RICARDO PIERONI,336077,64.0%
 39769,3089 ARNEG ARGENTINA S.A.,Facturación pendiente,Todo Aprobado,Ejecución de pedido de artículo 21368,Enviado,F,3089/034,0,0,23/10/2024,RICARDO PIERONI,336077,89.0%
 39769,3089 ARNEG ARGENTINA S.A.,Facturación pendiente,Todo Aprobado,Ejecución de pedido de artículo 21368,Enviado,F,3089/082,0,-520,23/10/2024,RICARDO PIERONI,336077,73.0%
-39775,202 FRIGORIFICO DE AVES SOYCHU SA,Facturación pendiente,Todo Aprobado,Ejecución de pedido de artículo 21369,Enviado,F,PVC612R,0,0,23/10/2024,EXPRESO CARGO SA,336536,64.0%
 39775,202 FRIGORIFICO DE AVES SOYCHU SA,Facturación pendiente,Todo Aprobado,Orden de trabajo ,Ensamblada,F,PVC612R,0,0,23/10/2024,EXPRESO CARGO SA,336536,64.0%
+39775,202 FRIGORIFICO DE AVES SOYCHU SA,Facturación pendiente,Todo Aprobado,Ejecución de pedido de artículo 21369,Enviado,F,PVC612R,0,0,23/10/2024,EXPRESO CARGO SA,336536,64.0%
 39803,279 HONDA MOTOR DE ARGENTINA S.A.,Facturación pendiente,Todo Aprobado,Ejecución de pedido de artículo 21370,Enviado,F,04169-00058-93,0,0,23/10/2024,EXPRESO CARGO SA,337758,67.0%
 39803,279 HONDA MOTOR DE ARGENTINA S.A.,Facturación pendiente,Todo Aprobado,Ejecución de pedido de artículo 21370,Enviado,F,04169-00063-93,0,0,23/10/2024,EXPRESO CARGO SA,337758,59.0%
 39526,1029 DREAN SA,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Ensamblada,F,0272/005,240,0,24/10/2024,EXPRESO CARGO SA,319118,41.0%
@@ -132,6 +132,7 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 39789,202 FRIGORIFICO DE AVES SOYCHU SA,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Ensamblada,F,PVC612R,144,0,29/10/2024,EXPRESO CARGO SA,337062,64.0%
 39790,3089 ARNEG ARGENTINA S.A.,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Liberada,F,3089/029,0,38500,29/10/2024,RICARDO PIERONI,337082,84.0%
 39791,3089 ARNEG ARGENTINA S.A.,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Liberada,F,3089/029,0,33000,29/10/2024,RICARDO PIERONI,337083,84.0%
+39805,9400856 G P V SOCIEDAD ANONIMA (GRUPO PIERO),Ejecución de la orden pendiente,Todo Aprobado, ,,F,9400856/001,0,100,29/10/2024,EXPRESO CARGO SA,337979,100.0%
 39626,9401339 QUICKFOOD S.A.,Ejecución de la orden pendiente,Todo Aprobado, ,,F,PPAR15048T,172,206,30/10/2024,EXPRESO SANTA ROSA,327823,48.0%
 39668,94010 VISUAR SA,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Ensamblada,F,1823/002,193,0,31/10/2024,EXPRESO CARGO SA,329775,53.0%
 39718,9400536 MILKAUT SA,Ejecución de la orden pendiente,Todo Aprobado, ,,F,PPHR15048XT,198,0,31/10/2024,RICARDO PIERONI,332839,53.0%
@@ -179,7 +180,7 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 39608,9401290 GLAMOURAMA SRL,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Liberada,T,9401290/002,0,240,,EXPRESO BRIO SRL,326514,69.0%
 39611,9400761 TECNOLOGIA GRAFICA SRL,Parcialmente ejecutada,Todo Aprobado,Orden de trabajo ,Liberada,T,9400761/001,0,360,,EXPRESO LUJAN DEL CUYO SA,326788,65.0%
 39666,1736 COMPANY SPY SRL,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Liberada,T,1736/001,0,360,,RICARDO PIERONI,329657,72.0%
-39689,6467 INDUSTRIAS JUAN F SECCO S.A.,Parcialmente ejecutada,Todo Aprobado,Orden de trabajo ,Liberada,F,MF550T,0,36,,RICARDO PIERONI,330862,56.0%
+39689,6467 INDUSTRIAS JUAN F SECCO S.A.,Parcialmente ejecutada,Todo Aprobado,Orden de trabajo ,Ensamblada,F,MF550T,36,0,,RICARDO PIERONI,330862,56.0%
 39693,3560 MEC PARTS SRL,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Liberada,T,3560/001,0,360,,EXPRESO BRIO SRL,331107,65.0%
 39727,3769 GAROFOLI CONSTRUCCIONES SRL,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Liberada,T,3769/002,0,1440,,RODRIGUEZ HNOS. TRANSP. SA,333694,52.0%
 39727,3769 GAROFOLI CONSTRUCCIONES SRL,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Liberada,T,3769/003,0,1080,,RODRIGUEZ HNOS. TRANSP. SA,333694,65.0%
