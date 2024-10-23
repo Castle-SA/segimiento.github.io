@@ -114,8 +114,8 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 39769,3089 ARNEG ARGENTINA S.A.,Facturación pendiente,Todo Aprobado,Ejecución de pedido de artículo 21368,Enviado,F,3089/079,0,-500,23/10/2024,RICARDO PIERONI,336077,64.0%
 39769,3089 ARNEG ARGENTINA S.A.,Facturación pendiente,Todo Aprobado,Ejecución de pedido de artículo 21368,Enviado,F,3089/034,0,0,23/10/2024,RICARDO PIERONI,336077,89.0%
 39769,3089 ARNEG ARGENTINA S.A.,Facturación pendiente,Todo Aprobado,Ejecución de pedido de artículo 21368,Enviado,F,3089/082,0,-520,23/10/2024,RICARDO PIERONI,336077,73.0%
-39775,202 FRIGORIFICO DE AVES SOYCHU SA,Facturación pendiente,Todo Aprobado,Orden de trabajo ,Ensamblada,F,PVC612R,0,0,23/10/2024,EXPRESO CARGO SA,336536,64.0%
 39775,202 FRIGORIFICO DE AVES SOYCHU SA,Facturación pendiente,Todo Aprobado,Ejecución de pedido de artículo 21369,Enviado,F,PVC612R,0,0,23/10/2024,EXPRESO CARGO SA,336536,64.0%
+39775,202 FRIGORIFICO DE AVES SOYCHU SA,Facturación pendiente,Todo Aprobado,Orden de trabajo ,Ensamblada,F,PVC612R,0,0,23/10/2024,EXPRESO CARGO SA,336536,64.0%
 39803,279 HONDA MOTOR DE ARGENTINA S.A.,Facturación pendiente,Todo Aprobado,Ejecución de pedido de artículo 21370,Enviado,F,04169-00058-93,0,0,23/10/2024,EXPRESO CARGO SA,337758,67.0%
 39803,279 HONDA MOTOR DE ARGENTINA S.A.,Facturación pendiente,Todo Aprobado,Ejecución de pedido de artículo 21370,Enviado,F,04169-00063-93,0,0,23/10/2024,EXPRESO CARGO SA,337758,59.0%
 39806,9402175 SEBASTIAN SANCHEZ RODRIGO,Facturación pendiente,Todo Aprobado,Ejecución de pedido de artículo 21372,Enviado,F,PPAR1048T,0,0,23/10/2024,TRANSPORTE TOMASSINI,338086,0.0%
@@ -129,6 +129,8 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 39769,3089 ARNEG ARGENTINA S.A.,Facturación pendiente,Todo Aprobado,Orden de trabajo ,Ensamblada,F,3089/034,0,0,25/10/2024,RICARDO PIERONI,336077,89.0%
 39769,3089 ARNEG ARGENTINA S.A.,Facturación pendiente,Todo Aprobado,Orden de trabajo ,Ensamblada,F,3089/082,0,-520,25/10/2024,RICARDO PIERONI,336077,73.0%
 39807,50 DADA S.A.,Ejecución de la orden pendiente,Todo Aprobado, ,,F,MVAQUA300,40,0,25/10/2024,EXPRESO CARGO SA,338151,55.0%
+39808,9401272 RED CHAMBER ARGENTINA SA,Ejecución de la orden pendiente,Todo Aprobado, ,,F,PPAR1072T,3600,0,25/10/2024,TRANSPORTE TOMASSINI,338152,47.0%
+39809,126 DROGUERIA ROSFAR,Ejecución de la orden pendiente,Todo Aprobado, ,,F,H11/72,5,0,25/10/2024,RICARDO PIERONI,338264,68.0%
 39589,9401339 QUICKFOOD S.A.,Ejecución de la orden pendiente,Todo Aprobado, ,,F,PPAR1048T,540,0,28/10/2024,BERGAMASCHI OSVALDO RAMON,324878,52.0%
 39615,9401926 INDUSTRIAS FRIGORIFICAS RECREO SAIC,Ejecución de la orden pendiente,Todo Aprobado, ,,F,PPAR1048T,1908,0,28/10/2024,TRANSPORTE PEDRITO,327060,49.0%
 39684,4095 REFINERIA DEL CENTRO SA,Ejecución de la orden pendiente,Todo Aprobado, ,,F,H11/72,30,0,28/10/2024,EXPRESO SANTA ROSA,330078,66.0%
@@ -139,8 +141,9 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 39789,202 FRIGORIFICO DE AVES SOYCHU SA,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Ensamblada,F,PVC612R,144,0,29/10/2024,EXPRESO CARGO SA,337062,64.0%
 39790,3089 ARNEG ARGENTINA S.A.,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Liberada,F,3089/029,0,38500,29/10/2024,RICARDO PIERONI,337082,84.0%
 39791,3089 ARNEG ARGENTINA S.A.,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Liberada,F,3089/029,0,33000,29/10/2024,RICARDO PIERONI,337083,84.0%
-39805,9400856 G P V SOCIEDAD ANONIMA (GRUPO PIERO),Ejecución de la orden pendiente,Todo Aprobado, ,,F,9400856/001,0,100,29/10/2024,EXPRESO CARGO SA,337979,100.0%
+39805,9400856 G P V SOCIEDAD ANONIMA (GRUPO PIERO),Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Liberada,F,9400856/001,0,100,29/10/2024,EXPRESO CARGO SA,337979,100.0%
 39626,9401339 QUICKFOOD S.A.,Ejecución de la orden pendiente,Todo Aprobado, ,,F,PPAR15048T,172,206,30/10/2024,EXPRESO SANTA ROSA,327823,48.0%
+39810,9400283 FEPASA (FRIGORIFICO ENTRERRIANO DE PRODUCTORES AVICOLAS S.A),Ejecución de la orden pendiente,Todo Aprobado, ,,F,9400283/002,0,360,30/10/2024,TRANSPORTE MOSTTO,338265,41.0%
 39668,94010 VISUAR SA,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Ensamblada,F,1823/002,193,0,31/10/2024,EXPRESO CARGO SA,329775,53.0%
 39718,9400536 MILKAUT SA,Ejecución de la orden pendiente,Todo Aprobado, ,,F,PPHR15048XT,198,0,31/10/2024,RICARDO PIERONI,332839,53.0%
 39737,9400338 ESTABLECIMIENTO MODELO LAS COLONIAS S A,Ejecución de la orden pendiente,Todo Aprobado, ,,F,PPAR15048T,29,31,31/10/2024,TRANSPORTE SNAIDER,334748,50.0%
@@ -166,6 +169,10 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 39565,272 TALLERES METALURGICOS BAMBI S.A.,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Liberada,F,0272/005,0,1200,20/11/2024,BARRY LATIMER,322934,41.0%
 39565,272 TALLERES METALURGICOS BAMBI S.A.,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Liberada,F,0272/006,0,240,20/11/2024,BARRY LATIMER,322934,33.0%
 39720,5019 GRANJA TRES ARROYOS SACAFEI,Ejecución de la orden pendiente,Todo Aprobado, ,,F,5019/002,252,0,25/11/2024,EXPRESO CARGO SA,332941,73.0%
+39765,202 FRIGORIFICO DE AVES SOYCHU SA,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Liberada,F,PVC612R,0,864,25/11/2024,EXPRESO CARGO SA,335964,60.0%
+39765,202 FRIGORIFICO DE AVES SOYCHU SA,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Liberada,F,PPHR1216B,0,848,25/11/2024,EXPRESO CARGO SA,335964,46.0%
+39778,202 FRIGORIFICO DE AVES SOYCHU SA,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Liberada,F,PPHR1216B,0,300,25/11/2024,EXPRESO CARGO SA,336553,46.0%
+39778,202 FRIGORIFICO DE AVES SOYCHU SA,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Ensamblada,F,PVC612R,180,0,25/11/2024,EXPRESO CARGO SA,336553,60.0%
 39590,9401339 QUICKFOOD S.A.,Ejecución de la orden pendiente,Todo Aprobado, ,,F,PPAR15048T,180,0,28/11/2024,BERGAMASCHI OSVALDO RAMON,324879,48.0%
 38014,50 DADA S.A.,Ejecución de la orden pendiente,Todo Aprobado, ,,F,VCI410,1500,0,30/11/2024,EXPRESO CARGO SA,264848,70.0%
 39774,9401339 QUICKFOOD S.A.,Ejecución de la orden pendiente,Todo Aprobado, ,,F,PPAR1048T,540,0,02/12/2024,BERGAMASCHI OSVALDO RAMON,336417,58.0%
@@ -174,6 +181,10 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 38511,4733 TECNOSISTEM SRL,Ejecución de la orden pendiente,Todo Aprobado, ,,F,MTS548B,540,0,20/12/2024,EXPRESO CARGO SA,281743,62.0%
 38511,4733 TECNOSISTEM SRL,Ejecución de la orden pendiente,Todo Aprobado, ,,F,MTS536B,480,0,20/12/2024,EXPRESO CARGO SA,281743,46.0%
 38511,4733 TECNOSISTEM SRL,Ejecución de la orden pendiente,Todo Aprobado, ,,F,PPAR1048T,180,0,20/12/2024,EXPRESO CARGO SA,281743,0.0%
+39766,202 FRIGORIFICO DE AVES SOYCHU SA,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Liberada,F,PVC612R,0,864,23/12/2024,EXPRESO CARGO SA,335965,60.0%
+39766,202 FRIGORIFICO DE AVES SOYCHU SA,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Liberada,F,PPHR1216B,0,848,23/12/2024,EXPRESO CARGO SA,335965,46.0%
+39779,202 FRIGORIFICO DE AVES SOYCHU SA,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Liberada,F,PPHR1216B,0,300,23/12/2024,EXPRESO CARGO SA,336554,46.0%
+39779,202 FRIGORIFICO DE AVES SOYCHU SA,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Ensamblada,F,PVC612R,180,0,23/12/2024,EXPRESO CARGO SA,336554,60.0%
 37682,3096 FRECICAR SRL,Ejecución de la orden pendiente,Todo Aprobado, ,,F,52330-00040-00,7,0,03/01/2025,RICARDO PIERONI,253463,51.0%
 37683,3096 FRECICAR SRL,Ejecución de la orden pendiente,Todo Aprobado, ,,F,52330-00040-00,7,0,03/02/2025,RICARDO PIERONI,253464,51.0%
 37684,3096 FRECICAR SRL,Ejecución de la orden pendiente,Todo Aprobado, ,,F,52330-00040-00,7,0,03/03/2025,RICARDO PIERONI,253465,51.0%
