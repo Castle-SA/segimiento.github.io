@@ -293,6 +293,9 @@
         //OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO
         //OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO
 
+        function findIdColumnIndex(headers) {
+            return headers.findIndex(header => header.trim().toLowerCase() === 'id');
+        }
         // Function to fetch and display CSV for the first column tables in the correct order
         function fetchAndDisplayCSVForColumn1(index = 0) {
             // Make sure index is within the bounds of the array
@@ -947,7 +950,7 @@
             console.log('HEADERS', headers);
 
 
-            console.log('GP Column Index', gpColumnIndex);
+            console.log('ID Column Index', idColumnIndex);
         
             const headerRow = document.createElement('tr');
             headers.forEach((header, index) => {
@@ -976,8 +979,10 @@
                     if (index === goaColumnIndex) {
                         const id = row[idColumnIndex]?.trim();
                         if (id && cell) {
+                            console.log('ID thing hyperlink');
                             td.innerHTML = `<a href="https://4294049.app.netsuite.com/app/accounting/transactions/salesord.nl?id=${id}&whence=" target="_blank">${cell}</a>`;
                         } else {
+                            console.log('Didnt find it');
                             td.textContent = cell;
                         }
                     } 
