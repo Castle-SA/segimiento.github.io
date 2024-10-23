@@ -978,6 +978,10 @@
         
                     if (index === goaColumnIndex) {
                         const id = row[idColumnIndex]?.trim();
+
+                            console.log('Creating hyperlink for row:', row);  // Debug log
+                            console.log('ID value:', id);                     // Debug log
+                            console.log('GOA value:', cell);                  // Debug log
                         if (id && cell) {
                             console.log('ID thing hyperlink');
                             td.innerHTML = `<a href="https://4294049.app.netsuite.com/app/accounting/transactions/salesord.nl?id=${id}&whence=" target="_blank">${cell}</a>`;
