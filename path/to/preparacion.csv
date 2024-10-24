@@ -1,5 +1,5 @@
 Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. Especial,Pedido,Artículo,Cantidad,Faltante,Fecha,Transportista,ID,GP
-39466,64 ALL PUMPS ARGENTINA SA,Ejecución de la orden pendiente,Todo Aprobado,Pedido ,Recepción pendiente,T,0064/0013,0,350,18/09/2024,TRANSPORTE TOMASSINI,315285,61.0%
+39466,64 ALL PUMPS ARGENTINA SA,Ejecución de la orden pendiente,Todo Aprobado,Pedido ,Factura pendiente,T,0064/0013,350,0,18/09/2024,TRANSPORTE TOMASSINI,315285,61.0%
 39561,4628 KELES MARIO LEONARDO,Parcialmente ejecutada,Todo Aprobado,Pedido ,Recepción pendiente,T,HWF125,0,100,09/10/2024,RICARDO PIERONI,322676,52.0%
 39280,9400536 MILKAUT SA,Facturada,Todo Aprobado,Ejecución de pedido de artículo 21304,Enviado,F,PPHR15048XT,0,0,15/10/2024,RICARDO PIERONI,304957,62.0%
 39461,3051 FRIMETAL S.A.,Facturada,Todo Aprobado,Ejecución de pedido de artículo 21289,Enviado,F,3051/017,0,-1600,15/10/2024,FELICI JORGE ARIEL,315032,56.0%
@@ -205,7 +205,7 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 37676,3096 FRECICAR SRL,Ejecución de la orden pendiente,Todo Aprobado, ,,F,52330-00040-00,7,0,,RICARDO PIERONI,253456,51.0%
 38013,50 DADA S.A.,Ejecución de la orden pendiente,Todo Aprobado, ,,F,VCI410,1500,0,,EXPRESO CARGO SA,264847,70.0%
 39561,4628 KELES MARIO LEONARDO,Parcialmente ejecutada,Todo Aprobado,Orden de trabajo ,Ensamblada,F,3901/001,0,0,,RICARDO PIERONI,322676,50.0%
-39563,12837 FRIGORIFICO SAN FRANCISCO S.A,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Liberada,T,2837/001,0,1152,,TRANSPORTE CARROSIO Y VAIROLATTI,322805,69.0%
+39563,12837 FRIGORIFICO SAN FRANCISCO S.A,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Ensamblada,T,2837/001,1152,0,,TRANSPORTE CARROSIO Y VAIROLATTI,322805,69.0%
 39608,9401290 GLAMOURAMA SRL,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Liberada,T,9401290/002,0,240,,EXPRESO BRIO SRL,326514,69.0%
 39611,9400761 TECNOLOGIA GRAFICA SRL,Parcialmente ejecutada,Todo Aprobado,Orden de trabajo ,Liberada,T,9400761/001,0,360,,EXPRESO LUJAN DEL CUYO SA,326788,65.0%
 39666,1736 COMPANY SPY SRL,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Liberada,T,1736/001,0,360,,RICARDO PIERONI,329657,72.0%
