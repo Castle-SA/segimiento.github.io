@@ -1,6 +1,6 @@
 Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. Especial,Pedido,Artículo,Cantidad,Faltante,Fecha,Transportista,ID,GP
 39466,64 ALL PUMPS ARGENTINA SA,Facturación pendiente,Todo Aprobado,Pedido ,Factura pendiente,T,0064/0013,0,-23,18/09/2024,TRANSPORTE TOMASSINI,315285,61.0%
-39561,4628 KELES MARIO LEONARDO,Parcialmente ejecutada,Todo Aprobado,Pedido ,Recepción pendiente,T,HWF125,0,100,09/10/2024,RICARDO PIERONI,322676,52.0%
+39561,4628 KELES MARIO LEONARDO,Parcialmente ejecutada,Todo Aprobado,Pedido ,Facturación pendiente/parcialmente recibido,T,HWF125,78,22,09/10/2024,RICARDO PIERONI,322676,52.0%
 38509,4733 TECNOSISTEM SRL,Facturada,Todo Aprobado,Ejecución de pedido de artículo 21316,Enviado,F,MTS548B,0,0,16/10/2024,EXPRESO CARGO SA,281741,62.0%
 38509,4733 TECNOSISTEM SRL,Facturada,Todo Aprobado,Ejecución de pedido de artículo 21316,Enviado,F,MTS536B,0,0,16/10/2024,EXPRESO CARGO SA,281741,46.0%
 38509,4733 TECNOSISTEM SRL,Facturada,Todo Aprobado,Ejecución de pedido de artículo 21316,Enviado,F,PPAR1048T,0,0,16/10/2024,EXPRESO CARGO SA,281741,0.0%
@@ -121,6 +121,7 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 39820,383 JOHNSON ACERO S.A. Industrial y Comercial,Ejecución de la orden pendiente,Todo Aprobado, ,,F,MTS548B,1080,0,28/10/2024,RICARDO PIERONI,338731,56.0%
 39820,383 JOHNSON ACERO S.A. Industrial y Comercial,Ejecución de la orden pendiente,Todo Aprobado, ,,F,PPAR1048T,4320,0,28/10/2024,RICARDO PIERONI,338731,48.0%
 39827,9401221 COOMARPES LTDA,Ejecución de la orden pendiente,Todo Aprobado, ,,F,PPAR1048T,180,0,28/10/2024,TRANSPORTE TOMASSINI,339328,48.0%
+39832,9402122 VASSALLI FABRIL SOCIEDAD ANONIMA,Ejecución de la orden pendiente,Todo Aprobado, ,,F,MVAQUA180,200,0,28/10/2024,ALMAR ROSARIO SRL,339654,34.0%
 39788,9401460 INDUBOL SA,Ejecución de la orden pendiente,Todo Aprobado, ,,F,64621-00048-00,144,0,29/10/2024,DIAZ ANIBAL (COMISIONISTA),337061,59.0%
 39789,202 FRIGORIFICO DE AVES SOYCHU SA,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Ensamblada,F,PVC612R,144,0,29/10/2024,EXPRESO CARGO SA,337062,64.0%
 39790,3089 ARNEG ARGENTINA S.A.,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Liberada,F,3089/029,0,38500,29/10/2024,RICARDO PIERONI,337082,84.0%
