@@ -1,7 +1,6 @@
 Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. Especial,Pedido,Artículo,Cantidad,Faltante,Fecha,Transportista,ID,GP
 39466,64 ALL PUMPS ARGENTINA SA,Facturación pendiente,Todo Aprobado,Pedido ,Factura pendiente,T,0064/0013,0,-23,18/09/2024,TRANSPORTE TOMASSINI,315285,61.0%
 39561,4628 KELES MARIO LEONARDO,Parcialmente ejecutada,Todo Aprobado,Pedido ,Facturación pendiente/parcialmente recibido,T,HWF125,78,22,09/10/2024,RICARDO PIERONI,322676,52.0%
-39685,2660 VICUNHA ARGENTINA SA (Tintoreria Ullum),Ejecución de la orden pendiente,Todo Aprobado, ,,F,MTS536B,2400,0,09/10/2024,EXPRESO CARGO SA,330381,51.0%
 39538,279 HONDA MOTOR DE ARGENTINA S.A.,Ejecución de la orden pendiente,Todo Aprobado,Pedido ,Recepción pendiente,T,04169-00056-93,0,20,18/10/2024,EXPRESO CARGO SA,320406,68.0%
 39531,9400338 ESTABLECIMIENTO MODELO LAS COLONIAS S A,Facturada,Todo Aprobado,Ejecución de pedido de artículo 21354,Enviado,F,PPAR15048T,0,0,21/10/2024,TRANSPORTE SNAIDER,319883,59.0%
 39739,9402126 CON ARGENTINA SRL,Facturada,Todo Aprobado,Ejecución de pedido de artículo 21350,Enviado,F,TERM420,0,0,21/10/2024,EXPRESO CARGO SA,334861,56.0%
@@ -59,7 +58,8 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 39821,3045 VENSAL HNOS SA.,Ejecución de la orden pendiente,Todo Aprobado, ,,F,CH523EXR,60,0,25/10/2024,EXPRESO CARGO SA,338848,53.0%
 39821,3045 VENSAL HNOS SA.,Ejecución de la orden pendiente,Todo Aprobado, ,,F,PPAR1048T,72,0,25/10/2024,EXPRESO CARGO SA,338848,73.0%
 39615,9401926 INDUSTRIAS FRIGORIFICAS RECREO SAIC,Ejecución de la orden pendiente,Todo Aprobado, ,,F,PPAR1048T,1908,0,28/10/2024,TRANSPORTE PEDRITO,327060,49.0%
-39684,4095 REFINERIA DEL CENTRO SA,Ejecución de la orden pendiente,Todo Aprobado, ,,F,H11/72,30,0,28/10/2024,EXPRESO SANTA ROSA,330078,66.0%
+39684,4095 REFINERIA DEL CENTRO SA,Facturación pendiente,Todo Aprobado,Ejecución de pedido de artículo 21390,Enviado,F,H11/72,0,0,28/10/2024,EXPRESO SANTA ROSA,330078,66.0%
+39685,2660 VICUNHA ARGENTINA SA (Tintoreria Ullum),Facturación pendiente,Todo Aprobado,Ejecución de pedido de artículo 21389,Enviado,F,MTS536B,0,0,28/10/2024,EXPRESO CARGO SA,330381,51.0%
 39761,143 EPTA ARGENTINA S.A.,Facturación pendiente/parcialmente ejecutada,Todo Aprobado,Ejecución de pedido de artículo 21388,Enviado,F,MTS536B,0,0,28/10/2024,RICARDO PIERONI,335797,56.0%
 39777,202 FRIGORIFICO DE AVES SOYCHU SA,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Ensamblada,F,PPHR1216B,300,0,28/10/2024,EXPRESO CARGO SA,336552,46.0%
 39777,202 FRIGORIFICO DE AVES SOYCHU SA,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Ensamblada,F,PVC612R,180,0,28/10/2024,EXPRESO CARGO SA,336552,60.0%
