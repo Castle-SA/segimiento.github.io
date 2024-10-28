@@ -60,7 +60,7 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 39615,9401926 INDUSTRIAS FRIGORIFICAS RECREO SAIC,Ejecución de la orden pendiente,Todo Aprobado, ,,F,PPAR1048T,1908,0,28/10/2024,TRANSPORTE PEDRITO,327060,49.0%
 39684,4095 REFINERIA DEL CENTRO SA,Facturación pendiente,Todo Aprobado,Ejecución de pedido de artículo 21390,Enviado,F,H11/72,0,0,28/10/2024,EXPRESO SANTA ROSA,330078,66.0%
 39685,2660 VICUNHA ARGENTINA SA (Tintoreria Ullum),Facturación pendiente,Todo Aprobado,Ejecución de pedido de artículo 21389,Enviado,F,MTS536B,0,0,28/10/2024,EXPRESO CARGO SA,330381,51.0%
-39761,143 EPTA ARGENTINA S.A.,Facturación pendiente/parcialmente ejecutada,Todo Aprobado,Ejecución de pedido de artículo 21388,Enviado,F,MTS536B,0,0,28/10/2024,RICARDO PIERONI,335797,56.0%
+39761,143 EPTA ARGENTINA S.A.,Parcialmente ejecutada,Todo Aprobado,Ejecución de pedido de artículo 21388,Enviado,F,MTS536B,0,0,28/10/2024,RICARDO PIERONI,335797,56.0%
 39777,202 FRIGORIFICO DE AVES SOYCHU SA,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Ensamblada,F,PPHR1216B,300,0,28/10/2024,EXPRESO CARGO SA,336552,46.0%
 39777,202 FRIGORIFICO DE AVES SOYCHU SA,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Ensamblada,F,PVC612R,180,0,28/10/2024,EXPRESO CARGO SA,336552,60.0%
 39819,9401935 AGROINDUSTRIAS REGIONALES SA,Facturación pendiente,Todo Aprobado,Ejecución de pedido de artículo 21397,Enviado,F,PPHR15048XT,0,0,28/10/2024,EXPRESO SANTA ROSA,338730,0.0%
@@ -83,7 +83,7 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 39788,9401460 INDUBOL SA,Ejecución de la orden pendiente,Todo Aprobado, ,,F,64621-00048-00,144,0,29/10/2024,DIAZ ANIBAL (COMISIONISTA),337061,59.0%
 39789,202 FRIGORIFICO DE AVES SOYCHU SA,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Ensamblada,F,PVC612R,144,0,29/10/2024,EXPRESO CARGO SA,337062,64.0%
 39790,3089 ARNEG ARGENTINA S.A.,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Liberada,F,3089/029,0,38500,29/10/2024,RICARDO PIERONI,337082,84.0%
-39791,3089 ARNEG ARGENTINA S.A.,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Liberada,F,3089/029,0,33000,29/10/2024,RICARDO PIERONI,337083,84.0%
+39791,3089 ARNEG ARGENTINA S.A.,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Ensamblada,F,3089/029,33000,0,29/10/2024,RICARDO PIERONI,337083,84.0%
 39805,9400856 G P V SOCIEDAD ANONIMA (GRUPO PIERO),Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Ensamblada,F,9400856/001,100,0,29/10/2024,EXPRESO CARGO SA,337979,100.0%
 39843,1057 BAGS CONFIAD S.A.,Ejecución de la orden pendiente,Todo Aprobado, ,,F,PPAR1048T,360,0,29/10/2024,FELICI JORGE ARIEL,340235,61.0%
 39843,1057 BAGS CONFIAD S.A.,Ejecución de la orden pendiente,Todo Aprobado, ,,F,MTS524B,360,0,29/10/2024,FELICI JORGE ARIEL,340235,48.0%
@@ -158,7 +158,6 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 39727,3769 GAROFOLI CONSTRUCCIONES SRL,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Liberada,T,3769/002,0,1440,,RODRIGUEZ HNOS. TRANSP. SA,333694,52.0%
 39727,3769 GAROFOLI CONSTRUCCIONES SRL,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Liberada,T,3769/003,0,1080,,RODRIGUEZ HNOS. TRANSP. SA,333694,65.0%
 39743,4604 TENTO SRL,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Liberada,T,4604/001,0,1008,,RICARDO PIERONI,335017,69.0%
-39761,143 EPTA ARGENTINA S.A.,Facturación pendiente/parcialmente ejecutada,Todo Aprobado, ,,F,0143/024,0,220,,RICARDO PIERONI,335797,53.0%
 39767,1188 DENSO MANUFACTURING ARGENTINA SA,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Liberada,T,1188/002,0,540,,EXPRESO CARGO SA,335966,66.0%
 39810,9400283 FEPASA (FRIGORIFICO ENTRERRIANO DE PRODUCTORES AVICOLAS S.A),Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Liberada,T,9400283/002,0,360,,TRANSPORTE MOSTTO,338265,41.0%
 39824,9401272 RED CHAMBER ARGENTINA SA,Ejecución de la orden pendiente,Todo Aprobado, ,,F,9401272/001,0,1080,,TRANSPORTE TOMASSINI,339113,85.0%
