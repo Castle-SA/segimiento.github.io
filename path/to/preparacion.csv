@@ -57,6 +57,7 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 39804,992 ESKABE SA,Facturación pendiente,Todo Aprobado,Ejecución de pedido de artículo 21387,Enviado,F,PVC624A,0,0,25/10/2024,EXPRESO CARGO SA,337858,86.0%
 39821,3045 VENSAL HNOS SA.,Ejecución de la orden pendiente,Todo Aprobado, ,,F,CH523EXR,60,0,25/10/2024,EXPRESO CARGO SA,338848,53.0%
 39821,3045 VENSAL HNOS SA.,Ejecución de la orden pendiente,Todo Aprobado, ,,F,PPAR1048T,72,0,25/10/2024,EXPRESO CARGO SA,338848,73.0%
+39841,126 DROGUERIA ROSFAR,Ejecución de la orden pendiente,Todo Aprobado, ,,F,H11/72,5,0,26/10/2024,RETIRAN,340233,73.0%
 39615,9401926 INDUSTRIAS FRIGORIFICAS RECREO SAIC,Ejecución de la orden pendiente,Todo Aprobado, ,,F,PPAR1048T,1908,0,28/10/2024,TRANSPORTE PEDRITO,327060,49.0%
 39684,4095 REFINERIA DEL CENTRO SA,Facturación pendiente,Todo Aprobado,Ejecución de pedido de artículo 21390,Enviado,F,H11/72,0,0,28/10/2024,EXPRESO SANTA ROSA,330078,66.0%
 39685,2660 VICUNHA ARGENTINA SA (Tintoreria Ullum),Facturación pendiente,Todo Aprobado,Ejecución de pedido de artículo 21389,Enviado,F,MTS536B,0,0,28/10/2024,EXPRESO CARGO SA,330381,51.0%
@@ -67,16 +68,22 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 39820,383 JOHNSON ACERO S.A. Industrial y Comercial,Ejecución de la orden pendiente,Todo Aprobado, ,,F,MTS518B,864,0,28/10/2024,RICARDO PIERONI,338731,48.0%
 39820,383 JOHNSON ACERO S.A. Industrial y Comercial,Ejecución de la orden pendiente,Todo Aprobado, ,,F,MTS548B,1080,0,28/10/2024,RICARDO PIERONI,338731,56.0%
 39820,383 JOHNSON ACERO S.A. Industrial y Comercial,Ejecución de la orden pendiente,Todo Aprobado, ,,F,PPAR1048T,4320,0,28/10/2024,RICARDO PIERONI,338731,48.0%
-39827,9401221 COOMARPES LTDA,Ejecución de la orden pendiente,Todo Aprobado, ,,F,PPAR1048T,180,0,28/10/2024,TRANSPORTE TOMASSINI,339328,48.0%
+39827,9401221 COOMARPES LTDA,Facturación pendiente,Todo Aprobado,Ejecución de pedido de artículo 21392,Enviado,F,PPAR1048T,0,0,28/10/2024,TRANSPORTE TOMASSINI,339328,48.0%
 39832,9402122 VASSALLI FABRIL SOCIEDAD ANONIMA,Ejecución de la orden pendiente,Todo Aprobado, ,,F,MVAQUA180,200,0,28/10/2024,ALMAR ROSARIO SRL,339654,34.0%
 39837,9400962 CRYSTAL-ICE SRL,Ejecución de la orden pendiente,Todo Aprobado, ,,F,PPA1548TE,1080,0,28/10/2024,RICARDO PIERONI,339912,36.0%
 39837,9400962 CRYSTAL-ICE SRL,Ejecución de la orden pendiente,Todo Aprobado, ,,F,2068/002,0,180,28/10/2024,RICARDO PIERONI,339912,48.0%
+39838,9402179 SM PACKING SA,Ejecución de la orden pendiente,Todo Aprobado, ,,F,PPAR1048T,720,0,28/10/2024,EXPRESO CARGO SA,339913,56.0%
+39840,132 MAHLE VALVULAS DE ARGENTINA SA,Facturación pendiente,Todo Aprobado,Ejecución de pedido de artículo 21391,Enviado,F,BV002,0,0,28/10/2024,EXPRESO SANTA ROSA,340172,64.0%
 39788,9401460 INDUBOL SA,Ejecución de la orden pendiente,Todo Aprobado, ,,F,64621-00048-00,144,0,29/10/2024,DIAZ ANIBAL (COMISIONISTA),337061,59.0%
 39789,202 FRIGORIFICO DE AVES SOYCHU SA,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Ensamblada,F,PVC612R,144,0,29/10/2024,EXPRESO CARGO SA,337062,64.0%
 39790,3089 ARNEG ARGENTINA S.A.,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Liberada,F,3089/029,0,38500,29/10/2024,RICARDO PIERONI,337082,84.0%
 39791,3089 ARNEG ARGENTINA S.A.,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Liberada,F,3089/029,0,33000,29/10/2024,RICARDO PIERONI,337083,84.0%
 39805,9400856 G P V SOCIEDAD ANONIMA (GRUPO PIERO),Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Ensamblada,F,9400856/001,100,0,29/10/2024,EXPRESO CARGO SA,337979,100.0%
-39840,132 MAHLE VALVULAS DE ARGENTINA SA,Ejecución de la orden pendiente,Todo Aprobado, ,,F,BV002,160,0,29/10/2024,EXPRESO SANTA ROSA,340172,64.0%
+39843,1057 BAGS CONFIAD S.A.,Ejecución de la orden pendiente,Todo Aprobado, ,,F,PPAR1048T,360,0,29/10/2024,FELICI JORGE ARIEL,340235,61.0%
+39843,1057 BAGS CONFIAD S.A.,Ejecución de la orden pendiente,Todo Aprobado, ,,F,MTS524B,360,0,29/10/2024,FELICI JORGE ARIEL,340235,48.0%
+39847,1606 DANES SRL,Ejecución de la orden pendiente,Todo Aprobado, ,,F,MTS518B,576,0,29/10/2024,EXPRESO BRIO SRL,340238,50.0%
+39846,3333 CHRISTY ERNESTO JUAN,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Ensamblada,F,04965-00176-00,48,0,29/10/2024,TRANSPORTE TOMASSINI,340334,56.0%
+39848,2414 TAPALQUE ALIMENTOS SA,Ejecución de la orden pendiente,Todo Aprobado, ,,F,H11/CPE,3,0,29/10/2024,EXPRESO CARGO SA,340335,70.0%
 39626,9401339 QUICKFOOD S.A.,Ejecución de la orden pendiente,Todo Aprobado, ,,F,PPAR15048T,352,26,30/10/2024,EXPRESO SANTA ROSA,327823,48.0%
 39813,202 FRIGORIFICO DE AVES SOYCHU SA,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Ensamblada,F,PPHR1216B,850,0,30/10/2024,EXPRESO CARGO SA,338499,46.0%
 39813,202 FRIGORIFICO DE AVES SOYCHU SA,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Liberada,F,PVC612R,0,500,30/10/2024,EXPRESO CARGO SA,338499,60.0%
@@ -121,7 +128,7 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 38014,50 DADA S.A.,Ejecución de la orden pendiente,Todo Aprobado, ,,F,VCI410,1500,0,30/11/2024,EXPRESO CARGO SA,264848,70.0%
 39774,9401339 QUICKFOOD S.A.,Ejecución de la orden pendiente,Todo Aprobado, ,,F,PPAR1048T,540,0,02/12/2024,BERGAMASCHI OSVALDO RAMON,336417,58.0%
 39170,9400753 RIS S.A,Ejecución de la orden pendiente,Todo Aprobado, ,,F,PPAR1048T,288,0,06/12/2024,EXPRESO CARGO SA,301129,48.0%
-39170,9400753 RIS S.A,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Liberada,F,9400753/001,0,1.008,06/12/2024,EXPRESO CARGO SA,301129,19.0%
+39170,9400753 RIS S.A,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Liberada,F,9400753/001,0,1008,06/12/2024,EXPRESO CARGO SA,301129,19.0%
 38511,4733 TECNOSISTEM SRL,Ejecución de la orden pendiente,Todo Aprobado, ,,F,MTS548B,540,0,20/12/2024,EXPRESO CARGO SA,281743,62.0%
 38511,4733 TECNOSISTEM SRL,Ejecución de la orden pendiente,Todo Aprobado, ,,F,MTS536B,480,0,20/12/2024,EXPRESO CARGO SA,281743,46.0%
 38511,4733 TECNOSISTEM SRL,Ejecución de la orden pendiente,Todo Aprobado, ,,F,PPAR1048T,180,0,20/12/2024,EXPRESO CARGO SA,281743,0.0%
