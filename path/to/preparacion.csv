@@ -83,7 +83,7 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 39846,3333 CHRISTY ERNESTO JUAN,Facturada,Todo Aprobado,Ejecución de pedido de artículo 21396,Enviado,F,04965-00176-00,0,0,28/10/2024,TRANSPORTE TOMASSINI,340334,56.0%
 39848,2414 TAPALQUE ALIMENTOS SA,Facturada,Todo Aprobado,Ejecución de pedido de artículo 21395,Enviado,F,H11/CPE,0,0,28/10/2024,EXPRESO CARGO SA,340335,70.0%
 38013,50 DADA S.A.,Facturación pendiente,Todo Aprobado,Ejecución de pedido de artículo 21407,Enviado,F,VCI410,0,0,29/10/2024,EXPRESO CARGO SA,264847,70.0%
-39308,1412 F R I A R SA,Facturada,Todo Aprobado,Ejecución de pedido de artículo 21424,Enviado,F,PPAR15048T,0,-2,29/10/2024,TRANSPORTE SNAIDER,305753,46.0%
+39308,1412 F R I A R SA,Facturación pendiente,Todo Aprobado,Ejecución de pedido de artículo 21424,Enviado,F,PPAR15048T,0,-2,29/10/2024,TRANSPORTE SNAIDER,305753,46.0%
 39561,4628 KELES MARIO LEONARDO,Facturada,Todo Aprobado,Ejecución de pedido de artículo 21413,Enviado,F,HWF125,0,0,29/10/2024,RICARDO PIERONI,322676,56.0%
 39615,9401926 INDUSTRIAS FRIGORIFICAS RECREO SAIC,Facturada,Todo Aprobado,Ejecución de pedido de artículo 21415,Enviado,F,PPAR1048T,0,0,29/10/2024,TRANSPORTE PEDRITO,327060,49.0%
 39737,9400338 ESTABLECIMIENTO MODELO LAS COLONIAS S A,Ejecución de la orden pendiente,Todo Aprobado, ,,F,PPAR15048T,29,31,29/10/2024,TRANSPORTE SNAIDER,334748,50.0%
@@ -117,6 +117,7 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 39821,3045 VENSAL HNOS SA.,Facturación pendiente,Todo Aprobado,Ejecución de pedido de artículo 21425,Enviado,F,PPAR1048T,0,0,30/10/2024,EXPRESO CARGO SA,338848,73.0%
 39826,2515 CONGELADOS ARTICO SA,Facturación pendiente,Todo Aprobado,Ejecución de pedido de artículo 21426,Enviado,F,PPAR1072T,0,0,30/10/2024,TRANSPORTE TOMASSINI,339228,58.0%
 39834,132 MAHLE VALVULAS DE ARGENTINA SA,Facturación pendiente,Todo Aprobado,Ejecución de pedido de artículo 21435,Enviado,F,3351/001,0,0,30/10/2024,EXPRESO SANTA ROSA,339911,97.0%
+39854,3051 FRIMETAL S.A.,Facturación pendiente,Todo Aprobado,Ejecución de pedido de artículo 21436,Enviado,F,PVC636A,0,0,30/10/2024,FELICI JORGE ARIEL,340799,72.0%
 39855,3642 PINAR SA,Facturación pendiente,Todo Aprobado,Ejecución de pedido de artículo 21433,Enviado,F,PPAR1048T,0,0,30/10/2024,RICARDO PIERONI,340915,61.0%
 39855,3642 PINAR SA,Facturación pendiente,Todo Aprobado,Ejecución de pedido de artículo 21433,Enviado,F,H11/48,0,0,30/10/2024,RICARDO PIERONI,340915,73.0%
 39857,682 MAYO TRANSFORMADORES S.R.L.,Facturación pendiente,Todo Aprobado,Ejecución de pedido de artículo 21434,Enviado,F,MTS512B,0,0,30/10/2024,RICARDO PIERONI,340916,46.0%
@@ -148,12 +149,11 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 39740,272 TALLERES METALURGICOS BAMBI S.A.,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Liberada,F,0272/005,0,800,04/11/2024,FELICI JORGE ARIEL,334898,41.0%
 39740,272 TALLERES METALURGICOS BAMBI S.A.,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Ensamblada,F,0272/006,120,0,04/11/2024,FELICI JORGE ARIEL,334898,32.0%
 39853,3051 FRIMETAL S.A.,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Ensamblada,F,1823/002,136,0,04/11/2024,FELICI JORGE ARIEL,340798,53.0%
-39854,3051 FRIMETAL S.A.,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Ensamblada,F,PVC636A,480,0,04/11/2024,FELICI JORGE ARIEL,340799,72.0%
 39875,202 FRIGORIFICO DE AVES SOYCHU SA,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Liberada,F,PVC612R,0,1050,05/11/2024,EXPRESO CARGO SA,342128,64.0%
 39829,9401339 QUICKFOOD S.A.,Ejecución de la orden pendiente,Todo Aprobado, ,,F,PPHR15048XT,240,0,06/11/2024,BERGAMASCHI OSVALDO RAMON,339448,55.0%
 39859,682 MAYO TRANSFORMADORES S.R.L.,Ejecución de la orden pendiente,Todo Aprobado, ,,F,MTS512B,432,0,06/11/2024,RICARDO PIERONI,340917,46.0%
 39859,682 MAYO TRANSFORMADORES S.R.L.,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Ensamblada,F,CF512T,500,0,06/11/2024,RICARDO PIERONI,340917,83.0%
-39169,9400753 RIS S.A,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Liberada,F,9400753/001,0,1008,08/11/2024,EXPRESO CARGO SA,301126,19.0%
+39169,9400753 RIS S.A,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Liberada,F,9400753/001,0,1.008,08/11/2024,EXPRESO CARGO SA,301126,19.0%
 39169,9400753 RIS S.A,Ejecución de la orden pendiente,Todo Aprobado, ,,F,PPAR1048T,288,0,08/11/2024,EXPRESO CARGO SA,301126,48.0%
 39802,4095 REFINERIA DEL CENTRO SA,Ejecución de la orden pendiente,Todo Aprobado, ,,F,PPHR10048T,54,0,11/11/2024,EXPRESO SANTA ROSA,337652,51.0%
 39802,4095 REFINERIA DEL CENTRO SA,Ejecución de la orden pendiente,Todo Aprobado, ,,F,PPAR1072T,2700,0,11/11/2024,EXPRESO SANTA ROSA,337652,54.0%
