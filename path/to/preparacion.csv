@@ -90,7 +90,6 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 39831,9400182 IDRIS PATAGONIA SA,Facturada,Todo Aprobado,Ejecución de pedido de artículo 21405,Enviado,F,PPAR1048T,0,0,29/10/2024,TRANSPORTE CRUZ DEL SUR SA,339653,50.0%
 39832,9402122 VASSALLI FABRIL SOCIEDAD ANONIMA,Facturada,Todo Aprobado,Ejecución de pedido de artículo 21404,Enviado,F,MVAQUA180,0,0,29/10/2024,ALMAR ROSARIO SRL,339654,34.0%
 39838,9402179 SM PACKING SA,Facturada,Todo Aprobado,Ejecución de pedido de artículo 21411,Enviado,F,PPAR1048T,0,0,29/10/2024,EXPRESO CARGO SA,339913,56.0%
-39849,9400267 THE FRAGRANCE GROUP SRL,Ejecución de la orden pendiente,Todo Aprobado, ,,F,PPAR1048T,360,0,29/10/2024,EXPRESO CARGO SA,340438,61.0%
 39852,260 SUCESION DE BARCIA CLAUDIO RODRIGO,Facturada,Todo Aprobado,Ejecución de pedido de artículo 21410,Enviado,F,PPAR1048T,0,0,29/10/2024,RICARDO PIERONI,340599,58.0%
 39858,5095 JUAN J BAIML E HIJOS SRL,Facturada,Todo Aprobado,Ejecución de pedido de artículo 21421,Enviado,F,PPA1548TE,0,0,29/10/2024,RETIRAN,341017,72.0%
 39862,4050 FAPERSA ICSA,Facturada,Todo Aprobado,Ejecución de pedido de artículo 21419,Enviado,F,BV002,0,0,29/10/2024,TRANSPORTE PEDRITO,341144,68.0%
@@ -125,6 +124,8 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 39668,94010 VISUAR SA,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Ensamblada,F,1823/002,193,0,31/10/2024,EXPRESO CARGO SA,329775,53.0%
 39718,9400536 MILKAUT SA,Facturación pendiente,Todo Aprobado,Ejecución de pedido de artículo 21440,Enviado,F,PPHR15048XT,0,0,31/10/2024,RICARDO PIERONI,332839,53.0%
 39828,9400716 RAFAELA ALIMENTOS SA,Facturación pendiente/parcialmente ejecutada,Todo Aprobado,Ejecución de pedido de artículo 21443,Enviado,F,PPAR15048T,0,84,31/10/2024,EXPRESO SANTA ROSA,339229,58.0%
+39849,9400267 THE FRAGRANCE GROUP SRL,Facturación pendiente,Todo Aprobado,Ejecución de pedido de artículo 21450,Enviado,F,PPAR1048T,0,0,31/10/2024,EXPRESO CARGO SA,340438,61.0%
+39851,812 SYSTEL SA,Facturación pendiente,Todo Aprobado,Ejecución de pedido de artículo 21449,Enviado,F,07063-00012-24,0,0,31/10/2024,EXPRESO CARGO SA,340598,58.0%
 39868,9400297 VERONICA SACIAFI,Facturación pendiente,Todo Aprobado,Ejecución de pedido de artículo 21441,Enviado,F,PPAR15048T,0,0,31/10/2024,RETIRAN,341596,69.0%
 39872,9401929 PETROPACK S.A.,Ejecución de la orden pendiente,Todo Aprobado, ,,F,PPAR1048M,216,0,31/10/2024,TRANSPORTE MOSTTO,341917,45.0%
 39872,9401929 PETROPACK S.A.,Ejecución de la orden pendiente,Todo Aprobado, ,,F,PPAR1024T,1224,0,31/10/2024,TRANSPORTE MOSTTO,341917,100.0%
@@ -135,6 +136,7 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 39879,12658 GARCIA HERMANOS AGROINDUSTRIAL SRL,Facturación pendiente,Todo Aprobado,Ejecución de pedido de artículo 21448,Enviado,F,PPAR15048T,0,0,31/10/2024,RICARDO PIERONI,342550,0.0%
 39879,12658 GARCIA HERMANOS AGROINDUSTRIAL SRL,Facturación pendiente,Todo Aprobado,Ejecución de pedido de artículo 21448,Enviado,F,PPHR15048XT,0,0,31/10/2024,RICARDO PIERONI,342550,0.0%
 39879,12658 GARCIA HERMANOS AGROINDUSTRIAL SRL,Facturación pendiente,Todo Aprobado,Ejecución de pedido de artículo 21448,Enviado,F,PPAR1048T,0,0,31/10/2024,RICARDO PIERONI,342550,0.0%
+39881,9400314 ESTABLECIMIENTO LA MARIPOSA SA,Facturación pendiente,Todo Aprobado,Ejecución de pedido de artículo 21451,Enviado,F,PPHR15048XT,0,0,31/10/2024,EXPRESO SANTA ROSA,342655,0.0%
 39882,9400945 LAMED S.A.,Facturación pendiente,Todo Aprobado,Ejecución de pedido de artículo 21447,Enviado,F,PPAR10048T,0,0,31/10/2024,RICARDO PIERONI,342672,67.0%
 39884,9400371 LACTEOS SANTA MARIA SA,Ejecución de la orden pendiente,Todo Aprobado, ,,F,PPAR1072T,1,0,31/10/2024,RETIRAN,342912,0.0%
 39884,9400371 LACTEOS SANTA MARIA SA,Ejecución de la orden pendiente,Todo Aprobado, ,,F,PPAR15072T,1,0,31/10/2024,RETIRAN,342912,0.0%
@@ -149,9 +151,7 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 39890,9401445 HILOS PLASTICOS SA,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Ensamblada,F,PVC612R,20,0,31/10/2024,DHL EXPRESS SA,343151,6.0%
 39835,1029 DREAN SA,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Liberada,F,0272/005,0,240,01/11/2024,EXPRESO CARGO SA,339800,41.0%
 39836,1029 DREAN SA,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Ensamblada,F,1153/001,3200,0,01/11/2024,EXPRESO CARGO SA,339801,65.0%
-39851,812 SYSTEL SA,Ejecución de la orden pendiente,Todo Aprobado, ,,F,07063-00012-24,10,0,01/11/2024,EXPRESO CARGO SA,340598,58.0%
 39880,1149 EL DORADO SA,Ejecución de la orden pendiente,Todo Aprobado, ,,F,MTP536B,0,96,01/11/2024,RICARDO PIERONI,342631,0.0%
-39881,9400314 ESTABLECIMIENTO LA MARIPOSA SA,Ejecución de la orden pendiente,Todo Aprobado, ,,F,PPHR15048XT,2,0,01/11/2024,EXPRESO BRIO SRL,342655,0.0%
 39886,1165 MACOSER SA,Facturación pendiente/parcialmente ejecutada,Todo Aprobado, ,,F,PVC624A,0,2,01/11/2024,BARRY LATIMER,342929,0.0%
 39886,1165 MACOSER SA,Facturación pendiente/parcialmente ejecutada,Todo Aprobado, ,,F,07055-00012-22,0,2,01/11/2024,BARRY LATIMER,342929,0.0%
 39740,272 TALLERES METALURGICOS BAMBI S.A.,Ejecución de la orden pendiente,Todo Aprobado, ,,F,PPAR1072T,864,0,04/11/2024,FELICI JORGE ARIEL,334898,72.0%
