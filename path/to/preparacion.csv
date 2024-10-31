@@ -61,7 +61,7 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 39833,9402056 BUSTAMANTE CRISTIAN JAVIER (PLAZA FERRETERA),Facturada,Todo Aprobado,Ejecución de pedido de artículo 21399,Enviado,F,MTS518B,0,0,28/10/2024,RICARDO PIERONI,339799,50.0%
 39833,9402056 BUSTAMANTE CRISTIAN JAVIER (PLAZA FERRETERA),Facturada,Todo Aprobado,Ejecución de pedido de artículo 21399,Enviado,F,MTS548B,0,0,28/10/2024,RICARDO PIERONI,339799,58.0%
 39833,9402056 BUSTAMANTE CRISTIAN JAVIER (PLAZA FERRETERA),Facturada,Todo Aprobado,Ejecución de pedido de artículo 21399,Enviado,F,PPA1048T040,0,0,28/10/2024,RICARDO PIERONI,339799,100.0%
-39837,9400962 CRYSTAL-ICE SRL,Facturación pendiente,Todo Aprobado,Ejecución de pedido de artículo 21398,Enviado,F,PPA1548TE,0,0,28/10/2024,RICARDO PIERONI,339912,36.0%
+39837,9400962 CRYSTAL-ICE SRL,Facturada,Todo Aprobado,Ejecución de pedido de artículo 21398,Enviado,F,PPA1548TE,0,0,28/10/2024,RICARDO PIERONI,339912,36.0%
 39839,143 EPTA ARGENTINA S.A.,Ejecución de la orden pendiente,Todo Aprobado,Pedido ,Recepción pendiente,T,0143/025,0,200,28/10/2024,RICARDO PIERONI,340054,85.0%
 39839,143 EPTA ARGENTINA S.A.,Ejecución de la orden pendiente,Todo Aprobado,Pedido ,Recepción pendiente,T,0143/024,0,200,28/10/2024,RICARDO PIERONI,340054,53.0%
 39840,132 MAHLE VALVULAS DE ARGENTINA SA,Facturada,Todo Aprobado,Ejecución de pedido de artículo 21391,Enviado,F,BV002,0,0,28/10/2024,EXPRESO SANTA ROSA,340172,64.0%
@@ -83,8 +83,8 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 39805,9400856 G P V SOCIEDAD ANONIMA (GRUPO PIERO),Facturada,Todo Aprobado,Ejecución de pedido de artículo 21420,Enviado,F,9400856/001,0,0,29/10/2024,EXPRESO CARGO SA,337979,100.0%
 39820,383 JOHNSON ACERO S.A. Industrial y Comercial,Facturada,Todo Aprobado,Ejecución de pedido de artículo 21403,Enviado,F,PPAR1048T,0,0,29/10/2024,RICARDO PIERONI,338731,48.0%
 39822,202 FRIGORIFICO DE AVES SOYCHU SA,Facturada,Todo Aprobado,Ejecución de pedido de artículo 21417,Enviado,F,PPHR12200B,0,0,29/10/2024,RICARDO PIERONI,338849,75.0%
-39828,9400716 RAFAELA ALIMENTOS SA,Facturación pendiente/parcialmente ejecutada,Todo Aprobado,Ejecución de pedido de artículo 21406,Enviado,F,PPAR1048T,0,0,29/10/2024,EXPRESO SANTA ROSA,339229,50.0%
-39828,9400716 RAFAELA ALIMENTOS SA,Facturación pendiente/parcialmente ejecutada,Todo Aprobado,Factura de venta 35826,Abierta,F,PPAR15048T,0,84,29/10/2024,EXPRESO SANTA ROSA,339229,58.0%
+39828,9400716 RAFAELA ALIMENTOS SA,Parcialmente ejecutada,Todo Aprobado,Ejecución de pedido de artículo 21406,Enviado,F,PPAR1048T,0,0,29/10/2024,EXPRESO SANTA ROSA,339229,50.0%
+39828,9400716 RAFAELA ALIMENTOS SA,Parcialmente ejecutada,Todo Aprobado,Factura de venta 35826,Abierta,F,PPAR15048T,0,84,29/10/2024,EXPRESO SANTA ROSA,339229,58.0%
 39830,9401339 QUICKFOOD S.A.,Facturada,Todo Aprobado,Ejecución de pedido de artículo 21412,Enviado,F,PPAR1048T,0,0,29/10/2024,BERGAMASCHI OSVALDO RAMON,339549,58.0%
 39831,9400182 IDRIS PATAGONIA SA,Facturada,Todo Aprobado,Ejecución de pedido de artículo 21405,Enviado,F,PPAR1048T,0,0,29/10/2024,TRANSPORTE CRUZ DEL SUR SA,339653,50.0%
 39832,9402122 VASSALLI FABRIL SOCIEDAD ANONIMA,Facturada,Todo Aprobado,Ejecución de pedido de artículo 21404,Enviado,F,MVAQUA180,0,0,29/10/2024,ALMAR ROSARIO SRL,339654,34.0%
@@ -117,25 +117,26 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 39874,6133 HSCIUTTO SRL,Facturada,Todo Aprobado,Ejecución de pedido de artículo 21438,Enviado,F,PPA1548TE,0,0,30/10/2024,EXPRESO LANCIONI,342127,59.0%
 37675,3096 FRECICAR SRL,Facturación pendiente,Todo Aprobado,Ejecución de pedido de artículo 21455,Enviado,F,52330-00040-00,0,0,31/10/2024,RICARDO PIERONI,253455,51.0%
 38989,9400049 COMPAÑIA AMERICANA DE ALIMENTOS S.A.,Facturación pendiente,Todo Aprobado,Ejecución de pedido de artículo 21453,Enviado,F,PPHR15048XT,0,0,31/10/2024,EXPRESO CARGO SA,297106,48.0%
-39626,9401339 QUICKFOOD S.A.,Parcialmente ejecutada,Todo Aprobado,Ejecución de pedido de artículo 21444,Enviado,F,PPAR15048T,50,112,31/10/2024,EXPRESO SANTA ROSA,327823,48.0%
 39626,9401339 QUICKFOOD S.A.,Parcialmente ejecutada,Todo Aprobado,Factura de venta 01198,Abierta,F,PPAR15048T,50,112,31/10/2024,EXPRESO SANTA ROSA,327823,48.0%
+39626,9401339 QUICKFOOD S.A.,Parcialmente ejecutada,Todo Aprobado,Ejecución de pedido de artículo 21444,Enviado,F,PPAR15048T,50,112,31/10/2024,EXPRESO SANTA ROSA,327823,48.0%
 39668,94010 VISUAR SA,Facturada,Todo Aprobado,Ejecución de pedido de artículo 21460,Enviado,F,1823/002,0,0,31/10/2024,EXPRESO CARGO SA,329775,53.0%
 39718,9400536 MILKAUT SA,Facturación pendiente,Todo Aprobado,Ejecución de pedido de artículo 21440,Enviado,F,PPHR15048XT,0,0,31/10/2024,RICARDO PIERONI,332839,53.0%
-39828,9400716 RAFAELA ALIMENTOS SA,Facturación pendiente/parcialmente ejecutada,Todo Aprobado,Ejecución de pedido de artículo 21443,Enviado,F,PPAR15048T,0,84,31/10/2024,EXPRESO SANTA ROSA,339229,58.0%
-39837,9400962 CRYSTAL-ICE SRL,Facturación pendiente,Todo Aprobado,Ejecución de pedido de artículo 21458,Enviado,F,2068/002,0,0,31/10/2024,RICARDO PIERONI,339912,48.0%
+39828,9400716 RAFAELA ALIMENTOS SA,Parcialmente ejecutada,Todo Aprobado,Factura de venta 35850,Abierta,F,PPAR15048T,0,84,31/10/2024,EXPRESO SANTA ROSA,339229,58.0%
+39828,9400716 RAFAELA ALIMENTOS SA,Parcialmente ejecutada,Todo Aprobado,Ejecución de pedido de artículo 21443,Enviado,F,PPAR15048T,0,84,31/10/2024,EXPRESO SANTA ROSA,339229,58.0%
+39837,9400962 CRYSTAL-ICE SRL,Facturada,Todo Aprobado,Ejecución de pedido de artículo 21458,Enviado,F,2068/002,0,0,31/10/2024,RICARDO PIERONI,339912,48.0%
 39849,9400267 THE FRAGRANCE GROUP SRL,Facturación pendiente,Todo Aprobado,Ejecución de pedido de artículo 21450,Enviado,F,PPAR1048T,0,0,31/10/2024,EXPRESO CARGO SA,340438,61.0%
 39851,812 SYSTEL SA,Facturación pendiente,Todo Aprobado,Ejecución de pedido de artículo 21449,Enviado,F,07063-00012-24,0,0,31/10/2024,EXPRESO CARGO SA,340598,58.0%
 39864,558 LUIS & MIGUEL ZANNIELLO SACI,Facturación pendiente,Todo Aprobado,Ejecución de pedido de artículo 21452,Enviado,F,MTS548B,0,0,31/10/2024,EXPRESO CARGO SA,341145,56.0%
 39864,558 LUIS & MIGUEL ZANNIELLO SACI,Facturación pendiente,Todo Aprobado,Ejecución de pedido de artículo 21452,Enviado,F,PPAR524T,0,0,31/10/2024,EXPRESO CARGO SA,341145,100.0%
 39864,558 LUIS & MIGUEL ZANNIELLO SACI,Facturación pendiente,Todo Aprobado,Ejecución de pedido de artículo 21452,Enviado,F,PPAR1048M,0,0,31/10/2024,EXPRESO CARGO SA,341145,45.0%
 39864,558 LUIS & MIGUEL ZANNIELLO SACI,Facturación pendiente,Todo Aprobado,Ejecución de pedido de artículo 21452,Enviado,F,PPAR1048T,0,0,31/10/2024,EXPRESO CARGO SA,341145,58.0%
-39868,9400297 VERONICA SACIAFI,Facturación pendiente,Todo Aprobado,Ejecución de pedido de artículo 21441,Enviado,F,PPAR15048T,0,0,31/10/2024,RETIRAN,341596,69.0%
+39868,9400297 VERONICA SACIAFI,Facturada,Todo Aprobado,Ejecución de pedido de artículo 21441,Enviado,F,PPAR15048T,0,0,31/10/2024,RETIRAN,341596,69.0%
 39872,9401929 PETROPACK S.A.,Facturación pendiente,Todo Aprobado,Ejecución de pedido de artículo 21456,Enviado,F,PPAR1048M,0,0,31/10/2024,TRANSPORTE MOSTTO,341917,45.0%
 39872,9401929 PETROPACK S.A.,Facturación pendiente,Todo Aprobado,Ejecución de pedido de artículo 21456,Enviado,F,PPAR1024T,0,0,31/10/2024,TRANSPORTE MOSTTO,341917,100.0%
 39872,9401929 PETROPACK S.A.,Facturación pendiente,Todo Aprobado,Ejecución de pedido de artículo 21456,Enviado,F,PPAR1048T,0,0,31/10/2024,TRANSPORTE MOSTTO,341917,58.0%
-39877,1067 DIPAC SA,Facturación pendiente,Todo Aprobado,Ejecución de pedido de artículo 21457,Enviado,F,PPAR1048T,0,0,31/10/2024,RICARDO PIERONI,342349,68.0%
-39877,1067 DIPAC SA,Facturación pendiente,Todo Aprobado,Ejecución de pedido de artículo 21457,Enviado,F,PPAR1024T,0,0,31/10/2024,RICARDO PIERONI,342349,100.0%
-39877,1067 DIPAC SA,Facturación pendiente,Todo Aprobado,Ejecución de pedido de artículo 21457,Enviado,F,H11/48,0,0,31/10/2024,RICARDO PIERONI,342349,69.0%
+39877,1067 DIPAC SA,Facturada,Todo Aprobado,Ejecución de pedido de artículo 21457,Enviado,F,PPAR1048T,0,0,31/10/2024,RICARDO PIERONI,342349,68.0%
+39877,1067 DIPAC SA,Facturada,Todo Aprobado,Ejecución de pedido de artículo 21457,Enviado,F,PPAR1024T,0,0,31/10/2024,RICARDO PIERONI,342349,100.0%
+39877,1067 DIPAC SA,Facturada,Todo Aprobado,Ejecución de pedido de artículo 21457,Enviado,F,H11/48,0,0,31/10/2024,RICARDO PIERONI,342349,69.0%
 39879,12658 GARCIA HERMANOS AGROINDUSTRIAL SRL,Facturación pendiente,Todo Aprobado,Ejecución de pedido de artículo 21448,Enviado,F,PPAR15048T,0,0,31/10/2024,RICARDO PIERONI,342550,0.0%
 39879,12658 GARCIA HERMANOS AGROINDUSTRIAL SRL,Facturación pendiente,Todo Aprobado,Ejecución de pedido de artículo 21448,Enviado,F,PPHR15048XT,0,0,31/10/2024,RICARDO PIERONI,342550,0.0%
 39879,12658 GARCIA HERMANOS AGROINDUSTRIAL SRL,Facturación pendiente,Todo Aprobado,Ejecución de pedido de artículo 21448,Enviado,F,PPAR1048T,0,0,31/10/2024,RICARDO PIERONI,342550,0.0%
@@ -151,8 +152,7 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 39886,1165 MACOSER SA,Facturación pendiente/parcialmente ejecutada,Todo Aprobado,Ejecución de pedido de artículo 21442,Enviado,F,MUESTRA ESPECIAL,0,0,31/10/2024,BARRY LATIMER,342929,0.0%
 39888,3086 MULTIORIGINAL PARTS SA,Facturación pendiente,Todo Aprobado,Ejecución de pedido de artículo 21446,Enviado,F,PPAR1048T,0,0,31/10/2024,EXPRESO BRIO SRL,343045,58.0%
 39889,9401842 SADESA SOCIEDAD ANONIMA,Facturación pendiente,Todo Aprobado,Ejecución de pedido de artículo 21445,Enviado,F,PPAR1072T,0,0,31/10/2024,TRANSPORTE WILLINER,343046,48.0%
-39890,9401445 HILOS PLASTICOS SA,Facturación pendiente,Todo Aprobado,Orden de trabajo ,Ensamblada,F,PVC612R,0,-10,31/10/2024,DHL EXPRESS SA,343151,6.0%
-39890,9401445 HILOS PLASTICOS SA,Facturación pendiente,Todo Aprobado,Ejecución de pedido de artículo 21459,Enviado,F,PVC612R,0,-10,31/10/2024,DHL EXPRESS SA,343151,6.0%
+39890,9401445 HILOS PLASTICOS SA,Facturada,Todo Aprobado,Ejecución de pedido de artículo 21459,Enviado,F,PVC612R,0,-10,31/10/2024,DHL EXPRESS SA,343151,6.0%
 39835,1029 DREAN SA,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Ensamblada,F,0272/005,240,0,01/11/2024,EXPRESO CARGO SA,339800,41.0%
 39836,1029 DREAN SA,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Ensamblada,F,1153/001,3200,0,01/11/2024,EXPRESO CARGO SA,339801,65.0%
 39880,1149 EL DORADO SA,Ejecución de la orden pendiente,Todo Aprobado, ,,F,MTP536B,0,96,01/11/2024,RICARDO PIERONI,342631,0.0%
@@ -178,7 +178,7 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 39887,12662 PRINTEMPS S.R.L.,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Liberada,F,2662/004,0,300,06/11/2024,RICARDO PIERONI,342933,58.0%
 39887,12662 PRINTEMPS S.R.L.,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Ensamblada,F,64621-00003-00,288,0,06/11/2024,RICARDO PIERONI,342933,62.0%
 39887,12662 PRINTEMPS S.R.L.,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Liberada,F,04965-00176-00,0,288,06/11/2024,RICARDO PIERONI,342933,55.0%
-39169,9400753 RIS S.A,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Liberada,F,9400753/001,0,1.008,08/11/2024,EXPRESO CARGO SA,301126,19.0%
+39169,9400753 RIS S.A,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Liberada,F,9400753/001,0,1008,08/11/2024,EXPRESO CARGO SA,301126,19.0%
 39169,9400753 RIS S.A,Ejecución de la orden pendiente,Todo Aprobado, ,,F,PPAR1048T,288,0,08/11/2024,EXPRESO CARGO SA,301126,48.0%
 39802,4095 REFINERIA DEL CENTRO SA,Ejecución de la orden pendiente,Todo Aprobado, ,,F,PPHR10048T,54,0,11/11/2024,EXPRESO SANTA ROSA,337652,51.0%
 39802,4095 REFINERIA DEL CENTRO SA,Ejecución de la orden pendiente,Todo Aprobado, ,,F,PPAR1072T,2700,0,11/11/2024,EXPRESO SANTA ROSA,337652,54.0%
