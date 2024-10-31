@@ -3,7 +3,6 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 39116,3368 COOPERATIVA AGROPECUARIA PRODUCTORES Y CONSUMIDORES LIMITADA,Parcialmente ejecutada,Todo Aprobado,Factura de venta 35192,Pagado por completo,F,2527/001,0,1,07/08/2024,BARRY LATIMER,300231,0.0%
 39386,260 SUCESION DE BARCIA CLAUDIO RODRIGO,Parcialmente ejecutada,Todo Aprobado,Factura de venta 35412,Pagado por completo,F,04169-00056-93,0,32,03/09/2024,RICARDO PIERONI,309590,49.0%
 39728,9402041 ARAUCO ARGENTINA SA,Parcialmente ejecutada,Todo Aprobado,Factura de venta 35745,Pagado por completo,F,50605-00013-41,0,2,17/10/2024,EXPRESO CARGO SA,333794,0.0%
-39538,279 HONDA MOTOR DE ARGENTINA S.A.,Ejecución de la orden pendiente,Todo Aprobado,Pedido ,Recepción pendiente,T,04169-00056-93,0,20,18/10/2024,EXPRESO CARGO SA,320406,68.0%
 39689,6467 INDUSTRIAS JUAN F SECCO S.A.,Parcialmente ejecutada,Todo Aprobado,Ejecución de pedido de artículo 21361,Enviado,F,6467/006,0,-40.3,22/10/2024,RICARDO PIERONI,330862,65.0%
 39689,6467 INDUSTRIAS JUAN F SECCO S.A.,Parcialmente ejecutada,Todo Aprobado,Factura de venta 01190,Abierta,F,6467/006,0,18,22/10/2024,RICARDO PIERONI,330862,65.0%
 39749,3938 ELECTRO HOGAR INTERNACIONAL SA,Facturada,Todo Aprobado,Ejecución de pedido de artículo 21358,Enviado,F,1823/001,0,0,22/10/2024,EXPRESO CARGO SA,335246,64.0%
@@ -99,7 +98,6 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 39863,3676 FRIGORIFICO MARK SA,Facturada,Todo Aprobado,Ejecución de pedido de artículo 21423,Enviado,F,PVC612R,0,0,29/10/2024,RETIRAN,341244,70.0%
 39866,132 MAHLE VALVULAS DE ARGENTINA SA,Facturada,Todo Aprobado,Ejecución de pedido de artículo 21418,Enviado,F,LC579,0,0,29/10/2024,EXPRESO SANTA ROSA,341245,65.0%
 39867,2825 IMPACK SA,Facturada,Todo Aprobado,Ejecución de pedido de artículo 21422,Enviado,F,PVC648R,0,0,29/10/2024,RICARDO PIERONI,341448,74.0%
-39626,9401339 QUICKFOOD S.A.,Ejecución de la orden pendiente,Todo Aprobado, ,,F,PPAR15048T,266,112,30/10/2024,EXPRESO SANTA ROSA,327823,48.0%
 39714,1029 DREAN SA,Facturada,Todo Aprobado,Ejecución de pedido de artículo 21428,Enviado,F,1153/001,0,0,30/10/2024,EXPRESO CARGO SA,332827,63.0%
 39715,1029 DREAN SA,Facturada,Todo Aprobado,Ejecución de pedido de artículo 21429,Enviado,F,1153/001,0,0,30/10/2024,EXPRESO CARGO SA,332828,63.0%
 39717,1029 DREAN SA,Facturada,Todo Aprobado,Ejecución de pedido de artículo 21427,Enviado,F,07063-00009-24,0,0,30/10/2024,EXPRESO CARGO SA,332836,52.0%
@@ -123,6 +121,7 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 39869,22 CARRARO ARGENTINA S.A.,Facturada,Todo Aprobado,Ejecución de pedido de artículo 21430,Enviado,F,BV001,0,0,30/10/2024,EXPRESO CARGO SA,341803,78.0%
 39873,3598 DEL VALLE EMBALAJES SRL,Facturada,Todo Aprobado,Ejecución de pedido de artículo 21432,Enviado,F,PPAR15096T,0,0,30/10/2024,RICARDO PIERONI,342022,53.0%
 39874,6133 HSCIUTTO SRL,Facturada,Todo Aprobado,Ejecución de pedido de artículo 21438,Enviado,F,PPA1548TE,0,0,30/10/2024,EXPRESO LANCIONI,342127,59.0%
+39626,9401339 QUICKFOOD S.A.,Facturación pendiente/parcialmente ejecutada,Todo Aprobado,Ejecución de pedido de artículo 21444,Enviado,F,PPAR15048T,50,112,31/10/2024,EXPRESO SANTA ROSA,327823,48.0%
 39668,94010 VISUAR SA,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Ensamblada,F,1823/002,193,0,31/10/2024,EXPRESO CARGO SA,329775,53.0%
 39718,9400536 MILKAUT SA,Facturación pendiente,Todo Aprobado,Ejecución de pedido de artículo 21440,Enviado,F,PPHR15048XT,0,0,31/10/2024,RICARDO PIERONI,332839,53.0%
 39828,9400716 RAFAELA ALIMENTOS SA,Facturación pendiente/parcialmente ejecutada,Todo Aprobado,Ejecución de pedido de artículo 21443,Enviado,F,PPAR15048T,0,84,31/10/2024,EXPRESO SANTA ROSA,339229,58.0%
@@ -136,12 +135,16 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 39879,12658 GARCIA HERMANOS AGROINDUSTRIAL SRL,Ejecución de la orden pendiente,Todo Aprobado, ,,F,PPAR15048T,1,0,31/10/2024,RICARDO PIERONI,342550,0.0%
 39879,12658 GARCIA HERMANOS AGROINDUSTRIAL SRL,Ejecución de la orden pendiente,Todo Aprobado, ,,F,PPHR15048XT,1,0,31/10/2024,RICARDO PIERONI,342550,0.0%
 39879,12658 GARCIA HERMANOS AGROINDUSTRIAL SRL,Ejecución de la orden pendiente,Todo Aprobado, ,,F,PPAR1048T,1,0,31/10/2024,RICARDO PIERONI,342550,0.0%
+39884,9400371 LACTEOS SANTA MARIA SA,Ejecución de la orden pendiente,Todo Aprobado, ,,F,PPAR1072T,1,0,31/10/2024,RETIRAN,342912,0.0%
+39884,9400371 LACTEOS SANTA MARIA SA,Ejecución de la orden pendiente,Todo Aprobado, ,,F,PPAR15072T,1,0,31/10/2024,RETIRAN,342912,0.0%
 39886,1165 MACOSER SA,Facturación pendiente/parcialmente ejecutada,Todo Aprobado,Ejecución de pedido de artículo 21442,Enviado,F,PPAR1072T,0,0,31/10/2024,BARRY LATIMER,342929,0.0%
 39886,1165 MACOSER SA,Facturación pendiente/parcialmente ejecutada,Todo Aprobado,Ejecución de pedido de artículo 21442,Enviado,F,PVC624B,0,0,31/10/2024,BARRY LATIMER,342929,0.0%
 39886,1165 MACOSER SA,Facturación pendiente/parcialmente ejecutada,Todo Aprobado,Ejecución de pedido de artículo 21442,Enviado,F,07063-00012-24,0,0,31/10/2024,BARRY LATIMER,342929,0.0%
 39886,1165 MACOSER SA,Facturación pendiente/parcialmente ejecutada,Todo Aprobado,Ejecución de pedido de artículo 21442,Enviado,F,04965-00179-00,0,0,31/10/2024,BARRY LATIMER,342929,0.0%
 39886,1165 MACOSER SA,Facturación pendiente/parcialmente ejecutada,Todo Aprobado,Ejecución de pedido de artículo 21442,Enviado,F,MTS536B,0,0,31/10/2024,BARRY LATIMER,342929,0.0%
 39886,1165 MACOSER SA,Facturación pendiente/parcialmente ejecutada,Todo Aprobado,Ejecución de pedido de artículo 21442,Enviado,F,MUESTRA ESPECIAL,0,0,31/10/2024,BARRY LATIMER,342929,0.0%
+39888,3086 MULTIORIGINAL PARTS SA,Facturación pendiente,Todo Aprobado,Ejecución de pedido de artículo 21446,Enviado,F,PPAR1048T,0,0,31/10/2024,EXPRESO BRIO SRL,343045,58.0%
+39889,9401842 SADESA SOCIEDAD ANONIMA,Facturación pendiente,Todo Aprobado,Ejecución de pedido de artículo 21445,Enviado,F,PPAR1072T,0,0,31/10/2024,TRANSPORTE WILLINER,343046,48.0%
 39835,1029 DREAN SA,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Liberada,F,0272/005,0,240,01/11/2024,EXPRESO CARGO SA,339800,41.0%
 39836,1029 DREAN SA,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Ensamblada,F,1153/001,3200,0,01/11/2024,EXPRESO CARGO SA,339801,65.0%
 39851,812 SYSTEL SA,Ejecución de la orden pendiente,Todo Aprobado, ,,F,07063-00012-24,10,0,01/11/2024,EXPRESO CARGO SA,340598,58.0%
@@ -150,8 +153,6 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 39882,9400945 LAMED S.A.,Ejecución de la orden pendiente,Todo Aprobado, ,,F,PPAR10048T,18,0,01/11/2024,RICARDO PIERONI,342672,67.0%
 39886,1165 MACOSER SA,Facturación pendiente/parcialmente ejecutada,Todo Aprobado, ,,F,PVC624A,0,2,01/11/2024,BARRY LATIMER,342929,0.0%
 39886,1165 MACOSER SA,Facturación pendiente/parcialmente ejecutada,Todo Aprobado, ,,F,07055-00012-22,0,2,01/11/2024,BARRY LATIMER,342929,0.0%
-39888,3086 MULTIORIGINAL PARTS SA,Ejecución de la orden pendiente,Todo Aprobado, ,,F,PPAR1048T,720,0,01/11/2024,EXPRESO BRIO SRL,343045,58.0%
-39889,9401842 SADESA SOCIEDAD ANONIMA,Ejecución de la orden pendiente,Todo Aprobado, ,,F,PPAR1072T,504,0,01/11/2024,TRANSPORTE WILLINER,343046,48.0%
 39740,272 TALLERES METALURGICOS BAMBI S.A.,Ejecución de la orden pendiente,Todo Aprobado, ,,F,PPAR1072T,864,0,04/11/2024,FELICI JORGE ARIEL,334898,72.0%
 39740,272 TALLERES METALURGICOS BAMBI S.A.,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Ensamblada,F,0272/004,320,0,04/11/2024,FELICI JORGE ARIEL,334898,32.0%
 39740,272 TALLERES METALURGICOS BAMBI S.A.,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Ensamblada,F,0272/003,40,0,04/11/2024,FELICI JORGE ARIEL,334898,42.0%
