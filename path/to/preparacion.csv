@@ -152,7 +152,7 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 39889,9401842 SADESA SOCIEDAD ANONIMA,Facturación pendiente,Todo Aprobado,Ejecución de pedido de artículo 21445,Enviado,F,PPAR1072T,0,0,31/10/2024,TRANSPORTE WILLINER,343046,48.0%
 39890,9401445 HILOS PLASTICOS SA,Facturación pendiente,Todo Aprobado,Orden de trabajo ,Ensamblada,F,PVC612R,0,-10,31/10/2024,DHL EXPRESS SA,343151,6.0%
 39890,9401445 HILOS PLASTICOS SA,Facturación pendiente,Todo Aprobado,Ejecución de pedido de artículo 21459,Enviado,F,PVC612R,0,-10,31/10/2024,DHL EXPRESS SA,343151,6.0%
-39835,1029 DREAN SA,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Liberada,F,0272/005,0,240,01/11/2024,EXPRESO CARGO SA,339800,41.0%
+39835,1029 DREAN SA,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Ensamblada,F,0272/005,240,0,01/11/2024,EXPRESO CARGO SA,339800,41.0%
 39836,1029 DREAN SA,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Ensamblada,F,1153/001,3200,0,01/11/2024,EXPRESO CARGO SA,339801,65.0%
 39880,1149 EL DORADO SA,Ejecución de la orden pendiente,Todo Aprobado, ,,F,MTP536B,0,96,01/11/2024,RICARDO PIERONI,342631,0.0%
 39886,1165 MACOSER SA,Facturación pendiente/parcialmente ejecutada,Todo Aprobado, ,,F,PVC624A,0,2,01/11/2024,BARRY LATIMER,342929,0.0%
@@ -163,6 +163,9 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 39740,272 TALLERES METALURGICOS BAMBI S.A.,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Liberada,F,0272/005,0,800,04/11/2024,FELICI JORGE ARIEL,334898,41.0%
 39740,272 TALLERES METALURGICOS BAMBI S.A.,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Ensamblada,F,0272/006,120,0,04/11/2024,FELICI JORGE ARIEL,334898,32.0%
 39853,3051 FRIMETAL S.A.,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Ensamblada,F,1823/002,136,0,04/11/2024,FELICI JORGE ARIEL,340798,53.0%
+39891,2790 DPM S.A.,Ejecución de la orden pendiente,Todo Aprobado, ,,F,MTS548B,180,0,04/11/2024,RICARDO PIERONI,343156,50.0%
+39891,2790 DPM S.A.,Ejecución de la orden pendiente,Todo Aprobado, ,,F,PPAR1048T,731,3301,04/11/2024,RICARDO PIERONI,343156,48.0%
+39893,3096 FRECICAR SRL,Ejecución de la orden pendiente,Todo Aprobado, ,,F,PPA1548TE,1440,0,04/11/2024,RICARDO PIERONI,343393,55.0%
 39875,202 FRIGORIFICO DE AVES SOYCHU SA,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Ensamblada,F,PVC612R,1050,0,05/11/2024,EXPRESO CARGO SA,342128,64.0%
 39885,2825 IMPACK SA,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Liberada,F,PVC648A,0,180,05/11/2024,RICARDO PIERONI,342927,76.0%
 39829,9401339 QUICKFOOD S.A.,Ejecución de la orden pendiente,Todo Aprobado, ,,F,PPHR15048XT,240,0,06/11/2024,BERGAMASCHI OSVALDO RAMON,339448,55.0%
