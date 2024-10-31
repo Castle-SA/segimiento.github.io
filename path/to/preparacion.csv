@@ -115,6 +115,7 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 39869,22 CARRARO ARGENTINA S.A.,Facturada,Todo Aprobado,Ejecución de pedido de artículo 21430,Enviado,F,BV001,0,0,30/10/2024,EXPRESO CARGO SA,341803,78.0%
 39873,3598 DEL VALLE EMBALAJES SRL,Facturada,Todo Aprobado,Ejecución de pedido de artículo 21432,Enviado,F,PPAR15096T,0,0,30/10/2024,RICARDO PIERONI,342022,53.0%
 39874,6133 HSCIUTTO SRL,Facturada,Todo Aprobado,Ejecución de pedido de artículo 21438,Enviado,F,PPA1548TE,0,0,30/10/2024,EXPRESO LANCIONI,342127,59.0%
+37675,3096 FRECICAR SRL,Facturación pendiente,Todo Aprobado,Ejecución de pedido de artículo 21455,Enviado,F,52330-00040-00,0,0,31/10/2024,RICARDO PIERONI,253455,51.0%
 38989,9400049 COMPAÑIA AMERICANA DE ALIMENTOS S.A.,Facturación pendiente,Todo Aprobado,Ejecución de pedido de artículo 21453,Enviado,F,PPHR15048XT,0,0,31/10/2024,EXPRESO CARGO SA,297106,48.0%
 39626,9401339 QUICKFOOD S.A.,Facturación pendiente/parcialmente ejecutada,Todo Aprobado,Ejecución de pedido de artículo 21444,Enviado,F,PPAR15048T,50,112,31/10/2024,EXPRESO SANTA ROSA,327823,48.0%
 39668,94010 VISUAR SA,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Ensamblada,F,1823/002,193,0,31/10/2024,EXPRESO CARGO SA,329775,53.0%
@@ -127,9 +128,9 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 39864,558 LUIS & MIGUEL ZANNIELLO SACI,Facturación pendiente,Todo Aprobado,Ejecución de pedido de artículo 21452,Enviado,F,PPAR1048M,0,0,31/10/2024,EXPRESO CARGO SA,341145,45.0%
 39864,558 LUIS & MIGUEL ZANNIELLO SACI,Facturación pendiente,Todo Aprobado,Ejecución de pedido de artículo 21452,Enviado,F,PPAR1048T,0,0,31/10/2024,EXPRESO CARGO SA,341145,58.0%
 39868,9400297 VERONICA SACIAFI,Facturación pendiente,Todo Aprobado,Ejecución de pedido de artículo 21441,Enviado,F,PPAR15048T,0,0,31/10/2024,RETIRAN,341596,69.0%
-39872,9401929 PETROPACK S.A.,Ejecución de la orden pendiente,Todo Aprobado, ,,F,PPAR1048M,216,0,31/10/2024,TRANSPORTE MOSTTO,341917,45.0%
-39872,9401929 PETROPACK S.A.,Ejecución de la orden pendiente,Todo Aprobado, ,,F,PPAR1024T,1224,0,31/10/2024,TRANSPORTE MOSTTO,341917,100.0%
-39872,9401929 PETROPACK S.A.,Ejecución de la orden pendiente,Todo Aprobado, ,,F,PPAR1048T,144,0,31/10/2024,TRANSPORTE MOSTTO,341917,58.0%
+39872,9401929 PETROPACK S.A.,Facturación pendiente,Todo Aprobado,Ejecución de pedido de artículo 21456,Enviado,F,PPAR1048M,0,0,31/10/2024,TRANSPORTE MOSTTO,341917,45.0%
+39872,9401929 PETROPACK S.A.,Facturación pendiente,Todo Aprobado,Ejecución de pedido de artículo 21456,Enviado,F,PPAR1024T,0,0,31/10/2024,TRANSPORTE MOSTTO,341917,100.0%
+39872,9401929 PETROPACK S.A.,Facturación pendiente,Todo Aprobado,Ejecución de pedido de artículo 21456,Enviado,F,PPAR1048T,0,0,31/10/2024,TRANSPORTE MOSTTO,341917,58.0%
 39877,1067 DIPAC SA,Ejecución de la orden pendiente,Todo Aprobado, ,,F,PPAR1048T,756,0,31/10/2024,RICARDO PIERONI,342349,68.0%
 39877,1067 DIPAC SA,Ejecución de la orden pendiente,Todo Aprobado, ,,F,PPAR1024T,864,0,31/10/2024,RICARDO PIERONI,342349,100.0%
 39877,1067 DIPAC SA,Ejecución de la orden pendiente,Todo Aprobado, ,,F,H11/48,6,0,31/10/2024,RICARDO PIERONI,342349,69.0%
@@ -226,7 +227,7 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 39767,1188 DENSO MANUFACTURING ARGENTINA SA,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Liberada,T,1188/002,0,540,,EXPRESO CARGO SA,335966,66.0%
 39810,9400283 FEPASA (FRIGORIFICO ENTRERRIANO DE PRODUCTORES AVICOLAS S.A),Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Liberada,T,9400283/002,0,360,,TRANSPORTE MOSTTO,338265,41.0%
 39824,9401272 RED CHAMBER ARGENTINA SA,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Liberada,T,9401272/001,0,1080,,TRANSPORTE TOMASSINI,339113,85.0%
-39837,9400962 CRYSTAL-ICE SRL,Parcialmente ejecutada,Todo Aprobado,Orden de trabajo ,Liberada,F,2068/002,0,180,,RICARDO PIERONI,339912,48.0%
+39837,9400962 CRYSTAL-ICE SRL,Parcialmente ejecutada,Todo Aprobado,Orden de trabajo ,Ensamblada,F,2068/002,180,0,,RICARDO PIERONI,339912,48.0%
 39860,1499 FAIART ARGENTINA SA,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Liberada,F,1499/001,0,240,,RICARDO PIERONI,341018,54.0%
 39860,1499 FAIART ARGENTINA SA,Ejecución de la orden pendiente,Todo Aprobado, ,,F,PPAR1072T,120,0,,RICARDO PIERONI,341018,58.0%
 39860,1499 FAIART ARGENTINA SA,Ejecución de la orden pendiente,Todo Aprobado, ,,F,CH523EXR,64,0,,RICARDO PIERONI,341018,56.0%
