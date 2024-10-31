@@ -70,7 +70,7 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 39846,3333 CHRISTY ERNESTO JUAN,Facturada,Todo Aprobado,Ejecución de pedido de artículo 21396,Enviado,F,04965-00176-00,0,0,28/10/2024,TRANSPORTE TOMASSINI,340334,56.0%
 39848,2414 TAPALQUE ALIMENTOS SA,Facturada,Todo Aprobado,Ejecución de pedido de artículo 21395,Enviado,F,H11/CPE,0,0,28/10/2024,EXPRESO CARGO SA,340335,70.0%
 38013,50 DADA S.A.,Facturación pendiente,Todo Aprobado,Ejecución de pedido de artículo 21407,Enviado,F,VCI410,0,0,29/10/2024,EXPRESO CARGO SA,264847,70.0%
-39308,1412 F R I A R SA,Facturación pendiente,Todo Aprobado,Ejecución de pedido de artículo 21424,Enviado,F,PPAR15048T,0,-2,29/10/2024,TRANSPORTE SNAIDER,305753,46.0%
+39308,1412 F R I A R SA,Facturada,Todo Aprobado,Ejecución de pedido de artículo 21424,Enviado,F,PPAR15048T,0,-2,29/10/2024,TRANSPORTE SNAIDER,305753,46.0%
 39561,4628 KELES MARIO LEONARDO,Facturada,Todo Aprobado,Ejecución de pedido de artículo 21413,Enviado,F,HWF125,0,0,29/10/2024,RICARDO PIERONI,322676,56.0%
 39615,9401926 INDUSTRIAS FRIGORIFICAS RECREO SAIC,Facturada,Todo Aprobado,Ejecución de pedido de artículo 21415,Enviado,F,PPAR1048T,0,0,29/10/2024,TRANSPORTE PEDRITO,327060,49.0%
 39737,9400338 ESTABLECIMIENTO MODELO LAS COLONIAS S A,Ejecución de la orden pendiente,Todo Aprobado, ,,F,PPAR15048T,60,0,29/10/2024,TRANSPORTE SNAIDER,334748,50.0%
@@ -118,8 +118,8 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 39483,3909 LIBECO FILM SA,Facturada,Todo Aprobado,Ejecución de pedido de artículo 21463,Enviado,F,PPAR1048M,0,0,31/10/2024,EXPRESO CARGO SA,316757,49.0%
 39483,3909 LIBECO FILM SA,Facturada,Todo Aprobado,Ejecución de pedido de artículo 21463,Enviado,F,PPAR1048T,0,0,31/10/2024,EXPRESO CARGO SA,316757,52.0%
 39526,1029 DREAN SA,Facturación pendiente,Todo Aprobado,Ejecución de pedido de artículo 21464,Enviado,F,0272/005,0,0,31/10/2024,EXPRESO CARGO SA,319118,41.0%
-39626,9401339 QUICKFOOD S.A.,Parcialmente ejecutada,Todo Aprobado,Factura de venta 01198,Abierta,F,PPAR15048T,50,112,31/10/2024,EXPRESO SANTA ROSA,327823,48.0%
 39626,9401339 QUICKFOOD S.A.,Parcialmente ejecutada,Todo Aprobado,Ejecución de pedido de artículo 21444,Enviado,F,PPAR15048T,50,112,31/10/2024,EXPRESO SANTA ROSA,327823,48.0%
+39626,9401339 QUICKFOOD S.A.,Parcialmente ejecutada,Todo Aprobado,Factura de venta 01198,Abierta,F,PPAR15048T,50,112,31/10/2024,EXPRESO SANTA ROSA,327823,48.0%
 39668,94010 VISUAR SA,Facturada,Todo Aprobado,Ejecución de pedido de artículo 21460,Enviado,F,1823/002,0,0,31/10/2024,EXPRESO CARGO SA,329775,53.0%
 39718,9400536 MILKAUT SA,Facturación pendiente,Todo Aprobado,Ejecución de pedido de artículo 21440,Enviado,F,PPHR15048XT,0,0,31/10/2024,RICARDO PIERONI,332839,53.0%
 39780,4516 RAPECA ARGENTINA SA,Facturación pendiente,Todo Aprobado,Ejecución de pedido de artículo 21465,Enviado,F,H11/CPE,0,0,31/10/2024,EXPRESO CARGO SA,336736,68.0%
@@ -180,7 +180,7 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 39829,9401339 QUICKFOOD S.A.,Ejecución de la orden pendiente,Todo Aprobado, ,,F,PPHR15048XT,240,0,06/11/2024,BERGAMASCHI OSVALDO RAMON,339448,55.0%
 39859,682 MAYO TRANSFORMADORES S.R.L.,Ejecución de la orden pendiente,Todo Aprobado, ,,F,MTS512B,432,0,06/11/2024,RICARDO PIERONI,340917,46.0%
 39859,682 MAYO TRANSFORMADORES S.R.L.,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Ensamblada,F,CF512T,500,0,06/11/2024,RICARDO PIERONI,340917,83.0%
-39887,12662 PRINTEMPS S.R.L.,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Liberada,F,2662/004,0,300,06/11/2024,RICARDO PIERONI,342933,58.0%
+39887,12662 PRINTEMPS S.R.L.,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Ensamblada,F,2662/004,300,0,06/11/2024,RICARDO PIERONI,342933,58.0%
 39887,12662 PRINTEMPS S.R.L.,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Ensamblada,F,64621-00003-00,288,0,06/11/2024,RICARDO PIERONI,342933,62.0%
 39887,12662 PRINTEMPS S.R.L.,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Ensamblada,F,04965-00176-00,288,0,06/11/2024,RICARDO PIERONI,342933,55.0%
 39169,9400753 RIS S.A,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Liberada,F,9400753/001,0,1.008,08/11/2024,EXPRESO CARGO SA,301126,19.0%
@@ -191,7 +191,7 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 39783,346 DOS HERMANOS S.A,Ejecución de la orden pendiente,Todo Aprobado, ,,F,PPAR10072T,120,0,14/11/2024,TRANSPORTE DE CARGAS MORENO SRL,336738,68.0%
 39744,272 TALLERES METALURGICOS BAMBI S.A.,Ejecución de la orden pendiente,Todo Aprobado, ,,F,PPAR1072T,864,0,18/11/2024,FELICI JORGE ARIEL,335117,72.0%
 39744,272 TALLERES METALURGICOS BAMBI S.A.,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Liberada,F,0272/004,0,320,18/11/2024,FELICI JORGE ARIEL,335117,32.0%
-39744,272 TALLERES METALURGICOS BAMBI S.A.,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Liberada,F,0272/003,0,40,18/11/2024,FELICI JORGE ARIEL,335117,42.0%
+39744,272 TALLERES METALURGICOS BAMBI S.A.,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Ensamblada,F,0272/003,40,0,18/11/2024,FELICI JORGE ARIEL,335117,42.0%
 39744,272 TALLERES METALURGICOS BAMBI S.A.,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Liberada,F,0272/005,0,400,18/11/2024,FELICI JORGE ARIEL,335117,41.0%
 39861,1499 FAIART ARGENTINA SA,Ejecución de la orden pendiente,Todo Aprobado, ,,F,CH523EXR,64,0,18/11/2024,RICARDO PIERONI,341019,56.0%
 38510,4733 TECNOSISTEM SRL,Ejecución de la orden pendiente,Todo Aprobado, ,,F,MTS548B,540,0,19/11/2024,EXPRESO CARGO SA,281742,62.0%
@@ -199,7 +199,7 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 38510,4733 TECNOSISTEM SRL,Ejecución de la orden pendiente,Todo Aprobado, ,,F,PPAR1048T,180,0,19/11/2024,EXPRESO CARGO SA,281742,0.0%
 39565,272 TALLERES METALURGICOS BAMBI S.A.,Ejecución de la orden pendiente,Todo Aprobado, ,,F,PPAR1072T,5184,0,20/11/2024,BARRY LATIMER,322934,67.0%
 39565,272 TALLERES METALURGICOS BAMBI S.A.,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Liberada,F,0272/005,0,1200,20/11/2024,BARRY LATIMER,322934,41.0%
-39565,272 TALLERES METALURGICOS BAMBI S.A.,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Liberada,F,0272/006,0,240,20/11/2024,BARRY LATIMER,322934,33.0%
+39565,272 TALLERES METALURGICOS BAMBI S.A.,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Ensamblada,F,0272/006,240,0,20/11/2024,BARRY LATIMER,322934,33.0%
 39720,5019 GRANJA TRES ARROYOS SACAFEI,Ejecución de la orden pendiente,Todo Aprobado, ,,F,5019/002,252,0,25/11/2024,EXPRESO CARGO SA,332941,73.0%
 39765,202 FRIGORIFICO DE AVES SOYCHU SA,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Liberada,F,PVC612R,0,864,25/11/2024,EXPRESO CARGO SA,335964,60.0%
 39765,202 FRIGORIFICO DE AVES SOYCHU SA,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Liberada,F,PPHR1216B,0,848,25/11/2024,EXPRESO CARGO SA,335964,46.0%
