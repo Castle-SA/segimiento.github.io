@@ -840,8 +840,7 @@
             const sortedRows = sortRowsByDate(rows, fechaColumnIndex);  
             createTableWithLinks([rows[0]].concat(sortedRows), 'Compras', 2, true);  
         }
-        // Function to hide the ID column when rendering tables
-       function createTableWithLinks(rows, title, column, hideIdColumn = true) {
+        function createTableWithLinks(rows, title, column, hideIdColumn = true) {
             const section = document.createElement('div');
             section.classList.add('table-section');
         
@@ -852,11 +851,9 @@
             const table = document.createElement('table');
             const thead = document.createElement('thead');
             const tbody = document.createElement('tbody');
-
-           //ºººººººººººººººººººººººººººººººººººººººººººººººººººººººººººººººººººººººººººººººººººººººººººººººººººººººººººººººººººººººººººººººººººººººººººººººººººººººººººººººººººººººººººººººººººººººººººººººººººººººººººººººººººººººººººººººººººººººººººººººººººººººººººººººº
         
-            const headers = rows[0];  // The header row
-            const idColumnIndex = findIdColumnIndex(headers); // Get the index of the "ID" column
+            const headers = rows[0];
+            const idColumnIndex = findIdColumnIndex(headers);
             const goaColumnIndex = headers.indexOf('GOA') !== -1 ? headers.indexOf('GOA') : headers.indexOf('Número de documento'); // Handle renamed GOA column
             const clienteColumnIndex = headers.indexOf('Cliente') !== -1 ? headers.indexOf('Cliente') : headers.indexOf('Nombre'); // Index for "Cliente" or "Nombre"
         
@@ -873,11 +870,9 @@
                 headerRow.appendChild(th);
             });
             thead.appendChild(headerRow);
-
-           //ºººººººººººººººººººººººººººººººººººººººººººººººººººººººººººººººººººººººººººººººººººººººººººººººººººººººººººººººººººººººººººººººººººººººººººººººººººººººººººººººººººººººººººººººººººººººººººººººººººººººººººººººººººººººººººººººººººººººººººº
         
             // Process the table rows
-            rows.slice(1).forEach((row, rowIndex) => {
+            rows.slice(1).forEach((row) => {
                 const tr = document.createElement('tr');
                 row.forEach((cell, index) => {
                     const td = document.createElement('td');
@@ -886,23 +881,21 @@
                     if (index === idColumnIndex && hideIdColumn) {
                         td.classList.add('hidden');
                     }
-        //-----------------------------------------------------------------------XXXXX---------------------------------------------------------------------------------------
+        
                     // If this is the "GOA" column, make it a clickable hyperlink using the original row's ID
                     if (index === goaColumnIndex) {
                         const id = row[idColumnIndex]?.trim();
                         if (id && cell) {
-                            td.innerHTML = `<a href="https://4294049.app.netsuite.com/app/accounting/transactions/salesord.nl?id=${id}&whence=" target="_blank">${cell}</a>`;
+                            td.innerHTML = `<a href="https://4294049.app.netsuite.com/app/accounting/transactions/salesord.nl?id=${id}&whence=" target="_blank" class="goa-link">${cell}</a>`;
                         } else {
                             td.textContent = cell;
                         }
                     }
-        //----------------------------------------------------------------------XXXXX----------------------------------------------------------------------------------------
                     // Filter the "Cliente" or "Nombre" column to remove text before the first space
                     else if (index === clienteColumnIndex && cell) {
                         const filteredText = cell.split(' ').slice(1).join(' '); // Remove text before the first space
                         td.textContent = filteredText || cell; // If no space, use original text
-                    }
-                    else {
+                    } else {
                         td.textContent = cell;
                     }
         
@@ -910,7 +903,7 @@
                 });
                 tbody.appendChild(tr);
             });
-        //---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+        
             table.appendChild(thead);
             table.appendChild(tbody);
             section.appendChild(table);
