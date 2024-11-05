@@ -88,8 +88,8 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 39626,9401339 QUICKFOOD S.A.,Parcialmente ejecutada,Todo Aprobado,Ejecución de pedido de artículo 21444,Enviado,F,PPAR15048T,50,112,31/10/2024,EXPRESO SANTA ROSA,327823,48.0%
 39668,94010 VISUAR SA,Facturada,Todo Aprobado,Ejecución de pedido de artículo 21460,Enviado,F,1823/002,0,0,31/10/2024,EXPRESO CARGO SA,329775,53.0%
 39780,4516 RAPECA ARGENTINA SA,Facturada,Todo Aprobado,Ejecución de pedido de artículo 21465,Enviado,F,H11/CPE,0,0,31/10/2024,EXPRESO CARGO SA,336736,68.0%
-39828,9400716 RAFAELA ALIMENTOS SA,Parcialmente ejecutada,Todo Aprobado,Factura de venta 35850,Abierta,F,PPAR15048T,0,84,31/10/2024,EXPRESO SANTA ROSA,339229,58.0%
 39828,9400716 RAFAELA ALIMENTOS SA,Parcialmente ejecutada,Todo Aprobado,Ejecución de pedido de artículo 21443,Enviado,F,PPAR15048T,0,84,31/10/2024,EXPRESO SANTA ROSA,339229,58.0%
+39828,9400716 RAFAELA ALIMENTOS SA,Parcialmente ejecutada,Todo Aprobado,Factura de venta 35850,Abierta,F,PPAR15048T,0,84,31/10/2024,EXPRESO SANTA ROSA,339229,58.0%
 39837,9400962 CRYSTAL-ICE SRL,Facturada,Todo Aprobado,Ejecución de pedido de artículo 21458,Enviado,F,2068/002,0,0,31/10/2024,RICARDO PIERONI,339912,48.0%
 39849,9400267 THE FRAGRANCE GROUP SRL,Facturada,Todo Aprobado,Ejecución de pedido de artículo 21450,Enviado,F,PPAR1048T,0,0,31/10/2024,EXPRESO CARGO SA,340438,61.0%
 39851,812 SYSTEL SA,Facturada,Todo Aprobado,Ejecución de pedido de artículo 21449,Enviado,F,07063-00012-24,0,0,31/10/2024,EXPRESO CARGO SA,340598,58.0%
@@ -131,8 +131,8 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 39740,272 TALLERES METALURGICOS BAMBI S.A.,Facturada,Todo Aprobado,Ejecución de pedido de artículo 21470,Enviado,F,PPAR1072T,0,0,04/11/2024,FELICI JORGE ARIEL,334898,72.0%
 39740,272 TALLERES METALURGICOS BAMBI S.A.,Facturada,Todo Aprobado,Ejecución de pedido de artículo 21470,Enviado,F,0272/004,0,0,04/11/2024,FELICI JORGE ARIEL,334898,32.0%
 39740,272 TALLERES METALURGICOS BAMBI S.A.,Facturada,Todo Aprobado,Ejecución de pedido de artículo 21474,Enviado,F,0272/003,0,0,04/11/2024,FELICI JORGE ARIEL,334898,42.0%
-39740,272 TALLERES METALURGICOS BAMBI S.A.,Facturada,Todo Aprobado,Ejecución de pedido de artículo 21470,Enviado,F,0272/005,0,0,04/11/2024,FELICI JORGE ARIEL,334898,41.0%
 39740,272 TALLERES METALURGICOS BAMBI S.A.,Facturada,Todo Aprobado,Ejecución de pedido de artículo 21474,Enviado,F,0272/005,0,0,04/11/2024,FELICI JORGE ARIEL,334898,41.0%
+39740,272 TALLERES METALURGICOS BAMBI S.A.,Facturada,Todo Aprobado,Ejecución de pedido de artículo 21470,Enviado,F,0272/005,0,0,04/11/2024,FELICI JORGE ARIEL,334898,41.0%
 39740,272 TALLERES METALURGICOS BAMBI S.A.,Facturada,Todo Aprobado,Ejecución de pedido de artículo 21474,Enviado,F,0272/006,0,0,04/11/2024,FELICI JORGE ARIEL,334898,32.0%
 39853,3051 FRIMETAL S.A.,Facturada,Todo Aprobado,Ejecución de pedido de artículo 21472,Enviado,F,1823/002,0,0,04/11/2024,FELICI JORGE ARIEL,340798,53.0%
 39859,682 MAYO TRANSFORMADORES S.R.L.,Facturada,Todo Aprobado,Ejecución de pedido de artículo 21466,Enviado,F,MTS512B,0,0,04/11/2024,RICARDO PIERONI,340917,46.0%
@@ -152,6 +152,7 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 39900,747 CHACOEXPORT SRL,Facturada,Todo Aprobado,Ejecución de pedido de artículo 21476,Enviado,F,PPA1548TE,0,0,04/11/2024,TRANSPORTE RAOSA SRL,344249,49.0%
 39900,747 CHACOEXPORT SRL,Facturada,Todo Aprobado,Ejecución de pedido de artículo 21476,Enviado,F,H11/CPE,0,0,04/11/2024,TRANSPORTE RAOSA SRL,344249,69.0%
 39905,5020 LA BLANCA S.A.,Facturada,Todo Aprobado,Ejecución de pedido de artículo 21478,Enviado,F,PPA1548TE,0,0,04/11/2024,EXPRESO CARGO SA,344656,57.0%
+39761,143 EPTA ARGENTINA S.A.,Parcialmente ejecutada,Todo Aprobado,Pedido ,Recepción pendiente,T,0143/024,0,220,05/11/2024,RICARDO PIERONI,335797,53.0%
 39897,143 EPTA ARGENTINA S.A.,Facturación pendiente,Todo Aprobado,Ejecución de pedido de artículo 21480,Enviado,F,MTS536B,0,0,05/11/2024,FELICI JORGE ARIEL,343917,54.0%
 39904,9401339 QUICKFOOD S.A.,Ejecución de la orden pendiente,Todo Aprobado, ,,F,PPHR15048XT,18,0,05/11/2024,BERGAMASCHI OSVALDO RAMON,344555,0.0%
 39906,3029 DARK SRL,Facturación pendiente,Todo Aprobado,Ejecución de pedido de artículo 21479,Enviado,F,PPAR1048T,0,0,05/11/2024,RICARDO PIERONI,344761,58.0%
@@ -206,7 +207,6 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 37670,272 TALLERES METALURGICOS BAMBI S.A.,Ejecución de la orden pendiente,Todo Aprobado, ,,F,0272/004,0,640,,RICARDO PIERONI,253174,71.0%
 37670,272 TALLERES METALURGICOS BAMBI S.A.,Ejecución de la orden pendiente,Todo Aprobado, ,,F,0272/003,0,100,,RICARDO PIERONI,253174,75.0%
 37676,3096 FRECICAR SRL,Ejecución de la orden pendiente,Todo Aprobado, ,,F,52330-00040-00,7,0,,RICARDO PIERONI,253456,51.0%
-39761,143 EPTA ARGENTINA S.A.,Parcialmente ejecutada,Todo Aprobado,Pedido ,Recepción pendiente,T,0143/024,0,220,,RICARDO PIERONI,335797,53.0%
 39860,1499 FAIART ARGENTINA SA,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Ensamblada,F,1499/001,240,0,,RICARDO PIERONI,341018,54.0%
 39860,1499 FAIART ARGENTINA SA,Ejecución de la orden pendiente,Todo Aprobado, ,,F,PPAR1072T,120,0,,RICARDO PIERONI,341018,58.0%
 39860,1499 FAIART ARGENTINA SA,Ejecución de la orden pendiente,Todo Aprobado, ,,F,CH523EXR,64,0,,RICARDO PIERONI,341018,56.0%
