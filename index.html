@@ -1111,16 +1111,25 @@
         function compareRemitoWithFiles(remitos, files) {
             const matched = [];
             const unmatched = [];
-
+        
             remitos.forEach(remito => {
-                const matchedFile = files.find(file => file.name.startsWith(remito + '-Cu'));
+                let matchedFile = null;
+        
+                // Priority order for suffixes to match: Cu, Tr, Du, Or
+                const suffixes = ['-Cu', '-Tr', '-Du', '-Or'];
+                
+                for (const suffix of suffixes) {
+                    matchedFile = files.find(file => file.name.startsWith(remito + suffix));
+                    if (matchedFile) break; // Exit loop if a match is found
+                }
+        
                 if (matchedFile) {
                     matched.push({ remito, fileLink: matchedFile.link });
                 } else {
                     unmatched.push({ remito });
                 }
             });
-
+        
             return { matched, unmatched };
         }
 
