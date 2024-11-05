@@ -921,11 +921,6 @@
 
         // Function to create tables with links and GP color-coded column
         function createTableWithLinksAndGP(rows, title, column, hideIdColumn = true) {
-            console.log('Called GP TABLE thing');
-            //--------------------------------------------------------------------------------------------------XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
-            //--------------------------------------------------------------------------------------------------XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
-            //--------------------------------------------------------------------------------------------------XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
-            //--------------------------------------------------------------------------------------------------XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
             const section = document.createElement('div');
             section.classList.add('table-section');
         
@@ -942,15 +937,9 @@
             const goaColumnIndex = headers.indexOf('GOA') !== -1 ? headers.indexOf('GOA') : headers.indexOf('Número de documento');
             const clienteColumnIndex = headers.indexOf('Cliente') !== -1 ? headers.indexOf('Cliente') : headers.indexOf('Nombre');
             const gpColumnIndex = headers.indexOf('GP');
-
-            console.log('HEADERS', headers);
-
-
-            console.log('ID Column Index', idColumnIndex);
         
             const headerRow = document.createElement('tr');
             headers.forEach((header, index) => {
-                console.log('For Each Header Row', index);
                 const th = document.createElement('th');
                 th.textContent = header;
         
@@ -962,43 +951,33 @@
             });
             thead.appendChild(headerRow);
         
-            rows.slice(1).forEach((row, rowIndex) => {
+            rows.slice(1).forEach((row) => {
                 const tr = document.createElement('tr');
                 row.forEach((cell, index) => {
                     const td = document.createElement('td');
         
                     if (index === idColumnIndex && hideIdColumn) {
                         td.classList.add('hidden');
-                        console.log('Hide ID');
                     }
         
+                    // Add hyperlink to GOA column
                     if (index === goaColumnIndex) {
                         const id = row[idColumnIndex]?.trim();
-
-                            console.log('Creating hyperlink for row:', row);  // Debug log
-                            console.log('ID value:', id);                     // Debug log
-                            console.log('GOA value:', cell);                  // Debug log
                         if (id && cell) {
-                            console.log('ID thing hyperlink');
-                            td.innerHTML = `<a href="https://4294049.app.netsuite.com/app/accounting/transactions/salesord.nl?id=${id}&whence=" target="_blank">${cell}</a>`;
+                            td.innerHTML = `<a href="https://4294049.app.netsuite.com/app/accounting/transactions/salesord.nl?id=${id}&whence=" target="_blank" class="goa-link">${cell}</a>`;
                         } else {
-                            console.log('Didnt find it');
                             td.textContent = cell;
                         }
-                    } 
-                    
-                    if (index === clienteColumnIndex && cell) {
-                        console.log('Found cliente column');
-
+                    }
+                    // Filter the "Cliente" or "Nombre" column to remove text before the first space
+                    else if (index === clienteColumnIndex && cell) {
                         const filteredText = cell.split(' ').slice(1).join(' ');
                         td.textContent = filteredText || cell;
-                    } 
-                    
-                    if (index === gpColumnIndex) {
-                         console.log('Found GP');
+                    }
+                    // Apply color coding for GP column based on its value
+                    else if (index === gpColumnIndex) {
                         td.textContent = cell;
-                        const gpValue = parseFloat(cell.replace('%', '').trim()); // Remove the % symbol and parse the value
-                        console.log('GP Value:', gpValue);
+                        const gpValue = parseFloat(cell.replace('%', '').trim());
                         if (!isNaN(gpValue)) {
                             if (gpValue < 20) {
                                 td.style.color = 'brown';
