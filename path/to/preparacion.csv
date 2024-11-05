@@ -84,8 +84,8 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 39483,3909 LIBECO FILM SA,Facturada,Todo Aprobado,Ejecución de pedido de artículo 21463,Enviado,F,PPAR1048M,0,0,31/10/2024,EXPRESO CARGO SA,316757,49.0%
 39483,3909 LIBECO FILM SA,Facturada,Todo Aprobado,Ejecución de pedido de artículo 21463,Enviado,F,PPAR1048T,0,0,31/10/2024,EXPRESO CARGO SA,316757,52.0%
 39526,1029 DREAN SA,Facturada,Todo Aprobado,Ejecución de pedido de artículo 21464,Enviado,F,0272/005,0,0,31/10/2024,EXPRESO CARGO SA,319118,41.0%
-39626,9401339 QUICKFOOD S.A.,Parcialmente ejecutada,Todo Aprobado,Factura de venta 01198,Abierta,F,PPAR15048T,50,112,31/10/2024,EXPRESO SANTA ROSA,327823,48.0%
 39626,9401339 QUICKFOOD S.A.,Parcialmente ejecutada,Todo Aprobado,Ejecución de pedido de artículo 21444,Enviado,F,PPAR15048T,50,112,31/10/2024,EXPRESO SANTA ROSA,327823,48.0%
+39626,9401339 QUICKFOOD S.A.,Parcialmente ejecutada,Todo Aprobado,Factura de venta 01198,Abierta,F,PPAR15048T,50,112,31/10/2024,EXPRESO SANTA ROSA,327823,48.0%
 39668,94010 VISUAR SA,Facturada,Todo Aprobado,Ejecución de pedido de artículo 21460,Enviado,F,1823/002,0,0,31/10/2024,EXPRESO CARGO SA,329775,53.0%
 39780,4516 RAPECA ARGENTINA SA,Facturada,Todo Aprobado,Ejecución de pedido de artículo 21465,Enviado,F,H11/CPE,0,0,31/10/2024,EXPRESO CARGO SA,336736,68.0%
 39828,9400716 RAFAELA ALIMENTOS SA,Parcialmente ejecutada,Todo Aprobado,Ejecución de pedido de artículo 21443,Enviado,F,PPAR15048T,0,84,31/10/2024,EXPRESO SANTA ROSA,339229,58.0%
@@ -158,9 +158,14 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 39906,3029 DARK SRL,Facturación pendiente,Todo Aprobado,Ejecución de pedido de artículo 21479,Enviado,F,PPAR1048T,0,0,05/11/2024,RICARDO PIERONI,344761,58.0%
 39908,67 FORD ARGENTINA S.C.A.,Facturación pendiente,Todo Aprobado,Ejecución de pedido de artículo 21481,Enviado,F,BV002,0,0,05/11/2024,BARRY LATIMER,345103,67.0%
 39829,9401339 QUICKFOOD S.A.,Ejecución de la orden pendiente,Todo Aprobado, ,,F,PPHR15048XT,240,0,06/11/2024,BERGAMASCHI OSVALDO RAMON,339448,55.0%
+39910,4353 SMOVIR LUIS ALBERTO  SMOVIR ERNESTO SMOVIR EDUARDO SH,Ejecución de la orden pendiente,Todo Aprobado, ,,F,PPAR1048T,0,144,07/11/2024,EXPRESO LUJAN DEL CUYO SA,345238,67.0%
+39914,4329 COMPANIA ELABORADORA DE PASTAS SA,Ejecución de la orden pendiente,Todo Aprobado, ,,F,PPAR15048T,0,6,07/11/2024,RETIRAN,345240,61.0%
+39913,5078 GRANJA SRL,Ejecución de la orden pendiente,Todo Aprobado, ,,F,H11/72,4,0,07/11/2024,RICARDO PIERONI,345392,65.0%
+39913,5078 GRANJA SRL,Ejecución de la orden pendiente,Todo Aprobado, ,,F,PPA1548TE,180,0,07/11/2024,RICARDO PIERONI,345392,46.0%
 39169,9400753 RIS S.A,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Liberada,F,9400753/001,0,1008,08/11/2024,EXPRESO CARGO SA,301126,19.0%
 39169,9400753 RIS S.A,Ejecución de la orden pendiente,Todo Aprobado, ,,F,PPAR1048T,288,0,08/11/2024,EXPRESO CARGO SA,301126,48.0%
 39902,105 SCANIA ARGENTINA SAU,Ejecución de la orden pendiente,Todo Aprobado, ,,F,LC579,12000,0,08/11/2024,LA SEVILLANITA SRL,344427,61.0%
+39912,827 GONVARRI ARGENTINA SA,Ejecución de la orden pendiente,Todo Aprobado, ,,F,P579,800,0,08/11/2024,EXPRESO CARGO SA,345367,55.0%
 39802,4095 REFINERIA DEL CENTRO SA,Ejecución de la orden pendiente,Todo Aprobado, ,,F,PPHR10048T,54,0,11/11/2024,EXPRESO SANTA ROSA,337652,51.0%
 39802,4095 REFINERIA DEL CENTRO SA,Ejecución de la orden pendiente,Todo Aprobado, ,,F,PPAR1072T,2700,0,11/11/2024,EXPRESO SANTA ROSA,337652,54.0%
 39655,3771 PILISAR SA,Ejecución de la orden pendiente,Todo Aprobado, ,,F,04968-LOGROLL,1,0,14/11/2024,BARRY LATIMER,329152,49.0%
