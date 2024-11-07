@@ -1,10 +1,10 @@
 Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. Especial,Pedido,Artículo,Cantidad,Faltante,Fecha,Transportista,ID,GP
 39116,3368 COOPERATIVA AGROPECUARIA PRODUCTORES Y CONSUMIDORES LIMITADA,Parcialmente ejecutada,Todo Aprobado,Factura de venta 35192,Pagado por completo,F,2527/001,0,1,07/08/2024,BARRY LATIMER,300231,0.0%
 39386,260 SUCESION DE BARCIA CLAUDIO RODRIGO,Parcialmente ejecutada,Todo Aprobado,Factura de venta 35412,Pagado por completo,F,04169-00056-93,0,32,03/09/2024,RICARDO PIERONI,309590,49.0%
-39611,9400761 TECNOLOGIA GRAFICA SRL,Parcialmente ejecutada,Todo Aprobado,Orden de trabajo ,Liberada,T,9400761/001,0,360,07/10/2024,EXPRESO LUJAN DEL CUYO SA,326788,65.0%
-39666,1736 COMPANY SPY SRL,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Liberada,T,1736/001,0,360,07/10/2024,RICARDO PIERONI,329657,72.0%
+39611,9400761 TECNOLOGIA GRAFICA SRL,Parcialmente ejecutada,Todo Aprobado,Orden de trabajo ,Ensamblada,T,9400761/001,360,0,07/10/2024,EXPRESO LUJAN DEL CUYO SA,326788,65.0%
+39666,1736 COMPANY SPY SRL,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Ensamblada,T,1736/001,360,0,07/10/2024,RICARDO PIERONI,329657,72.0%
 39608,9401290 GLAMOURAMA SRL,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Liberada,T,9401290/002,0,240,14/10/2024,EXPRESO BRIO SRL,326514,69.0%
-39693,3560 MEC PARTS SRL,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Liberada,T,3560/001,0,360,14/10/2024,EXPRESO BRIO SRL,331107,65.0%
+39693,3560 MEC PARTS SRL,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Ensamblada,T,3560/001,360,0,14/10/2024,EXPRESO BRIO SRL,331107,65.0%
 39728,9402041 ARAUCO ARGENTINA SA,Parcialmente ejecutada,Todo Aprobado,Factura de venta 35745,Pagado por completo,F,50605-00013-41,0,2,17/10/2024,EXPRESO CARGO SA,333794,0.0%
 39727,3769 GAROFOLI CONSTRUCCIONES SRL,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Liberada,T,3769/002,0,1440,21/10/2024,RODRIGUEZ HNOS. TRANSP. SA,333694,52.0%
 39727,3769 GAROFOLI CONSTRUCCIONES SRL,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Liberada,T,3769/003,0,1080,21/10/2024,RODRIGUEZ HNOS. TRANSP. SA,333694,65.0%
@@ -111,8 +111,8 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 39740,272 TALLERES METALURGICOS BAMBI S.A.,Facturada,Todo Aprobado,Ejecución de pedido de artículo 21470,Enviado,F,PPAR1072T,0,0,04/11/2024,FELICI JORGE ARIEL,334898,72.0%
 39740,272 TALLERES METALURGICOS BAMBI S.A.,Facturada,Todo Aprobado,Ejecución de pedido de artículo 21470,Enviado,F,0272/004,0,0,04/11/2024,FELICI JORGE ARIEL,334898,32.0%
 39740,272 TALLERES METALURGICOS BAMBI S.A.,Facturada,Todo Aprobado,Ejecución de pedido de artículo 21474,Enviado,F,0272/003,0,0,04/11/2024,FELICI JORGE ARIEL,334898,42.0%
-39740,272 TALLERES METALURGICOS BAMBI S.A.,Facturada,Todo Aprobado,Ejecución de pedido de artículo 21474,Enviado,F,0272/005,0,0,04/11/2024,FELICI JORGE ARIEL,334898,41.0%
 39740,272 TALLERES METALURGICOS BAMBI S.A.,Facturada,Todo Aprobado,Ejecución de pedido de artículo 21470,Enviado,F,0272/005,0,0,04/11/2024,FELICI JORGE ARIEL,334898,41.0%
+39740,272 TALLERES METALURGICOS BAMBI S.A.,Facturada,Todo Aprobado,Ejecución de pedido de artículo 21474,Enviado,F,0272/005,0,0,04/11/2024,FELICI JORGE ARIEL,334898,41.0%
 39740,272 TALLERES METALURGICOS BAMBI S.A.,Facturada,Todo Aprobado,Ejecución de pedido de artículo 21474,Enviado,F,0272/006,0,0,04/11/2024,FELICI JORGE ARIEL,334898,32.0%
 39853,3051 FRIMETAL S.A.,Facturada,Todo Aprobado,Ejecución de pedido de artículo 21472,Enviado,F,1823/002,0,0,04/11/2024,FELICI JORGE ARIEL,340798,53.0%
 39859,682 MAYO TRANSFORMADORES S.R.L.,Facturada,Todo Aprobado,Ejecución de pedido de artículo 21466,Enviado,F,MTS512B,0,0,04/11/2024,RICARDO PIERONI,340917,46.0%
