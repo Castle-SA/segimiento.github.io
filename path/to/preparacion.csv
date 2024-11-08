@@ -42,8 +42,8 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 39626,9401339 QUICKFOOD S.A.,Parcialmente ejecutada,Todo Aprobado,Factura de venta 01198,Abierta,F,PPAR15048T,80,82,31/10/2024,EXPRESO SANTA ROSA,327823,48.0%
 39668,94010 VISUAR SA,Facturada,Todo Aprobado,Ejecución de pedido de artículo 21460,Enviado,F,1823/002,0,0,31/10/2024,EXPRESO CARGO SA,329775,53.0%
 39780,4516 RAPECA ARGENTINA SA,Facturada,Todo Aprobado,Ejecución de pedido de artículo 21465,Enviado,F,H11/CPE,0,0,31/10/2024,EXPRESO CARGO SA,336736,68.0%
-39828,9400716 RAFAELA ALIMENTOS SA,Parcialmente ejecutada,Todo Aprobado,Ejecución de pedido de artículo 21443,Enviado,F,PPAR15048T,0,84,31/10/2024,EXPRESO SANTA ROSA,339229,58.0%
 39828,9400716 RAFAELA ALIMENTOS SA,Parcialmente ejecutada,Todo Aprobado,Factura de venta 35850,Abierta,F,PPAR15048T,0,84,31/10/2024,EXPRESO SANTA ROSA,339229,58.0%
+39828,9400716 RAFAELA ALIMENTOS SA,Parcialmente ejecutada,Todo Aprobado,Ejecución de pedido de artículo 21443,Enviado,F,PPAR15048T,0,84,31/10/2024,EXPRESO SANTA ROSA,339229,58.0%
 39837,9400962 CRYSTAL-ICE SRL,Facturada,Todo Aprobado,Ejecución de pedido de artículo 21458,Enviado,F,2068/002,0,0,31/10/2024,RICARDO PIERONI,339912,48.0%
 39849,9400267 THE FRAGRANCE GROUP SRL,Facturada,Todo Aprobado,Ejecución de pedido de artículo 21450,Enviado,F,PPAR1048T,0,0,31/10/2024,EXPRESO CARGO SA,340438,61.0%
 39851,812 SYSTEL SA,Facturada,Todo Aprobado,Ejecución de pedido de artículo 21449,Enviado,F,07063-00012-24,0,0,31/10/2024,EXPRESO CARGO SA,340598,58.0%
@@ -96,7 +96,6 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 39887,12662 PRINTEMPS S.R.L.,Facturada,Todo Aprobado,Ejecución de pedido de artículo 21469,Enviado,F,2662/004,0,0,04/11/2024,RICARDO PIERONI,342933,58.0%
 39887,12662 PRINTEMPS S.R.L.,Facturada,Todo Aprobado,Ejecución de pedido de artículo 21469,Enviado,F,64621-00003-00,0,0,04/11/2024,RICARDO PIERONI,342933,62.0%
 39887,12662 PRINTEMPS S.R.L.,Facturada,Todo Aprobado,Ejecución de pedido de artículo 21469,Enviado,F,04965-00176-00,0,0,04/11/2024,RICARDO PIERONI,342933,55.0%
-39891,2790 DPM S.A.,Facturación pendiente/parcialmente ejecutada,Todo Aprobado, ,,F,PPAR1048T,0,4032,04/11/2024,RICARDO PIERONI,343156,48.0%
 39892,3909 LIBECO FILM SA,Facturada,Todo Aprobado,Ejecución de pedido de artículo 21473,Enviado,F,PPAR524T,0,0,04/11/2024,EXPRESO CARGO SA,343292,100.0%
 39892,3909 LIBECO FILM SA,Facturada,Todo Aprobado,Ejecución de pedido de artículo 21473,Enviado,F,PPAR1048T,0,0,04/11/2024,EXPRESO CARGO SA,343292,57.0%
 39892,3909 LIBECO FILM SA,Facturada,Todo Aprobado,Ejecución de pedido de artículo 21473,Enviado,F,PPAR548T,0,0,04/11/2024,EXPRESO CARGO SA,343292,100.0%
@@ -115,8 +114,8 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 39908,67 FORD ARGENTINA S.C.A.,Facturada,Todo Aprobado,Ejecución de pedido de artículo 21481,Enviado,F,BV002,0,0,05/11/2024,BARRY LATIMER,345103,67.0%
 39913,5078 GRANJA SRL,Facturada,Todo Aprobado,Ejecución de pedido de artículo 21482,Enviado,F,H11/72,0,0,05/11/2024,RICARDO PIERONI,345392,65.0%
 39913,5078 GRANJA SRL,Facturada,Todo Aprobado,Ejecución de pedido de artículo 21482,Enviado,F,PPA1548TE,0,0,05/11/2024,RICARDO PIERONI,345392,46.0%
-39915,9401339 QUICKFOOD S.A.,Parcialmente ejecutada,Todo Aprobado,Ejecución de pedido de artículo 21483,Enviado,F,PPAR1048T,0,3600,05/11/2024,EXPRESO SANTA ROSA,345393,58.0%
 39915,9401339 QUICKFOOD S.A.,Parcialmente ejecutada,Todo Aprobado,Factura de venta 35886,Abierta,F,PPAR1048T,0,3600,05/11/2024,EXPRESO SANTA ROSA,345393,58.0%
+39915,9401339 QUICKFOOD S.A.,Parcialmente ejecutada,Todo Aprobado,Ejecución de pedido de artículo 21483,Enviado,F,PPAR1048T,0,3600,05/11/2024,EXPRESO SANTA ROSA,345393,58.0%
 39169,9400753 RIS S.A,Facturada,Todo Aprobado,Ejecución de pedido de artículo 21490,Enviado,F,9400753/001,0,0,06/11/2024,EXPRESO CARGO SA,301126,19.0%
 39169,9400753 RIS S.A,Facturada,Todo Aprobado,Ejecución de pedido de artículo 21490,Enviado,F,PPAR1048T,0,0,06/11/2024,EXPRESO CARGO SA,301126,48.0%
 39829,9401339 QUICKFOOD S.A.,Facturada,Todo Aprobado,Ejecución de pedido de artículo 21485,Enviado,F,PPHR15048XT,0,0,06/11/2024,BERGAMASCHI OSVALDO RAMON,339448,55.0%
@@ -132,22 +131,23 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 39910,4353 SMOVIR LUIS ALBERTO  SMOVIR ERNESTO SMOVIR EDUARDO SH,Ejecución de la orden pendiente,Todo Aprobado, ,,F,PPAR1048T,0,144,07/11/2024,EXPRESO LUJAN DEL CUYO SA,345238,67.0%
 39922,862 ZF ARGENTINA S.A.,Facturada,Todo Aprobado,Ejecución de pedido de artículo 21494,Enviado,F,LC579,0,0,07/11/2024,TRANSPORTE CARROSIO Y VAIROLATTI,346057,68.0%
 39933,2021 SOLAUT S.A.,Facturada,Todo Aprobado,Ejecución de pedido de artículo 21495,Enviado,F,PPA1548TE,0,0,07/11/2024,EXPRESO CARGO SA,346360,46.0%
-39611,9400761 TECNOLOGIA GRAFICA SRL,Facturación pendiente,Todo Aprobado,Ejecución de pedido de artículo 21498,Enviado,F,9400761/001,0,0,08/11/2024,EXPRESO LUJAN DEL CUYO SA,326788,65.0%
-39666,1736 COMPANY SPY SRL,Facturación pendiente,Todo Aprobado,Ejecución de pedido de artículo 21499,Enviado,F,1736/001,0,0,08/11/2024,RICARDO PIERONI,329657,72.0%
+39611,9400761 TECNOLOGIA GRAFICA SRL,Facturada,Todo Aprobado,Ejecución de pedido de artículo 21498,Enviado,F,9400761/001,0,0,08/11/2024,EXPRESO LUJAN DEL CUYO SA,326788,65.0%
+39666,1736 COMPANY SPY SRL,Facturada,Todo Aprobado,Ejecución de pedido de artículo 21499,Enviado,F,1736/001,0,0,08/11/2024,RICARDO PIERONI,329657,72.0%
 39693,3560 MEC PARTS SRL,Facturada,Todo Aprobado,Ejecución de pedido de artículo 21497,Enviado,F,3560/001,0,0,08/11/2024,EXPRESO BRIO SRL,331107,65.0%
-39891,2790 DPM S.A.,Facturación pendiente/parcialmente ejecutada,Todo Aprobado,Ejecución de pedido de artículo 21500,Enviado,F,MTS548B,0,0,08/11/2024,RICARDO PIERONI,343156,50.0%
+39891,2790 DPM S.A.,Parcialmente ejecutada,Todo Aprobado,Ejecución de pedido de artículo 21500,Enviado,F,MTS548B,0,0,08/11/2024,RICARDO PIERONI,343156,50.0%
+39891,2790 DPM S.A.,Parcialmente ejecutada,Todo Aprobado,Factura de venta 35903,Abierta,F,PPAR1048T,0,4032,08/11/2024,RICARDO PIERONI,343156,48.0%
 39901,3089 ARNEG ARGENTINA S.A.,Parcialmente ejecutada,Todo Aprobado,Ejecución de pedido de artículo 21501,Enviado,F,PER3040U,0,-50,08/11/2024,RICARDO PIERONI,344150,57.0%
 39902,105 SCANIA ARGENTINA SAU,Facturada,Todo Aprobado,Ejecución de pedido de artículo 21496,Enviado,F,LC579,0,0,08/11/2024,LA SEVILLANITA SRL,344427,61.0%
 39914,4329 COMPANIA ELABORADORA DE PASTAS SA,Facturada,Todo Aprobado,Ejecución de pedido de artículo 21507,Enviado,F,PPAR15048T,0,0,08/11/2024,RETIRAN,345240,61.0%
 39931,5019 GRANJA TRES ARROYOS SACAFEI,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Liberada,T,5019/004,0,192,08/11/2024,EXPRESO CARGO SA,346063,60.0%
 39931,5019 GRANJA TRES ARROYOS SACAFEI,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Liberada,T,5019/005,0,64,08/11/2024,EXPRESO CARGO SA,346063,59.0%
 39932,4558 FUSION SAN LUIS S A,Ejecución de la orden pendiente,Todo Aprobado, ,,F,PPAR1048T,0,180,08/11/2024,EXPRESO LUJAN DEL CUYO SA,346185,67.0%
-39937,9400115 BEST COLD SRL,Facturación pendiente,Todo Aprobado,Ejecución de pedido de artículo 21503,Enviado,F,MTS548B,0,0,08/11/2024,FELICI JORGE ARIEL,346829,42.0%
-39938,433 MOLLON SA,Facturación pendiente,Todo Aprobado,Ejecución de pedido de artículo 21502,Enviado,F,PPAR1048T,0,0,08/11/2024,EXPRESO CARGO SA,346830,0.0%
-39938,433 MOLLON SA,Facturación pendiente,Todo Aprobado,Ejecución de pedido de artículo 21502,Enviado,F,PPAR10072T,0,0,08/11/2024,EXPRESO CARGO SA,346830,46.0%
+39937,9400115 BEST COLD SRL,Facturada,Todo Aprobado,Ejecución de pedido de artículo 21503,Enviado,F,MTS548B,0,0,08/11/2024,FELICI JORGE ARIEL,346829,42.0%
+39938,433 MOLLON SA,Facturada,Todo Aprobado,Ejecución de pedido de artículo 21502,Enviado,F,PPAR1048T,0,0,08/11/2024,EXPRESO CARGO SA,346830,0.0%
+39938,433 MOLLON SA,Facturada,Todo Aprobado,Ejecución de pedido de artículo 21502,Enviado,F,PPAR10072T,0,0,08/11/2024,EXPRESO CARGO SA,346830,46.0%
 39940,9402184 LEDESMA MAXIMILIANO,Facturación pendiente,Todo Aprobado,Ejecución de pedido de artículo 21506,Enviado,F,07063-00001-24,0,0,08/11/2024,RICARDO PIERONI,347185,44.0%
-39941,1165 MACOSER SA,Facturación pendiente,Todo Aprobado,Ejecución de pedido de artículo 21505,Enviado,F,60630-00002-00,0,0,08/11/2024,"CAROSSIO, VAIROLATTI Y CIA",347221,53.0%
-39942,9400115 BEST COLD SRL,Facturación pendiente,Todo Aprobado,Ejecución de pedido de artículo 21504,Enviado,F,MTS548B,0,0,08/11/2024,FELICI JORGE ARIEL,347327,42.0%
+39941,1165 MACOSER SA,Facturada,Todo Aprobado,Ejecución de pedido de artículo 21505,Enviado,F,60630-00002-00,0,0,08/11/2024,"CAROSSIO, VAIROLATTI Y CIA",347221,53.0%
+39942,9400115 BEST COLD SRL,Facturada,Todo Aprobado,Ejecución de pedido de artículo 21504,Enviado,F,MTS548B,0,0,08/11/2024,FELICI JORGE ARIEL,347327,42.0%
 39802,4095 REFINERIA DEL CENTRO SA,Ejecución de la orden pendiente,Todo Aprobado, ,,F,PPHR10048T,54,0,11/11/2024,EXPRESO SANTA ROSA,337652,51.0%
 39939,9400018 SEND SRL,Ejecución de la orden pendiente,Todo Aprobado, ,,F,PPAR1048T,0,288,11/11/2024,RICARDO PIERONI,347038,65.0%
 39946,178 DROGUERIA DEL SUD S.A.,Ejecución de la orden pendiente,Todo Aprobado, ,,F,PPAR1048T,0,648,11/11/2024,TRANSPORTE TOMASSINI,347467,50.0%
