@@ -1,7 +1,7 @@
 Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. Especial,Pedido,Artículo,Cantidad,Faltante,Fecha,Transportista,ID,GP
 39116,3368 COOPERATIVA AGROPECUARIA PRODUCTORES Y CONSUMIDORES LIMITADA,Parcialmente ejecutada,Todo Aprobado,Factura de venta 35192,Pagado por completo,F,2527/001,0,1,07/08/2024,BARRY LATIMER,300231,0.0%
 39386,260 SUCESION DE BARCIA CLAUDIO RODRIGO,Parcialmente ejecutada,Todo Aprobado,Factura de venta 35412,Pagado por completo,F,04169-00056-93,0,32,03/09/2024,RICARDO PIERONI,309590,49.0%
-39608,9401290 GLAMOURAMA SRL,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Liberada,T,9401290/002,0,240,14/10/2024,EXPRESO BRIO SRL,326514,69.0%
+39608,9401290 GLAMOURAMA SRL,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Ensamblada,T,9401290/002,240,0,14/10/2024,EXPRESO BRIO SRL,326514,69.0%
 39728,9402041 ARAUCO ARGENTINA SA,Parcialmente ejecutada,Todo Aprobado,Factura de venta 35745,Pagado por completo,F,50605-00013-41,0,2,17/10/2024,EXPRESO CARGO SA,333794,0.0%
 39727,3769 GAROFOLI CONSTRUCCIONES SRL,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Liberada,T,3769/002,0,1440,21/10/2024,RODRIGUEZ HNOS. TRANSP. SA,333694,52.0%
 39727,3769 GAROFOLI CONSTRUCCIONES SRL,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Liberada,T,3769/003,0,1080,21/10/2024,RODRIGUEZ HNOS. TRANSP. SA,333694,65.0%
@@ -134,11 +134,11 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 39933,2021 SOLAUT S.A.,Facturada,Todo Aprobado,Ejecución de pedido de artículo 21495,Enviado,F,PPA1548TE,0,0,07/11/2024,EXPRESO CARGO SA,346360,46.0%
 39611,9400761 TECNOLOGIA GRAFICA SRL,Facturación pendiente,Todo Aprobado,Ejecución de pedido de artículo 21498,Enviado,F,9400761/001,0,0,08/11/2024,EXPRESO LUJAN DEL CUYO SA,326788,65.0%
 39666,1736 COMPANY SPY SRL,Facturación pendiente,Todo Aprobado,Ejecución de pedido de artículo 21499,Enviado,F,1736/001,0,0,08/11/2024,RICARDO PIERONI,329657,72.0%
-39693,3560 MEC PARTS SRL,Facturación pendiente,Todo Aprobado,Ejecución de pedido de artículo 21497,Enviado,F,3560/001,0,0,08/11/2024,EXPRESO BRIO SRL,331107,65.0%
+39693,3560 MEC PARTS SRL,Facturada,Todo Aprobado,Ejecución de pedido de artículo 21497,Enviado,F,3560/001,0,0,08/11/2024,EXPRESO BRIO SRL,331107,65.0%
 39891,2790 DPM S.A.,Facturación pendiente/parcialmente ejecutada,Todo Aprobado,Ejecución de pedido de artículo 21500,Enviado,F,MTS548B,0,0,08/11/2024,RICARDO PIERONI,343156,50.0%
-39901,3089 ARNEG ARGENTINA S.A.,Facturación pendiente/parcialmente ejecutada,Todo Aprobado,Ejecución de pedido de artículo 21501,Enviado,F,PER3040U,0,-50,08/11/2024,RICARDO PIERONI,344150,57.0%
-39902,105 SCANIA ARGENTINA SAU,Facturación pendiente,Todo Aprobado,Ejecución de pedido de artículo 21496,Enviado,F,LC579,0,0,08/11/2024,LA SEVILLANITA SRL,344427,61.0%
-39914,4329 COMPANIA ELABORADORA DE PASTAS SA,Facturación pendiente,Todo Aprobado,Ejecución de pedido de artículo 21507,Enviado,F,PPAR15048T,0,0,08/11/2024,RETIRAN,345240,61.0%
+39901,3089 ARNEG ARGENTINA S.A.,Parcialmente ejecutada,Todo Aprobado,Ejecución de pedido de artículo 21501,Enviado,F,PER3040U,0,-50,08/11/2024,RICARDO PIERONI,344150,57.0%
+39902,105 SCANIA ARGENTINA SAU,Facturada,Todo Aprobado,Ejecución de pedido de artículo 21496,Enviado,F,LC579,0,0,08/11/2024,LA SEVILLANITA SRL,344427,61.0%
+39914,4329 COMPANIA ELABORADORA DE PASTAS SA,Facturada,Todo Aprobado,Ejecución de pedido de artículo 21507,Enviado,F,PPAR15048T,0,0,08/11/2024,RETIRAN,345240,61.0%
 39931,5019 GRANJA TRES ARROYOS SACAFEI,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Liberada,T,5019/004,0,192,08/11/2024,EXPRESO CARGO SA,346063,60.0%
 39931,5019 GRANJA TRES ARROYOS SACAFEI,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Liberada,T,5019/005,0,64,08/11/2024,EXPRESO CARGO SA,346063,59.0%
 39932,4558 FUSION SAN LUIS S A,Ejecución de la orden pendiente,Todo Aprobado, ,,F,PPAR1048T,0,180,08/11/2024,EXPRESO LUJAN DEL CUYO SA,346185,67.0%
@@ -224,8 +224,8 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 37670,272 TALLERES METALURGICOS BAMBI S.A.,Ejecución de la orden pendiente,Todo Aprobado, ,,F,0272/003,0,100,,RICARDO PIERONI,253174,75.0%
 37676,3096 FRECICAR SRL,Ejecución de la orden pendiente,Todo Aprobado, ,,F,52330-00040-00,7,0,,RICARDO PIERONI,253456,51.0%
 39850,9402177 TIBU COMPANY SRL,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Liberada,F,9402177/001,0,360,,RICARDO PIERONI,340538,55.0%
-39901,3089 ARNEG ARGENTINA S.A.,Facturación pendiente/parcialmente ejecutada,Todo Aprobado,Orden de trabajo ,Liberada,F,3089/029,0,60000,,RICARDO PIERONI,344150,84.0%
-39901,3089 ARNEG ARGENTINA S.A.,Facturación pendiente/parcialmente ejecutada,Todo Aprobado,Orden de trabajo ,Liberada,F,3089/029,0,40000,,RICARDO PIERONI,344150,84.0%
+39901,3089 ARNEG ARGENTINA S.A.,Parcialmente ejecutada,Todo Aprobado,Orden de trabajo ,Liberada,F,3089/029,0,60000,,RICARDO PIERONI,344150,84.0%
+39901,3089 ARNEG ARGENTINA S.A.,Parcialmente ejecutada,Todo Aprobado,Orden de trabajo ,Liberada,F,3089/029,0,40000,,RICARDO PIERONI,344150,84.0%
 39919,3089 ARNEG ARGENTINA S.A.,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Ensamblada,F,3089/014,25000,0,,RICARDO PIERONI,345762,64.0%
 39919,3089 ARNEG ARGENTINA S.A.,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Liberada,F,3089/029,0,60000,,RICARDO PIERONI,345762,87.0%
 39935,4634 FRIDEVI SAFIC,Ejecución de la orden pendiente,Todo Aprobado,Pedido ,Aprobación del supervisor pendiente,T,4634/001,0,60,,TRANSPORTE TOMASSINI,346598,60.0%
