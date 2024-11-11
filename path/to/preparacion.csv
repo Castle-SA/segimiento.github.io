@@ -50,8 +50,8 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 39908,67 FORD ARGENTINA S.C.A.,Facturada,Todo Aprobado,Ejecución de pedido de artículo 21481,Enviado,F,BV002,0,0,05/11/2024,BARRY LATIMER,345103,67.0%
 39913,5078 GRANJA SRL,Facturada,Todo Aprobado,Ejecución de pedido de artículo 21482,Enviado,F,H11/72,0,0,05/11/2024,RICARDO PIERONI,345392,65.0%
 39913,5078 GRANJA SRL,Facturada,Todo Aprobado,Ejecución de pedido de artículo 21482,Enviado,F,PPA1548TE,0,0,05/11/2024,RICARDO PIERONI,345392,46.0%
-39915,9401339 QUICKFOOD S.A.,Parcialmente ejecutada,Todo Aprobado,Factura de venta 35886,Abierta,F,PPAR1048T,0,3600,05/11/2024,EXPRESO SANTA ROSA,345393,58.0%
 39915,9401339 QUICKFOOD S.A.,Parcialmente ejecutada,Todo Aprobado,Ejecución de pedido de artículo 21483,Enviado,F,PPAR1048T,0,3600,05/11/2024,EXPRESO SANTA ROSA,345393,58.0%
+39915,9401339 QUICKFOOD S.A.,Parcialmente ejecutada,Todo Aprobado,Factura de venta 35886,Abierta,F,PPAR1048T,0,3600,05/11/2024,EXPRESO SANTA ROSA,345393,58.0%
 39169,9400753 RIS S.A,Facturada,Todo Aprobado,Ejecución de pedido de artículo 21490,Enviado,F,9400753/001,0,0,06/11/2024,EXPRESO CARGO SA,301126,19.0%
 39169,9400753 RIS S.A,Facturada,Todo Aprobado,Ejecución de pedido de artículo 21490,Enviado,F,PPAR1048T,0,0,06/11/2024,EXPRESO CARGO SA,301126,48.0%
 39829,9401339 QUICKFOOD S.A.,Facturada,Todo Aprobado,Ejecución de pedido de artículo 21485,Enviado,F,PPHR15048XT,0,0,06/11/2024,BERGAMASCHI OSVALDO RAMON,339448,55.0%
@@ -86,7 +86,7 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 39942,9400115 BEST COLD SRL,Facturada,Todo Aprobado,Ejecución de pedido de artículo 21504,Enviado,F,MTS548B,0,0,08/11/2024,FELICI JORGE ARIEL,347327,42.0%
 39608,9401290 GLAMOURAMA SRL,Facturación pendiente,Todo Aprobado,Ejecución de pedido de artículo 21509,Enviado,F,9401290/002,0,0,11/11/2024,EXPRESO BRIO SRL,326514,69.0%
 39655,3771 PILISAR SA,Facturación pendiente,Todo Aprobado,Ejecución de pedido de artículo 21511,Enviado,F,04968-LOGROLL,0,0,11/11/2024,BARRY LATIMER,329152,49.0%
-39802,4095 REFINERIA DEL CENTRO SA,Ejecución de la orden pendiente,Todo Aprobado, ,,F,PPHR10048T,54,0,11/11/2024,EXPRESO SANTA ROSA,337652,51.0%
+39802,4095 REFINERIA DEL CENTRO SA,Facturación pendiente,Todo Aprobado,Ejecución de pedido de artículo 21517,Enviado,F,PPHR10048T,0,0,11/11/2024,EXPRESO SANTA ROSA,337652,51.0%
 39896,9401433 MODULOS ECOLODGE SAS,Facturación pendiente,Todo Aprobado,Ejecución de pedido de artículo 21516,Enviado,F,TERM420,0,-9,11/11/2024,EXPRESO LUJAN DEL CUYO SA,343659,56.0%
 39919,3089 ARNEG ARGENTINA S.A.,Facturación pendiente/parcialmente ejecutada,Todo Aprobado,Ejecución de pedido de artículo 21510,Enviado,F,3089/014,0,-500,11/11/2024,RICARDO PIERONI,345762,64.0%
 39929,3089 ARNEG ARGENTINA S.A.,Facturación pendiente,Todo Aprobado,Ejecución de pedido de artículo 21513,Enviado,F,3089/078,0,-1000,11/11/2024,RICARDO PIERONI,345958,61.0%
