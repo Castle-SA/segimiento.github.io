@@ -25,8 +25,8 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 39740,272 TALLERES METALURGICOS BAMBI S.A.,Facturada,Todo Aprobado,Ejecución de pedido de artículo 21470,Enviado,F,PPAR1072T,0,0,04/11/2024,FELICI JORGE ARIEL,334898,72.0%
 39740,272 TALLERES METALURGICOS BAMBI S.A.,Facturada,Todo Aprobado,Ejecución de pedido de artículo 21470,Enviado,F,0272/004,0,0,04/11/2024,FELICI JORGE ARIEL,334898,32.0%
 39740,272 TALLERES METALURGICOS BAMBI S.A.,Facturada,Todo Aprobado,Ejecución de pedido de artículo 21474,Enviado,F,0272/003,0,0,04/11/2024,FELICI JORGE ARIEL,334898,42.0%
-39740,272 TALLERES METALURGICOS BAMBI S.A.,Facturada,Todo Aprobado,Ejecución de pedido de artículo 21474,Enviado,F,0272/005,0,0,04/11/2024,FELICI JORGE ARIEL,334898,41.0%
 39740,272 TALLERES METALURGICOS BAMBI S.A.,Facturada,Todo Aprobado,Ejecución de pedido de artículo 21470,Enviado,F,0272/005,0,0,04/11/2024,FELICI JORGE ARIEL,334898,41.0%
+39740,272 TALLERES METALURGICOS BAMBI S.A.,Facturada,Todo Aprobado,Ejecución de pedido de artículo 21474,Enviado,F,0272/005,0,0,04/11/2024,FELICI JORGE ARIEL,334898,41.0%
 39740,272 TALLERES METALURGICOS BAMBI S.A.,Facturada,Todo Aprobado,Ejecución de pedido de artículo 21474,Enviado,F,0272/006,0,0,04/11/2024,FELICI JORGE ARIEL,334898,32.0%
 39853,3051 FRIMETAL S.A.,Facturada,Todo Aprobado,Ejecución de pedido de artículo 21472,Enviado,F,1823/002,0,0,04/11/2024,FELICI JORGE ARIEL,340798,53.0%
 39859,682 MAYO TRANSFORMADORES S.R.L.,Facturada,Todo Aprobado,Ejecución de pedido de artículo 21466,Enviado,F,MTS512B,0,0,04/11/2024,RICARDO PIERONI,340917,46.0%
@@ -54,8 +54,8 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 39908,67 FORD ARGENTINA S.C.A.,Facturada,Todo Aprobado,Ejecución de pedido de artículo 21481,Enviado,F,BV002,0,0,05/11/2024,BARRY LATIMER,345103,67.0%
 39913,5078 GRANJA SRL,Facturada,Todo Aprobado,Ejecución de pedido de artículo 21482,Enviado,F,H11/72,0,0,05/11/2024,RICARDO PIERONI,345392,65.0%
 39913,5078 GRANJA SRL,Facturada,Todo Aprobado,Ejecución de pedido de artículo 21482,Enviado,F,PPA1548TE,0,0,05/11/2024,RICARDO PIERONI,345392,46.0%
-39915,9401339 QUICKFOOD S.A.,Parcialmente ejecutada,Todo Aprobado,Factura de venta 35886,Abierta,F,PPAR1048T,0,3600,05/11/2024,EXPRESO SANTA ROSA,345393,58.0%
 39915,9401339 QUICKFOOD S.A.,Parcialmente ejecutada,Todo Aprobado,Ejecución de pedido de artículo 21483,Enviado,F,PPAR1048T,0,3600,05/11/2024,EXPRESO SANTA ROSA,345393,58.0%
+39915,9401339 QUICKFOOD S.A.,Parcialmente ejecutada,Todo Aprobado,Factura de venta 35886,Abierta,F,PPAR1048T,0,3600,05/11/2024,EXPRESO SANTA ROSA,345393,58.0%
 39169,9400753 RIS S.A,Facturada,Todo Aprobado,Ejecución de pedido de artículo 21490,Enviado,F,9400753/001,0,0,06/11/2024,EXPRESO CARGO SA,301126,19.0%
 39169,9400753 RIS S.A,Facturada,Todo Aprobado,Ejecución de pedido de artículo 21490,Enviado,F,PPAR1048T,0,0,06/11/2024,EXPRESO CARGO SA,301126,48.0%
 39829,9401339 QUICKFOOD S.A.,Facturada,Todo Aprobado,Ejecución de pedido de artículo 21485,Enviado,F,PPHR15048XT,0,0,06/11/2024,BERGAMASCHI OSVALDO RAMON,339448,55.0%
@@ -169,3 +169,4 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 39919,3089 ARNEG ARGENTINA S.A.,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Ensamblada,F,3089/014,25000,0,,RICARDO PIERONI,345762,64.0%
 39919,3089 ARNEG ARGENTINA S.A.,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Liberada,F,3089/029,0,60000,,RICARDO PIERONI,345762,87.0%
 39935,4634 FRIDEVI SAFIC,Ejecución de la orden pendiente,Todo Aprobado,Pedido ,Aprobación del supervisor pendiente,T,4634/001,0,60,,TRANSPORTE TOMASSINI,346598,60.0%
+39956,731 SKF ARGENTINA SA,Ejecución de la orden pendiente,Todo Aprobado, ,,F,3351/002,0,2000,,EXPRESO CARGO SA,348266,81.0%
