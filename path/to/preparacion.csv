@@ -50,8 +50,8 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 39908,67 FORD ARGENTINA S.C.A.,Facturada,Todo Aprobado,Ejecución de pedido de artículo 21481,Enviado,F,BV002,0,0,05/11/2024,BARRY LATIMER,345103,67.0%
 39913,5078 GRANJA SRL,Facturada,Todo Aprobado,Ejecución de pedido de artículo 21482,Enviado,F,H11/72,0,0,05/11/2024,RICARDO PIERONI,345392,65.0%
 39913,5078 GRANJA SRL,Facturada,Todo Aprobado,Ejecución de pedido de artículo 21482,Enviado,F,PPA1548TE,0,0,05/11/2024,RICARDO PIERONI,345392,46.0%
-39915,9401339 QUICKFOOD S.A.,Parcialmente ejecutada,Todo Aprobado,Ejecución de pedido de artículo 21483,Enviado,F,PPAR1048T,0,3600,05/11/2024,EXPRESO SANTA ROSA,345393,58.0%
 39915,9401339 QUICKFOOD S.A.,Parcialmente ejecutada,Todo Aprobado,Factura de venta 35886,Abierta,F,PPAR1048T,0,3600,05/11/2024,EXPRESO SANTA ROSA,345393,58.0%
+39915,9401339 QUICKFOOD S.A.,Parcialmente ejecutada,Todo Aprobado,Ejecución de pedido de artículo 21483,Enviado,F,PPAR1048T,0,3600,05/11/2024,EXPRESO SANTA ROSA,345393,58.0%
 39169,9400753 RIS S.A,Facturada,Todo Aprobado,Ejecución de pedido de artículo 21490,Enviado,F,9400753/001,0,0,06/11/2024,EXPRESO CARGO SA,301126,19.0%
 39169,9400753 RIS S.A,Facturada,Todo Aprobado,Ejecución de pedido de artículo 21490,Enviado,F,PPAR1048T,0,0,06/11/2024,EXPRESO CARGO SA,301126,48.0%
 39829,9401339 QUICKFOOD S.A.,Facturada,Todo Aprobado,Ejecución de pedido de artículo 21485,Enviado,F,PPHR15048XT,0,0,06/11/2024,BERGAMASCHI OSVALDO RAMON,339448,55.0%
@@ -116,13 +116,13 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 39961,2410 LUIS SOLIMENO E HIJOS SA,Facturación pendiente/parcialmente ejecutada,Todo Aprobado,Ejecución de pedido de artículo 21520,Enviado,F,PPAR1072T,0,0,12/11/2024,TRANSPORTE TOMASSINI,348761,46.0%
 39963,2475 GAMISOL Y CIA SA,Facturación pendiente,Todo Aprobado,Ejecución de pedido de artículo 21523,Enviado,F,PPA1548TE,0,0,12/11/2024,EXPRESO LANCIONI,348883,50.0%
 39964,12849 FERRERO ARGENTINA SA,Facturación pendiente,Todo Aprobado,Ejecución de pedido de artículo 21522,Enviado,F,PPHR15048XT,0,0,12/11/2024,EXPRESO LUJAN DEL CUYO SA,348884,54.0%
+39971,320 METALURGICA ROMA S.A.,Facturación pendiente,Todo Aprobado,Ejecución de pedido de artículo 21528,Enviado,F,6158/001,0,0,12/11/2024,EXPRESO CARGO SA,349458,67.0%
+39977,9401715 ELABORADORA DE PRODUCTOS CARNICOS CARCARAÑA S.A.,Facturación pendiente,Todo Aprobado,Ejecución de pedido de artículo 21529,Enviado,F,PPAR1072T,0,0,12/11/2024,EXPRESO LUJAN DEL CUYO SA,349573,62.0%
 39962,4111 INDUSTRIALIZADORA S.A.,Ejecución de la orden pendiente,Todo Aprobado, ,,F,PPAR1048T,0,540,13/11/2024,TRANSPORTE MOSTTO,348762,54.0%
 39976,12877 BRIKET SA,Ejecución de la orden pendiente,Todo Aprobado, ,,F,PPAR1048M,720,0,13/11/2024,FELICI JORGE ARIEL,349358,52.0%
-39971,320 METALURGICA ROMA S.A.,Ejecución de la orden pendiente,Todo Aprobado, ,,F,6158/001,1,0,13/11/2024,EXPRESO CARGO SA,349458,67.0%
 39974,9401926 INDUSTRIAS FRIGORIFICAS RECREO SAIC,Ejecución de la orden pendiente,Todo Aprobado, ,,F,PPAR1048T,0,1260,13/11/2024,TRANSPORTE PEDRITO,349561,45.0%
 39974,9401926 INDUSTRIAS FRIGORIFICAS RECREO SAIC,Ejecución de la orden pendiente,Todo Aprobado, ,,F,PPA1548TE,360,0,13/11/2024,TRANSPORTE PEDRITO,349561,39.0%
 39974,9401926 INDUSTRIAS FRIGORIFICAS RECREO SAIC,Ejecución de la orden pendiente,Todo Aprobado, ,,F,H11/CPE,1,0,13/11/2024,TRANSPORTE PEDRITO,349561,0.0%
-39977,9401715 ELABORADORA DE PRODUCTOS CARNICOS CARCARAÑA S.A.,Ejecución de la orden pendiente,Todo Aprobado, ,,F,PPAR1072T,120,0,13/11/2024,EXPRESO LUJAN DEL CUYO SA,349573,62.0%
 39961,2410 LUIS SOLIMENO E HIJOS SA,Facturación pendiente/parcialmente ejecutada,Todo Aprobado, ,,F,PPAR1048T,0,3600,14/11/2024,TRANSPORTE TOMASSINI,348761,47.0%
 39835,1029 DREAN SA,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Ensamblada,F,0272/005,240,0,15/11/2024,EXPRESO CARGO SA,339800,41.0%
 39836,1029 DREAN SA,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Ensamblada,F,1153/001,3200,0,15/11/2024,EXPRESO CARGO SA,339801,65.0%
