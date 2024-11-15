@@ -109,7 +109,7 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 39835,1029 DREAN SA,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Ensamblada,F,0272/005,240,0,15/11/2024,EXPRESO CARGO SA,339800,41.0%
 39836,1029 DREAN SA,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Ensamblada,F,1153/001,3200,0,15/11/2024,EXPRESO CARGO SA,339801,65.0%
 40001,2481 BUSTOS Y BELTRAN SA,Ejecución de la orden pendiente,Todo Aprobado, ,,F,PPAR1048T,1800,0,15/11/2024,EXPRESO LANCIONI,351970,50.0%
-40005,9401339 QUICKFOOD S.A.,Ejecución de la orden pendiente,Todo Aprobado, ,,F,MUESTRA ESPECIAL,1,1,15/11/2024,EXPRESO CARGO SA,352187,100.0%
+40005,9401339 QUICKFOOD S.A.,Ejecución de la orden pendiente,Todo Aprobado, ,,F,MUESTRA ESPECIAL,2,0,15/11/2024,EXPRESO CARGO SA,352187,100.0%
 39861,1499 FAIART ARGENTINA SA,Ejecución de la orden pendiente,Todo Aprobado, ,,F,CH523EXR,64,0,18/11/2024,RICARDO PIERONI,341019,56.0%
 39899,9401339 QUICKFOOD S.A.,Ejecución de la orden pendiente,Todo Aprobado, ,,F,PPAR1048T,360,0,18/11/2024,BERGAMASCHI OSVALDO RAMON,344149,58.0%
 39968,3089 ARNEG ARGENTINA S.A.,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Ensamblada,F,3089/034,30,0,18/11/2024,RICARDO PIERONI,349032,89.0%
@@ -138,8 +138,8 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 39744,272 TALLERES METALURGICOS BAMBI S.A.,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Liberada,F,0272/004,0,320,21/11/2024,FELICI JORGE ARIEL,335117,32.0%
 39744,272 TALLERES METALURGICOS BAMBI S.A.,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Ensamblada,F,0272/003,40,0,21/11/2024,FELICI JORGE ARIEL,335117,42.0%
 39744,272 TALLERES METALURGICOS BAMBI S.A.,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Liberada,F,0272/005,0,400,21/11/2024,FELICI JORGE ARIEL,335117,41.0%
-40010,3089 ARNEG ARGENTINA S.A.,Ejecución de la orden pendiente,Todo Aprobado, ,,F,3089/035,0,10,21/11/2024,RICARDO PIERONI,352730,88.0%
-40010,3089 ARNEG ARGENTINA S.A.,Ejecución de la orden pendiente,Todo Aprobado, ,,F,3089/086,0,2000,21/11/2024,RICARDO PIERONI,352730,88.0%
+40010,3089 ARNEG ARGENTINA S.A.,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Liberada,F,3089/035,0,10,21/11/2024,RICARDO PIERONI,352730,88.0%
+40010,3089 ARNEG ARGENTINA S.A.,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Liberada,F,3089/086,0,2000,21/11/2024,RICARDO PIERONI,352730,88.0%
 39720,5019 GRANJA TRES ARROYOS SACAFEI,Ejecución de la orden pendiente,Todo Aprobado, ,,F,5019/002,252,0,25/11/2024,EXPRESO CARGO SA,332941,73.0%
 39765,202 FRIGORIFICO DE AVES SOYCHU SA,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Ensamblada,F,PVC612R,864,0,25/11/2024,EXPRESO CARGO SA,335964,60.0%
 39765,202 FRIGORIFICO DE AVES SOYCHU SA,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Ensamblada,F,PPHR1216B,848,0,25/11/2024,EXPRESO CARGO SA,335964,46.0%
@@ -155,7 +155,6 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 40013,9400536 MILKAUT SA,Ejecución de la orden pendiente,Todo Aprobado, ,,F,PPHR15048XT,144,0,28/11/2024,RICARDO PIERONI,353159,54.0%
 39925,12877 BRIKET SA,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Liberada,F,0272/004,0,200,29/11/2024,FELICI JORGE ARIEL,346059,45.0%
 39925,12877 BRIKET SA,Ejecución de la orden pendiente,Todo Aprobado, ,,F,PPAR1048M,720,0,29/11/2024,FELICI JORGE ARIEL,346059,52.0%
-40006,3051 FRIMETAL S.A.,Ejecución de la orden pendiente,Todo Aprobado, ,,F,3051/006,0,180,29/11/2024,FELICI JORGE ARIEL,352198,65.0%
 38014,50 DADA S.A.,Ejecución de la orden pendiente,Todo Aprobado, ,,F,VCI410,1500,0,30/11/2024,EXPRESO CARGO SA,264848,70.0%
 39774,9401339 QUICKFOOD S.A.,Ejecución de la orden pendiente,Todo Aprobado, ,,F,PPAR1048T,540,0,02/12/2024,BERGAMASCHI OSVALDO RAMON,336417,58.0%
 39170,9400753 RIS S.A,Ejecución de la orden pendiente,Todo Aprobado, ,,F,PPAR1048T,288,0,06/12/2024,EXPRESO CARGO SA,301129,48.0%
@@ -202,3 +201,4 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 39999,2797 BONNIN HNOS SH,Ejecución de la orden pendiente,Todo Aprobado, ,,F,H11/CPE,3,0,,TRANSPORTE MOSTTO,351638,67.0%
 39999,2797 BONNIN HNOS SH,Ejecución de la orden pendiente,Todo Aprobado, ,,F,PPA1548TE,720,0,,TRANSPORTE MOSTTO,351638,65.0%
 39999,2797 BONNIN HNOS SH,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Liberada,F,PPHR1216B,0,600,,TRANSPORTE MOSTTO,351638,67.0%
+40006,3051 FRIMETAL S.A.,Ejecución de la orden pendiente,Todo Aprobado,Pedido ,Aprobación del supervisor pendiente,T,3051/006,0,180,,FELICI JORGE ARIEL,352198,65.0%
