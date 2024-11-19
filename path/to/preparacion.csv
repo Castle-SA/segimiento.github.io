@@ -72,8 +72,8 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 39997,67 FORD ARGENTINA S.C.A.,Facturación pendiente,Todo Aprobado,Ejecución de pedido de artículo 21562,Enviado,F,BV002,0,0,14/11/2024,EXPRESO CARGO SA,351428,67.0%
 39998,3769 GAROFOLI CONSTRUCCIONES SRL,Parcialmente ejecutada,Todo Aprobado,Ejecución de pedido de artículo 21560,Enviado,F,MTS524B,0,0,14/11/2024,RODRIGUEZ HNOS. TRANSP. SA,351429,43.0%
 39998,3769 GAROFOLI CONSTRUCCIONES SRL,Parcialmente ejecutada,Todo Aprobado,Ejecución de pedido de artículo 21560,Enviado,F,MTS536B,0,0,14/11/2024,RODRIGUEZ HNOS. TRANSP. SA,351429,48.0%
-39998,3769 GAROFOLI CONSTRUCCIONES SRL,Parcialmente ejecutada,Todo Aprobado,Factura de venta 35961,Abierta,F,MTS518B,0,484,14/11/2024,RODRIGUEZ HNOS. TRANSP. SA,351429,47.0%
 39998,3769 GAROFOLI CONSTRUCCIONES SRL,Parcialmente ejecutada,Todo Aprobado,Ejecución de pedido de artículo 21560,Enviado,F,MTS518B,0,484,14/11/2024,RODRIGUEZ HNOS. TRANSP. SA,351429,47.0%
+39998,3769 GAROFOLI CONSTRUCCIONES SRL,Parcialmente ejecutada,Todo Aprobado,Factura de venta 35961,Abierta,F,MTS518B,0,484,14/11/2024,RODRIGUEZ HNOS. TRANSP. SA,351429,47.0%
 40000,9400444 CRONI SA,Facturada,Todo Aprobado,Ejecución de pedido de artículo 21561,Enviado,F,PPHR15048XT,0,0,14/11/2024,EXPRESO CARGO SA,351862,57.0%
 40002,9400334 CAPITAN DEL ESPACIO SA,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Liberada,T,9400334/001,0,80,14/11/2024,EXPRESO CARGO SA,351971,78.0%
 40004,629 INDUSTRIAS QUIMICAS BG SRL,Facturada,Todo Aprobado,Ejecución de pedido de artículo 21556,Enviado,F,PPA1548TE,0,0,14/11/2024,RICARDO PIERONI,352087,54.0%
@@ -101,7 +101,6 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 40003,1171 AUTOSAL SA,Facturada,Todo Aprobado,Ejecución de pedido de artículo 21577,Enviado,F,PVC624A,0,0,15/11/2024,BARRY LATIMER,352076,0.0%
 40003,1171 AUTOSAL SA,Facturada,Todo Aprobado,Ejecución de pedido de artículo 21577,Enviado,F,74662-00003-01,0,0,15/11/2024,BARRY LATIMER,352076,0.0%
 40003,1171 AUTOSAL SA,Facturada,Todo Aprobado,Ejecución de pedido de artículo 21577,Enviado,F,1153/001,0,0,15/11/2024,BARRY LATIMER,352076,0.0%
-40005,9401339 QUICKFOOD S.A.,Ejecución de la orden pendiente,Todo Aprobado, ,,F,MUESTRA ESPECIAL,2,0,15/11/2024,EXPRESO CARGO SA,352187,100.0%
 40009,4196 ESTABLECIMIENTO FIN DEL MUNDO SA,Facturada,Todo Aprobado,Ejecución de pedido de artículo 21566,Enviado,F,PPAR10048T,0,0,15/11/2024,RICARDO PIERONI,352597,39.0%
 40009,4196 ESTABLECIMIENTO FIN DEL MUNDO SA,Facturada,Todo Aprobado,Ejecución de pedido de artículo 21566,Enviado,F,PPAR1048T,0,0,15/11/2024,RICARDO PIERONI,352597,50.0%
 40010,3089 ARNEG ARGENTINA S.A.,Facturada,Todo Aprobado,Ejecución de pedido de artículo 21571,Enviado,F,3089/035,0,0,15/11/2024,RICARDO PIERONI,352730,88.0%
@@ -123,6 +122,7 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 39981,9401926 INDUSTRIAS FRIGORIFICAS RECREO SAIC,Facturación pendiente/parcialmente ejecutada,Todo Aprobado,Ejecución de pedido de artículo 21584,Enviado,F,PPA1548TE,0,0,19/11/2024,TRANSPORTE PEDRITO,350030,39.0%
 39981,9401926 INDUSTRIAS FRIGORIFICAS RECREO SAIC,Facturación pendiente/parcialmente ejecutada,Todo Aprobado, ,,F,H11/CPE,1,0,19/11/2024,TRANSPORTE PEDRITO,350030,0.0%
 39995,102 VOLKSWAGEN ARGENTINA S.A.,Facturación pendiente,Todo Aprobado,Ejecución de pedido de artículo 21587,Enviado,F,P579,0,0,19/11/2024,EXPRESO CARGO SA,351277,60.0%
+40005,9401339 QUICKFOOD S.A.,Facturación pendiente,Todo Aprobado,Ejecución de pedido de artículo 21591,Enviado,F,MUESTRA ESPECIAL,0,0,19/11/2024,EXPRESO CARGO SA,352187,100.0%
 40007,569 CONAM SRL,Facturación pendiente,Todo Aprobado,Ejecución de pedido de artículo 21586,Enviado,F,MTS572B,0,0,19/11/2024,EXPRESO CARGO SA,352351,47.0%
 40011,9402059 BUENA PROA SA,Ejecución de la orden pendiente,Todo Aprobado, ,,F,PPAR1048T,0,540,19/11/2024,TRANSPORTE TOMASSINI,352844,48.0%
 40019,3598 DEL VALLE EMBALAJES SRL,Facturación pendiente/parcialmente ejecutada,Todo Aprobado,Ejecución de pedido de artículo 21583,Enviado,F,PPAR15072T,1,0,19/11/2024,RICARDO PIERONI,353605,41.0%
