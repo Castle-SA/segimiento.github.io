@@ -30,8 +30,8 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 39783,346 DOS HERMANOS S.A,Facturada,Todo Aprobado,Ejecución de pedido de artículo 21526,Enviado,F,PPAR10072T,0,0,12/11/2024,TRANSPORTE DE CARGAS MORENO SRL,336738,68.0%
 39945,3051 FRIMETAL S.A.,Facturada,Todo Aprobado,Ejecución de pedido de artículo 21525,Enviado,F,MTS548B,0,0,12/11/2024,FELICI JORGE ARIEL,347466,52.0%
 39950,178 DROGUERIA DEL SUD S.A.,Facturada,Todo Aprobado,Ejecución de pedido de artículo 21524,Enviado,F,PPA1048F,0,0,12/11/2024,EXPRESO LUJAN DEL CUYO SA,347470,44.0%
-39961,2410 LUIS SOLIMENO E HIJOS SA,Facturada,Todo Aprobado,Ejecución de pedido de artículo 21520,Enviado,F,PPAR1072T,0,0,12/11/2024,TRANSPORTE TOMASSINI,348761,46.0%
 39961,2410 LUIS SOLIMENO E HIJOS SA,Facturada,Todo Aprobado,Ejecución de pedido de artículo 21521,Enviado,F,PPAR1072T,0,0,12/11/2024,TRANSPORTE TOMASSINI,348761,46.0%
+39961,2410 LUIS SOLIMENO E HIJOS SA,Facturada,Todo Aprobado,Ejecución de pedido de artículo 21520,Enviado,F,PPAR1072T,0,0,12/11/2024,TRANSPORTE TOMASSINI,348761,46.0%
 39963,2475 GAMISOL Y CIA SA,Facturada,Todo Aprobado,Ejecución de pedido de artículo 21523,Enviado,F,PPA1548TE,0,0,12/11/2024,EXPRESO LANCIONI,348883,50.0%
 39964,12849 FERRERO ARGENTINA SA,Facturada,Todo Aprobado,Ejecución de pedido de artículo 21522,Enviado,F,PPHR15048XT,0,0,12/11/2024,EXPRESO LUJAN DEL CUYO SA,348884,54.0%
 39976,12877 BRIKET SA,Facturada,Todo Aprobado,Ejecución de pedido de artículo 21530,Enviado,F,PPAR1048M,0,0,12/11/2024,FELICI JORGE ARIEL,349358,52.0%
@@ -128,19 +128,19 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 40025,6467 INDUSTRIAS JUAN F SECCO S.A.,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Liberada,T,6467/003,0,2500,19/11/2024,RICARDO PIERONI,353830,65.0%
 40027,2021 SOLAUT S.A.,Ejecución de la orden pendiente,Todo Aprobado, ,,F,PPA1548TE,1080,0,19/11/2024,RICARDO PIERONI,353976,46.0%
 40027,2021 SOLAUT S.A.,Ejecución de la orden pendiente,Todo Aprobado, ,,F,H11/CPE,1,0,19/11/2024,RICARDO PIERONI,353976,0.0%
-40028,3046 ALTA ROTACION SRL,Ejecución de la orden pendiente,Todo Aprobado, ,,F,PPA1548TE,1260,0,19/11/2024,EXPRESO CARGO SA,354077,49.0%
-40029,9400907 AGROINDUSTRIAS CIALPIL SA,Ejecución de la orden pendiente,Todo Aprobado, ,,F,PPHR15048XT,4,0,19/11/2024,EXPRESO LUJAN DEL CUYO SA,354177,0.0%
 39936,4089 SOBRERO Y CAGNOLO SA,Ejecución de la orden pendiente,Todo Aprobado, ,,F,PPHR15048XT,126,0,20/11/2024,RICARDO PIERONI,346599,54.0%
 39936,4089 SOBRERO Y CAGNOLO SA,Ejecución de la orden pendiente,Todo Aprobado, ,,F,PPAR1048T,720,0,20/11/2024,RICARDO PIERONI,346599,52.0%
 39986,1029 DREAN SA,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Ensamblada,F,0272/003,80,0,20/11/2024,EXPRESO CARGO SA,350572,43.0%
+40028,3046 ALTA ROTACION SRL,Facturación pendiente,Todo Aprobado,Ejecución de pedido de artículo 21592,Enviado,F,PPA1548TE,0,0,20/11/2024,EXPRESO CARGO SA,354077,49.0%
+40029,9400907 AGROINDUSTRIAS CIALPIL SA,Facturación pendiente,Todo Aprobado,Ejecución de pedido de artículo 21594,Enviado,F,PPHR15048XT,0,0,20/11/2024,EXPRESO LUJAN DEL CUYO SA,354177,0.0%
+40035,86 EST GRAFICO IMPRESORES SA,Facturación pendiente,Todo Aprobado,Ejecución de pedido de artículo 21593,Enviado,F,H11/48,0,0,20/11/2024,EXPRESO CARGO SA,354626,67.0%
+40033,86 EST GRAFICO IMPRESORES SA,Facturación pendiente,Todo Aprobado,Ejecución de pedido de artículo 21595,Enviado,F,PPHR15048XT,0,0,20/11/2024,EXPRESO CARGO SA,354828,54.0%
 40034,9402003 BERSANO SRL,Ejecución de la orden pendiente,Todo Aprobado, ,,F,4604/001,0,1008,20/11/2024,RICARDO PIERONI,354928,68.0%
 39744,272 TALLERES METALURGICOS BAMBI S.A.,Ejecución de la orden pendiente,Todo Aprobado, ,,F,PPAR1072T,864,0,21/11/2024,FELICI JORGE ARIEL,335117,72.0%
 39744,272 TALLERES METALURGICOS BAMBI S.A.,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Liberada,F,0272/004,0,320,21/11/2024,FELICI JORGE ARIEL,335117,32.0%
 39744,272 TALLERES METALURGICOS BAMBI S.A.,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Ensamblada,F,0272/003,40,0,21/11/2024,FELICI JORGE ARIEL,335117,42.0%
 39744,272 TALLERES METALURGICOS BAMBI S.A.,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Ensamblada,F,0272/005,400,0,21/11/2024,FELICI JORGE ARIEL,335117,41.0%
-40035,86 EST GRAFICO IMPRESORES SA,Ejecución de la orden pendiente,Todo Aprobado, ,,F,H11/48,6,0,21/11/2024,EXPRESO CARGO SA,354626,67.0%
 40032,12849 FERRERO ARGENTINA SA,Ejecución de la orden pendiente,Todo Aprobado, ,,F,PPAR1072T,240,0,21/11/2024,EXPRESO LUJAN DEL CUYO SA,354726,57.0%
-40033,86 EST GRAFICO IMPRESORES SA,Ejecución de la orden pendiente,Todo Aprobado, ,,F,PPHR15048XT,18,0,21/11/2024,EXPRESO CARGO SA,354828,54.0%
 39720,5019 GRANJA TRES ARROYOS SACAFEI,Ejecución de la orden pendiente,Todo Aprobado, ,,F,5019/002,252,0,25/11/2024,EXPRESO CARGO SA,332941,73.0%
 39765,202 FRIGORIFICO DE AVES SOYCHU SA,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Ensamblada,F,PVC612R,864,0,25/11/2024,EXPRESO CARGO SA,335964,60.0%
 39765,202 FRIGORIFICO DE AVES SOYCHU SA,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Ensamblada,F,PPHR1216B,848,0,25/11/2024,EXPRESO CARGO SA,335964,46.0%
