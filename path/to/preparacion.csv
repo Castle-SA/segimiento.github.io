@@ -5,8 +5,6 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 39689,6467 INDUSTRIAS JUAN F SECCO S.A.,Parcialmente ejecutada,Todo Aprobado,Factura de venta 01190,Abierta,F,6467/006,0,18,22/10/2024,RICARDO PIERONI,330862,65.0%
 39689,6467 INDUSTRIAS JUAN F SECCO S.A.,Parcialmente ejecutada,Todo Aprobado,Factura de venta 35775,Pagado por completo,F,6467/006,0,18,23/10/2024,RICARDO PIERONI,330862,65.0%
 39810,9400283 FEPASA (FRIGORIFICO ENTRERRIANO DE PRODUCTORES AVICOLAS S.A),Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Liberada,T,9400283/002,0,360,24/10/2024,TRANSPORTE MOSTTO,338265,41.0%
-39839,143 EPTA ARGENTINA S.A.,Ejecución de la orden pendiente,Todo Aprobado,Pedido ,Factura pendiente,T,0143/025,200,0,28/10/2024,RICARDO PIERONI,340054,85.0%
-39839,143 EPTA ARGENTINA S.A.,Ejecución de la orden pendiente,Todo Aprobado,Pedido ,Factura pendiente,T,0143/024,200,0,28/10/2024,RICARDO PIERONI,340054,53.0%
 39824,9401272 RED CHAMBER ARGENTINA SA,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Liberada,T,9401272/001,0,1080,29/10/2024,TRANSPORTE TOMASSINI,339113,85.0%
 39886,1165 MACOSER SA,Parcialmente ejecutada,Todo Aprobado,Factura de venta 35856,Pagado por completo,F,PVC624A,0,2,31/10/2024,BARRY LATIMER,342929,0.0%
 39886,1165 MACOSER SA,Parcialmente ejecutada,Todo Aprobado,Factura de venta 35856,Pagado por completo,F,07055-00012-22,0,2,31/10/2024,BARRY LATIMER,342929,0.0%
@@ -30,8 +28,8 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 39783,346 DOS HERMANOS S.A,Facturada,Todo Aprobado,Ejecución de pedido de artículo 21526,Enviado,F,PPAR10072T,0,0,12/11/2024,TRANSPORTE DE CARGAS MORENO SRL,336738,68.0%
 39945,3051 FRIMETAL S.A.,Facturada,Todo Aprobado,Ejecución de pedido de artículo 21525,Enviado,F,MTS548B,0,0,12/11/2024,FELICI JORGE ARIEL,347466,52.0%
 39950,178 DROGUERIA DEL SUD S.A.,Facturada,Todo Aprobado,Ejecución de pedido de artículo 21524,Enviado,F,PPA1048F,0,0,12/11/2024,EXPRESO LUJAN DEL CUYO SA,347470,44.0%
-39961,2410 LUIS SOLIMENO E HIJOS SA,Facturada,Todo Aprobado,Ejecución de pedido de artículo 21521,Enviado,F,PPAR1072T,0,0,12/11/2024,TRANSPORTE TOMASSINI,348761,46.0%
 39961,2410 LUIS SOLIMENO E HIJOS SA,Facturada,Todo Aprobado,Ejecución de pedido de artículo 21520,Enviado,F,PPAR1072T,0,0,12/11/2024,TRANSPORTE TOMASSINI,348761,46.0%
+39961,2410 LUIS SOLIMENO E HIJOS SA,Facturada,Todo Aprobado,Ejecución de pedido de artículo 21521,Enviado,F,PPAR1072T,0,0,12/11/2024,TRANSPORTE TOMASSINI,348761,46.0%
 39963,2475 GAMISOL Y CIA SA,Facturada,Todo Aprobado,Ejecución de pedido de artículo 21523,Enviado,F,PPA1548TE,0,0,12/11/2024,EXPRESO LANCIONI,348883,50.0%
 39964,12849 FERRERO ARGENTINA SA,Facturada,Todo Aprobado,Ejecución de pedido de artículo 21522,Enviado,F,PPHR15048XT,0,0,12/11/2024,EXPRESO LUJAN DEL CUYO SA,348884,54.0%
 39976,12877 BRIKET SA,Facturada,Todo Aprobado,Ejecución de pedido de artículo 21530,Enviado,F,PPAR1048M,0,0,12/11/2024,FELICI JORGE ARIEL,349358,52.0%
@@ -106,10 +104,9 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 40010,3089 ARNEG ARGENTINA S.A.,Facturada,Todo Aprobado,Ejecución de pedido de artículo 21571,Enviado,F,3089/035,0,0,15/11/2024,RICARDO PIERONI,352730,88.0%
 40010,3089 ARNEG ARGENTINA S.A.,Facturada,Todo Aprobado,Ejecución de pedido de artículo 21571,Enviado,F,3089/086,0,0,15/11/2024,RICARDO PIERONI,352730,88.0%
 40016,3922 EMPRECO ARGENTINA DE NICOLAS C DELENIKAS,Facturada,Todo Aprobado,Ejecución de pedido de artículo 21570,Enviado,F,04968-00008-00,0,0,15/11/2024,EXPRESO CARGO SA,353381,47.0%
-40020,94010 VISUAR SA,Parcialmente ejecutada,Todo Aprobado,Ejecución de pedido de artículo 21579,Enviado,F,PPA1548TE,0,0,15/11/2024,BARRY LATIMER,353710,0.0%
+40020,94010 VISUAR SA,Facturación pendiente,Todo Aprobado,Ejecución de pedido de artículo 21579,Enviado,F,PPA1548TE,0,0,15/11/2024,BARRY LATIMER,353710,0.0%
 40024,94010 VISUAR SA,Facturada,Todo Aprobado,Ejecución de pedido de artículo 21578,Enviado,F,PPAR548T,0,0,15/11/2024,BARRY LATIMER,353828,100.0%
 40026,94010 VISUAR SA,Facturada,Todo Aprobado,Ejecución de pedido de artículo 21576,Enviado,F,PPHR10048T,0,0,15/11/2024,ALMAR ROSARIO SRL,353831,44.0%
-40018,898 LCR IMPORT SRL,Ejecución de la orden pendiente,Todo Aprobado, ,,F,H11/CPE,5,0,18/11/2024,RICARDO PIERONI,353183,67.0%
 37676,3096 FRECICAR SRL,Facturada,Todo Aprobado,Ejecución de pedido de artículo 21589,Enviado,F,52330-00040-00,0,0,19/11/2024,RICARDO PIERONI,253456,51.0%
 38510,4733 TECNOSISTEM SRL,Facturada,Todo Aprobado,Ejecución de pedido de artículo 21588,Enviado,F,MTS548B,0,0,19/11/2024,EXPRESO CARGO SA,281742,62.0%
 38510,4733 TECNOSISTEM SRL,Facturada,Todo Aprobado,Ejecución de pedido de artículo 21588,Enviado,F,MTS536B,0,0,19/11/2024,EXPRESO CARGO SA,281742,46.0%
@@ -132,6 +129,8 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 39936,4089 SOBRERO Y CAGNOLO SA,Ejecución de la orden pendiente,Todo Aprobado, ,,F,PPAR1048T,720,0,20/11/2024,RICARDO PIERONI,346599,52.0%
 39972,143 EPTA ARGENTINA S.A.,Ejecución de la orden pendiente,Todo Aprobado,Pedido ,Recepción pendiente,T,0143/009,0,400,20/11/2024,RICARDO PIERONI,349459,56.0%
 39986,1029 DREAN SA,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Ensamblada,F,0272/003,80,0,20/11/2024,EXPRESO CARGO SA,350572,43.0%
+40018,898 LCR IMPORT SRL,Facturación pendiente,Todo Aprobado,Ejecución de pedido de artículo 21597,Enviado,F,H11/CPE,0,0,20/11/2024,RICARDO PIERONI,353183,67.0%
+40020,94010 VISUAR SA,Facturación pendiente,Todo Aprobado,Ejecución de pedido de artículo 21598,Enviado,F,H11/CPE,0,0,20/11/2024,BARRY LATIMER,353710,0.0%
 40028,3046 ALTA ROTACION SRL,Facturación pendiente,Todo Aprobado,Ejecución de pedido de artículo 21592,Enviado,F,PPA1548TE,0,0,20/11/2024,EXPRESO CARGO SA,354077,49.0%
 40029,9400907 AGROINDUSTRIAS CIALPIL SA,Facturación pendiente,Todo Aprobado,Ejecución de pedido de artículo 21594,Enviado,F,PPHR15048XT,0,0,20/11/2024,EXPRESO LUJAN DEL CUYO SA,354177,0.0%
 40035,86 EST GRAFICO IMPRESORES SA,Facturación pendiente,Todo Aprobado,Ejecución de pedido de artículo 21593,Enviado,F,H11/48,0,0,20/11/2024,EXPRESO CARGO SA,354626,67.0%
