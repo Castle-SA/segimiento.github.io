@@ -70,8 +70,8 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 39997,67 FORD ARGENTINA S.C.A.,Facturación pendiente,Todo Aprobado,Ejecución de pedido de artículo 21562,Enviado,F,BV002,0,0,14/11/2024,EXPRESO CARGO SA,351428,67.0%
 39998,3769 GAROFOLI CONSTRUCCIONES SRL,Parcialmente ejecutada,Todo Aprobado,Ejecución de pedido de artículo 21560,Enviado,F,MTS524B,0,0,14/11/2024,RODRIGUEZ HNOS. TRANSP. SA,351429,43.0%
 39998,3769 GAROFOLI CONSTRUCCIONES SRL,Parcialmente ejecutada,Todo Aprobado,Ejecución de pedido de artículo 21560,Enviado,F,MTS536B,0,0,14/11/2024,RODRIGUEZ HNOS. TRANSP. SA,351429,48.0%
-39998,3769 GAROFOLI CONSTRUCCIONES SRL,Parcialmente ejecutada,Todo Aprobado,Factura de venta 35961,Abierta,F,MTS518B,0,484,14/11/2024,RODRIGUEZ HNOS. TRANSP. SA,351429,47.0%
 39998,3769 GAROFOLI CONSTRUCCIONES SRL,Parcialmente ejecutada,Todo Aprobado,Ejecución de pedido de artículo 21560,Enviado,F,MTS518B,0,484,14/11/2024,RODRIGUEZ HNOS. TRANSP. SA,351429,47.0%
+39998,3769 GAROFOLI CONSTRUCCIONES SRL,Parcialmente ejecutada,Todo Aprobado,Factura de venta 35961,Abierta,F,MTS518B,0,484,14/11/2024,RODRIGUEZ HNOS. TRANSP. SA,351429,47.0%
 40000,9400444 CRONI SA,Facturada,Todo Aprobado,Ejecución de pedido de artículo 21561,Enviado,F,PPHR15048XT,0,0,14/11/2024,EXPRESO CARGO SA,351862,57.0%
 40002,9400334 CAPITAN DEL ESPACIO SA,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Liberada,T,9400334/001,0,80,14/11/2024,EXPRESO CARGO SA,351971,78.0%
 40004,629 INDUSTRIAS QUIMICAS BG SRL,Facturada,Todo Aprobado,Ejecución de pedido de artículo 21556,Enviado,F,PPA1548TE,0,0,14/11/2024,RICARDO PIERONI,352087,54.0%
@@ -147,7 +147,7 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 40040,4111 INDUSTRIALIZADORA S.A.,Ejecución de la orden pendiente,Todo Aprobado, ,,F,PPAR1048T,0,720,22/11/2024,TRANSPORTE MOSTTO,355200,55.0%
 40043,2410 LUIS SOLIMENO E HIJOS SA,Ejecución de la orden pendiente,Todo Aprobado, ,,F,PPAR10048T,360,0,22/11/2024,TRANSPORTE TOMASSINI,355201,36.0%
 40044,4 BEROWOOD SRL,Ejecución de la orden pendiente,Todo Aprobado, ,,F,PPA1548TE,360,0,22/11/2024,RICARDO PIERONI,355401,68.0%
-40044,4 BEROWOOD SRL,Ejecución de la orden pendiente,Todo Aprobado, ,,F,PPA1048F,36,72,22/11/2024,RICARDO PIERONI,355401,51.0%
+40044,4 BEROWOOD SRL,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Ensamblada,F,PPA1048F,108,0,22/11/2024,RICARDO PIERONI,355401,51.0%
 40045,88 LACTEOS PUYEHUE S.R.L.,Ejecución de la orden pendiente,Todo Aprobado, ,,F,PPA1548TE,720,0,22/11/2024,RICARDO PIERONI,355609,48.0%
 40046,960 LSG SKY CHEFS ARGENTINA SA,Ejecución de la orden pendiente,Todo Aprobado, ,,F,PPAR1048T,0,468,22/11/2024,EXPRESO CARGO SA,355710,58.0%
 39720,5019 GRANJA TRES ARROYOS SACAFEI,Ejecución de la orden pendiente,Todo Aprobado, ,,F,5019/002,252,0,25/11/2024,EXPRESO CARGO SA,332941,73.0%
@@ -172,7 +172,7 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 38014,50 DADA S.A.,Ejecución de la orden pendiente,Todo Aprobado, ,,F,VCI410,1500,0,30/11/2024,EXPRESO CARGO SA,264848,70.0%
 39774,9401339 QUICKFOOD S.A.,Ejecución de la orden pendiente,Todo Aprobado, ,,F,PPAR1048T,0,540,02/12/2024,BERGAMASCHI OSVALDO RAMON,336417,58.0%
 39170,9400753 RIS S.A,Ejecución de la orden pendiente,Todo Aprobado, ,,F,PPAR1048T,282,6,06/12/2024,EXPRESO CARGO SA,301129,48.0%
-39170,9400753 RIS S.A,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Liberada,F,9400753/001,0,1.008,06/12/2024,EXPRESO CARGO SA,301129,19.0%
+39170,9400753 RIS S.A,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Liberada,F,9400753/001,0,1008,06/12/2024,EXPRESO CARGO SA,301129,19.0%
 39926,12877 BRIKET SA,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Liberada,F,0272/004,0,200,06/12/2024,FELICI JORGE ARIEL,345957,45.0%
 39909,9402182 SOUTHERN SHOES SRL,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Liberada,F,9402182/001,0,360,09/12/2024,TRANSPORTE TOMASSINI,345128,43.0%
 40015,272 TALLERES METALURGICOS BAMBI S.A.,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Liberada,F,0272/003,0,40,09/12/2024,FELICI JORGE ARIEL,353281,43.0%
