@@ -148,17 +148,15 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 39814,202 FRIGORIFICO DE AVES SOYCHU SA,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Ensamblada,F,PPHR1216B,850,0,25/11/2024,EXPRESO CARGO SA,338399,46.0%
 39814,202 FRIGORIFICO DE AVES SOYCHU SA,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Ensamblada,F,PVC612R,500,0,25/11/2024,EXPRESO CARGO SA,338399,60.0%
 39918,4095 REFINERIA DEL CENTRO SA,Ejecución de la orden pendiente,Todo Aprobado, ,,F,PPAR1072T,2700,0,25/11/2024,EXPRESO SANTA ROSA,345619,54.0%
-39960,9400130 FEMACAR SRL,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Liberada,F,9400130/001,0,360,25/11/2024,EXPRESO CARGO SA,348760,47.0%
-39960,9400130 FEMACAR SRL,Ejecución de la orden pendiente,Todo Aprobado, ,,F,PPAR1048T,180,0,25/11/2024,EXPRESO CARGO SA,348760,53.0%
 39987,2515 CONGELADOS ARTICO SA,Ejecución de la orden pendiente,Todo Aprobado, ,,F,PPAR1072T,720,0,25/11/2024,TRANSPORTE TOMASSINI,350573,57.0%
-40041,3089 ARNEG ARGENTINA S.A.,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Liberada,F,3089/017,0,4500,27/11/2024,RICARDO PIERONI,355300,64.0%
-40041,3089 ARNEG ARGENTINA S.A.,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Liberada,F,3089/022,0,10500,27/11/2024,RICARDO PIERONI,355300,67.0%
+40041,3089 ARNEG ARGENTINA S.A.,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Ensamblada,F,3089/017,4500,0,27/11/2024,RICARDO PIERONI,355300,64.0%
+40041,3089 ARNEG ARGENTINA S.A.,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Ensamblada,F,3089/022,10500,0,27/11/2024,RICARDO PIERONI,355300,67.0%
 40041,3089 ARNEG ARGENTINA S.A.,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Liberada,F,3089/039,0,40000,27/11/2024,RICARDO PIERONI,355300,98.0%
 39952,1165 MACOSER SA,Ejecución de la orden pendiente,Todo Aprobado, ,,F,60630-00002-00,24,0,28/11/2024,"CAROSSIO, VAIROLATTI Y CIA",347946,53.0%
 40013,9400536 MILKAUT SA,Ejecución de la orden pendiente,Todo Aprobado, ,,F,PPHR15048XT,144,0,28/11/2024,RICARDO PIERONI,353159,54.0%
 40047,396 IPROA SA,Ejecución de la orden pendiente,Todo Aprobado, ,,F,PPAR1048T,0,144,28/11/2024,RICARDO PIERONI,356053,71.0%
 40047,396 IPROA SA,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Liberada,F,04965-00177-00,0,60,28/11/2024,RICARDO PIERONI,356053,60.0%
-39925,12877 BRIKET SA,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Liberada,F,0272/004,0,200,29/11/2024,FELICI JORGE ARIEL,346059,45.0%
+39925,12877 BRIKET SA,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Ensamblada,F,0272/004,200,0,29/11/2024,FELICI JORGE ARIEL,346059,45.0%
 39925,12877 BRIKET SA,Ejecución de la orden pendiente,Todo Aprobado, ,,F,PPAR1048M,720,0,29/11/2024,FELICI JORGE ARIEL,346059,52.0%
 40031,4095 REFINERIA DEL CENTRO SA,Ejecución de la orden pendiente,Todo Aprobado, ,,F,H11/72,30,0,29/11/2024,EXPRESO SANTA ROSA,354625,65.0%
 38014,50 DADA S.A.,Ejecución de la orden pendiente,Todo Aprobado, ,,F,VCI410,1500,0,30/11/2024,EXPRESO CARGO SA,264848,70.0%
@@ -206,5 +204,7 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 39901,3089 ARNEG ARGENTINA S.A.,Parcialmente ejecutada,Todo Aprobado,Orden de trabajo ,Liberada,F,3089/029,0,60000,,RICARDO PIERONI,344150,84.0%
 39901,3089 ARNEG ARGENTINA S.A.,Parcialmente ejecutada,Todo Aprobado,Orden de trabajo ,Liberada,F,3089/029,0,40000,,RICARDO PIERONI,344150,84.0%
 39919,3089 ARNEG ARGENTINA S.A.,Parcialmente ejecutada,Todo Aprobado,Orden de trabajo ,Liberada,F,3089/029,0,60000,,RICARDO PIERONI,345762,87.0%
+39960,9400130 FEMACAR SRL,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Liberada,F,9400130/001,0,360,,EXPRESO CARGO SA,348760,47.0%
+39960,9400130 FEMACAR SRL,Ejecución de la orden pendiente,Todo Aprobado, ,,F,PPAR1048T,180,0,,EXPRESO CARGO SA,348760,53.0%
 39992,12662 PRINTEMPS S.R.L.,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Ensamblada,F,04965-00176-00,288,0,,RICARDO PIERONI,351167,55.0%
 40006,3051 FRIMETAL S.A.,Ejecución de la orden pendiente,Todo Aprobado,Pedido ,Recepción pendiente,T,3051/006,0,180,,FELICI JORGE ARIEL,352198,65.0%
