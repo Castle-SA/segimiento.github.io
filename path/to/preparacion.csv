@@ -128,7 +128,7 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 40052,2915 COMPANIA LA PILARICA SA,Facturada,Todo Aprobado,Ejecución de pedido de artículo 21609,Enviado,F,PPAR548T,0,0,21/11/2024,EXPRESO CARGO SA,356559,100.0%
 39901,3089 ARNEG ARGENTINA S.A.,Facturación pendiente,Todo Aprobado,Ejecución de pedido de artículo 21617,Enviado,F,3089/029,0,0,22/11/2024,RICARDO PIERONI,344150,84.0%
 39901,3089 ARNEG ARGENTINA S.A.,Facturación pendiente,Todo Aprobado,Ejecución de pedido de artículo 21617,Enviado,F,3089/029,0,0,22/11/2024,RICARDO PIERONI,344150,84.0%
-40034,9402003 BERSANO SRL,Facturación pendiente,Todo Aprobado,Ejecución de pedido de artículo 21614,Enviado,F,4604/001,0,0,22/11/2024,RICARDO PIERONI,354928,68.0%
+40034,9402003 BERSANO SRL,Facturada,Todo Aprobado,Ejecución de pedido de artículo 21614,Enviado,F,4604/001,0,0,22/11/2024,RICARDO PIERONI,354928,68.0%
 40038,15499 COFFEA SRL,Ejecución de la orden pendiente,Todo Aprobado, ,,F,PPAR1048T,0,360,22/11/2024,RICARDO PIERONI,355057,58.0%
 40040,4111 INDUSTRIALIZADORA S.A.,Ejecución de la orden pendiente,Todo Aprobado, ,,F,PPAR1048T,0,720,22/11/2024,TRANSPORTE MOSTTO,355200,55.0%
 40046,960 LSG SKY CHEFS ARGENTINA SA,Ejecución de la orden pendiente,Todo Aprobado, ,,F,PPAR1048T,0,468,22/11/2024,EXPRESO CARGO SA,355710,58.0%
@@ -151,6 +151,7 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 40078,9401442 JUGOS SA,Ejecución de la orden pendiente,Todo Aprobado, ,,F,H11/48,2,0,25/11/2024,TRANSPORTE TOMASSINI,357591,67.0%
 40078,9401442 JUGOS SA,Ejecución de la orden pendiente,Todo Aprobado, ,,F,PPAR1048T,0,720,25/11/2024,TRANSPORTE TOMASSINI,357591,61.0%
 40080,9400444 CRONI SA,Ejecución de la orden pendiente,Todo Aprobado, ,,F,PPHR10048T,120,0,25/11/2024,EXPRESO BRIO SRL,357716,51.0%
+40081,9400695 PILSEL ADRIAN GUSTAVO,Ejecución de la orden pendiente,Todo Aprobado, ,,F,04968-LOGROLL,1,0,25/11/2024,EXPRESO LANCIONI,357717,50.0%
 40067,449 DITEC S R L,Ejecución de la orden pendiente,Todo Aprobado, ,,F,64958-00004-00,0,48,26/11/2024,EXPRESO CARGO SA,357434,64.0%
 40077,183 OLIVERO ARIEL E HIJOS SRL,Ejecución de la orden pendiente,Todo Aprobado, ,,F,CH523EXR,30,0,26/11/2024,RICARDO PIERONI,357590,49.0%
 40077,183 OLIVERO ARIEL E HIJOS SRL,Ejecución de la orden pendiente,Todo Aprobado, ,,F,HWF125,24,0,26/11/2024,RICARDO PIERONI,357590,47.0%
@@ -180,7 +181,7 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 40075,4095 REFINERIA DEL CENTRO SA,Ejecución de la orden pendiente,Todo Aprobado, ,,F,MUESTRA ESPECIAL,1,0,05/12/2024,EXPRESO SANTA ROSA,357569,100.0%
 40079,9400536 MILKAUT SA,Ejecución de la orden pendiente,Todo Aprobado, ,,F,MUESTRA ESPECIAL,2,0,05/12/2024,RICARDO PIERONI,357715,100.0%
 39170,9400753 RIS S.A,Ejecución de la orden pendiente,Todo Aprobado, ,,F,PPAR1048T,282,6,06/12/2024,EXPRESO CARGO SA,301129,48.0%
-39170,9400753 RIS S.A,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Liberada,F,9400753/001,0,1.008,06/12/2024,EXPRESO CARGO SA,301129,19.0%
+39170,9400753 RIS S.A,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Liberada,F,9400753/001,0,1008,06/12/2024,EXPRESO CARGO SA,301129,19.0%
 39926,12877 BRIKET SA,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Liberada,F,0272/004,0,200,06/12/2024,FELICI JORGE ARIEL,345957,45.0%
 39909,9402182 SOUTHERN SHOES SRL,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Liberada,F,9402182/001,0,360,09/12/2024,TRANSPORTE TOMASSINI,345128,43.0%
 40015,272 TALLERES METALURGICOS BAMBI S.A.,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Liberada,F,0272/003,0,40,09/12/2024,FELICI JORGE ARIEL,353281,43.0%
