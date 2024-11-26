@@ -1101,10 +1101,14 @@
 
         // ** Compare "Numero de Remito" with Google Sheet data (files) **
         function compareRemitoWithFiles(remitos, files) {
+                console.log("DEBUG: Entering compareRemitoWithFiles");
+                console.log("DEBUG: Remitos:", remitos);
+                console.log("DEBUG: Files:", files);
             const matched = [];
             const unmatched = [];
         
             remitos.forEach(remito => {
+                        console.log(`DEBUG: Processing Remito: ${remito}`);
                 let matchedFile = null;
         
                 // Priority order for suffixes to match: Cu, Tr, Du, Or
@@ -1112,17 +1116,25 @@
                 
                 for (const suffix of suffixes) {
                     matchedFile = files.find(file => file.name.startsWith(remito + suffix));
+                        console.log(`DEBUG: Trying to match remito "${remito}" with suffix "${suffix}" - Match found: ${matchedFile ? 'YES' : 'NO'}`);
                     if (matchedFile) break; // Exit loop if a match is found
                 }
         
                 if (matchedFile) {
                     matched.push({ remito, fileLink: matchedFile.link });
+                                console.log(`DEBUG: Matched remito "${remito}" to file "${matchedFile.name}"`);
+
                 } else {
                     unmatched.push({ remito });
+                                console.log(`DEBUG: No match found for remito "${remito}"`);
+
                 }
             });
-        
+            
+            console.log("DEBUG: Matched Rows:", matched);
+            console.log("DEBUG: Unmatched Rows:", unmatched);
             return { matched, unmatched };
+            //----------------------------------------------------------------------------------------------------XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX----------------------------------------------------------
         }
 
         function createEsperandoStockTable(esperandoStockRows) {
