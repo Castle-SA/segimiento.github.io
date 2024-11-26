@@ -734,16 +734,25 @@
             try {
                 // Step 1: Fetch the CSV data for Google Sheet and other files
                 const csvData = await fetchCsvData(sheetUrl);
+                    console.log("DEBUG: Fetched CSV Data:", csvData);
+
                 const files = parseCsvData(csvData);
-                
+                    console.log("DEBUG: Parsed Files Data:", files);
+
                 // Step 2: Compare remito numbers with file data to get matched and unmatched rows
                 const remitos = facturacionRows.map(row => row[2]); // Assuming row[2] is the "Numero de Remito"
+                    console.log("DEBUG: Remitos to match:", remitos);
+
                 const { matched, unmatched } = compareRemitoWithFiles(remitos, files);
-        
+                    console.log("DEBUG: Matched Rows:", matched);
+                    console.log("DEBUG: Unmatched Rows:", unmatched);
                 // Step 3: Generate tables once data is ready
                 await createFacturacionTable(facturacionRows, unmatched);
+                    console.log("DEBUG: Created Remisiones Recientes Table");
+
                 await createDespachadoTable(facturacionRows, matched);
-        
+                    console.log("DEBUG: Created Despachado Table");
+
             } catch (error) {
                 console.error('Error fetching Google Sheet CSV:', error);
             }
