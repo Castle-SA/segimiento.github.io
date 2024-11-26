@@ -734,12 +734,13 @@
             try {
                 // Step 1: Fetch the CSV data for Google Sheet and other files
                 const csvData = await fetchCsvData(sheetUrl);
-                    console.log("DEBUG: Fetched CSV Data:", csvData);
+                    //console.log("DEBUG: Fetched CSV Data:", csvData);
 
                 const files = parseCsvData(csvData);
-                    console.log("DEBUG: Parsed Files Data:", files);
+                    //console.log("DEBUG: Parsed Files Data:", files);
 
                 // Step 2: Compare remito numbers with file data to get matched and unmatched rows
+                console.log("DEBUG: Facturacion Rows:", facturacionRows);
                 const remitos = facturacionRows.map(row => row[2]); // Assuming row[2] is the "Numero de Remito"
                     console.log("DEBUG: Remitos to match:", remitos);
 
