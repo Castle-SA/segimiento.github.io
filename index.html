@@ -657,6 +657,25 @@
             const pedidosEnEsperaRows = [['GOA', 'Fecha', 'Cliente', 'Art.', 'Cantidad', 'Faltante', 'ID']];
             const comprasRows = [['GOA', 'Fecha', 'Cliente', 'Art.', 'Faltante', 'ID']];
             const facturacionRows = [['GOA', 'Cliente', 'Numero de Remito', 'Fecha', 'ID', 'Transportista']]; // Added "Transportista"
+
+                // Debug logs for index values
+                console.log("DEBUG: Index for 'Número de documento':", numeroDocumentoIndex);
+                console.log("DEBUG: Index for 'Nombre':", nombreIndex);
+                console.log("DEBUG: Index for 'ID':", idColumnIndex);
+                console.log("DEBUG: Index for 'Numero de Remito':", remitoIndex);
+                console.log("DEBUG: Index for 'Transportista':", transporteIndex);
+            
+                // Check if any of the indexes are not found
+                if (
+                    numeroDocumentoIndex === -1 ||
+                    nombreIndex === -1 ||
+                    idColumnIndex === -1 ||
+                    remitoIndex === -1 ||
+                    transporteIndex === -1
+                ) {
+                    console.error("ERROR: One or more headers were not found in the headers array. Please verify the CSV structure.");
+                    return; // Exit early if any of the required headers are missing
+                }
         
             // Process each row, splitting them into different tables
             rows.slice(1).forEach(row => {
