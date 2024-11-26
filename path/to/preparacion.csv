@@ -183,8 +183,8 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 39783,346 DOS HERMANOS S.A,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 21526,Remitido,F,PPAR10072T,0,0,12/11/2024,TRANSPORTE DE CARGAS MORENO SRL,336738,68.0%
 39945,3051 FRIMETAL S.A.,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 21525,Remitido,F,MTS548B,0,0,12/11/2024,FELICI JORGE ARIEL,347466,52.0%
 39950,178 DROGUERIA DEL SUD S.A.,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 21524,Remitido,F,PPA1048F,0,0,12/11/2024,EXPRESO LUJAN DEL CUYO SA,347470,44.0%
-39961,2410 LUIS SOLIMENO E HIJOS SA,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 21521,Remitido,F,PPAR1072T,0,0,12/11/2024,TRANSPORTE TOMASSINI,348761,46.0%
 39961,2410 LUIS SOLIMENO E HIJOS SA,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 21520,Remitido,F,PPAR1072T,0,0,12/11/2024,TRANSPORTE TOMASSINI,348761,46.0%
+39961,2410 LUIS SOLIMENO E HIJOS SA,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 21521,Remitido,F,PPAR1072T,0,0,12/11/2024,TRANSPORTE TOMASSINI,348761,46.0%
 39963,2475 GAMISOL Y CIA SA,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 21523,Remitido,F,PPA1548TE,0,0,12/11/2024,EXPRESO LANCIONI,348883,50.0%
 39964,12849 FERRERO ARGENTINA SA,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 21522,Remitido,F,PPHR15048XT,0,0,12/11/2024,EXPRESO LUJAN DEL CUYO SA,348884,54.0%
 39976,12877 BRIKET SA,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 21530,Remitido,F,PPAR1048M,0,0,12/11/2024,FELICI JORGE ARIEL,349358,52.0%
@@ -354,9 +354,12 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 40041,3089 ARNEG ARGENTINA S.A.,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Ensamblada,F,3089/039,40000,0,27/11/2024,RICARDO PIERONI,355300,98.0%
 40100,3598 DEL VALLE EMBALAJES SRL,Ejecución de la orden pendiente,Todo Aprobado, ,,F,PPAR15096T,120,0,27/11/2024,RICARDO PIERONI,359178,52.0%
 40013,9400536 MILKAUT SA,Ejecución de la orden pendiente,Todo Aprobado, ,,F,PPHR15048XT,144,0,28/11/2024,RICARDO PIERONI,353159,54.0%
+40106,1067 DIPAC SA,Ejecución de la orden pendiente,Todo Aprobado, ,,F,PPAR1024T,216,0,28/11/2024,RICARDO PIERONI,359492,100.0%
+40106,1067 DIPAC SA,Ejecución de la orden pendiente,Todo Aprobado, ,,F,PPAR1048T,0,288,28/11/2024,RICARDO PIERONI,359492,68.0%
 39925,12877 BRIKET SA,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Ensamblada,F,0272/004,200,0,29/11/2024,FELICI JORGE ARIEL,346059,45.0%
 39925,12877 BRIKET SA,Ejecución de la orden pendiente,Todo Aprobado, ,,F,PPAR1048M,720,0,29/11/2024,FELICI JORGE ARIEL,346059,52.0%
 40031,4095 REFINERIA DEL CENTRO SA,Ejecución de la orden pendiente,Todo Aprobado, ,,F,H11/72,30,0,29/11/2024,EXPRESO SANTA ROSA,354625,65.0%
+40105,12707 PORTA HNOS. SA,Ejecución de la orden pendiente,Todo Aprobado, ,,F,PPAR15048T,120,0,29/11/2024,EXPRESO CARGO SA,359383,56.0%
 38014,50 DADA S.A.,Ejecución de la orden pendiente,Todo Aprobado, ,,F,VCI410,1500,0,30/11/2024,EXPRESO CARGO SA,264848,70.0%
 39774,9401339 QUICKFOOD S.A.,Ejecución de la orden pendiente,Todo Aprobado, ,,F,PPAR1048T,0,540,02/12/2024,BERGAMASCHI OSVALDO RAMON,336417,58.0%
 40104,1318 ALIBUE S.A.,Ejecución de la orden pendiente,Todo Aprobado, ,,F,PPAR1048T,0,180,02/12/2024,EXPRESO CARGO SA,359180,64.0%
