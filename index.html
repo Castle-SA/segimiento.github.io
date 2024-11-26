@@ -731,14 +731,22 @@
             createPickingTableWithLinks(remainingPickingRows);
             createPedidosEnEsperaTableWithLinks(remainingPedidosEnEsperaRows);
         
-            // Fetch data for Remisiones Recientes and Despachado
-            fetchCsvData(sheetUrl).then(csvData => {
+            try {
+                // Step 1: Fetch the CSV data for Google Sheet and other files
+                const csvData = await fetchCsvData(sheetUrl);
                 const files = parseCsvData(csvData);
-                const { matched, unmatched } = compareRemitoWithFiles(facturacionRows.map(row => row[2]), files);
+                
+                // Step 2: Compare remito numbers with file data to get matched and unmatched rows
+                const remitos = facturacionRows.map(row => row[2]); // Assuming row[2] is the "Numero de Remito"
+                const { matched, unmatched } = compareRemitoWithFiles(remitos, files);
         
-                createFacturacionTable(facturacionRows, unmatched);
-                createDespachadoTable(facturacionRows, matched);
-            }).catch(error => logDebug('Error fetching Google Sheet CSV:', error));
+                // Step 3: Generate tables once data is ready
+                await createFacturacionTable(facturacionRows, unmatched);
+                await createDespachadoTable(facturacionRows, matched);
+        
+            } catch (error) {
+                console.error('Error fetching Google Sheet CSV:', error);
+            }
         }
         
         // Function to move rows with 'Cantidad' blank or zero to the 'Esperando Stock' table
