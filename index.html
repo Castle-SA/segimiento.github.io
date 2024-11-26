@@ -625,6 +625,8 @@
             // logDebug('splitPreparacion function called');
             const headers = rows[0];
             // logDebug('Preparacion CSV Headers:', headers);
+            console.log("DEBUG: Headers extracted:", headers);
+
         
             const idColumnIndex = findIdColumnIndex(headers);
             const fechaColumnIndex = headers.indexOf('Fecha'); // Index for "Fecha" column
@@ -632,9 +634,12 @@
             const faltanteColumnIndex = headers.indexOf('Faltante'); // Index for "Faltante"
             const transporteColumnIndex = headers.indexOf('Transportista'); // Index for "Transportista"
             const pedidoColumnIndex = headers.indexOf('Pedido'); // Index for "Pedido"
+            
             const numeroDocumentoIndex = headers.indexOf('Número de documento');
             const nombreIndex = headers.indexOf('Nombre');
-            const remitoIndex = headers.indexOf('Numero de Remito');
+            const idColumnIndex = headers.indexOf('ID');
+            const ordenEspecialIndex = headers.indexOf('Orden. Especial?');
+            const fechaIndex = headers.indexOf('Fecha');
             const transporteIndex = headers.indexOf('Transportista');
 
             
@@ -645,23 +650,29 @@
             const pedidosEnEsperaRows = [['GOA', 'Fecha', 'Cliente', 'Art.', 'Cantidad', 'Faltante', 'ID']];
             const comprasRows = [['GOA', 'Fecha', 'Cliente', 'Art.', 'Faltante', 'ID']];
             const facturacionRows = [['GOA', 'Cliente', 'Numero de Remito', 'Fecha', 'ID', 'Transportista']]; // Added "Transportista"
+            const ordenEspecialIndex = headers.indexOf('Orden. Especial?');
 
-                // Debug logs for index values
-                console.log("DEBUG: Index for 'Número de documento':", numeroDocumentoIndex);
-                console.log("DEBUG: Index for 'Nombre':", nombreIndex);
-                console.log("DEBUG: Index for 'ID':", idColumnIndex);
-                console.log("DEBUG: Index for 'Transportista':", transporteIndex);
+            // Debug logs for index values
+            console.log("DEBUG: Index for 'Número de documento':", numeroDocumentoIndex);
+            console.log("DEBUG: Index for 'Nombre':", nombreIndex);
+            console.log("DEBUG: Index for 'ID':", idColumnIndex);
+            console.log("DEBUG: Index for 'Orden. Especial?':", ordenEspecialIndex);
+            console.log("DEBUG: Index for 'Fecha':", fechaIndex);
+            console.log("DEBUG: Index for 'Transportista':", transporteIndex);
             
-                // Check if any of the indexes are not found
-                if (
-                    numeroDocumentoIndex === -1 ||
-                    nombreIndex === -1 ||
-                    idColumnIndex === -1 ||
-                    transporteIndex === -1
-                ) {
-                    console.error("ERROR: One or more headers were not found in the headers array. Please verify the CSV structure.");
-                    return; // Exit early if any of the required headers are missing
-                }
+            // Check if all indexes are found
+            if (
+                numeroDocumentoIndex === -1 ||
+                nombreIndex === -1 ||
+                idColumnIndex === -1 ||
+                ordenEspecialIndex === -1 ||
+                fechaIndex === -1 ||
+                transporteIndex === -1
+            ) {
+                console.error("ERROR: One or more headers were not found in the headers array. Please verify the CSV structure.");
+                return; // Exit early if any of the required headers are missing
+            }
+
         
             // Process each row, splitting them into different tables
             rows.slice(1).forEach(row => {
