@@ -636,8 +636,6 @@
             const nombreIndex = headers.indexOf('Nombre');
             const remitoIndex = headers.indexOf('Numero de Remito');
             const transporteIndex = headers.indexOf('Transportista');
-            const ordenEspecial = row[headers.indexOf('Orden. Especial?')]?.trim();
-            const remito = ordenEspecial.slice(-5);
 
             
             logDebug('Transporte column index:', transporteColumnIndex);
@@ -652,7 +650,6 @@
                 console.log("DEBUG: Index for 'Número de documento':", numeroDocumentoIndex);
                 console.log("DEBUG: Index for 'Nombre':", nombreIndex);
                 console.log("DEBUG: Index for 'ID':", idColumnIndex);
-                console.log("DEBUG: Index for 'Numero de Remito':", remito);
                 console.log("DEBUG: Index for 'Transportista':", transporteIndex);
             
                 // Check if any of the indexes are not found
@@ -660,7 +657,6 @@
                     numeroDocumentoIndex === -1 ||
                     nombreIndex === -1 ||
                     idColumnIndex === -1 ||
-                    remitoIndex === -1 ||
                     transporteIndex === -1
                 ) {
                     console.error("ERROR: One or more headers were not found in the headers array. Please verify the CSV structure.");
