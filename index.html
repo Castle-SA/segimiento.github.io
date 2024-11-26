@@ -636,6 +636,9 @@
             const nombreIndex = headers.indexOf('Nombre');
             const remitoIndex = headers.indexOf('Numero de Remito');
             const transporteIndex = headers.indexOf('Transportista');
+            const ordenEspecial = row[headers.indexOf('Orden. Especial?')]?.trim();
+            const remito = ordenEspecial.slice(-5);
+
             
             logDebug('Transporte column index:', transporteColumnIndex);
             
@@ -649,7 +652,7 @@
                 console.log("DEBUG: Index for 'Número de documento':", numeroDocumentoIndex);
                 console.log("DEBUG: Index for 'Nombre':", nombreIndex);
                 console.log("DEBUG: Index for 'ID':", idColumnIndex);
-                console.log("DEBUG: Index for 'Numero de Remito':", remitoIndex);
+                console.log("DEBUG: Index for 'Numero de Remito':", remito);
                 console.log("DEBUG: Index for 'Transportista':", transporteIndex);
             
                 // Check if any of the indexes are not found
