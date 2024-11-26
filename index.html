@@ -743,7 +743,7 @@
                 const remitos = facturacionRows.map(row => row[2]); // Assuming row[2] is the "Numero de Remito"
                     console.log("DEBUG: Remitos to match:", remitos);
 
-                const { matched, unmatched } = compareRemitoWithFiles(remitos, files);
+                const { matched, unmatched } = await compareRemitoWithFiles(remitos, files);
                     console.log("DEBUG: Matched Rows:", matched);
                     console.log("DEBUG: Unmatched Rows:", unmatched);
                 // Step 3: Generate tables once data is ready
