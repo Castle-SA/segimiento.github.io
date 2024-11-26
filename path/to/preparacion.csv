@@ -225,8 +225,8 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 39997,67 FORD ARGENTINA S.C.A.,Facturación pendiente,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 21562,Remitido,F,BV002,0,0,14/11/2024,EXPRESO CARGO SA,351428,67.0%
 39998,3769 GAROFOLI CONSTRUCCIONES SRL,Parcialmente ejecutada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 21560,Remitido,F,MTS524B,0,0,14/11/2024,RODRIGUEZ HNOS. TRANSP. SA,351429,43.0%
 39998,3769 GAROFOLI CONSTRUCCIONES SRL,Parcialmente ejecutada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 21560,Remitido,F,MTS536B,0,0,14/11/2024,RODRIGUEZ HNOS. TRANSP. SA,351429,48.0%
-39998,3769 GAROFOLI CONSTRUCCIONES SRL,Parcialmente ejecutada,Todo Aprobado,Factura de venta 35961,Abierta,F,MTS518B,0,484,14/11/2024,RODRIGUEZ HNOS. TRANSP. SA,351429,47.0%
 39998,3769 GAROFOLI CONSTRUCCIONES SRL,Parcialmente ejecutada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 21560,Remitido,F,MTS518B,0,484,14/11/2024,RODRIGUEZ HNOS. TRANSP. SA,351429,47.0%
+39998,3769 GAROFOLI CONSTRUCCIONES SRL,Parcialmente ejecutada,Todo Aprobado,Factura de venta 35961,Abierta,F,MTS518B,0,484,14/11/2024,RODRIGUEZ HNOS. TRANSP. SA,351429,47.0%
 40000,9400444 CRONI SA,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 21561,Remitido,F,PPHR15048XT,0,0,14/11/2024,EXPRESO CARGO SA,351862,57.0%
 40002,9400334 CAPITAN DEL ESPACIO SA,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Liberada,T,9400334/001,0,80,14/11/2024,EXPRESO CARGO SA,351971,78.0%
 40004,629 INDUSTRIAS QUIMICAS BG SRL,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 21556,Remitido,F,PPA1548TE,0,0,14/11/2024,RICARDO PIERONI,352087,54.0%
@@ -298,8 +298,6 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 39992,12662 PRINTEMPS S.R.L.,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 21605,Remitido,F,04965-00176-00,0,0,21/11/2024,RICARDO PIERONI,351167,55.0%
 39993,9400794 MATADERO FRIGORIFICO UNION SA,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 21611,Remitido,F,PPAR1048T,0,0,21/11/2024,LA CAROLINA,351168,55.0%
 40008,50 DADA S.A.,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 21612,Remitido,F,MVAQUA300,0,0,21/11/2024,EXPRESO CARGO SA,352494,55.0%
-40037,9402081 OLEOHIDRAULICA EL TORITO SA,Ejecución de la orden pendiente,Todo Aprobado, ,,F,MVAQUA180,20,0,21/11/2024,BARRY LATIMER,354929,54.0%
-40037,9402081 OLEOHIDRAULICA EL TORITO SA,Ejecución de la orden pendiente,Todo Aprobado, ,,F,MVAQUA203V,20,0,21/11/2024,BARRY LATIMER,354929,50.0%
 40043,2410 LUIS SOLIMENO E HIJOS SA,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 21613,Remitido,F,PPAR10048T,0,0,21/11/2024,TRANSPORTE TOMASSINI,355201,36.0%
 40044,4 BEROWOOD SRL,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 21607,Remitido,F,PPA1548TE,0,0,21/11/2024,RICARDO PIERONI,355401,68.0%
 40044,4 BEROWOOD SRL,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 21607,Remitido,F,PPA1048F,0,0,21/11/2024,RICARDO PIERONI,355401,51.0%
@@ -309,7 +307,6 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 39901,3089 ARNEG ARGENTINA S.A.,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 21617,Remitido,F,3089/029,0,0,22/11/2024,RICARDO PIERONI,344150,84.0%
 39901,3089 ARNEG ARGENTINA S.A.,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 21617,Remitido,F,3089/029,0,0,22/11/2024,RICARDO PIERONI,344150,84.0%
 40034,9402003 BERSANO SRL,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 21614,Remitido,F,4604/001,0,0,22/11/2024,RICARDO PIERONI,354928,68.0%
-40038,15499 COFFEA SRL,Ejecución de la orden pendiente,Todo Aprobado, ,,F,PPAR1048T,0,360,22/11/2024,RICARDO PIERONI,355057,58.0%
 40040,4111 INDUSTRIALIZADORA S.A.,Ejecución de la orden pendiente,Todo Aprobado, ,,F,PPAR1048T,0,720,22/11/2024,TRANSPORTE MOSTTO,355200,55.0%
 40046,960 LSG SKY CHEFS ARGENTINA SA,Ejecución de la orden pendiente,Todo Aprobado, ,,F,PPAR1048T,0,468,22/11/2024,EXPRESO CARGO SA,355710,58.0%
 40048,3086 MULTIORIGINAL PARTS SA,Ejecución de la orden pendiente,Todo Aprobado, ,,F,PPAR1048T,0,360,22/11/2024,EXPRESO LUJAN DEL CUYO SA,356154,58.0%
@@ -342,6 +339,9 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 40084,6373 TFP PRODUCTEC S.A,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 21632,Remitido,F,74662-00002-00,0,0,25/11/2024,EXPRESO CARGO SA,358116,57.0%
 39720,5019 GRANJA TRES ARROYOS SACAFEI,Facturación pendiente,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 21640,Remitido,F,5019/002,0,0,26/11/2024,EXPRESO CARGO SA,332941,73.0%
 39952,1165 MACOSER SA,Facturación pendiente,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 21635,Remitido,F,60630-00002-00,0,0,26/11/2024,"CAROSSIO, VAIROLATTI Y CIA",347946,53.0%
+40037,9402081 OLEOHIDRAULICA EL TORITO SA,Facturación pendiente,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 21642,Remitido,F,MVAQUA180,0,0,26/11/2024,BARRY LATIMER,354929,54.0%
+40037,9402081 OLEOHIDRAULICA EL TORITO SA,Facturación pendiente,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 21642,Remitido,F,MVAQUA203V,0,0,26/11/2024,BARRY LATIMER,354929,50.0%
+40038,15499 COFFEA SRL,Facturación pendiente,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 21641,Remitido,F,PPAR1048T,0,0,26/11/2024,RICARDO PIERONI,355057,58.0%
 40077,183 OLIVERO ARIEL E HIJOS SRL,Ejecución de la orden pendiente,Todo Aprobado, ,,F,CH523EXR,30,0,26/11/2024,RICARDO PIERONI,357590,49.0%
 40077,183 OLIVERO ARIEL E HIJOS SRL,Ejecución de la orden pendiente,Todo Aprobado, ,,F,HWF125,24,0,26/11/2024,RICARDO PIERONI,357590,47.0%
 40097,2515 CONGELADOS ARTICO SA,Facturación pendiente,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 21639,Remitido,F,PPAR10048T,0,0,26/11/2024,TRANSPORTE TOMASSINI,358627,54.0%
@@ -356,6 +356,7 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 40013,9400536 MILKAUT SA,Ejecución de la orden pendiente,Todo Aprobado, ,,F,PPHR15048XT,144,0,28/11/2024,RICARDO PIERONI,353159,54.0%
 40106,1067 DIPAC SA,Ejecución de la orden pendiente,Todo Aprobado, ,,F,PPAR1024T,216,0,28/11/2024,RICARDO PIERONI,359492,100.0%
 40106,1067 DIPAC SA,Ejecución de la orden pendiente,Todo Aprobado, ,,F,PPAR1048T,0,288,28/11/2024,RICARDO PIERONI,359492,68.0%
+40109,918 PEDRIN III SRL,Ejecución de la orden pendiente,Todo Aprobado, ,,F,PPAR1048T,0,432,28/11/2024,RICARDO PIERONI,359740,58.0%
 39925,12877 BRIKET SA,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Ensamblada,F,0272/004,200,0,29/11/2024,FELICI JORGE ARIEL,346059,45.0%
 39925,12877 BRIKET SA,Ejecución de la orden pendiente,Todo Aprobado, ,,F,PPAR1048M,720,0,29/11/2024,FELICI JORGE ARIEL,346059,52.0%
 40031,4095 REFINERIA DEL CENTRO SA,Ejecución de la orden pendiente,Todo Aprobado, ,,F,H11/72,30,0,29/11/2024,EXPRESO SANTA ROSA,354625,65.0%
@@ -386,9 +387,10 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 40094,9400716 RAFAELA ALIMENTOS SA,Ejecución de la orden pendiente,Todo Aprobado, ,,F,MUESTRA ESPECIAL,1,0,05/12/2024,EXPRESO SANTA ROSA,358365,100.0%
 40095,50 DADA S.A.,Ejecución de la orden pendiente,Todo Aprobado, ,,F,MUESTRA ESPECIAL,1,0,05/12/2024,EXPRESO CARGO SA,358366,100.0%
 40096,2515 CONGELADOS ARTICO SA,Ejecución de la orden pendiente,Todo Aprobado, ,,F,MUESTRA ESPECIAL,1,0,05/12/2024,TRANSPORTE TOMASSINI,358367,100.0%
-39170,9400753 RIS S.A,Ejecución de la orden pendiente,Todo Aprobado, ,,F,PPAR1048T,282,6,06/12/2024,EXPRESO CARGO SA,301129,48.0%
+39170,9400753 RIS S.A,Ejecución de la orden pendiente,Todo Aprobado, ,,F,PPAR1048T,0,288,06/12/2024,EXPRESO CARGO SA,301129,48.0%
 39170,9400753 RIS S.A,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Liberada,F,9400753/001,0,1008,06/12/2024,EXPRESO CARGO SA,301129,19.0%
 39926,12877 BRIKET SA,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Liberada,F,0272/004,0,200,06/12/2024,FELICI JORGE ARIEL,345957,45.0%
+40108,576 FRIOLATINA S.A.,Ejecución de la orden pendiente,Todo Aprobado, ,,F,MUESTRA ESPECIAL,1,0,06/12/2024,EXPRESO LUJAN DEL CUYO SA,359739,100.0%
 39909,9402182 SOUTHERN SHOES SRL,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Liberada,F,9402182/001,0,360,09/12/2024,TRANSPORTE TOMASSINI,345128,43.0%
 40015,272 TALLERES METALURGICOS BAMBI S.A.,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Liberada,F,0272/003,0,40,09/12/2024,FELICI JORGE ARIEL,353281,43.0%
 40015,272 TALLERES METALURGICOS BAMBI S.A.,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Liberada,F,0272/005,0,400,09/12/2024,FELICI JORGE ARIEL,353281,42.0%
@@ -402,7 +404,7 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 39923,94010 VISUAR SA,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Liberada,F,1823/002,0,192,18/12/2024,EXPRESO CARGO SA,346157,54.0%
 38511,4733 TECNOSISTEM SRL,Ejecución de la orden pendiente,Todo Aprobado, ,,F,MTS548B,540,0,20/12/2024,EXPRESO CARGO SA,281743,62.0%
 38511,4733 TECNOSISTEM SRL,Ejecución de la orden pendiente,Todo Aprobado, ,,F,MTS536B,480,0,20/12/2024,EXPRESO CARGO SA,281743,46.0%
-38511,4733 TECNOSISTEM SRL,Ejecución de la orden pendiente,Todo Aprobado, ,,F,PPAR1048T,180,0,20/12/2024,EXPRESO CARGO SA,281743,0.0%
+38511,4733 TECNOSISTEM SRL,Ejecución de la orden pendiente,Todo Aprobado, ,,F,PPAR1048T,102,78,20/12/2024,EXPRESO CARGO SA,281743,0.0%
 39943,2012 BIZCOCHOS CAMPEON SRL,Ejecución de la orden pendiente,Todo Aprobado, ,,F,PPA1548TE,360,0,20/12/2024,RICARDO PIERONI,347465,42.0%
 39943,2012 BIZCOCHOS CAMPEON SRL,Ejecución de la orden pendiente,Todo Aprobado, ,,F,H11/CPE,1,0,20/12/2024,RICARDO PIERONI,347465,0.0%
 39766,202 FRIGORIFICO DE AVES SOYCHU SA,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Ensamblada,F,PVC612R,864,0,23/12/2024,EXPRESO CARGO SA,335965,60.0%
@@ -437,7 +439,9 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 39919,3089 ARNEG ARGENTINA S.A.,Parcialmente ejecutada,Todo Aprobado,Orden de trabajo ,En curso,F,3089/029,0,28000,,RICARDO PIERONI,345762,87.0%
 39960,9400130 FEMACAR SRL,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Ensamblada,F,9400130/001,360,0,,EXPRESO CARGO SA,348760,47.0%
 39960,9400130 FEMACAR SRL,Ejecución de la orden pendiente,Todo Aprobado, ,,F,PPAR1048T,0,180,,EXPRESO CARGO SA,348760,53.0%
-40006,3051 FRIMETAL S.A.,Ejecución de la orden pendiente,Todo Aprobado,Pedido ,Recepción pendiente,T,3051/006,0,180,,FELICI JORGE ARIEL,352198,65.0%
+40006,3051 FRIMETAL S.A.,Ejecución de la orden pendiente,Todo Aprobado,Pedido ,Recepción pendiente,T,3051/006,0,180,,FELICI JORGE ARIEL,352198,59.0%
 40065,143 EPTA ARGENTINA S.A.,Ejecución de la orden pendiente,Todo Aprobado,Pedido ,Aprobación del supervisor pendiente,T,0143/006,0,360,,FELICI JORGE ARIEL,357327,96.0%
 40069,143 EPTA ARGENTINA S.A.,Ejecución de la orden pendiente,Todo Aprobado,Pedido ,Aprobación del supervisor pendiente,T,0143/008,0,250,,FELICI JORGE ARIEL,357328,55.0%
 40085,6631 PILKINGTON AUTOMOTIVE ARGENTINA SA,Ejecución de la orden pendiente,Todo Aprobado,Pedido ,Aprobación del supervisor pendiente,T,6631/003,0,720,,EXPRESO CARGO SA,358220,50.0%
+40107,346 DOS HERMANOS S.A,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Liberada,F,PVC612R,0,864,,TRANSPORTE DE CARGAS MORENO SRL,359638,69.0%
+40107,346 DOS HERMANOS S.A,Ejecución de la orden pendiente,Todo Aprobado, ,,F,PPAR10072T,120,0,,TRANSPORTE DE CARGAS MORENO SRL,359638,66.0%
