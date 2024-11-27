@@ -93,8 +93,8 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 39740,272 TALLERES METALURGICOS BAMBI S.A.,Facturada,Todo Aprobado,Ejecución de pedido de artículo 21470,Enviado,F,PPAR1072T,0,0,04/11/2024,FELICI JORGE ARIEL,334898,72.0%
 39740,272 TALLERES METALURGICOS BAMBI S.A.,Facturada,Todo Aprobado,Ejecución de pedido de artículo 21470,Enviado,F,0272/004,0,0,04/11/2024,FELICI JORGE ARIEL,334898,32.0%
 39740,272 TALLERES METALURGICOS BAMBI S.A.,Facturada,Todo Aprobado,Ejecución de pedido de artículo 21474,Enviado,F,0272/003,0,0,04/11/2024,FELICI JORGE ARIEL,334898,42.0%
-39740,272 TALLERES METALURGICOS BAMBI S.A.,Facturada,Todo Aprobado,Ejecución de pedido de artículo 21470,Enviado,F,0272/005,0,0,04/11/2024,FELICI JORGE ARIEL,334898,41.0%
 39740,272 TALLERES METALURGICOS BAMBI S.A.,Facturada,Todo Aprobado,Ejecución de pedido de artículo 21474,Enviado,F,0272/005,0,0,04/11/2024,FELICI JORGE ARIEL,334898,41.0%
+39740,272 TALLERES METALURGICOS BAMBI S.A.,Facturada,Todo Aprobado,Ejecución de pedido de artículo 21470,Enviado,F,0272/005,0,0,04/11/2024,FELICI JORGE ARIEL,334898,41.0%
 39740,272 TALLERES METALURGICOS BAMBI S.A.,Facturada,Todo Aprobado,Ejecución de pedido de artículo 21474,Enviado,F,0272/006,0,0,04/11/2024,FELICI JORGE ARIEL,334898,32.0%
 39853,3051 FRIMETAL S.A.,Facturada,Todo Aprobado,Ejecución de pedido de artículo 21472,Enviado,F,1823/002,0,0,04/11/2024,FELICI JORGE ARIEL,340798,53.0%
 39859,682 MAYO TRANSFORMADORES S.R.L.,Facturada,Todo Aprobado,Ejecución de pedido de artículo 21466,Enviado,F,MTS512B,0,0,04/11/2024,RICARDO PIERONI,340917,46.0%
@@ -204,8 +204,8 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 39997,67 FORD ARGENTINA S.C.A.,Facturada,Todo Aprobado,Ejecución de pedido de artículo 21562,Enviado,F,BV002,0,0,14/11/2024,EXPRESO CARGO SA,351428,67.0%
 39998,3769 GAROFOLI CONSTRUCCIONES SRL,Parcialmente ejecutada,Todo Aprobado,Ejecución de pedido de artículo 21560,Enviado,F,MTS524B,0,0,14/11/2024,RODRIGUEZ HNOS. TRANSP. SA,351429,43.0%
 39998,3769 GAROFOLI CONSTRUCCIONES SRL,Parcialmente ejecutada,Todo Aprobado,Ejecución de pedido de artículo 21560,Enviado,F,MTS536B,0,0,14/11/2024,RODRIGUEZ HNOS. TRANSP. SA,351429,48.0%
-39998,3769 GAROFOLI CONSTRUCCIONES SRL,Parcialmente ejecutada,Todo Aprobado,Ejecución de pedido de artículo 21560,Enviado,F,MTS518B,0,484,14/11/2024,RODRIGUEZ HNOS. TRANSP. SA,351429,47.0%
 39998,3769 GAROFOLI CONSTRUCCIONES SRL,Parcialmente ejecutada,Todo Aprobado,Factura de venta 35961,Abierta,F,MTS518B,0,484,14/11/2024,RODRIGUEZ HNOS. TRANSP. SA,351429,47.0%
+39998,3769 GAROFOLI CONSTRUCCIONES SRL,Parcialmente ejecutada,Todo Aprobado,Ejecución de pedido de artículo 21560,Enviado,F,MTS518B,0,484,14/11/2024,RODRIGUEZ HNOS. TRANSP. SA,351429,47.0%
 40000,9400444 CRONI SA,Facturada,Todo Aprobado,Ejecución de pedido de artículo 21561,Enviado,F,PPHR15048XT,0,0,14/11/2024,EXPRESO CARGO SA,351862,57.0%
 40002,9400334 CAPITAN DEL ESPACIO SA,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Liberada,T,9400334/001,0,80,14/11/2024,EXPRESO CARGO SA,351971,78.0%
 40004,629 INDUSTRIAS QUIMICAS BG SRL,Facturada,Todo Aprobado,Ejecución de pedido de artículo 21556,Enviado,F,PPA1548TE,0,0,14/11/2024,RICARDO PIERONI,352087,54.0%
@@ -332,19 +332,19 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 40099,2915 COMPANIA LA PILARICA SA,Facturada,Todo Aprobado,Ejecución de pedido de artículo 21638,Enviado,F,PPAR548T,0,0,26/11/2024,RICARDO PIERONI,358837,100.0%
 40103,9401456 EFUS S.R.L,Facturada,Todo Aprobado,Ejecución de pedido de artículo 21637,Enviado,F,PPAR15048T,0,0,26/11/2024,EXPRESO CARGO SA,359280,65.0%
 40114,3089 ARNEG ARGENTINA S.A.,Facturada,Todo Aprobado,Ejecución de pedido de artículo 21645,Enviado,F,PPAR1072T,0,0,26/11/2024,FELICI JORGE ARIEL,359976,68.0%
-39925,12877 BRIKET SA,Facturación pendiente,Todo Aprobado,Ejecución de pedido de artículo 21652,Enviado,F,0272/004,0,0,27/11/2024,FELICI JORGE ARIEL,346059,45.0%
-39925,12877 BRIKET SA,Facturación pendiente,Todo Aprobado,Ejecución de pedido de artículo 21652,Enviado,F,PPAR1048M,0,0,27/11/2024,FELICI JORGE ARIEL,346059,52.0%
-39943,2012 BIZCOCHOS CAMPEON SRL,Facturación pendiente,Todo Aprobado,Ejecución de pedido de artículo 21651,Enviado,F,PPA1548TE,0,0,27/11/2024,RICARDO PIERONI,347465,42.0%
-39943,2012 BIZCOCHOS CAMPEON SRL,Facturación pendiente,Todo Aprobado,Ejecución de pedido de artículo 21651,Enviado,F,H11/CPE,0,0,27/11/2024,RICARDO PIERONI,347465,0.0%
+39925,12877 BRIKET SA,Facturada,Todo Aprobado,Ejecución de pedido de artículo 21652,Enviado,F,0272/004,0,0,27/11/2024,FELICI JORGE ARIEL,346059,45.0%
+39925,12877 BRIKET SA,Facturada,Todo Aprobado,Ejecución de pedido de artículo 21652,Enviado,F,PPAR1048M,0,0,27/11/2024,FELICI JORGE ARIEL,346059,52.0%
+39943,2012 BIZCOCHOS CAMPEON SRL,Facturada,Todo Aprobado,Ejecución de pedido de artículo 21651,Enviado,F,PPA1548TE,0,0,27/11/2024,RICARDO PIERONI,347465,42.0%
+39943,2012 BIZCOCHOS CAMPEON SRL,Facturada,Todo Aprobado,Ejecución de pedido de artículo 21651,Enviado,F,H11/CPE,0,0,27/11/2024,RICARDO PIERONI,347465,0.0%
 40041,3089 ARNEG ARGENTINA S.A.,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Ensamblada,F,3089/017,4500,0,27/11/2024,RICARDO PIERONI,355300,64.0%
 40041,3089 ARNEG ARGENTINA S.A.,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Ensamblada,F,3089/022,10500,0,27/11/2024,RICARDO PIERONI,355300,67.0%
 40041,3089 ARNEG ARGENTINA S.A.,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Ensamblada,F,3089/039,40000,0,27/11/2024,RICARDO PIERONI,355300,98.0%
-40077,183 OLIVERO ARIEL E HIJOS SRL,Facturación pendiente,Todo Aprobado,Ejecución de pedido de artículo 21648,Enviado,F,CH523EXR,0,0,27/11/2024,RICARDO PIERONI,357590,49.0%
-40077,183 OLIVERO ARIEL E HIJOS SRL,Facturación pendiente,Todo Aprobado,Ejecución de pedido de artículo 21648,Enviado,F,HWF125,0,0,27/11/2024,RICARDO PIERONI,357590,47.0%
-40100,3598 DEL VALLE EMBALAJES SRL,Facturación pendiente,Todo Aprobado,Ejecución de pedido de artículo 21646,Enviado,F,PPAR15096T,0,0,27/11/2024,RICARDO PIERONI,359178,52.0%
-40105,12707 PORTA HNOS. SA,Facturación pendiente,Todo Aprobado,Ejecución de pedido de artículo 21649,Enviado,F,PPAR15048T,0,0,27/11/2024,EXPRESO CARGO SA,359383,56.0%
-40107,346 DOS HERMANOS S.A,Facturación pendiente/parcialmente ejecutada,Todo Aprobado,Ejecución de pedido de artículo 21650,Enviado,F,PPAR10072T,0,0,27/11/2024,TRANSPORTE DE CARGAS MORENO SRL,359638,66.0%
-40116,3598 DEL VALLE EMBALAJES SRL,Facturación pendiente,Todo Aprobado,Ejecución de pedido de artículo 21647,Enviado,F,PPHR15048XT,0,0,27/11/2024,RICARDO PIERONI,360095,52.0%
+40077,183 OLIVERO ARIEL E HIJOS SRL,Facturada,Todo Aprobado,Ejecución de pedido de artículo 21648,Enviado,F,CH523EXR,0,0,27/11/2024,RICARDO PIERONI,357590,49.0%
+40077,183 OLIVERO ARIEL E HIJOS SRL,Facturada,Todo Aprobado,Ejecución de pedido de artículo 21648,Enviado,F,HWF125,0,0,27/11/2024,RICARDO PIERONI,357590,47.0%
+40100,3598 DEL VALLE EMBALAJES SRL,Facturada,Todo Aprobado,Ejecución de pedido de artículo 21646,Enviado,F,PPAR15096T,0,0,27/11/2024,RICARDO PIERONI,359178,52.0%
+40105,12707 PORTA HNOS. SA,Facturada,Todo Aprobado,Ejecución de pedido de artículo 21649,Enviado,F,PPAR15048T,0,0,27/11/2024,EXPRESO CARGO SA,359383,56.0%
+40107,346 DOS HERMANOS S.A,Parcialmente ejecutada,Todo Aprobado,Ejecución de pedido de artículo 21650,Enviado,F,PPAR10072T,0,0,27/11/2024,TRANSPORTE DE CARGAS MORENO SRL,359638,66.0%
+40116,3598 DEL VALLE EMBALAJES SRL,Facturada,Todo Aprobado,Ejecución de pedido de artículo 21647,Enviado,F,PPHR15048XT,0,0,27/11/2024,RICARDO PIERONI,360095,52.0%
 40013,9400536 MILKAUT SA,Ejecución de la orden pendiente,Todo Aprobado, ,,F,PPHR15048XT,144,0,28/11/2024,RICARDO PIERONI,353159,54.0%
 40089,132 MAHLE VALVULAS DE ARGENTINA SA,Ejecución de la orden pendiente,Todo Aprobado, ,,F,MUESTRA ESPECIAL,3,0,28/11/2024,BARRY LATIMER,358345,100.0%
 40106,1067 DIPAC SA,Ejecución de la orden pendiente,Todo Aprobado, ,,F,PPAR1024T,216,0,28/11/2024,RICARDO PIERONI,359492,100.0%
@@ -439,7 +439,7 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 40065,143 EPTA ARGENTINA S.A.,Ejecución de la orden pendiente,Todo Aprobado,Pedido ,Aprobación del supervisor pendiente,T,0143/006,0,360,,FELICI JORGE ARIEL,357327,96.0%
 40069,143 EPTA ARGENTINA S.A.,Ejecución de la orden pendiente,Todo Aprobado,Pedido ,Aprobación del supervisor pendiente,T,0143/008,0,250,,FELICI JORGE ARIEL,357328,55.0%
 40085,6631 PILKINGTON AUTOMOTIVE ARGENTINA SA,Ejecución de la orden pendiente,Todo Aprobado,Pedido ,Aprobación del supervisor pendiente,T,6631/003,0,720,,EXPRESO CARGO SA,358220,50.0%
-40107,346 DOS HERMANOS S.A,Facturación pendiente/parcialmente ejecutada,Todo Aprobado,Orden de trabajo ,Liberada,F,PVC612R,0,864,,TRANSPORTE DE CARGAS MORENO SRL,359638,69.0%
+40107,346 DOS HERMANOS S.A,Parcialmente ejecutada,Todo Aprobado,Orden de trabajo ,Liberada,F,PVC612R,0,864,,TRANSPORTE DE CARGAS MORENO SRL,359638,69.0%
 40110,3051 FRIMETAL S.A.,Ejecución de la orden pendiente,Todo Aprobado, ,,F,MTS548B,966,42,,FELICI JORGE ARIEL,359741,52.0%
 40110,3051 FRIMETAL S.A.,Ejecución de la orden pendiente,Todo Aprobado, ,,F,PPAR1048M,1595,421,,FELICI JORGE ARIEL,359741,40.0%
 40110,3051 FRIMETAL S.A.,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Liberada,F,PVC636A,0,912,,FELICI JORGE ARIEL,359741,72.0%
