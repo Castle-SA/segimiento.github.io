@@ -7,8 +7,8 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 39740,272 TALLERES METALURGICOS BAMBI S.A.,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 21470,Remitido,F,PPAR1072T,0,0,04/11/2024,FELICI JORGE ARIEL,334898,72.0%
 39740,272 TALLERES METALURGICOS BAMBI S.A.,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 21470,Remitido,F,0272/004,0,0,04/11/2024,FELICI JORGE ARIEL,334898,32.0%
 39740,272 TALLERES METALURGICOS BAMBI S.A.,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 21474,Remitido,F,0272/003,0,0,04/11/2024,FELICI JORGE ARIEL,334898,42.0%
-39740,272 TALLERES METALURGICOS BAMBI S.A.,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 21470,Remitido,F,0272/005,0,0,04/11/2024,FELICI JORGE ARIEL,334898,41.0%
 39740,272 TALLERES METALURGICOS BAMBI S.A.,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 21474,Remitido,F,0272/005,0,0,04/11/2024,FELICI JORGE ARIEL,334898,41.0%
+39740,272 TALLERES METALURGICOS BAMBI S.A.,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 21470,Remitido,F,0272/005,0,0,04/11/2024,FELICI JORGE ARIEL,334898,41.0%
 39740,272 TALLERES METALURGICOS BAMBI S.A.,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 21474,Remitido,F,0272/006,0,0,04/11/2024,FELICI JORGE ARIEL,334898,32.0%
 39853,3051 FRIMETAL S.A.,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 21472,Remitido,F,1823/002,0,0,04/11/2024,FELICI JORGE ARIEL,340798,53.0%
 39859,682 MAYO TRANSFORMADORES S.R.L.,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 21466,Remitido,F,MTS512B,0,0,04/11/2024,RICARDO PIERONI,340917,46.0%
@@ -269,10 +269,10 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 40106,1067 DIPAC SA,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 21674,Remitido,F,PPAR1048T,0,0,28/11/2024,RICARDO PIERONI,359492,68.0%
 40107,346 DOS HERMANOS S.A,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 21680,Remitido,F,PVC612R,0,0,28/11/2024,TRANSPORTE DE CARGAS MORENO SRL,359638,69.0%
 40109,918 PEDRIN III SRL,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 21662,Remitido,F,PPAR1048T,0,0,28/11/2024,RICARDO PIERONI,359740,58.0%
-40110,3051 FRIMETAL S.A.,Parcialmente ejecutada,Todo Aprobado,Factura de venta 01219,Abierta,F,MTS548B,0,36,28/11/2024,FELICI JORGE ARIEL,359741,52.0%
 40110,3051 FRIMETAL S.A.,Parcialmente ejecutada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 21679,Remitido,F,MTS548B,0,36,28/11/2024,FELICI JORGE ARIEL,359741,52.0%
-40110,3051 FRIMETAL S.A.,Parcialmente ejecutada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 21679,Remitido,F,PPAR1048M,11,421,28/11/2024,FELICI JORGE ARIEL,359741,40.0%
+40110,3051 FRIMETAL S.A.,Parcialmente ejecutada,Todo Aprobado,Factura de venta 01219,Abierta,F,MTS548B,0,36,28/11/2024,FELICI JORGE ARIEL,359741,52.0%
 40110,3051 FRIMETAL S.A.,Parcialmente ejecutada,Todo Aprobado,Factura de venta 01219,Abierta,F,PPAR1048M,11,421,28/11/2024,FELICI JORGE ARIEL,359741,40.0%
+40110,3051 FRIMETAL S.A.,Parcialmente ejecutada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 21679,Remitido,F,PPAR1048M,11,421,28/11/2024,FELICI JORGE ARIEL,359741,40.0%
 40111,3089 ARNEG ARGENTINA S.A.,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 21669,Remitido,F,3089/078,0,0,28/11/2024,FELICI JORGE ARIEL,359870,61.0%
 40115,2020 RETENES SAV SA,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 21664,Remitido,F,PPAR1048T,0,0,28/11/2024,RICARDO PIERONI,359995,59.0%
 40118,623 BM SEÑALIZACIONES S.A.,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 21666,Remitido,F,PPAR1048T,0,0,28/11/2024,RICARDO PIERONI,360285,67.0%
@@ -314,6 +314,8 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 40149,1029 DREAN SA,Ejecución de la orden pendiente,Todo Aprobado, ,,F,MUESTRA ESPECIAL,1,0,03/12/2024,EXPRESO CARGO SA,363041,0.0%
 40150,3771 PILISAR SA,Ejecución de la orden pendiente,Todo Aprobado, ,,F,MUESTRA ESPECIAL,3,0,03/12/2024,EXPRESO CARGO SA,363042,0.0%
 40152,1171 AUTOSAL SA,Ejecución de la orden pendiente,Todo Aprobado, ,,F,MUESTRA ESPECIAL,3,0,03/12/2024,EXPRESO CARGO SA,363143,0.0%
+40154,9400444 CRONI SA,Ejecución de la orden pendiente,Todo Aprobado, ,,F,PPHR1048T,36,0,03/12/2024,EXPRESO BRIO SRL,363252,65.0%
+40154,9400444 CRONI SA,Ejecución de la orden pendiente,Todo Aprobado, ,,F,PPHR15048XT,0,30,03/12/2024,EXPRESO BRIO SRL,363252,57.0%
 40083,4095 REFINERIA DEL CENTRO SA,Ejecución de la orden pendiente,Todo Aprobado, ,,F,PPHR10048T,54,0,04/12/2024,EXPRESO SANTA ROSA,357916,52.0%
 40059,3096 FRECICAR SRL,Ejecución de la orden pendiente,Todo Aprobado, ,,F,MUESTRA ESPECIAL,2,0,05/12/2024,RETIRAN,357146,100.0%
 40060,583 TERRAGENE SA,Ejecución de la orden pendiente,Todo Aprobado, ,,F,MUESTRA ESPECIAL,1,0,05/12/2024,RETIRAN,357148,100.0%
@@ -364,6 +366,7 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 38511,4733 TECNOSISTEM SRL,Ejecución de la orden pendiente,Todo Aprobado, ,,F,MTS548B,534,6,20/12/2024,EXPRESO CARGO SA,281743,62.0%
 38511,4733 TECNOSISTEM SRL,Ejecución de la orden pendiente,Todo Aprobado, ,,F,MTS536B,480,0,20/12/2024,EXPRESO CARGO SA,281743,46.0%
 38511,4733 TECNOSISTEM SRL,Ejecución de la orden pendiente,Todo Aprobado, ,,F,PPAR1048T,180,0,20/12/2024,EXPRESO CARGO SA,281743,0.0%
+40153,1029 DREAN SA,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Liberada,F,0272/003,0,80,20/12/2024,EXPRESO CARGO SA,363151,44.0%
 39766,202 FRIGORIFICO DE AVES SOYCHU SA,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Ensamblada,F,PVC612R,864,0,23/12/2024,EXPRESO CARGO SA,335965,60.0%
 39766,202 FRIGORIFICO DE AVES SOYCHU SA,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Ensamblada,F,PPHR1216B,848,0,23/12/2024,EXPRESO CARGO SA,335965,46.0%
 39779,202 FRIGORIFICO DE AVES SOYCHU SA,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Ensamblada,F,PPHR1216B,300,0,23/12/2024,EXPRESO CARGO SA,336554,46.0%
