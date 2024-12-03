@@ -76,8 +76,8 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 39783,346 DOS HERMANOS S.A,Facturada,Todo Aprobado,Ejecución de pedido de artículo 21526,Enviado,F,PPAR10072T,0,0,12/11/2024,TRANSPORTE DE CARGAS MORENO SRL,336738,68.0%
 39945,3051 FRIMETAL S.A.,Facturada,Todo Aprobado,Ejecución de pedido de artículo 21525,Enviado,F,MTS548B,0,0,12/11/2024,FELICI JORGE ARIEL,347466,52.0%
 39950,178 DROGUERIA DEL SUD S.A.,Facturada,Todo Aprobado,Ejecución de pedido de artículo 21524,Enviado,F,PPA1048F,0,0,12/11/2024,EXPRESO LUJAN DEL CUYO SA,347470,44.0%
-39961,2410 LUIS SOLIMENO E HIJOS SA,Facturada,Todo Aprobado,Ejecución de pedido de artículo 21521,Enviado,F,PPAR1072T,0,0,12/11/2024,TRANSPORTE TOMASSINI,348761,46.0%
 39961,2410 LUIS SOLIMENO E HIJOS SA,Facturada,Todo Aprobado,Ejecución de pedido de artículo 21520,Enviado,F,PPAR1072T,0,0,12/11/2024,TRANSPORTE TOMASSINI,348761,46.0%
+39961,2410 LUIS SOLIMENO E HIJOS SA,Facturada,Todo Aprobado,Ejecución de pedido de artículo 21521,Enviado,F,PPAR1072T,0,0,12/11/2024,TRANSPORTE TOMASSINI,348761,46.0%
 39963,2475 GAMISOL Y CIA SA,Facturada,Todo Aprobado,Ejecución de pedido de artículo 21523,Enviado,F,PPA1548TE,0,0,12/11/2024,EXPRESO LANCIONI,348883,50.0%
 39964,12849 FERRERO ARGENTINA SA,Facturada,Todo Aprobado,Ejecución de pedido de artículo 21522,Enviado,F,PPHR15048XT,0,0,12/11/2024,EXPRESO LUJAN DEL CUYO SA,348884,54.0%
 39976,12877 BRIKET SA,Facturada,Todo Aprobado,Ejecución de pedido de artículo 21530,Enviado,F,PPAR1048M,0,0,12/11/2024,FELICI JORGE ARIEL,349358,52.0%
@@ -355,7 +355,7 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 40127,690 CEVA DE ARGENTINA SRL,Ejecución de la orden pendiente,Todo Aprobado, ,,F,PPAR1048T,36,0,10/12/2024,FELICI JORGE ARIEL,360751,53.0%
 40126,690 CEVA DE ARGENTINA SRL,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Liberada,F,2025/001,0,1000,10/12/2024,FELICI JORGE ARIEL,360862,57.0%
 40126,690 CEVA DE ARGENTINA SRL,Ejecución de la orden pendiente,Todo Aprobado, ,,F,VCI410,80,0,10/12/2024,FELICI JORGE ARIEL,360862,75.0%
-40161,3089 ARNEG ARGENTINA S.A.,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Liberada,F,3089/021,0,10500,10/12/2024,RICARDO PIERONI,364006,66.0%
+40161,3089 ARNEG ARGENTINA S.A.,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Ensamblada,F,3089/021,10500,0,10/12/2024,RICARDO PIERONI,364006,66.0%
 40161,3089 ARNEG ARGENTINA S.A.,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Liberada,F,3089/017,0,10500,10/12/2024,RICARDO PIERONI,364006,64.0%
 40161,3089 ARNEG ARGENTINA S.A.,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Liberada,F,3089/011,0,7500,10/12/2024,RICARDO PIERONI,364006,64.0%
 40017,272 TALLERES METALURGICOS BAMBI S.A.,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Liberada,F,0272/006,0,120,16/12/2024,FELICI JORGE ARIEL,353182,34.0%
