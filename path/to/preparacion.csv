@@ -44,8 +44,8 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 39783,346 DOS HERMANOS S.A,Facturada,Todo Aprobado,Ejecución de pedido de artículo 21526,Enviado,F,PPAR10072T,0,0,12/11/2024,TRANSPORTE DE CARGAS MORENO SRL,336738,68.0%
 39945,3051 FRIMETAL S.A.,Facturada,Todo Aprobado,Ejecución de pedido de artículo 21525,Enviado,F,MTS548B,0,0,12/11/2024,FELICI JORGE ARIEL,347466,52.0%
 39950,178 DROGUERIA DEL SUD S.A.,Facturada,Todo Aprobado,Ejecución de pedido de artículo 21524,Enviado,F,PPA1048F,0,0,12/11/2024,EXPRESO LUJAN DEL CUYO SA,347470,44.0%
-39961,2410 LUIS SOLIMENO E HIJOS SA,Facturada,Todo Aprobado,Ejecución de pedido de artículo 21521,Enviado,F,PPAR1072T,0,0,12/11/2024,TRANSPORTE TOMASSINI,348761,46.0%
 39961,2410 LUIS SOLIMENO E HIJOS SA,Facturada,Todo Aprobado,Ejecución de pedido de artículo 21520,Enviado,F,PPAR1072T,0,0,12/11/2024,TRANSPORTE TOMASSINI,348761,46.0%
+39961,2410 LUIS SOLIMENO E HIJOS SA,Facturada,Todo Aprobado,Ejecución de pedido de artículo 21521,Enviado,F,PPAR1072T,0,0,12/11/2024,TRANSPORTE TOMASSINI,348761,46.0%
 39963,2475 GAMISOL Y CIA SA,Facturada,Todo Aprobado,Ejecución de pedido de artículo 21523,Enviado,F,PPA1548TE,0,0,12/11/2024,EXPRESO LANCIONI,348883,50.0%
 39964,12849 FERRERO ARGENTINA SA,Facturada,Todo Aprobado,Ejecución de pedido de artículo 21522,Enviado,F,PPHR15048XT,0,0,12/11/2024,EXPRESO LUJAN DEL CUYO SA,348884,54.0%
 39976,12877 BRIKET SA,Facturada,Todo Aprobado,Ejecución de pedido de artículo 21530,Enviado,F,PPAR1048M,0,0,12/11/2024,FELICI JORGE ARIEL,349358,52.0%
@@ -86,8 +86,8 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 39997,67 FORD ARGENTINA S.C.A.,Facturada,Todo Aprobado,Ejecución de pedido de artículo 21562,Enviado,F,BV002,0,0,14/11/2024,EXPRESO CARGO SA,351428,67.0%
 39998,3769 GAROFOLI CONSTRUCCIONES SRL,Parcialmente ejecutada,Todo Aprobado,Ejecución de pedido de artículo 21560,Enviado,F,MTS524B,0,0,14/11/2024,RODRIGUEZ HNOS. TRANSP. SA,351429,43.0%
 39998,3769 GAROFOLI CONSTRUCCIONES SRL,Parcialmente ejecutada,Todo Aprobado,Ejecución de pedido de artículo 21560,Enviado,F,MTS536B,0,0,14/11/2024,RODRIGUEZ HNOS. TRANSP. SA,351429,48.0%
-39998,3769 GAROFOLI CONSTRUCCIONES SRL,Parcialmente ejecutada,Todo Aprobado,Ejecución de pedido de artículo 21560,Enviado,F,MTS518B,0,484,14/11/2024,RODRIGUEZ HNOS. TRANSP. SA,351429,47.0%
 39998,3769 GAROFOLI CONSTRUCCIONES SRL,Parcialmente ejecutada,Todo Aprobado,Factura de venta 35961,Abierta,F,MTS518B,0,484,14/11/2024,RODRIGUEZ HNOS. TRANSP. SA,351429,47.0%
+39998,3769 GAROFOLI CONSTRUCCIONES SRL,Parcialmente ejecutada,Todo Aprobado,Ejecución de pedido de artículo 21560,Enviado,F,MTS518B,0,484,14/11/2024,RODRIGUEZ HNOS. TRANSP. SA,351429,47.0%
 40000,9400444 CRONI SA,Facturada,Todo Aprobado,Ejecución de pedido de artículo 21561,Enviado,F,PPHR15048XT,0,0,14/11/2024,EXPRESO CARGO SA,351862,57.0%
 40002,9400334 CAPITAN DEL ESPACIO SA,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Liberada,T,9400334/001,0,80,14/11/2024,EXPRESO CARGO SA,351971,78.0%
 40004,629 INDUSTRIAS QUIMICAS BG SRL,Facturada,Todo Aprobado,Ejecución de pedido de artículo 21556,Enviado,F,PPA1548TE,0,0,14/11/2024,RICARDO PIERONI,352087,54.0%
@@ -327,7 +327,6 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 40169,1499 FAIART ARGENTINA SA,Facturada,Todo Aprobado,Ejecución de pedido de artículo 21748,Enviado,F,CH523EXR,0,0,04/12/2024,RICARDO PIERONI,364852,56.0%
 40172,1171 AUTOSAL SA,Facturada,Todo Aprobado,Ejecución de pedido de artículo 21746,Enviado,F,PPAR1072T,0,0,04/12/2024,EXPRESO CARGO SA,365053,49.0%
 40168,2410 LUIS SOLIMENO E HIJOS SA,Ejecución de la orden pendiente,Todo Aprobado, ,,F,H11/72,30,0,05/12/2024,TRANSPORTE TOMASSINI,364509,65.0%
-40171,6670 LA FINESTRA ABERTURAS SRL,Facturación pendiente,Todo Aprobado,Ejecución de pedido de artículo 21752,Enviado,F,0143/024,0,0,05/12/2024,RETIRAN,365052,50.0%
 40175,12787 FLEXCOLOR SRL,Facturación pendiente/parcialmente ejecutada,Todo Aprobado,Ejecución de pedido de artículo 21750,Enviado,F,PPA1548TE,0,0,05/12/2024,EXPRESO BRIO SRL,365524,51.0%
 40177,655 SWIFT SA ARGENTINA,Facturación pendiente,Todo Aprobado,Ejecución de pedido de artículo 21751,Enviado,F,FLJPP4009B,0,0,05/12/2024,BARRY LATIMER,366017,100.0%
 40170,12849 FERRERO ARGENTINA SA,Ejecución de la orden pendiente,Todo Aprobado, ,,F,PPAR1048T,0,360,06/12/2024,EXPRESO LUJAN DEL CUYO SA,364952,57.0%
