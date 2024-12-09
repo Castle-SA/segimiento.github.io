@@ -21,8 +21,8 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 39783,346 DOS HERMANOS S.A,Facturada,Todo Aprobado,Ejecución de pedido de artículo 21526,Enviado,F,PPAR10072T,0,0,12/11/2024,TRANSPORTE DE CARGAS MORENO SRL,336738,68.0%
 39945,3051 FRIMETAL S.A.,Facturada,Todo Aprobado,Ejecución de pedido de artículo 21525,Enviado,F,MTS548B,0,0,12/11/2024,FELICI JORGE ARIEL,347466,52.0%
 39950,178 DROGUERIA DEL SUD S.A.,Facturada,Todo Aprobado,Ejecución de pedido de artículo 21524,Enviado,F,PPA1048F,0,0,12/11/2024,EXPRESO LUJAN DEL CUYO SA,347470,44.0%
-39961,2410 LUIS SOLIMENO E HIJOS SA,Facturada,Todo Aprobado,Ejecución de pedido de artículo 21521,Enviado,F,PPAR1072T,0,0,12/11/2024,TRANSPORTE TOMASSINI,348761,46.0%
 39961,2410 LUIS SOLIMENO E HIJOS SA,Facturada,Todo Aprobado,Ejecución de pedido de artículo 21520,Enviado,F,PPAR1072T,0,0,12/11/2024,TRANSPORTE TOMASSINI,348761,46.0%
+39961,2410 LUIS SOLIMENO E HIJOS SA,Facturada,Todo Aprobado,Ejecución de pedido de artículo 21521,Enviado,F,PPAR1072T,0,0,12/11/2024,TRANSPORTE TOMASSINI,348761,46.0%
 39963,2475 GAMISOL Y CIA SA,Facturada,Todo Aprobado,Ejecución de pedido de artículo 21523,Enviado,F,PPA1548TE,0,0,12/11/2024,EXPRESO LANCIONI,348883,50.0%
 39964,12849 FERRERO ARGENTINA SA,Facturada,Todo Aprobado,Ejecución de pedido de artículo 21522,Enviado,F,PPHR15048XT,0,0,12/11/2024,EXPRESO LUJAN DEL CUYO SA,348884,54.0%
 39976,12877 BRIKET SA,Facturada,Todo Aprobado,Ejecución de pedido de artículo 21530,Enviado,F,PPAR1048M,0,0,12/11/2024,FELICI JORGE ARIEL,349358,52.0%
@@ -276,7 +276,7 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 40140,3089 ARNEG ARGENTINA S.A.,Facturada,Todo Aprobado,Ejecución de pedido de artículo 21731,Enviado,F,3089/016,0,0,03/12/2024,FELICI JORGE ARIEL,362384,59.0%
 40140,3089 ARNEG ARGENTINA S.A.,Facturada,Todo Aprobado,Ejecución de pedido de artículo 21731,Enviado,F,3089/022,0,0,03/12/2024,FELICI JORGE ARIEL,362384,67.0%
 40140,3089 ARNEG ARGENTINA S.A.,Facturada,Todo Aprobado,Ejecución de pedido de artículo 21731,Enviado,F,3089/035,0,0,03/12/2024,FELICI JORGE ARIEL,362384,88.0%
-40141,3598 DEL VALLE EMBALAJES SRL,Ejecución de la orden pendiente,Todo Aprobado, ,,F,PPHR15048XT,3,57,03/12/2024,RICARDO PIERONI,362385,52.0%
+40141,3598 DEL VALLE EMBALAJES SRL,Ejecución de la orden pendiente,Todo Aprobado, ,,F,PPHR15048XT,0,60,03/12/2024,RICARDO PIERONI,362385,52.0%
 40155,3909 LIBECO FILM SA,Parcialmente ejecutada,Todo Aprobado,Factura de venta 36127,Abierta,F,PPAR1048M,11,97,03/12/2024,EXPRESO CARGO SA,363414,52.0%
 40155,3909 LIBECO FILM SA,Parcialmente ejecutada,Todo Aprobado,Ejecución de pedido de artículo 21733,Enviado,F,PPAR1048T,0,0,03/12/2024,EXPRESO CARGO SA,363414,57.0%
 40155,3909 LIBECO FILM SA,Parcialmente ejecutada,Todo Aprobado,Ejecución de pedido de artículo 21733,Enviado,F,PPAR548T,0,0,03/12/2024,EXPRESO CARGO SA,363414,100.0%
@@ -314,17 +314,17 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 40006,3051 FRIMETAL S.A.,Facturada,Todo Aprobado,Ejecución de pedido de artículo 21756,Enviado,F,3051/006,0,0,06/12/2024,FELICI JORGE ARIEL,352198,59.0%
 40176,920 DMED S.R.L.,Ejecución de la orden pendiente,Todo Aprobado, ,,F,PPAR1048T,0,4824,06/12/2024,RICARDO PIERONI,365888,53.0%
 40179,143 EPTA ARGENTINA S.A.,Facturada,Todo Aprobado,Ejecución de pedido de artículo 21757,Enviado,F,PVC648B,0,0,06/12/2024,RICARDO PIERONI,366186,78.0%
-40015,272 TALLERES METALURGICOS BAMBI S.A.,Facturación pendiente,Todo Aprobado,Ejecución de pedido de artículo 21758,Enviado,F,0272/003,0,0,09/12/2024,FELICI JORGE ARIEL,353281,43.0%
-40015,272 TALLERES METALURGICOS BAMBI S.A.,Facturación pendiente,Todo Aprobado,Ejecución de pedido de artículo 21758,Enviado,F,0272/005,0,0,09/12/2024,FELICI JORGE ARIEL,353281,42.0%
-40015,272 TALLERES METALURGICOS BAMBI S.A.,Facturación pendiente,Todo Aprobado,Ejecución de pedido de artículo 21758,Enviado,F,0272/004,0,0,09/12/2024,FELICI JORGE ARIEL,353281,33.0%
-40015,272 TALLERES METALURGICOS BAMBI S.A.,Facturación pendiente,Todo Aprobado,Ejecución de pedido de artículo 21758,Enviado,F,PVC624R,0,0,09/12/2024,FELICI JORGE ARIEL,353281,78.0%
-40180,2094 FABEN SA,Facturación pendiente,Todo Aprobado,Ejecución de pedido de artículo 21759,Enviado,F,2094/002,0,0,09/12/2024,EXPRESO SANTA ROSA,366187,71.0%
+40015,272 TALLERES METALURGICOS BAMBI S.A.,Facturada,Todo Aprobado,Ejecución de pedido de artículo 21758,Enviado,F,0272/003,0,0,09/12/2024,FELICI JORGE ARIEL,353281,43.0%
+40015,272 TALLERES METALURGICOS BAMBI S.A.,Facturada,Todo Aprobado,Ejecución de pedido de artículo 21758,Enviado,F,0272/005,0,0,09/12/2024,FELICI JORGE ARIEL,353281,42.0%
+40015,272 TALLERES METALURGICOS BAMBI S.A.,Facturada,Todo Aprobado,Ejecución de pedido de artículo 21758,Enviado,F,0272/004,0,0,09/12/2024,FELICI JORGE ARIEL,353281,33.0%
+40015,272 TALLERES METALURGICOS BAMBI S.A.,Facturada,Todo Aprobado,Ejecución de pedido de artículo 21758,Enviado,F,PVC624R,0,0,09/12/2024,FELICI JORGE ARIEL,353281,78.0%
+40180,2094 FABEN SA,Facturada,Todo Aprobado,Ejecución de pedido de artículo 21759,Enviado,F,2094/002,0,0,09/12/2024,EXPRESO SANTA ROSA,366187,71.0%
 40181,202 FRIGORIFICO DE AVES SOYCHU SA,Ejecución de la orden pendiente,Todo Aprobado, ,,F,PPAR1048T,0,1512,09/12/2024,EXPRESO CARGO SA,366188,46.0%
 40183,674 KRETZ SA,Facturación pendiente,Todo Aprobado,Ejecución de pedido de artículo 21760,Enviado,F,0674/002,0,0,09/12/2024,EXPRESO BRIO SRL,366190,56.0%
 40183,674 KRETZ SA,Facturación pendiente,Todo Aprobado,Ejecución de pedido de artículo 21760,Enviado,F,0674/003,0,0,09/12/2024,EXPRESO BRIO SRL,366190,68.0%
 40183,674 KRETZ SA,Facturación pendiente,Todo Aprobado,Ejecución de pedido de artículo 21760,Enviado,F,MF525T,0,0,09/12/2024,EXPRESO BRIO SRL,366190,90.0%
 40183,674 KRETZ SA,Facturación pendiente,Todo Aprobado,Ejecución de pedido de artículo 21760,Enviado,F,PPAR1072T,0,0,09/12/2024,EXPRESO BRIO SRL,366190,67.0%
-40188,9402194 NHNET SA,Ejecución de la orden pendiente,Todo Aprobado, ,,F,TERM420,14.2,23.8,09/12/2024,EXPRESO CARGO SA,366712,57.0%
+40188,9402194 NHNET SA,Ejecución de la orden pendiente,Todo Aprobado, ,,F,TERM420,0,38,09/12/2024,EXPRESO CARGO SA,366712,57.0%
 40189,3771 PILISAR SA,Facturación pendiente,Todo Aprobado,Ejecución de pedido de artículo 21762,Enviado,F,MF518T,0,0,09/12/2024,EXPRESO CARGO SA,366807,0.0%
 40190,9401929 PETROPACK S.A.,Facturación pendiente/parcialmente ejecutada,Todo Aprobado,Ejecución de pedido de artículo 21761,Enviado,F,PPAR1024T,0,438,09/12/2024,TRANSPORTE MOSTTO,366852,100.0%
 40190,9401929 PETROPACK S.A.,Facturación pendiente/parcialmente ejecutada,Todo Aprobado,Ejecución de pedido de artículo 21761,Enviado,F,PPAR100144T,0,0,09/12/2024,TRANSPORTE MOSTTO,366852,49.0%
