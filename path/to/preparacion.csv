@@ -316,6 +316,7 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 40201,9401956 COMERCIAL INAL 2005 SA,Facturación pendiente,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 21798,Remitido,F,PPAR1048T,0,0,13/12/2024,TRANSPORTE TOMASSINI,367577,54.0%
 40218,178 DROGUERIA DEL SUD S.A.,Facturación pendiente,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 21796,Remitido,F,PPAR1048T,0,0,13/12/2024,EXPRESO LANCIONI,368604,50.0%
 40222,9401911 WASITECH MODULAR S.A.,Facturación pendiente,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 21797,Remitido,F,TERM420,0,0,13/12/2024,EXPRESO TAS,368856,60.0%
+40225,15 INDUSTRIAS JOHN DEERE ARGENTINA S.A.,Ejecución de la orden pendiente,Todo Aprobado,Pedido ,Recepción pendiente,T,0015/016,0,5,13/12/2024,FELICI JORGE ARIEL,369074,63.0%
 40017,272 TALLERES METALURGICOS BAMBI S.A.,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Ensamblada,F,0272/006,120,0,16/12/2024,FELICI JORGE ARIEL,353182,34.0%
 40017,272 TALLERES METALURGICOS BAMBI S.A.,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Ensamblada,F,0272/003,40,0,16/12/2024,FELICI JORGE ARIEL,353182,43.0%
 40017,272 TALLERES METALURGICOS BAMBI S.A.,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Ensamblada,F,0272/005,400,0,16/12/2024,FELICI JORGE ARIEL,353182,42.0%
@@ -340,6 +341,11 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 40230,202 FRIGORIFICO DE AVES SOYCHU SA,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Liberada,F,PVC612R,0,1128,18/12/2024,EXPRESO CARGO SA,369552,65.0%
 40234,15 INDUSTRIAS JOHN DEERE ARGENTINA S.A.,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Ensamblada,F,0015/012,1000,0,18/12/2024,FELICI JORGE ARIEL,369757,99.0%
 40200,9400962 CRYSTAL-ICE SRL,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Liberada,F,9400962/003,0,360,19/12/2024,RICARDO PIERONI,367477,52.0%
+40240,3089 ARNEG ARGENTINA S.A.,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Liberada,F,3089/077,0,50000,19/12/2024,FELICI JORGE ARIEL,370263,63.0%
+40240,3089 ARNEG ARGENTINA S.A.,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Liberada,F,3089/078,0,50000,19/12/2024,FELICI JORGE ARIEL,370263,61.0%
+40240,3089 ARNEG ARGENTINA S.A.,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Liberada,F,3089/079,0,20000,19/12/2024,FELICI JORGE ARIEL,370263,64.0%
+40240,3089 ARNEG ARGENTINA S.A.,Ejecución de la orden pendiente,Todo Aprobado, ,,F,PPAR1072T,240,0,19/12/2024,FELICI JORGE ARIEL,370263,68.0%
+40240,3089 ARNEG ARGENTINA S.A.,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Liberada,F,PVC672B,0,96,19/12/2024,FELICI JORGE ARIEL,370263,81.0%
 38511,4733 TECNOSISTEM SRL,Ejecución de la orden pendiente,Todo Aprobado, ,,F,MTS548B,534,6,20/12/2024,EXPRESO CARGO SA,281743,62.0%
 38511,4733 TECNOSISTEM SRL,Ejecución de la orden pendiente,Todo Aprobado, ,,F,MTS536B,8,472,20/12/2024,EXPRESO CARGO SA,281743,46.0%
 38511,4733 TECNOSISTEM SRL,Ejecución de la orden pendiente,Todo Aprobado, ,,F,PPAR1048T,180,0,20/12/2024,EXPRESO CARGO SA,281743,0.0%
@@ -381,4 +387,4 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 39880,1149 EL DORADO SA,Ejecución de la orden pendiente,Todo Aprobado, ,,F,MTP536B,0,96,,RICARDO PIERONI,342631,0.0%
 39919,3089 ARNEG ARGENTINA S.A.,Parcialmente ejecutada,Todo Aprobado,Orden de trabajo ,En curso,F,3089/029,0,28000,,RICARDO PIERONI,345762,87.0%
 40113,9400856 G P V SOCIEDAD ANONIMA (GRUPO PIERO),Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Liberada,F,9400856/001,0,100,,EXPRESO CARGO SA,359871,100.0%
-40225,15 INDUSTRIAS JOHN DEERE ARGENTINA S.A.,Ejecución de la orden pendiente,Todo Aprobado,Pedido ,Aprobación del supervisor pendiente,T,0015/016,0,5,,FELICI JORGE ARIEL,369074,63.0%
+40195,1343 NEWSAN SA,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Liberada,F,MF518T,0,2,,EXPRESO CARGO SA,367202,0.0%
