@@ -255,7 +255,7 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 37061,9400003 LUCIANO TABARES,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 21755,Remitido,F,MUESTRA ESPECIAL,0,0,05/12/2024,RETIRAN,233777,0.0%
 40168,2410 LUIS SOLIMENO E HIJOS SA,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 21753,Remitido,F,H11/72,0,0,05/12/2024,TRANSPORTE TOMASSINI,364509,65.0%
 40170,12849 FERRERO ARGENTINA SA,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 21754,Remitido,F,PPAR1048T,0,0,05/12/2024,EXPRESO LUJAN DEL CUYO SA,364952,57.0%
-40173,1606 DANES SRL,Facturación pendiente/parcialmente ejecutada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 21749,Remitido,F,MTS536B,0,40,05/12/2024,EXPRESO BRIO SRL,365174,51.0%
+40173,1606 DANES SRL,Parcialmente ejecutada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 21749,Remitido,F,MTS536B,0,40,05/12/2024,EXPRESO BRIO SRL,365174,51.0%
 40175,12787 FLEXCOLOR SRL,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 21750,Remitido,F,PPA1548TE,0,0,05/12/2024,EXPRESO BRIO SRL,365524,51.0%
 40177,655 SWIFT SA ARGENTINA,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 21751,Remitido,F,FLJPP4009B,0,0,05/12/2024,BARRY LATIMER,366017,100.0%
 40006,3051 FRIMETAL S.A.,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 21756,Remitido,F,3051/006,0,0,06/12/2024,FELICI JORGE ARIEL,352198,59.0%
@@ -270,8 +270,8 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 40183,674 KRETZ SA,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 21760,Remitido,F,MF525T,0,0,09/12/2024,EXPRESO BRIO SRL,366190,90.0%
 40183,674 KRETZ SA,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 21760,Remitido,F,PPAR1072T,0,0,09/12/2024,EXPRESO BRIO SRL,366190,67.0%
 40189,3771 PILISAR SA,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 21762,Remitido,F,MF518T,0,0,09/12/2024,EXPRESO CARGO SA,366807,0.0%
-40190,9401929 PETROPACK S.A.,Parcialmente ejecutada,Todo Aprobado,Factura de venta 36155,Abierta,F,PPAR1024T,0,438,09/12/2024,TRANSPORTE MOSTTO,366852,100.0%
 40190,9401929 PETROPACK S.A.,Parcialmente ejecutada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 21761,Remitido,F,PPAR1024T,0,438,09/12/2024,TRANSPORTE MOSTTO,366852,100.0%
+40190,9401929 PETROPACK S.A.,Parcialmente ejecutada,Todo Aprobado,Factura de venta 36155,Abierta,F,PPAR1024T,0,438,09/12/2024,TRANSPORTE MOSTTO,366852,100.0%
 40190,9401929 PETROPACK S.A.,Parcialmente ejecutada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 21761,Remitido,F,PPAR100144T,0,0,09/12/2024,TRANSPORTE MOSTTO,366852,49.0%
 39998,3769 GAROFOLI CONSTRUCCIONES SRL,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 21768,Remitido,F,MTS518B,0,0,10/12/2024,RODRIGUEZ HNOS. TRANSP. SA,351429,47.0%
 40129,3598 DEL VALLE EMBALAJES SRL,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 21765,Remitido,F,MTS518B,0,0,10/12/2024,RICARDO PIERONI,360998,46.0%
@@ -310,6 +310,7 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 40127,690 CEVA DE ARGENTINA SRL,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 21803,Remitido,F,PPAR1048T,0,0,13/12/2024,FELICI JORGE ARIEL,360751,53.0%
 40126,690 CEVA DE ARGENTINA SRL,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 21802,Remitido,F,2025/001,0,0,13/12/2024,FELICI JORGE ARIEL,360862,57.0%
 40126,690 CEVA DE ARGENTINA SRL,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 21802,Remitido,F,VCI410,0,0,13/12/2024,FELICI JORGE ARIEL,360862,75.0%
+40173,1606 DANES SRL,Parcialmente ejecutada,Todo Aprobado,Factura de venta 36201,Abierta,F,MTS536B,0,40,13/12/2024,EXPRESO BRIO SRL,365174,51.0%
 40195,1343 NEWSAN SA,Facturación pendiente,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 21804,Remitido,F,MF518T,0,0,13/12/2024,EXPRESO CARGO SA,367202,0.0%
 40196,4089 SOBRERO Y CAGNOLO SA,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 21801,Remitido,F,PPAR1048T,0,0,13/12/2024,RICARDO PIERONI,367224,50.0%
 40197,6631 PILKINGTON AUTOMOTIVE ARGENTINA SA,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 21807,Remitido,F,PPAR1048T,0,0,13/12/2024,EXPRESO CARGO SA,367225,50.0%
