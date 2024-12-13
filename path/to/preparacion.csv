@@ -269,8 +269,8 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 40183,674 KRETZ SA,Facturada,Todo Aprobado,Ejecución de pedido de artículo 21760,Enviado,F,MF525T,0,0,09/12/2024,EXPRESO BRIO SRL,366190,90.0%
 40183,674 KRETZ SA,Facturada,Todo Aprobado,Ejecución de pedido de artículo 21760,Enviado,F,PPAR1072T,0,0,09/12/2024,EXPRESO BRIO SRL,366190,67.0%
 40189,3771 PILISAR SA,Facturada,Todo Aprobado,Ejecución de pedido de artículo 21762,Enviado,F,MF518T,0,0,09/12/2024,EXPRESO CARGO SA,366807,0.0%
-40190,9401929 PETROPACK S.A.,Parcialmente ejecutada,Todo Aprobado,Factura de venta 36155,Abierta,F,PPAR1024T,0,438,09/12/2024,TRANSPORTE MOSTTO,366852,100.0%
 40190,9401929 PETROPACK S.A.,Parcialmente ejecutada,Todo Aprobado,Ejecución de pedido de artículo 21761,Enviado,F,PPAR1024T,0,438,09/12/2024,TRANSPORTE MOSTTO,366852,100.0%
+40190,9401929 PETROPACK S.A.,Parcialmente ejecutada,Todo Aprobado,Factura de venta 36155,Abierta,F,PPAR1024T,0,438,09/12/2024,TRANSPORTE MOSTTO,366852,100.0%
 40190,9401929 PETROPACK S.A.,Parcialmente ejecutada,Todo Aprobado,Ejecución de pedido de artículo 21761,Enviado,F,PPAR100144T,0,0,09/12/2024,TRANSPORTE MOSTTO,366852,49.0%
 39998,3769 GAROFOLI CONSTRUCCIONES SRL,Facturada,Todo Aprobado,Ejecución de pedido de artículo 21768,Enviado,F,MTS518B,0,0,10/12/2024,RODRIGUEZ HNOS. TRANSP. SA,351429,47.0%
 40129,3598 DEL VALLE EMBALAJES SRL,Facturada,Todo Aprobado,Ejecución de pedido de artículo 21765,Enviado,F,MTS518B,0,0,10/12/2024,RICARDO PIERONI,360998,46.0%
@@ -330,10 +330,14 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 40236,3086 MULTIORIGINAL PARTS SA,Ejecución de la orden pendiente,Todo Aprobado, ,,F,PPAR1048T,540,0,16/12/2024,TRANSPORTE MOSTTO,370117,58.0%
 40238,1809 MERCOMAX SA,Ejecución de la orden pendiente,Todo Aprobado, ,,F,PPAR1048T,864,0,16/12/2024,EXPRESO CARGO SA,370226,50.0%
 40239,1809 MERCOMAX SA,Ejecución de la orden pendiente,Todo Aprobado, ,,F,PPAR1072T,1056,0,16/12/2024,EXPRESO CARGO SA,370227,48.0%
+40242,6467 INDUSTRIAS JUAN F SECCO S.A.,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Liberada,F,0272/003,0,10,16/12/2024,RICARDO PIERONI,370408,63.0%
+40244,9400962 CRYSTAL-ICE SRL,Ejecución de la orden pendiente,Todo Aprobado, ,,F,PPA1548TE,864,36,16/12/2024,RICARDO PIERONI,370714,39.0%
 40186,4872 PAMPA GLOBAL TRADE S.A,Ejecución de la orden pendiente,Todo Aprobado, ,,F,PPAR15048T,60,0,17/12/2024,RICARDO PIERONI,366445,63.0%
 40211,1171 AUTOSAL SA,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Liberada,F,FTH470,0,16,17/12/2024,EXPRESO CARGO SA,368087,46.0%
 40211,1171 AUTOSAL SA,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Liberada,F,0272/005,0,600,17/12/2024,EXPRESO CARGO SA,368087,43.0%
 40217,1029 DREAN SA,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Liberada,F,0272/005,0,120,17/12/2024,EXPRESO CARGO SA,368464,43.0%
+40241,3598 DEL VALLE EMBALAJES SRL,Ejecución de la orden pendiente,Todo Aprobado, ,,F,PPAR1048T,3600,0,17/12/2024,RICARDO PIERONI,370407,47.0%
+40241,3598 DEL VALLE EMBALAJES SRL,Ejecución de la orden pendiente,Todo Aprobado, ,,F,PPAR1072T,480,0,17/12/2024,RICARDO PIERONI,370407,46.0%
 37677,3096 FRECICAR SRL,Ejecución de la orden pendiente,Todo Aprobado, ,,F,52330-00040-00,7,0,18/12/2024,RICARDO PIERONI,253457,51.0%
 40219,2638 QUE RICO SA,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Ensamblada,F,PPHR1216B,324,0,18/12/2024,EXPRESO CARGO SA,368704,72.0%
 40219,2638 QUE RICO SA,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Liberada,F,PVC612R,0,360,18/12/2024,EXPRESO CARGO SA,368704,70.0%
@@ -368,8 +372,12 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 40101,272 TALLERES METALURGICOS BAMBI S.A.,Ejecución de la orden pendiente,Todo Aprobado, ,,F,PPAR1072T,0,1440,06/01/2025,FELICI JORGE ARIEL,359179,71.0%
 40178,132 MAHLE VALVULAS DE ARGENTINA SA,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Liberada,F,3351/002,0,6000,06/01/2025,EXPRESO SANTA ROSA,366086,75.0%
 40178,132 MAHLE VALVULAS DE ARGENTINA SA,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Liberada,F,3351/001,0,6000,06/01/2025,EXPRESO SANTA ROSA,366086,97.0%
+40243,132 MAHLE VALVULAS DE ARGENTINA SA,Ejecución de la orden pendiente,Todo Aprobado, ,,F,3351/003,0,25000,06/01/2025,EXPRESO SANTA ROSA,370614,77.0%
+40243,132 MAHLE VALVULAS DE ARGENTINA SA,Ejecución de la orden pendiente,Todo Aprobado, ,,F,BV002,0,600,06/01/2025,EXPRESO SANTA ROSA,370614,64.0%
+40243,132 MAHLE VALVULAS DE ARGENTINA SA,Ejecución de la orden pendiente,Todo Aprobado, ,,F,LC579,9600,0,06/01/2025,EXPRESO SANTA ROSA,370614,65.0%
 40214,5019 GRANJA TRES ARROYOS SACAFEI,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Liberada,F,5019/005,0,40,13/01/2025,EXPRESO CARGO SA,368461,60.0%
 39930,5019 GRANJA TRES ARROYOS SACAFEI,Ejecución de la orden pendiente,Todo Aprobado, ,,F,5019/004,192,0,20/01/2025,EXPRESO CARGO SA,346062,60.0%
+40245,9400962 CRYSTAL-ICE SRL,Ejecución de la orden pendiente,Todo Aprobado, ,,F,PPA1548TE,0,4500,24/01/2025,RICARDO PIERONI,370615,39.0%
 37683,3096 FRECICAR SRL,Ejecución de la orden pendiente,Todo Aprobado, ,,F,52330-00040-00,7,0,03/02/2025,RICARDO PIERONI,253464,51.0%
 40102,272 TALLERES METALURGICOS BAMBI S.A.,Ejecución de la orden pendiente,Todo Aprobado, ,,F,0272/005,0,666,03/02/2025,FELICI JORGE ARIEL,359279,43.0%
 40102,272 TALLERES METALURGICOS BAMBI S.A.,Ejecución de la orden pendiente,Todo Aprobado, ,,F,0272/004,0,566,03/02/2025,FELICI JORGE ARIEL,359279,34.0%
