@@ -284,14 +284,12 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 40151,4095 REFINERIA DEL CENTRO SA,Facturación pendiente,Todo Aprobado,Ejecución de pedido de artículo 21810,Enviado,F,PPAR10072T,0,0,16/12/2024,EXPRESO SANTA ROSA,363043,51.0%
 40186,4872 PAMPA GLOBAL TRADE S.A,Facturada,Todo Aprobado,Ejecución de pedido de artículo 21816,Enviado,F,PPAR15048T,0,0,16/12/2024,RICARDO PIERONI,366445,63.0%
 40217,1029 DREAN SA,Facturación pendiente,Todo Aprobado,Ejecución de pedido de artículo 21827,Enviado,F,0272/005,0,0,16/12/2024,EXPRESO CARGO SA,368464,43.0%
-40228,2410 LUIS SOLIMENO E HIJOS SA,Facturación pendiente/parcialmente ejecutada,Todo Aprobado, ,,F,FLJPP30012B,10,0,16/12/2024,TRANSPORTE TOMASSINI,369343,20.0%
-40228,2410 LUIS SOLIMENO E HIJOS SA,Facturación pendiente/parcialmente ejecutada,Todo Aprobado,Ejecución de pedido de artículo 21817,Enviado,F,PPAR1048T,0,0,16/12/2024,TRANSPORTE TOMASSINI,369343,48.0%
-40228,2410 LUIS SOLIMENO E HIJOS SA,Facturación pendiente/parcialmente ejecutada,Todo Aprobado, ,,F,PPAR1072T,2400,0,16/12/2024,TRANSPORTE TOMASSINI,369343,46.0%
+40228,2410 LUIS SOLIMENO E HIJOS SA,Parcialmente ejecutada,Todo Aprobado,Ejecución de pedido de artículo 21817,Enviado,F,PPAR1048T,0,0,16/12/2024,TRANSPORTE TOMASSINI,369343,48.0%
 40234,15 INDUSTRIAS JOHN DEERE ARGENTINA S.A.,Facturación pendiente,Todo Aprobado,Ejecución de pedido de artículo 21819,Enviado,F,0015/012,0,0,16/12/2024,FELICI JORGE ARIEL,369757,99.0%
 40235,4782 OFFAL SA,Facturada,Todo Aprobado,Ejecución de pedido de artículo 21811,Enviado,F,PPAR10072T,0,0,16/12/2024,EXPRESO CARGO SA,369788,47.0%
-40236,3086 MULTIORIGINAL PARTS SA,Facturación pendiente,Todo Aprobado,Ejecución de pedido de artículo 21812,Enviado,F,PPAR1048T,0,0,16/12/2024,TRANSPORTE MOSTTO,370117,58.0%
-40238,1809 MERCOMAX SA,Facturación pendiente,Todo Aprobado,Ejecución de pedido de artículo 21813,Enviado,F,PPAR1048T,0,0,16/12/2024,EXPRESO CARGO SA,370226,50.0%
-40239,1809 MERCOMAX SA,Facturación pendiente,Todo Aprobado,Ejecución de pedido de artículo 21814,Enviado,F,PPAR1072T,0,0,16/12/2024,EXPRESO CARGO SA,370227,48.0%
+40236,3086 MULTIORIGINAL PARTS SA,Facturada,Todo Aprobado,Ejecución de pedido de artículo 21812,Enviado,F,PPAR1048T,0,0,16/12/2024,TRANSPORTE MOSTTO,370117,58.0%
+40238,1809 MERCOMAX SA,Facturada,Todo Aprobado,Ejecución de pedido de artículo 21813,Enviado,F,PPAR1048T,0,0,16/12/2024,EXPRESO CARGO SA,370226,50.0%
+40239,1809 MERCOMAX SA,Facturada,Todo Aprobado,Ejecución de pedido de artículo 21814,Enviado,F,PPAR1072T,0,0,16/12/2024,EXPRESO CARGO SA,370227,48.0%
 40240,3089 ARNEG ARGENTINA S.A.,Facturada,Todo Aprobado,Ejecución de pedido de artículo 21823,Enviado,F,3089/077,0,0,16/12/2024,FELICI JORGE ARIEL,370263,63.0%
 40240,3089 ARNEG ARGENTINA S.A.,Facturada,Todo Aprobado,Ejecución de pedido de artículo 21823,Enviado,F,3089/078,0,0,16/12/2024,FELICI JORGE ARIEL,370263,61.0%
 40240,3089 ARNEG ARGENTINA S.A.,Facturada,Todo Aprobado,Ejecución de pedido de artículo 21823,Enviado,F,3089/079,0,0,16/12/2024,FELICI JORGE ARIEL,370263,64.0%
@@ -299,12 +297,13 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 40240,3089 ARNEG ARGENTINA S.A.,Facturada,Todo Aprobado,Ejecución de pedido de artículo 21823,Enviado,F,PVC672B,0,0,16/12/2024,FELICI JORGE ARIEL,370263,81.0%
 40241,3598 DEL VALLE EMBALAJES SRL,Facturada,Todo Aprobado,Ejecución de pedido de artículo 21818,Enviado,F,PPAR1048T,0,0,16/12/2024,RICARDO PIERONI,370407,47.0%
 40241,3598 DEL VALLE EMBALAJES SRL,Facturada,Todo Aprobado,Ejecución de pedido de artículo 21821,Enviado,F,PPAR1072T,0,0,16/12/2024,RICARDO PIERONI,370407,46.0%
-40242,6467 INDUSTRIAS JUAN F SECCO S.A.,Facturación pendiente,Todo Aprobado,Ejecución de pedido de artículo 21828,Enviado,F,0272/003,0,0,16/12/2024,RICARDO PIERONI,370408,63.0%
+40242,6467 INDUSTRIAS JUAN F SECCO S.A.,Facturada,Todo Aprobado,Ejecución de pedido de artículo 21828,Enviado,F,0272/003,0,0,16/12/2024,RICARDO PIERONI,370408,63.0%
 40244,9400962 CRYSTAL-ICE SRL,Facturada,Todo Aprobado,Ejecución de pedido de artículo 21822,Enviado,F,PPA1548TE,0,0,16/12/2024,RICARDO PIERONI,370714,39.0%
 40244,9400962 CRYSTAL-ICE SRL,Facturada,Todo Aprobado,Ejecución de pedido de artículo 21824,Enviado,F,PPA1548TE,0,0,16/12/2024,RICARDO PIERONI,370714,39.0%
 40246,9400945 LAMED S.A.,Facturada,Todo Aprobado,Ejecución de pedido de artículo 21820,Enviado,F,PPAR1048T,0,0,16/12/2024,RICARDO PIERONI,370819,58.0%
-40247,4010 ASIR SA (DISTRISUR),Facturación pendiente/parcialmente ejecutada,Todo Aprobado,Ejecución de pedido de artículo 21825,Enviado,F,H11/CPE,0,0,16/12/2024,RICARDO PIERONI,370865,0.0%
-40247,4010 ASIR SA (DISTRISUR),Facturación pendiente/parcialmente ejecutada,Todo Aprobado,Ejecución de pedido de artículo 21825,Enviado,F,PPA1548TE,0,324,16/12/2024,RICARDO PIERONI,370865,56.0%
+40247,4010 ASIR SA (DISTRISUR),Parcialmente ejecutada,Todo Aprobado,Ejecución de pedido de artículo 21825,Enviado,F,H11/CPE,0,0,16/12/2024,RICARDO PIERONI,370865,0.0%
+40247,4010 ASIR SA (DISTRISUR),Parcialmente ejecutada,Todo Aprobado,Factura de venta 36209,Abierta,F,PPA1548TE,0,324,16/12/2024,RICARDO PIERONI,370865,56.0%
+40247,4010 ASIR SA (DISTRISUR),Parcialmente ejecutada,Todo Aprobado,Ejecución de pedido de artículo 21825,Enviado,F,PPA1548TE,0,324,16/12/2024,RICARDO PIERONI,370865,56.0%
 40211,1171 AUTOSAL SA,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Ensamblada,F,FTH470,16,0,17/12/2024,EXPRESO CARGO SA,368087,46.0%
 40211,1171 AUTOSAL SA,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Liberada,F,0272/005,0,600,17/12/2024,EXPRESO CARGO SA,368087,43.0%
 37677,3096 FRECICAR SRL,Ejecución de la orden pendiente,Todo Aprobado, ,,F,52330-00040-00,7,0,18/12/2024,RICARDO PIERONI,253457,51.0%
