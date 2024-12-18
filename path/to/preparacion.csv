@@ -258,8 +258,8 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 40193,6658 ESTANCIAS DE PATAGONIA SA,Facturada,Todo Aprobado,Ejecución de pedido de artículo 21791,Enviado,F,PPAR1048T,0,0,12/12/2024,TRANSPORTE TOMASSINI,367098,68.0%
 40208,433 MOLLON SA,Facturada,Todo Aprobado,Ejecución de pedido de artículo 21793,Enviado,F,PPAR10072T,0,0,12/12/2024,EXPRESO CARGO SA,367984,44.0%
 40224,86 EST GRAFICO IMPRESORES SA,Facturada,Todo Aprobado,Ejecución de pedido de artículo 21795,Enviado,F,PPAR1048T,0,0,12/12/2024,EXPRESO CARGO SA,369056,54.0%
-40229,449 DITEC S R L,Parcialmente ejecutada,Todo Aprobado,Ejecución de pedido de artículo 21788,Enviado,F,60950-00001-00,0,7,12/12/2024,EXPRESO CARGO SA,369451,62.0%
 40229,449 DITEC S R L,Parcialmente ejecutada,Todo Aprobado,Factura de venta 36186,Abierta,F,60950-00001-00,0,7,12/12/2024,EXPRESO CARGO SA,369451,62.0%
+40229,449 DITEC S R L,Parcialmente ejecutada,Todo Aprobado,Ejecución de pedido de artículo 21788,Enviado,F,60950-00001-00,0,7,12/12/2024,EXPRESO CARGO SA,369451,62.0%
 40237,9402185 MONCHAMP INDUSTRIAS SRL,Facturada,Todo Aprobado,Ejecución de pedido de artículo 21789,Enviado,F,MVAQUA180,0,0,12/12/2024,RETIRAN,370224,0.0%
 39983,9401926 INDUSTRIAS FRIGORIFICAS RECREO SAIC,Facturada,Todo Aprobado,Ejecución de pedido de artículo 21799,Enviado,F,PPAR1048T,0,0,13/12/2024,TRANSPORTE PEDRITO,350039,45.0%
 40127,690 CEVA DE ARGENTINA SRL,Facturada,Todo Aprobado,Ejecución de pedido de artículo 21803,Enviado,F,0690/010,0,0,13/12/2024,FELICI JORGE ARIEL,360751,97.0%
@@ -319,7 +319,7 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 40227,611 QUESOS DON ATILIO SA,Parcialmente ejecutada,Todo Aprobado,Ejecución de pedido de artículo 21839,Enviado,F,PPAR15048T,0,0,18/12/2024,EXPRESO TAS,369341,58.0%
 40227,611 QUESOS DON ATILIO SA,Parcialmente ejecutada,Todo Aprobado,Factura de venta 36227,Abierta,F,PPA1548TE,0,72,18/12/2024,EXPRESO TAS,369341,54.0%
 40228,2410 LUIS SOLIMENO E HIJOS SA,Facturada,Todo Aprobado,Ejecución de pedido de artículo 21844,Enviado,F,FLJPP30012B,0,0,18/12/2024,TRANSPORTE TOMASSINI,369343,20.0%
-40230,202 FRIGORIFICO DE AVES SOYCHU SA,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Liberada,F,PVC612R,0,1128,18/12/2024,EXPRESO CARGO SA,369552,65.0%
+40230,202 FRIGORIFICO DE AVES SOYCHU SA,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Ensamblada,F,PVC612R,1128,0,18/12/2024,EXPRESO CARGO SA,369552,65.0%
 40250,4095 REFINERIA DEL CENTRO SA,Ejecución de la orden pendiente,Todo Aprobado, ,,F,PPHR10048T,54,0,18/12/2024,EXPRESO SANTA ROSA,371051,53.0%
 40251,9400444 CRONI SA,Facturada,Todo Aprobado,Ejecución de pedido de artículo 21843,Enviado,F,PPHR1048T,0,0,18/12/2024,EXPRESO BRIO SRL,371068,64.0%
 40263,9401302 ABONIZIO CARLOS ALEJANDRO,Facturada,Todo Aprobado,Ejecución de pedido de artículo 21838,Enviado,F,CH5235,0,0,18/12/2024,RICARDO PIERONI,371760,35.0%
