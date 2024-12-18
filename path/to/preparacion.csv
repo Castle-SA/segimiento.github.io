@@ -226,8 +226,8 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 40183,674 KRETZ SA,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 21760,Remitido,F,MF525T,0,0,09/12/2024,EXPRESO BRIO SRL,366190,90.0%
 40183,674 KRETZ SA,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 21760,Remitido,F,PPAR1072T,0,0,09/12/2024,EXPRESO BRIO SRL,366190,67.0%
 40189,3771 PILISAR SA,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 21762,Remitido,F,MF518T,0,0,09/12/2024,EXPRESO CARGO SA,366807,0.0%
-40190,9401929 PETROPACK S.A.,Parcialmente ejecutada,Todo Aprobado,Factura de venta 36155,Abierta,F,PPAR1024T,0,438,09/12/2024,TRANSPORTE MOSTTO,366852,100.0%
 40190,9401929 PETROPACK S.A.,Parcialmente ejecutada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 21761,Remitido,F,PPAR1024T,0,438,09/12/2024,TRANSPORTE MOSTTO,366852,100.0%
+40190,9401929 PETROPACK S.A.,Parcialmente ejecutada,Todo Aprobado,Factura de venta 36155,Abierta,F,PPAR1024T,0,438,09/12/2024,TRANSPORTE MOSTTO,366852,100.0%
 40190,9401929 PETROPACK S.A.,Parcialmente ejecutada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 21761,Remitido,F,PPAR100144T,0,0,09/12/2024,TRANSPORTE MOSTTO,366852,49.0%
 39998,3769 GAROFOLI CONSTRUCCIONES SRL,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 21768,Remitido,F,MTS518B,0,0,10/12/2024,RODRIGUEZ HNOS. TRANSP. SA,351429,47.0%
 40129,3598 DEL VALLE EMBALAJES SRL,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 21765,Remitido,F,MTS518B,0,0,10/12/2024,RICARDO PIERONI,360998,46.0%
@@ -321,9 +321,10 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 40250,4095 REFINERIA DEL CENTRO SA,Ejecución de la orden pendiente,Todo Aprobado, ,,F,PPHR10048T,54,0,18/12/2024,EXPRESO SANTA ROSA,371051,53.0%
 40251,9400444 CRONI SA,Facturación pendiente,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 21843,Remitido,F,PPHR1048T,0,0,18/12/2024,EXPRESO BRIO SRL,371068,64.0%
 40263,9401302 ABONIZIO CARLOS ALEJANDRO,Facturación pendiente,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 21838,Remitido,F,CH5235,0,0,18/12/2024,RICARDO PIERONI,371760,35.0%
-40262,15 INDUSTRIAS JOHN DEERE ARGENTINA S.A.,Facturación pendiente,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 21842,Remitido,F,BV001,0,0,18/12/2024,FELICI JORGE ARIEL,371980,83.0%
+40262,15 INDUSTRIAS JOHN DEERE ARGENTINA S.A.,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 21842,Remitido,F,BV001,0,0,18/12/2024,FELICI JORGE ARIEL,371980,83.0%
 40264,9400254 SODECAR SA,Facturación pendiente,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 21840,Remitido,F,PPAR1048T,0,0,18/12/2024,EXPRESO SANTA ROSA,371998,50.0%
 40266,60 INGERSOLL ARGENTINA S.A.,Facturación pendiente,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 21837,Remitido,F,0060/001,0,0,18/12/2024,TRANSPORTE TRAVERSO,372277,83.0%
+40273,9400890 MOLINOS RIO DE LA PLATA SA,Facturación pendiente,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 21845,Remitido,F,PPHR15048XT,0,0,18/12/2024,BARRY LATIMER,372659,0.0%
 40259,9400096 REBOZADOS HORNEADOS SA,Ejecución de la orden pendiente,Todo Aprobado, ,,F,PPA1548TE,0,360,19/12/2024,TRANSPORTE TOMASSINI,371759,51.0%
 38511,4733 TECNOSISTEM SRL,Ejecución de la orden pendiente,Todo Aprobado, ,,F,MTS548B,534,6,20/12/2024,EXPRESO CARGO SA,281743,62.0%
 38511,4733 TECNOSISTEM SRL,Ejecución de la orden pendiente,Todo Aprobado, ,,F,MTS536B,8,472,20/12/2024,EXPRESO CARGO SA,281743,46.0%
@@ -331,7 +332,6 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 40223,3676 FRIGORIFICO MARK SA,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Liberada,F,PVC612R,0,288,20/12/2024,RICARDO PIERONI,368956,70.0%
 40269,1499 FAIART ARGENTINA SA,Ejecución de la orden pendiente,Todo Aprobado, ,,F,PPAR1072T,120,0,20/12/2024,RICARDO PIERONI,372280,58.0%
 40269,1499 FAIART ARGENTINA SA,Ejecución de la orden pendiente,Todo Aprobado, ,,F,CH523EXR,64,0,20/12/2024,RICARDO PIERONI,372280,56.0%
-40273,9400890 MOLINOS RIO DE LA PLATA SA,Ejecución de la orden pendiente,Todo Aprobado, ,,F,PPHR15048XT,2,0,20/12/2024,BARRY LATIMER,372659,0.0%
 39766,202 FRIGORIFICO DE AVES SOYCHU SA,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Ensamblada,F,PVC612R,864,0,23/12/2024,EXPRESO CARGO SA,335965,60.0%
 39766,202 FRIGORIFICO DE AVES SOYCHU SA,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Ensamblada,F,PPHR1216B,848,0,23/12/2024,EXPRESO CARGO SA,335965,46.0%
 39779,202 FRIGORIFICO DE AVES SOYCHU SA,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Ensamblada,F,PPHR1216B,300,0,23/12/2024,EXPRESO CARGO SA,336554,46.0%
