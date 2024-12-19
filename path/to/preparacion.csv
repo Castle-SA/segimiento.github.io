@@ -245,8 +245,8 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 40193,6658 ESTANCIAS DE PATAGONIA SA,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 21791,Remitido,F,PPAR1048T,0,0,12/12/2024,TRANSPORTE TOMASSINI,367098,68.0%
 40208,433 MOLLON SA,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 21793,Remitido,F,PPAR10072T,0,0,12/12/2024,EXPRESO CARGO SA,367984,44.0%
 40224,86 EST GRAFICO IMPRESORES SA,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 21795,Remitido,F,PPAR1048T,0,0,12/12/2024,EXPRESO CARGO SA,369056,54.0%
-40229,449 DITEC S R L,Parcialmente ejecutada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 21788,Remitido,F,60950-00001-00,0,7,12/12/2024,EXPRESO CARGO SA,369451,62.0%
 40229,449 DITEC S R L,Parcialmente ejecutada,Todo Aprobado,Factura de venta 36186,Abierta,F,60950-00001-00,0,7,12/12/2024,EXPRESO CARGO SA,369451,62.0%
+40229,449 DITEC S R L,Parcialmente ejecutada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 21788,Remitido,F,60950-00001-00,0,7,12/12/2024,EXPRESO CARGO SA,369451,62.0%
 40237,9402185 MONCHAMP INDUSTRIAS SRL,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 21789,Remitido,F,MVAQUA180,0,0,12/12/2024,RETIRAN,370224,0.0%
 39983,9401926 INDUSTRIAS FRIGORIFICAS RECREO SAIC,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 21799,Remitido,F,PPAR1048T,0,0,13/12/2024,TRANSPORTE PEDRITO,350039,45.0%
 40127,690 CEVA DE ARGENTINA SRL,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 21803,Remitido,F,0690/010,0,0,13/12/2024,FELICI JORGE ARIEL,360751,97.0%
@@ -260,7 +260,6 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 40201,9401956 COMERCIAL INAL 2005 SA,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 21798,Remitido,F,PPAR1048T,0,0,13/12/2024,TRANSPORTE TOMASSINI,367577,54.0%
 40218,178 DROGUERIA DEL SUD S.A.,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 21796,Remitido,F,PPAR1048T,0,0,13/12/2024,EXPRESO LANCIONI,368604,50.0%
 40222,9401911 WASITECH MODULAR S.A.,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 21797,Remitido,F,TERM420,0,0,13/12/2024,EXPRESO TAS,368856,60.0%
-40225,15 INDUSTRIAS JOHN DEERE ARGENTINA S.A.,Facturación pendiente,Todo Aprobado,Pedido ,Totalmente facturada,T,0015/016,0,0,13/12/2024,FELICI JORGE ARIEL,369074,63.0%
 40017,272 TALLERES METALURGICOS BAMBI S.A.,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 21808,Remitido,F,0272/006,0,0,16/12/2024,FELICI JORGE ARIEL,353182,34.0%
 40017,272 TALLERES METALURGICOS BAMBI S.A.,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 21808,Remitido,F,0272/003,0,0,16/12/2024,FELICI JORGE ARIEL,353182,43.0%
 40017,272 TALLERES METALURGICOS BAMBI S.A.,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 21809,Remitido,F,0272/005,0,0,16/12/2024,FELICI JORGE ARIEL,353182,42.0%
@@ -284,8 +283,8 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 40241,3598 DEL VALLE EMBALAJES SRL,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 21818,Remitido,F,PPAR1048T,0,0,16/12/2024,RICARDO PIERONI,370407,47.0%
 40241,3598 DEL VALLE EMBALAJES SRL,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 21821,Remitido,F,PPAR1072T,0,0,16/12/2024,RICARDO PIERONI,370407,46.0%
 40242,6467 INDUSTRIAS JUAN F SECCO S.A.,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 21828,Remitido,F,0272/003,0,0,16/12/2024,RICARDO PIERONI,370408,63.0%
-40244,9400962 CRYSTAL-ICE SRL,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 21822,Remitido,F,PPA1548TE,0,0,16/12/2024,RICARDO PIERONI,370714,39.0%
 40244,9400962 CRYSTAL-ICE SRL,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 21824,Remitido,F,PPA1548TE,0,0,16/12/2024,RICARDO PIERONI,370714,39.0%
+40244,9400962 CRYSTAL-ICE SRL,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 21822,Remitido,F,PPA1548TE,0,0,16/12/2024,RICARDO PIERONI,370714,39.0%
 40246,9400945 LAMED S.A.,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 21820,Remitido,F,PPAR1048T,0,0,16/12/2024,RICARDO PIERONI,370819,58.0%
 40247,4010 ASIR SA (DISTRISUR),Parcialmente ejecutada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 21825,Remitido,F,H11/CPE,0,0,16/12/2024,RICARDO PIERONI,370865,0.0%
 40247,4010 ASIR SA (DISTRISUR),Parcialmente ejecutada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 21825,Remitido,F,PPA1548TE,0,324,16/12/2024,RICARDO PIERONI,370865,56.0%
@@ -315,7 +314,7 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 40266,60 INGERSOLL ARGENTINA S.A.,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 21837,Remitido,F,0060/001,0,0,18/12/2024,TRANSPORTE TRAVERSO,372277,83.0%
 40273,9400890 MOLINOS RIO DE LA PLATA SA,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 21845,Remitido,F,PPHR15048XT,0,0,18/12/2024,BARRY LATIMER,372659,0.0%
 40223,3676 FRIGORIFICO MARK SA,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 21853,Remitido,F,PVC612R,0,0,19/12/2024,RICARDO PIERONI,368956,70.0%
-40225,15 INDUSTRIAS JOHN DEERE ARGENTINA S.A.,Facturación pendiente,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 21848,Remitido,F,0015/016,0,0,19/12/2024,FELICI JORGE ARIEL,369074,63.0%
+40225,15 INDUSTRIAS JOHN DEERE ARGENTINA S.A.,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 21848,Remitido,F,0015/016,0,0,19/12/2024,FELICI JORGE ARIEL,369074,63.0%
 40230,202 FRIGORIFICO DE AVES SOYCHU SA,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 21851,Remitido,F,PVC612R,0,0,19/12/2024,EXPRESO CARGO SA,369552,65.0%
 40259,9400096 REBOZADOS HORNEADOS SA,Ejecución de la orden pendiente,Todo Aprobado, ,,F,PPA1548TE,0,360,19/12/2024,TRANSPORTE TOMASSINI,371759,51.0%
 40261,3769 GAROFOLI CONSTRUCCIONES SRL,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 21850,Remitido,F,PPAR15048T,0,0,19/12/2024,RODRIGUEZ HNOS. TRANSP. SA,371961,52.0%
@@ -324,8 +323,8 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 40261,3769 GAROFOLI CONSTRUCCIONES SRL,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 21852,Remitido,F,0674/003,0,0,19/12/2024,RODRIGUEZ HNOS. TRANSP. SA,371961,55.0%
 40261,3769 GAROFOLI CONSTRUCCIONES SRL,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 21852,Remitido,F,1771/001,0,0,19/12/2024,RODRIGUEZ HNOS. TRANSP. SA,371961,56.0%
 40261,3769 GAROFOLI CONSTRUCCIONES SRL,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 21850,Remitido,F,PPAR1048T,0,0,19/12/2024,RODRIGUEZ HNOS. TRANSP. SA,371961,50.0%
-40269,1499 FAIART ARGENTINA SA,Facturación pendiente,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 21849,Remitido,F,PPAR1072T,0,0,19/12/2024,RICARDO PIERONI,372280,58.0%
-40269,1499 FAIART ARGENTINA SA,Facturación pendiente,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 21849,Remitido,F,CH523EXR,0,0,19/12/2024,RICARDO PIERONI,372280,56.0%
+40269,1499 FAIART ARGENTINA SA,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 21849,Remitido,F,PPAR1072T,0,0,19/12/2024,RICARDO PIERONI,372280,58.0%
+40269,1499 FAIART ARGENTINA SA,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 21849,Remitido,F,CH523EXR,0,0,19/12/2024,RICARDO PIERONI,372280,56.0%
 40276,18293 DULCOR SA,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 21854,Remitido,F,PPAR15048T,0,0,19/12/2024,EXPRESO LUJAN DEL CUYO SA,373304,0.0%
 40277,565 PAPELERA SAMSENG SA,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 21856,Remitido,F,PPA1048T040,0,0,19/12/2024,EXPRESO CARGO SA,373351,0.0%
 40278,3086 MULTIORIGINAL PARTS SA,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 21855,Remitido,F,PPAR1048T,0,0,19/12/2024,RICARDO PIERONI,373353,58.0%
