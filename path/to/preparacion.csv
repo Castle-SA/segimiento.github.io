@@ -318,8 +318,12 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 40225,15 INDUSTRIAS JOHN DEERE ARGENTINA S.A.,Facturación pendiente,Todo Aprobado,Ejecución de pedido de artículo 21848,Enviado,F,0015/016,0,0,19/12/2024,FELICI JORGE ARIEL,369074,63.0%
 40230,202 FRIGORIFICO DE AVES SOYCHU SA,Facturación pendiente,Todo Aprobado,Ejecución de pedido de artículo 21851,Enviado,F,PVC612R,0,0,19/12/2024,EXPRESO CARGO SA,369552,65.0%
 40259,9400096 REBOZADOS HORNEADOS SA,Ejecución de la orden pendiente,Todo Aprobado, ,,F,PPA1548TE,0,360,19/12/2024,TRANSPORTE TOMASSINI,371759,51.0%
-40261,3769 GAROFOLI CONSTRUCCIONES SRL,Facturación pendiente/parcialmente ejecutada,Todo Aprobado,Ejecución de pedido de artículo 21850,Enviado,F,PPAR15048T,0,0,19/12/2024,RODRIGUEZ HNOS. TRANSP. SA,371961,52.0%
-40261,3769 GAROFOLI CONSTRUCCIONES SRL,Facturación pendiente/parcialmente ejecutada,Todo Aprobado,Ejecución de pedido de artículo 21850,Enviado,F,PPAR1048T,0,0,19/12/2024,RODRIGUEZ HNOS. TRANSP. SA,371961,50.0%
+40261,3769 GAROFOLI CONSTRUCCIONES SRL,Facturación pendiente,Todo Aprobado,Ejecución de pedido de artículo 21850,Enviado,F,PPAR15048T,0,0,19/12/2024,RODRIGUEZ HNOS. TRANSP. SA,371961,52.0%
+40261,3769 GAROFOLI CONSTRUCCIONES SRL,Facturación pendiente,Todo Aprobado,Ejecución de pedido de artículo 21852,Enviado,F,MF550T,0,0,19/12/2024,RODRIGUEZ HNOS. TRANSP. SA,371961,81.0%
+40261,3769 GAROFOLI CONSTRUCCIONES SRL,Facturación pendiente,Todo Aprobado,Ejecución de pedido de artículo 21852,Enviado,F,0727/004,0,0,19/12/2024,RODRIGUEZ HNOS. TRANSP. SA,371961,54.0%
+40261,3769 GAROFOLI CONSTRUCCIONES SRL,Facturación pendiente,Todo Aprobado,Ejecución de pedido de artículo 21852,Enviado,F,0674/003,0,0,19/12/2024,RODRIGUEZ HNOS. TRANSP. SA,371961,55.0%
+40261,3769 GAROFOLI CONSTRUCCIONES SRL,Facturación pendiente,Todo Aprobado,Ejecución de pedido de artículo 21852,Enviado,F,1771/001,0,0,19/12/2024,RODRIGUEZ HNOS. TRANSP. SA,371961,56.0%
+40261,3769 GAROFOLI CONSTRUCCIONES SRL,Facturación pendiente,Todo Aprobado,Ejecución de pedido de artículo 21850,Enviado,F,PPAR1048T,0,0,19/12/2024,RODRIGUEZ HNOS. TRANSP. SA,371961,50.0%
 40269,1499 FAIART ARGENTINA SA,Facturación pendiente,Todo Aprobado,Ejecución de pedido de artículo 21849,Enviado,F,PPAR1072T,0,0,19/12/2024,RICARDO PIERONI,372280,58.0%
 40269,1499 FAIART ARGENTINA SA,Facturación pendiente,Todo Aprobado,Ejecución de pedido de artículo 21849,Enviado,F,CH523EXR,0,0,19/12/2024,RICARDO PIERONI,372280,56.0%
 40223,3676 FRIGORIFICO MARK SA,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Liberada,F,PVC612R,0,288,20/12/2024,RICARDO PIERONI,368956,70.0%
@@ -375,7 +379,3 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 39880,1149 EL DORADO SA,Ejecución de la orden pendiente,Todo Aprobado, ,,F,MTP536B,0,96,,RICARDO PIERONI,342631,0.0%
 39919,3089 ARNEG ARGENTINA S.A.,Parcialmente ejecutada,Todo Aprobado,Orden de trabajo ,En curso,F,3089/029,0,28000,,RICARDO PIERONI,345762,87.0%
 40113,9400856 G P V SOCIEDAD ANONIMA (GRUPO PIERO),Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Liberada,F,9400856/001,0,100,,EXPRESO CARGO SA,359871,100.0%
-40261,3769 GAROFOLI CONSTRUCCIONES SRL,Facturación pendiente/parcialmente ejecutada,Todo Aprobado,Orden de trabajo ,Liberada,F,MF550T,0,108,,RODRIGUEZ HNOS. TRANSP. SA,371961,81.0%
-40261,3769 GAROFOLI CONSTRUCCIONES SRL,Facturación pendiente/parcialmente ejecutada,Todo Aprobado,Orden de trabajo ,Ensamblada,F,0727/004,20,0,,RODRIGUEZ HNOS. TRANSP. SA,371961,54.0%
-40261,3769 GAROFOLI CONSTRUCCIONES SRL,Facturación pendiente/parcialmente ejecutada,Todo Aprobado,Orden de trabajo ,Ensamblada,F,0674/003,25,0,,RODRIGUEZ HNOS. TRANSP. SA,371961,55.0%
-40261,3769 GAROFOLI CONSTRUCCIONES SRL,Facturación pendiente/parcialmente ejecutada,Todo Aprobado,Orden de trabajo ,Ensamblada,F,1771/001,5,0,,RODRIGUEZ HNOS. TRANSP. SA,371961,56.0%
