@@ -41,7 +41,6 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 39987,2515 CONGELADOS ARTICO SA,Facturada,Todo Aprobado,Ejecución de pedido de artículo 21619,Enviado,F,PPAR1072T,0,0,25/11/2024,TRANSPORTE TOMASSINI,350573,57.0%
 40047,396 IPROA SA,Facturada,Todo Aprobado,Ejecución de pedido de artículo 21624,Enviado,F,PPAR1048T,0,0,25/11/2024,RICARDO PIERONI,356053,71.0%
 40047,396 IPROA SA,Facturada,Todo Aprobado,Ejecución de pedido de artículo 21624,Enviado,F,04965-00177-00,0,0,25/11/2024,RICARDO PIERONI,356053,60.0%
-40056,1650 ARAG ARGENTINA SA,Facturación pendiente,Todo Aprobado,Pedido ,Totalmente facturada,T,1650/002,0,0,25/11/2024,RICARDO PIERONI,356990,70.0%
 40067,449 DITEC S R L,Facturada,Todo Aprobado,Ejecución de pedido de artículo 21623,Enviado,F,64958-00004-00,0,0,25/11/2024,EXPRESO CARGO SA,357434,64.0%
 40078,9401442 JUGOS SA,Facturada,Todo Aprobado,Ejecución de pedido de artículo 21622,Enviado,F,H11/48,0,0,25/11/2024,TRANSPORTE TOMASSINI,357591,67.0%
 40078,9401442 JUGOS SA,Facturada,Todo Aprobado,Ejecución de pedido de artículo 21631,Enviado,F,PPAR1048T,0,0,25/11/2024,TRANSPORTE TOMASSINI,357591,61.0%
@@ -232,7 +231,7 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 40193,6658 ESTANCIAS DE PATAGONIA SA,Facturada,Todo Aprobado,Ejecución de pedido de artículo 21791,Enviado,F,PPAR1048T,0,0,12/12/2024,TRANSPORTE TOMASSINI,367098,68.0%
 40208,433 MOLLON SA,Facturada,Todo Aprobado,Ejecución de pedido de artículo 21793,Enviado,F,PPAR10072T,0,0,12/12/2024,EXPRESO CARGO SA,367984,44.0%
 40224,86 EST GRAFICO IMPRESORES SA,Facturada,Todo Aprobado,Ejecución de pedido de artículo 21795,Enviado,F,PPAR1048T,0,0,12/12/2024,EXPRESO CARGO SA,369056,54.0%
-40229,449 DITEC S R L,Facturación pendiente,Todo Aprobado,Ejecución de pedido de artículo 21788,Enviado,F,60950-00001-00,0,0,12/12/2024,EXPRESO CARGO SA,369451,62.0%
+40229,449 DITEC S R L,Facturada,Todo Aprobado,Ejecución de pedido de artículo 21788,Enviado,F,60950-00001-00,0,0,12/12/2024,EXPRESO CARGO SA,369451,62.0%
 40237,9402185 MONCHAMP INDUSTRIAS SRL,Facturada,Todo Aprobado,Ejecución de pedido de artículo 21789,Enviado,F,MVAQUA180,0,0,12/12/2024,RETIRAN,370224,0.0%
 39983,9401926 INDUSTRIAS FRIGORIFICAS RECREO SAIC,Facturada,Todo Aprobado,Ejecución de pedido de artículo 21799,Enviado,F,PPAR1048T,0,0,13/12/2024,TRANSPORTE PEDRITO,350039,45.0%
 40127,690 CEVA DE ARGENTINA SRL,Facturada,Todo Aprobado,Ejecución de pedido de artículo 21803,Enviado,F,0690/010,0,0,13/12/2024,FELICI JORGE ARIEL,360751,97.0%
@@ -269,8 +268,8 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 40241,3598 DEL VALLE EMBALAJES SRL,Facturada,Todo Aprobado,Ejecución de pedido de artículo 21818,Enviado,F,PPAR1048T,0,0,16/12/2024,RICARDO PIERONI,370407,47.0%
 40241,3598 DEL VALLE EMBALAJES SRL,Facturada,Todo Aprobado,Ejecución de pedido de artículo 21821,Enviado,F,PPAR1072T,0,0,16/12/2024,RICARDO PIERONI,370407,46.0%
 40242,6467 INDUSTRIAS JUAN F SECCO S.A.,Facturada,Todo Aprobado,Ejecución de pedido de artículo 21828,Enviado,F,0272/003,0,0,16/12/2024,RICARDO PIERONI,370408,63.0%
-40244,9400962 CRYSTAL-ICE SRL,Facturada,Todo Aprobado,Ejecución de pedido de artículo 21822,Enviado,F,PPA1548TE,0,0,16/12/2024,RICARDO PIERONI,370714,39.0%
 40244,9400962 CRYSTAL-ICE SRL,Facturada,Todo Aprobado,Ejecución de pedido de artículo 21824,Enviado,F,PPA1548TE,0,0,16/12/2024,RICARDO PIERONI,370714,39.0%
+40244,9400962 CRYSTAL-ICE SRL,Facturada,Todo Aprobado,Ejecución de pedido de artículo 21822,Enviado,F,PPA1548TE,0,0,16/12/2024,RICARDO PIERONI,370714,39.0%
 40246,9400945 LAMED S.A.,Facturada,Todo Aprobado,Ejecución de pedido de artículo 21820,Enviado,F,PPAR1048T,0,0,16/12/2024,RICARDO PIERONI,370819,58.0%
 40247,4010 ASIR SA (DISTRISUR),Parcialmente ejecutada,Todo Aprobado,Ejecución de pedido de artículo 21825,Enviado,F,H11/CPE,0,0,16/12/2024,RICARDO PIERONI,370865,0.0%
 40247,4010 ASIR SA (DISTRISUR),Parcialmente ejecutada,Todo Aprobado,Factura de venta 36209,Abierta,F,PPA1548TE,0,324,16/12/2024,RICARDO PIERONI,370865,56.0%
@@ -314,12 +313,12 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 40276,18293 DULCOR SA,Facturada,Todo Aprobado,Ejecución de pedido de artículo 21854,Enviado,F,PPAR15048T,0,0,19/12/2024,EXPRESO LUJAN DEL CUYO SA,373304,0.0%
 40277,565 PAPELERA SAMSENG SA,Facturada,Todo Aprobado,Ejecución de pedido de artículo 21856,Enviado,F,PPA1048T040,0,0,19/12/2024,EXPRESO CARGO SA,373351,0.0%
 40278,3086 MULTIORIGINAL PARTS SA,Facturada,Todo Aprobado,Ejecución de pedido de artículo 21855,Enviado,F,PPAR1048T,0,0,19/12/2024,RICARDO PIERONI,373353,58.0%
-40056,1650 ARAG ARGENTINA SA,Facturación pendiente,Todo Aprobado,Ejecución de pedido de artículo 21862,Enviado,F,1650/002,0,0,20/12/2024,RICARDO PIERONI,356990,70.0%
-40229,449 DITEC S R L,Facturación pendiente,Todo Aprobado,Ejecución de pedido de artículo 21861,Enviado,F,60950-00001-00,0,0,20/12/2024,EXPRESO CARGO SA,369451,62.0%
+40056,1650 ARAG ARGENTINA SA,Facturada,Todo Aprobado,Ejecución de pedido de artículo 21862,Enviado,F,1650/002,0,0,20/12/2024,RICARDO PIERONI,356990,70.0%
+40229,449 DITEC S R L,Facturada,Todo Aprobado,Ejecución de pedido de artículo 21861,Enviado,F,60950-00001-00,0,0,20/12/2024,EXPRESO CARGO SA,369451,62.0%
 40258,9402073 GRAFISHOP INSUMOS S.A.S.,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Ensamblada,F,0727/004,20,0,20/12/2024,RICARDO PIERONI,371740,62.0%
 40258,9402073 GRAFISHOP INSUMOS S.A.S.,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Ensamblada,F,64958-00003-00,20,0,20/12/2024,RICARDO PIERONI,371740,61.0%
-40275,1099 ROBERTO CALZAVARA SRL,Facturación pendiente,Todo Aprobado,Ejecución de pedido de artículo 21858,Enviado,F,PPA1048T040,0,0,20/12/2024,RICARDO PIERONI,373158,100.0%
-40279,3086 MULTIORIGINAL PARTS SA,Facturación pendiente,Todo Aprobado,Ejecución de pedido de artículo 21857,Enviado,F,PPAR1048T,0,0,20/12/2024,TRANSPORTE TOMASSINI,373354,58.0%
+40275,1099 ROBERTO CALZAVARA SRL,Facturada,Todo Aprobado,Ejecución de pedido de artículo 21858,Enviado,F,PPA1048T040,0,0,20/12/2024,RICARDO PIERONI,373158,100.0%
+40279,3086 MULTIORIGINAL PARTS SA,Facturada,Todo Aprobado,Ejecución de pedido de artículo 21857,Enviado,F,PPAR1048T,0,0,20/12/2024,TRANSPORTE TOMASSINI,373354,58.0%
 40286,9400890 MOLINOS RIO DE LA PLATA SA,Facturada,Todo Aprobado,Ejecución de pedido de artículo 21863,Enviado,F,MUESTRA ESPECIAL,0,0,20/12/2024,EXPRESO CARGO SA,374174,100.0%
 39766,202 FRIGORIFICO DE AVES SOYCHU SA,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Ensamblada,F,PVC612R,864,0,23/12/2024,EXPRESO CARGO SA,335965,60.0%
 39766,202 FRIGORIFICO DE AVES SOYCHU SA,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Ensamblada,F,PPHR1216B,848,0,23/12/2024,EXPRESO CARGO SA,335965,46.0%
