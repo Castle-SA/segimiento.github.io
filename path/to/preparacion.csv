@@ -7,7 +7,7 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 39931,5019 GRANJA TRES ARROYOS SACAFEI,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Ensamblada,T,5019/005,64,0,08/11/2024,EXPRESO CARGO SA,346063,59.0%
 39988,9402066 URBAN NEXT SRL,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Liberada,T,4887/002,0,360,15/11/2024,EXPRESO CARGO SA,350725,58.0%
 39990,9401373 METALURGICA LOS ARROYOS SA,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Liberada,T,9401373/001,0,360,15/11/2024,TRANSPORTE TOMASSINI,350927,63.0%
-40025,6467 INDUSTRIAS JUAN F SECCO S.A.,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Liberada,T,6467/003,0,2500,19/11/2024,RICARDO PIERONI,353830,65.0%
+40025,6467 INDUSTRIAS JUAN F SECCO S.A.,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Ensamblada,T,6467/003,2500,0,19/11/2024,RICARDO PIERONI,353830,65.0%
 39744,272 TALLERES METALURGICOS BAMBI S.A.,Facturada,Todo Aprobado,Ejecución de pedido de artículo 21604,Enviado,F,PPAR1072T,0,0,21/11/2024,FELICI JORGE ARIEL,335117,72.0%
 39744,272 TALLERES METALURGICOS BAMBI S.A.,Facturada,Todo Aprobado,Ejecución de pedido de artículo 21604,Enviado,F,0272/004,0,0,21/11/2024,FELICI JORGE ARIEL,335117,32.0%
 39744,272 TALLERES METALURGICOS BAMBI S.A.,Facturada,Todo Aprobado,Ejecución de pedido de artículo 21610,Enviado,F,0272/003,0,0,21/11/2024,FELICI JORGE ARIEL,335117,42.0%
@@ -200,8 +200,8 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 40183,674 KRETZ SA,Facturada,Todo Aprobado,Ejecución de pedido de artículo 21760,Enviado,F,MF525T,0,0,09/12/2024,EXPRESO BRIO SRL,366190,90.0%
 40183,674 KRETZ SA,Facturada,Todo Aprobado,Ejecución de pedido de artículo 21760,Enviado,F,PPAR1072T,0,0,09/12/2024,EXPRESO BRIO SRL,366190,67.0%
 40189,3771 PILISAR SA,Facturada,Todo Aprobado,Ejecución de pedido de artículo 21762,Enviado,F,MF518T,0,0,09/12/2024,EXPRESO CARGO SA,366807,0.0%
-40190,9401929 PETROPACK S.A.,Parcialmente ejecutada,Todo Aprobado,Factura de venta 36155,Abierta,F,PPAR1024T,0,438,09/12/2024,TRANSPORTE MOSTTO,366852,100.0%
 40190,9401929 PETROPACK S.A.,Parcialmente ejecutada,Todo Aprobado,Ejecución de pedido de artículo 21761,Enviado,F,PPAR1024T,0,438,09/12/2024,TRANSPORTE MOSTTO,366852,100.0%
+40190,9401929 PETROPACK S.A.,Parcialmente ejecutada,Todo Aprobado,Factura de venta 36155,Abierta,F,PPAR1024T,0,438,09/12/2024,TRANSPORTE MOSTTO,366852,100.0%
 40190,9401929 PETROPACK S.A.,Parcialmente ejecutada,Todo Aprobado,Ejecución de pedido de artículo 21761,Enviado,F,PPAR100144T,0,0,09/12/2024,TRANSPORTE MOSTTO,366852,49.0%
 39998,3769 GAROFOLI CONSTRUCCIONES SRL,Facturada,Todo Aprobado,Ejecución de pedido de artículo 21768,Enviado,F,MTS518B,0,0,10/12/2024,RODRIGUEZ HNOS. TRANSP. SA,351429,47.0%
 40129,3598 DEL VALLE EMBALAJES SRL,Facturada,Todo Aprobado,Ejecución de pedido de artículo 21765,Enviado,F,MTS518B,0,0,10/12/2024,RICARDO PIERONI,360998,46.0%
@@ -269,12 +269,12 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 40241,3598 DEL VALLE EMBALAJES SRL,Facturada,Todo Aprobado,Ejecución de pedido de artículo 21818,Enviado,F,PPAR1048T,0,0,16/12/2024,RICARDO PIERONI,370407,47.0%
 40241,3598 DEL VALLE EMBALAJES SRL,Facturada,Todo Aprobado,Ejecución de pedido de artículo 21821,Enviado,F,PPAR1072T,0,0,16/12/2024,RICARDO PIERONI,370407,46.0%
 40242,6467 INDUSTRIAS JUAN F SECCO S.A.,Facturada,Todo Aprobado,Ejecución de pedido de artículo 21828,Enviado,F,0272/003,0,0,16/12/2024,RICARDO PIERONI,370408,63.0%
-40244,9400962 CRYSTAL-ICE SRL,Facturada,Todo Aprobado,Ejecución de pedido de artículo 21824,Enviado,F,PPA1548TE,0,0,16/12/2024,RICARDO PIERONI,370714,39.0%
 40244,9400962 CRYSTAL-ICE SRL,Facturada,Todo Aprobado,Ejecución de pedido de artículo 21822,Enviado,F,PPA1548TE,0,0,16/12/2024,RICARDO PIERONI,370714,39.0%
+40244,9400962 CRYSTAL-ICE SRL,Facturada,Todo Aprobado,Ejecución de pedido de artículo 21824,Enviado,F,PPA1548TE,0,0,16/12/2024,RICARDO PIERONI,370714,39.0%
 40246,9400945 LAMED S.A.,Facturada,Todo Aprobado,Ejecución de pedido de artículo 21820,Enviado,F,PPAR1048T,0,0,16/12/2024,RICARDO PIERONI,370819,58.0%
 40247,4010 ASIR SA (DISTRISUR),Parcialmente ejecutada,Todo Aprobado,Ejecución de pedido de artículo 21825,Enviado,F,H11/CPE,0,0,16/12/2024,RICARDO PIERONI,370865,0.0%
-40247,4010 ASIR SA (DISTRISUR),Parcialmente ejecutada,Todo Aprobado,Ejecución de pedido de artículo 21825,Enviado,F,PPA1548TE,0,324,16/12/2024,RICARDO PIERONI,370865,56.0%
 40247,4010 ASIR SA (DISTRISUR),Parcialmente ejecutada,Todo Aprobado,Factura de venta 36209,Abierta,F,PPA1548TE,0,324,16/12/2024,RICARDO PIERONI,370865,56.0%
+40247,4010 ASIR SA (DISTRISUR),Parcialmente ejecutada,Todo Aprobado,Ejecución de pedido de artículo 21825,Enviado,F,PPA1548TE,0,324,16/12/2024,RICARDO PIERONI,370865,56.0%
 37677,3096 FRECICAR SRL,Facturada,Todo Aprobado,Ejecución de pedido de artículo 21833,Enviado,F,52330-00040-00,0,0,17/12/2024,RICARDO PIERONI,253457,51.0%
 40211,1171 AUTOSAL SA,Facturada,Todo Aprobado,Ejecución de pedido de artículo 21834,Enviado,F,FTH470,0,0,17/12/2024,EXPRESO CARGO SA,368087,46.0%
 40211,1171 AUTOSAL SA,Facturada,Todo Aprobado,Ejecución de pedido de artículo 21834,Enviado,F,0272/005,0,0,17/12/2024,EXPRESO CARGO SA,368087,43.0%
@@ -367,7 +367,7 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 40102,272 TALLERES METALURGICOS BAMBI S.A.,Ejecución de la orden pendiente,Todo Aprobado, ,,F,PPAR1072T,0,1440,03/02/2025,FELICI JORGE ARIEL,359279,71.0%
 40215,5019 GRANJA TRES ARROYOS SACAFEI,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Liberada,F,5019/005,0,40,13/02/2025,EXPRESO CARGO SA,368462,60.0%
 37684,3096 FRECICAR SRL,Ejecución de la orden pendiente,Todo Aprobado, ,,F,52330-00040-00,7,0,03/03/2025,RICARDO PIERONI,253465,51.0%
-39934,67 FORD ARGENTINA S.C.A.,Ejecución de la orden pendiente,Todo Aprobado, ,,F,BV002,10188,34512,19/03/2025,ALMAR ROSARIO SRL,346461,67.0%
+39934,67 FORD ARGENTINA S.C.A.,Ejecución de la orden pendiente,Todo Aprobado, ,,F,BV002,20468,24232,19/03/2025,ALMAR ROSARIO SRL,346461,67.0%
 37685,3096 FRECICAR SRL,Ejecución de la orden pendiente,Todo Aprobado, ,,F,52330-00040-00,7,0,03/04/2025,RICARDO PIERONI,253466,51.0%
 37686,3096 FRECICAR SRL,Ejecución de la orden pendiente,Todo Aprobado, ,,F,52330-00040-00,7,0,05/05/2025,RICARDO PIERONI,253467,51.0%
 40283,4050 FAPERSA ICSA,Ejecución de la orden pendiente,Todo Aprobado, ,,F,PPA1548TE,0,144, ,TRANSPORTE PEDRITO,373609,55.0%
