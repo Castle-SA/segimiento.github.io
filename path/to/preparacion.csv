@@ -8,19 +8,6 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 39988,9402066 URBAN NEXT SRL,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Liberada,T,4887/002,0,360,15/11/2024,EXPRESO CARGO SA,350725,58.0%
 39990,9401373 METALURGICA LOS ARROYOS SA,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Liberada,T,9401373/001,0,360,15/11/2024,TRANSPORTE TOMASSINI,350927,63.0%
 40025,6467 INDUSTRIAS JUAN F SECCO S.A.,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Ensamblada,T,6467/003,2500,0,19/11/2024,RICARDO PIERONI,353830,65.0%
-39720,5019 GRANJA TRES ARROYOS SACAFEI,Facturada,Todo Aprobado,Ejecución de pedido de artículo 21640,Enviado,F,5019/002,0,0,26/11/2024,EXPRESO CARGO SA,332941,73.0%
-39909,9402182 SOUTHERN SHOES SRL,Facturada,Todo Aprobado,Ejecución de pedido de artículo 21643,Enviado,F,9402182/001,0,0,26/11/2024,TRANSPORTE TOMASSINI,345128,43.0%
-39952,1165 MACOSER SA,Facturada,Todo Aprobado,Ejecución de pedido de artículo 21635,Enviado,F,60630-00002-00,0,0,26/11/2024,"CAROSSIO, VAIROLATTI Y CIA",347946,53.0%
-39960,9400130 FEMACAR SRL,Facturada,Todo Aprobado,Ejecución de pedido de artículo 21644,Enviado,F,9400130/001,0,0,26/11/2024,EXPRESO CARGO SA,348760,47.0%
-40037,9402081 OLEOHIDRAULICA EL TORITO SA,Facturada,Todo Aprobado,Ejecución de pedido de artículo 21642,Enviado,F,MVAQUA180,0,0,26/11/2024,BARRY LATIMER,354929,54.0%
-40037,9402081 OLEOHIDRAULICA EL TORITO SA,Facturada,Todo Aprobado,Ejecución de pedido de artículo 21642,Enviado,F,MVAQUA203V,0,0,26/11/2024,BARRY LATIMER,354929,50.0%
-40038,15499 COFFEA SRL,Facturada,Todo Aprobado,Ejecución de pedido de artículo 21641,Enviado,F,PPAR1048T,0,0,26/11/2024,RICARDO PIERONI,355057,58.0%
-40097,2515 CONGELADOS ARTICO SA,Facturada,Todo Aprobado,Ejecución de pedido de artículo 21639,Enviado,F,PPAR10048T,0,0,26/11/2024,TRANSPORTE TOMASSINI,358627,54.0%
-40098,56 CIRUBON S.A.,Facturada,Todo Aprobado,Ejecución de pedido de artículo 21636,Enviado,F,BV002,0,0,26/11/2024,RETIRAN,358727,71.0%
-40098,56 CIRUBON S.A.,Facturada,Todo Aprobado,Ejecución de pedido de artículo 21636,Enviado,F,6158/001,0,0,26/11/2024,RETIRAN,358727,59.0%
-40099,2915 COMPANIA LA PILARICA SA,Facturada,Todo Aprobado,Ejecución de pedido de artículo 21638,Enviado,F,PPAR548T,0,0,26/11/2024,RICARDO PIERONI,358837,100.0%
-40103,9401456 EFUS S.R.L,Facturada,Todo Aprobado,Ejecución de pedido de artículo 21637,Enviado,F,PPAR15048T,0,0,26/11/2024,EXPRESO CARGO SA,359280,65.0%
-40114,3089 ARNEG ARGENTINA S.A.,Facturada,Todo Aprobado,Ejecución de pedido de artículo 21645,Enviado,F,PPAR1072T,0,0,26/11/2024,FELICI JORGE ARIEL,359976,68.0%
 39926,12877 BRIKET SA,Facturada,Todo Aprobado,Ejecución de pedido de artículo 21654,Enviado,F,0272/004,0,0,27/11/2024,FELICI JORGE ARIEL,345957,45.0%
 39925,12877 BRIKET SA,Facturada,Todo Aprobado,Ejecución de pedido de artículo 21652,Enviado,F,0272/004,0,0,27/11/2024,FELICI JORGE ARIEL,346059,45.0%
 39925,12877 BRIKET SA,Facturada,Todo Aprobado,Ejecución de pedido de artículo 21652,Enviado,F,PPAR1048M,0,0,27/11/2024,FELICI JORGE ARIEL,346059,52.0%
@@ -158,8 +145,8 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 40183,674 KRETZ SA,Facturada,Todo Aprobado,Ejecución de pedido de artículo 21760,Enviado,F,MF525T,0,0,09/12/2024,EXPRESO BRIO SRL,366190,90.0%
 40183,674 KRETZ SA,Facturada,Todo Aprobado,Ejecución de pedido de artículo 21760,Enviado,F,PPAR1072T,0,0,09/12/2024,EXPRESO BRIO SRL,366190,67.0%
 40189,3771 PILISAR SA,Facturada,Todo Aprobado,Ejecución de pedido de artículo 21762,Enviado,F,MF518T,0,0,09/12/2024,EXPRESO CARGO SA,366807,0.0%
-40190,9401929 PETROPACK S.A.,Parcialmente ejecutada,Todo Aprobado,Ejecución de pedido de artículo 21761,Enviado,F,PPAR1024T,0,438,09/12/2024,TRANSPORTE MOSTTO,366852,100.0%
 40190,9401929 PETROPACK S.A.,Parcialmente ejecutada,Todo Aprobado,Factura de venta 36155,Abierta,F,PPAR1024T,0,438,09/12/2024,TRANSPORTE MOSTTO,366852,100.0%
+40190,9401929 PETROPACK S.A.,Parcialmente ejecutada,Todo Aprobado,Ejecución de pedido de artículo 21761,Enviado,F,PPAR1024T,0,438,09/12/2024,TRANSPORTE MOSTTO,366852,100.0%
 40190,9401929 PETROPACK S.A.,Parcialmente ejecutada,Todo Aprobado,Ejecución de pedido de artículo 21761,Enviado,F,PPAR100144T,0,0,09/12/2024,TRANSPORTE MOSTTO,366852,49.0%
 39998,3769 GAROFOLI CONSTRUCCIONES SRL,Facturada,Todo Aprobado,Ejecución de pedido de artículo 21768,Enviado,F,MTS518B,0,0,10/12/2024,RODRIGUEZ HNOS. TRANSP. SA,351429,47.0%
 40129,3598 DEL VALLE EMBALAJES SRL,Facturada,Todo Aprobado,Ejecución de pedido de artículo 21765,Enviado,F,MTS518B,0,0,10/12/2024,RICARDO PIERONI,360998,46.0%
@@ -231,8 +218,8 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 40244,9400962 CRYSTAL-ICE SRL,Facturada,Todo Aprobado,Ejecución de pedido de artículo 21824,Enviado,F,PPA1548TE,0,0,16/12/2024,RICARDO PIERONI,370714,39.0%
 40246,9400945 LAMED S.A.,Facturada,Todo Aprobado,Ejecución de pedido de artículo 21820,Enviado,F,PPAR1048T,0,0,16/12/2024,RICARDO PIERONI,370819,58.0%
 40247,4010 ASIR SA (DISTRISUR),Parcialmente ejecutada,Todo Aprobado,Ejecución de pedido de artículo 21825,Enviado,F,H11/CPE,0,0,16/12/2024,RICARDO PIERONI,370865,0.0%
-40247,4010 ASIR SA (DISTRISUR),Parcialmente ejecutada,Todo Aprobado,Ejecución de pedido de artículo 21825,Enviado,F,PPA1548TE,0,324,16/12/2024,RICARDO PIERONI,370865,56.0%
 40247,4010 ASIR SA (DISTRISUR),Parcialmente ejecutada,Todo Aprobado,Factura de venta 36209,Abierta,F,PPA1548TE,0,324,16/12/2024,RICARDO PIERONI,370865,56.0%
+40247,4010 ASIR SA (DISTRISUR),Parcialmente ejecutada,Todo Aprobado,Ejecución de pedido de artículo 21825,Enviado,F,PPA1548TE,0,324,16/12/2024,RICARDO PIERONI,370865,56.0%
 37677,3096 FRECICAR SRL,Facturada,Todo Aprobado,Ejecución de pedido de artículo 21833,Enviado,F,52330-00040-00,0,0,17/12/2024,RICARDO PIERONI,253457,51.0%
 40211,1171 AUTOSAL SA,Facturada,Todo Aprobado,Ejecución de pedido de artículo 21834,Enviado,F,FTH470,0,0,17/12/2024,EXPRESO CARGO SA,368087,46.0%
 40211,1171 AUTOSAL SA,Facturada,Todo Aprobado,Ejecución de pedido de artículo 21834,Enviado,F,0272/005,0,0,17/12/2024,EXPRESO CARGO SA,368087,43.0%
@@ -241,8 +228,8 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 40252,2673 XARDO SA,Facturada,Todo Aprobado,Ejecución de pedido de artículo 21831,Enviado,F,PPAR15048T,0,0,17/12/2024,EXPRESO CARGO SA,371207,45.0%
 40253,2688 BARK SA,Facturada,Todo Aprobado,Ejecución de pedido de artículo 21832,Enviado,F,PPAR15048T,0,0,17/12/2024,EXPRESO CARGO SA,371307,45.0%
 40254,9402081 OLEOHIDRAULICA EL TORITO SA,Facturada,Todo Aprobado,Ejecución de pedido de artículo 21830,Enviado,F,MVAQUA203V,0,0,17/12/2024,BARRY LATIMER,371411,50.0%
-38511,4733 TECNOSISTEM SRL,Parcialmente ejecutada,Todo Aprobado,Ejecución de pedido de artículo 21846,Enviado,F,MTS548B,6,6,18/12/2024,EXPRESO CARGO SA,281743,62.0%
 38511,4733 TECNOSISTEM SRL,Parcialmente ejecutada,Todo Aprobado,Factura de venta 36233,Abierta,F,MTS548B,6,6,18/12/2024,EXPRESO CARGO SA,281743,62.0%
+38511,4733 TECNOSISTEM SRL,Parcialmente ejecutada,Todo Aprobado,Ejecución de pedido de artículo 21846,Enviado,F,MTS548B,6,6,18/12/2024,EXPRESO CARGO SA,281743,62.0%
 38511,4733 TECNOSISTEM SRL,Parcialmente ejecutada,Todo Aprobado,Factura de venta 36233,Abierta,F,MTS536B,8,472,18/12/2024,EXPRESO CARGO SA,281743,46.0%
 38511,4733 TECNOSISTEM SRL,Parcialmente ejecutada,Todo Aprobado,Ejecución de pedido de artículo 21846,Enviado,F,PPAR1048T,0,0,18/12/2024,EXPRESO CARGO SA,281743,0.0%
 40200,9400962 CRYSTAL-ICE SRL,Facturada,Todo Aprobado,Ejecución de pedido de artículo 21836,Enviado,F,9400962/003,0,0,18/12/2024,RICARDO PIERONI,367477,52.0%
