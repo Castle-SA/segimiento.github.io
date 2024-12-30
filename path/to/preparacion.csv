@@ -158,8 +158,8 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 40241,3598 DEL VALLE EMBALAJES SRL,Facturada,Todo Aprobado,Ejecución de pedido de artículo 21818,Enviado,F,PPAR1048T,0,0,16/12/2024,RICARDO PIERONI,370407,47.0%
 40241,3598 DEL VALLE EMBALAJES SRL,Facturada,Todo Aprobado,Ejecución de pedido de artículo 21821,Enviado,F,PPAR1072T,0,0,16/12/2024,RICARDO PIERONI,370407,46.0%
 40242,6467 INDUSTRIAS JUAN F SECCO S.A.,Facturada,Todo Aprobado,Ejecución de pedido de artículo 21828,Enviado,F,0272/003,0,0,16/12/2024,RICARDO PIERONI,370408,63.0%
-40244,9400962 CRYSTAL-ICE SRL,Facturada,Todo Aprobado,Ejecución de pedido de artículo 21824,Enviado,F,PPA1548TE,0,0,16/12/2024,RICARDO PIERONI,370714,39.0%
 40244,9400962 CRYSTAL-ICE SRL,Facturada,Todo Aprobado,Ejecución de pedido de artículo 21822,Enviado,F,PPA1548TE,0,0,16/12/2024,RICARDO PIERONI,370714,39.0%
+40244,9400962 CRYSTAL-ICE SRL,Facturada,Todo Aprobado,Ejecución de pedido de artículo 21824,Enviado,F,PPA1548TE,0,0,16/12/2024,RICARDO PIERONI,370714,39.0%
 40246,9400945 LAMED S.A.,Facturada,Todo Aprobado,Ejecución de pedido de artículo 21820,Enviado,F,PPAR1048T,0,0,16/12/2024,RICARDO PIERONI,370819,58.0%
 40247,4010 ASIR SA (DISTRISUR),Parcialmente ejecutada,Todo Aprobado,Ejecución de pedido de artículo 21825,Enviado,F,H11/CPE,0,0,16/12/2024,RICARDO PIERONI,370865,0.0%
 40247,4010 ASIR SA (DISTRISUR),Parcialmente ejecutada,Todo Aprobado,Ejecución de pedido de artículo 21825,Enviado,F,PPA1548TE,0,324,16/12/2024,RICARDO PIERONI,370865,56.0%
@@ -217,8 +217,8 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 40258,9402073 GRAFISHOP INSUMOS S.A.S.,Facturada,Todo Aprobado,Ejecución de pedido de artículo 21864,Enviado,F,64958-00003-00,0,0,23/12/2024,RICARDO PIERONI,371740,61.0%
 40255,1029 DREAN SA,Facturada,Todo Aprobado,Ejecución de pedido de artículo 21868,Enviado,F,PVC624A,0,0,26/12/2024,EXPRESO CARGO SA,371533,75.0%
 39919,3089 ARNEG ARGENTINA S.A.,Facturada,Todo Aprobado,Ejecución de pedido de artículo 21869,Enviado,F,3089/029,0,0,27/12/2024,RICARDO PIERONI,345762,87.0%
-40265,3089 ARNEG ARGENTINA S.A.,Parcialmente ejecutada,Todo Aprobado,Ejecución de pedido de artículo 21870,Enviado,F,3089/079,0,24100,27/12/2024,FELICI JORGE ARIEL,372177,64.0%
 40265,3089 ARNEG ARGENTINA S.A.,Parcialmente ejecutada,Todo Aprobado,Factura de venta 36257,Abierta,F,3089/079,0,24100,27/12/2024,FELICI JORGE ARIEL,372177,64.0%
+40265,3089 ARNEG ARGENTINA S.A.,Parcialmente ejecutada,Todo Aprobado,Ejecución de pedido de artículo 21870,Enviado,F,3089/079,0,24100,27/12/2024,FELICI JORGE ARIEL,372177,64.0%
 40265,3089 ARNEG ARGENTINA S.A.,Parcialmente ejecutada,Todo Aprobado,Ejecución de pedido de artículo 21870,Enviado,F,3089/080,0,0,27/12/2024,FELICI JORGE ARIEL,372177,62.0%
 40025,6467 INDUSTRIAS JUAN F SECCO S.A.,Facturación pendiente,Todo Aprobado,Ejecución de pedido de artículo 21872,Enviado,F,6467/003,0,0,30/12/2024,RICARDO PIERONI,353830,65.0%
 40216,5019 GRANJA TRES ARROYOS SACAFEI,Facturación pendiente,Todo Aprobado,Ejecución de pedido de artículo 21873,Enviado,F,5019/002,0,0,30/12/2024,EXPRESO CARGO SA,368463,56.0%
@@ -230,6 +230,7 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 40250,4095 REFINERIA DEL CENTRO SA,Ejecución de la orden pendiente,Todo Aprobado, ,,F,PPHR10048T,54,0,02/01/2025,EXPRESO SANTA ROSA,371051,53.0%
 40285,3045 VENSAL HNOS SA.,Ejecución de la orden pendiente,Todo Aprobado, ,,F,CH523EXR,60,0,02/01/2025,EXPRESO CARGO SA,374070,53.0%
 40285,3045 VENSAL HNOS SA.,Ejecución de la orden pendiente,Todo Aprobado, ,,F,PPAR1048T,72,0,02/01/2025,EXPRESO CARGO SA,374070,73.0%
+40288,9400182 IDRIS PATAGONIA SA,Ejecución de la orden pendiente,Todo Aprobado, ,,F,PPAR1048T,4320,0,02/01/2025,TRANSPORTE CRUZ DEL SUR SA,374245,50.0%
 40289,9400716 RAFAELA ALIMENTOS SA,Ejecución de la orden pendiente,Todo Aprobado, ,,F,PPAR15048T,102,0,02/01/2025,EXPRESO SANTA ROSA,374374,52.0%
 40291,9400962 CRYSTAL-ICE SRL,Ejecución de la orden pendiente,Todo Aprobado, ,,F,PPA1048T040,5400,0,02/01/2025,RICARDO PIERONI,374376,100.0%
 40292,4636 FRIGORIFICO BERMEJO SA,Ejecución de la orden pendiente,Todo Aprobado, ,,F,PPAR15048T,6,0,02/01/2025,LA SEVILLANITA SRL,374491,0.0%
@@ -271,9 +272,9 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 40294,3089 ARNEG ARGENTINA S.A.,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Liberada,F,3089/080,0,50000,06/01/2025,FELICI JORGE ARIEL,374605,62.0%
 40294,3089 ARNEG ARGENTINA S.A.,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Liberada,F,3089/029,0,40000,06/01/2025,FELICI JORGE ARIEL,374605,87.0%
 40296,1171 AUTOSAL SA,Ejecución de la orden pendiente,Todo Aprobado, ,,F,PPAR1072T,192,0,06/01/2025,EXPRESO CARGO SA,374607,48.0%
-40312,3089 ARNEG ARGENTINA S.A.,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Ensamblada,F,3089/027,15.000,0,06/01/2025,RICARDO PIERONI,375421,70.0%
+40312,3089 ARNEG ARGENTINA S.A.,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Ensamblada,F,3089/027,15000,0,06/01/2025,RICARDO PIERONI,375421,70.0%
 40312,3089 ARNEG ARGENTINA S.A.,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Ensamblada,F,3089/017,10000,0,06/01/2025,RICARDO PIERONI,375421,64.0%
-40312,3089 ARNEG ARGENTINA S.A.,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Liberada,F,3089/029,0,40000,06/01/2025,RICARDO PIERONI,375421,87.0%
+40312,3089 ARNEG ARGENTINA S.A.,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Liberada,F,3089/029,0,40.000,06/01/2025,RICARDO PIERONI,375421,87.0%
 40312,3089 ARNEG ARGENTINA S.A.,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Liberada,F,3089/035,0,20,06/01/2025,RICARDO PIERONI,375421,88.0%
 40313,3051 FRIMETAL S.A.,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Liberada,F,1823/002,0,56,06/01/2025,FELICI JORGE ARIEL,375422,53.0%
 40313,3051 FRIMETAL S.A.,Ejecución de la orden pendiente,Todo Aprobado, ,,F,PPAR1048M,0,216,06/01/2025,FELICI JORGE ARIEL,375422,38.0%
