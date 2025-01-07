@@ -173,9 +173,9 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 40330,699 MOLINAS ARGENTINA S.R.L.,Facturada,Todo Aprobado,Ejecución de pedido de artículo 21892,Enviado,F,PPAR1072T,0,0,02/01/2025,EXPRESO BRIO SRL,376877,46.0%
 40329,6374 AMIANTO ROSARIO de FERRARO RAYMUNDO ANTONIO,Facturada,Todo Aprobado,Ejecución de pedido de artículo 21891,Enviado,F,PVC612R,0,0,02/01/2025,RICARDO PIERONI,376983,68.0%
 40331,812 SYSTEL SA,Facturada,Todo Aprobado,Ejecución de pedido de artículo 21893,Enviado,F,07063-00012-24,0,0,02/01/2025,EXPRESO CARGO SA,377190,60.0%
+40332,12877 BRIKET SA,Parcialmente ejecutada,Todo Aprobado,Ejecución de pedido de artículo 21894,Enviado,F,MUESTRA ESPECIAL,0,46,02/01/2025,FELICI JORGE ARIEL,377349,100.0%
 40332,12877 BRIKET SA,Parcialmente ejecutada,Todo Aprobado,Orden de trabajo ,Ensamblada,F,MUESTRA ESPECIAL,0,46,02/01/2025,FELICI JORGE ARIEL,377349,100.0%
 40332,12877 BRIKET SA,Parcialmente ejecutada,Todo Aprobado,Ejecución de pedido de artículo 21882,Enviado,F,MUESTRA ESPECIAL,0,46,02/01/2025,FELICI JORGE ARIEL,377349,100.0%
-40332,12877 BRIKET SA,Parcialmente ejecutada,Todo Aprobado,Ejecución de pedido de artículo 21894,Enviado,F,MUESTRA ESPECIAL,0,46,02/01/2025,FELICI JORGE ARIEL,377349,100.0%
 40334,3938 ELECTRO HOGAR INTERNACIONAL SA,Facturada,Todo Aprobado,Ejecución de pedido de artículo 21881,Enviado,F,PVC624A,0,0,02/01/2025,EXPRESO CARGO SA,377388,84.0%
 40339,3029 DARK SRL,Facturada,Todo Aprobado,Ejecución de pedido de artículo 21883,Enviado,F,PPAR1048T,0,0,02/01/2025,RICARDO PIERONI,378068,55.0%
 40341,4636 FRIGORIFICO BERMEJO SA,Facturada,Todo Aprobado,Ejecución de pedido de artículo 21888,Enviado,F,PPAR1048T,0,0,02/01/2025,LA SEVILLANITA SRL,378273,53.0%
@@ -225,6 +225,10 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 40243,132 MAHLE VALVULAS DE ARGENTINA SA,Facturación pendiente/parcialmente ejecutada,Todo Aprobado,Ejecución de pedido de artículo 21922,Enviado,F,BV002,0,300,07/01/2025,EXPRESO SANTA ROSA,370614,64.0%
 40243,132 MAHLE VALVULAS DE ARGENTINA SA,Facturación pendiente/parcialmente ejecutada,Todo Aprobado,Ejecución de pedido de artículo 21922,Enviado,F,LC579,0,0,07/01/2025,EXPRESO SANTA ROSA,370614,65.0%
 40281,9401339 QUICKFOOD S.A.,Facturación pendiente,Todo Aprobado,Ejecución de pedido de artículo 21923,Enviado,F,PPAR1048T,0,0,07/01/2025,BERGAMASCHI OSVALDO RAMON,373708,58.0%
+40294,3089 ARNEG ARGENTINA S.A.,Facturación pendiente/parcialmente ejecutada,Todo Aprobado,Ejecución de pedido de artículo 21926,Enviado,F,3089/077,0,0,07/01/2025,FELICI JORGE ARIEL,374605,63.0%
+40294,3089 ARNEG ARGENTINA S.A.,Facturación pendiente/parcialmente ejecutada,Todo Aprobado,Ejecución de pedido de artículo 21926,Enviado,F,3089/078,0,0,07/01/2025,FELICI JORGE ARIEL,374605,61.0%
+40294,3089 ARNEG ARGENTINA S.A.,Facturación pendiente/parcialmente ejecutada,Todo Aprobado,Ejecución de pedido de artículo 21926,Enviado,F,3089/080,0,0,07/01/2025,FELICI JORGE ARIEL,374605,62.0%
+40294,3089 ARNEG ARGENTINA S.A.,Facturación pendiente/parcialmente ejecutada,Todo Aprobado,Ejecución de pedido de artículo 21926,Enviado,F,3089/029,0,10000,07/01/2025,FELICI JORGE ARIEL,374605,87.0%
 40314,9400945 LAMED S.A.,Facturación pendiente,Todo Aprobado,Ejecución de pedido de artículo 21924,Enviado,F,PPAR1048T,0,0,07/01/2025,RICARDO PIERONI,375723,50.0%
 40335,4782 OFFAL SA,Facturación pendiente/parcialmente ejecutada,Todo Aprobado,Ejecución de pedido de artículo 21920,Enviado,F,PPAR10072T,0,124,07/01/2025,EXPRESO CARGO SA,377389,43.0%
 40345,9400869 BRIMAX SA,Ejecución de la orden pendiente,Todo Aprobado, ,,F,MUESTRA ESPECIAL,0,1,07/01/2025,RICARDO PIERONI,378814,100.0%
@@ -262,7 +266,7 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 40322,15 INDUSTRIAS JOHN DEERE ARGENTINA S.A.,Ejecución de la orden pendiente,Todo Aprobado, ,,F,LC579,1200,0,27/01/2025,FELICI JORGE ARIEL,376417,64.0%
 40324,15 INDUSTRIAS JOHN DEERE ARGENTINA S.A.,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Ensamblada,F,0015/008,300,0,27/01/2025,FELICI JORGE ARIEL,376419,73.0%
 40360,1029 DREAN SA,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Liberada,F,0272/005,0,120,27/01/2025,EXPRESO CARGO SA,379908,44.0%
-40361,4095 REFINERIA DEL CENTRO SA,Ejecución de la orden pendiente,Todo Aprobado, ,,F,PPAR1072T,2700,0,27/01/2025,EXPRESO SANTA ROSA,379928,51.0%
+40361,4095 REFINERIA DEL CENTRO SA,Ejecución de la orden pendiente,Todo Aprobado, ,,F,PPAR1072T,2.700,0,27/01/2025,EXPRESO SANTA ROSA,379928,51.0%
 40304,3577 TIEMPO FELIZ SA,Ejecución de la orden pendiente,Todo Aprobado, ,,F,3577/001,0,360,29/01/2025,EXPRESO CARGO SA,375103,53.0%
 40304,3577 TIEMPO FELIZ SA,Ejecución de la orden pendiente,Todo Aprobado, ,,F,PPAR1048T,360,0,29/01/2025,EXPRESO CARGO SA,375103,58.0%
 40357,1029 DREAN SA,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Liberada,F,0272/003,0,80,31/01/2025,EXPRESO CARGO SA,379801,45.0%
@@ -289,10 +293,7 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 40259,9400096 REBOZADOS HORNEADOS SA,Ejecución de la orden pendiente,Todo Aprobado, ,,F,PPA1548TE,0,360,,TRANSPORTE TOMASSINI,371759,51.0%
 40267,3089 ARNEG ARGENTINA S.A.,Parcialmente ejecutada,Todo Aprobado,Orden de trabajo ,Liberada,F,3089/029,0,40000,,RICARDO PIERONI,372278,87.0%
 40274,2481 BUSTOS Y BELTRAN SA,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Liberada,F,2481/001,0,720,,EXPRESO LANCIONI,373048,43.0%
-40294,3089 ARNEG ARGENTINA S.A.,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Ensamblada,F,3089/077,30000,0,,FELICI JORGE ARIEL,374605,63.0%
-40294,3089 ARNEG ARGENTINA S.A.,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Ensamblada,F,3089/078,30000,0,,FELICI JORGE ARIEL,374605,61.0%
-40294,3089 ARNEG ARGENTINA S.A.,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Ensamblada,F,3089/080,50000,0,,FELICI JORGE ARIEL,374605,62.0%
-40294,3089 ARNEG ARGENTINA S.A.,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,En curso,F,3089/029,30000,10000,,FELICI JORGE ARIEL,374605,87.0%
+40294,3089 ARNEG ARGENTINA S.A.,Facturación pendiente/parcialmente ejecutada,Todo Aprobado,Orden de trabajo ,En curso,F,3089/029,0,10000,,FELICI JORGE ARIEL,374605,87.0%
 40312,3089 ARNEG ARGENTINA S.A.,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Ensamblada,F,3089/027,15000,0,,RICARDO PIERONI,375421,70.0%
 40312,3089 ARNEG ARGENTINA S.A.,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Ensamblada,F,3089/017,10000,0,,RICARDO PIERONI,375421,64.0%
 40312,3089 ARNEG ARGENTINA S.A.,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Liberada,F,3089/029,0,40000,,RICARDO PIERONI,375421,87.0%
