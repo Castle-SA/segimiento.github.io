@@ -201,9 +201,6 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 40336,6142 PAPELERA DEL SUR SRL,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 21907,Remitido,F,PPAR1048T,0,0,03/01/2025,RICARDO PIERONI,377837,57.0%
 40338,346 DOS HERMANOS S.A,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 21904,Remitido,F,PPAR10072T,0,0,03/01/2025,TRANSPORTE DE CARGAS MORENO SRL,378067,66.0%
 40338,346 DOS HERMANOS S.A,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 21904,Remitido,F,PVC612B,0,0,03/01/2025,TRANSPORTE DE CARGAS MORENO SRL,378067,76.0%
-40243,132 MAHLE VALVULAS DE ARGENTINA SA,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Ensamblada,F,3351/003,25500,0,06/01/2025,EXPRESO SANTA ROSA,370614,77.0%
-40243,132 MAHLE VALVULAS DE ARGENTINA SA,Ejecución de la orden pendiente,Todo Aprobado, ,,F,BV002,300,300,06/01/2025,EXPRESO SANTA ROSA,370614,64.0%
-40243,132 MAHLE VALVULAS DE ARGENTINA SA,Ejecución de la orden pendiente,Todo Aprobado, ,,F,LC579,9600,0,06/01/2025,EXPRESO SANTA ROSA,370614,65.0%
 40250,4095 REFINERIA DEL CENTRO SA,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 21911,Remitido,F,PPHR10048T,0,0,06/01/2025,EXPRESO SANTA ROSA,371051,53.0%
 40265,3089 ARNEG ARGENTINA S.A.,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 21918,Remitido,F,3089/079,0,0,06/01/2025,FELICI JORGE ARIEL,372177,64.0%
 40267,3089 ARNEG ARGENTINA S.A.,Parcialmente ejecutada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 21919,Remitido,F,3089/067,0,0,06/01/2025,RICARDO PIERONI,372278,95.0%
@@ -225,7 +222,10 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 40353,3769 GAROFOLI CONSTRUCCIONES SRL,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 21914,Remitido,F,PPHR15048XT,0,0,06/01/2025,RODRIGUEZ HNOS. TRANSP. SA,379384,0.0%
 40178,132 MAHLE VALVULAS DE ARGENTINA SA,Facturación pendiente,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 21921,Remitido,F,3351/002,0,0,07/01/2025,EXPRESO SANTA ROSA,366086,75.0%
 40178,132 MAHLE VALVULAS DE ARGENTINA SA,Facturación pendiente,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 21921,Remitido,F,3351/001,0,0,07/01/2025,EXPRESO SANTA ROSA,366086,97.0%
-40281,9401339 QUICKFOOD S.A.,Ejecución de la orden pendiente,Todo Aprobado, ,,F,PPAR1048T,360,0,07/01/2025,BERGAMASCHI OSVALDO RAMON,373708,58.0%
+40243,132 MAHLE VALVULAS DE ARGENTINA SA,Facturación pendiente/parcialmente ejecutada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 21922,Remitido,F,3351/003,0,0,07/01/2025,EXPRESO SANTA ROSA,370614,77.0%
+40243,132 MAHLE VALVULAS DE ARGENTINA SA,Facturación pendiente/parcialmente ejecutada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 21922,Remitido,F,BV002,0,300,07/01/2025,EXPRESO SANTA ROSA,370614,64.0%
+40243,132 MAHLE VALVULAS DE ARGENTINA SA,Facturación pendiente/parcialmente ejecutada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 21922,Remitido,F,LC579,0,0,07/01/2025,EXPRESO SANTA ROSA,370614,65.0%
+40281,9401339 QUICKFOOD S.A.,Facturación pendiente,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 21923,Remitido,F,PPAR1048T,0,0,07/01/2025,BERGAMASCHI OSVALDO RAMON,373708,58.0%
 40335,4782 OFFAL SA,Facturación pendiente/parcialmente ejecutada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 21920,Remitido,F,PPAR10072T,0,124,07/01/2025,EXPRESO CARGO SA,377389,43.0%
 40345,9400869 BRIMAX SA,Ejecución de la orden pendiente,Todo Aprobado, ,,F,MUESTRA ESPECIAL,0,1,07/01/2025,RICARDO PIERONI,378814,100.0%
 40352,433 MOLLON SA,Ejecución de la orden pendiente,Todo Aprobado, ,,F,PPAR10072T,0,54,07/01/2025,EXPRESO CARGO SA,379263,43.0%
