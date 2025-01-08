@@ -75,8 +75,8 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 40241,3598 DEL VALLE EMBALAJES SRL,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 21818,Remitido,F,PPAR1048T,0,0,16/12/2024,RICARDO PIERONI,370407,47.0%
 40241,3598 DEL VALLE EMBALAJES SRL,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 21821,Remitido,F,PPAR1072T,0,0,16/12/2024,RICARDO PIERONI,370407,46.0%
 40242,6467 INDUSTRIAS JUAN F SECCO S.A.,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 21828,Remitido,F,0272/003,0,0,16/12/2024,RICARDO PIERONI,370408,63.0%
-40244,9400962 CRYSTAL-ICE SRL,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 21824,Remitido,F,PPA1548TE,0,0,16/12/2024,RICARDO PIERONI,370714,39.0%
 40244,9400962 CRYSTAL-ICE SRL,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 21822,Remitido,F,PPA1548TE,0,0,16/12/2024,RICARDO PIERONI,370714,39.0%
+40244,9400962 CRYSTAL-ICE SRL,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 21824,Remitido,F,PPA1548TE,0,0,16/12/2024,RICARDO PIERONI,370714,39.0%
 40246,9400945 LAMED S.A.,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 21820,Remitido,F,PPAR1048T,0,0,16/12/2024,RICARDO PIERONI,370819,58.0%
 40247,4010 ASIR SA (DISTRISUR),Parcialmente ejecutada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 21825,Remitido,F,H11/CPE,0,0,16/12/2024,RICARDO PIERONI,370865,0.0%
 40247,4010 ASIR SA (DISTRISUR),Parcialmente ejecutada,Todo Aprobado,Factura de venta 36209,Abierta,F,PPA1548TE,0,324,16/12/2024,RICARDO PIERONI,370865,56.0%
@@ -245,8 +245,10 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 40377,9400962 CRYSTAL-ICE SRL,Ejecución de la orden pendiente,Todo Aprobado, ,,F,PPA1048T040,1800,0,09/01/2025,RICARDO PIERONI,380719,100.0%
 40381,5095 JUAN J BAIML E HIJOS SRL,Ejecución de la orden pendiente,Todo Aprobado, ,,F,H11/CPE,2,0,10/01/2025,RETIRAN,381037,69.0%
 40381,5095 JUAN J BAIML E HIJOS SRL,Ejecución de la orden pendiente,Todo Aprobado, ,,F,PPA1548TE,0,360,10/01/2025,RETIRAN,381037,45.0%
-40382,9401272 RED CHAMBER ARGENTINA SA,Ejecución de la orden pendiente,Todo Aprobado, ,,F,PPAR1048T,3.600,0,10/01/2025,TRANSPORTE TOMASSINI,381144,43.0%
+40382,9401272 RED CHAMBER ARGENTINA SA,Ejecución de la orden pendiente,Todo Aprobado, ,,F,PPAR1048T,3600,0,10/01/2025,TRANSPORTE TOMASSINI,381144,43.0%
 40385,1188 DENSO MANUFACTURING ARGENTINA SA,Ejecución de la orden pendiente,Todo Aprobado, ,,F,MTS548B,0,864,10/01/2025,EXPRESO CARGO SA,381313,56.0%
+40387,4674 GIORNO S A (GRUPO VALASTRO),Ejecución de la orden pendiente,Todo Aprobado, ,,F,PPAR1048T,3600,0,10/01/2025,TRANSPORTE TOMASSINI,381671,41.0%
+40388,9400096 REBOZADOS HORNEADOS SA,Ejecución de la orden pendiente,Todo Aprobado, ,,F,PPAR1048T,180,0,10/01/2025,TRANSPORTE TOMASSINI,381672,53.0%
 40367,1318 ALIBUE S.A.,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Liberada,F,PPHR1216B,0,864,12/01/2025,EXPRESO CARGO SA,380502,50.0%
 40367,1318 ALIBUE S.A.,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Liberada,F,PVC612R,0,1440,12/01/2025,EXPRESO CARGO SA,380502,66.0%
 40284,814 OBLAK HNOS SACIFI,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Ensamblada,F,07063-00001-24,100,0,13/01/2025,EXPRESO CARGO SA,373810,34.0%
@@ -254,6 +256,8 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 40325,1029 DREAN SA,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Liberada,F,0272/005,0,120,13/01/2025,EXPRESO CARGO SA,376432,44.0%
 40358,1029 DREAN SA,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Liberada,F,0272/005,0,120,13/01/2025,EXPRESO CARGO SA,379903,44.0%
 40379,3089 ARNEG ARGENTINA S.A.,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Liberada,F,3089/034,0,25,14/01/2025,ALMAR ROSARIO SRL,380819,89.0%
+40386,2857 SUPPLY PETROLERO SRL,Ejecución de la orden pendiente,Todo Aprobado, ,,F,60950-00001-00,10,0,16/01/2025,TRANSPORTE TOMASSINI,381418,55.0%
+40386,2857 SUPPLY PETROLERO SRL,Ejecución de la orden pendiente,Todo Aprobado, ,,F,74662-00003-01,100,0,16/01/2025,TRANSPORTE TOMASSINI,381418,42.0%
 40268,60 INGERSOLL ARGENTINA S.A.,Ejecución de la orden pendiente,Todo Aprobado, ,,F,0060/001,0,100,17/01/2025,TRANSPORTE TRAVERSO,372279,83.0%
 39930,5019 GRANJA TRES ARROYOS SACAFEI,Ejecución de la orden pendiente,Todo Aprobado, ,,F,5019/004,192,0,20/01/2025,EXPRESO CARGO SA,346062,60.0%
 40355,12877 BRIKET SA,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Liberada,F,0272/004,0,100,20/01/2025,RICARDO PIERONI,379492,42.0%
