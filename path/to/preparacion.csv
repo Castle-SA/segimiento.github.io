@@ -75,8 +75,8 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 40241,3598 DEL VALLE EMBALAJES SRL,Facturada,Todo Aprobado,Ejecución de pedido de artículo 21818,Enviado,F,PPAR1048T,0,0,16/12/2024,RICARDO PIERONI,370407,47.0%
 40241,3598 DEL VALLE EMBALAJES SRL,Facturada,Todo Aprobado,Ejecución de pedido de artículo 21821,Enviado,F,PPAR1072T,0,0,16/12/2024,RICARDO PIERONI,370407,46.0%
 40242,6467 INDUSTRIAS JUAN F SECCO S.A.,Facturada,Todo Aprobado,Ejecución de pedido de artículo 21828,Enviado,F,0272/003,0,0,16/12/2024,RICARDO PIERONI,370408,63.0%
-40244,9400962 CRYSTAL-ICE SRL,Facturada,Todo Aprobado,Ejecución de pedido de artículo 21824,Enviado,F,PPA1548TE,0,0,16/12/2024,RICARDO PIERONI,370714,39.0%
 40244,9400962 CRYSTAL-ICE SRL,Facturada,Todo Aprobado,Ejecución de pedido de artículo 21822,Enviado,F,PPA1548TE,0,0,16/12/2024,RICARDO PIERONI,370714,39.0%
+40244,9400962 CRYSTAL-ICE SRL,Facturada,Todo Aprobado,Ejecución de pedido de artículo 21824,Enviado,F,PPA1548TE,0,0,16/12/2024,RICARDO PIERONI,370714,39.0%
 40246,9400945 LAMED S.A.,Facturada,Todo Aprobado,Ejecución de pedido de artículo 21820,Enviado,F,PPAR1048T,0,0,16/12/2024,RICARDO PIERONI,370819,58.0%
 40247,4010 ASIR SA (DISTRISUR),Parcialmente ejecutada,Todo Aprobado,Ejecución de pedido de artículo 21825,Enviado,F,H11/CPE,0,0,16/12/2024,RICARDO PIERONI,370865,0.0%
 40247,4010 ASIR SA (DISTRISUR),Parcialmente ejecutada,Todo Aprobado,Factura de venta 36209,Abierta,F,PPA1548TE,0,324,16/12/2024,RICARDO PIERONI,370865,56.0%
@@ -196,8 +196,8 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 40178,132 MAHLE VALVULAS DE ARGENTINA SA,Facturada,Todo Aprobado,Ejecución de pedido de artículo 21921,Enviado,F,3351/002,0,0,07/01/2025,EXPRESO SANTA ROSA,366086,75.0%
 40178,132 MAHLE VALVULAS DE ARGENTINA SA,Facturada,Todo Aprobado,Ejecución de pedido de artículo 21921,Enviado,F,3351/001,0,0,07/01/2025,EXPRESO SANTA ROSA,366086,97.0%
 40243,132 MAHLE VALVULAS DE ARGENTINA SA,Parcialmente ejecutada,Todo Aprobado,Ejecución de pedido de artículo 21922,Enviado,F,3351/003,0,0,07/01/2025,EXPRESO SANTA ROSA,370614,77.0%
-40243,132 MAHLE VALVULAS DE ARGENTINA SA,Parcialmente ejecutada,Todo Aprobado,Factura de venta 36305,Abierta,F,BV002,0,300,07/01/2025,EXPRESO SANTA ROSA,370614,64.0%
 40243,132 MAHLE VALVULAS DE ARGENTINA SA,Parcialmente ejecutada,Todo Aprobado,Ejecución de pedido de artículo 21922,Enviado,F,BV002,0,300,07/01/2025,EXPRESO SANTA ROSA,370614,64.0%
+40243,132 MAHLE VALVULAS DE ARGENTINA SA,Parcialmente ejecutada,Todo Aprobado,Factura de venta 36305,Abierta,F,BV002,0,300,07/01/2025,EXPRESO SANTA ROSA,370614,64.0%
 40243,132 MAHLE VALVULAS DE ARGENTINA SA,Parcialmente ejecutada,Todo Aprobado,Ejecución de pedido de artículo 21922,Enviado,F,LC579,0,0,07/01/2025,EXPRESO SANTA ROSA,370614,65.0%
 40281,9401339 QUICKFOOD S.A.,Facturada,Todo Aprobado,Ejecución de pedido de artículo 21923,Enviado,F,PPAR1048T,0,0,07/01/2025,BERGAMASCHI OSVALDO RAMON,373708,58.0%
 40294,3089 ARNEG ARGENTINA S.A.,Parcialmente ejecutada,Todo Aprobado,Ejecución de pedido de artículo 21926,Enviado,F,3089/077,0,0,07/01/2025,FELICI JORGE ARIEL,374605,63.0%
@@ -226,12 +226,12 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 40340,12849 FERRERO ARGENTINA SA,Facturada,Todo Aprobado,Ejecución de pedido de artículo 21936,Enviado,F,PPAR1072T,0,0,08/01/2025,EXPRESO LUJAN DEL CUYO SA,378172,57.0%
 40342,3051 FRIMETAL S.A.,Ejecución de la orden pendiente,Todo Aprobado, ,,F,MTS548B,0,3024,08/01/2025,FELICI JORGE ARIEL,378461,50.0%
 40348,12877 BRIKET SA,Ejecución de la orden pendiente,Todo Aprobado, ,,F,MTS548B,0,396,08/01/2025,RICARDO PIERONI,379057,42.0%
-40366,9400695 PILSEL ADRIAN GUSTAVO,Facturación pendiente,Todo Aprobado,Ejecución de pedido de artículo 21937,Enviado,F,04968-LOGROLL,0,0,08/01/2025,EXPRESO LANCIONI,380501,51.0%
+40366,9400695 PILSEL ADRIAN GUSTAVO,Facturada,Todo Aprobado,Ejecución de pedido de artículo 21937,Enviado,F,04968-LOGROLL,0,0,08/01/2025,EXPRESO LANCIONI,380501,51.0%
 40368,178 DROGUERIA DEL SUD S.A.,Facturación pendiente,Todo Aprobado,Ejecución de pedido de artículo 21932,Enviado,F,PPAR1048T,0,0,08/01/2025,EXPRESO LANCIONI,380503,50.0%
 40369,9400444 CRONI SA,Facturada,Todo Aprobado,Ejecución de pedido de artículo 21934,Enviado,F,PPHR10048T,0,0,08/01/2025,EXPRESO BRIO SRL,380504,37.0%
 40370,178 DROGUERIA DEL SUD S.A.,Facturación pendiente,Todo Aprobado,Ejecución de pedido de artículo 21933,Enviado,F,PPAR1048T,0,0,08/01/2025,TRANSPORTE TOMASSINI,380505,50.0%
 40380,860 RIELES Y COSAS S.A.,Facturada,Todo Aprobado,Ejecución de pedido de artículo 21938,Enviado,F,PPAR1048T,0,0,08/01/2025,EXPRESO CARGO SA,380820,46.0%
-40383,9401333 UNILEVER DE ARGENTINA SA,Facturación pendiente,Todo Aprobado,Ejecución de pedido de artículo 21939,Enviado,F,MUESTRA ESPECIAL,0,0,08/01/2025,BARRY LATIMER,381261,100.0%
+40383,9401333 UNILEVER DE ARGENTINA SA,Facturada,Todo Aprobado,Ejecución de pedido de artículo 21939,Enviado,F,MUESTRA ESPECIAL,0,0,08/01/2025,BARRY LATIMER,381261,100.0%
 40362,2481 BUSTOS Y BELTRAN SA,Ejecución de la orden pendiente,Todo Aprobado, ,,F,PPAR1048T,3600,0,09/01/2025,EXPRESO LANCIONI,380038,45.0%
 40363,9402018 FARMACIA LA FRANCO SOCIEDAD DE RESPONSABILIDAD LIMITADA,Ejecución de la orden pendiente,Todo Aprobado, ,,F,PPAR524T,720,0,09/01/2025,TRANSPORTE TOMASSINI,380226,100.0%
 40363,9402018 FARMACIA LA FRANCO SOCIEDAD DE RESPONSABILIDAD LIMITADA,Ejecución de la orden pendiente,Todo Aprobado, ,,F,PPAR548T,360,0,09/01/2025,TRANSPORTE TOMASSINI,380226,100.0%
