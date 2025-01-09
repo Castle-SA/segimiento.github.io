@@ -59,8 +59,8 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 40244,9400962 CRYSTAL-ICE SRL,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 21824,Remitido,F,PPA1548TE,0,0,16/12/2024,RICARDO PIERONI,370714,39.0%
 40246,9400945 LAMED S.A.,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 21820,Remitido,F,PPAR1048T,0,0,16/12/2024,RICARDO PIERONI,370819,58.0%
 40247,4010 ASIR SA (DISTRISUR),Parcialmente ejecutada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 21825,Remitido,F,H11/CPE,0,0,16/12/2024,RICARDO PIERONI,370865,0.0%
-40247,4010 ASIR SA (DISTRISUR),Parcialmente ejecutada,Todo Aprobado,Factura de venta 36209,Abierta,F,PPA1548TE,0,324,16/12/2024,RICARDO PIERONI,370865,56.0%
 40247,4010 ASIR SA (DISTRISUR),Parcialmente ejecutada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 21825,Remitido,F,PPA1548TE,0,324,16/12/2024,RICARDO PIERONI,370865,56.0%
+40247,4010 ASIR SA (DISTRISUR),Parcialmente ejecutada,Todo Aprobado,Factura de venta 36209,Abierta,F,PPA1548TE,0,324,16/12/2024,RICARDO PIERONI,370865,56.0%
 37677,3096 FRECICAR SRL,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 21833,Remitido,F,52330-00040-00,0,0,17/12/2024,RICARDO PIERONI,253457,51.0%
 40211,1171 AUTOSAL SA,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 21834,Remitido,F,FTH470,0,0,17/12/2024,EXPRESO CARGO SA,368087,46.0%
 40211,1171 AUTOSAL SA,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 21834,Remitido,F,0272/005,0,0,17/12/2024,EXPRESO CARGO SA,368087,43.0%
@@ -214,7 +214,11 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 40380,860 RIELES Y COSAS S.A.,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 21938,Remitido,F,PPAR1048T,0,0,08/01/2025,EXPRESO CARGO SA,380820,46.0%
 40383,9401333 UNILEVER DE ARGENTINA SA,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 21939,Remitido,F,MUESTRA ESPECIAL,0,0,08/01/2025,BARRY LATIMER,381261,100.0%
 40384,9402206 MATADERO Y FRIGORIFICO FEDERAL S A,Ejecución de la orden pendiente,Todo Aprobado, ,,F,PPAR1048T,1,0,08/01/2025,BARRY LATIMER,381292,0.0%
+40155,3909 LIBECO FILM SA,Facturación pendiente,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 21944,Remitido,F,PPAR1048M,0,0,09/01/2025,EXPRESO CARGO SA,363414,52.0%
 40274,2481 BUSTOS Y BELTRAN SA,Facturación pendiente,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 21942,Remitido,F,2481/001,0,0,09/01/2025,EXPRESO LANCIONI,373048,43.0%
+40283,4050 FAPERSA ICSA,Facturación pendiente/parcialmente ejecutada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 21943,Remitido,F,PPAR1048M,0,0,09/01/2025,TRANSPORTE PEDRITO,373609,43.0%
+40333,3051 FRIMETAL S.A.,Facturación pendiente/parcialmente ejecutada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 21945,Remitido,F,PPAR1048M,0,0,09/01/2025,FELICI JORGE ARIEL,377387,37.0%
+40333,3051 FRIMETAL S.A.,Facturación pendiente/parcialmente ejecutada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 21945,Remitido,F,PVC624A,0,0,09/01/2025,FELICI JORGE ARIEL,377387,71.0%
 40362,2481 BUSTOS Y BELTRAN SA,Ejecución de la orden pendiente,Todo Aprobado, ,,F,PPAR1048T,3600,0,09/01/2025,EXPRESO LANCIONI,380038,45.0%
 40363,9402018 FARMACIA LA FRANCO SOCIEDAD DE RESPONSABILIDAD LIMITADA,Ejecución de la orden pendiente,Todo Aprobado, ,,F,PPAR524T,720,0,09/01/2025,TRANSPORTE TOMASSINI,380226,100.0%
 40363,9402018 FARMACIA LA FRANCO SOCIEDAD DE RESPONSABILIDAD LIMITADA,Ejecución de la orden pendiente,Todo Aprobado, ,,F,PPAR548T,360,0,09/01/2025,TRANSPORTE TOMASSINI,380226,100.0%
@@ -270,8 +274,7 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 39934,67 FORD ARGENTINA S.C.A.,Ejecución de la orden pendiente,Todo Aprobado, ,,F,BV002,20448,24252,19/03/2025,ALMAR ROSARIO SRL,346461,67.0%
 37685,3096 FRECICAR SRL,Ejecución de la orden pendiente,Todo Aprobado, ,,F,52330-00040-00,7,0,03/04/2025,RICARDO PIERONI,253466,51.0%
 37686,3096 FRECICAR SRL,Ejecución de la orden pendiente,Todo Aprobado, ,,F,52330-00040-00,7,0,05/05/2025,RICARDO PIERONI,253467,51.0%
-40283,4050 FAPERSA ICSA,Ejecución de la orden pendiente,Todo Aprobado, ,,F,PPA1548TE,0,144, ,TRANSPORTE PEDRITO,373609,55.0%
-40283,4050 FAPERSA ICSA,Ejecución de la orden pendiente,Todo Aprobado, ,,F,PPAR1048M,216,0, ,TRANSPORTE PEDRITO,373609,43.0%
+40283,4050 FAPERSA ICSA,Facturación pendiente/parcialmente ejecutada,Todo Aprobado, ,,F,PPA1548TE,0,144, ,TRANSPORTE PEDRITO,373609,55.0%
 40290,3096 FRECICAR SRL,Ejecución de la orden pendiente,Todo Aprobado, ,,F,PPA1548TE,0,1440, ,RICARDO PIERONI,374375,52.0%
 39835,1029 DREAN SA,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Ensamblada,F,0272/005,240,0,,EXPRESO CARGO SA,339800,41.0%
 39880,1149 EL DORADO SA,Ejecución de la orden pendiente,Todo Aprobado, ,,F,MTP536B,96,0,,RICARDO PIERONI,342631,0.0%
@@ -292,9 +295,7 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 40313,3051 FRIMETAL S.A.,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Ensamblada,F,PVC636A,288,0,,FELICI JORGE ARIEL,375422,72.0%
 40326,12837 FRIGORIFICO SAN FRANCISCO S.A,Ejecución de la orden pendiente,Todo Aprobado, ,,F,2837/001,0,1980,,"CAROSSIO, VAIROLATTI Y CIA",376538,73.0%
 40332,12877 BRIKET SA,Parcialmente ejecutada,Todo Aprobado,Orden de trabajo ,Liberada,F,FTH40,0,120,,FELICI JORGE ARIEL,377349,51.0%
-40333,3051 FRIMETAL S.A.,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Liberada,F,1823/002,0,24,,FELICI JORGE ARIEL,377387,53.0%
-40333,3051 FRIMETAL S.A.,Ejecución de la orden pendiente,Todo Aprobado, ,,F,PPAR1048M,216,0,,FELICI JORGE ARIEL,377387,37.0%
-40333,3051 FRIMETAL S.A.,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Ensamblada,F,PVC624A,144,0,,FELICI JORGE ARIEL,377387,71.0%
+40333,3051 FRIMETAL S.A.,Facturación pendiente/parcialmente ejecutada,Todo Aprobado,Orden de trabajo ,Liberada,F,1823/002,0,24,,FELICI JORGE ARIEL,377387,53.0%
 40349,3089 ARNEG ARGENTINA S.A.,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Liberada,F,3089/029,0,20000,,RICARDO PIERONI,379058,87.0%
 40349,3089 ARNEG ARGENTINA S.A.,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Liberada,F,3089/082,0,5000,,RICARDO PIERONI,379058,73.0%
 40375,178 DROGUERIA DEL SUD S.A.,Ejecución de la orden pendiente,Todo Aprobado, ,,F,PPA1048F,36,36,,EXPRESO LUJAN DEL CUYO SA,380612,41.0%
