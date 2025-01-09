@@ -69,8 +69,8 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 40252,2673 XARDO SA,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 21831,Remitido,F,PPAR15048T,0,0,17/12/2024,EXPRESO CARGO SA,371207,45.0%
 40253,2688 BARK SA,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 21832,Remitido,F,PPAR15048T,0,0,17/12/2024,EXPRESO CARGO SA,371307,45.0%
 40254,9402081 OLEOHIDRAULICA EL TORITO SA,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 21830,Remitido,F,MVAQUA203V,0,0,17/12/2024,BARRY LATIMER,371411,50.0%
-38511,4733 TECNOSISTEM SRL,Parcialmente ejecutada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 21846,Remitido,F,MTS548B,0,12,18/12/2024,EXPRESO CARGO SA,281743,62.0%
 38511,4733 TECNOSISTEM SRL,Parcialmente ejecutada,Todo Aprobado,Factura de venta 36233,Abierta,F,MTS548B,0,12,18/12/2024,EXPRESO CARGO SA,281743,62.0%
+38511,4733 TECNOSISTEM SRL,Parcialmente ejecutada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 21846,Remitido,F,MTS548B,0,12,18/12/2024,EXPRESO CARGO SA,281743,62.0%
 38511,4733 TECNOSISTEM SRL,Parcialmente ejecutada,Todo Aprobado,Factura de venta 36233,Abierta,F,MTS536B,0,480,18/12/2024,EXPRESO CARGO SA,281743,46.0%
 38511,4733 TECNOSISTEM SRL,Parcialmente ejecutada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 21846,Remitido,F,PPAR1048T,0,0,18/12/2024,EXPRESO CARGO SA,281743,0.0%
 40200,9400962 CRYSTAL-ICE SRL,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 21836,Remitido,F,9400962/003,0,0,18/12/2024,RICARDO PIERONI,367477,52.0%
@@ -208,9 +208,7 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 40342,3051 FRIMETAL S.A.,Ejecución de la orden pendiente,Todo Aprobado, ,,F,MTS548B,0,3024,08/01/2025,FELICI JORGE ARIEL,378461,50.0%
 40348,12877 BRIKET SA,Ejecución de la orden pendiente,Todo Aprobado, ,,F,MTS548B,0,396,08/01/2025,RICARDO PIERONI,379057,42.0%
 40366,9400695 PILSEL ADRIAN GUSTAVO,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 21937,Remitido,F,04968-LOGROLL,0,0,08/01/2025,EXPRESO LANCIONI,380501,51.0%
-40368,178 DROGUERIA DEL SUD S.A.,Facturación pendiente,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 21932,Remitido,F,PPAR1048T,0,0,08/01/2025,EXPRESO LANCIONI,380503,50.0%
 40369,9400444 CRONI SA,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 21934,Remitido,F,PPHR10048T,0,0,08/01/2025,EXPRESO BRIO SRL,380504,37.0%
-40370,178 DROGUERIA DEL SUD S.A.,Facturación pendiente,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 21933,Remitido,F,PPAR1048T,0,0,08/01/2025,TRANSPORTE TOMASSINI,380505,50.0%
 40380,860 RIELES Y COSAS S.A.,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 21938,Remitido,F,PPAR1048T,0,0,08/01/2025,EXPRESO CARGO SA,380820,46.0%
 40383,9401333 UNILEVER DE ARGENTINA SA,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 21939,Remitido,F,MUESTRA ESPECIAL,0,0,08/01/2025,BARRY LATIMER,381261,100.0%
 40384,9402206 MATADERO Y FRIGORIFICO FEDERAL S A,Ejecución de la orden pendiente,Todo Aprobado, ,,F,PPAR1048T,1,0,08/01/2025,BARRY LATIMER,381292,0.0%
@@ -219,10 +217,12 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 40283,4050 FAPERSA ICSA,Facturación pendiente/parcialmente ejecutada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 21943,Remitido,F,PPAR1048M,0,0,09/01/2025,TRANSPORTE PEDRITO,373609,43.0%
 40333,3051 FRIMETAL S.A.,Facturación pendiente/parcialmente ejecutada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 21945,Remitido,F,PPAR1048M,0,0,09/01/2025,FELICI JORGE ARIEL,377387,37.0%
 40333,3051 FRIMETAL S.A.,Facturación pendiente/parcialmente ejecutada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 21945,Remitido,F,PVC624A,0,0,09/01/2025,FELICI JORGE ARIEL,377387,71.0%
-40362,2481 BUSTOS Y BELTRAN SA,Ejecución de la orden pendiente,Todo Aprobado, ,,F,PPAR1048T,3600,0,09/01/2025,EXPRESO LANCIONI,380038,45.0%
+40362,2481 BUSTOS Y BELTRAN SA,Facturación pendiente,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 21949,Remitido,F,PPAR1048T,0,0,09/01/2025,EXPRESO LANCIONI,380038,45.0%
 40363,9402018 FARMACIA LA FRANCO SOCIEDAD DE RESPONSABILIDAD LIMITADA,Ejecución de la orden pendiente,Todo Aprobado, ,,F,PPAR524T,720,0,09/01/2025,TRANSPORTE TOMASSINI,380226,100.0%
 40363,9402018 FARMACIA LA FRANCO SOCIEDAD DE RESPONSABILIDAD LIMITADA,Ejecución de la orden pendiente,Todo Aprobado, ,,F,PPAR548T,360,0,09/01/2025,TRANSPORTE TOMASSINI,380226,100.0%
 40364,6220 INDUSTRIAL DECKERT S.R.L.,Ejecución de la orden pendiente,Todo Aprobado, ,,F,MTS548B,0,3024,09/01/2025,EXPRESO CARGO SA,380227,35.0%
+40368,178 DROGUERIA DEL SUD S.A.,Ejecución de la orden pendiente,Todo Aprobado, ,,F,PPAR1048T,720,0,09/01/2025,EXPRESO LANCIONI,380503,50.0%
+40370,178 DROGUERIA DEL SUD S.A.,Ejecución de la orden pendiente,Todo Aprobado, ,,F,PPAR1048T,648,0,09/01/2025,TRANSPORTE TOMASSINI,380505,50.0%
 40371,178 DROGUERIA DEL SUD S.A.,Ejecución de la orden pendiente,Todo Aprobado, ,,F,PPAR1048T,1008,0,09/01/2025,TRANSPORTE RAOSA SRL,380506,50.0%
 40372,178 DROGUERIA DEL SUD S.A.,Ejecución de la orden pendiente,Todo Aprobado, ,,F,PPAR1048T,504,0,09/01/2025,TRANSPORTE TOMASSINI,380609,50.0%
 40373,178 DROGUERIA DEL SUD S.A.,Ejecución de la orden pendiente,Todo Aprobado, ,,F,PPAR1048T,468,0,09/01/2025,EXPRESO LANCIONI,380610,50.0%
