@@ -53,8 +53,8 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 40244,9400962 CRYSTAL-ICE SRL,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 21822,Remitido,F,PPA1548TE,0,0,16/12/2024,RICARDO PIERONI,370714,39.0%
 40246,9400945 LAMED S.A.,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 21820,Remitido,F,PPAR1048T,0,0,16/12/2024,RICARDO PIERONI,370819,58.0%
 40247,4010 ASIR SA (DISTRISUR),Parcialmente ejecutada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 21825,Remitido,F,H11/CPE,0,0,16/12/2024,RICARDO PIERONI,370865,0.0%
-40247,4010 ASIR SA (DISTRISUR),Parcialmente ejecutada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 21825,Remitido,F,PPA1548TE,0,324,16/12/2024,RICARDO PIERONI,370865,56.0%
 40247,4010 ASIR SA (DISTRISUR),Parcialmente ejecutada,Todo Aprobado,Factura de venta 36209,Abierta,F,PPA1548TE,0,324,16/12/2024,RICARDO PIERONI,370865,56.0%
+40247,4010 ASIR SA (DISTRISUR),Parcialmente ejecutada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 21825,Remitido,F,PPA1548TE,0,324,16/12/2024,RICARDO PIERONI,370865,56.0%
 37677,3096 FRECICAR SRL,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 21833,Remitido,F,52330-00040-00,0,0,17/12/2024,RICARDO PIERONI,253457,51.0%
 40211,1171 AUTOSAL SA,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 21834,Remitido,F,FTH470,0,0,17/12/2024,EXPRESO CARGO SA,368087,46.0%
 40211,1171 AUTOSAL SA,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 21834,Remitido,F,0272/005,0,0,17/12/2024,EXPRESO CARGO SA,368087,43.0%
@@ -172,8 +172,8 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 40178,132 MAHLE VALVULAS DE ARGENTINA SA,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 21921,Remitido,F,3351/002,0,0,07/01/2025,EXPRESO SANTA ROSA,366086,75.0%
 40178,132 MAHLE VALVULAS DE ARGENTINA SA,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 21921,Remitido,F,3351/001,0,0,07/01/2025,EXPRESO SANTA ROSA,366086,97.0%
 40243,132 MAHLE VALVULAS DE ARGENTINA SA,Parcialmente ejecutada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 21922,Remitido,F,3351/003,0,0,07/01/2025,EXPRESO SANTA ROSA,370614,77.0%
-40243,132 MAHLE VALVULAS DE ARGENTINA SA,Parcialmente ejecutada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 21922,Remitido,F,BV002,0,300,07/01/2025,EXPRESO SANTA ROSA,370614,64.0%
 40243,132 MAHLE VALVULAS DE ARGENTINA SA,Parcialmente ejecutada,Todo Aprobado,Factura de venta 36305,Abierta,F,BV002,0,300,07/01/2025,EXPRESO SANTA ROSA,370614,64.0%
+40243,132 MAHLE VALVULAS DE ARGENTINA SA,Parcialmente ejecutada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 21922,Remitido,F,BV002,0,300,07/01/2025,EXPRESO SANTA ROSA,370614,64.0%
 40243,132 MAHLE VALVULAS DE ARGENTINA SA,Parcialmente ejecutada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 21922,Remitido,F,LC579,0,0,07/01/2025,EXPRESO SANTA ROSA,370614,65.0%
 40281,9401339 QUICKFOOD S.A.,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 21923,Remitido,F,PPAR1048T,0,0,07/01/2025,BERGAMASCHI OSVALDO RAMON,373708,58.0%
 40294,3089 ARNEG ARGENTINA S.A.,Parcialmente ejecutada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 21926,Remitido,F,3089/077,0,0,07/01/2025,FELICI JORGE ARIEL,374605,63.0%
@@ -261,6 +261,12 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 40399,9400609 PAN S COMPANY SA,Ejecución de la orden pendiente,Todo Aprobado, ,,F,PPAR15048T,1,0,13/01/2025,EXPRESO CARGO SA,382511,0.0%
 40400,12706 LA GAUCHITA SACI,Ejecución de la orden pendiente,Todo Aprobado, ,,F,PPA1048T040,2016,0,13/01/2025,EXPRESO LANCIONI,382521,-22.0%
 40401,2993 COTEMINAS ARGENTINA SA,Ejecución de la orden pendiente,Todo Aprobado, ,,F,MTS524B,288,0,13/01/2025,EXPRESO BRIO SRL,382633,45.0%
+40404,430 EMPAQUE S.A.,Ejecución de la orden pendiente,Todo Aprobado, ,,F,PPAR1048M,360,0,14/01/2025,EXPRESO LUJAN DEL CUYO SA,383148,34.0%
+40404,430 EMPAQUE S.A.,Ejecución de la orden pendiente,Todo Aprobado, ,,F,PPAR1048T,540,0,14/01/2025,EXPRESO LUJAN DEL CUYO SA,383148,46.0%
+40405,3333 CHRISTY ERNESTO JUAN,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Liberada,F,04965-00176-00,0,50,14/01/2025,TRANSPORTE TOMASSINI,383149,58.0%
+40406,56 CIRUBON S.A.,Ejecución de la orden pendiente,Todo Aprobado, ,,F,BV002,0,80,14/01/2025,RETIRAN,383150,71.0%
+40406,56 CIRUBON S.A.,Ejecución de la orden pendiente,Todo Aprobado, ,,F,6158/001,1,1,14/01/2025,RETIRAN,383150,59.0%
+40407,9400682 EDERA S.A.,Ejecución de la orden pendiente,Todo Aprobado, ,,F,PPAR1048T,12960,0,14/01/2025,EXPRESO LUJAN DEL CUYO SA,383151,41.0%
 40386,2857 SUPPLY PETROLERO SRL,Ejecución de la orden pendiente,Todo Aprobado, ,,F,60950-00001-00,10,0,16/01/2025,TRANSPORTE TOMASSINI,381418,55.0%
 40386,2857 SUPPLY PETROLERO SRL,Ejecución de la orden pendiente,Todo Aprobado, ,,F,74662-00003-01,100,0,16/01/2025,TRANSPORTE TOMASSINI,381418,42.0%
 40397,3051 FRIMETAL S.A.,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Liberada,F,PVC636A,0,96,16/01/2025,FELICI JORGE ARIEL,382387,72.0%
@@ -272,6 +278,7 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 40397,3051 FRIMETAL S.A.,Ejecución de la orden pendiente,Todo Aprobado, ,,F,PPAR1048M,864,0,16/01/2025,FELICI JORGE ARIEL,382387,44.0%
 40397,3051 FRIMETAL S.A.,Ejecución de la orden pendiente,Todo Aprobado, ,,F,PPAR1048M,144,0,16/01/2025,FELICI JORGE ARIEL,382387,44.0%
 40268,60 INGERSOLL ARGENTINA S.A.,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Liberada,F,0060/001,0,100,17/01/2025,TRANSPORTE TRAVERSO,372279,83.0%
+40403,1029 DREAN SA,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Liberada,F,PVC636A,0,816,17/01/2025,EXPRESO CARGO SA,383010,76.0%
 39930,5019 GRANJA TRES ARROYOS SACAFEI,Ejecución de la orden pendiente,Todo Aprobado, ,,F,5019/004,192,0,20/01/2025,EXPRESO CARGO SA,346062,60.0%
 40355,12877 BRIKET SA,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Liberada,F,0272/004,0,100,20/01/2025,RICARDO PIERONI,379492,42.0%
 40355,12877 BRIKET SA,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Ensamblada,F,PVC624A,360,0,20/01/2025,RICARDO PIERONI,379492,65.0%
@@ -294,8 +301,10 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 40102,272 TALLERES METALURGICOS BAMBI S.A.,Ejecución de la orden pendiente,Todo Aprobado, ,,F,0272/006,0,80,03/02/2025,FELICI JORGE ARIEL,359279,35.0%
 40102,272 TALLERES METALURGICOS BAMBI S.A.,Ejecución de la orden pendiente,Todo Aprobado, ,,F,PPAR1072T,0,1440,03/02/2025,FELICI JORGE ARIEL,359279,71.0%
 40287,992 ESKABE SA,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Ensamblada,F,PVC624A,72,0,03/02/2025,EXPRESO CARGO SA,374071,85.0%
+40408,4089 SOBRERO Y CAGNOLO SA,Ejecución de la orden pendiente,Todo Aprobado, ,,F,PPHR15048XT,125,0,04/02/2025,RICARDO PIERONI,383263,54.0%
+40408,4089 SOBRERO Y CAGNOLO SA,Ejecución de la orden pendiente,Todo Aprobado, ,,F,PPAR1048T,900,0,04/02/2025,RICARDO PIERONI,383263,48.0%
 40346,126 DROGUERIA ROSFAR,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Liberada,F,0126/002,0,3600,14/02/2025,ALMAR ROSARIO SRL,378815,57.0%
-40402,682 MAYO TRANSFORMADORES S.R.L.,Ejecución de la orden pendiente,Todo Aprobado, ,,F,CF512T,53,447,21/02/2025,RICARDO PIERONI,383009,82.0%
+40402,682 MAYO TRANSFORMADORES S.R.L.,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Liberada,F,CF512T,0,500,21/02/2025,RICARDO PIERONI,383009,82.0%
 40310,94010 VISUAR SA,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Liberada,F,1823/002,0,192,24/02/2025,EXPRESO CARGO SA,375531,55.0%
 37684,3096 FRECICAR SRL,Ejecución de la orden pendiente,Todo Aprobado, ,,F,52330-00040-00,7,0,03/03/2025,RICARDO PIERONI,253465,51.0%
 39934,67 FORD ARGENTINA S.C.A.,Ejecución de la orden pendiente,Todo Aprobado, ,,F,BV002,20448,24252,19/03/2025,ALMAR ROSARIO SRL,346461,67.0%
