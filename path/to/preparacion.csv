@@ -126,8 +126,8 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 40178,132 MAHLE VALVULAS DE ARGENTINA SA,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 21921,Remitido,F,3351/002,0,0,07/01/2025,EXPRESO SANTA ROSA,366086,75.0%
 40178,132 MAHLE VALVULAS DE ARGENTINA SA,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 21921,Remitido,F,3351/001,0,0,07/01/2025,EXPRESO SANTA ROSA,366086,97.0%
 40243,132 MAHLE VALVULAS DE ARGENTINA SA,Parcialmente ejecutada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 21922,Remitido,F,3351/003,0,0,07/01/2025,EXPRESO SANTA ROSA,370614,77.0%
-40243,132 MAHLE VALVULAS DE ARGENTINA SA,Parcialmente ejecutada,Todo Aprobado,Factura de venta 36305,Abierta,F,BV002,0,300,07/01/2025,EXPRESO SANTA ROSA,370614,64.0%
 40243,132 MAHLE VALVULAS DE ARGENTINA SA,Parcialmente ejecutada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 21922,Remitido,F,BV002,0,300,07/01/2025,EXPRESO SANTA ROSA,370614,64.0%
+40243,132 MAHLE VALVULAS DE ARGENTINA SA,Parcialmente ejecutada,Todo Aprobado,Factura de venta 36305,Abierta,F,BV002,0,300,07/01/2025,EXPRESO SANTA ROSA,370614,64.0%
 40243,132 MAHLE VALVULAS DE ARGENTINA SA,Parcialmente ejecutada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 21922,Remitido,F,LC579,0,0,07/01/2025,EXPRESO SANTA ROSA,370614,65.0%
 40281,9401339 QUICKFOOD S.A.,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 21923,Remitido,F,PPAR1048T,0,0,07/01/2025,BERGAMASCHI OSVALDO RAMON,373708,58.0%
 40294,3089 ARNEG ARGENTINA S.A.,Parcialmente ejecutada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 21926,Remitido,F,3089/077,0,0,07/01/2025,FELICI JORGE ARIEL,374605,63.0%
@@ -233,25 +233,23 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 40404,430 EMPAQUE S.A.,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 21990,Remitido,F,PPAR1048T,0,0,14/01/2025,EXPRESO LUJAN DEL CUYO SA,383148,46.0%
 40406,56 CIRUBON S.A.,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 21992,Remitido,F,BV002,0,0,14/01/2025,RETIRAN,383150,71.0%
 40406,56 CIRUBON S.A.,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 21992,Remitido,F,6158/001,0,0,14/01/2025,RETIRAN,383150,59.0%
-40407,9400682 EDERA S.A.,Facturación pendiente,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 21993,Remitido,F,PPAR1048T,0,0,14/01/2025,EXPRESO LUJAN DEL CUYO SA,383151,41.0%
-40407,9400682 EDERA S.A.,Facturación pendiente,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 21997,Remitido,F,PPAR1048T,0,0,14/01/2025,EXPRESO LUJAN DEL CUYO SA,383151,41.0%
+40407,9400682 EDERA S.A.,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 21997,Remitido,F,PPAR1048T,0,0,14/01/2025,EXPRESO LUJAN DEL CUYO SA,383151,41.0%
+40407,9400682 EDERA S.A.,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 21993,Remitido,F,PPAR1048T,0,0,14/01/2025,EXPRESO LUJAN DEL CUYO SA,383151,41.0%
 40412,583 TERRAGENE SA,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 21995,Remitido,F,04965-00014-00,0,0,14/01/2025,RICARDO PIERONI,383528,55.0%
 40413,9402185 MONCHAMP INDUSTRIAS SRL,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 21994,Remitido,F,MVAQUA180,0,0,14/01/2025,ALMAR ROSARIO SRL,383879,34.0%
 40419,9402135 ALBERTO G MORO SRL,Facturación pendiente,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 21991,Remitido,F,MVAQUA180,0,0,14/01/2025,BARRY LATIMER,384774,0.0%
-40358,1029 DREAN SA,Facturación pendiente,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 22003,Remitido,F,0272/005,0,0,15/01/2025,EXPRESO CARGO SA,379903,44.0%
-40397,3051 FRIMETAL S.A.,Facturación pendiente/parcialmente ejecutada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 22004,Remitido,F,1823/002,0,0,15/01/2025,FELICI JORGE ARIEL,382387,53.0%
-40397,3051 FRIMETAL S.A.,Facturación pendiente/parcialmente ejecutada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 22005,Remitido,F,1823/002,0,0,15/01/2025,FELICI JORGE ARIEL,382387,53.0%
-40400,12706 LA GAUCHITA SACI,Facturación pendiente,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 21999,Remitido,F,PPA1048T040,0,0,15/01/2025,EXPRESO LANCIONI,382521,-22.0%
-40407,9400682 EDERA S.A.,Facturación pendiente,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 22001,Remitido,F,PPAR1048T,0,0,15/01/2025,EXPRESO LUJAN DEL CUYO SA,383151,41.0%
-40421,2515 CONGELADOS ARTICO SA,Facturación pendiente,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 22000,Remitido,F,PPAR10048T,0,0,15/01/2025,TRANSPORTE TOMASSINI,384947,40.0%
-40421,2515 CONGELADOS ARTICO SA,Facturación pendiente,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 22000,Remitido,F,PPAR1072T,0,0,15/01/2025,TRANSPORTE TOMASSINI,384947,45.0%
-40424,9400018 SEND SRL,Facturación pendiente,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 22002,Remitido,F,PPAR1048T,0,0,15/01/2025,RICARDO PIERONI,385449,50.0%
-40397,3051 FRIMETAL S.A.,Facturación pendiente/parcialmente ejecutada,Todo Aprobado,Orden de trabajo ,Ensamblada,F,PVC636A,96,0,16/01/2025,FELICI JORGE ARIEL,382387,72.0%
-40397,3051 FRIMETAL S.A.,Facturación pendiente/parcialmente ejecutada,Todo Aprobado,Orden de trabajo ,Ensamblada,F,PVC636A,240,0,16/01/2025,FELICI JORGE ARIEL,382387,72.0%
-40397,3051 FRIMETAL S.A.,Facturación pendiente/parcialmente ejecutada,Todo Aprobado,Orden de trabajo ,Ensamblada,F,PVC624A,144,0,16/01/2025,FELICI JORGE ARIEL,382387,71.0%
-40397,3051 FRIMETAL S.A.,Facturación pendiente/parcialmente ejecutada,Todo Aprobado, ,,F,2280/004,4200,0,16/01/2025,FELICI JORGE ARIEL,382387,46.0%
-40397,3051 FRIMETAL S.A.,Facturación pendiente/parcialmente ejecutada,Todo Aprobado, ,,F,PPAR1048M,864,0,16/01/2025,FELICI JORGE ARIEL,382387,44.0%
-40397,3051 FRIMETAL S.A.,Facturación pendiente/parcialmente ejecutada,Todo Aprobado, ,,F,PPAR1048M,144,0,16/01/2025,FELICI JORGE ARIEL,382387,44.0%
+40358,1029 DREAN SA,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 22003,Remitido,F,0272/005,0,0,15/01/2025,EXPRESO CARGO SA,379903,44.0%
+40397,3051 FRIMETAL S.A.,Parcialmente ejecutada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 22004,Remitido,F,1823/002,0,0,15/01/2025,FELICI JORGE ARIEL,382387,53.0%
+40397,3051 FRIMETAL S.A.,Parcialmente ejecutada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 22005,Remitido,F,1823/002,0,0,15/01/2025,FELICI JORGE ARIEL,382387,53.0%
+40398,9402122 VASSALLI FABRIL SOCIEDAD ANONIMA,Ejecución de la orden pendiente,Todo Aprobado, ,,F,MVAQUA180,200,0,15/01/2025,BARRY LATIMER,382410,34.0%
+40400,12706 LA GAUCHITA SACI,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 21999,Remitido,F,PPA1048T040,0,0,15/01/2025,EXPRESO LANCIONI,382521,-22.0%
+40407,9400682 EDERA S.A.,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 22001,Remitido,F,PPAR1048T,0,0,15/01/2025,EXPRESO LUJAN DEL CUYO SA,383151,41.0%
+40421,2515 CONGELADOS ARTICO SA,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 22000,Remitido,F,PPAR10048T,0,0,15/01/2025,TRANSPORTE TOMASSINI,384947,40.0%
+40421,2515 CONGELADOS ARTICO SA,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 22000,Remitido,F,PPAR1072T,0,0,15/01/2025,TRANSPORTE TOMASSINI,384947,45.0%
+40424,9400018 SEND SRL,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 22002,Remitido,F,PPAR1048T,0,0,15/01/2025,RICARDO PIERONI,385449,50.0%
+40397,3051 FRIMETAL S.A.,Parcialmente ejecutada,Todo Aprobado,Orden de trabajo ,Ensamblada,F,PVC636A,96,0,16/01/2025,FELICI JORGE ARIEL,382387,72.0%
+40397,3051 FRIMETAL S.A.,Parcialmente ejecutada,Todo Aprobado,Orden de trabajo ,Ensamblada,F,PVC636A,240,0,16/01/2025,FELICI JORGE ARIEL,382387,72.0%
+40397,3051 FRIMETAL S.A.,Parcialmente ejecutada,Todo Aprobado,Orden de trabajo ,Ensamblada,F,PVC624A,144,0,16/01/2025,FELICI JORGE ARIEL,382387,71.0%
 40422,9402056 BUSTAMANTE CRISTIAN JAVIER (PLAZA FERRETERA),Ejecución de la orden pendiente,Todo Aprobado, ,,F,MTS518B,192,0,16/01/2025,RICARDO PIERONI,385305,32.0%
 40422,9402056 BUSTAMANTE CRISTIAN JAVIER (PLAZA FERRETERA),Ejecución de la orden pendiente,Todo Aprobado, ,,F,MTS524B,72,0,16/01/2025,RICARDO PIERONI,385305,39.0%
 40422,9402056 BUSTAMANTE CRISTIAN JAVIER (PLAZA FERRETERA),Ejecución de la orden pendiente,Todo Aprobado, ,,F,MTS536B,0,48,16/01/2025,RICARDO PIERONI,385305,38.0%
@@ -259,7 +257,7 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 40422,9402056 BUSTAMANTE CRISTIAN JAVIER (PLAZA FERRETERA),Ejecución de la orden pendiente,Todo Aprobado, ,,F,PPAR1048T,144,0,16/01/2025,RICARDO PIERONI,385305,44.0%
 40423,5098 BOR UR SRL,Ejecución de la orden pendiente,Todo Aprobado, ,,F,PPA1548TE,0,360,16/01/2025,RETIRAN,385306,48.0%
 40423,5098 BOR UR SRL,Ejecución de la orden pendiente,Todo Aprobado, ,,F,H11/CPE,1,0,16/01/2025,RETIRAN,385306,0.0%
-40425,4063 GLUPS SRL,Ejecución de la orden pendiente,Todo Aprobado, ,,F,PPAR1048T,1080,0,16/01/2025,EXPRESO CARGO SA,385551,45.0%
+40425,4063 GLUPS SRL,Ejecución de la orden pendiente,Todo Aprobado, ,,F,PPAR1048T,1.080,0,16/01/2025,EXPRESO CARGO SA,385551,45.0%
 40429,3051 FRIMETAL S.A.,Ejecución de la orden pendiente,Todo Aprobado, ,,F,3051/017,10000,0,16/01/2025,FELICI JORGE ARIEL,386097,56.0%
 40390,3060 AVICOLA TELOS SA,Ejecución de la orden pendiente,Todo Aprobado, ,,F,PPA1548TE,0,1080,17/01/2025,TRANSPORTE SONGINI,381875,44.0%
 40390,3060 AVICOLA TELOS SA,Ejecución de la orden pendiente,Todo Aprobado, ,,F,H11/CPE,3,0,17/01/2025,TRANSPORTE SONGINI,381875,0.0%
