@@ -9,22 +9,9 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 40215,5019 GRANJA TRES ARROYOS SACAFEI,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Liberada,T,5019/005,0,40,12/12/2024,EXPRESO CARGO SA,368462,59.6%
 40173,1606 DANES SRL,Parcialmente ejecutada,Todo Aprobado,Factura de venta 36201,Abierta,F,MTS536B,0,40,13/12/2024,EXPRESO BRIO SRL,365174,51.1%
 40247,4010 ASIR SA (DISTRISUR),Parcialmente ejecutada,Todo Aprobado,Factura de venta 36209,Abierta,F,PPA1548TE,0,324,16/12/2024,RICARDO PIERONI,370865,56.1%
-38511,4733 TECNOSISTEM SRL,Parcialmente ejecutada,Todo Aprobado,Ejecución de pedido de artículo 21846,Enviado,F,MTS548B,0,12,18/12/2024,EXPRESO CARGO SA,281743,61.8%
 38511,4733 TECNOSISTEM SRL,Parcialmente ejecutada,Todo Aprobado,Factura de venta 36233,Pagado por completo,F,MTS548B,0,12,18/12/2024,EXPRESO CARGO SA,281743,61.8%
 38511,4733 TECNOSISTEM SRL,Parcialmente ejecutada,Todo Aprobado,Factura de venta 36233,Pagado por completo,F,MTS536B,0,480,18/12/2024,EXPRESO CARGO SA,281743,46.1%
-38511,4733 TECNOSISTEM SRL,Parcialmente ejecutada,Todo Aprobado,Ejecución de pedido de artículo 21846,Enviado,F,PPAR1048T,0,0,18/12/2024,EXPRESO CARGO SA,281743,0.0%
-40200,9400962 CRYSTAL-ICE SRL,Facturada,Todo Aprobado,Ejecución de pedido de artículo 21836,Enviado,F,9400962/003,0,0,18/12/2024,RICARDO PIERONI,367477,52.1%
-40219,2638 QUE RICO SA,Facturada,Todo Aprobado,Ejecución de pedido de artículo 21847,Enviado,F,PPHR1216B,0,0,18/12/2024,EXPRESO CARGO SA,368704,71.8%
-40219,2638 QUE RICO SA,Facturada,Todo Aprobado,Ejecución de pedido de artículo 21847,Enviado,F,PVC612R,0,0,18/12/2024,EXPRESO CARGO SA,368704,69.9%
-40227,611 QUESOS DON ATILIO SA,Parcialmente ejecutada,Todo Aprobado,Ejecución de pedido de artículo 21839,Enviado,F,PPAR15048T,0,0,18/12/2024,EXPRESO TAS,369341,57.7%
 40227,611 QUESOS DON ATILIO SA,Parcialmente ejecutada,Todo Aprobado,Factura de venta 36227,Abierta,F,PPA1548TE,0,72,18/12/2024,EXPRESO TAS,369341,53.7%
-40228,2410 LUIS SOLIMENO E HIJOS SA,Facturada,Todo Aprobado,Ejecución de pedido de artículo 21844,Enviado,F,FLJPP30012B,0,0,18/12/2024,TRANSPORTE TOMASSINI,369343,20.3%
-40251,9400444 CRONI SA,Facturada,Todo Aprobado,Ejecución de pedido de artículo 21843,Enviado,F,PPHR1048T,0,0,18/12/2024,EXPRESO BRIO SRL,371068,64.4%
-40263,9401302 ABONIZIO CARLOS ALEJANDRO,Facturada,Todo Aprobado,Ejecución de pedido de artículo 21838,Enviado,F,CH5235,0,0,18/12/2024,RICARDO PIERONI,371760,35.0%
-40262,15 INDUSTRIAS JOHN DEERE ARGENTINA S.A.,Facturada,Todo Aprobado,Ejecución de pedido de artículo 21842,Enviado,F,BV001,0,0,18/12/2024,FELICI JORGE ARIEL,371980,83.2%
-40264,9400254 SODECAR SA,Facturada,Todo Aprobado,Ejecución de pedido de artículo 21840,Enviado,F,PPAR1048T,0,0,18/12/2024,EXPRESO SANTA ROSA,371998,50.0%
-40266,60 INGERSOLL ARGENTINA S.A.,Facturada,Todo Aprobado,Ejecución de pedido de artículo 21837,Enviado,F,0060/001,0,0,18/12/2024,TRANSPORTE TRAVERSO,372277,83.1%
-40273,9400890 MOLINOS RIO DE LA PLATA SA,Facturada,Todo Aprobado,Ejecución de pedido de artículo 21845,Enviado,F,PPHR15048XT,0,0,18/12/2024,BARRY LATIMER,372659,0.0%
 40223,3676 FRIGORIFICO MARK SA,Facturada,Todo Aprobado,Ejecución de pedido de artículo 21853,Enviado,F,PVC612R,0,0,19/12/2024,RICARDO PIERONI,368956,70.2%
 40225,15 INDUSTRIAS JOHN DEERE ARGENTINA S.A.,Facturada,Todo Aprobado,Ejecución de pedido de artículo 21848,Enviado,F,0015/016,0,0,19/12/2024,FELICI JORGE ARIEL,369074,62.6%
 40230,202 FRIGORIFICO DE AVES SOYCHU SA,Facturada,Todo Aprobado,Ejecución de pedido de artículo 21851,Enviado,F,PVC612R,0,0,19/12/2024,EXPRESO CARGO SA,369552,65.2%
@@ -118,8 +105,8 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 40178,132 MAHLE VALVULAS DE ARGENTINA SA,Facturada,Todo Aprobado,Ejecución de pedido de artículo 21921,Enviado,F,3351/002,0,0,07/01/2025,EXPRESO SANTA ROSA,366086,74.7%
 40178,132 MAHLE VALVULAS DE ARGENTINA SA,Facturada,Todo Aprobado,Ejecución de pedido de artículo 21921,Enviado,F,3351/001,0,0,07/01/2025,EXPRESO SANTA ROSA,366086,96.6%
 40243,132 MAHLE VALVULAS DE ARGENTINA SA,Parcialmente ejecutada,Todo Aprobado,Ejecución de pedido de artículo 21922,Enviado,F,3351/003,0,0,07/01/2025,EXPRESO SANTA ROSA,370614,76.9%
-40243,132 MAHLE VALVULAS DE ARGENTINA SA,Parcialmente ejecutada,Todo Aprobado,Ejecución de pedido de artículo 21922,Enviado,F,BV002,0,300,07/01/2025,EXPRESO SANTA ROSA,370614,64.2%
 40243,132 MAHLE VALVULAS DE ARGENTINA SA,Parcialmente ejecutada,Todo Aprobado,Factura de venta 36305,Abierta,F,BV002,0,300,07/01/2025,EXPRESO SANTA ROSA,370614,64.2%
+40243,132 MAHLE VALVULAS DE ARGENTINA SA,Parcialmente ejecutada,Todo Aprobado,Ejecución de pedido de artículo 21922,Enviado,F,BV002,0,300,07/01/2025,EXPRESO SANTA ROSA,370614,64.2%
 40243,132 MAHLE VALVULAS DE ARGENTINA SA,Parcialmente ejecutada,Todo Aprobado,Ejecución de pedido de artículo 21922,Enviado,F,LC579,0,0,07/01/2025,EXPRESO SANTA ROSA,370614,65.1%
 40281,9401339 QUICKFOOD S.A.,Facturada,Todo Aprobado,Ejecución de pedido de artículo 21923,Enviado,F,PPAR1048T,0,0,07/01/2025,BERGAMASCHI OSVALDO RAMON,373708,58.0%
 40294,3089 ARNEG ARGENTINA S.A.,Parcialmente ejecutada,Todo Aprobado,Ejecución de pedido de artículo 21926,Enviado,F,3089/077,0,0,07/01/2025,FELICI JORGE ARIEL,374605,63.2%
