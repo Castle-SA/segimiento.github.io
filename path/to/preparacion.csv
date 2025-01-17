@@ -210,8 +210,8 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 40404,430 EMPAQUE S.A.,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 21990,Remitido,F,PPAR1048T,0,0,14/01/2025,EXPRESO LUJAN DEL CUYO SA,383148,46.1%
 40406,56 CIRUBON S.A.,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 21992,Remitido,F,BV002,0,0,14/01/2025,RETIRAN,383150,70.8%
 40406,56 CIRUBON S.A.,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 21992,Remitido,F,6158/001,0,0,14/01/2025,RETIRAN,383150,59.1%
-40407,9400682 EDERA S.A.,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 21993,Remitido,F,PPAR1048T,0,0,14/01/2025,EXPRESO LUJAN DEL CUYO SA,383151,41.5%
 40407,9400682 EDERA S.A.,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 21997,Remitido,F,PPAR1048T,0,0,14/01/2025,EXPRESO LUJAN DEL CUYO SA,383151,41.5%
+40407,9400682 EDERA S.A.,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 21993,Remitido,F,PPAR1048T,0,0,14/01/2025,EXPRESO LUJAN DEL CUYO SA,383151,41.5%
 40412,583 TERRAGENE SA,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 21995,Remitido,F,04965-00014-00,0,0,14/01/2025,RICARDO PIERONI,383528,54.6%
 40413,9402185 MONCHAMP INDUSTRIAS SRL,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 21994,Remitido,F,MVAQUA180,0,0,14/01/2025,ALMAR ROSARIO SRL,383879,34.2%
 40419,9402135 ALBERTO G MORO SRL,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 21991,Remitido,F,MVAQUA180,0,0,14/01/2025,BARRY LATIMER,384774,0.0%
@@ -260,11 +260,15 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 40441,12707 PORTA HNOS. SA,Ejecución de la orden pendiente,Todo Aprobado, ,,F,PPHR15048XT,2,0,20/01/2025,EXPRESO CARGO SA,387053,0.0%
 40444,18293 DULCOR SA,Ejecución de la orden pendiente,Todo Aprobado, ,,F,PPAR15048T,18,0,20/01/2025,EXPRESO LUJAN DEL CUYO SA,387421,45.1%
 40444,18293 DULCOR SA,Ejecución de la orden pendiente,Todo Aprobado, ,,F,PPAR1048T,0,108,20/01/2025,EXPRESO LUJAN DEL CUYO SA,387421,42.7%
+40450,3926 ASERRADERO GOTTERT de GOTTERT RODOLFO RICARDO y OTROS SH,Ejecución de la orden pendiente,Todo Aprobado, ,,F,VCI420,80,0,20/01/2025,EXPRESO CARGO SA,387946,49.0%
+40451,4329 COMPANIA ELABORADORA DE PASTAS SA,Ejecución de la orden pendiente,Todo Aprobado, ,,F,PPAR15048T,6,0,20/01/2025,RETIRAN,388053,64.3%
 40426,1171 AUTOSAL SA,Ejecución de la orden pendiente,Todo Aprobado, ,,F,74662-00003-01,120,0,21/01/2025,EXPRESO CARGO SA,385688,47.5%
 40426,1171 AUTOSAL SA,Ejecución de la orden pendiente,Todo Aprobado, ,,F,04662-00194-00,12,108,21/01/2025,EXPRESO CARGO SA,385688,65.5%
 40426,1171 AUTOSAL SA,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Liberada,F,0272/005,0,650,21/01/2025,EXPRESO CARGO SA,385688,44.0%
 40430,9401339 QUICKFOOD S.A.,Ejecución de la orden pendiente,Todo Aprobado, ,,F,PPHR15048XT,180,0,21/01/2025,BERGAMASCHI OSVALDO RAMON,386167,55.9%
 40445,4353 SMOVIR LUIS ALBERTO  SMOVIR ERNESTO SMOVIR EDUARDO SH,Ejecución de la orden pendiente,Todo Aprobado, ,,F,PPAR524T,360,0,21/01/2025,EXPRESO LUJAN DEL CUYO SA,387681,100.0%
+40447,4687 ACUERDOS SRL,Ejecución de la orden pendiente,Todo Aprobado, ,,F,4892/001,180,0,21/01/2025,EXPRESO CARGO SA,387945,100.0%
+40447,4687 ACUERDOS SRL,Ejecución de la orden pendiente,Todo Aprobado, ,,F,PPAR1048T,0,108,21/01/2025,EXPRESO CARGO SA,387945,47.6%
 40438,5019 GRANJA TRES ARROYOS SACAFEI,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Liberada,F,PVC612R,0,864,22/01/2025,EXPRESO CARGO SA,386608,70.7%
 40337,2556 TEJIDOS LATINOS SA,Ejecución de la orden pendiente,Todo Aprobado, ,,F,2556/001,0,312,23/01/2025,EXPRESO CARGO SA,377963,67.3%
 40245,9400962 CRYSTAL-ICE SRL,Ejecución de la orden pendiente,Todo Aprobado, ,,F,PPA1548TE,0,4500,24/01/2025,RICARDO PIERONI,370615,39.4%
@@ -293,6 +297,7 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 40408,4089 SOBRERO Y CAGNOLO SA,Ejecución de la orden pendiente,Todo Aprobado, ,,F,PPAR1048T,900,0,04/02/2025,RICARDO PIERONI,383263,47.6%
 40432,4095 REFINERIA DEL CENTRO SA,Ejecución de la orden pendiente,Todo Aprobado, ,,F,PPHR10048T,54,0,05/02/2025,EXPRESO SANTA ROSA,386274,37.1%
 40410,682 MAYO TRANSFORMADORES S.R.L.,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Liberada,F,CF512T,0,500,10/02/2025,RICARDO PIERONI,383390,82.4%
+40452,2561 LAGOMARSINO SA,Ejecución de la orden pendiente,Todo Aprobado, ,,F,PPAR1048T,0,1080,10/02/2025,EXPRESO CARGO SA,388054,44.4%
 40346,126 DROGUERIA ROSFAR,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Liberada,F,0126/002,0,3600,14/02/2025,ALMAR ROSARIO SRL,378815,56.9%
 40402,682 MAYO TRANSFORMADORES S.R.L.,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Liberada,F,CF512T,0,500,21/02/2025,RICARDO PIERONI,383009,82.4%
 40448,202 FRIGORIFICO DE AVES SOYCHU SA,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Liberada,F,PVC612R,0,600,21/02/2025,EXPRESO CARGO SA,388045,56.4%
