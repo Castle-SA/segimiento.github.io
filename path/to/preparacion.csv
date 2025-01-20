@@ -190,8 +190,8 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 40404,430 EMPAQUE S.A.,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 21990,Remitido,F,PPAR1048T,0,0,14/01/2025,EXPRESO LUJAN DEL CUYO SA,383148,46.1%
 40406,56 CIRUBON S.A.,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 21992,Remitido,F,BV002,0,0,14/01/2025,RETIRAN,383150,70.8%
 40406,56 CIRUBON S.A.,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 21992,Remitido,F,6158/001,0,0,14/01/2025,RETIRAN,383150,59.1%
-40407,9400682 EDERA S.A.,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 21993,Remitido,F,PPAR1048T,0,0,14/01/2025,EXPRESO LUJAN DEL CUYO SA,383151,41.5%
 40407,9400682 EDERA S.A.,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 21997,Remitido,F,PPAR1048T,0,0,14/01/2025,EXPRESO LUJAN DEL CUYO SA,383151,41.5%
+40407,9400682 EDERA S.A.,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 21993,Remitido,F,PPAR1048T,0,0,14/01/2025,EXPRESO LUJAN DEL CUYO SA,383151,41.5%
 40412,583 TERRAGENE SA,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 21995,Remitido,F,04965-00014-00,0,0,14/01/2025,RICARDO PIERONI,383528,54.6%
 40413,9402185 MONCHAMP INDUSTRIAS SRL,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 21994,Remitido,F,MVAQUA180,0,0,14/01/2025,ALMAR ROSARIO SRL,383879,34.2%
 40419,9402135 ALBERTO G MORO SRL,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 21991,Remitido,F,MVAQUA180,0,0,14/01/2025,BARRY LATIMER,384774,0.0%
@@ -225,8 +225,8 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 40431,12849 FERRERO ARGENTINA SA,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 22011,Remitido,F,PPAR1048T,0,0,16/01/2025,EXPRESO LUJAN DEL CUYO SA,386168,57.4%
 40437,4602 HELADOS PEÑAS SRL,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 22012,Remitido,F,PPAR1048T,0,0,16/01/2025,RICARDO PIERONI,386607,50.5%
 40381,5095 JUAN J BAIML E HIJOS SRL,Parcialmente ejecutada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 22017,Remitido,F,H11/CPE,0,0,17/01/2025,RETIRAN,381037,68.7%
-40381,5095 JUAN J BAIML E HIJOS SRL,Parcialmente ejecutada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 22017,Remitido,F,PPA1548TE,0,216,17/01/2025,RETIRAN,381037,45.3%
 40381,5095 JUAN J BAIML E HIJOS SRL,Parcialmente ejecutada,Todo Aprobado,Factura de venta 36388,Abierta,F,PPA1548TE,0,216,17/01/2025,RETIRAN,381037,45.3%
+40381,5095 JUAN J BAIML E HIJOS SRL,Parcialmente ejecutada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 22017,Remitido,F,PPA1548TE,0,216,17/01/2025,RETIRAN,381037,45.3%
 40390,3060 AVICOLA TELOS SA,Ejecución de la orden pendiente,Todo Aprobado, ,,F,PPA1548TE,0,1080,17/01/2025,TRANSPORTE SONGINI,381875,44.3%
 40390,3060 AVICOLA TELOS SA,Ejecución de la orden pendiente,Todo Aprobado, ,,F,H11/CPE,3,0,17/01/2025,TRANSPORTE SONGINI,381875,0.0%
 40403,1029 DREAN SA,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Ensamblada,F,PVC636A,816,0,17/01/2025,EXPRESO CARGO SA,383010,76.4%
@@ -245,8 +245,7 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 40441,12707 PORTA HNOS. SA,Ejecución de la orden pendiente,Todo Aprobado, ,,F,PPHR15048XT,2,0,20/01/2025,EXPRESO CARGO SA,387053,0.0%
 40444,18293 DULCOR SA,Ejecución de la orden pendiente,Todo Aprobado, ,,F,PPAR15048T,18,0,20/01/2025,EXPRESO LUJAN DEL CUYO SA,387421,45.1%
 40444,18293 DULCOR SA,Ejecución de la orden pendiente,Todo Aprobado, ,,F,PPAR1048T,0,108,20/01/2025,EXPRESO LUJAN DEL CUYO SA,387421,42.7%
-40450,3926 ASERRADERO GOTTERT de GOTTERT RODOLFO RICARDO y OTROS SH,Facturación pendiente,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 22023,Remitido,F,VCI420,0,0,20/01/2025,EXPRESO CARGO SA,387946,49.0%
-40451,4329 COMPANIA ELABORADORA DE PASTAS SA,Ejecución de la orden pendiente,Todo Aprobado, ,,F,PPAR15048T,6,0,20/01/2025,RETIRAN,388053,64.3%
+40451,4329 COMPANIA ELABORADORA DE PASTAS SA,Facturación pendiente,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 22024,Remitido,F,PPAR15048T,0,0,20/01/2025,RETIRAN,388053,64.3%
 40455,132 MAHLE VALVULAS DE ARGENTINA SA,Facturación pendiente,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 22019,Remitido,F,BV002,0,0,20/01/2025,ALMAR ROSARIO SRL,388218,64.2%
 40426,1171 AUTOSAL SA,Ejecución de la orden pendiente,Todo Aprobado, ,,F,74662-00003-01,120,0,21/01/2025,EXPRESO CARGO SA,385688,47.5%
 40426,1171 AUTOSAL SA,Ejecución de la orden pendiente,Todo Aprobado, ,,F,04662-00194-00,12,108,21/01/2025,EXPRESO CARGO SA,385688,65.5%
