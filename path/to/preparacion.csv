@@ -243,8 +243,8 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 40411,3051 FRIMETAL S.A.,Ejecución de la orden pendiente,Todo Aprobado, ,,F,PPAR1048M,1008,0,20/01/2025,FELICI JORGE ARIEL,383527,32.5%
 40411,3051 FRIMETAL S.A.,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Liberada,F,PVC636A,0,2304,20/01/2025,FELICI JORGE ARIEL,383527,84.5%
 40441,12707 PORTA HNOS. SA,Ejecución de la orden pendiente,Todo Aprobado, ,,F,PPHR15048XT,2,0,20/01/2025,EXPRESO CARGO SA,387053,0.0%
-40444,18293 DULCOR SA,Ejecución de la orden pendiente,Todo Aprobado, ,,F,PPAR15048T,18,0,20/01/2025,EXPRESO LUJAN DEL CUYO SA,387421,45.1%
-40444,18293 DULCOR SA,Ejecución de la orden pendiente,Todo Aprobado, ,,F,PPAR1048T,0,108,20/01/2025,EXPRESO LUJAN DEL CUYO SA,387421,42.7%
+40444,18293 DULCOR SA,Facturación pendiente,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 22025,Remitido,F,PPAR15048T,0,0,20/01/2025,EXPRESO LUJAN DEL CUYO SA,387421,45.1%
+40444,18293 DULCOR SA,Facturación pendiente,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 22025,Remitido,F,PPAR1048T,0,0,20/01/2025,EXPRESO LUJAN DEL CUYO SA,387421,42.7%
 40451,4329 COMPANIA ELABORADORA DE PASTAS SA,Facturación pendiente,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 22024,Remitido,F,PPAR15048T,0,0,20/01/2025,RETIRAN,388053,64.3%
 40455,132 MAHLE VALVULAS DE ARGENTINA SA,Facturación pendiente,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 22019,Remitido,F,BV002,0,0,20/01/2025,ALMAR ROSARIO SRL,388218,64.2%
 40426,1171 AUTOSAL SA,Ejecución de la orden pendiente,Todo Aprobado, ,,F,74662-00003-01,120,0,21/01/2025,EXPRESO CARGO SA,385688,47.5%
@@ -271,7 +271,7 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 40361,4095 REFINERIA DEL CENTRO SA,Ejecución de la orden pendiente,Todo Aprobado, ,,F,PPAR1072T,2700,0,27/01/2025,EXPRESO SANTA ROSA,379928,50.9%
 40446,202 FRIGORIFICO DE AVES SOYCHU SA,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Liberada,F,PVC612R,0,600,27/01/2025,EXPRESO CARGO SA,387845,56.4%
 40418,3909 LIBECO FILM SA,Ejecución de la orden pendiente,Todo Aprobado, ,,F,PPAR524T,144,0,29/01/2025,EXPRESO CARGO SA,384673,99.5%
-40418,3909 LIBECO FILM SA,Ejecución de la orden pendiente,Todo Aprobado, ,,F,PPAR1048T,540,0,29/01/2025,EXPRESO CARGO SA,384673,44.3%
+40418,3909 LIBECO FILM SA,Ejecución de la orden pendiente,Todo Aprobado, ,,F,PPAR1048T,503,37,29/01/2025,EXPRESO CARGO SA,384673,44.3%
 40418,3909 LIBECO FILM SA,Ejecución de la orden pendiente,Todo Aprobado, ,,F,PPAR548T,72,0,29/01/2025,EXPRESO CARGO SA,384673,99.8%
 40357,1029 DREAN SA,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Liberada,F,0272/003,0,80,31/01/2025,EXPRESO CARGO SA,379801,45.2%
 40365,1029 DREAN SA,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Liberada,F,0272/005,0,240,31/01/2025,EXPRESO CARGO SA,380388,44.0%
@@ -309,5 +309,5 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 40349,3089 ARNEG ARGENTINA S.A.,Facturación pendiente/parcialmente ejecutada,Todo Aprobado,Orden de trabajo ,Liberada,F,3089/082,0,5000,,RICARDO PIERONI,379058,72.9%
 40433,9400334 CAPITAN DEL ESPACIO SA,Ejecución de la orden pendiente,Todo Aprobado, ,,F,9400334/001,0,40,,EXPRESO CARGO SA,386275,77.9%
 40435,2638 QUE RICO SA,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Ensamblada,F,PPHR1216B,648,0,,EXPRESO CARGO SA,386406,67.9%
-40435,2638 QUE RICO SA,Ejecución de la orden pendiente,Todo Aprobado, ,,F,PPAR1048T,71,109,,EXPRESO CARGO SA,386406,42.7%
+40435,2638 QUE RICO SA,Ejecución de la orden pendiente,Todo Aprobado, ,,F,PPAR1048T,0,180,,EXPRESO CARGO SA,386406,42.7%
 40435,2638 QUE RICO SA,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Liberada,F,PVC612R,0,720,,EXPRESO CARGO SA,386406,66.3%
