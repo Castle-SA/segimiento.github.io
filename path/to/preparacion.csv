@@ -221,8 +221,8 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 40364,6220 INDUSTRIAL DECKERT S.R.L.,Parcialmente ejecutada,Todo Aprobado,Factura de venta 36411,Abierta,F,MTS548B,0,1620,21/01/2025,EXPRESO CARGO SA,380227,34.7%
 40364,6220 INDUSTRIAL DECKERT S.R.L.,Parcialmente ejecutada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 22037,Remitido,F,MTS548B,0,1620,21/01/2025,EXPRESO CARGO SA,380227,34.7%
 40411,3051 FRIMETAL S.A.,Parcialmente ejecutada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 22041,Remitido,F,3051/017,0,0,21/01/2025,FELICI JORGE ARIEL,383527,56.8%
-40411,3051 FRIMETAL S.A.,Parcialmente ejecutada,Todo Aprobado,Factura de venta 01253,Abierta,F,MTS548B,0,2448,21/01/2025,FELICI JORGE ARIEL,383527,57.1%
 40411,3051 FRIMETAL S.A.,Parcialmente ejecutada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 22034,Remitido,F,MTS548B,0,2448,21/01/2025,FELICI JORGE ARIEL,383527,57.1%
+40411,3051 FRIMETAL S.A.,Parcialmente ejecutada,Todo Aprobado,Factura de venta 01253,Abierta,F,MTS548B,0,2448,21/01/2025,FELICI JORGE ARIEL,383527,57.1%
 40411,3051 FRIMETAL S.A.,Parcialmente ejecutada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 22034,Remitido,F,PPAR1048M,0,0,21/01/2025,FELICI JORGE ARIEL,383527,32.5%
 40411,3051 FRIMETAL S.A.,Parcialmente ejecutada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 22034,Remitido,F,PVC636A,0,0,21/01/2025,FELICI JORGE ARIEL,383527,84.5%
 40415,9400523 SUCESORES DE ALFREDO WILLINER SA,Parcialmente ejecutada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 22043,Remitido,F,PPAR1048T,0,0,21/01/2025,BARRY LATIMER,384427,0.0%
@@ -239,8 +239,6 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 40435,2638 QUE RICO SA,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 22044,Remitido,F,PVC612R,0,0,21/01/2025,EXPRESO CARGO SA,386406,66.3%
 40438,5019 GRANJA TRES ARROYOS SACAFEI,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 22048,Remitido,F,PVC612R,0,0,21/01/2025,EXPRESO CARGO SA,386608,70.7%
 40445,4353 SMOVIR LUIS ALBERTO  SMOVIR ERNESTO SMOVIR EDUARDO SH,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 22040,Remitido,F,PPAR524T,0,0,21/01/2025,EXPRESO LUJAN DEL CUYO SA,387681,100.0%
-40447,4687 ACUERDOS SRL,Ejecución de la orden pendiente,Todo Aprobado, ,,F,4892/001,180,0,21/01/2025,EXPRESO CARGO SA,387945,100.0%
-40447,4687 ACUERDOS SRL,Ejecución de la orden pendiente,Todo Aprobado, ,,F,PPAR1048T,108,0,21/01/2025,EXPRESO CARGO SA,387945,47.6%
 40454,3769 GAROFOLI CONSTRUCCIONES SRL,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 22033,Remitido,F,0674/003,0,0,21/01/2025,RODRIGUEZ HNOS. TRANSP. SA,388055,61.8%
 40454,3769 GAROFOLI CONSTRUCCIONES SRL,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 22033,Remitido,F,0727/004,0,0,21/01/2025,RODRIGUEZ HNOS. TRANSP. SA,388055,60.7%
 40454,3769 GAROFOLI CONSTRUCCIONES SRL,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 22033,Remitido,F,MTS512B,0,0,21/01/2025,RODRIGUEZ HNOS. TRANSP. SA,388055,32.9%
@@ -254,6 +252,8 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 40381,5095 JUAN J BAIML E HIJOS SRL,Facturación pendiente,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 22051,Remitido,F,PPA1548TE,0,0,22/01/2025,RETIRAN,381037,45.3%
 40426,1171 AUTOSAL SA,Facturación pendiente/parcialmente ejecutada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 22052,Remitido,F,0272/005,0,0,22/01/2025,EXPRESO CARGO SA,385688,44.0%
 40427,12815 INDUSTRIAS AVICOLAS SA,Facturación pendiente,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 22055,Remitido,F,PPHR1216B,0,0,22/01/2025,TRANSPORTE MOSTTO,385793,59.6%
+40447,4687 ACUERDOS SRL,Facturación pendiente,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 22058,Remitido,F,4892/001,0,0,22/01/2025,EXPRESO CARGO SA,387945,100.0%
+40447,4687 ACUERDOS SRL,Facturación pendiente,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 22058,Remitido,F,PPAR1048T,0,0,22/01/2025,EXPRESO CARGO SA,387945,47.6%
 40457,9402119 TERENGHI FERNANDO JAVIER,Facturación pendiente,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 22053,Remitido,F,07063-00001-24,0,0,22/01/2025,RICARDO PIERONI,388384,46.8%
 40458,583 TERRAGENE SA,Facturación pendiente,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 22056,Remitido,F,04965-00176-00,0,0,22/01/2025,ALMAR ROSARIO SRL,388499,58.4%
 40471,678 PLASTICOS SUDAMERICANOS S.A.,Facturación pendiente,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 22057,Remitido,F,PPAR1048T,0,0,22/01/2025,RICARDO PIERONI,389001,44.0%
