@@ -32,8 +32,8 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 40330,699 MOLINAS ARGENTINA S.R.L.,Facturada,Todo Aprobado,Ejecución de pedido de artículo 21892,Enviado,F,PPAR1072T,0,0,02/01/2025,EXPRESO BRIO SRL,376877,45.6%,.00,T
 40329,6374 AMIANTO ROSARIO de FERRARO RAYMUNDO ANTONIO,Facturada,Todo Aprobado,Ejecución de pedido de artículo 21891,Enviado,F,PVC612R,0,0,02/01/2025,RICARDO PIERONI,376983,67.9%,.00,T
 40331,812 SYSTEL SA,Facturada,Todo Aprobado,Ejecución de pedido de artículo 21893,Enviado,F,07063-00012-24,0,0,02/01/2025,EXPRESO CARGO SA,377190,60.2%,.00,T
-40332,12877 BRIKET SA,Facturada,Todo Aprobado,Ejecución de pedido de artículo 21882,Enviado,F,MUESTRA ESPECIAL,0,0,02/01/2025,FELICI JORGE ARIEL,377349,100.0%,.00,F
 40332,12877 BRIKET SA,Facturada,Todo Aprobado,Ejecución de pedido de artículo 21894,Enviado,F,MUESTRA ESPECIAL,0,0,02/01/2025,FELICI JORGE ARIEL,377349,100.0%,.00,T
+40332,12877 BRIKET SA,Facturada,Todo Aprobado,Ejecución de pedido de artículo 21882,Enviado,F,MUESTRA ESPECIAL,0,0,02/01/2025,FELICI JORGE ARIEL,377349,100.0%,.00,F
 40334,3938 ELECTRO HOGAR INTERNACIONAL SA,Facturada,Todo Aprobado,Ejecución de pedido de artículo 21881,Enviado,F,PVC624A,0,0,02/01/2025,EXPRESO CARGO SA,377388,84.4%,.00,T
 40339,3029 DARK SRL,Facturada,Todo Aprobado,Ejecución de pedido de artículo 21883,Enviado,F,PPAR1048T,0,0,02/01/2025,RICARDO PIERONI,378068,55.4%,.00,T
 40341,4636 FRIGORIFICO BERMEJO SA,Facturada,Todo Aprobado,Ejecución de pedido de artículo 21888,Enviado,F,PPAR1048T,0,0,02/01/2025,LA SEVILLANITA SRL,378273,52.9%,.00,T
@@ -306,7 +306,7 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 40408,4089 SOBRERO Y CAGNOLO SA,Ejecución de la orden pendiente,Todo Aprobado, ,,F,PPHR15048XT,125,0,04/02/2025,RICARDO PIERONI,383263,54.4%,3500.00,
 40408,4089 SOBRERO Y CAGNOLO SA,Ejecución de la orden pendiente,Todo Aprobado, ,,F,PPAR1048T,900,0,04/02/2025,RICARDO PIERONI,383263,47.6%,945.00,
 40432,4095 REFINERIA DEL CENTRO SA,Ejecución de la orden pendiente,Todo Aprobado, ,,F,PPHR10048T,54,0,05/02/2025,EXPRESO SANTA ROSA,386274,37.1%,834.30,
-40410,682 MAYO TRANSFORMADORES S.R.L.,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Liberada,F,CF512T,0,500,10/02/2025,RICARDO PIERONI,383390,82.4%,1500.00,
+40410,682 MAYO TRANSFORMADORES S.R.L.,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Ensamblada,F,CF512T,500,0,10/02/2025,RICARDO PIERONI,383390,82.4%,1500.00,
 40452,2561 LAGOMARSINO SA,Ejecución de la orden pendiente,Todo Aprobado, ,,F,PPAR1048T,1080,0,10/02/2025,EXPRESO CARGO SA,388054,44.4%,1069.20,
 40346,126 DROGUERIA ROSFAR,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Liberada,F,0126/002,0,3600,14/02/2025,ALMAR ROSARIO SRL,378815,56.9%,7920.00,
 40402,682 MAYO TRANSFORMADORES S.R.L.,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Liberada,F,CF512T,0,500,21/02/2025,RICARDO PIERONI,383009,82.4%,1500.00,
