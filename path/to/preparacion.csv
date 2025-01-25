@@ -162,8 +162,8 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 40404,430 EMPAQUE S.A.,Facturada,Todo Aprobado,Ejecución de pedido de artículo 21990,Enviado,F,PPAR1048T,0,0,14/01/2025,EXPRESO LUJAN DEL CUYO SA,383148,46.1%,.00,T
 40406,56 CIRUBON S.A.,Facturada,Todo Aprobado,Ejecución de pedido de artículo 21992,Enviado,F,BV002,0,0,14/01/2025,RETIRAN,383150,70.8%,.00,T
 40406,56 CIRUBON S.A.,Facturada,Todo Aprobado,Ejecución de pedido de artículo 21992,Enviado,F,6158/001,0,0,14/01/2025,RETIRAN,383150,59.1%,.00,T
-40407,9400682 EDERA S.A.,Facturada,Todo Aprobado,Ejecución de pedido de artículo 21993,Enviado,F,PPAR1048T,0,0,14/01/2025,EXPRESO LUJAN DEL CUYO SA,383151,41.5%,.00,T
 40407,9400682 EDERA S.A.,Facturada,Todo Aprobado,Ejecución de pedido de artículo 21997,Enviado,F,PPAR1048T,0,0,14/01/2025,EXPRESO LUJAN DEL CUYO SA,383151,41.5%,.00,T
+40407,9400682 EDERA S.A.,Facturada,Todo Aprobado,Ejecución de pedido de artículo 21993,Enviado,F,PPAR1048T,0,0,14/01/2025,EXPRESO LUJAN DEL CUYO SA,383151,41.5%,.00,T
 40412,583 TERRAGENE SA,Facturada,Todo Aprobado,Ejecución de pedido de artículo 21995,Enviado,F,04965-00014-00,0,0,14/01/2025,RICARDO PIERONI,383528,54.6%,.00,T
 40413,9402185 MONCHAMP INDUSTRIAS SRL,Facturada,Todo Aprobado,Ejecución de pedido de artículo 21994,Enviado,F,MVAQUA180,0,0,14/01/2025,ALMAR ROSARIO SRL,383879,34.2%,.00,T
 40419,9402135 ALBERTO G MORO SRL,Facturada,Todo Aprobado,Ejecución de pedido de artículo 21991,Enviado,F,MVAQUA180,0,0,14/01/2025,BARRY LATIMER,384774,0.0%,.00,T
@@ -217,8 +217,8 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 40364,6220 INDUSTRIAL DECKERT S.R.L.,Parcialmente ejecutada,Todo Aprobado,Factura de venta 36411,Abierta,F,MTS548B,0,1620,21/01/2025,EXPRESO CARGO SA,380227,34.7%,3078.00,
 40364,6220 INDUSTRIAL DECKERT S.R.L.,Parcialmente ejecutada,Todo Aprobado,Ejecución de pedido de artículo 22037,Enviado,F,MTS548B,0,1620,21/01/2025,EXPRESO CARGO SA,380227,34.7%,3078.00,T
 40411,3051 FRIMETAL S.A.,Parcialmente ejecutada,Todo Aprobado,Ejecución de pedido de artículo 22041,Enviado,F,3051/017,0,0,21/01/2025,FELICI JORGE ARIEL,383527,56.8%,.00,T
-40411,3051 FRIMETAL S.A.,Parcialmente ejecutada,Todo Aprobado,Ejecución de pedido de artículo 22034,Enviado,F,MTS548B,0,2448,21/01/2025,FELICI JORGE ARIEL,383527,57.1%,6.093.416,T
 40411,3051 FRIMETAL S.A.,Parcialmente ejecutada,Todo Aprobado,Factura de venta 01253,Abierta,F,MTS548B,0,2448,21/01/2025,FELICI JORGE ARIEL,383527,57.1%,6.093.416,
+40411,3051 FRIMETAL S.A.,Parcialmente ejecutada,Todo Aprobado,Ejecución de pedido de artículo 22034,Enviado,F,MTS548B,0,2448,21/01/2025,FELICI JORGE ARIEL,383527,57.1%,6.093.416,T
 40411,3051 FRIMETAL S.A.,Parcialmente ejecutada,Todo Aprobado,Ejecución de pedido de artículo 22034,Enviado,F,PPAR1048M,0,0,21/01/2025,FELICI JORGE ARIEL,383527,32.5%,.00,T
 40411,3051 FRIMETAL S.A.,Parcialmente ejecutada,Todo Aprobado,Ejecución de pedido de artículo 22034,Enviado,F,PVC636A,0,0,21/01/2025,FELICI JORGE ARIEL,383527,84.5%,.00,T
 40415,9400523 SUCESORES DE ALFREDO WILLINER SA,Parcialmente ejecutada,Todo Aprobado,Ejecución de pedido de artículo 22043,Enviado,F,PPAR1048T,0,0,21/01/2025,BARRY LATIMER,384427,0.0%,.00,T
@@ -296,6 +296,8 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 40484,5039 PRODUCTORA ALIMENTARIA INT SRL,Ejecución de la orden pendiente,Todo Aprobado, ,,F,PPA1548TE,0,270,27/01/2025,EXPRESO CARGO SA,390368,59.4%,569.70,
 40485,9400422 LACTEOS TONUTTI S.R.L.,Ejecución de la orden pendiente,Todo Aprobado, ,,F,PPHR15048XT,60,0,27/01/2025,TRANSPORTE MOSTTO,390374,41.5%,1311.00,
 40488,960 LSG SKY CHEFS ARGENTINA SA,Ejecución de la orden pendiente,Todo Aprobado, ,,F,PPAR1048T,252,0,28/01/2025,EXPRESO CARGO SA,390845,58.0%,330.12,
+40493,1499 FAIART ARGENTINA SA,Ejecución de la orden pendiente,Todo Aprobado, ,,F,PPAR1072T,120,0,28/01/2025,RICARDO PIERONI,391040,56.5%,240.00,
+40493,1499 FAIART ARGENTINA SA,Ejecución de la orden pendiente,Todo Aprobado, ,,F,CH523EXR,64,0,28/01/2025,RICARDO PIERONI,391040,56.1%,960.00,
 40418,3909 LIBECO FILM SA,Ejecución de la orden pendiente,Todo Aprobado, ,,F,PPAR524T,144,0,29/01/2025,EXPRESO CARGO SA,384673,99.5%,36.00,
 40418,3909 LIBECO FILM SA,Ejecución de la orden pendiente,Todo Aprobado, ,,F,PPAR1048T,540,0,29/01/2025,EXPRESO CARGO SA,384673,44.3%,534.60,
 40418,3909 LIBECO FILM SA,Ejecución de la orden pendiente,Todo Aprobado, ,,F,PPAR548T,72,0,29/01/2025,EXPRESO CARGO SA,384673,99.8%,36.00,
