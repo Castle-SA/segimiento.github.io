@@ -210,11 +210,11 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 38511,4733 TECNOSISTEM SRL,Facturada,Todo Aprobado,Ejecución de pedido de artículo 22036,Enviado,F,MTS536B,0,0,21/01/2025,EXPRESO CARGO SA,281743,46.1%,.00,T
 39930,5019 GRANJA TRES ARROYOS SACAFEI,Facturada,Todo Aprobado,Ejecución de pedido de artículo 22042,Enviado,F,5019/004,0,0,21/01/2025,EXPRESO CARGO SA,346062,60.2%,.00,T
 40349,3089 ARNEG ARGENTINA S.A.,Parcialmente ejecutada,Todo Aprobado,Ejecución de pedido de artículo 22038,Enviado,F,3089/082,0,200,21/01/2025,RICARDO PIERONI,379058,72.9%,440.80,T
-40364,6220 INDUSTRIAL DECKERT S.R.L.,Parcialmente ejecutada,Todo Aprobado,Factura de venta 36411,Abierta,F,MTS548B,0,1620,21/01/2025,EXPRESO CARGO SA,380227,34.7%,3078.00,
 40364,6220 INDUSTRIAL DECKERT S.R.L.,Parcialmente ejecutada,Todo Aprobado,Ejecución de pedido de artículo 22037,Enviado,F,MTS548B,0,1620,21/01/2025,EXPRESO CARGO SA,380227,34.7%,3078.00,T
+40364,6220 INDUSTRIAL DECKERT S.R.L.,Parcialmente ejecutada,Todo Aprobado,Factura de venta 36411,Abierta,F,MTS548B,0,1620,21/01/2025,EXPRESO CARGO SA,380227,34.7%,3078.00,
 40411,3051 FRIMETAL S.A.,Parcialmente ejecutada,Todo Aprobado,Ejecución de pedido de artículo 22041,Enviado,F,3051/017,0,0,21/01/2025,FELICI JORGE ARIEL,383527,56.8%,.00,T
-40411,3051 FRIMETAL S.A.,Parcialmente ejecutada,Todo Aprobado,Factura de venta 01253,Abierta,F,MTS548B,0,2448,21/01/2025,FELICI JORGE ARIEL,383527,57.1%,6.093.416,
 40411,3051 FRIMETAL S.A.,Parcialmente ejecutada,Todo Aprobado,Ejecución de pedido de artículo 22034,Enviado,F,MTS548B,0,2448,21/01/2025,FELICI JORGE ARIEL,383527,57.1%,6.093.416,T
+40411,3051 FRIMETAL S.A.,Parcialmente ejecutada,Todo Aprobado,Factura de venta 01253,Abierta,F,MTS548B,0,2448,21/01/2025,FELICI JORGE ARIEL,383527,57.1%,6.093.416,
 40411,3051 FRIMETAL S.A.,Parcialmente ejecutada,Todo Aprobado,Ejecución de pedido de artículo 22034,Enviado,F,PPAR1048M,0,0,21/01/2025,FELICI JORGE ARIEL,383527,32.5%,.00,T
 40411,3051 FRIMETAL S.A.,Parcialmente ejecutada,Todo Aprobado,Ejecución de pedido de artículo 22034,Enviado,F,PVC636A,0,0,21/01/2025,FELICI JORGE ARIEL,383527,84.5%,.00,T
 40415,9400523 SUCESORES DE ALFREDO WILLINER SA,Parcialmente ejecutada,Todo Aprobado,Ejecución de pedido de artículo 22043,Enviado,F,PPAR1048T,0,0,21/01/2025,BARRY LATIMER,384427,0.0%,.00,T
@@ -291,7 +291,7 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 40361,4095 REFINERIA DEL CENTRO SA,Ejecución de la orden pendiente,Todo Aprobado, ,,F,PPAR1072T,2700,0,27/01/2025,EXPRESO SANTA ROSA,379928,50.9%,4725.00,
 40484,5039 PRODUCTORA ALIMENTARIA INT SRL,Ejecución de la orden pendiente,Todo Aprobado, ,,F,PPA1548TE,0,270,27/01/2025,EXPRESO CARGO SA,390368,59.4%,569.70,
 40485,9400422 LACTEOS TONUTTI S.R.L.,Ejecución de la orden pendiente,Todo Aprobado, ,,F,PPHR15048XT,60,0,27/01/2025,TRANSPORTE MOSTTO,390374,41.5%,1311.00,
-40488,960 LSG SKY CHEFS ARGENTINA SA,Ejecución de la orden pendiente,Todo Aprobado, ,,F,PPAR1048T,252,0,28/01/2025,EXPRESO CARGO SA,390845,58.0%,330.12,
+40488,960 LSG SKY CHEFS ARGENTINA SA,Facturación pendiente,Todo Aprobado,Ejecución de pedido de artículo 22085,Enviado,F,PPAR1048T,0,0,27/01/2025,EXPRESO CARGO SA,390845,58.0%,.00,F
 40493,1499 FAIART ARGENTINA SA,Ejecución de la orden pendiente,Todo Aprobado, ,,F,PPAR1072T,120,0,28/01/2025,RICARDO PIERONI,391040,56.5%,240.00,
 40493,1499 FAIART ARGENTINA SA,Ejecución de la orden pendiente,Todo Aprobado, ,,F,CH523EXR,64,0,28/01/2025,RICARDO PIERONI,391040,56.1%,960.00,
 40418,3909 LIBECO FILM SA,Ejecución de la orden pendiente,Todo Aprobado, ,,F,PPAR524T,144,0,29/01/2025,EXPRESO CARGO SA,384673,99.5%,36.00,
