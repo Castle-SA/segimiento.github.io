@@ -28,8 +28,8 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 40330,699 MOLINAS ARGENTINA S.R.L.,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 21892,Remitido,F,PPAR1072T,0,0,02/01/2025,EXPRESO BRIO SRL,376877,45.6%,189.60,T
 40329,6374 AMIANTO ROSARIO de FERRARO RAYMUNDO ANTONIO,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 21891,Remitido,F,PVC612R,0,0,02/01/2025,RICARDO PIERONI,376983,67.9%,266.40,T
 40331,812 SYSTEL SA,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 21893,Remitido,F,07063-00012-24,0,0,02/01/2025,EXPRESO CARGO SA,377190,60.2%,1321.25,T
-40332,12877 BRIKET SA,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 21894,Remitido,F,MUESTRA ESPECIAL,0,0,02/01/2025,FELICI JORGE ARIEL,377349,100.0%,126.42,T
 40332,12877 BRIKET SA,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 21882,Remitido,F,MUESTRA ESPECIAL,0,0,02/01/2025,FELICI JORGE ARIEL,377349,100.0%,541.80,T
+40332,12877 BRIKET SA,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 21894,Remitido,F,MUESTRA ESPECIAL,0,0,02/01/2025,FELICI JORGE ARIEL,377349,100.0%,126.42,T
 40334,3938 ELECTRO HOGAR INTERNACIONAL SA,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 21881,Remitido,F,PVC624A,0,0,02/01/2025,EXPRESO CARGO SA,377388,84.4%,859.68,T
 40339,3029 DARK SRL,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 21883,Remitido,F,PPAR1048T,0,0,02/01/2025,RICARDO PIERONI,378068,55.4%,225.00,T
 40341,4636 FRIGORIFICO BERMEJO SA,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 21888,Remitido,F,PPAR1048T,0,0,02/01/2025,LA SEVILLANITA SRL,378273,52.9%,2142.00,T
@@ -158,8 +158,8 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 40404,430 EMPAQUE S.A.,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 21990,Remitido,F,PPAR1048T,0,0,14/01/2025,EXPRESO LUJAN DEL CUYO SA,383148,46.1%,550.80,T
 40406,56 CIRUBON S.A.,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 21992,Remitido,F,BV002,0,0,14/01/2025,RETIRAN,383150,70.8%,791.20,T
 40406,56 CIRUBON S.A.,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 21992,Remitido,F,6158/001,0,0,14/01/2025,RETIRAN,383150,59.1%,376.00,T
-40407,9400682 EDERA S.A.,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 21993,Remitido,F,PPAR1048T,0,0,14/01/2025,EXPRESO LUJAN DEL CUYO SA,383151,41.5%,4060.80,T
 40407,9400682 EDERA S.A.,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 21997,Remitido,F,PPAR1048T,0,0,14/01/2025,EXPRESO LUJAN DEL CUYO SA,383151,41.5%,4060.80,T
+40407,9400682 EDERA S.A.,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 21993,Remitido,F,PPAR1048T,0,0,14/01/2025,EXPRESO LUJAN DEL CUYO SA,383151,41.5%,4060.80,T
 40412,583 TERRAGENE SA,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 21995,Remitido,F,04965-00014-00,0,0,14/01/2025,RICARDO PIERONI,383528,54.6%,6840.00,T
 40413,9402185 MONCHAMP INDUSTRIAS SRL,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 21994,Remitido,F,MVAQUA180,0,0,14/01/2025,ALMAR ROSARIO SRL,383879,34.2%,986.00,T
 40419,9402135 ALBERTO G MORO SRL,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 21991,Remitido,F,MVAQUA180,0,0,14/01/2025,BARRY LATIMER,384774,0.0%,.00,T
@@ -346,6 +346,6 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 40423,5098 BOR UR SRL,Ejecución de la orden pendiente,Todo Aprobado, ,,F,H11/CPE,1,0,,RETIRAN,385306,0.0%,.00,
 40433,9400334 CAPITAN DEL ESPACIO SA,Ejecución de la orden pendiente,Todo Aprobado, ,,F,9400334/001,0,40,,EXPRESO CARGO SA,386275,77.9%,1160.00,
 40476,9400115 BEST COLD SRL,Ejecución de la orden pendiente,Todo Aprobado, ,,F,MTS548B,0,1740,,FELICI JORGE ARIEL,389458,27.2%,3393.00,
-40498,3089 ARNEG ARGENTINA S.A.,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Liberada,F,3089/078,0,30000,,RICARDO PIERONI,391405,52.9%,1710.00,
-40498,3089 ARNEG ARGENTINA S.A.,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Liberada,F,3089/078,0,20000,,RICARDO PIERONI,391405,60.5%,1360.00,
+40498,3089 ARNEG ARGENTINA S.A.,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Liberada,F,3089/077,0,30000,,RICARDO PIERONI,391405,63.2%,1710.00,
+40498,3089 ARNEG ARGENTINA S.A.,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Liberada,F,3089/078,0,21000,,RICARDO PIERONI,391405,60.5%,1428.00,
 40498,3089 ARNEG ARGENTINA S.A.,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Liberada,F,3089/079,0,15000,,RICARDO PIERONI,391405,63.6%,1350.00,
