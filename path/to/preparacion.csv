@@ -256,6 +256,7 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 40480,629 INDUSTRIAS QUIMICAS BG SRL,Facturada,Todo Aprobado,Ejecución de pedido de artículo 22059,Enviado,F,PPAR1048T,0,0,22/01/2025,RICARDO PIERONI,389719,64.1%,.00,T
 40480,629 INDUSTRIAS QUIMICAS BG SRL,Facturada,Todo Aprobado,Ejecución de pedido de artículo 22059,Enviado,F,H11/CPE,0,0,22/01/2025,RICARDO PIERONI,389719,68.4%,.00,T
 40480,629 INDUSTRIAS QUIMICAS BG SRL,Facturada,Todo Aprobado,Ejecución de pedido de artículo 22059,Enviado,F,H11/48,0,0,22/01/2025,RICARDO PIERONI,389719,71.0%,.00,T
+40481,9402145 MOLINARI SA,Ejecución de la orden pendiente,Todo Aprobado, ,,F,MVAQUA1810HG,0,20,22/01/2025,EXPRESO CARGO SA,389728,0.0%,.00,
 40304,3577 TIEMPO FELIZ SA,Facturada,Todo Aprobado,Ejecución de pedido de artículo 22071,Enviado,F,3577/001,0,0,23/01/2025,EXPRESO CARGO SA,375103,52.8%,.00,T
 40304,3577 TIEMPO FELIZ SA,Facturada,Todo Aprobado,Ejecución de pedido de artículo 22071,Enviado,F,PPAR1048T,0,0,23/01/2025,EXPRESO CARGO SA,375103,58.0%,.00,T
 40322,15 INDUSTRIAS JOHN DEERE ARGENTINA S.A.,Facturada,Todo Aprobado,Ejecución de pedido de artículo 22069,Enviado,F,LC579,0,0,23/01/2025,FELICI JORGE ARIEL,376417,63.6%,.00,T
@@ -287,7 +288,7 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 40486,396 IPROA SA,Facturada,Todo Aprobado,Ejecución de pedido de artículo 22079,Enviado,F,PPAR1048T,0,0,24/01/2025,RICARDO PIERONI,390382,69.4%,.00,T
 40486,396 IPROA SA,Facturada,Todo Aprobado,Ejecución de pedido de artículo 22079,Enviado,F,04965-00177-00,0,0,24/01/2025,RICARDO PIERONI,390382,58.1%,.00,T
 40490,1343 NEWSAN SA,Facturación pendiente,Todo Aprobado,Ejecución de pedido de artículo 22084,Enviado,F,MF518T,0,0,24/01/2025,EXPRESO CARGO SA,390742,60.4%,.00,F
-40324,15 INDUSTRIAS JOHN DEERE ARGENTINA S.A.,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Cerrada,F,0015/008,0,300,27/01/2025,FELICI JORGE ARIEL,376419,73.0%,3210.00,
+40324,15 INDUSTRIAS JOHN DEERE ARGENTINA S.A.,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Ensamblada,F,0015/008,300,0,27/01/2025,FELICI JORGE ARIEL,376419,73.0%,3210.00,
 40357,1029 DREAN SA,Facturada,Todo Aprobado,Ejecución de pedido de artículo 22090,Enviado,F,0272/003,0,0,27/01/2025,EXPRESO CARGO SA,379801,45.2%,.00,T
 40484,5039 PRODUCTORA ALIMENTARIA INT SRL,Ejecución de la orden pendiente,Todo Aprobado, ,,F,PPA1548TE,0,270,27/01/2025,EXPRESO CARGO SA,390368,59.4%,569.70,
 40485,9400422 LACTEOS TONUTTI S.R.L.,Facturada,Todo Aprobado,Ejecución de pedido de artículo 22089,Enviado,F,PPHR15048XT,0,0,27/01/2025,TRANSPORTE MOSTTO,390374,41.5%,.00,T
@@ -306,6 +307,7 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 40491,3089 ARNEG ARGENTINA S.A.,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Ensamblada,F,3089/077,5200,0,31/01/2025,RICARDO PIERONI,391021,63.2%,296.40,
 40491,3089 ARNEG ARGENTINA S.A.,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Ensamblada,F,3089/079,16900,0,31/01/2025,RICARDO PIERONI,391021,63.6%,1521.00,
 40492,3089 ARNEG ARGENTINA S.A.,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Ensamblada,F,3089/029,12000,0,31/01/2025,RICARDO PIERONI,391023,87.0%,408.00,
+40496,15 INDUSTRIAS JOHN DEERE ARGENTINA S.A.,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Ensamblada,F,0015/008,300,0,31/01/2025,FELICI JORGE ARIEL,391276,73.0%,3210.00,
 37683,3096 FRECICAR SRL,Ejecución de la orden pendiente,Todo Aprobado, ,,F,52330-00040-00,7,0,03/02/2025,RICARDO PIERONI,253464,51.4%,3010.00,
 40287,992 ESKABE SA,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Ensamblada,F,PVC624A,72,0,03/02/2025,EXPRESO CARGO SA,374071,84.7%,440.64,
 40408,4089 SOBRERO Y CAGNOLO SA,Ejecución de la orden pendiente,Todo Aprobado, ,,F,PPHR15048XT,125,0,04/02/2025,RICARDO PIERONI,383263,54.4%,3500.00,
@@ -323,7 +325,7 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 40102,272 TALLERES METALURGICOS BAMBI S.A.,Ejecución de la orden pendiente,Todo Aprobado, ,,F,0272/003,0,66,05/03/2025,FELICI JORGE ARIEL,359279,43.7%,6468.00,
 40102,272 TALLERES METALURGICOS BAMBI S.A.,Ejecución de la orden pendiente,Todo Aprobado, ,,F,0272/006,0,80,05/03/2025,FELICI JORGE ARIEL,359279,34.7%,2613.60,
 40102,272 TALLERES METALURGICOS BAMBI S.A.,Ejecución de la orden pendiente,Todo Aprobado, ,,F,PPAR1072T,0,1440,05/03/2025,FELICI JORGE ARIEL,359279,71.4%,4334.40,
-39934,67 FORD ARGENTINA S.C.A.,Ejecución de la orden pendiente,Todo Aprobado, ,,F,BV002,20268,24432,19/03/2025,ALMAR ROSARIO SRL,346461,66.7%,387996.00,
+39934,67 FORD ARGENTINA S.C.A.,Ejecución de la orden pendiente,Todo Aprobado, ,,F,BV002,19668,25032,19/03/2025,ALMAR ROSARIO SRL,346461,66.7%,387996.00,
 40449,202 FRIGORIFICO DE AVES SOYCHU SA,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Liberada,F,PVC612R,0,600,24/03/2025,EXPRESO CARGO SA,388046,56.4%,810.00,
 40463,202 FRIGORIFICO DE AVES SOYCHU SA,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Liberada,F,PVC612R,0,800,24/03/2025,EXPRESO CARGO SA,388842,56.4%,1080.00,
 37685,3096 FRECICAR SRL,Ejecución de la orden pendiente,Todo Aprobado, ,,F,52330-00040-00,7,0,03/04/2025,RICARDO PIERONI,253466,51.4%,3010.00,
