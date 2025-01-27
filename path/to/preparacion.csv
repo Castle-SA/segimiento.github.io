@@ -210,11 +210,11 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 38511,4733 TECNOSISTEM SRL,Facturada,Todo Aprobado,Ejecución de pedido de artículo 22036,Enviado,F,MTS536B,0,0,21/01/2025,EXPRESO CARGO SA,281743,46.1%,.00,T
 39930,5019 GRANJA TRES ARROYOS SACAFEI,Facturada,Todo Aprobado,Ejecución de pedido de artículo 22042,Enviado,F,5019/004,0,0,21/01/2025,EXPRESO CARGO SA,346062,60.2%,.00,T
 40349,3089 ARNEG ARGENTINA S.A.,Parcialmente ejecutada,Todo Aprobado,Ejecución de pedido de artículo 22038,Enviado,F,3089/082,0,200,21/01/2025,RICARDO PIERONI,379058,72.9%,440.80,T
-40364,6220 INDUSTRIAL DECKERT S.R.L.,Parcialmente ejecutada,Todo Aprobado,Ejecución de pedido de artículo 22037,Enviado,F,MTS548B,0,1620,21/01/2025,EXPRESO CARGO SA,380227,34.7%,3078.00,T
 40364,6220 INDUSTRIAL DECKERT S.R.L.,Parcialmente ejecutada,Todo Aprobado,Factura de venta 36411,Abierta,F,MTS548B,0,1620,21/01/2025,EXPRESO CARGO SA,380227,34.7%,3078.00,
+40364,6220 INDUSTRIAL DECKERT S.R.L.,Parcialmente ejecutada,Todo Aprobado,Ejecución de pedido de artículo 22037,Enviado,F,MTS548B,0,1620,21/01/2025,EXPRESO CARGO SA,380227,34.7%,3078.00,T
 40411,3051 FRIMETAL S.A.,Parcialmente ejecutada,Todo Aprobado,Ejecución de pedido de artículo 22041,Enviado,F,3051/017,0,0,21/01/2025,FELICI JORGE ARIEL,383527,56.8%,.00,T
-40411,3051 FRIMETAL S.A.,Parcialmente ejecutada,Todo Aprobado,Factura de venta 01253,Abierta,F,MTS548B,0,2448,21/01/2025,FELICI JORGE ARIEL,383527,57.1%,6.093.416,
 40411,3051 FRIMETAL S.A.,Parcialmente ejecutada,Todo Aprobado,Ejecución de pedido de artículo 22034,Enviado,F,MTS548B,0,2448,21/01/2025,FELICI JORGE ARIEL,383527,57.1%,6.093.416,T
+40411,3051 FRIMETAL S.A.,Parcialmente ejecutada,Todo Aprobado,Factura de venta 01253,Abierta,F,MTS548B,0,2448,21/01/2025,FELICI JORGE ARIEL,383527,57.1%,6.093.416,
 40411,3051 FRIMETAL S.A.,Parcialmente ejecutada,Todo Aprobado,Ejecución de pedido de artículo 22034,Enviado,F,PPAR1048M,0,0,21/01/2025,FELICI JORGE ARIEL,383527,32.5%,.00,T
 40411,3051 FRIMETAL S.A.,Parcialmente ejecutada,Todo Aprobado,Ejecución de pedido de artículo 22034,Enviado,F,PVC636A,0,0,21/01/2025,FELICI JORGE ARIEL,383527,84.5%,.00,T
 40415,9400523 SUCESORES DE ALFREDO WILLINER SA,Parcialmente ejecutada,Todo Aprobado,Ejecución de pedido de artículo 22043,Enviado,F,PPAR1048T,0,0,21/01/2025,BARRY LATIMER,384427,0.0%,.00,T
@@ -303,8 +303,8 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 40409,9400536 MILKAUT SA,Ejecución de la orden pendiente,Todo Aprobado, ,,F,PPHR15048XT,209,0,31/01/2025,RICARDO PIERONI,383264,48.7%,5204.10,
 40487,132 MAHLE VALVULAS DE ARGENTINA SA,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Ensamblada,F,3351/001,10000,0,31/01/2025,EXPRESO SANTA ROSA,390740,96.8%,1370.00,
 40489,3089 ARNEG ARGENTINA S.A.,Ejecución de la orden pendiente,Todo Aprobado, ,,F,PER3040U,300,0,31/01/2025,EXPRESO CARGO SA,390741,59.6%,555.90,
-40491,3089 ARNEG ARGENTINA S.A.,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Liberada,F,3089/077,0,5200,31/01/2025,RICARDO PIERONI,391021,63.2%,296.40,
-40491,3089 ARNEG ARGENTINA S.A.,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Liberada,F,3089/079,0,16900,31/01/2025,RICARDO PIERONI,391021,63.6%,1521.00,
+40491,3089 ARNEG ARGENTINA S.A.,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Ensamblada,F,3089/077,5200,0,31/01/2025,RICARDO PIERONI,391021,63.2%,296.40,
+40491,3089 ARNEG ARGENTINA S.A.,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Ensamblada,F,3089/079,16900,0,31/01/2025,RICARDO PIERONI,391021,63.6%,1521.00,
 40492,3089 ARNEG ARGENTINA S.A.,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Ensamblada,F,3089/029,12000,0,31/01/2025,RICARDO PIERONI,391023,87.0%,408.00,
 37683,3096 FRECICAR SRL,Ejecución de la orden pendiente,Todo Aprobado, ,,F,52330-00040-00,7,0,03/02/2025,RICARDO PIERONI,253464,51.4%,3010.00,
 40287,992 ESKABE SA,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Ensamblada,F,PVC624A,72,0,03/02/2025,EXPRESO CARGO SA,374071,84.7%,440.64,
