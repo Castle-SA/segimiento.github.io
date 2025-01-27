@@ -28,8 +28,8 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 40330,699 MOLINAS ARGENTINA S.R.L.,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 21892,Remitido,F,PPAR1072T,0,0,02/01/2025,EXPRESO BRIO SRL,376877,45.6%,189.60,T
 40329,6374 AMIANTO ROSARIO de FERRARO RAYMUNDO ANTONIO,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 21891,Remitido,F,PVC612R,0,0,02/01/2025,RICARDO PIERONI,376983,67.9%,266.40,T
 40331,812 SYSTEL SA,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 21893,Remitido,F,07063-00012-24,0,0,02/01/2025,EXPRESO CARGO SA,377190,60.2%,1321.25,T
-40332,12877 BRIKET SA,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 21894,Remitido,F,MUESTRA ESPECIAL,0,0,02/01/2025,FELICI JORGE ARIEL,377349,100.0%,126.42,T
 40332,12877 BRIKET SA,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 21882,Remitido,F,MUESTRA ESPECIAL,0,0,02/01/2025,FELICI JORGE ARIEL,377349,100.0%,541.80,T
+40332,12877 BRIKET SA,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 21894,Remitido,F,MUESTRA ESPECIAL,0,0,02/01/2025,FELICI JORGE ARIEL,377349,100.0%,126.42,T
 40334,3938 ELECTRO HOGAR INTERNACIONAL SA,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 21881,Remitido,F,PVC624A,0,0,02/01/2025,EXPRESO CARGO SA,377388,84.4%,859.68,T
 40339,3029 DARK SRL,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 21883,Remitido,F,PPAR1048T,0,0,02/01/2025,RICARDO PIERONI,378068,55.4%,225.00,T
 40341,4636 FRIGORIFICO BERMEJO SA,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 21888,Remitido,F,PPAR1048T,0,0,02/01/2025,LA SEVILLANITA SRL,378273,52.9%,2142.00,T
@@ -306,6 +306,8 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 40418,3909 LIBECO FILM SA,Ejecución de la orden pendiente,Todo Aprobado, ,,F,PPAR548T,72,0,29/01/2025,EXPRESO CARGO SA,384673,99.8%,36.00,
 40500,4111 INDUSTRIALIZADORA S.A.,Ejecución de la orden pendiente,Todo Aprobado, ,,F,H11/48,20,0,29/01/2025,TRANSPORTE MOSTTO,391424,47.4%,442.00,
 40500,4111 INDUSTRIALIZADORA S.A.,Ejecución de la orden pendiente,Todo Aprobado, ,,F,PPAR1048T,180,0,29/01/2025,TRANSPORTE MOSTTO,391424,47.6%,189.00,
+40501,6217 FULLPOINT SRL,Ejecución de la orden pendiente,Todo Aprobado, ,,F,PPAR1048T,36,0,29/01/2025,RICARDO PIERONI,391528,69.4%,64.80,
+40501,6217 FULLPOINT SRL,Ejecución de la orden pendiente,Todo Aprobado, ,,F,PPAR1024T,0,360,29/01/2025,RICARDO PIERONI,391528,37.0%,360.00,
 40365,1029 DREAN SA,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Ensamblada,F,0272/005,240,0,31/01/2025,EXPRESO CARGO SA,380388,44.0%,2352.00,
 40409,9400536 MILKAUT SA,Ejecución de la orden pendiente,Todo Aprobado, ,,F,PPHR15048XT,209,0,31/01/2025,RICARDO PIERONI,383264,48.7%,5204.10,
 40489,3089 ARNEG ARGENTINA S.A.,Ejecución de la orden pendiente,Todo Aprobado, ,,F,PER3040U,300,0,31/01/2025,EXPRESO CARGO SA,390741,59.6%,555.90,
