@@ -324,8 +324,8 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 40504,9401956 COMERCIAL INAL 2005 SA,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 22108,Remitido,F,PPAR10048T,0,0,29/01/2025,TRANSPORTE TOMASSINI,392146,45.8%,819.60,T,
 40504,9401956 COMERCIAL INAL 2005 SA,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 22108,Remitido,F,PPAR1048T,0,0,29/01/2025,TRANSPORTE TOMASSINI,392146,50.0%,792.00,T,
 40506,2094 FABEN SA,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 22114,Remitido,F,2094/002,0,0,29/01/2025,BARRY LATIMER,392271,71.4%,1829.52,T,zNLDFlJz
-40508,4 BEROWOOD SRL,Parcialmente ejecutada,Todo Aprobado,Factura de venta 36467,Abierta,F,PPA1048F,0,72,29/01/2025,RICARDO PIERONI,392408,58.0%,216.00,,Z8FuMVmz
 40508,4 BEROWOOD SRL,Parcialmente ejecutada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 22115,Remitido,F,PPA1048F,0,72,29/01/2025,RICARDO PIERONI,392408,58.0%,108.00,T,Z8FuMVmz
+40508,4 BEROWOOD SRL,Parcialmente ejecutada,Todo Aprobado,Factura de venta 36467,Abierta,F,PPA1048F,0,72,29/01/2025,RICARDO PIERONI,392408,58.0%,216.00,,Z8FuMVmz
 40511,3086 MULTIORIGINAL PARTS SA,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 22116,Remitido,F,PPAR1048T,0,0,29/01/2025,EXPRESO LUJAN DEL CUYO SA,392520,58.0%,471.60,T,o9Upb21D
 40512,9400444 CRONI SA,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 22120,Remitido,F,PPHR15048XT,0,0,29/01/2025,EXPRESO CARGO SA,392521,54.4%,1344.00,T,
 40513,3086 MULTIORIGINAL PARTS SA,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 22117,Remitido,F,PPAR1048T,0,0,29/01/2025,TRANSPORTE TOMASSINI,392522,58.0%,943.20,T,o9Upb21D
@@ -356,7 +356,7 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 40102,272 TALLERES METALURGICOS BAMBI S.A.,Ejecución de la orden pendiente,Todo Aprobado, ,,F,PPAR1072T,0,1440,05/03/2025,FELICI JORGE ARIEL,359279,71.4%,4334.40,,8f8BuSqi
 39934,67 FORD ARGENTINA S.C.A.,Ejecución de la orden pendiente,Todo Aprobado, ,,F,BV002,19668,25032,19/03/2025,ALMAR ROSARIO SRL,346461,66.7%,387996.00,,Z5UuMVJq
 40449,202 FRIGORIFICO DE AVES SOYCHU SA,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Ensamblada,F,PVC612R,600,0,24/03/2025,EXPRESO CARGO SA,388046,56.4%,810.00,,eEQxxqyj
-40463,202 FRIGORIFICO DE AVES SOYCHU SA,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Liberada,F,PVC612R,0,800,24/03/2025,EXPRESO CARGO SA,388842,56.4%,1080.00,,eEQxxqyj
+40463,202 FRIGORIFICO DE AVES SOYCHU SA,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Ensamblada,F,PVC612R,800,0,24/03/2025,EXPRESO CARGO SA,388842,56.4%,1080.00,,eEQxxqyj
 37685,3096 FRECICAR SRL,Ejecución de la orden pendiente,Todo Aprobado, ,,F,52330-00040-00,7,0,03/04/2025,RICARDO PIERONI,253466,51.4%,3010.00,,W3xptHER
 37686,3096 FRECICAR SRL,Ejecución de la orden pendiente,Todo Aprobado, ,,F,52330-00040-00,7,0,05/05/2025,RICARDO PIERONI,253467,51.4%,3010.00,,W3xptHER
 40434,812 SYSTEL SA,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Liberada,F,07063-00012-16,0,5,28/05/2025,EXPRESO CARGO SA,386405,60.9%,174.25,,eo81Y0F0
