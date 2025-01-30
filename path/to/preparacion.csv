@@ -151,8 +151,8 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 40404,430 EMPAQUE S.A.,Facturada,Todo Aprobado,Ejecución de pedido de artículo 21990,Enviado,F,PPAR1048T,0,0,14/01/2025,EXPRESO LUJAN DEL CUYO SA,383148,46.1%,.00,T,0EEMAYqD
 40406,56 CIRUBON S.A.,Facturada,Todo Aprobado,Ejecución de pedido de artículo 21992,Enviado,F,BV002,0,0,14/01/2025,RETIRAN,383150,70.8%,.00,T,1dOipHtL
 40406,56 CIRUBON S.A.,Facturada,Todo Aprobado,Ejecución de pedido de artículo 21992,Enviado,F,6158/001,0,0,14/01/2025,RETIRAN,383150,59.1%,.00,T,1dOipHtL
-40407,9400682 EDERA S.A.,Facturada,Todo Aprobado,Ejecución de pedido de artículo 21993,Enviado,F,PPAR1048T,0,0,14/01/2025,EXPRESO LUJAN DEL CUYO SA,383151,41.5%,.00,T,
 40407,9400682 EDERA S.A.,Facturada,Todo Aprobado,Ejecución de pedido de artículo 21997,Enviado,F,PPAR1048T,0,0,14/01/2025,EXPRESO LUJAN DEL CUYO SA,383151,41.5%,.00,T,
+40407,9400682 EDERA S.A.,Facturada,Todo Aprobado,Ejecución de pedido de artículo 21993,Enviado,F,PPAR1048T,0,0,14/01/2025,EXPRESO LUJAN DEL CUYO SA,383151,41.5%,.00,T,
 40412,583 TERRAGENE SA,Facturada,Todo Aprobado,Ejecución de pedido de artículo 21995,Enviado,F,04965-00014-00,0,0,14/01/2025,RICARDO PIERONI,383528,54.6%,.00,T,O03Q3FzK
 40413,9402185 MONCHAMP INDUSTRIAS SRL,Facturada,Todo Aprobado,Ejecución de pedido de artículo 21994,Enviado,F,MVAQUA180,0,0,14/01/2025,ALMAR ROSARIO SRL,383879,34.2%,.00,T,
 40419,9402135 ALBERTO G MORO SRL,Facturada,Todo Aprobado,Ejecución de pedido de artículo 21991,Enviado,F,MVAQUA180,0,0,14/01/2025,BARRY LATIMER,384774,0.0%,.00,T,
@@ -213,9 +213,8 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 40415,9400523 SUCESORES DE ALFREDO WILLINER SA,Parcialmente ejecutada,Todo Aprobado,Ejecución de pedido de artículo 22043,Enviado,F,PPAR1048CAST,0,0,21/01/2025,BARRY LATIMER,384427,0.0%,.00,T,
 40415,9400523 SUCESORES DE ALFREDO WILLINER SA,Parcialmente ejecutada,Todo Aprobado,Factura de venta 36405,Pagado por completo,F,PPA1548TE,0,1,21/01/2025,BARRY LATIMER,384427,0.0%,.00,,
 40415,9400523 SUCESORES DE ALFREDO WILLINER SA,Parcialmente ejecutada,Todo Aprobado,Ejecución de pedido de artículo 22043,Enviado,F,H11/CPE,0,0,21/01/2025,BARRY LATIMER,384427,0.0%,.00,T,
-40426,1171 AUTOSAL SA,Parcialmente ejecutada,Todo Aprobado,Ejecución de pedido de artículo 22047,Enviado,F,74662-00003-01,0,0,21/01/2025,EXPRESO CARGO SA,385688,47.5%,.00,T,ogYBrx2u
-40426,1171 AUTOSAL SA,Parcialmente ejecutada,Todo Aprobado,Ejecución de pedido de artículo 22047,Enviado,F,04662-00194-00,0,0,21/01/2025,EXPRESO CARGO SA,385688,65.5%,.00,T,ogYBrx2u
-40426,1171 AUTOSAL SA,Parcialmente ejecutada,Todo Aprobado, ,,F,DT550N,108,0,21/01/2025,EXPRESO CARGO SA,385688,43.4%,1787.40,,ogYBrx2u
+40426,1171 AUTOSAL SA,Facturación pendiente,Todo Aprobado,Ejecución de pedido de artículo 22047,Enviado,F,74662-00003-01,0,0,21/01/2025,EXPRESO CARGO SA,385688,47.5%,.00,T,ogYBrx2u
+40426,1171 AUTOSAL SA,Facturación pendiente,Todo Aprobado,Ejecución de pedido de artículo 22047,Enviado,F,04662-00194-00,0,0,21/01/2025,EXPRESO CARGO SA,385688,65.5%,.00,T,ogYBrx2u
 40430,9401339 QUICKFOOD S.A.,Facturada,Todo Aprobado,Ejecución de pedido de artículo 22039,Enviado,F,PPHR15048XT,0,0,21/01/2025,BERGAMASCHI OSVALDO RAMON,386167,55.9%,.00,T,Adhasdofhoas
 40435,2638 QUE RICO SA,Facturada,Todo Aprobado,Ejecución de pedido de artículo 22044,Enviado,F,PPHR1216B,0,0,21/01/2025,EXPRESO CARGO SA,386406,67.9%,.00,T,mHXJpk9j
 40435,2638 QUE RICO SA,Facturada,Todo Aprobado,Ejecución de pedido de artículo 22044,Enviado,F,PPAR1048T,0,0,21/01/2025,EXPRESO CARGO SA,386406,42.7%,.00,T,mHXJpk9j
@@ -234,7 +233,7 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 39835,1029 DREAN SA,Facturada,Todo Aprobado,Ejecución de pedido de artículo 22060,Enviado,F,0272/005,0,0,22/01/2025,EXPRESO CARGO SA,339800,41.2%,.00,T,RMGF8GCy
 40359,1029 DREAN SA,Facturada,Todo Aprobado,Ejecución de pedido de artículo 22054,Enviado,F,0272/005,0,0,22/01/2025,EXPRESO CARGO SA,379906,44.0%,.00,T,RMGF8GCy
 40381,5095 JUAN J BAIML E HIJOS SRL,Facturada,Todo Aprobado,Ejecución de pedido de artículo 22051,Enviado,F,PPA1548TE,0,0,22/01/2025,RETIRAN,381037,45.3%,.00,T,
-40426,1171 AUTOSAL SA,Parcialmente ejecutada,Todo Aprobado,Ejecución de pedido de artículo 22052,Enviado,F,0272/005,0,0,22/01/2025,EXPRESO CARGO SA,385688,44.0%,.00,T,ogYBrx2u
+40426,1171 AUTOSAL SA,Facturación pendiente,Todo Aprobado,Ejecución de pedido de artículo 22052,Enviado,F,0272/005,0,0,22/01/2025,EXPRESO CARGO SA,385688,44.0%,.00,T,ogYBrx2u
 40427,12815 INDUSTRIAS AVICOLAS SA,Facturada,Todo Aprobado,Ejecución de pedido de artículo 22055,Enviado,F,PPHR1216B,0,0,22/01/2025,TRANSPORTE MOSTTO,385793,59.6%,.00,T,
 40447,4687 ACUERDOS SRL,Facturada,Todo Aprobado,Ejecución de pedido de artículo 22058,Enviado,F,4892/001,0,0,22/01/2025,EXPRESO CARGO SA,387945,100.0%,.00,T,
 40447,4687 ACUERDOS SRL,Facturada,Todo Aprobado,Ejecución de pedido de artículo 22058,Enviado,F,PPAR1048T,0,0,22/01/2025,EXPRESO CARGO SA,387945,47.6%,.00,T,
@@ -266,7 +265,7 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 40268,60 INGERSOLL ARGENTINA S.A.,Facturada,Todo Aprobado,Ejecución de pedido de artículo 22077,Enviado,F,0060/001,0,0,24/01/2025,TRANSPORTE TRAVERSO,372279,83.1%,.00,T,NlcPPTs3
 40309,94010 VISUAR SA,Facturada,Todo Aprobado,Ejecución de pedido de artículo 22083,Enviado,F,1823/002,0,0,24/01/2025,EXPRESO CARGO SA,375420,55.4%,.00,T,
 40410,682 MAYO TRANSFORMADORES S.R.L.,Facturada,Todo Aprobado,Ejecución de pedido de artículo 22081,Enviado,F,CF512T,0,0,24/01/2025,RICARDO PIERONI,383390,82.4%,.00,T,prpuSsFV
-40426,1171 AUTOSAL SA,Parcialmente ejecutada,Todo Aprobado,Ejecución de pedido de artículo 22078,Enviado,F,74662-00002-00,0,0,24/01/2025,EXPRESO CARGO SA,385688,45.0%,.00,T,ogYBrx2u
+40426,1171 AUTOSAL SA,Facturación pendiente,Todo Aprobado,Ejecución de pedido de artículo 22078,Enviado,F,74662-00002-00,0,0,24/01/2025,EXPRESO CARGO SA,385688,45.0%,.00,T,ogYBrx2u
 40442,9400444 CRONI SA,Facturada,Todo Aprobado,Ejecución de pedido de artículo 22075,Enviado,F,PPHR10048T,0,0,24/01/2025,EXPRESO BRIO SRL,387068,37.2%,.00,T,
 40464,1029 DREAN SA,Facturada,Todo Aprobado,Ejecución de pedido de artículo 22082,Enviado,F,0272/003,0,0,24/01/2025,EXPRESO CARGO SA,388863,45.5%,.00,T,RMGF8GCy
 40474,4959 SC JOHNSON & SON DE ARGENTINA SAIC,Facturada,Todo Aprobado,Ejecución de pedido de artículo 22076,Enviado,F,04965-00176-00,0,0,24/01/2025,EXPRESO CARGO SA,389209,0.0%,.00,T,
@@ -311,8 +310,8 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 40418,3909 LIBECO FILM SA,Facturada,Todo Aprobado,Ejecución de pedido de artículo 22104,Enviado,F,PPAR524T,0,0,29/01/2025,EXPRESO CARGO SA,384673,99.5%,.00,T,
 40418,3909 LIBECO FILM SA,Facturada,Todo Aprobado,Ejecución de pedido de artículo 22104,Enviado,F,PPAR1048T,0,0,29/01/2025,EXPRESO CARGO SA,384673,44.3%,.00,T,
 40418,3909 LIBECO FILM SA,Facturada,Todo Aprobado,Ejecución de pedido de artículo 22104,Enviado,F,PPAR548T,0,0,29/01/2025,EXPRESO CARGO SA,384673,99.8%,.00,T,
-40476,9400115 BEST COLD SRL,Parcialmente ejecutada,Todo Aprobado,Ejecución de pedido de artículo 22106,Enviado,F,MTS548B,0,264,29/01/2025,FELICI JORGE ARIEL,389458,27.2%,514.80,T,
 40476,9400115 BEST COLD SRL,Parcialmente ejecutada,Todo Aprobado,Factura de venta 36459,Abierta,F,MTS548B,0,264,29/01/2025,FELICI JORGE ARIEL,389458,27.2%,514.80,,
+40476,9400115 BEST COLD SRL,Parcialmente ejecutada,Todo Aprobado,Ejecución de pedido de artículo 22106,Enviado,F,MTS548B,0,264,29/01/2025,FELICI JORGE ARIEL,389458,27.2%,514.80,T,
 40497,3089 ARNEG ARGENTINA S.A.,Parcialmente ejecutada,Todo Aprobado,Ejecución de pedido de artículo 22110,Enviado,F,3089/041,0,0,29/01/2025,RICARDO PIERONI,391304,82.2%,.00,T,QAqHECTI
 40497,3089 ARNEG ARGENTINA S.A.,Parcialmente ejecutada,Todo Aprobado,Ejecución de pedido de artículo 22110,Enviado,F,3089/029,0,25000,29/01/2025,RICARDO PIERONI,391304,87.1%,850.00,T,QAqHECTI
 40497,3089 ARNEG ARGENTINA S.A.,Parcialmente ejecutada,Todo Aprobado,Ejecución de pedido de artículo 22110,Enviado,F,3089/021,0,0,29/01/2025,RICARDO PIERONI,391304,88.1%,.00,T,QAqHECTI
@@ -325,11 +324,12 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 40504,9401956 COMERCIAL INAL 2005 SA,Facturada,Todo Aprobado,Ejecución de pedido de artículo 22108,Enviado,F,PPAR10048T,0,0,29/01/2025,TRANSPORTE TOMASSINI,392146,45.8%,.00,T,
 40504,9401956 COMERCIAL INAL 2005 SA,Facturada,Todo Aprobado,Ejecución de pedido de artículo 22108,Enviado,F,PPAR1048T,0,0,29/01/2025,TRANSPORTE TOMASSINI,392146,50.0%,.00,T,
 40506,2094 FABEN SA,Facturada,Todo Aprobado,Ejecución de pedido de artículo 22114,Enviado,F,2094/002,0,0,29/01/2025,BARRY LATIMER,392271,71.4%,.00,T,zNLDFlJz
-40508,4 BEROWOOD SRL,Parcialmente ejecutada,Todo Aprobado,Factura de venta 36467,Abierta,F,PPA1048F,0,72,29/01/2025,RICARDO PIERONI,392408,58.0%,216.00,,Z8FuMVmz
 40508,4 BEROWOOD SRL,Parcialmente ejecutada,Todo Aprobado,Ejecución de pedido de artículo 22115,Enviado,F,PPA1048F,0,72,29/01/2025,RICARDO PIERONI,392408,58.0%,216.00,T,Z8FuMVmz
+40508,4 BEROWOOD SRL,Parcialmente ejecutada,Todo Aprobado,Factura de venta 36467,Abierta,F,PPA1048F,0,72,29/01/2025,RICARDO PIERONI,392408,58.0%,216.00,,Z8FuMVmz
 40511,3086 MULTIORIGINAL PARTS SA,Facturada,Todo Aprobado,Ejecución de pedido de artículo 22116,Enviado,F,PPAR1048T,0,0,29/01/2025,EXPRESO LUJAN DEL CUYO SA,392520,58.0%,.00,T,o9Upb21D
 40512,9400444 CRONI SA,Facturada,Todo Aprobado,Ejecución de pedido de artículo 22120,Enviado,F,PPHR15048XT,0,0,29/01/2025,EXPRESO CARGO SA,392521,54.4%,.00,T,
 40513,3086 MULTIORIGINAL PARTS SA,Facturada,Todo Aprobado,Ejecución de pedido de artículo 22117,Enviado,F,PPAR1048T,0,0,29/01/2025,TRANSPORTE TOMASSINI,392522,58.0%,.00,T,o9Upb21D
+40426,1171 AUTOSAL SA,Facturación pendiente,Todo Aprobado,Ejecución de pedido de artículo 22123,Enviado,F,DT550N,0,0,30/01/2025,EXPRESO CARGO SA,385688,43.4%,.00,F,ogYBrx2u
 40514,4188 DOMITEC SA,Facturación pendiente,Todo Aprobado,Ejecución de pedido de artículo 22122,Enviado,F,PPHR15048XT,0,0,30/01/2025,TRANSPORTE SNAIDER,392535,38.9%,.00,F,
 40515,4438 FRIGOSUR SRL,Facturada,Todo Aprobado,Ejecución de pedido de artículo 22121,Enviado,F,PPAR1048T,0,0,30/01/2025,TRANSPORTE TOMASSINI,392638,40.2%,.00,T,
 40365,1029 DREAN SA,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Ensamblada,F,0272/005,240,0,31/01/2025,EXPRESO CARGO SA,380388,44.0%,2352.00,,RMGF8GCy
