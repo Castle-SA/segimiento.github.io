@@ -114,8 +114,8 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 40404,430 EMPAQUE S.A.,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 21990,Remitido,F,PPAR1048T,0,0,14/01/2025,EXPRESO LUJAN DEL CUYO SA,383148,46.1%,550.80,T,0EEMAYqD
 40406,56 CIRUBON S.A.,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 21992,Remitido,F,BV002,0,0,14/01/2025,RETIRAN,383150,70.8%,791.20,T,1dOipHtL
 40406,56 CIRUBON S.A.,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 21992,Remitido,F,6158/001,0,0,14/01/2025,RETIRAN,383150,59.1%,376.00,T,1dOipHtL
-40407,9400682 EDERA S.A.,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 21997,Remitido,F,PPAR1048T,0,0,14/01/2025,EXPRESO LUJAN DEL CUYO SA,383151,41.5%,4060.80,T,
 40407,9400682 EDERA S.A.,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 21993,Remitido,F,PPAR1048T,0,0,14/01/2025,EXPRESO LUJAN DEL CUYO SA,383151,41.5%,4060.80,T,
+40407,9400682 EDERA S.A.,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 21997,Remitido,F,PPAR1048T,0,0,14/01/2025,EXPRESO LUJAN DEL CUYO SA,383151,41.5%,4060.80,T,
 40412,583 TERRAGENE SA,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 21995,Remitido,F,04965-00014-00,0,0,14/01/2025,RICARDO PIERONI,383528,54.6%,6840.00,T,O03Q3FzK
 40413,9402185 MONCHAMP INDUSTRIAS SRL,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 21994,Remitido,F,MVAQUA180,0,0,14/01/2025,ALMAR ROSARIO SRL,383879,34.2%,986.00,T,
 40419,9402135 ALBERTO G MORO SRL,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 21991,Remitido,F,MVAQUA180,0,0,14/01/2025,BARRY LATIMER,384774,0.0%,.00,T,
@@ -323,8 +323,12 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 40530,569 CONAM SRL,Facturación pendiente/parcialmente ejecutada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 22144,Remitido,F,MTS572B,0,183,04/02/2025,EXPRESO CARGO SA,393663,49.1%,672.60,F,ZnC5kc8v
 40535,4245 PAMPA CHEESE SA,Facturación pendiente,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 22145,Remitido,F,PPHR15048XT,0,0,04/02/2025,RF TRANSPORTE SA (CREDIFIN),393933,0.0%,.00,F,
 40536,4558 FUSION SAN LUIS S A,Facturación pendiente/parcialmente ejecutada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 22141,Remitido,F,PPAR1048T,0,0,04/02/2025,EXPRESO LUJAN DEL CUYO SA,393946,66.7%,118.80,F,
-40539,3598 DEL VALLE EMBALAJES SRL,Facturación pendiente/parcialmente ejecutada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 22146,Remitido,F,PPAR15096T,6.144,8.3856,04/02/2025,RICARDO PIERONI,394550,59.3%,3487.62,F,
+40539,3598 DEL VALLE EMBALAJES SRL,Facturación pendiente/parcialmente ejecutada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 22146,Remitido,F,PPAR15096T,0,9,04/02/2025,RICARDO PIERONI,394550,59.3%,3487.62,F,
 40432,4095 REFINERIA DEL CENTRO SA,Ejecución de la orden pendiente,Todo Aprobado, ,,F,PPHR10048T,54,0,05/02/2025,EXPRESO SANTA ROSA,386274,37.1%,834.30,,
+40542,9400856 G P V SOCIEDAD ANONIMA (GRUPO PIERO),Ejecución de la orden pendiente,Todo Aprobado, ,,F,9400856/001,0,200,06/02/2025,EXPRESO CARGO SA,394810,62.8%,6332.00,,
+40543,132 MAHLE VALVULAS DE ARGENTINA SA,Ejecución de la orden pendiente,Todo Aprobado, ,,F,BV002,0,500,06/02/2025,EXPRESO SANTA ROSA,394811,64.2%,4040.00,,d3hdrKXV
+40543,132 MAHLE VALVULAS DE ARGENTINA SA,Ejecución de la orden pendiente,Todo Aprobado, ,,F,LC579,4800,0,06/02/2025,EXPRESO SANTA ROSA,394811,61.8%,1632.00,,d3hdrKXV
+40545,86 EST GRAFICO IMPRESORES SA,Ejecución de la orden pendiente,Todo Aprobado, ,,F,PPAR524T,288,0,06/02/2025,EXPRESO CARGO SA,395021,99.9%,138.24,,6Hehw6dJ
 40452,2561 LAGOMARSINO SA,Ejecución de la orden pendiente,Todo Aprobado, ,,F,PPAR1048T,1080,0,10/02/2025,EXPRESO CARGO SA,388054,44.4%,1069.20,,ZEwfDUCS
 40469,9401339 QUICKFOOD S.A.,Ejecución de la orden pendiente,Todo Aprobado, ,,F,PPAR15048T,180,0,10/02/2025,BERGAMASCHI OSVALDO RAMON,388870,70.9%,5220.00,,Adhasdofhoas
 40522,9400962 CRYSTAL-ICE SRL,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Liberada,F,9400962/005,0,360,10/02/2025,RICARDO PIERONI,392986,100.0%,1036.80,,
@@ -336,8 +340,13 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 40528,1418 MAPSA SRL,Ejecución de la orden pendiente,Todo Aprobado, ,,F,PPAR15048T,60,0,12/02/2025,RICARDO PIERONI,393562,53.5%,990.00,,tH6wdvG3
 40346,126 DROGUERIA ROSFAR,Parcialmente ejecutada,Todo Aprobado,Orden de trabajo ,En curso,F,0126/002,0,2544,14/02/2025,ALMAR ROSARIO SRL,378815,64.4%,6.772.128,,23rcpxj3
 40533,2797 BONNIN HNOS SH,Ejecución de la orden pendiente,Todo Aprobado, ,,F,PPA1548TE,0,900,17/02/2025,TRANSPORTE MOSTTO,393666,54.9%,1710.00,,NQUANPWR
+40544,9401339 QUICKFOOD S.A.,Ejecución de la orden pendiente,Todo Aprobado, ,,F,H11/48,30,0,17/02/2025,BERGAMASCHI OSVALDO RAMON,394915,64.0%,972.60,,Adhasdofhoas
+40546,5019 GRANJA TRES ARROYOS SACAFEI,Ejecución de la orden pendiente,Todo Aprobado, ,,F,5019/005,4,56,17/02/2025,EXPRESO CARGO SA,395022,59.8%,1440.00,,
+40546,5019 GRANJA TRES ARROYOS SACAFEI,Ejecución de la orden pendiente,Todo Aprobado, ,,F,PPHR1216B,0,1008,17/02/2025,EXPRESO CARGO SA,395022,62.1%,1663.20,,
+40546,5019 GRANJA TRES ARROYOS SACAFEI,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Liberada,F,PVC612R,0,864,17/02/2025,EXPRESO CARGO SA,395022,70.8%,1736.64,,
 40310,94010 VISUAR SA,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Ensamblada,F,1823/002,192,0,24/02/2025,EXPRESO CARGO SA,375531,55.4%,5840.64,,
 40462,202 FRIGORIFICO DE AVES SOYCHU SA,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Ensamblada,F,PVC612R,800,0,24/02/2025,EXPRESO CARGO SA,388839,56.4%,1080.00,,eEQxxqyj
+40547,5019 GRANJA TRES ARROYOS SACAFEI,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Liberada,F,PVC612R,0,864,28/02/2025,EXPRESO CARGO SA,395128,70.8%,1736.64,,
 37684,3096 FRECICAR SRL,Ejecución de la orden pendiente,Todo Aprobado, ,,F,52330-00040-00,7,0,03/03/2025,RICARDO PIERONI,253465,51.4%,3010.00,,W3xptHER
 40102,272 TALLERES METALURGICOS BAMBI S.A.,Ejecución de la orden pendiente,Todo Aprobado, ,,F,0272/005,0,666,05/03/2025,FELICI JORGE ARIEL,359279,42.6%,6526.80,,8f8BuSqi
 40102,272 TALLERES METALURGICOS BAMBI S.A.,Ejecución de la orden pendiente,Todo Aprobado, ,,F,0272/004,0,566,05/03/2025,FELICI JORGE ARIEL,359279,34.3%,6933.50,,8f8BuSqi
