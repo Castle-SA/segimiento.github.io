@@ -265,8 +265,8 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 40504,9401956 COMERCIAL INAL 2005 SA,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 22108,Remitido,F,PPAR10048T,0,0,29/01/2025,TRANSPORTE TOMASSINI,392146,45.8%,819.60,T,
 40504,9401956 COMERCIAL INAL 2005 SA,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 22108,Remitido,F,PPAR1048T,0,0,29/01/2025,TRANSPORTE TOMASSINI,392146,50.0%,792.00,T,
 40506,2094 FABEN SA,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 22114,Remitido,F,2094/002,0,0,29/01/2025,BARRY LATIMER,392271,71.4%,1829.52,T,zNLDFlJz
-40508,4 BEROWOOD SRL,Parcialmente ejecutada,Todo Aprobado,Factura de venta 36467,Pagado por completo,F,PPA1048F,0,72,29/01/2025,RICARDO PIERONI,392408,58.0%,216.00,,Z8FuMVmz
 40508,4 BEROWOOD SRL,Parcialmente ejecutada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 22115,Remitido,F,PPA1048F,0,72,29/01/2025,RICARDO PIERONI,392408,58.0%,108.00,T,Z8FuMVmz
+40508,4 BEROWOOD SRL,Parcialmente ejecutada,Todo Aprobado,Factura de venta 36467,Pagado por completo,F,PPA1048F,0,72,29/01/2025,RICARDO PIERONI,392408,58.0%,216.00,,Z8FuMVmz
 40511,3086 MULTIORIGINAL PARTS SA,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 22116,Remitido,F,PPAR1048T,0,0,29/01/2025,EXPRESO LUJAN DEL CUYO SA,392520,58.0%,471.60,T,o9Upb21D
 40512,9400444 CRONI SA,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 22120,Remitido,F,PPHR15048XT,0,0,29/01/2025,EXPRESO CARGO SA,392521,54.4%,1344.00,T,
 40513,3086 MULTIORIGINAL PARTS SA,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 22117,Remitido,F,PPAR1048T,0,0,29/01/2025,TRANSPORTE TOMASSINI,392522,58.0%,943.20,T,o9Upb21D
@@ -279,8 +279,8 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 40520,3089 ARNEG ARGENTINA S.A.,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 22128,Remitido,F,PPAR1072T,0,0,30/01/2025,RICARDO PIERONI,392969,66.9%,637.44,T,QAqHECTI
 40520,3089 ARNEG ARGENTINA S.A.,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 22128,Remitido,F,PVC672B,0,0,30/01/2025,RICARDO PIERONI,392969,81.5%,1046.88,T,QAqHECTI
 40521,9402081 OLEOHIDRAULICA EL TORITO SA,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 22126,Remitido,F,MVAQUA203V,0,0,30/01/2025,BARRY LATIMER,392985,50.5%,212.00,T,
-40293,260 SUCESION DE BARCIA CLAUDIO RODRIGO,Parcialmente ejecutada,Todo Aprobado,Factura de venta 36487,Abierta,F,MTS548B,0,180,31/01/2025,RICARDO PIERONI,374492,56.3%,511.20,,DRzux4tD
 40293,260 SUCESION DE BARCIA CLAUDIO RODRIGO,Parcialmente ejecutada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 22135,Remitido,F,MTS548B,0,180,31/01/2025,RICARDO PIERONI,374492,56.3%,1124.64,T,DRzux4tD
+40293,260 SUCESION DE BARCIA CLAUDIO RODRIGO,Parcialmente ejecutada,Todo Aprobado,Factura de venta 36487,Abierta,F,MTS548B,0,180,31/01/2025,RICARDO PIERONI,374492,56.3%,511.20,,DRzux4tD
 40293,260 SUCESION DE BARCIA CLAUDIO RODRIGO,Parcialmente ejecutada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 22135,Remitido,F,MTS536B,0,0,31/01/2025,RICARDO PIERONI,374492,51.1%,364.80,T,DRzux4tD
 40326,12837 FRIGORIFICO SAN FRANCISCO S.A,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 22136,Remitido,F,2837/001,0,0,31/01/2025,"CAROSSIO, VAIROLATTI Y CIA",376538,72.6%,5049.00,T,
 40409,9400536 MILKAUT SA,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 22129,Remitido,F,PPHR15048XT,0,0,31/01/2025,RICARDO PIERONI,383264,48.7%,5229.00,T,
@@ -307,17 +307,19 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 40535,4245 PAMPA CHEESE SA,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 22145,Remitido,F,PPHR15048XT,0,0,04/02/2025,RF TRANSPORTE SA (CREDIFIN),393933,0.0%,.00,T,
 40536,4558 FUSION SAN LUIS S A,Parcialmente ejecutada,Todo Aprobado,Factura de venta 36498,Abierta,F,MTS548B,0,108,04/02/2025,EXPRESO LUJAN DEL CUYO SA,393946,56.3%,362.88,,
 40536,4558 FUSION SAN LUIS S A,Parcialmente ejecutada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 22141,Remitido,F,PPAR1048T,0,0,04/02/2025,EXPRESO LUJAN DEL CUYO SA,393946,66.7%,118.80,T,
-40539,3598 DEL VALLE EMBALAJES SRL,Parcialmente ejecutada,Todo Aprobado,Factura de venta 36493,Abierta,F,PPAR15096T,0,9,04/02/2025,RICARDO PIERONI,394550,59.3%,282.78,,
 40539,3598 DEL VALLE EMBALAJES SRL,Parcialmente ejecutada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 22146,Remitido,F,PPAR15096T,0,9,04/02/2025,RICARDO PIERONI,394550,59.3%,3487.62,T,
+40539,3598 DEL VALLE EMBALAJES SRL,Parcialmente ejecutada,Todo Aprobado,Factura de venta 36493,Abierta,F,PPAR15096T,0,9,04/02/2025,RICARDO PIERONI,394550,59.3%,282.78,,
 37683,3096 FRECICAR SRL,Facturación pendiente,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 22152,Remitido,F,52330-00040-00,0,0,05/02/2025,RICARDO PIERONI,253464,51.4%,3010.00,F,W3xptHER
 40227,611 QUESOS DON ATILIO SA,Facturación pendiente,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 22149,Remitido,F,PPA1548TE,0,0,05/02/2025,EXPRESO TAS,369341,53.7%,136.80,F,entLYzgY
 40245,9400962 CRYSTAL-ICE SRL,Facturación pendiente/parcialmente ejecutada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 22150,Remitido,F,PPA1548TE,0,4428,05/02/2025,RICARDO PIERONI,370615,39.4%,104.40,F,
 40408,4089 SOBRERO Y CAGNOLO SA,Facturación pendiente,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 22151,Remitido,F,PPAR1048T,0,0,05/02/2025,RICARDO PIERONI,383263,47.6%,945.00,F,
 40432,4095 REFINERIA DEL CENTRO SA,Ejecución de la orden pendiente,Todo Aprobado, ,,F,PPHR10048T,54,0,05/02/2025,EXPRESO SANTA ROSA,386274,37.1%,834.30,,
+40543,132 MAHLE VALVULAS DE ARGENTINA SA,Facturación pendiente,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 22154,Remitido,F,BV002,0,0,05/02/2025,EXPRESO SANTA ROSA,394811,64.2%,4040.00,F,d3hdrKXV
+40543,132 MAHLE VALVULAS DE ARGENTINA SA,Facturación pendiente,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 22154,Remitido,F,LC579,0,0,05/02/2025,EXPRESO SANTA ROSA,394811,61.8%,1632.00,F,d3hdrKXV
 40550,4095 REFINERIA DEL CENTRO SA,Ejecución de la orden pendiente,Todo Aprobado, ,,F,PPAR1072T,960,0,05/02/2025,EXPRESO SANTA ROSA,395331,49.7%,1680.00,,
 40556,9401339 QUICKFOOD S.A.,Facturación pendiente,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 22153,Remitido,F,PPAR15048T,0,0,05/02/2025,EXPRESO CARGO SA,395560,0.0%,.00,F,Adhasdofhoas
-40543,132 MAHLE VALVULAS DE ARGENTINA SA,Ejecución de la orden pendiente,Todo Aprobado, ,,F,BV002,0,500,06/02/2025,EXPRESO SANTA ROSA,394811,64.2%,4040.00,,d3hdrKXV
-40543,132 MAHLE VALVULAS DE ARGENTINA SA,Ejecución de la orden pendiente,Todo Aprobado, ,,F,LC579,4800,0,06/02/2025,EXPRESO SANTA ROSA,394811,61.8%,1632.00,,d3hdrKXV
+40558,279 HONDA MOTOR DE ARGENTINA S.A.,Facturación pendiente,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 22155,Remitido,F,04169-00058-93,0,0,05/02/2025,EXPRESO CARGO SA,395665,70.4%,1141.34,F,el9lNSxJ
+40558,279 HONDA MOTOR DE ARGENTINA S.A.,Facturación pendiente,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 22155,Remitido,F,04169-00056-93,0,0,05/02/2025,EXPRESO CARGO SA,395665,66.7%,700.058,F,el9lNSxJ
 40545,86 EST GRAFICO IMPRESORES SA,Ejecución de la orden pendiente,Todo Aprobado, ,,F,PPAR524T,288,0,06/02/2025,EXPRESO CARGO SA,395021,99.9%,138.24,,6Hehw6dJ
 40548,9401259 BERTINI S.A,Ejecución de la orden pendiente,Todo Aprobado, ,,F,MTS536B,192,0,06/02/2025,RICARDO PIERONI,395023,38.0%,288.00,,
 40548,9401259 BERTINI S.A,Ejecución de la orden pendiente,Todo Aprobado, ,,F,MTP548B,72,0,06/02/2025,RICARDO PIERONI,395023,37.3%,158.40,,
@@ -327,8 +329,6 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 40552,2638 QUE RICO SA,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Ensamblada,F,PVC612R,720,0,06/02/2025,EXPRESO CARGO SA,395233,66.5%,1260.00,,mHXJpk9j
 40553,3086 MULTIORIGINAL PARTS SA,Ejecución de la orden pendiente,Todo Aprobado, ,,F,PPAR1048T,720,0,06/02/2025,RICARDO PIERONI,395353,58.0%,943.20,,o9Upb21D
 40555,9400536 MILKAUT SA,Ejecución de la orden pendiente,Todo Aprobado, ,,F,PPHR15048XT,13,0,06/02/2025,RICARDO PIERONI,395556,48.7%,323.70,,
-40558,279 HONDA MOTOR DE ARGENTINA S.A.,Ejecución de la orden pendiente,Todo Aprobado, ,,F,04169-00058-93,37,0,06/02/2025,EXPRESO CARGO SA,395665,70.4%,1141.34,,el9lNSxJ
-40558,279 HONDA MOTOR DE ARGENTINA S.A.,Ejecución de la orden pendiente,Todo Aprobado, ,,F,04169-00056-93,23,0,06/02/2025,EXPRESO CARGO SA,395665,66.7%,700.058,,el9lNSxJ
 40560,4864 PAULKIHN SRL,Ejecución de la orden pendiente,Todo Aprobado, ,,F,H11/48,10,0,06/02/2025,EXPRESO BRIO SRL,395768,47.1%,221.00,,
 40452,2561 LAGOMARSINO SA,Ejecución de la orden pendiente,Todo Aprobado, ,,F,PPAR1048T,1080,0,10/02/2025,EXPRESO CARGO SA,388054,44.4%,1069.20,,ZEwfDUCS
 40469,9401339 QUICKFOOD S.A.,Ejecución de la orden pendiente,Todo Aprobado, ,,F,PPAR15048T,180,0,10/02/2025,BERGAMASCHI OSVALDO RAMON,388870,70.9%,5220.00,,Adhasdofhoas
@@ -348,7 +348,7 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 40462,202 FRIGORIFICO DE AVES SOYCHU SA,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Ensamblada,F,PVC612R,800,0,24/02/2025,EXPRESO CARGO SA,388839,56.4%,1080.00,,eEQxxqyj
 37684,3096 FRECICAR SRL,Ejecución de la orden pendiente,Todo Aprobado, ,,F,52330-00040-00,7,0,03/03/2025,RICARDO PIERONI,253465,51.4%,3010.00,,W3xptHER
 40537,143 EPTA ARGENTINA S.A.,Ejecución de la orden pendiente,Todo Aprobado,Pedido ,Recepción pendiente,T,0143/026,0,2100,03/03/2025,FELICI JORGE ARIEL,394418,86.1%,4095.00,,P8X2GJRj
-39934,67 FORD ARGENTINA S.C.A.,Ejecución de la orden pendiente,Todo Aprobado, ,,F,BV002,19608,25092,19/03/2025,ALMAR ROSARIO SRL,346461,66.7%,387996.00,,Z5UuMVJq
+39934,67 FORD ARGENTINA S.C.A.,Ejecución de la orden pendiente,Todo Aprobado, ,,F,BV002,19108,25592,19/03/2025,ALMAR ROSARIO SRL,346461,66.7%,387996.00,,Z5UuMVJq
 40463,202 FRIGORIFICO DE AVES SOYCHU SA,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Ensamblada,F,PVC612R,800,0,24/03/2025,EXPRESO CARGO SA,388842,56.4%,1080.00,,eEQxxqyj
 37685,3096 FRECICAR SRL,Ejecución de la orden pendiente,Todo Aprobado, ,,F,52330-00040-00,7,0,03/04/2025,RICARDO PIERONI,253466,51.4%,3010.00,,W3xptHER
 40102,272 TALLERES METALURGICOS BAMBI S.A.,Ejecución de la orden pendiente,Todo Aprobado, ,,F,0272/005,0,666,03/04/2025,FELICI JORGE ARIEL,359279,42.6%,6526.80,,8f8BuSqi
