@@ -36,8 +36,8 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 40404,430 EMPAQUE S.A.,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 21990,Remitido,F,PPAR1048T,0,0,14/01/2025,EXPRESO LUJAN DEL CUYO SA,383148,46.1%,550.80,T,0EEMAYqD
 40406,56 CIRUBON S.A.,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 21992,Remitido,F,BV002,0,0,14/01/2025,RETIRAN,383150,70.8%,791.20,T,1dOipHtL
 40406,56 CIRUBON S.A.,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 21992,Remitido,F,6158/001,0,0,14/01/2025,RETIRAN,383150,59.1%,376.00,T,1dOipHtL
-40407,9400682 EDERA S.A.,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 21993,Remitido,F,PPAR1048T,0,0,14/01/2025,EXPRESO LUJAN DEL CUYO SA,383151,41.5%,4060.80,T,
 40407,9400682 EDERA S.A.,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 21997,Remitido,F,PPAR1048T,0,0,14/01/2025,EXPRESO LUJAN DEL CUYO SA,383151,41.5%,4060.80,T,
+40407,9400682 EDERA S.A.,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 21993,Remitido,F,PPAR1048T,0,0,14/01/2025,EXPRESO LUJAN DEL CUYO SA,383151,41.5%,4060.80,T,
 40412,583 TERRAGENE SA,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 21995,Remitido,F,04965-00014-00,0,0,14/01/2025,RICARDO PIERONI,383528,54.6%,6840.00,T,O03Q3FzK
 40413,9402185 MONCHAMP INDUSTRIAS SRL,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 21994,Remitido,F,MVAQUA180,0,0,14/01/2025,ALMAR ROSARIO SRL,383879,34.2%,986.00,T,
 40419,9402135 ALBERTO G MORO SRL,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 21991,Remitido,F,MVAQUA180,0,0,14/01/2025,BARRY LATIMER,384774,0.0%,.00,T,
@@ -238,8 +238,8 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 40516,1650 ARAG ARGENTINA SA,Ejecución de la orden pendiente,Todo Aprobado,Pedido ,Aprobación del supervisor pendiente,T,1650/002,0,192,04/02/2025,RICARDO PIERONI,392773,70.7%,864.00,,f52erXfj
 40524,4 BEROWOOD SRL,Ejecución de la orden pendiente,Todo Aprobado, ,,F,PPA1548TE,0,360,04/02/2025,RICARDO PIERONI,393133,69.4%,1008.00,,Z8FuMVmz
 40529,2993 COTEMINAS ARGENTINA SA,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 22143,Remitido,F,MTS524B,0,0,04/02/2025,EXPRESO BRIO SRL,393563,45.4%,325.44,T,rZQjwb8p
-40530,569 CONAM SRL,Parcialmente ejecutada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 22144,Remitido,F,MTS572B,0,183,04/02/2025,EXPRESO CARGO SA,393663,49.1%,672.60,T,ZnC5kc8v
 40530,569 CONAM SRL,Parcialmente ejecutada,Todo Aprobado,Factura de venta 36495,Abierta,F,MTS572B,0,183,04/02/2025,EXPRESO CARGO SA,393663,49.1%,695.40,,ZnC5kc8v
+40530,569 CONAM SRL,Parcialmente ejecutada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 22144,Remitido,F,MTS572B,0,183,04/02/2025,EXPRESO CARGO SA,393663,49.1%,672.60,T,ZnC5kc8v
 40535,4245 PAMPA CHEESE SA,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 22145,Remitido,F,PPHR15048XT,0,0,04/02/2025,RF TRANSPORTE SA (CREDIFIN),393933,0.0%,.00,T,
 40536,4558 FUSION SAN LUIS S A,Parcialmente ejecutada,Todo Aprobado,Factura de venta 36498,Abierta,F,MTS548B,0,108,04/02/2025,EXPRESO LUJAN DEL CUYO SA,393946,56.3%,362.88,,
 40536,4558 FUSION SAN LUIS S A,Parcialmente ejecutada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 22141,Remitido,F,PPAR1048T,0,0,04/02/2025,EXPRESO LUJAN DEL CUYO SA,393946,66.7%,118.80,T,
@@ -295,8 +295,8 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 40582,9400893 COMPLEJO ALIMENTICIO SAN SALVADOR SA,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 22177,Remitido,F,PPAR10048T,0,0,10/02/2025,BARRY LATIMER,397621,0.0%,.00,T,
 40583,9400314 ESTABLECIMIENTO LA MARIPOSA SA,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 22175,Remitido,F,PPHR15048XT,0,0,10/02/2025,BARRY LATIMER,397622,0.0%,.00,T,
 40583,9400314 ESTABLECIMIENTO LA MARIPOSA SA,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 22175,Remitido,F,PPAR1048T,0,0,10/02/2025,BARRY LATIMER,397622,0.0%,.00,T,
-40584,9401497 ACEITERA GENERAL DEHEZA SA,Parcialmente ejecutada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 22176,Remitido,F,PPHR15048XT,0,5,10/02/2025,BARRY LATIMER,397628,0.0%,.00,T,
 40584,9401497 ACEITERA GENERAL DEHEZA SA,Parcialmente ejecutada,Todo Aprobado,Factura de venta 36527,Pagado por completo,F,PPHR15048XT,0,5,10/02/2025,BARRY LATIMER,397628,0.0%,.00,,
+40584,9401497 ACEITERA GENERAL DEHEZA SA,Parcialmente ejecutada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 22176,Remitido,F,PPHR15048XT,0,5,10/02/2025,BARRY LATIMER,397628,0.0%,.00,T,
 40584,9401497 ACEITERA GENERAL DEHEZA SA,Parcialmente ejecutada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 22176,Remitido,F,PPAR1048T,0,0,10/02/2025,BARRY LATIMER,397628,0.0%,.00,T,
 40585,105 SCANIA ARGENTINA SAU,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 22173,Remitido,F,BV002,0,0,10/02/2025,BARRY LATIMER,397630,0.0%,.00,T,CLk9Zh47
 40586,1836 FIRENZE SRL,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 22174,Remitido,F,PPHR15048XT,0,0,10/02/2025,BARRY LATIMER,397631,0.0%,.00,T,5efygLST
