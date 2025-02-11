@@ -201,8 +201,8 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 40504,9401956 COMERCIAL INAL 2005 SA,Facturada,Todo Aprobado,Ejecución de pedido de artículo 22108,Enviado,F,PPAR10048T,0,0,29/01/2025,TRANSPORTE TOMASSINI,392146,45.8%,.00,T,
 40504,9401956 COMERCIAL INAL 2005 SA,Facturada,Todo Aprobado,Ejecución de pedido de artículo 22108,Enviado,F,PPAR1048T,0,0,29/01/2025,TRANSPORTE TOMASSINI,392146,50.0%,.00,T,
 40506,2094 FABEN SA,Facturada,Todo Aprobado,Ejecución de pedido de artículo 22114,Enviado,F,2094/002,0,0,29/01/2025,BARRY LATIMER,392271,71.4%,.00,T,zNLDFlJz
-40508,4 BEROWOOD SRL,Parcialmente ejecutada,Todo Aprobado,Factura de venta 36467,Pagado por completo,F,PPA1048F,0,72,29/01/2025,RICARDO PIERONI,392408,58.0%,216.00,,Z8FuMVmz
 40508,4 BEROWOOD SRL,Parcialmente ejecutada,Todo Aprobado,Ejecución de pedido de artículo 22115,Enviado,F,PPA1048F,0,72,29/01/2025,RICARDO PIERONI,392408,58.0%,216.00,T,Z8FuMVmz
+40508,4 BEROWOOD SRL,Parcialmente ejecutada,Todo Aprobado,Factura de venta 36467,Pagado por completo,F,PPA1048F,0,72,29/01/2025,RICARDO PIERONI,392408,58.0%,216.00,,Z8FuMVmz
 40511,3086 MULTIORIGINAL PARTS SA,Facturada,Todo Aprobado,Ejecución de pedido de artículo 22116,Enviado,F,PPAR1048T,0,0,29/01/2025,EXPRESO LUJAN DEL CUYO SA,392520,58.0%,.00,T,o9Upb21D
 40512,9400444 CRONI SA,Facturada,Todo Aprobado,Ejecución de pedido de artículo 22120,Enviado,F,PPHR15048XT,0,0,29/01/2025,EXPRESO CARGO SA,392521,54.4%,.00,T,
 40513,3086 MULTIORIGINAL PARTS SA,Facturada,Todo Aprobado,Ejecución de pedido de artículo 22117,Enviado,F,PPAR1048T,0,0,29/01/2025,TRANSPORTE TOMASSINI,392522,58.0%,.00,T,o9Upb21D
@@ -215,8 +215,8 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 40520,3089 ARNEG ARGENTINA S.A.,Facturada,Todo Aprobado,Ejecución de pedido de artículo 22128,Enviado,F,PPAR1072T,0,0,30/01/2025,RICARDO PIERONI,392969,66.9%,.00,T,QAqHECTI
 40520,3089 ARNEG ARGENTINA S.A.,Facturada,Todo Aprobado,Ejecución de pedido de artículo 22128,Enviado,F,PVC672B,0,0,30/01/2025,RICARDO PIERONI,392969,81.5%,.00,T,QAqHECTI
 40521,9402081 OLEOHIDRAULICA EL TORITO SA,Facturada,Todo Aprobado,Ejecución de pedido de artículo 22126,Enviado,F,MVAQUA203V,0,0,30/01/2025,BARRY LATIMER,392985,50.5%,.00,T,
-40293,260 SUCESION DE BARCIA CLAUDIO RODRIGO,Parcialmente ejecutada,Todo Aprobado,Factura de venta 36487,Abierta,F,MTS548B,0,180,31/01/2025,RICARDO PIERONI,374492,56.3%,511.20,,DRzux4tD
 40293,260 SUCESION DE BARCIA CLAUDIO RODRIGO,Parcialmente ejecutada,Todo Aprobado,Ejecución de pedido de artículo 22135,Enviado,F,MTS548B,0,180,31/01/2025,RICARDO PIERONI,374492,56.3%,511.20,T,DRzux4tD
+40293,260 SUCESION DE BARCIA CLAUDIO RODRIGO,Parcialmente ejecutada,Todo Aprobado,Factura de venta 36487,Abierta,F,MTS548B,0,180,31/01/2025,RICARDO PIERONI,374492,56.3%,511.20,,DRzux4tD
 40293,260 SUCESION DE BARCIA CLAUDIO RODRIGO,Parcialmente ejecutada,Todo Aprobado,Ejecución de pedido de artículo 22135,Enviado,F,MTS536B,0,0,31/01/2025,RICARDO PIERONI,374492,51.1%,.00,T,DRzux4tD
 40326,12837 FRIGORIFICO SAN FRANCISCO S.A,Facturada,Todo Aprobado,Ejecución de pedido de artículo 22136,Enviado,F,2837/001,0,0,31/01/2025,"CAROSSIO, VAIROLATTI Y CIA",376538,72.6%,.00,T,
 40409,9400536 MILKAUT SA,Facturada,Todo Aprobado,Ejecución de pedido de artículo 22129,Enviado,F,PPHR15048XT,0,0,31/01/2025,RICARDO PIERONI,383264,48.7%,.00,T,
@@ -288,18 +288,18 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 40557,9400049 COMPAÑIA AMERICANA DE ALIMENTOS S.A.,Ejecución de la orden pendiente,Todo Aprobado, ,,F,PPHR15048XT,183,317,10/02/2025,EXPRESO CARGO SA,395561,39.1%,10500.00,,
 40568,1809 MERCOMAX SA,Ejecución de la orden pendiente,Todo Aprobado, ,,F,PPAR1048T,1728,0,10/02/2025,EXPRESO CARGO SA,396252,47.6%,1814.40,,rcv2jOkF
 40568,1809 MERCOMAX SA,Ejecución de la orden pendiente,Todo Aprobado, ,,F,PPAR1072T,2112,0,10/02/2025,EXPRESO CARGO SA,396252,43.9%,3315.84,,rcv2jOkF
-40569,9400018 SEND SRL,Ejecución de la orden pendiente,Todo Aprobado, ,,F,PPAR1048T,288,0,10/02/2025,RICARDO PIERONI,396488,50.5%,319.68,,
 40570,86 EST GRAFICO IMPRESORES SA,Ejecución de la orden pendiente,Todo Aprobado, ,,F,H11/48,10,0,10/02/2025,EXPRESO CARGO SA,396489,65.7%,340.90,,6Hehw6dJ
 40570,86 EST GRAFICO IMPRESORES SA,Ejecución de la orden pendiente,Todo Aprobado, ,,F,PPHR15048XT,0,36,10/02/2025,EXPRESO CARGO SA,396489,54.4%,1008.00,,6Hehw6dJ
 40582,9400893 COMPLEJO ALIMENTICIO SAN SALVADOR SA,Facturada,Todo Aprobado,Ejecución de pedido de artículo 22177,Enviado,F,PPAR15048T,0,0,10/02/2025,BARRY LATIMER,397621,0.0%,.00,T,
 40582,9400893 COMPLEJO ALIMENTICIO SAN SALVADOR SA,Facturada,Todo Aprobado,Ejecución de pedido de artículo 22177,Enviado,F,PPAR10048T,0,0,10/02/2025,BARRY LATIMER,397621,0.0%,.00,T,
 40583,9400314 ESTABLECIMIENTO LA MARIPOSA SA,Facturada,Todo Aprobado,Ejecución de pedido de artículo 22175,Enviado,F,PPHR15048XT,0,0,10/02/2025,BARRY LATIMER,397622,0.0%,.00,T,
 40583,9400314 ESTABLECIMIENTO LA MARIPOSA SA,Facturada,Todo Aprobado,Ejecución de pedido de artículo 22175,Enviado,F,PPAR1048T,0,0,10/02/2025,BARRY LATIMER,397622,0.0%,.00,T,
-40584,9401497 ACEITERA GENERAL DEHEZA SA,Parcialmente ejecutada,Todo Aprobado,Ejecución de pedido de artículo 22176,Enviado,F,PPHR15048XT,0,5,10/02/2025,BARRY LATIMER,397628,0.0%,.00,T,
 40584,9401497 ACEITERA GENERAL DEHEZA SA,Parcialmente ejecutada,Todo Aprobado,Factura de venta 36527,Pagado por completo,F,PPHR15048XT,0,5,10/02/2025,BARRY LATIMER,397628,0.0%,.00,,
+40584,9401497 ACEITERA GENERAL DEHEZA SA,Parcialmente ejecutada,Todo Aprobado,Ejecución de pedido de artículo 22176,Enviado,F,PPHR15048XT,0,5,10/02/2025,BARRY LATIMER,397628,0.0%,.00,T,
 40584,9401497 ACEITERA GENERAL DEHEZA SA,Parcialmente ejecutada,Todo Aprobado,Ejecución de pedido de artículo 22176,Enviado,F,PPAR1048T,0,0,10/02/2025,BARRY LATIMER,397628,0.0%,.00,T,
 40585,105 SCANIA ARGENTINA SAU,Facturada,Todo Aprobado,Ejecución de pedido de artículo 22173,Enviado,F,BV002,0,0,10/02/2025,BARRY LATIMER,397630,0.0%,.00,T,CLk9Zh47
 40586,1836 FIRENZE SRL,Facturada,Todo Aprobado,Ejecución de pedido de artículo 22174,Enviado,F,PPHR15048XT,0,0,10/02/2025,BARRY LATIMER,397631,0.0%,.00,T,5efygLST
+40569,9400018 SEND SRL,Facturación pendiente,Todo Aprobado,Ejecución de pedido de artículo 22179,Enviado,F,PPAR1048T,0,0,11/02/2025,RICARDO PIERONI,396488,50.5%,.00,F,
 40573,1029 DREAN SA,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Ensamblada,F,PVC624A,216,0,11/02/2025,EXPRESO CARGO SA,396721,76.0%,827.28,,RMGF8GCy
 40572,67 FORD ARGENTINA S.C.A.,Ejecución de la orden pendiente,Todo Aprobado, ,,F,BV002,0,1000,11/02/2025,EXPRESO CARGO SA,396844,66.7%,8680.00,,Z5UuMVJq
 40574,143 EPTA ARGENTINA S.A.,Ejecución de la orden pendiente,Todo Aprobado, ,,F,MTS536B,336,0,11/02/2025,RICARDO PIERONI,396863,53.5%,672.00,,P8X2GJRj
