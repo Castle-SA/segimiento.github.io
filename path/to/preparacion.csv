@@ -202,13 +202,12 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 40509,2856 INALPA INDUSTRIAS ALIMENTICIAS PAVON ARRIBA SA,Parcialmente ejecutada,Todo Aprobado,Factura de venta 36494,Abierta,F,PPA1548TE,0,216,04/02/2025,RETIRAN,392510,68.8%,594.00,,6Gx1Jb6J
 40516,1650 ARAG ARGENTINA SA,Ejecución de la orden pendiente,Todo Aprobado,Pedido ,Recepción pendiente,T,1650/002,0,192,04/02/2025,RICARDO PIERONI,392773,70.7%,864.00,,8Yp8Ld0P
 40529,2993 COTEMINAS ARGENTINA SA,Facturada,Todo Aprobado,Ejecución de pedido de artículo 22143,Enviado,F,MTS524B,0,0,04/02/2025,EXPRESO BRIO SRL,393563,45.4%,.00,T,6Ks3Py8W
-40530,569 CONAM SRL,Parcialmente ejecutada,Todo Aprobado,Factura de venta 36495,Abierta,F,MTS572B,0,183,04/02/2025,EXPRESO CARGO SA,393663,49.1%,695.40,,5Ko0Ey7A
-40530,569 CONAM SRL,Parcialmente ejecutada,Todo Aprobado,Ejecución de pedido de artículo 22144,Enviado,F,MTS572B,0,183,04/02/2025,EXPRESO CARGO SA,393663,49.1%,695.40,T,5Ko0Ey7A
+40530,569 CONAM SRL,Parcialmente ejecutada,Todo Aprobado,Ejecución de pedido de artículo 22144,Enviado,F,MTS572B,183,0,04/02/2025,EXPRESO CARGO SA,393663,49.1%,695.40,T,5Ko0Ey7A
 40535,4245 PAMPA CHEESE SA,Facturada,Todo Aprobado,Ejecución de pedido de artículo 22145,Enviado,F,PPHR15048XT,0,0,04/02/2025,RF TRANSPORTE SA (CREDIFIN),393933,0.0%,.00,T,3Ti1Ha0U
 40536,4558 FUSION SAN LUIS S A,Parcialmente ejecutada,Todo Aprobado,Factura de venta 36498,Abierta,F,MTS548B,0,108,04/02/2025,EXPRESO LUJAN DEL CUYO SA,393946,56.3%,362.88,,6Yr2Cu9X
 40536,4558 FUSION SAN LUIS S A,Parcialmente ejecutada,Todo Aprobado,Ejecución de pedido de artículo 22141,Enviado,F,PPAR1048T,0,0,04/02/2025,EXPRESO LUJAN DEL CUYO SA,393946,66.7%,.00,T,6Yr2Cu9X
-40539,3598 DEL VALLE EMBALAJES SRL,Parcialmente ejecutada,Todo Aprobado,Factura de venta 36493,Abierta,F,PPAR15096T,0,9,04/02/2025,RICARDO PIERONI,394550,59.3%,282.78,,0Ph8Mv3F
 40539,3598 DEL VALLE EMBALAJES SRL,Parcialmente ejecutada,Todo Aprobado,Ejecución de pedido de artículo 22146,Enviado,F,PPAR15096T,0,9,04/02/2025,RICARDO PIERONI,394550,59.3%,282.78,T,0Ph8Mv3F
+40539,3598 DEL VALLE EMBALAJES SRL,Parcialmente ejecutada,Todo Aprobado,Factura de venta 36493,Abierta,F,PPAR15096T,0,9,04/02/2025,RICARDO PIERONI,394550,59.3%,282.78,,0Ph8Mv3F
 37683,3096 FRECICAR SRL,Facturada,Todo Aprobado,Ejecución de pedido de artículo 22152,Enviado,F,52330-00040-00,0,0,05/02/2025,RICARDO PIERONI,253464,51.4%,.00,T,9Zc0Jy4O
 40227,611 QUESOS DON ATILIO SA,Facturada,Todo Aprobado,Ejecución de pedido de artículo 22149,Enviado,F,PPA1548TE,0,0,05/02/2025,EXPRESO TAS,369341,53.7%,.00,T,8Br5Ap2B
 40245,9400962 CRYSTAL-ICE SRL,Parcialmente ejecutada,Todo Aprobado,Factura de venta 36506,Pagado por completo,F,PPA1548TE,0,4428,05/02/2025,RICARDO PIERONI,370615,39.4%,6420.60,,4Is2Rn8E
@@ -249,8 +248,7 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 40582,9400893 COMPLEJO ALIMENTICIO SAN SALVADOR SA,Facturada,Todo Aprobado,Ejecución de pedido de artículo 22177,Enviado,F,PPAR10048T,0,0,10/02/2025,BARRY LATIMER,397621,0.0%,.00,T,0Fp2Hm2P
 40583,9400314 ESTABLECIMIENTO LA MARIPOSA SA,Facturada,Todo Aprobado,Ejecución de pedido de artículo 22175,Enviado,F,PPHR15048XT,0,0,10/02/2025,BARRY LATIMER,397622,0.0%,.00,T,5Tm1Fu3S
 40583,9400314 ESTABLECIMIENTO LA MARIPOSA SA,Facturada,Todo Aprobado,Ejecución de pedido de artículo 22175,Enviado,F,PPAR1048T,0,0,10/02/2025,BARRY LATIMER,397622,0.0%,.00,T,5Tm1Fu3S
-40584,9401497 ACEITERA GENERAL DEHEZA SA,Parcialmente ejecutada,Todo Aprobado,Factura de venta 36527,Pagado por completo,F,PPHR15048XT,0,5,10/02/2025,BARRY LATIMER,397628,0.0%,.00,,8Hg1Jv5J
-40584,9401497 ACEITERA GENERAL DEHEZA SA,Parcialmente ejecutada,Todo Aprobado,Ejecución de pedido de artículo 22176,Enviado,F,PPHR15048XT,0,5,10/02/2025,BARRY LATIMER,397628,0.0%,.00,T,8Hg1Jv5J
+40584,9401497 ACEITERA GENERAL DEHEZA SA,Parcialmente ejecutada,Todo Aprobado,Ejecución de pedido de artículo 22176,Enviado,F,PPHR15048XT,5,0,10/02/2025,BARRY LATIMER,397628,0.0%,.00,T,8Hg1Jv5J
 40584,9401497 ACEITERA GENERAL DEHEZA SA,Parcialmente ejecutada,Todo Aprobado,Ejecución de pedido de artículo 22176,Enviado,F,PPAR1048T,0,0,10/02/2025,BARRY LATIMER,397628,0.0%,.00,T,8Hg1Jv5J
 40585,105 SCANIA ARGENTINA SAU,Facturada,Todo Aprobado,Ejecución de pedido de artículo 22173,Enviado,F,BV002,0,0,10/02/2025,BARRY LATIMER,397630,0.0%,.00,T,2Yb2Zq5E
 40586,1836 FIRENZE SRL,Facturada,Todo Aprobado,Ejecución de pedido de artículo 22174,Enviado,F,PPHR15048XT,0,0,10/02/2025,BARRY LATIMER,397631,0.0%,.00,T,3Qo4Fx7M
@@ -292,11 +290,9 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 40546,5019 GRANJA TRES ARROYOS SACAFEI,Parcialmente ejecutada,Todo Aprobado,Ejecución de pedido de artículo 22217,Enviado,F,5019/005,0,56,12/02/2025,EXPRESO CARGO SA,395022,59.8%,1344.00,T,0Ql9Gi1V
 40546,5019 GRANJA TRES ARROYOS SACAFEI,Parcialmente ejecutada,Todo Aprobado,Factura de venta 01273,Abierta,F,5019/005,0,56,12/02/2025,EXPRESO CARGO SA,395022,59.8%,1344.00,,0Ql9Gi1V
 40546,5019 GRANJA TRES ARROYOS SACAFEI,Parcialmente ejecutada,Todo Aprobado,Ejecución de pedido de artículo 22217,Enviado,F,PPHR1216B,0,0,12/02/2025,EXPRESO CARGO SA,395022,62.1%,.00,T,0Ql9Gi1V
-40557,9400049 COMPAÑIA AMERICANA DE ALIMENTOS S.A.,Parcialmente ejecutada,Todo Aprobado,Factura de venta 36557,Abierta,F,PPHR15048XT,5,317,12/02/2025,EXPRESO CARGO SA,395561,39.1%,6762.00,,2Jl6Ja1C
-40557,9400049 COMPAÑIA AMERICANA DE ALIMENTOS S.A.,Parcialmente ejecutada,Todo Aprobado,Ejecución de pedido de artículo 22207,Enviado,F,PPHR15048XT,5,317,12/02/2025,EXPRESO CARGO SA,395561,39.1%,6762.00,T,2Jl6Ja1C
+40557,9400049 COMPAÑIA AMERICANA DE ALIMENTOS S.A.,Parcialmente ejecutada,Todo Aprobado,Ejecución de pedido de artículo 22207,Enviado,F,PPHR15048XT,322,0,12/02/2025,EXPRESO CARGO SA,395561,39.1%,6762.00,T,2Jl6Ja1C
 40559,433 MOLLON SA,Facturada,Todo Aprobado,Ejecución de pedido de artículo 22214,Enviado,F,PPAR15072T,0,0,12/02/2025,EXPRESO CARGO SA,395767,38.7%,.00,T,3Gj7Vu0K
 40570,86 EST GRAFICO IMPRESORES SA,Parcialmente ejecutada,Todo Aprobado,Ejecución de pedido de artículo 22206,Enviado,F,H11/48,0,0,12/02/2025,EXPRESO CARGO SA,396489,65.7%,.00,T,9Xw3Zi2V
-40570,86 EST GRAFICO IMPRESORES SA,Parcialmente ejecutada,Todo Aprobado,Factura de venta 36555,Abierta,F,PPHR15048XT,0,36,12/02/2025,EXPRESO CARGO SA,396489,54.4%,1008.00,,9Xw3Zi2V
 40572,67 FORD ARGENTINA S.C.A.,Facturación pendiente,Todo Aprobado,Ejecución de pedido de artículo 22212,Enviado,F,BV002,0,0,12/02/2025,EXPRESO CARGO SA,396844,66.7%,.00,F,0Bz8Ix7O
 40576,3089 ARNEG ARGENTINA S.A.,Facturada,Todo Aprobado,Ejecución de pedido de artículo 22210,Enviado,F,3089/079,0,0,12/02/2025,FELICI JORGE ARIEL,396983,63.6%,.00,T,7Rx7Ub2H
 40576,3089 ARNEG ARGENTINA S.A.,Facturada,Todo Aprobado,Ejecución de pedido de artículo 22210,Enviado,F,3089/080,0,0,12/02/2025,FELICI JORGE ARIEL,396983,62.1%,-102.00,T,7Rx7Ub2H
@@ -311,6 +307,7 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 40603,896 INGENIERIA PLASTICA ROSARIO S.A.,Facturada,Todo Aprobado,Ejecución de pedido de artículo 22208,Enviado,F,PPAR1048T,0,0,12/02/2025,EXPRESO LANCIONI,398580,45.1%,.00,T,8Py1Gv8L
 40604,9401262 NATUSUR SA,Facturada,Todo Aprobado,Ejecución de pedido de artículo 22204,Enviado,F,PPAR15048T,0,0,12/02/2025,TRANSPORTE TOMASSINI,398581,52.5%,.00,T,6Bv2Jx6M
 40565,1650 ARAG ARGENTINA SA,Ejecución de la orden pendiente,Todo Aprobado,Pedido ,Rechazado por supervisor,T,1650/002,0,500,13/02/2025,RICARDO PIERONI,395933,70.8%,2250.00,,8Yp8Ld0P
+40578,12877 BRIKET SA,Parcialmente ejecutada,Todo Aprobado,Orden de trabajo ,Ensamblada,F,0272/004,100,0,14/02/2025,RICARDO PIERONI,397195,42.8%,1355.00,,6Rp2Ce7I
 40612,896 INGENIERIA PLASTICA ROSARIO S.A.,Ejecución de la orden pendiente,Todo Aprobado, ,,F,PPAR1048T,360,0,14/02/2025,EXPRESO LANCIONI,399833,45.1%,367.20,,8Py1Gv8L
 40614,9402287 GRAELLS NELSON ANTONIO,Ejecución de la orden pendiente,Todo Aprobado, ,,F,PPA1048T040,72,0,14/02/2025,RICARDO PIERONI,399834,-20.3%,56.88,,0Ux3Ra3D
 40617,9402287 GRAELLS NELSON ANTONIO,Ejecución de la orden pendiente,Todo Aprobado, ,,F,PPA1048T040,108,0,14/02/2025,RICARDO PIERONI,399835,-20.3%,85.32,,0Ux3Ra3D
@@ -382,7 +379,6 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 40549,1318 ALIBUE S.A.,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Liberada,F,PPHR1216B,0,1080,,EXPRESO CARGO SA,395231,50.0%,1350.00,,1Sn9Yn7I
 40549,1318 ALIBUE S.A.,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Liberada,F,PVC612R,0,1440,,EXPRESO CARGO SA,395231,66.5%,2520.00,,1Sn9Yn7I
 40566,3925 BAIMA SA,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Liberada,F,3925/001,0,504,,RICARDO PIERONI,395934,58.6%,846.72,,5Vz7It0Z
-40578,12877 BRIKET SA,Parcialmente ejecutada,Todo Aprobado,Orden de trabajo ,Liberada,F,0272/004,0,100,,RICARDO PIERONI,397195,42.8%,1355.00,,6Rp2Ce7I
 40591,12662 PRINTEMPS S.R.L.,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Liberada,F,04965-00176-00,0,144,,ALMAR ROSARIO SRL,397864,55.2%,2105.28,,2Sp0Fe1F
 40591,12662 PRINTEMPS S.R.L.,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Liberada,F,2662/004,0,300,,ALMAR ROSARIO SRL,397864,58.4%,1026.00,,2Sp0Fe1F
 40592,12877 BRIKET SA,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Liberada,F,0272/004,0,300,,RICARDO PIERONI,397865,42.7%,4065.00,,6Rp2Ce7I
