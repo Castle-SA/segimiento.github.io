@@ -127,8 +127,8 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 40502,86 EST GRAFICO IMPRESORES SA,Facturada,Todo Aprobado,Ejecución de pedido de artículo 22101,Enviado,F,PPAR1048T,0,0,28/01/2025,EXPRESO CARGO SA,391630,54.2%,.00,T,9Xw3Zi2V
 40502,86 EST GRAFICO IMPRESORES SA,Facturada,Todo Aprobado,Ejecución de pedido de artículo 22101,Enviado,F,PPHR15048XT,0,0,28/01/2025,EXPRESO CARGO SA,391630,54.4%,.00,T,9Xw3Zi2V
 40214,5019 GRANJA TRES ARROYOS SACAFEI,Facturada,Todo Aprobado,Ejecución de pedido de artículo 22118,Enviado,F,5019/005,0,0,29/01/2025,EXPRESO CARGO SA,368461,59.6%,.00,T,0Ql9Gi1V
-40247,4010 ASIR SA (DISTRISUR),Parcialmente ejecutada,Todo Aprobado,Ejecución de pedido de artículo 22113,Enviado,F,PPA1548TE,0,252,29/01/2025,RICARDO PIERONI,370865,56.1%,504.00,T,1Rh7Xp6S
 40247,4010 ASIR SA (DISTRISUR),Parcialmente ejecutada,Todo Aprobado,Factura de venta 36469,Pagado por completo,F,PPA1548TE,0,252,29/01/2025,RICARDO PIERONI,370865,56.1%,504.00,,1Rh7Xp6S
+40247,4010 ASIR SA (DISTRISUR),Parcialmente ejecutada,Todo Aprobado,Ejecución de pedido de artículo 22113,Enviado,F,PPA1548TE,0,252,29/01/2025,RICARDO PIERONI,370865,56.1%,504.00,T,1Rh7Xp6S
 40346,126 DROGUERIA ROSFAR,Parcialmente ejecutada,Todo Aprobado,Ejecución de pedido de artículo 22119,Enviado,F,0126/002,2544,0,29/01/2025,ALMAR ROSARIO SRL,378815,64.4%,6.772.128,T,4Px3Cv6F
 40364,6220 INDUSTRIAL DECKERT S.R.L.,Facturada,Todo Aprobado,Ejecución de pedido de artículo 22105,Enviado,F,MTS548B,0,0,29/01/2025,EXPRESO CARGO SA,380227,34.7%,.00,T,7Gs5Gq1V
 40411,3051 FRIMETAL S.A.,Facturada,Todo Aprobado,Ejecución de pedido de artículo 22107,Enviado,F,MTS548B,0,0,29/01/2025,FELICI JORGE ARIEL,383527,57.1%,.00,T,3Dw0Uk2K
@@ -148,8 +148,8 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 40504,9401956 COMERCIAL INAL 2005 SA,Facturada,Todo Aprobado,Ejecución de pedido de artículo 22108,Enviado,F,PPAR10048T,0,0,29/01/2025,TRANSPORTE TOMASSINI,392146,45.8%,.00,T,5Hk1Mc6D
 40504,9401956 COMERCIAL INAL 2005 SA,Facturada,Todo Aprobado,Ejecución de pedido de artículo 22108,Enviado,F,PPAR1048T,0,0,29/01/2025,TRANSPORTE TOMASSINI,392146,50.0%,.00,T,5Hk1Mc6D
 40506,2094 FABEN SA,Facturada,Todo Aprobado,Ejecución de pedido de artículo 22114,Enviado,F,2094/002,0,0,29/01/2025,BARRY LATIMER,392271,71.4%,.00,T,6Ga0Sl6A
-40508,4 BEROWOOD SRL,Parcialmente ejecutada,Todo Aprobado,Factura de venta 36467,Pagado por completo,F,PPA1048F,0,72,29/01/2025,RICARDO PIERONI,392408,58.0%,216.00,,8El3Qk6P
 40508,4 BEROWOOD SRL,Parcialmente ejecutada,Todo Aprobado,Ejecución de pedido de artículo 22115,Enviado,F,PPA1048F,0,72,29/01/2025,RICARDO PIERONI,392408,58.0%,216.00,T,8El3Qk6P
+40508,4 BEROWOOD SRL,Parcialmente ejecutada,Todo Aprobado,Factura de venta 36467,Pagado por completo,F,PPA1048F,0,72,29/01/2025,RICARDO PIERONI,392408,58.0%,216.00,,8El3Qk6P
 40511,3086 MULTIORIGINAL PARTS SA,Facturada,Todo Aprobado,Ejecución de pedido de artículo 22116,Enviado,F,PPAR1048T,0,0,29/01/2025,EXPRESO LUJAN DEL CUYO SA,392520,58.0%,.00,T,1Fr4Ch9I
 40512,9400444 CRONI SA,Facturada,Todo Aprobado,Ejecución de pedido de artículo 22120,Enviado,F,PPHR15048XT,0,0,29/01/2025,EXPRESO CARGO SA,392521,54.4%,.00,T,0Rx5Fn3N
 40513,3086 MULTIORIGINAL PARTS SA,Facturada,Todo Aprobado,Ejecución de pedido de artículo 22117,Enviado,F,PPAR1048T,0,0,29/01/2025,TRANSPORTE TOMASSINI,392522,58.0%,.00,T,1Fr4Ch9I
@@ -244,8 +244,8 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 40528,1418 MAPSA SRL,Facturada,Todo Aprobado,Ejecución de pedido de artículo 22180,Enviado,F,PPAR15048T,0,0,11/02/2025,RICARDO PIERONI,393562,53.5%,.00,T,4Mb1Np8W
 40538,272 TALLERES METALURGICOS BAMBI S.A.,Parcialmente ejecutada,Todo Aprobado,Ejecución de pedido de artículo 22181,Enviado,F,PPAR1072T,0,0,11/02/2025,ALMAR ROSARIO SRL,394419,65.5%,.00,T,6Sy2Dr1B
 40538,272 TALLERES METALURGICOS BAMBI S.A.,Parcialmente ejecutada,Todo Aprobado,Ejecución de pedido de artículo 22181,Enviado,F,PVC624R,0,0,11/02/2025,ALMAR ROSARIO SRL,394419,54.2%,.00,T,6Sy2Dr1B
-40541,4782 OFFAL SA,Parcialmente ejecutada,Todo Aprobado,Factura de venta 36537,Abierta,F,PPAR10072T,0,32,11/02/2025,EXPRESO CARGO SA,394707,33.7%,502.40,,2Gq6Ps1R
 40541,4782 OFFAL SA,Parcialmente ejecutada,Todo Aprobado,Ejecución de pedido de artículo 22187,Enviado,F,PPAR10072T,0,32,11/02/2025,EXPRESO CARGO SA,394707,33.7%,502.40,T,2Gq6Ps1R
+40541,4782 OFFAL SA,Parcialmente ejecutada,Todo Aprobado,Factura de venta 36537,Abierta,F,PPAR10072T,0,32,11/02/2025,EXPRESO CARGO SA,394707,33.7%,502.40,,2Gq6Ps1R
 40552,2638 QUE RICO SA,Facturada,Todo Aprobado,Ejecución de pedido de artículo 22192,Enviado,F,PPHR1216B,0,0,11/02/2025,EXPRESO CARGO SA,395233,67.9%,.00,T,0Sl1Br5D
 40554,4872 PAMPA GLOBAL TRADE S.A,Facturada,Todo Aprobado,Ejecución de pedido de artículo 22183,Enviado,F,PPAR15048T,0,0,11/02/2025,RICARDO PIERONI,395453,65.0%,.00,T,4Rs4Vh2H
 40568,1809 MERCOMAX SA,Facturada,Todo Aprobado,Ejecución de pedido de artículo 22194,Enviado,F,PPAR1048T,0,0,11/02/2025,EXPRESO CARGO SA,396252,47.6%,.00,T,5Rr7Ys4Y
@@ -319,7 +319,7 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 40593,3051 FRIMETAL S.A.,Parcialmente ejecutada,Todo Aprobado,Ejecución de pedido de artículo 22239,Enviado,F,PVC624A,0,0,17/02/2025,ALMAR ROSARIO SRL,397866,70.7%,.00,T,3Dw0Uk2K
 40593,3051 FRIMETAL S.A.,Parcialmente ejecutada,Todo Aprobado,Ejecución de pedido de artículo 22239,Enviado,F,07055-00007-22,0,0,17/02/2025,ALMAR ROSARIO SRL,397866,65.0%,.00,T,3Dw0Uk2K
 40612,896 INGENIERIA PLASTICA ROSARIO S.A.,Facturada,Todo Aprobado,Ejecución de pedido de artículo 22229,Enviado,F,PPAR1048T,0,0,17/02/2025,EXPRESO LANCIONI,399833,45.1%,.00,T,8Py1Gv8L
-40614,9402287 GRAELLS NELSON ANTONIO,Facturación pendiente,Todo Aprobado,Ejecución de pedido de artículo 22244,Enviado,F,PPA1048T040,0,0,17/02/2025,RICARDO PIERONI,399834,-20.3%,.00,F,0Ux3Ra3D
+40614,9402287 GRAELLS NELSON ANTONIO,Facturada,Todo Aprobado,Ejecución de pedido de artículo 22244,Enviado,F,PPA1048T040,0,0,17/02/2025,RICARDO PIERONI,399834,-20.3%,.00,T,0Ux3Ra3D
 40617,9402287 GRAELLS NELSON ANTONIO,Facturación pendiente,Todo Aprobado,Ejecución de pedido de artículo 22245,Enviado,F,PPA1048T040,0,0,17/02/2025,RICARDO PIERONI,399835,-20.3%,.00,F,0Ux3Ra3D
 40618,9402287 GRAELLS NELSON ANTONIO,Facturación pendiente,Todo Aprobado,Ejecución de pedido de artículo 22247,Enviado,F,PPA1048T040,0,0,17/02/2025,RICARDO PIERONI,399836,-20.3%,.00,F,0Ux3Ra3D
 40619,9402287 GRAELLS NELSON ANTONIO,Facturación pendiente,Todo Aprobado,Ejecución de pedido de artículo 22248,Enviado,F,PPA1048T040,0,0,17/02/2025,RICARDO PIERONI,399837,-20.3%,.00,F,0Ux3Ra3D
