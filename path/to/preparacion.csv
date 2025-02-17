@@ -1,5 +1,5 @@
 Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. Especial,Pedido,Artículo,Cantidad,Faltante,Fecha,Transportista,ID,GP,,,
-39116,3368 COOPERATIVA AGROPECUARIA PRODUCTORES Y CONSUMIDORES LIMITADA,Parcialmente ejecutada,Todo Aprobado,Factura de venta 35192,Pagado por completo,F,2527/001,0,1,07/08/2024,BARRY LATIMER,300231,0.0%,.00,,0Ku8Og8O
+39116,3368 COOPERATIVA AGROPECUARIA PRODUCTORES Y CONSUMIDORES LIM,Parcialmente ejecutada,Todo Aprobado,Factura de venta 35192,Pagado por completo,F,2527/001,0,1,07/08/2024,BARRY LATIMER,300231,0.0%,.00,,0Ku8Og8O
 39728,9402041 ARAUCO ARGENTINA S.A.,Parcialmente ejecutada,Todo Aprobado,Factura de venta 35745,Pagado por completo,F,50605-00013-41,0,2,17/10/2024,EXPRESO CARGO SA,333794,0.0%,.00,,8Mr3Cg4W
 40247,4010 ASIR SA (DISTRISUR),Parcialmente ejecutada,Todo Aprobado,Factura de venta 36209,Pagado por completo,F,PPA1548TE,0,252,16/12/2024,RICARDO PIERONI,370865,56.1%,504.00,,1Rh7Xp6S
 40316,12787 FLEXCOLOR SRL,Parcialmente ejecutada,Todo Aprobado,Factura de venta 36277,Pagado por completo,F,PPA1548TE,0,432,02/01/2025,EXPRESO BRIO SRL,375947,39.6%,622.08,,3Jc0Cw5E
@@ -188,8 +188,8 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 40535,4245 PAMPA CHEESE SA,Facturada,Todo Aprobado,Ejecución de pedido de artículo 22145,Enviado,F,PPHR15048XT,0,0,04/02/2025,RF TRANSPORTE SA (CREDIFIN),393933,0.0%,.00,T,3Ti1Ha0U
 40536,4558 FUSION SAN LUIS S A,Parcialmente ejecutada,Todo Aprobado,Factura de venta 36498,Abierta,F,MTS548B,0,108,04/02/2025,EXPRESO LUJAN DEL CUYO SA,393946,56.3%,362.88,,6Yr2Cu9X
 40536,4558 FUSION SAN LUIS S A,Parcialmente ejecutada,Todo Aprobado,Ejecución de pedido de artículo 22141,Enviado,F,PPAR1048T,0,0,04/02/2025,EXPRESO LUJAN DEL CUYO SA,393946,66.7%,.00,T,6Yr2Cu9X
-40539,3598 DEL VALLE EMBALAJES SRL,Parcialmente ejecutada,Todo Aprobado,Ejecución de pedido de artículo 22146,Enviado,F,PPAR15096T,0,9,04/02/2025,RICARDO PIERONI,394550,59.3%,282.78,T,0Ph8Mv3F
 40539,3598 DEL VALLE EMBALAJES SRL,Parcialmente ejecutada,Todo Aprobado,Factura de venta 36493,Abierta,F,PPAR15096T,0,9,04/02/2025,RICARDO PIERONI,394550,59.3%,282.78,,0Ph8Mv3F
+40539,3598 DEL VALLE EMBALAJES SRL,Parcialmente ejecutada,Todo Aprobado,Ejecución de pedido de artículo 22146,Enviado,F,PPAR15096T,0,9,04/02/2025,RICARDO PIERONI,394550,59.3%,282.78,T,0Ph8Mv3F
 37683,3096 FRECICAR SRL,Facturada,Todo Aprobado,Ejecución de pedido de artículo 22152,Enviado,F,52330-00040-00,0,0,05/02/2025,RICARDO PIERONI,253464,51.4%,.00,T,9Zc0Jy4O
 40227,611 QUESOS DON ATILIO SA,Facturada,Todo Aprobado,Ejecución de pedido de artículo 22149,Enviado,F,PPA1548TE,0,0,05/02/2025,EXPRESO TAS,369341,53.7%,.00,T,8Br5Ap2B
 40245,9400962 CRYSTAL-ICE SRL,Parcialmente ejecutada,Todo Aprobado,Factura de venta 36506,Pagado por completo,F,PPA1548TE,0,4428,05/02/2025,RICARDO PIERONI,370615,39.4%,6420.60,,4Is2Rn8E
@@ -296,8 +296,8 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 40570,86 EST GRAFICO IMPRESORES SA,Facturada,Todo Aprobado,Ejecución de pedido de artículo 22225,Enviado,F,PPHR15048XT,0,0,14/02/2025,EXPRESO CARGO SA,396489,54.4%,.00,T,9Xw3Zi2V
 40578,12877 BRIKET SA,Facturada,Todo Aprobado,Ejecución de pedido de artículo 22222,Enviado,F,0272/004,0,0,14/02/2025,RICARDO PIERONI,397195,42.8%,.00,T,6Rp2Ce7I
 40581,2410 LUIS SOLIMENO E HIJOS SA,Facturada,Todo Aprobado,Ejecución de pedido de artículo 22219,Enviado,F,PPAR1048T,0,0,14/02/2025,TRANSPORTE TOMASSINI,397519,38.5%,.00,T,3Gh0Ze9O
-40581,2410 LUIS SOLIMENO E HIJOS SA,Facturada,Todo Aprobado,Ejecución de pedido de artículo 22220,Enviado,F,PPAR1072T,0,0,14/02/2025,TRANSPORTE TOMASSINI,397519,35.8%,.00,T,3Gh0Ze9O
 40581,2410 LUIS SOLIMENO E HIJOS SA,Facturada,Todo Aprobado,Ejecución de pedido de artículo 22218,Enviado,F,PPAR1072T,0,0,14/02/2025,TRANSPORTE TOMASSINI,397519,35.8%,.00,T,3Gh0Ze9O
+40581,2410 LUIS SOLIMENO E HIJOS SA,Facturada,Todo Aprobado,Ejecución de pedido de artículo 22220,Enviado,F,PPAR1072T,0,0,14/02/2025,TRANSPORTE TOMASSINI,397519,35.8%,.00,T,3Gh0Ze9O
 40584,9401497 ACEITERA GENERAL DEHEZA SA,Facturada,Todo Aprobado,Ejecución de pedido de artículo 22226,Enviado,F,PPHR15048XT,0,0,14/02/2025,BARRY LATIMER,397628,0.0%,.00,T,8Hg1Jv5J
 40620,9402287 GRAELLS NELSON ANTONIO,Ejecución de la orden pendiente,Todo Aprobado, ,,F,PPA1048T040,360,0,14/02/2025,RICARDO PIERONI,399838,-20.3%,284.40,,0Ux3Ra3D
 40622,9402287 GRAELLS NELSON ANTONIO,Ejecución de la orden pendiente,Todo Aprobado, ,,F,PPA1048T040,216,0,14/02/2025,RICARDO PIERONI,399840,-20.3%,170.64,,0Ux3Ra3D
