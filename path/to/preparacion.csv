@@ -300,8 +300,6 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 40581,2410 LUIS SOLIMENO E HIJOS SA,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 22218,Remitido,F,PPAR1072T,0,0,14/02/2025,TRANSPORTE TOMASSINI,397519,35.8%,5918.40,T,3Gh0Ze9O
 40584,9401497 ACEITERA GENERAL DEHEZA SA,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 22226,Remitido,F,PPHR15048XT,0,0,14/02/2025,BARRY LATIMER,397628,0.0%,.00,T,8Hg1Jv5J
 40608,12794 ACEROLATINA SA,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Ensamblada,F,CF51060T-MX,60,0,14/02/2025,EXPRESO CARGO SA,399094,83.3%,12000.00,,7Ir5If6T
-40620,9402287 GRAELLS NELSON ANTONIO,Ejecución de la orden pendiente,Todo Aprobado, ,,F,PPA1048T040,360,0,14/02/2025,RICARDO PIERONI,399838,-20.3%,284.40,,0Ux3Ra3D
-40624,9402287 GRAELLS NELSON ANTONIO,Ejecución de la orden pendiente,Todo Aprobado, ,,F,PPA1048T040,396,0,14/02/2025,RICARDO PIERONI,399937,-20.3%,312.84,,0Ux3Ra3D
 40630,9402287 GRAELLS NELSON ANTONIO,Ejecución de la orden pendiente,Todo Aprobado, ,,F,PPA1048T040,720,0,14/02/2025,RICARDO PIERONI,399939,-20.3%,568.80,,0Ux3Ra3D
 40635,3958 CN SERVICIOS SRL,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 22227,Remitido,F,PPAR524T,0,0,14/02/2025,RICARDO PIERONI,400281,99.9%,518.40,T,1Mr2Cv3E
 40069,143 EPTA ARGENTINA S.A.,Parcialmente ejecutada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 22228,Remitido,F,0143/008,0,6,17/02/2025,FELICI JORGE ARIEL,357328,55.0%,3233.00,T,1Tu2Pr5C
@@ -341,15 +339,21 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 40642,2797 BONNIN HNOS SH,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 22231,Remitido,F,PPAR1048T,0,0,17/02/2025,TRANSPORTE MOSTTO,401288,55.6%,453.60,T,6Ae0Wj8F
 40643,9400708 CEREALES NATURALES SRL,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 22234,Remitido,F,PPAR1048T,0,0,17/02/2025,EXPRESO CARGO SA,401406,41.1%,855.00,T,4Rr1Tn7J
 40645,9402017 NUNZIO SRL,Ejecución de la orden pendiente,Todo Aprobado, ,,F,PPAR1048T,360,0,17/02/2025,RICARDO PIERONI,401407,51.3%,414.00,,3Ww3Di0Q
+40620,9402287 GRAELLS NELSON ANTONIO,Facturación pendiente,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 22258,Remitido,F,PPA1048T040,0,0,18/02/2025,RICARDO PIERONI,399838,-20.3%,284.40,F,0Ux3Ra3D
 40622,9402287 GRAELLS NELSON ANTONIO,Facturación pendiente,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 22256,Remitido,F,PPA1048T040,0,0,18/02/2025,RICARDO PIERONI,399840,-20.3%,170.64,F,0Ux3Ra3D
+40624,9402287 GRAELLS NELSON ANTONIO,Facturación pendiente,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 22259,Remitido,F,PPA1048T040,0,0,18/02/2025,RICARDO PIERONI,399937,-20.3%,312.84,F,0Ux3Ra3D
 40625,9402287 GRAELLS NELSON ANTONIO,Facturación pendiente,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 22257,Remitido,F,PPA1048T040,0,0,18/02/2025,RICARDO PIERONI,399938,-20.3%,568.80,F,0Ux3Ra3D
 40646,105 SCANIA ARGENTINA SAU,Facturación pendiente,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 22255,Remitido,F,LC579,0,0,18/02/2025,LA SEVILLANITA SRL,401510,58.1%,3720.00,F,2Yb2Zq5E
+40640,3014 PAPELERA ENTRE RIOS S.A.,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Ensamblada,F,64621-00048-00,200,0,19/02/2025,TRANSPORTE MOSTTO,401153,42.7%,2000.00,,3Jn8Ia2B
+40650,9402308 ACERO PERFIL SA,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Ensamblada,F,64621-00048-00,1,0,19/02/2025,EXPRESO CARGO SA,401897,0.0%,.00,,
 40650,9402308 ACERO PERFIL SA,Ejecución de la orden pendiente,Todo Aprobado, ,,F,CF548T,1,0,19/02/2025,EXPRESO CARGO SA,401897,0.0%,.00,,
 40650,9402308 ACERO PERFIL SA,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Ensamblada,F,MF550T,1,0,19/02/2025,EXPRESO CARGO SA,401897,0.0%,.00,,
 40650,9402308 ACERO PERFIL SA,Ejecución de la orden pendiente,Todo Aprobado, ,,F,FLJPP30012B,1,0,19/02/2025,EXPRESO CARGO SA,401897,0.0%,.00,,
 40651,9400024 ALIMENTARIA MANAL S.A.,Ejecución de la orden pendiente,Todo Aprobado, ,,F,PPAR1048T,180,0,19/02/2025,EXPRESO CARGO SA,401927,43.4%,178.20,,8Qv4Kz3A
 40653,3829 LEDESMA S.A.A.I,Ejecución de la orden pendiente,Todo Aprobado, ,,F,PPHR15048XT,504,0,19/02/2025,EXPRESO LUJAN DEL CUYO SA,402041,44.2%,11541.60,,9Cy1Wk5Q
 40653,3829 LEDESMA S.A.A.I,Ejecución de la orden pendiente,Todo Aprobado, ,,F,MTP548B,1080,0,19/02/2025,EXPRESO LUJAN DEL CUYO SA,402041,28.4%,2052.00,,9Cy1Wk5Q
+40655,15 IND. JOHN DEERE ARGENTINA S.A.,Ejecución de la orden pendiente,Todo Aprobado, ,,F,04169-00061-93,10,0,19/02/2025,FELICI JORGE ARIEL,402150,57.3%,240.00,,8Ky5Hq9D
+40656,15 IND. JOHN DEERE ARGENTINA S.A.,Ejecución de la orden pendiente,Todo Aprobado, ,,F,LC579,1200,0,19/02/2025,FELICI JORGE ARIEL,402152,60.6%,396.00,,8Ky5Hq9D
 40462,202 FRIGORIFICO DE AVES SOYCHU SA,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Ensamblada,F,PVC612R,800,0,24/02/2025,EXPRESO CARGO SA,388839,56.4%,1080.00,,5Ow8Cg8A
 40365,1029 DREAN SA,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Ensamblada,F,0272/005,120,0,25/02/2025,EXPRESO CARGO SA,380388,44.0%,1176.00,,6Ng7Hp1X
 40610,814 OBLAK HNOS SACIFI,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Ensamblada,F,07063-00001-24,150,0,27/02/2025,EXPRESO CARGO SA,399210,34.9%,1222.50,,1Hy0Vd3I
@@ -394,7 +398,6 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 40609,5019 GRANJA TRES ARROYOS SACAFEI,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Liberada,F,5019/003,0,90,,EXPRESO CARGO SA,398795,60.1%,1440.00,,0Ql9Gi1V
 40611,3051 FRIMETAL S.A.,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Liberada,F,1823/002,0,32,,FELICI JORGE ARIEL,399353,52.3%,896.833,,3Dw0Uk2K
 40636,576 FRIOLATINA S.A.,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Liberada,F,CF51060T-MX,0,25,,EXPRESO LUJAN DEL CUYO SA,400444,83.3%,5000.00,,0Bo9Mc3H
-40640,3014 PAPELERA ENTRE RIOS S.A.,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Liberada,F,64621-00048-00,0,200,,TRANSPORTE MOSTTO,401153,42.7%,2000.00,,3Jn8Ia2B
 40644,9401445 HILOS PLASTICOS SA,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Liberada,F,PVC648R,0,36,,RETIRAN,401507,-86.8%,36.00,,4Fo7Im4B
 40647,3089 ARNEG,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Liberada,F,3089/017,0,20000,,RICARDO PIERONI,401617,63.6%,3840.00,,7Rx7Ub2H
 40647,3089 ARNEG,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Liberada,F,3089/029,0,25000,,RICARDO PIERONI,401617,87.0%,850.00,,7Rx7Ub2H
@@ -403,4 +406,4 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 40648,4884 METALURGICA SAN PATRICIO S H,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Liberada,F,PVC612B,0,144,,EXPRESO CARGO SA,401764,87.5%,535.68,,4Gq8Ju7U
 40649,6631 PILKINGTON AUTOMOTIVE ARGENTINA SA,Ejecución de la orden pendiente,Todo Aprobado,Pedido ,Aprobación del supervisor pendiente,T,6631/003,0,720,,EXPRESO CARGO SA,401785,48.4%,3348.00,,8Gy5Vz0B
 40649,6631 PILKINGTON AUTOMOTIVE ARGENTINA SA,Ejecución de la orden pendiente,Todo Aprobado, ,,F,PPAR1048T,1440,0,,EXPRESO CARGO SA,401785,45.1%,1468.80,,8Gy5Vz0B
-40650,9402308 ACERO PERFIL SA,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Liberada,F,64621-00048-00,0,1,,EXPRESO CARGO SA,401897,0.0%,.00,,
+40657,3089 ARNEG,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Liberada,F,3089/017,0,10000,,RICARDO PIERONI,402164,63.6%,1920.00,,7Rx7Ub2H
