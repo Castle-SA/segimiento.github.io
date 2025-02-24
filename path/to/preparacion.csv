@@ -34,8 +34,8 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 40502,86 EST GRAFICO IMPRESORES SA,Facturada,Todo Aprobado,Ejecución de pedido de artículo 22101,Enviado,F,PPAR1048T,0,0,28/01/2025,EXPRESO CARGO SA,391630,54.2%,.00,T,9Xw3Zi2V
 40502,86 EST GRAFICO IMPRESORES SA,Facturada,Todo Aprobado,Ejecución de pedido de artículo 22101,Enviado,F,PPHR15048XT,0,0,28/01/2025,EXPRESO CARGO SA,391630,54.4%,.00,T,9Xw3Zi2V
 40214,5019 GRANJA TRES ARROYOS SACAFEI,Facturada,Todo Aprobado,Ejecución de pedido de artículo 22118,Enviado,F,5019/005,0,0,29/01/2025,EXPRESO CARGO SA,368461,59.6%,.00,T,0Ql9Gi1V
-40247,4010 ASIR SA (DISTRISUR),Parcialmente ejecutada,Todo Aprobado,Factura de venta 36469,Pagado por completo,F,PPA1548TE,0,252,29/01/2025,RICARDO PIERONI,370865,56.1%,504.00,,1Rh7Xp6S
 40247,4010 ASIR SA (DISTRISUR),Parcialmente ejecutada,Todo Aprobado,Ejecución de pedido de artículo 22113,Enviado,F,PPA1548TE,0,252,29/01/2025,RICARDO PIERONI,370865,56.1%,504.00,T,1Rh7Xp6S
+40247,4010 ASIR SA (DISTRISUR),Parcialmente ejecutada,Todo Aprobado,Factura de venta 36469,Pagado por completo,F,PPA1548TE,0,252,29/01/2025,RICARDO PIERONI,370865,56.1%,504.00,,1Rh7Xp6S
 40346,126 DROGUERIA ROSFAR,Facturada,Todo Aprobado,Ejecución de pedido de artículo 22119,Enviado,F,0126/002,0,0,29/01/2025,ALMAR ROSARIO SRL,378815,64.4%,.00,T,4Px3Cv6F
 40364,6220 INDUSTRIAL DECKERT S.R.L.,Facturada,Todo Aprobado,Ejecución de pedido de artículo 22105,Enviado,F,MTS548B,0,0,29/01/2025,EXPRESO CARGO SA,380227,34.7%,.00,T,7Gs5Gq1V
 40411,3051 FRIMETAL S.A.,Facturada,Todo Aprobado,Ejecución de pedido de artículo 22107,Enviado,F,MTS548B,0,0,29/01/2025,FELICI JORGE ARIEL,383527,57.1%,.00,T,3Dw0Uk2K
@@ -98,8 +98,8 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 40539,3598 DEL VALLE EMBALAJES SRL,Parcialmente ejecutada,Todo Aprobado,Ejecución de pedido de artículo 22146,Enviado,F,PPAR15096T,0,9,04/02/2025,RICARDO PIERONI,394550,59.3%,282.78,T,0Ph8Mv3F
 37683,3096 FRECICAR SRL,Facturada,Todo Aprobado,Ejecución de pedido de artículo 22152,Enviado,F,52330-00040-00,0,0,05/02/2025,RICARDO PIERONI,253464,51.4%,.00,T,9Zc0Jy4O
 40227,611 QUESOS DON ATILIO SA,Facturada,Todo Aprobado,Ejecución de pedido de artículo 22149,Enviado,F,PPA1548TE,0,0,05/02/2025,EXPRESO TAS,369341,53.7%,.00,T,8Br5Ap2B
-40245,9400962 CRYSTAL-ICE SRL,Parcialmente ejecutada,Todo Aprobado,Factura de venta 36506,Pagado por completo,F,PPA1548TE,0,4428,05/02/2025,RICARDO PIERONI,370615,39.4%,6420.60,,4Is2Rn8E
 40245,9400962 CRYSTAL-ICE SRL,Parcialmente ejecutada,Todo Aprobado,Ejecución de pedido de artículo 22150,Enviado,F,PPA1548TE,0,4428,05/02/2025,RICARDO PIERONI,370615,39.4%,6420.60,T,4Is2Rn8E
+40245,9400962 CRYSTAL-ICE SRL,Parcialmente ejecutada,Todo Aprobado,Factura de venta 36506,Pagado por completo,F,PPA1548TE,0,4428,05/02/2025,RICARDO PIERONI,370615,39.4%,6420.60,,4Is2Rn8E
 40395,9400826 PRODUCTOS EL ARTESANO,Facturada,Todo Aprobado,Ejecución de pedido de artículo 22160,Enviado,F,9400826/003,0,0,05/02/2025,EXPRESO LUJAN DEL CUYO SA,382217,54.1%,.00,T,0Fw8Wv0R
 40408,4089 SOBRERO Y CAGNOLO SA,Facturada,Todo Aprobado,Ejecución de pedido de artículo 22151,Enviado,F,PPHR15048XT,0,0,05/02/2025,RICARDO PIERONI,383263,54.4%,-28.00,T,9Or7Px4G
 40408,4089 SOBRERO Y CAGNOLO SA,Facturada,Todo Aprobado,Ejecución de pedido de artículo 22151,Enviado,F,PPAR1048T,0,0,05/02/2025,RICARDO PIERONI,383263,47.6%,.00,T,9Or7Px4G
@@ -210,9 +210,7 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 40546,5019 GRANJA TRES ARROYOS SACAFEI,Parcialmente ejecutada,Todo Aprobado,Ejecución de pedido de artículo 22236,Enviado,F,PVC612R,0,0,17/02/2025,EXPRESO CARGO SA,395022,70.8%,.00,T,0Ql9Gi1V
 40549,1318 ALIBUE S.A.,Facturación pendiente,Todo Aprobado,Ejecución de pedido de artículo 22235,Enviado,F,PPAR1048T,0,0,17/02/2025,EXPRESO CARGO SA,395231,56.0%,.00,T,1Sn9Yn7I
 40549,1318 ALIBUE S.A.,Facturación pendiente,Todo Aprobado,Ejecución de pedido de artículo 22235,Enviado,F,PVC612R,0,0,17/02/2025,EXPRESO CARGO SA,395231,66.5%,.00,T,1Sn9Yn7I
-40591,12662 PRINTEMPS S.R.L.,Parcialmente ejecutada,Todo Aprobado,Orden de trabajo ,Ensamblada,F,04965-00176-00,144,0,17/02/2025,ALMAR ROSARIO SRL,397864,55.2%,2105.28,,2Sp0Fe1F
-40591,12662 PRINTEMPS S.R.L.,Parcialmente ejecutada,Todo Aprobado,Ejecución de pedido de artículo 22238,Enviado,F,64621-00003-00,0,0,17/02/2025,ALMAR ROSARIO SRL,397864,64.5%,.00,T,2Sp0Fe1F
-40591,12662 PRINTEMPS S.R.L.,Parcialmente ejecutada,Todo Aprobado,Orden de trabajo ,Ensamblada,F,2662/004,300,0,17/02/2025,ALMAR ROSARIO SRL,397864,58.4%,1026.00,,2Sp0Fe1F
+40591,12662 PRINTEMPS S.R.L.,Facturación pendiente,Todo Aprobado,Ejecución de pedido de artículo 22238,Enviado,F,64621-00003-00,0,0,17/02/2025,ALMAR ROSARIO SRL,397864,64.5%,.00,T,2Sp0Fe1F
 40593,3051 FRIMETAL S.A.,Parcialmente ejecutada,Todo Aprobado,Ejecución de pedido de artículo 22239,Enviado,F,07055-00007-22,0,0,17/02/2025,ALMAR ROSARIO SRL,397866,65.0%,.00,T,3Dw0Uk2K
 40593,3051 FRIMETAL S.A.,Parcialmente ejecutada,Todo Aprobado,Ejecución de pedido de artículo 22239,Enviado,F,2280/004,0,0,17/02/2025,ALMAR ROSARIO SRL,397866,44.7%,-325.678,T,3Dw0Uk2K
 40593,3051 FRIMETAL S.A.,Parcialmente ejecutada,Todo Aprobado,Ejecución de pedido de artículo 22239,Enviado,F,PVC624A,0,0,17/02/2025,ALMAR ROSARIO SRL,397866,70.7%,.00,T,3Dw0Uk2K
@@ -290,6 +288,8 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 40684,1049 EL ALMACEN DEL CELIACO de MARTIN GNESETTI,Facturada,Todo Aprobado,Ejecución de pedido de artículo 22295,Enviado,F,PPAR1048T,0,0,21/02/2025,RICARDO PIERONI,404530,52.5%,.00,T,6Wv2Br0V
 40527,583 TERRAGENE SA,Facturación pendiente,Todo Aprobado,Ejecución de pedido de artículo 22297,Enviado,F,04965-00014-00,0,0,24/02/2025,RICARDO PIERONI,393347,50.9%,.00,F,5Pl6Eg8H
 40549,1318 ALIBUE S.A.,Facturación pendiente,Todo Aprobado,Ejecución de pedido de artículo 22300,Enviado,F,PPHR1216B,0,0,24/02/2025,EXPRESO CARGO SA,395231,50.0%,.00,F,1Sn9Yn7I
+40591,12662 PRINTEMPS S.R.L.,Facturación pendiente,Todo Aprobado,Ejecución de pedido de artículo 22302,Enviado,F,04965-00176-00,0,0,24/02/2025,ALMAR ROSARIO SRL,397864,55.2%,.00,F,2Sp0Fe1F
+40591,12662 PRINTEMPS S.R.L.,Facturación pendiente,Todo Aprobado,Ejecución de pedido de artículo 22302,Enviado,F,2662/004,0,0,24/02/2025,ALMAR ROSARIO SRL,397864,58.4%,.00,F,2Sp0Fe1F
 40647,3089 ARNEG ARGENTINA SA,Facturación pendiente,Todo Aprobado,Ejecución de pedido de artículo 22298,Enviado,F,3089/017,0,0,24/02/2025,RICARDO PIERONI,401617,63.6%,.00,F,7Rx7Ub2H
 40647,3089 ARNEG ARGENTINA SA,Facturación pendiente,Todo Aprobado,Ejecución de pedido de artículo 22298,Enviado,F,3089/029,0,0,24/02/2025,RICARDO PIERONI,401617,87.0%,.00,F,7Rx7Ub2H
 40647,3089 ARNEG ARGENTINA SA,Facturación pendiente,Todo Aprobado,Ejecución de pedido de artículo 22298,Enviado,F,3089/014,0,0,24/02/2025,RICARDO PIERONI,401617,63.8%,.00,F,7Rx7Ub2H
