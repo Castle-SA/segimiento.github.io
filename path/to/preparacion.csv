@@ -174,8 +174,8 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 40440,9401339 QUICKFOOD S.A.,Facturada,Todo Aprobado,Ejecución de pedido de artículo 22201,Enviado,F,PPAR1048T,0,0,12/02/2025,BERGAMASCHI OSVALDO RAMON,386946,58.0%,.00,T,8Fy3Xp2W
 40540,9401909 FRIGORIFICO MONTECARLO SOCIEDAD ANONIMA,Facturada,Todo Aprobado,Ejecución de pedido de artículo 22202,Enviado,F,PPAR1048T,0,0,12/02/2025,TRANSPORTE TOMASSINI,394660,45.0%,.00,T,1Nb5Uu3M
 40540,9401909 FRIGORIFICO MONTECARLO SOCIEDAD ANONIMA,Facturada,Todo Aprobado,Ejecución de pedido de artículo 22202,Enviado,F,CH5235,0,0,12/02/2025,TRANSPORTE TOMASSINI,394660,48.4%,.00,T,1Nb5Uu3M
-40546,5019 GRANJA TRES ARROYOS SACAFEI,Parcialmente ejecutada,Todo Aprobado,Factura de venta 01273,Abierta,F,5019/005,0,56,12/02/2025,EXPRESO CARGO SA,395022,59.8%,1344.00,,0Ql9Gi1V
 40546,5019 GRANJA TRES ARROYOS SACAFEI,Parcialmente ejecutada,Todo Aprobado,Ejecución de pedido de artículo 22217,Enviado,F,5019/005,0,56,12/02/2025,EXPRESO CARGO SA,395022,59.8%,1344.00,T,0Ql9Gi1V
+40546,5019 GRANJA TRES ARROYOS SACAFEI,Parcialmente ejecutada,Todo Aprobado,Factura de venta 01273,Abierta,F,5019/005,0,56,12/02/2025,EXPRESO CARGO SA,395022,59.8%,1344.00,,0Ql9Gi1V
 40546,5019 GRANJA TRES ARROYOS SACAFEI,Parcialmente ejecutada,Todo Aprobado,Ejecución de pedido de artículo 22217,Enviado,F,PPHR1216B,0,0,12/02/2025,EXPRESO CARGO SA,395022,62.1%,.00,T,0Ql9Gi1V
 40557,9400049 COMPAÑIA AMERICANA DE ALIMENTOS S.A.,Facturada,Todo Aprobado,Ejecución de pedido de artículo 22207,Enviado,F,PPHR15048XT,0,0,12/02/2025,EXPRESO CARGO SA,395561,39.1%,-42.00,T,2Jl6Ja1C
 40559,433 MOLLON SA,Facturada,Todo Aprobado,Ejecución de pedido de artículo 22214,Enviado,F,PPAR15072T,0,0,12/02/2025,EXPRESO CARGO SA,395767,38.7%,.00,T,3Gj7Vu0K
@@ -352,6 +352,7 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 40699,3051 FRIMETAL S.A.,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Liberada,F,1823/002,0,24,04/03/2025,FELICI JORGE ARIEL,405836,49.2%,669.823,,3Dw0Uk2K
 40699,3051 FRIMETAL S.A.,Ejecución de la orden pendiente,Todo Aprobado, ,,F,PPAR1048M,477,67,04/03/2025,FELICI JORGE ARIEL,405836,31.1%,633.366,,3Dw0Uk2K
 40699,3051 FRIMETAL S.A.,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Liberada,F,PVC624A,0,288,04/03/2025,FELICI JORGE ARIEL,405836,90.7%,901.231,,3Dw0Uk2K
+40707,3089 ARNEG ARGENTINA SA,Ejecución de la orden pendiente,Todo Aprobado, ,,F,3089/019,1500,0,04/03/2025,RICARDO PIERONI,406514,83.9%,1677.00,,7Rx7Ub2H
 40637,4095 REFINERIA DEL CENTRO SA,Ejecución de la orden pendiente,Todo Aprobado, ,,F,H11/72,30,0,06/03/2025,EXPRESO SANTA ROSA,400779,43.2%,695.10,,1Bj3Wa5S
 40687,9402185 MONCHAMP INDUSTRIAS SRL,Ejecución de la orden pendiente,Todo Aprobado, ,,F,MVAQUA180,75,25,06/03/2025,ALMAR ROSARIO SRL,404883,34.2%,986.00,,7Ck6Zj2S
 40696,15 IND. JOHN DEERE ARGENTINA S.A.,Ejecución de la orden pendiente,Todo Aprobado, ,,F,0015/019,0,900,11/03/2025,FELICI JORGE ARIEL,405674,75.0%,873.00,,8Ky5Hq9D
