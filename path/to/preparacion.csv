@@ -67,8 +67,8 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 40535,4245 PAMPA CHEESE SA,Facturada,Todo Aprobado,Ejecución de pedido de artículo 22145,Enviado,F,PPHR15048XT,0,0,04/02/2025,RF TRANSPORTE SA (CREDIFIN),393933,0.0%,.00,T,3Ti1Ha0U
 40536,4558 FUSION SAN LUIS S A,Parcialmente ejecutada,Todo Aprobado,Factura de venta 36498,Abierta,F,MTS548B,0,108,04/02/2025,EXPRESO LUJAN DEL CUYO SA,393946,56.3%,362.88,,6Yr2Cu9X
 40536,4558 FUSION SAN LUIS S A,Parcialmente ejecutada,Todo Aprobado,Ejecución de pedido de artículo 22141,Enviado,F,PPAR1048T,0,0,04/02/2025,EXPRESO LUJAN DEL CUYO SA,393946,66.7%,.00,T,6Yr2Cu9X
-40539,3598 DEL VALLE EMBALAJES SRL,Parcialmente ejecutada,Todo Aprobado,Ejecución de pedido de artículo 22146,Enviado,F,PPAR15096T,0,9,04/02/2025,RICARDO PIERONI,394550,59.3%,282.78,T,0Ph8Mv3F
 40539,3598 DEL VALLE EMBALAJES SRL,Parcialmente ejecutada,Todo Aprobado,Factura de venta 36493,Abierta,F,PPAR15096T,0,9,04/02/2025,RICARDO PIERONI,394550,59.3%,282.78,,0Ph8Mv3F
+40539,3598 DEL VALLE EMBALAJES SRL,Parcialmente ejecutada,Todo Aprobado,Ejecución de pedido de artículo 22146,Enviado,F,PPAR15096T,0,9,04/02/2025,RICARDO PIERONI,394550,59.3%,282.78,T,0Ph8Mv3F
 37683,3096 FRECICAR SRL,Facturada,Todo Aprobado,Ejecución de pedido de artículo 22152,Enviado,F,52330-00040-00,0,0,05/02/2025,RICARDO PIERONI,253464,51.4%,.00,T,9Zc0Jy4O
 40227,611 QUESOS DON ATILIO SA,Facturada,Todo Aprobado,Ejecución de pedido de artículo 22149,Enviado,F,PPA1548TE,0,0,05/02/2025,EXPRESO TAS,369341,53.7%,.00,T,8Br5Ap2B
 40245,9400962 CRYSTAL-ICE SRL,Parcialmente ejecutada,Todo Aprobado,Factura de venta 36506,Pagado por completo,F,PPA1548TE,0,3708,05/02/2025,RICARDO PIERONI,370615,39.4%,5376.60,,4Is2Rn8E
@@ -340,8 +340,8 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 40699,3051 FRIMETAL S.A.,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Ensamblada,F,PVC624A,288,0,04/03/2025,FELICI JORGE ARIEL,405836,90.7%,901.231,,3Dw0Uk2K
 40707,3089 ARNEG ARGENTINA SA,Ejecución de la orden pendiente,Todo Aprobado, ,,F,3089/019,1500,0,04/03/2025,RICARDO PIERONI,406514,83.9%,1677.00,,7Rx7Ub2H
 40708,9401460 INDUBOL SA,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Ensamblada,F,64621-00048-00,144,0,05/03/2025,DIAZ ANIBAL (COMISIONISTA),406634,61.8%,2152.80,,1Qd9By7M
-40717,1029 DREAN SA,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Liberada,F,64621-00001-00,0,36,05/03/2025,EXPRESO CARGO SA,407234,58.7%,135.00,,6Ng7Hp1X
-40717,1029 DREAN SA,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Liberada,F,64621-00048-00,0,24,05/03/2025,EXPRESO CARGO SA,407234,61.9%,360.00,,6Ng7Hp1X
+40717,1029 DREAN SA,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Ensamblada,F,64621-00001-00,36,0,05/03/2025,EXPRESO CARGO SA,407234,58.7%,135.00,,6Ng7Hp1X
+40717,1029 DREAN SA,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Ensamblada,F,64621-00048-00,24,0,05/03/2025,EXPRESO CARGO SA,407234,61.9%,360.00,,6Ng7Hp1X
 40637,4095 REFINERIA DEL CENTRO SA,Ejecución de la orden pendiente,Todo Aprobado, ,,F,H11/72,30,0,06/03/2025,EXPRESO SANTA ROSA,400779,43.2%,695.10,,1Bj3Wa5S
 40687,9402185 MONCHAMP INDUSTRIAS SRL,Ejecución de la orden pendiente,Todo Aprobado, ,,F,MVAQUA180,75,25,06/03/2025,ALMAR ROSARIO SRL,404883,34.2%,986.00,,7Ck6Zj2S
 40722,1171 AUTOSAL SA,Ejecución de la orden pendiente,Todo Aprobado, ,,F,DT550G,95,0,10/03/2025,EXPRESO CARGO SA,407496,43.4%,1572.25,,2Uv7Bb0L
@@ -356,7 +356,7 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 37685,3096 FRECICAR SRL,Ejecución de la orden pendiente,Todo Aprobado, ,,F,52330-00040-00,7,0,03/04/2025,RICARDO PIERONI,253466,51.4%,3010.00,,9Zc0Jy4O
 40609,5019 GRANJA TRES ARROYOS SACAFEI,Parcialmente ejecutada,Todo Aprobado,Orden de trabajo ,Liberada,F,5019/002,0,540,03/04/2025,EXPRESO CARGO SA,398795,56.6%,864.00,,0Ql9Gi1V
 40609,5019 GRANJA TRES ARROYOS SACAFEI,Parcialmente ejecutada,Todo Aprobado,Orden de trabajo ,Liberada,F,5019/003,0,26,03/04/2025,EXPRESO CARGO SA,398795,60.1%,416.00,,0Ql9Gi1V
-40716,4604 TENTO SRL,Ejecución de la orden pendiente,Todo Aprobado, ,,F,4604/001,0,1008,04/04/2025,RICARDO PIERONI,407109,41.4%,1078.56,,8Oo4Jc0P
+40716,4604 TENTO SRL,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Liberada,T,4604/001,0,1008,04/04/2025,RICARDO PIERONI,407109,41.4%,1078.56,,8Oo4Jc0P
 40712,94010 VISUAR SA,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Liberada,F,1823/002,0,192,18/04/2025,EXPRESO CARGO SA,406791,56.0%,5840.64,,4Gf8Oa0H
 37686,3096 FRECICAR SRL,Ejecución de la orden pendiente,Todo Aprobado, ,,F,52330-00040-00,7,0,05/05/2025,RICARDO PIERONI,253467,51.4%,3010.00,,9Zc0Jy4O
 39934,67 FORD ARGENTINA S.C.A.,Ejecución de la orden pendiente,Todo Aprobado, ,,F,BV002,16606,26094,07/05/2025,ALMAR ROSARIO SRL,346461,66.7%,370636.00,,0Bz8Ix7O
@@ -375,7 +375,7 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 40483,611 QUESOS DON ATILIO SA,Ejecución de la orden pendiente,Todo Aprobado, ,,F,PPA1548TE,0,252,,EXPRESO TAS,390254,54.9%,478.80,,8Br5Ap2B
 40484,5039 PRODUCTORA ALIMENTARIA INT SRL,Ejecución de la orden pendiente,Todo Aprobado, ,,F,PPA1548TE,0,270,,EXPRESO CARGO SA,390368,59.4%,569.70,,6Ga9Nq0N
 40606,2067 VIRA OFFIS S.A.,Ejecución de la orden pendiente,Todo Aprobado, ,,F,PPA1548TE,0,180,,RICARDO PIERONI,398793,42.9%,270.00,,1Vr4Eu6L
-40649,6631 PILKINGTON AUTOMOTIVE ARGENTINA SA,Parcialmente ejecutada,Todo Aprobado,Pedido ,Aprobación del supervisor pendiente,T,6631/003,0,720,,EXPRESO CARGO SA,401785,48.4%,3348.00,,8Gy5Vz0B
+40649,6631 PILKINGTON AUTOMOTIVE ARGENTINA SA,Parcialmente ejecutada,Todo Aprobado,Pedido ,Recepción pendiente,T,6631/003,0,720,,EXPRESO CARGO SA,401785,48.4%,3348.00,,8Gy5Vz0B
 40661,2475 GAMISOL Y CIA SA,Ejecución de la orden pendiente,Todo Aprobado, ,,F,PPA1548TE,0,360,,EXPRESO CARGO SA,402783,42.6%,536.40,,8Ax3Mu7O
 40671,60 INGERSOLL ARGENTINA S.A.,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Liberada,T,0060/001,0,150,,TRANSPORTE TRAVERSO,403426,83.7%,1860.00,,2Df5Fp8J
 40672,898 LCR IMPORT SRL,Ejecución de la orden pendiente,Todo Aprobado, ,,F,PPA1548TE,0,180,,RICARDO PIERONI,403721,57.3%,360.00,,0Mq0Wi5F
