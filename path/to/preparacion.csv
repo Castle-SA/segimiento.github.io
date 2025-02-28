@@ -18,8 +18,8 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 40520,3089 ARNEG ARGENTINA SA,Facturada,Todo Aprobado,Ejecución de pedido de artículo 22128,Enviado,F,PPAR1072T,0,0,30/01/2025,RICARDO PIERONI,392969,66.9%,.00,T,7Rx7Ub2H
 40520,3089 ARNEG ARGENTINA SA,Facturada,Todo Aprobado,Ejecución de pedido de artículo 22128,Enviado,F,PVC672B,0,0,30/01/2025,RICARDO PIERONI,392969,81.5%,.00,T,7Rx7Ub2H
 40521,9402081 EL TORITO,Facturada,Todo Aprobado,Ejecución de pedido de artículo 22126,Enviado,F,MVAQUA203V,0,0,30/01/2025,BARRY LATIMER,392985,50.5%,.00,T,5Zl6Sa3R
-40293,260 SUCESION DE BARCIA CLAUDIO RODRIGO,Parcialmente ejecutada,Todo Aprobado,Ejecución de pedido de artículo 22135,Enviado,F,MTS548B,0,180,31/01/2025,RICARDO PIERONI,374492,56.3%,511.20,T,6Ib6Fj6R
 40293,260 SUCESION DE BARCIA CLAUDIO RODRIGO,Parcialmente ejecutada,Todo Aprobado,Factura de venta 36487,Abierta,F,MTS548B,0,180,31/01/2025,RICARDO PIERONI,374492,56.3%,511.20,,6Ib6Fj6R
+40293,260 SUCESION DE BARCIA CLAUDIO RODRIGO,Parcialmente ejecutada,Todo Aprobado,Ejecución de pedido de artículo 22135,Enviado,F,MTS548B,0,180,31/01/2025,RICARDO PIERONI,374492,56.3%,511.20,T,6Ib6Fj6R
 40293,260 SUCESION DE BARCIA CLAUDIO RODRIGO,Parcialmente ejecutada,Todo Aprobado,Ejecución de pedido de artículo 22135,Enviado,F,MTS536B,0,0,31/01/2025,RICARDO PIERONI,374492,51.1%,.00,T,6Ib6Fj6R
 40326,12837 FRIGORIFICO SAN FRANCISCO S.A,Facturada,Todo Aprobado,Ejecución de pedido de artículo 22136,Enviado,F,2837/001,0,0,31/01/2025,"CAROSSIO, VAIROLATTI Y CIA",376538,72.6%,.00,T,9Ry7Wa5R
 40409,9400536 MILKAUT SA,Facturada,Todo Aprobado,Ejecución de pedido de artículo 22129,Enviado,F,PPHR15048XT,0,0,31/01/2025,RICARDO PIERONI,383264,48.7%,.00,T,8Ny2Or7G
@@ -47,8 +47,8 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 40539,3598 DEL VALLE EMBALAJES SRL,Parcialmente ejecutada,Todo Aprobado,Factura de venta 36493,Abierta,F,PPAR15096T,0,9,04/02/2025,RICARDO PIERONI,394550,59.3%,282.78,,0Ph8Mv3F
 37683,3096 FRECICAR SRL,Facturada,Todo Aprobado,Ejecución de pedido de artículo 22152,Enviado,F,52330-00040-00,0,0,05/02/2025,RICARDO PIERONI,253464,51.4%,.00,T,9Zc0Jy4O
 40227,611 QUESOS DON ATILIO SA,Facturada,Todo Aprobado,Ejecución de pedido de artículo 22149,Enviado,F,PPA1548TE,0,0,05/02/2025,EXPRESO TAS,369341,53.7%,.00,T,8Br5Ap2B
-40245,9400962 CRYSTAL-ICE SRL,Parcialmente ejecutada,Todo Aprobado,Ejecución de pedido de artículo 22150,Enviado,F,PPA1548TE,0,3708,05/02/2025,RICARDO PIERONI,370615,39.4%,5376.60,T,4Is2Rn8E
 40245,9400962 CRYSTAL-ICE SRL,Parcialmente ejecutada,Todo Aprobado,Factura de venta 36506,Pagado por completo,F,PPA1548TE,0,3708,05/02/2025,RICARDO PIERONI,370615,39.4%,5376.60,,4Is2Rn8E
+40245,9400962 CRYSTAL-ICE SRL,Parcialmente ejecutada,Todo Aprobado,Ejecución de pedido de artículo 22150,Enviado,F,PPA1548TE,0,3708,05/02/2025,RICARDO PIERONI,370615,39.4%,5376.60,T,4Is2Rn8E
 40395,9400826 PRODUCTOS EL ARTESANO,Facturada,Todo Aprobado,Ejecución de pedido de artículo 22160,Enviado,F,9400826/003,0,0,05/02/2025,EXPRESO LUJAN DEL CUYO SA,382217,54.1%,.00,T,0Fw8Wv0R
 40408,4089 SOBRERO Y CAGNOLO SA,Facturada,Todo Aprobado,Ejecución de pedido de artículo 22151,Enviado,F,PPHR15048XT,0,0,05/02/2025,RICARDO PIERONI,383263,54.4%,-28.00,T,9Or7Px4G
 40408,4089 SOBRERO Y CAGNOLO SA,Facturada,Todo Aprobado,Ejecución de pedido de artículo 22151,Enviado,F,PPAR1048T,0,0,05/02/2025,RICARDO PIERONI,383263,47.6%,.00,T,9Or7Px4G
@@ -305,7 +305,7 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 40723,55 SUDEX ARGENTINA S.R.L.,Facturada,Todo Aprobado,Ejecución de pedido de artículo 22341,Enviado,F,PPAR1072T,0,0,27/02/2025,TRANSPORTE TOMASSINI,407680,58.0%,.00,T,3Ws7Oh1J
 40724,6141 LA PIAMONTESA DE AVERALDO SA,Facturada,Todo Aprobado,Ejecución de pedido de artículo 22342,Enviado,F,PPAR15048T,0,0,27/02/2025,EXPRESO CARGO SA,407699,49.7%,.00,T,3Ba7Qv6Q
 40571,9401339 QUICKFOOD S.A.,Facturada,Todo Aprobado,Ejecución de pedido de artículo 22343,Enviado,F,PPAR1048T,0,0,28/02/2025,BERGAMASCHI OSVALDO RAMON,396720,58.0%,.00,T,8Fy3Xp2W
-40579,2561 LAGOMARSINO SA,Ejecución de la orden pendiente,Todo Aprobado, ,,F,PPAR1048T,1080,0,28/02/2025,EXPRESO CARGO SA,397295,44.4%,1069.20,,0Tn2Lb2H
+40579,2561 LAGOMARSINO SA,Facturación pendiente,Todo Aprobado,Ejecución de pedido de artículo 22345,Enviado,F,PPAR1048T,0,0,28/02/2025,EXPRESO CARGO SA,397295,44.4%,.00,F,0Tn2Lb2H
 40680,9401339 QUICKFOOD S.A.,Facturada,Todo Aprobado,Ejecución de pedido de artículo 22344,Enviado,F,PPAR1048T,0,0,28/02/2025,BERGAMASCHI OSVALDO RAMON,404030,57.3%,.00,T,8Fy3Xp2W
 40682,5019 GRANJA TRES ARROYOS SACAFEI,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Liberada,F,PPHR1216B,0,864,28/02/2025,EXPRESO CARGO SA,404361,62.0%,1425.60,,0Ql9Gi1V
 40682,5019 GRANJA TRES ARROYOS SACAFEI,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Ensamblada,F,PVC612R,864,0,28/02/2025,EXPRESO CARGO SA,404361,70.8%,1736.64,,0Ql9Gi1V
