@@ -290,7 +290,7 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 40728,2515 CONGELADOS ARTICO SA,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 22346,Remitido,F,PPAR1072T,0,0,28/02/2025,TRANSPORTE TOMASSINI,408351,42.9%,1058.40,T,8Rn3En3G
 40537,143 EPTA ARGENTINA S.A.,Ejecución de la orden pendiente,Todo Aprobado,Pedido ,Recepción pendiente,T,0143/026,0,2100,03/03/2025,FELICI JORGE ARIEL,394418,86.1%,4095.00,,1Tu2Pr5C
 40699,3051 FRIMETAL S.A.,Ejecución de la orden pendiente,Todo Aprobado,Pedido ,Aprobación del supervisor pendiente,T,3051/017,0,22800,04/03/2025,FELICI JORGE ARIEL,405836,56.4%,580.287,,3Dw0Uk2K
-40699,3051 FRIMETAL S.A.,Ejecución de la orden pendiente,Todo Aprobado, ,,F,2280/004,3000,0,04/03/2025,FELICI JORGE ARIEL,405836,47.9%,1.621.305,,3Dw0Uk2K
+40699,3051 FRIMETAL S.A.,Ejecución de la orden pendiente,Todo Aprobado, ,,F,2280/004,3.000,0,04/03/2025,FELICI JORGE ARIEL,405836,47.9%,1.621.305,,3Dw0Uk2K
 40699,3051 FRIMETAL S.A.,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Ensamblada,F,1823/002,24,0,04/03/2025,FELICI JORGE ARIEL,405836,49.2%,669.823,,3Dw0Uk2K
 40699,3051 FRIMETAL S.A.,Ejecución de la orden pendiente,Todo Aprobado, ,,F,PPAR1048M,544,0,04/03/2025,FELICI JORGE ARIEL,405836,31.1%,633.366,,3Dw0Uk2K
 40699,3051 FRIMETAL S.A.,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Ensamblada,F,PVC624A,288,0,04/03/2025,FELICI JORGE ARIEL,405836,90.7%,901.231,,3Dw0Uk2K
@@ -300,7 +300,7 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 40708,9401460 INDUBOL SA,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Ensamblada,F,64621-00048-00,144,0,05/03/2025,DIAZ ANIBAL (COMISIONISTA),406634,61.8%,2152.80,,1Qd9By7M
 40717,1029 DREAN SA,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Ensamblada,F,64621-00001-00,36,0,05/03/2025,EXPRESO CARGO SA,407234,58.7%,135.00,,6Ng7Hp1X
 40717,1029 DREAN SA,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Ensamblada,F,64621-00048-00,24,0,05/03/2025,EXPRESO CARGO SA,407234,61.9%,360.00,,6Ng7Hp1X
-40721,9402038 LP SRL,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Liberada,F,PVC612R,0,1440,05/03/2025,TRANSPORTE CRUZ DEL SUR SA,407478,66.4%,2520.00,,7Vm9Vn8B
+40721,9402038 LP SRL,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Ensamblada,F,PVC612R,1440,0,05/03/2025,TRANSPORTE CRUZ DEL SUR SA,407478,66.4%,2520.00,,7Vm9Vn8B
 40725,6590 EL ARTE DEL SELLO S.R.L.,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Ensamblada,F,04970-00151-00,5,0,05/03/2025,RICARDO PIERONI,407844,59.3%,142.50,,9Og2Oc0D
 40725,6590 EL ARTE DEL SELLO S.R.L.,Ejecución de la orden pendiente,Todo Aprobado, ,,F,PPAR1048T,72,0,05/03/2025,RICARDO PIERONI,407844,50.5%,79.92,,9Og2Oc0D
 40726,9400314 ESTABLECIMIENTO LA MARIPOSA S A,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 22356,Remitido,F,PPAR15048T,0,0,05/03/2025,EXPRESO CARGO SA,408136,55.0%,103.14,T,5Tm1Fu3S
@@ -319,6 +319,13 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 40739,132 MAHLE VALVULAS DE ARGENTINA SA,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Liberada,F,3351/001,0,10000,07/03/2025,EXPRESO SANTA ROSA,409602,96.8%,1370.00,,6Ls2Pd3Q
 40742,18293 DULCOR SA,Ejecución de la orden pendiente,Todo Aprobado, ,,F,PPAR1048T,180,0,07/03/2025,TRANSPORTE CARROSIO Y VAIROLATTI,409621,42.7%,172.80,,0Jn1Mv5H
 40742,18293 DULCOR SA,Ejecución de la orden pendiente,Todo Aprobado, ,,F,PPAR15048T,204,0,07/03/2025,TRANSPORTE CARROSIO Y VAIROLATTI,409621,49.3%,3121.20,,0Jn1Mv5H
+40746,2855 EDGAR A CIRIBE SA,Ejecución de la orden pendiente,Todo Aprobado, ,,F,PPAR1048T,360,0,07/03/2025,EXPRESO BRIO SRL,410066,47.6%,378.00,,4Ub9Qt5T
+40748,56 CIRUBON S.A.,Ejecución de la orden pendiente,Todo Aprobado, ,,F,BV002,0,80,07/03/2025,RETIRAN,410177,70.8%,791.20,,0Wm2Xw7K
+40748,56 CIRUBON S.A.,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Liberada,F,6158/001,0,2,07/03/2025,RETIRAN,410177,59.1%,376.00,,0Wm2Xw7K
+40751,9401926 INDUSTRIAS FRIGORIFICAS RECREO SAIC,Ejecución de la orden pendiente,Todo Aprobado, ,,F,PPAR1048T,6,0,07/03/2025,BARRY LATIMER,410388,0.0%,.00,,8Zu3It0W
+40751,9401926 INDUSTRIAS FRIGORIFICAS RECREO SAIC,Ejecución de la orden pendiente,Todo Aprobado, ,,F,PPAR15048T,3,0,07/03/2025,BARRY LATIMER,410388,0.0%,.00,,8Zu3It0W
+40751,9401926 INDUSTRIAS FRIGORIFICAS RECREO SAIC,Ejecución de la orden pendiente,Todo Aprobado, ,,F,PPHR15048XT,3,0,07/03/2025,BARRY LATIMER,410388,0.0%,.00,,8Zu3It0W
+40751,9401926 INDUSTRIAS FRIGORIFICAS RECREO SAIC,Ejecución de la orden pendiente,Todo Aprobado, ,,F,PPAR1072T,6,0,07/03/2025,BARRY LATIMER,410388,0.0%,.00,,8Zu3It0W
 40722,1171 AUTOSAL SA,Ejecución de la orden pendiente,Todo Aprobado, ,,F,DT550G,95,0,10/03/2025,EXPRESO CARGO SA,407496,43.4%,1572.25,,2Uv7Bb0L
 40722,1171 AUTOSAL SA,Ejecución de la orden pendiente,Todo Aprobado, ,,F,DT550N,95,0,10/03/2025,EXPRESO CARGO SA,407496,43.4%,1572.25,,2Uv7Bb0L
 40722,1171 AUTOSAL SA,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,En curso,F,0272/005,530,0,10/03/2025,EXPRESO CARGO SA,407496,46.5%,5194.00,,2Uv7Bb0L
@@ -363,7 +370,7 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 40672,898 LCR IMPORT SRL,Ejecución de la orden pendiente,Todo Aprobado, ,,F,PPA1548TE,0,180,,RICARDO PIERONI,403721,57.3%,360.00,,0Mq0Wi5F
 40674,4305 LA PIARA SRL,Ejecución de la orden pendiente,Todo Aprobado, ,,F,PPA1548TE,0,432,,TRANSPORTE AGUILAR S.R.L.,403723,42.6%,643.68,,7My0Kb3O
 40696,15 IND. JOHN DEERE ARGENTINA S.A.,Ejecución de la orden pendiente,Todo Aprobado,Pedido ,Aprobación del supervisor pendiente,T,0015/019,0,900,,FELICI JORGE ARIEL,405674,75.0%,873.00,,8Ky5Hq9D
-40697,1029 DREAN SA,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Liberada,F,0272/005,0,120,,EXPRESO CARGO SA,405724,46.7%,1176.00,,6Ng7Hp1X
+40697,1029 DREAN SA,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Ensamblada,F,0272/005,120,0,,EXPRESO CARGO SA,405724,46.7%,1176.00,,6Ng7Hp1X
 40705,5078 GRANJA SRL,Ejecución de la orden pendiente,Todo Aprobado, ,,F,H11/CPE,3,0,,RICARDO PIERONI,406299,47.2%,72.93,,8Xs6Zk8N
 40705,5078 GRANJA SRL,Ejecución de la orden pendiente,Todo Aprobado, ,,F,PPA1548TE,0,360,,RICARDO PIERONI,406299,42.6%,536.40,,8Xs6Zk8N
 40715,9401339 QUICKFOOD S.A.,Ejecución de la orden pendiente,Todo Aprobado, ,,F,PPAR1048T,4320,0,,RETIRAN,406997,56.0%,5400.00,,8Fy3Xp2W
