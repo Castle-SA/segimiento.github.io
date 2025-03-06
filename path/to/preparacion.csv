@@ -60,8 +60,8 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 40469,9401339 QUICKFOOD S.A.,Facturada,Todo Aprobado,Ejecución de pedido de artículo 22182,Enviado,F,PPAR15048T,0,0,11/02/2025,BERGAMASCHI OSVALDO RAMON,388870,70.9%,.00,T,8Fy3Xp2W
 40497,3089 ARNEG ARGENTINA SA,Facturada,Todo Aprobado,Ejecución de pedido de artículo 22200,Enviado,F,3089/029,0,0,11/02/2025,RICARDO PIERONI,391304,87.1%,.00,T,7Rx7Ub2H
 40522,9400962 CRYSTAL-ICE SRL,Facturada,Todo Aprobado,Ejecución de pedido de artículo 22196,Enviado,F,9400962/005,0,0,11/02/2025,RICARDO PIERONI,392986,100.0%,.00,T,4Is2Rn8E
-40524,4 BEROWOOD SRL,Parcialmente ejecutada,Todo Aprobado,Ejecución de pedido de artículo 22190,Enviado,F,PPA1548TE,0,324,11/02/2025,RICARDO PIERONI,393133,69.4%,907.20,T,8El3Qk6P
 40524,4 BEROWOOD SRL,Parcialmente ejecutada,Todo Aprobado,Factura de venta 36540,Abierta,F,PPA1548TE,0,324,11/02/2025,RICARDO PIERONI,393133,69.4%,907.20,,8El3Qk6P
+40524,4 BEROWOOD SRL,Parcialmente ejecutada,Todo Aprobado,Ejecución de pedido de artículo 22190,Enviado,F,PPA1548TE,0,324,11/02/2025,RICARDO PIERONI,393133,69.4%,907.20,T,8El3Qk6P
 40528,1418 MAPSA SRL,Facturada,Todo Aprobado,Ejecución de pedido de artículo 22180,Enviado,F,PPAR15048T,0,0,11/02/2025,RICARDO PIERONI,393562,53.5%,.00,T,4Mb1Np8W
 40538,272 TALLERES METALURGICOS BAMBI S.A.,Facturada,Todo Aprobado,Ejecución de pedido de artículo 22181,Enviado,F,PPAR1072T,0,0,11/02/2025,ALMAR ROSARIO SRL,394419,65.5%,.00,T,6Sy2Dr1B
 40538,272 TALLERES METALURGICOS BAMBI S.A.,Facturada,Todo Aprobado,Ejecución de pedido de artículo 22181,Enviado,F,PVC624R,0,0,11/02/2025,ALMAR ROSARIO SRL,394419,54.2%,.00,T,6Sy2Dr1B
@@ -110,8 +110,8 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 40570,86 EST GRAFICO IMPRESORES SA,Facturada,Todo Aprobado,Ejecución de pedido de artículo 22225,Enviado,F,PPHR15048XT,0,0,14/02/2025,EXPRESO CARGO SA,396489,54.4%,.00,T,9Xw3Zi2V
 40578,12877 BRIKET SA,Facturada,Todo Aprobado,Ejecución de pedido de artículo 22222,Enviado,F,0272/004,0,0,14/02/2025,RICARDO PIERONI,397195,42.8%,.00,T,6Rp2Ce7I
 40581,2410 LUIS SOLIMENO E HIJOS SA,Facturada,Todo Aprobado,Ejecución de pedido de artículo 22219,Enviado,F,PPAR1048T,0,0,14/02/2025,TRANSPORTE TOMASSINI,397519,38.5%,.00,T,3Gh0Ze9O
-40581,2410 LUIS SOLIMENO E HIJOS SA,Facturada,Todo Aprobado,Ejecución de pedido de artículo 22218,Enviado,F,PPAR1072T,0,0,14/02/2025,TRANSPORTE TOMASSINI,397519,35.8%,.00,T,3Gh0Ze9O
 40581,2410 LUIS SOLIMENO E HIJOS SA,Facturada,Todo Aprobado,Ejecución de pedido de artículo 22220,Enviado,F,PPAR1072T,0,0,14/02/2025,TRANSPORTE TOMASSINI,397519,35.8%,.00,T,3Gh0Ze9O
+40581,2410 LUIS SOLIMENO E HIJOS SA,Facturada,Todo Aprobado,Ejecución de pedido de artículo 22218,Enviado,F,PPAR1072T,0,0,14/02/2025,TRANSPORTE TOMASSINI,397519,35.8%,.00,T,3Gh0Ze9O
 40584,9401497 ACEITERA GENERAL DEHEZA SA,Facturada,Todo Aprobado,Ejecución de pedido de artículo 22226,Enviado,F,PPHR15048XT,0,0,14/02/2025,BARRY LATIMER,397628,0.0%,.00,T,8Hg1Jv5J
 40635,3958 CN SERVICIOS SRL,Facturada,Todo Aprobado,Ejecución de pedido de artículo 22227,Enviado,F,PPAR524T,0,0,14/02/2025,RICARDO PIERONI,400281,99.9%,.00,T,1Mr2Cv3E
 40310,94010 VISUAR SA,Facturada,Todo Aprobado,Ejecución de pedido de artículo 22240,Enviado,F,1823/002,0,0,17/02/2025,EXPRESO CARGO SA,375531,55.4%,.00,T,4Gf8Oa0H
@@ -329,7 +329,7 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 40735,3051 FRIMETAL S.A.,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Ensamblada,F,PVC636A,48,0,12/03/2025,FELICI JORGE ARIEL,409380,71.0%,222.45,,3Dw0Uk2K
 40736,3051 FRIMETAL S.A.,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Liberada,F,0272/003,0,60,12/03/2025,FELICI JORGE ARIEL,409480,54.1%,6.673.824,,3Dw0Uk2K
 40741,2475 GAMISOL Y CIA SA,Ejecución de la orden pendiente,Todo Aprobado, ,,F,PPA1548TE,0,360,12/03/2025,EXPRESO CARGO SA,409620,40.3%,518.40,,8Ax3Mu7O
-40743,3051 FRIMETAL S.A.,Ejecución de la orden pendiente,Todo Aprobado, ,,F,PVC636A,48,816,12/03/2025,FELICI JORGE ARIEL,409853,71.0%,4.004.093,,3Dw0Uk2K
+40743,3051 FRIMETAL S.A.,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Liberada,F,PVC636A,0,864,12/03/2025,FELICI JORGE ARIEL,409853,71.0%,4.004.093,,3Dw0Uk2K
 40678,9401339 QUICKFOOD S.A.,Ejecución de la orden pendiente,Todo Aprobado, ,,F,PPHR15048XT,180,0,13/03/2025,BERGAMASCHI OSVALDO RAMON,404029,55.9%,5220.00,,8Fy3Xp2W
 40738,3089 ARNEG ARGENTINA SA,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Liberada,F,3089/082,0,5000,19/03/2025,FELICI JORGE ARIEL,409381,72.9%,11020.00,,7Rx7Ub2H
 40711,9401339 QUICKFOOD S.A.,Ejecución de la orden pendiente,Todo Aprobado, ,,F,PPHR15048XT,180,0,21/03/2025,BERGAMASCHI OSVALDO RAMON,406688,55.9%,5220.00,,8Fy3Xp2W
