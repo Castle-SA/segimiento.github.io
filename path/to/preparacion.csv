@@ -34,8 +34,8 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 40469,9401339 QUICKFOOD S.A.,Facturada,Todo Aprobado,Ejecución de pedido de artículo 22182,Enviado,F,PPAR15048T,0,0,11/02/2025,BERGAMASCHI OSVALDO RAMON,388870,70.9%,.00,T,8Fy3Xp2W
 40497,3089 ARNEG ARGENTINA SA,Facturada,Todo Aprobado,Ejecución de pedido de artículo 22200,Enviado,F,3089/029,0,0,11/02/2025,RICARDO PIERONI,391304,87.1%,.00,T,7Rx7Ub2H
 40522,9400962 CRYSTAL-ICE SRL,Facturada,Todo Aprobado,Ejecución de pedido de artículo 22196,Enviado,F,9400962/005,0,0,11/02/2025,RICARDO PIERONI,392986,100.0%,.00,T,4Is2Rn8E
-40524,4 BEROWOOD SRL,Parcialmente ejecutada,Todo Aprobado,Ejecución de pedido de artículo 22190,Enviado,F,PPA1548TE,0,324,11/02/2025,RICARDO PIERONI,393133,69.4%,907.20,T,8El3Qk6P
 40524,4 BEROWOOD SRL,Parcialmente ejecutada,Todo Aprobado,Factura de venta 36540,Abierta,F,PPA1548TE,0,324,11/02/2025,RICARDO PIERONI,393133,69.4%,907.20,,8El3Qk6P
+40524,4 BEROWOOD SRL,Parcialmente ejecutada,Todo Aprobado,Ejecución de pedido de artículo 22190,Enviado,F,PPA1548TE,0,324,11/02/2025,RICARDO PIERONI,393133,69.4%,907.20,T,8El3Qk6P
 40528,1418 MAPSA SRL,Facturada,Todo Aprobado,Ejecución de pedido de artículo 22180,Enviado,F,PPAR15048T,0,0,11/02/2025,RICARDO PIERONI,393562,53.5%,.00,T,4Mb1Np8W
 40538,272 TALLERES METALURGICOS BAMBI S.A.,Facturada,Todo Aprobado,Ejecución de pedido de artículo 22181,Enviado,F,PPAR1072T,0,0,11/02/2025,ALMAR ROSARIO SRL,394419,65.5%,.00,T,6Sy2Dr1B
 40538,272 TALLERES METALURGICOS BAMBI S.A.,Facturada,Todo Aprobado,Ejecución de pedido de artículo 22181,Enviado,F,PVC624R,0,0,11/02/2025,ALMAR ROSARIO SRL,394419,54.2%,.00,T,6Sy2Dr1B
@@ -141,7 +141,7 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 40433,9400334 CAPITAN DEL ESPACIO SA,Facturada,Todo Aprobado,Ejecución de pedido de artículo 22281,Enviado,F,9400334/001,0,0,19/02/2025,EXPRESO CARGO SA,386275,77.9%,.00,T,8Hn1Bp7M
 40462,202 FRIGORIFICO DE AVES SOYCHU SA,Facturada,Todo Aprobado,Ejecución de pedido de artículo 22279,Enviado,F,PVC612R,0,0,19/02/2025,EXPRESO CARGO SA,388839,56.4%,.00,T,5Ow8Cg8A
 40516,1650 ARAG ARGENTINA SA,Facturada,Todo Aprobado,Ejecución de pedido de artículo 22283,Enviado,F,1650/002,0,0,19/02/2025,RICARDO PIERONI,392773,70.7%,.00,T,8Yp8Ld0P
-40609,5019 GRANJA TRES ARROYOS SACAFEI,Facturación pendiente,Todo Aprobado,Ejecución de pedido de artículo 22280,Enviado,F,5019/003,0,0,19/02/2025,EXPRESO CARGO SA,398795,60.1%,.00,T,0Ql9Gi1V
+40609,5019 GRANJA TRES ARROYOS SACAFEI,Facturada,Todo Aprobado,Ejecución de pedido de artículo 22280,Enviado,F,5019/003,0,0,19/02/2025,EXPRESO CARGO SA,398795,60.1%,.00,T,0Ql9Gi1V
 40649,6631 PILKINGTON AUTOMOTIVE ARGENTINA SA,Parcialmente ejecutada,Todo Aprobado,Ejecución de pedido de artículo 22277,Enviado,F,PPAR1048T,0,0,19/02/2025,EXPRESO CARGO SA,401785,45.1%,.00,T,8Gy5Vz0B
 40650,9402308 ACERO PERFIL SA,Facturada,Todo Aprobado,Ejecución de pedido de artículo 22282,Enviado,F,64621-00048-00,0,0,19/02/2025,EXPRESO CARGO SA,401897,0.0%,.00,T,
 40650,9402308 ACERO PERFIL SA,Facturada,Todo Aprobado,Ejecución de pedido de artículo 22282,Enviado,F,CF548T,0,0,19/02/2025,EXPRESO CARGO SA,401897,0.0%,.00,T,
@@ -291,8 +291,8 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 40736,3051 FRIMETAL S.A.,Facturada,Todo Aprobado,Ejecución de pedido de artículo 22373,Enviado,F,0272/003,0,0,06/03/2025,FELICI JORGE ARIEL,409480,54.1%,.00,T,3Dw0Uk2K
 40737,94010 VISUAR SA,Facturada,Todo Aprobado,Ejecución de pedido de artículo 22367,Enviado,F,PPHR10048T,0,0,06/03/2025,EXPRESO CARGO SA,409481,33.4%,.00,T,4Gf8Oa0H
 40739,132 MAHLE VALVULAS DE ARGENTINA SA,Facturada,Todo Aprobado,Ejecución de pedido de artículo 22362,Enviado,F,3351/001,0,0,06/03/2025,EXPRESO SANTA ROSA,409602,96.8%,.00,T,6Ls2Pd3Q
-40609,5019 GRANJA TRES ARROYOS SACAFEI,Facturación pendiente,Todo Aprobado,Ejecución de pedido de artículo 22385,Enviado,F,5019/002,0,0,07/03/2025,EXPRESO CARGO SA,398795,56.6%,.00,F,0Ql9Gi1V
-40609,5019 GRANJA TRES ARROYOS SACAFEI,Facturación pendiente,Todo Aprobado,Ejecución de pedido de artículo 22385,Enviado,F,5019/003,0,0,07/03/2025,EXPRESO CARGO SA,398795,60.1%,.00,F,0Ql9Gi1V
+40609,5019 GRANJA TRES ARROYOS SACAFEI,Facturada,Todo Aprobado,Ejecución de pedido de artículo 22385,Enviado,F,5019/002,0,0,07/03/2025,EXPRESO CARGO SA,398795,56.6%,.00,T,0Ql9Gi1V
+40609,5019 GRANJA TRES ARROYOS SACAFEI,Facturada,Todo Aprobado,Ejecución de pedido de artículo 22385,Enviado,F,5019/003,0,0,07/03/2025,EXPRESO CARGO SA,398795,60.1%,.00,T,0Ql9Gi1V
 40637,4095 REFINERIA DEL CENTRO SA,Facturada,Todo Aprobado,Ejecución de pedido de artículo 22375,Enviado,F,H11/72,0,0,07/03/2025,EXPRESO SANTA ROSA,400779,43.2%,.00,T,1Bj3Wa5S
 40699,3051 FRIMETAL S.A.,Parcialmente ejecutada,Todo Aprobado,Ejecución de pedido de artículo 22384,Enviado,F,PPAR1048M,0,0,07/03/2025,FELICI JORGE ARIEL,405836,31.1%,.00,T,3Dw0Uk2K
 40707,3089 ARNEG ARGENTINA SA,Facturada,Todo Aprobado,Ejecución de pedido de artículo 22378,Enviado,F,3089/019,0,0,07/03/2025,RICARDO PIERONI,406514,83.9%,.00,T,7Rx7Ub2H
