@@ -259,8 +259,8 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 40755,827 GONVARRI ARGENTINA SA,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 22387,Remitido,F,P579,0,0,10/03/2025,EXPRESO CARGO SA,410610,51.5%,2511.60,T,6Mv2Lk5E
 40756,86 EST GRAFICO IMPRESORES SA,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 22390,Remitido,F,H11/48,0,0,10/03/2025,EXPRESO CARGO SA,410824,46.7%,221.00,T,9Xw3Zi2V
 40759,3926 ASERRADERO GOTTERT de GOTTERT RODOLFO RICARDO y OTROS SH,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 22392,Remitido,F,BV002,0,0,10/03/2025,EXPRESO CARGO SA,410931,49.3%,570.00,T,4Pr4Ra1I
-40765,2410 LUIS SOLIMENO E HIJOS SA,Parcialmente ejecutada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 22388,Remitido,F,PPAR10048T,0,186,10/03/2025,TRANSPORTE TOMASSINI,411010,26.0%,1766.10,T,3Gh0Ze9O
 40765,2410 LUIS SOLIMENO E HIJOS SA,Parcialmente ejecutada,Todo Aprobado,Factura de venta 36723,Abierta,F,PPAR10048T,0,186,10/03/2025,TRANSPORTE TOMASSINI,411010,26.0%,1887.90,,3Gh0Ze9O
+40765,2410 LUIS SOLIMENO E HIJOS SA,Parcialmente ejecutada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 22388,Remitido,F,PPAR10048T,0,186,10/03/2025,TRANSPORTE TOMASSINI,411010,26.0%,1766.10,T,3Gh0Ze9O
 40766,9402290 BI MERCANTIL SAS,Parcialmente ejecutada,Todo Aprobado,Factura de venta 36725,Pagado por completo,F,PPAR10048T,0,6,10/03/2025,TRANSPORTE MOSTTO,411229,0.0%,.00,,6Cx3Az0M
 40766,9402290 BI MERCANTIL SAS,Parcialmente ejecutada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 22391,Remitido,F,PPAR15048T,0,0,10/03/2025,TRANSPORTE MOSTTO,411229,0.0%,.00,T,6Cx3Az0M
 40692,3909 LIBECO FILM SA,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 22407,Remitido,F,PPAR1048T,0,0,11/03/2025,EXPRESO CARGO SA,405331,43.7%,534.572,T,4Vs0Qf0C
@@ -329,6 +329,7 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 40810,15 IND. JOHN DEERE ARGENTINA S.A.,Facturación pendiente,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 22440,Remitido,F,04169-00057-93,0,0,13/03/2025,FELICI JORGE ARIEL,414113,56.4%,336.00,F,8Ky5Hq9D
 40811,15 IND. JOHN DEERE ARGENTINA S.A.,Facturación pendiente,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 22439,Remitido,F,04169-00059-93,0,0,13/03/2025,FELICI JORGE ARIEL,414114,52.3%,240.00,F,8Ky5Hq9D
 40813,15 IND. JOHN DEERE ARGENTINA S.A.,Facturación pendiente,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 22437,Remitido,F,04169-00061-93,0,0,13/03/2025,FELICI JORGE ARIEL,414115,55.6%,240.00,F,8Ky5Hq9D
+40824,9402344 INFYA S.R.L.,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 22448,Remitido,F,VCI410,0,0,13/03/2025,RETIRAN,414571,75.8%,565.50,T,
 40769,4188 DOMITEC SA,Ejecución de la orden pendiente,Todo Aprobado, ,,F,MUESTRA ESPECIAL,2,0,14/03/2025,TRANSPORTE SNAIDER,411719,100.0%,.00,,4Md8Pr6J
 40801,1029 DREAN SA,Ejecución de la orden pendiente,Todo Aprobado, ,,F,0272/005,120,0,14/03/2025,EXPRESO CARGO SA,413373,44.6%,1176.00,,6Ng7Hp1X
 40803,682 MAYO TRANSFORMADORES S.R.L.,Ejecución de la orden pendiente,Todo Aprobado, ,,F,MTS512B,576,0,14/03/2025,RICARDO PIERONI,413596,36.8%,316.80,,0We8Yn4Q
@@ -340,6 +341,9 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 40775,3051 FRIMETAL S.A.,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Liberada,F,PVC624A,0,1224,17/03/2025,FELICI JORGE ARIEL,411877,70.0%,3.810.833,,3Dw0Uk2K
 40776,12849 FERRERO ARGENTINA SA,Ejecución de la orden pendiente,Todo Aprobado, ,,F,PPAR1072T,240,0,17/03/2025,EXPRESO LUJAN DEL CUYO SA,411990,43.6%,357.60,,5Oy9Im9F
 40792,3922 EMPRECO ARGENTINA DE NICOLAS C DELENIKAS,Facturación pendiente/parcialmente ejecutada,Todo Aprobado,Orden de trabajo ,Ensamblada,F,04968-00008-00,0,10,17/03/2025,EXPRESO CARGO SA,412902,47.9%,114.90,,8Nu5Gj8P
+40817,1067 DIPAC SA,Ejecución de la orden pendiente,Todo Aprobado, ,,F,PPAR1048T,360,0,17/03/2025,RICARDO PIERONI,414156,45.0%,360.00,,9Tj7Li2O
+40817,1067 DIPAC SA,Ejecución de la orden pendiente,Todo Aprobado, ,,F,PPAR524T,1.008,432,17/03/2025,RICARDO PIERONI,414156,99.8%,360.00,,9Tj7Li2O
+40819,9400945 LAMED S.A.,Ejecución de la orden pendiente,Todo Aprobado, ,,F,PPAR1048T,720,0,17/03/2025,RICARDO PIERONI,414158,44.4%,712.80,,9Dw9Wh0V
 40711,9401339 QUICKFOOD S.A.,Ejecución de la orden pendiente,Todo Aprobado, ,,F,PPHR15048XT,180,0,21/03/2025,BERGAMASCHI OSVALDO RAMON,406688,55.9%,5220.00,,8Fy3Xp2W
 40767,1028 VIPAL SA,Ejecución de la orden pendiente,Todo Aprobado, ,,F,PPAR1048T,360,0,21/03/2025,RICARDO PIERONI,411367,57.7%,468.00,,1Kq9Oc2R
 40767,1028 VIPAL SA,Ejecución de la orden pendiente,Todo Aprobado, ,,F,PPAR10048T,0,60,21/03/2025,RICARDO PIERONI,411367,46.4%,840.00,,1Kq9Oc2R
