@@ -90,7 +90,7 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 40462,202 FRIGORIFICO DE AVES SOYCHU SA,Facturada,Todo Aprobado,Ejecución de pedido de artículo 22279,Enviado,F,PVC612R,0,0,19/02/2025,EXPRESO CARGO SA,388839,56.4%,.00,T,5Ow8Cg8A
 40516,1650 ARAG ARGENTINA SA,Facturada,Todo Aprobado,Ejecución de pedido de artículo 22283,Enviado,F,1650/002,0,0,19/02/2025,RICARDO PIERONI,392773,70.7%,.00,T,8Yp8Ld0P
 40609,5019 GRANJA TRES ARROYOS SACAFEI,Facturada,Todo Aprobado,Ejecución de pedido de artículo 22280,Enviado,F,5019/003,0,0,19/02/2025,EXPRESO CARGO SA,398795,60.1%,.00,T,0Ql9Gi1V
-40649,6631 PILKINGTON AUTOMOTIVE ARGENTINA SA,Parcialmente ejecutada,Todo Aprobado,Ejecución de pedido de artículo 22277,Enviado,F,PPAR1048T,0,0,19/02/2025,EXPRESO CARGO SA,401785,45.1%,.00,T,8Gy5Vz0B
+40649,6631 PILKINGTON AUTOMOTIVE ARGENTINA SA,Facturación pendiente,Todo Aprobado,Ejecución de pedido de artículo 22277,Enviado,F,PPAR1048T,0,0,19/02/2025,EXPRESO CARGO SA,401785,45.1%,.00,T,8Gy5Vz0B
 40650,9402308 ACERO PERFIL SA,Facturada,Todo Aprobado,Ejecución de pedido de artículo 22282,Enviado,F,64621-00048-00,0,0,19/02/2025,EXPRESO CARGO SA,401897,0.0%,.00,T,
 40650,9402308 ACERO PERFIL SA,Facturada,Todo Aprobado,Ejecución de pedido de artículo 22282,Enviado,F,CF548T,0,0,19/02/2025,EXPRESO CARGO SA,401897,0.0%,.00,T,
 40650,9402308 ACERO PERFIL SA,Facturada,Todo Aprobado,Ejecución de pedido de artículo 22282,Enviado,F,MF550T,0,0,19/02/2025,EXPRESO CARGO SA,401897,0.0%,.00,T,
@@ -181,8 +181,8 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 40724,6141 LA PIAMONTESA DE AVERALDO SA,Facturada,Todo Aprobado,Ejecución de pedido de artículo 22342,Enviado,F,PPAR15048T,0,0,27/02/2025,EXPRESO CARGO SA,407699,49.7%,.00,T,3Ba7Qv6Q
 39719,5019 GRANJA TRES ARROYOS SACAFEI,Facturada,Todo Aprobado,Ejecución de pedido de artículo 22354,Enviado,F,5019/002,0,0,28/02/2025,EXPRESO CARGO SA,332939,72.7%,.00,T,0Ql9Gi1V
 40316,12787 FLEXCOLOR SRL,Facturada,Todo Aprobado,Ejecución de pedido de artículo 22348,Enviado,F,MTS518B,0,0,28/02/2025,EXPRESO BRIO SRL,375947,33.8%,.00,T,3Jc0Cw5E
-40337,2556 TEJIDOS LATINOS SA,Facturada,Todo Aprobado,Ejecución de pedido de artículo 22355,Enviado,F,2556/001,0,0,28/02/2025,EXPRESO CARGO SA,377963,67.3%,.00,T,0Cb5Za6D
 40337,2556 TEJIDOS LATINOS SA,Facturada,Todo Aprobado,Ejecución de pedido de artículo 22350,Enviado,F,2556/001,0,0,28/02/2025,EXPRESO CARGO SA,377963,67.3%,.00,T,0Cb5Za6D
+40337,2556 TEJIDOS LATINOS SA,Facturada,Todo Aprobado,Ejecución de pedido de artículo 22355,Enviado,F,2556/001,0,0,28/02/2025,EXPRESO CARGO SA,377963,67.3%,.00,T,0Cb5Za6D
 40546,5019 GRANJA TRES ARROYOS SACAFEI,Facturada,Todo Aprobado,Ejecución de pedido de artículo 22349,Enviado,F,5019/005,0,0,28/02/2025,EXPRESO CARGO SA,395022,59.8%,.00,T,0Ql9Gi1V
 40571,9401339 QUICKFOOD S.A.,Facturada,Todo Aprobado,Ejecución de pedido de artículo 22343,Enviado,F,PPAR1048T,0,0,28/02/2025,BERGAMASCHI OSVALDO RAMON,396720,58.0%,.00,T,8Fy3Xp2W
 40579,2561 LAGOMARSINO SA,Facturada,Todo Aprobado,Ejecución de pedido de artículo 22345,Enviado,F,PPAR1048T,0,0,28/02/2025,EXPRESO CARGO SA,397295,44.4%,.00,T,0Tn2Lb2H
@@ -259,8 +259,8 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 40755,827 GONVARRI ARGENTINA SA,Facturada,Todo Aprobado,Ejecución de pedido de artículo 22387,Enviado,F,P579,0,0,10/03/2025,EXPRESO CARGO SA,410610,51.5%,-119.60,T,6Mv2Lk5E
 40756,86 EST GRAFICO IMPRESORES SA,Facturada,Todo Aprobado,Ejecución de pedido de artículo 22390,Enviado,F,H11/48,0,0,10/03/2025,EXPRESO CARGO SA,410824,46.7%,.00,T,9Xw3Zi2V
 40759,3926 ASERRADERO GOTTERT de GOTTERT RODOLFO RICARDO y OTROS SH,Facturada,Todo Aprobado,Ejecución de pedido de artículo 22392,Enviado,F,BV002,0,0,10/03/2025,EXPRESO CARGO SA,410931,49.3%,.00,T,4Pr4Ra1I
-40765,2410 LUIS SOLIMENO E HIJOS SA,Parcialmente ejecutada,Todo Aprobado,Ejecución de pedido de artículo 22388,Enviado,F,PPAR10048T,0,186,10/03/2025,TRANSPORTE TOMASSINI,411010,26.0%,1887.90,T,3Gh0Ze9O
 40765,2410 LUIS SOLIMENO E HIJOS SA,Parcialmente ejecutada,Todo Aprobado,Factura de venta 36723,Abierta,F,PPAR10048T,0,186,10/03/2025,TRANSPORTE TOMASSINI,411010,26.0%,1887.90,,3Gh0Ze9O
+40765,2410 LUIS SOLIMENO E HIJOS SA,Parcialmente ejecutada,Todo Aprobado,Ejecución de pedido de artículo 22388,Enviado,F,PPAR10048T,0,186,10/03/2025,TRANSPORTE TOMASSINI,411010,26.0%,1887.90,T,3Gh0Ze9O
 40766,9402290 BI MERCANTIL SAS,Parcialmente ejecutada,Todo Aprobado,Factura de venta 36725,Pagado por completo,F,PPAR10048T,0,6,10/03/2025,TRANSPORTE MOSTTO,411229,0.0%,.00,,6Cx3Az0M
 40766,9402290 BI MERCANTIL SAS,Parcialmente ejecutada,Todo Aprobado,Ejecución de pedido de artículo 22391,Enviado,F,PPAR15048T,0,0,10/03/2025,TRANSPORTE MOSTTO,411229,0.0%,.00,T,6Cx3Az0M
 40692,3909 LIBECO FILM SA,Facturada,Todo Aprobado,Ejecución de pedido de artículo 22407,Enviado,F,PPAR1048T,0,0,11/03/2025,EXPRESO CARGO SA,405331,43.7%,.00,T,4Vs0Qf0C
@@ -308,6 +308,7 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 40533,2797 BONNIN HNOS SH,Facturada,Todo Aprobado,Ejecución de pedido de artículo 22426,Enviado,F,PPA1548TE,0,0,13/03/2025,TRANSPORTE MOSTTO,393666,54.9%,.00,T,6Ae0Wj8F
 40596,2065 CHITARRONI S.A.,Facturada,Todo Aprobado,Ejecución de pedido de artículo 22430,Enviado,F,PPA1548TE,0,0,13/03/2025,RICARDO PIERONI,397965,52.4%,.00,T,3Or5Ev6A
 40606,2067 VIRA OFFIS S.A.,Facturada,Todo Aprobado,Ejecución de pedido de artículo 22425,Enviado,F,PPA1548TE,0,0,13/03/2025,RICARDO PIERONI,398793,42.9%,.00,T,1Vr4Eu6L
+40649,6631 PILKINGTON AUTOMOTIVE ARGENTINA SA,Facturación pendiente,Todo Aprobado,Ejecución de pedido de artículo 22453,Enviado,F,6631/003,0,0,13/03/2025,EXPRESO CARGO SA,401785,48.4%,-27.90,F,8Gy5Vz0B
 40661,2475 GAMISOL Y CIA SA,Facturada,Todo Aprobado,Ejecución de pedido de artículo 22443,Enviado,F,PPA1548TE,0,0,13/03/2025,EXPRESO CARGO SA,402783,42.6%,.00,T,8Ax3Mu7O
 40672,898 LCR IMPORT SRL,Facturada,Todo Aprobado,Ejecución de pedido de artículo 22424,Enviado,F,PPA1548TE,0,0,13/03/2025,RICARDO PIERONI,403721,57.3%,.00,T,0Mq0Wi5F
 40674,4305 LA PIARA SRL,Facturada,Todo Aprobado,Ejecución de pedido de artículo 22432,Enviado,F,PPA1548TE,0,0,13/03/2025,TRANSPORTE AGUILAR S.R.L.,403723,42.6%,.00,T,7My0Kb3O
@@ -326,6 +327,7 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 40788,2021 SOLAUT S.A.,Facturada,Todo Aprobado,Ejecución de pedido de artículo 22452,Enviado,F,H11/CPE,0,0,13/03/2025,RICARDO PIERONI,412663,46.9%,.00,T,5Rg6Oq8Y
 40788,2021 SOLAUT S.A.,Facturada,Todo Aprobado,Ejecución de pedido de artículo 22452,Enviado,F,PPA1548TE,0,0,13/03/2025,RICARDO PIERONI,412663,36.9%,.00,T,5Rg6Oq8Y
 40792,3922 EMPRECO ARGENTINA DE NICOLAS C DELENIKAS,Facturación pendiente,Todo Aprobado,Ejecución de pedido de artículo 22435,Enviado,F,04968-00008-00,0,0,13/03/2025,EXPRESO CARGO SA,412902,47.9%,.00,T,8Nu5Gj8P
+40801,1029 DREAN SA,Facturación pendiente,Todo Aprobado,Ejecución de pedido de artículo 22454,Enviado,F,0272/005,0,0,13/03/2025,EXPRESO CARGO SA,413373,44.6%,.00,F,6Ng7Hp1X
 40805,9400182 IDRIS PATAGONIA SA,Facturada,Todo Aprobado,Ejecución de pedido de artículo 22446,Enviado,F,PPAR1048T,0,0,13/03/2025,TRANSPORTE CRUZ DEL SUR SA,413908,42.7%,.00,T,7Wz3Al6N
 40806,4516 RAPECA ARGENTINA SA,Facturada,Todo Aprobado,Ejecución de pedido de artículo 22445,Enviado,F,PPA1548TE,0,0,13/03/2025,EXPRESO CARGO SA,414011,36.4%,.00,T,2Aa9Oj0E
 40807,15 IND. JOHN DEERE ARGENTINA S.A.,Facturada,Todo Aprobado,Ejecución de pedido de artículo 22438,Enviado,F,04169-00058-93,0,0,13/03/2025,FELICI JORGE ARIEL,414112,60.3%,.00,T,8Ky5Hq9D
@@ -334,7 +336,6 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 40813,15 IND. JOHN DEERE ARGENTINA S.A.,Facturada,Todo Aprobado,Ejecución de pedido de artículo 22437,Enviado,F,04169-00061-93,0,0,13/03/2025,FELICI JORGE ARIEL,414115,55.6%,.00,T,8Ky5Hq9D
 40824,9402344 INFYA S.R.L.,Facturada,Todo Aprobado,Ejecución de pedido de artículo 22448,Enviado,F,VCI410,0,0,13/03/2025,RETIRAN,414571,75.8%,.00,T,
 40769,4188 DOMITEC SA,Ejecución de la orden pendiente,Todo Aprobado, ,,F,MUESTRA ESPECIAL,2,0,14/03/2025,TRANSPORTE SNAIDER,411719,100.0%,.00,,4Md8Pr6J
-40801,1029 DREAN SA,Ejecución de la orden pendiente,Todo Aprobado, ,,F,0272/005,120,0,14/03/2025,EXPRESO CARGO SA,413373,44.6%,1176.00,,6Ng7Hp1X
 40803,682 MAYO TRANSFORMADORES S.R.L.,Ejecución de la orden pendiente,Todo Aprobado, ,,F,MTS512B,576,0,14/03/2025,RICARDO PIERONI,413596,36.8%,316.80,,0We8Yn4Q
 40803,682 MAYO TRANSFORMADORES S.R.L.,Ejecución de la orden pendiente,Todo Aprobado, ,,F,PPAR1048T,252,0,14/03/2025,RICARDO PIERONI,413596,45.0%,252.00,,0We8Yn4Q
 40804,3046 ALTA ROTACION SRL,Ejecución de la orden pendiente,Todo Aprobado, ,,F,PPA1548TE,1400,0,14/03/2025,EXPRESO CARGO SA,413805,36.4%,1960.00,,1Md0Cx2B
@@ -373,7 +374,7 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 40344,1067 DIPAC SA,Parcialmente ejecutada,Todo Aprobado, ,,F,PPAR1024T,0,864,,RICARDO PIERONI,378649,-24.0%,432.00,,9Tj7Li2O
 40423,5098 BOR UR SRL,Ejecución de la orden pendiente,Todo Aprobado, ,,F,PPA1548TE,360,0,,RETIRAN,385306,47.6%,594.00,,4Py6Ze4H
 40423,5098 BOR UR SRL,Ejecución de la orden pendiente,Todo Aprobado, ,,F,H11/CPE,1,0,,RETIRAN,385306,0.0%,.00,,4Py6Ze4H
-40649,6631 PILKINGTON AUTOMOTIVE ARGENTINA SA,Parcialmente ejecutada,Todo Aprobado,Pedido ,Factura pendiente,T,6631/003,720,0,,EXPRESO CARGO SA,401785,48.4%,3348.00,,8Gy5Vz0B
+40649,6631 PILKINGTON AUTOMOTIVE ARGENTINA SA,Facturación pendiente,Todo Aprobado,Pedido ,Factura pendiente,T,6631/003,0,0,,EXPRESO CARGO SA,401785,48.4%,-27.90,,8Gy5Vz0B
 40667,9402312 DINDEL SA,Ejecución de la orden pendiente,Todo Aprobado, ,,F,TERM420,38,0,,EXPRESO CARGO SA,403203,67.2%,380.00,,
 40671,60 INGERSOLL ARGENTINA S.A.,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Liberada,T,0060/001,0,150,,TRANSPORTE TRAVERSO,403426,83.7%,1860.00,,2Df5Fp8J
 40696,15 IND. JOHN DEERE ARGENTINA S.A.,Ejecución de la orden pendiente,Todo Aprobado,Pedido ,Recepción pendiente,T,0015/019,0,900,,FELICI JORGE ARIEL,405674,75.0%,873.00,,8Ky5Hq9D
