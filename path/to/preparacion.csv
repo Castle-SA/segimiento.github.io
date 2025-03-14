@@ -239,8 +239,8 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 40755,827 GONVARRI ARGENTINA SA,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 22387,Remitido,F,P579,0,0,10/03/2025,EXPRESO CARGO SA,410610,51.5%,2511.60,T,6Mv2Lk5E
 40756,86 EST GRAFICO IMPRESORES SA,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 22390,Remitido,F,H11/48,0,0,10/03/2025,EXPRESO CARGO SA,410824,46.7%,221.00,T,9Xw3Zi2V
 40759,3926 ASERRADERO GOTTERT de GOTTERT RODOLFO RICARDO y OTROS SH,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 22392,Remitido,F,BV002,0,0,10/03/2025,EXPRESO CARGO SA,410931,49.3%,570.00,T,4Pr4Ra1I
-40765,2410 LUIS SOLIMENO E HIJOS SA,Parcialmente ejecutada,Todo Aprobado,Factura de venta 36723,Abierta,F,PPAR10048T,0,186,10/03/2025,TRANSPORTE TOMASSINI,411010,26.0%,1887.90,,3Gh0Ze9O
 40765,2410 LUIS SOLIMENO E HIJOS SA,Parcialmente ejecutada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 22388,Remitido,F,PPAR10048T,0,186,10/03/2025,TRANSPORTE TOMASSINI,411010,26.0%,1766.10,T,3Gh0Ze9O
+40765,2410 LUIS SOLIMENO E HIJOS SA,Parcialmente ejecutada,Todo Aprobado,Factura de venta 36723,Abierta,F,PPAR10048T,0,186,10/03/2025,TRANSPORTE TOMASSINI,411010,26.0%,1887.90,,3Gh0Ze9O
 40766,9402290 BI MERCANTIL SAS,Parcialmente ejecutada,Todo Aprobado,Factura de venta 36725,Pagado por completo,F,PPAR10048T,0,6,10/03/2025,TRANSPORTE MOSTTO,411229,0.0%,.00,,6Cx3Az0M
 40766,9402290 BI MERCANTIL SAS,Parcialmente ejecutada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 22391,Remitido,F,PPAR15048T,0,0,10/03/2025,TRANSPORTE MOSTTO,411229,0.0%,.00,T,6Cx3Az0M
 40692,3909 LIBECO FILM SA,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 22407,Remitido,F,PPAR1048T,0,0,11/03/2025,EXPRESO CARGO SA,405331,43.7%,534.572,T,4Vs0Qf0C
@@ -263,8 +263,8 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 40774,1029 DREAN SA,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 22420,Remitido,F,0272/003,0,0,12/03/2025,EXPRESO CARGO SA,411876,47.1%,7840.00,T,6Ng7Hp1X
 40781,2094 FABEN SA,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 22412,Remitido,F,2094/003,0,0,12/03/2025,EXPRESO SANTA ROSA,412204,72.0%,1916.64,T,6Ga0Sl6A
 40791,1269 A.F.A. S.C.L. - RAMALLO UNIDAD VA FORMULADORA,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 22414,Remitido,F,PPAR1048T,0,0,12/03/2025,EL TERO,412796,41.5%,4060.80,T,5Zl4Kr6H
-40793,3598 DEL VALLE EMBALAJES SRL,Parcialmente ejecutada,Todo Aprobado,Factura de venta 36743,Abierta,F,MTS548B,0,720,12/03/2025,RICARDO PIERONI,412903,24.2%,1396.80,,0Ph8Mv3F
-40793,3598 DEL VALLE EMBALAJES SRL,Parcialmente ejecutada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 22415,Remitido,F,PPAR1048T,0,0,12/03/2025,RICARDO PIERONI,412903,40.9%,3348.00,T,0Ph8Mv3F
+40793,3598 DEL VALLE EMBALAJES SRL,Facturación pendiente/parcialmente ejecutada,Todo Aprobado,Factura de venta 36743,Abierta,F,MTS548B,0,720,12/03/2025,RICARDO PIERONI,412903,24.2%,1396.80,,0Ph8Mv3F
+40793,3598 DEL VALLE EMBALAJES SRL,Facturación pendiente/parcialmente ejecutada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 22415,Remitido,F,PPAR1048T,0,0,12/03/2025,RICARDO PIERONI,412903,40.9%,3348.00,T,0Ph8Mv3F
 40794,1906 SOFTBOND SA,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 22410,Remitido,F,PPAR1048T,0,0,12/03/2025,EXPRESO CARGO SA,413115,43.3%,1257.12,T,0Ij4Pc0C
 40794,1906 SOFTBOND SA,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 22410,Remitido,F,H11/48,0,0,12/03/2025,EXPRESO CARGO SA,413115,46.6%,88.40,T,0Ij4Pc0C
 40795,3771 PILISAR SA,Facturación pendiente,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 22411,Remitido,F,PPAR1072T,0,0,12/03/2025,EXPRESO CARGO SA,413246,0.0%,.00,F,6Qa0Ib0C
@@ -319,8 +319,9 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 40778,341 JULERIAQUE S.A.,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 22458,Remitido,F,PPA1048F,0,0,14/03/2025,RICARDO PIERONI,412095,0.0%,.00,T,1Sm0Dz4G
 40784,554 LITO SRL,Facturación pendiente,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 22464,Remitido,F,PPA1548TE,0,0,14/03/2025,RICARDO PIERONI,412406,56.3%,720.00,F,1Xu7Zx5J
 40784,554 LITO SRL,Facturación pendiente,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 22464,Remitido,F,H11/CPE,0,0,14/03/2025,RICARDO PIERONI,412406,63.1%,70.00,F,1Xu7Zx5J
-40803,682 MAYO TRANSFORMADORES S.R.L.,Ejecución de la orden pendiente,Todo Aprobado, ,,F,MTS512B,576,0,14/03/2025,RICARDO PIERONI,413596,36.8%,316.80,,0We8Yn4Q
-40803,682 MAYO TRANSFORMADORES S.R.L.,Ejecución de la orden pendiente,Todo Aprobado, ,,F,PPAR1048T,252,0,14/03/2025,RICARDO PIERONI,413596,45.0%,252.00,,0We8Yn4Q
+40793,3598 DEL VALLE EMBALAJES SRL,Facturación pendiente/parcialmente ejecutada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 22467,Remitido,F,MTS524B,0,0,14/03/2025,RICARDO PIERONI,412903,34.5%,698.40,F,0Ph8Mv3F
+40803,682 MAYO TRANSFORMADORES S.R.L.,Facturación pendiente,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 22466,Remitido,F,MTS512B,0,0,14/03/2025,RICARDO PIERONI,413596,36.8%,316.80,F,0We8Yn4Q
+40803,682 MAYO TRANSFORMADORES S.R.L.,Facturación pendiente,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 22466,Remitido,F,PPAR1048T,0,0,14/03/2025,RICARDO PIERONI,413596,45.0%,252.00,F,0We8Yn4Q
 40804,3046 ALTA ROTACION SRL,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 22463,Remitido,F,PPA1548TE,0,0,14/03/2025,EXPRESO CARGO SA,413805,36.4%,1965.60,T,1Md0Cx2B
 40808,9400018 SEND SRL,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 22460,Remitido,F,PPAR1048T,0,0,14/03/2025,RICARDO PIERONI,414012,50.5%,319.68,T,3Ql9Lb2K
 40812,3363 GUALTIERI HNOS SA,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 22457,Remitido,F,PPAR1048T,0,0,14/03/2025,EXPRESO LANCIONI,414014,41.5%,2030.40,T,1Sz3Yg2S
