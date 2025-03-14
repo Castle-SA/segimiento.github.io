@@ -239,8 +239,8 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 40755,827 GONVARRI ARGENTINA SA,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 22387,Remitido,F,P579,0,0,10/03/2025,EXPRESO CARGO SA,410610,51.5%,2511.60,T,6Mv2Lk5E
 40756,86 EST GRAFICO IMPRESORES SA,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 22390,Remitido,F,H11/48,0,0,10/03/2025,EXPRESO CARGO SA,410824,46.7%,221.00,T,9Xw3Zi2V
 40759,3926 ASERRADERO GOTTERT de GOTTERT RODOLFO RICARDO y OTROS SH,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 22392,Remitido,F,BV002,0,0,10/03/2025,EXPRESO CARGO SA,410931,49.3%,570.00,T,4Pr4Ra1I
-40765,2410 LUIS SOLIMENO E HIJOS SA,Parcialmente ejecutada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 22388,Remitido,F,PPAR10048T,0,186,10/03/2025,TRANSPORTE TOMASSINI,411010,26.0%,1766.10,T,3Gh0Ze9O
 40765,2410 LUIS SOLIMENO E HIJOS SA,Parcialmente ejecutada,Todo Aprobado,Factura de venta 36723,Abierta,F,PPAR10048T,0,186,10/03/2025,TRANSPORTE TOMASSINI,411010,26.0%,1887.90,,3Gh0Ze9O
+40765,2410 LUIS SOLIMENO E HIJOS SA,Parcialmente ejecutada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 22388,Remitido,F,PPAR10048T,0,186,10/03/2025,TRANSPORTE TOMASSINI,411010,26.0%,1766.10,T,3Gh0Ze9O
 40766,9402290 BI MERCANTIL SAS,Parcialmente ejecutada,Todo Aprobado,Factura de venta 36725,Pagado por completo,F,PPAR10048T,0,6,10/03/2025,TRANSPORTE MOSTTO,411229,0.0%,.00,,6Cx3Az0M
 40766,9402290 BI MERCANTIL SAS,Parcialmente ejecutada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 22391,Remitido,F,PPAR15048T,0,0,10/03/2025,TRANSPORTE MOSTTO,411229,0.0%,.00,T,6Cx3Az0M
 40692,3909 LIBECO FILM SA,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 22407,Remitido,F,PPAR1048T,0,0,11/03/2025,EXPRESO CARGO SA,405331,43.7%,534.572,T,4Vs0Qf0C
@@ -325,7 +325,7 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 40808,9400018 SEND SRL,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 22460,Remitido,F,PPAR1048T,0,0,14/03/2025,RICARDO PIERONI,414012,50.5%,319.68,T,3Ql9Lb2K
 40812,3363 GUALTIERI HNOS SA,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 22457,Remitido,F,PPAR1048T,0,0,14/03/2025,EXPRESO LANCIONI,414014,41.5%,2030.40,T,1Sz3Yg2S
 40814,4874 TIENDA DE AROMAS SRL,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 22461,Remitido,F,PPAR1048T,0,0,14/03/2025,TRANSPORTE TOMASSINI,414015,46.1%,367.20,T,3Bt9Eu0Q
-40829,3051 FRIMETAL S.A.,Ejecución de la orden pendiente,Todo Aprobado, ,,F,PPAR1048M,324,0,14/03/2025,FELICI JORGE ARIEL,414926,41.9%,375.246,,3Dw0Uk2K
+40829,3051 FRIMETAL S.A.,Facturación pendiente,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 22465,Remitido,F,PPAR1048M,0,0,14/03/2025,FELICI JORGE ARIEL,414926,41.9%,375.246,F,3Dw0Uk2K
 40776,12849 FERRERO ARGENTINA SA,Ejecución de la orden pendiente,Todo Aprobado, ,,F,PPAR1072T,240,0,17/03/2025,EXPRESO LUJAN DEL CUYO SA,411990,43.6%,357.60,,5Oy9Im9F
 40817,1067 DIPAC SA,Ejecución de la orden pendiente,Todo Aprobado, ,,F,PPAR1048T,360,0,17/03/2025,RICARDO PIERONI,414156,45.0%,360.00,,9Tj7Li2O
 40817,1067 DIPAC SA,Ejecución de la orden pendiente,Todo Aprobado, ,,F,PPAR524T,1008,432,17/03/2025,RICARDO PIERONI,414156,99.8%,360.00,,9Tj7Li2O
