@@ -150,8 +150,8 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 40724,6141 LA PIAMONTESA DE AVERALDO SA,Facturada,Todo Aprobado,Ejecución de pedido de artículo 22342,Enviado,F,PPAR15048T,0,0,27/02/2025,EXPRESO CARGO SA,407699,49.7%,.00,T,3Ba7Qv6Q
 39719,5019 GRANJA TRES ARROYOS SACAFEI,Facturada,Todo Aprobado,Ejecución de pedido de artículo 22354,Enviado,F,5019/002,0,0,28/02/2025,EXPRESO CARGO SA,332939,72.7%,.00,T,0Ql9Gi1V
 40316,12787 FLEXCOLOR SRL,Facturada,Todo Aprobado,Ejecución de pedido de artículo 22348,Enviado,F,MTS518B,0,0,28/02/2025,EXPRESO BRIO SRL,375947,33.8%,.00,T,3Jc0Cw5E
-40337,2556 TEJIDOS LATINOS SA,Facturada,Todo Aprobado,Ejecución de pedido de artículo 22350,Enviado,F,2556/001,0,0,28/02/2025,EXPRESO CARGO SA,377963,67.3%,.00,T,0Cb5Za6D
 40337,2556 TEJIDOS LATINOS SA,Facturada,Todo Aprobado,Ejecución de pedido de artículo 22355,Enviado,F,2556/001,0,0,28/02/2025,EXPRESO CARGO SA,377963,67.3%,.00,T,0Cb5Za6D
+40337,2556 TEJIDOS LATINOS SA,Facturada,Todo Aprobado,Ejecución de pedido de artículo 22350,Enviado,F,2556/001,0,0,28/02/2025,EXPRESO CARGO SA,377963,67.3%,.00,T,0Cb5Za6D
 40546,5019 GRANJA TRES ARROYOS SACAFEI,Facturada,Todo Aprobado,Ejecución de pedido de artículo 22349,Enviado,F,5019/005,0,0,28/02/2025,EXPRESO CARGO SA,395022,59.8%,.00,T,0Ql9Gi1V
 40571,9401339 QUICKFOOD S.A.,Facturada,Todo Aprobado,Ejecución de pedido de artículo 22343,Enviado,F,PPAR1048T,0,0,28/02/2025,BERGAMASCHI OSVALDO RAMON,396720,58.0%,.00,T,8Fy3Xp2W
 40579,2561 LAGOMARSINO SA,Facturada,Todo Aprobado,Ejecución de pedido de artículo 22345,Enviado,F,PPAR1048T,0,0,28/02/2025,EXPRESO CARGO SA,397295,44.4%,.00,T,0Tn2Lb2H
@@ -227,8 +227,8 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 40755,827 GONVARRI ARGENTINA SA,Facturada,Todo Aprobado,Ejecución de pedido de artículo 22387,Enviado,F,P579,0,0,10/03/2025,EXPRESO CARGO SA,410610,51.5%,-119.60,T,6Mv2Lk5E
 40756,86 EST GRAFICO IMPRESORES SA,Facturada,Todo Aprobado,Ejecución de pedido de artículo 22390,Enviado,F,H11/48,0,0,10/03/2025,EXPRESO CARGO SA,410824,46.7%,.00,T,9Xw3Zi2V
 40759,3926 ASERRADERO GOTTERT de GOTTERT RODOLFO RICARDO y OTROS SH,Facturada,Todo Aprobado,Ejecución de pedido de artículo 22392,Enviado,F,BV002,0,0,10/03/2025,EXPRESO CARGO SA,410931,49.3%,.00,T,4Pr4Ra1I
-40765,2410 LUIS SOLIMENO E HIJOS SA,Parcialmente ejecutada,Todo Aprobado,Ejecución de pedido de artículo 22388,Enviado,F,PPAR10048T,0,186,10/03/2025,TRANSPORTE TOMASSINI,411010,26.0%,1887.90,T,3Gh0Ze9O
 40765,2410 LUIS SOLIMENO E HIJOS SA,Parcialmente ejecutada,Todo Aprobado,Factura de venta 36723,Abierta,F,PPAR10048T,0,186,10/03/2025,TRANSPORTE TOMASSINI,411010,26.0%,1887.90,,3Gh0Ze9O
+40765,2410 LUIS SOLIMENO E HIJOS SA,Parcialmente ejecutada,Todo Aprobado,Ejecución de pedido de artículo 22388,Enviado,F,PPAR10048T,0,186,10/03/2025,TRANSPORTE TOMASSINI,411010,26.0%,1887.90,T,3Gh0Ze9O
 40766,9402290 BI MERCANTIL SAS,Parcialmente ejecutada,Todo Aprobado,Factura de venta 36725,Pagado por completo,F,PPAR10048T,0,6,10/03/2025,TRANSPORTE MOSTTO,411229,0.0%,.00,,6Cx3Az0M
 40766,9402290 BI MERCANTIL SAS,Parcialmente ejecutada,Todo Aprobado,Ejecución de pedido de artículo 22391,Enviado,F,PPAR15048T,0,0,10/03/2025,TRANSPORTE MOSTTO,411229,0.0%,.00,T,6Cx3Az0M
 40692,3909 LIBECO FILM SA,Facturada,Todo Aprobado,Ejecución de pedido de artículo 22407,Enviado,F,PPAR1048T,0,0,11/03/2025,EXPRESO CARGO SA,405331,43.7%,.00,T,4Vs0Qf0C
@@ -345,10 +345,10 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 40767,1028 VIPAL SA,Ejecución de la orden pendiente,Todo Aprobado, ,,F,PPAR1048T,360,0,21/03/2025,RICARDO PIERONI,411367,57.7%,468.00,,1Kq9Oc2R
 40767,1028 VIPAL SA,Ejecución de la orden pendiente,Todo Aprobado, ,,F,PPAR10048T,0,60,21/03/2025,RICARDO PIERONI,411367,46.4%,840.00,,1Kq9Oc2R
 40767,1028 VIPAL SA,Ejecución de la orden pendiente,Todo Aprobado, ,,F,1028/005,0,60,21/03/2025,RICARDO PIERONI,411367,96.1%,1080.00,,1Kq9Oc2R
-40835,3089 ARNEG ARGENTINA SA,Ejecución de la orden pendiente,Todo Aprobado, ,,F,3089/011,0,15000,21/03/2025,FELICI JORGE ARIEL,415632,63.7%,3390.00,,7Rx7Ub2H
-40835,3089 ARNEG ARGENTINA SA,Ejecución de la orden pendiente,Todo Aprobado, ,,F,3089/029,0,40000,21/03/2025,FELICI JORGE ARIEL,415632,87.0%,1360.00,,7Rx7Ub2H
+40835,3089 ARNEG ARGENTINA SA,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Liberada,F,3089/011,0,15000,21/03/2025,FELICI JORGE ARIEL,415632,63.7%,3390.00,,7Rx7Ub2H
+40835,3089 ARNEG ARGENTINA SA,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Liberada,F,3089/029,0,40000,21/03/2025,FELICI JORGE ARIEL,415632,87.0%,1360.00,,7Rx7Ub2H
 40835,3089 ARNEG ARGENTINA SA,Ejecución de la orden pendiente,Todo Aprobado, ,,F,3089/054,0,20000,21/03/2025,FELICI JORGE ARIEL,415632,99.2%,9360.00,,7Rx7Ub2H
-40835,3089 ARNEG ARGENTINA SA,Ejecución de la orden pendiente,Todo Aprobado, ,,F,3089/039,0,50000,21/03/2025,FELICI JORGE ARIEL,415632,98.2%,9850.00,,7Rx7Ub2H
+40835,3089 ARNEG ARGENTINA SA,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Liberada,F,3089/039,0,50000,21/03/2025,FELICI JORGE ARIEL,415632,98.2%,9850.00,,7Rx7Ub2H
 40463,202 FRIGORIFICO DE AVES SOYCHU SA,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Ensamblada,F,PVC612R,800,0,24/03/2025,EXPRESO CARGO SA,388842,56.4%,1080.00,,5Ow8Cg8A
 40752,9401339 QUICKFOOD S.A.,Ejecución de la orden pendiente,Todo Aprobado, ,,F,PPAR1048T,540,0,28/03/2025,BERGAMASCHI OSVALDO RAMON,410427,56.0%,675.00,,8Fy3Xp2W
 40800,1736 COMPANY SPY SRL,Ejecución de la orden pendiente,Todo Aprobado, ,,F,1736/001,0,360,31/03/2025,RICARDO PIERONI,413372,61.3%,644.40,,7Xr0Sq4A
