@@ -300,8 +300,8 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 40824,9402344 INFYA S.R.L.,Facturada,Todo Aprobado,Ejecución de pedido de artículo 22448,Enviado,F,VCI410,0,0,13/03/2025,RETIRAN,414571,75.8%,.00,T,
 40245,9400962 CRYSTAL-ICE SRL,Facturada,Todo Aprobado,Ejecución de pedido de artículo 22456,Enviado,F,PPA1548TE,0,0,14/03/2025,RICARDO PIERONI,370615,39.4%,.00,T,4Is2Rn8E
 40678,9401339 QUICKFOOD S.A.,Facturada,Todo Aprobado,Ejecución de pedido de artículo 22455,Enviado,F,PPHR15048XT,0,0,14/03/2025,BERGAMASCHI OSVALDO RAMON,404029,55.9%,.00,T,8Fy3Xp2W
-40687,9402185 MONCHAMP INDUSTRIAS SRL,Parcialmente ejecutada,Todo Aprobado,Factura de venta 36794,Pagado por completo,F,MVAQUA180,15,25,14/03/2025,ALMAR ROSARIO SRL,404883,34.2%,394.40,,7Ck6Zj2S
 40687,9402185 MONCHAMP INDUSTRIAS SRL,Parcialmente ejecutada,Todo Aprobado,Ejecución de pedido de artículo 22472,Enviado,F,MVAQUA180,15,25,14/03/2025,ALMAR ROSARIO SRL,404883,34.2%,394.40,T,7Ck6Zj2S
+40687,9402185 MONCHAMP INDUSTRIAS SRL,Parcialmente ejecutada,Todo Aprobado,Factura de venta 36794,Pagado por completo,F,MVAQUA180,15,25,14/03/2025,ALMAR ROSARIO SRL,404883,34.2%,394.40,,7Ck6Zj2S
 40710,94010 VISUAR SA,Facturada,Todo Aprobado,Ejecución de pedido de artículo 22462,Enviado,F,1823/002,0,0,14/03/2025,EXPRESO CARGO SA,406687,56.0%,.00,T,4Gf8Oa0H
 40722,1171 AUTOSAL SA,Facturada,Todo Aprobado,Ejecución de pedido de artículo 22468,Enviado,F,DT550G,0,0,14/03/2025,EXPRESO CARGO SA,407496,43.4%,.00,T,2Uv7Bb0L
 40722,1171 AUTOSAL SA,Facturada,Todo Aprobado,Ejecución de pedido de artículo 22468,Enviado,F,DT550N,0,0,14/03/2025,EXPRESO CARGO SA,407496,43.4%,.00,T,2Uv7Bb0L
@@ -330,8 +330,8 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 40667,9402312 DINDEL SA,Facturada,Todo Aprobado,Ejecución de pedido de artículo 22479,Enviado,F,TERM420,0,0,17/03/2025,EXPRESO CARGO SA,403203,67.2%,-6.00,T,
 40776,12849 FERRERO ARGENTINA SA,Facturada,Todo Aprobado,Ejecución de pedido de artículo 22475,Enviado,F,PPAR1072T,0,0,17/03/2025,EXPRESO LUJAN DEL CUYO SA,411990,43.6%,.00,T,5Oy9Im9F
 40817,1067 DIPAC SA,Parcialmente ejecutada,Todo Aprobado,Ejecución de pedido de artículo 22476,Enviado,F,PPAR1048T,0,0,17/03/2025,RICARDO PIERONI,414156,45.0%,.00,T,9Tj7Li2O
-40817,1067 DIPAC SA,Parcialmente ejecutada,Todo Aprobado,Factura de venta 36801,Abierta,F,PPAR524T,0,432,17/03/2025,RICARDO PIERONI,414156,99.8%,108.00,,9Tj7Li2O
 40817,1067 DIPAC SA,Parcialmente ejecutada,Todo Aprobado,Ejecución de pedido de artículo 22476,Enviado,F,PPAR524T,0,432,17/03/2025,RICARDO PIERONI,414156,99.8%,108.00,T,9Tj7Li2O
+40817,1067 DIPAC SA,Parcialmente ejecutada,Todo Aprobado,Factura de venta 36801,Abierta,F,PPAR524T,0,432,17/03/2025,RICARDO PIERONI,414156,99.8%,108.00,,9Tj7Li2O
 40820,2395 LARTEX SRL,Ejecución de la orden pendiente,Todo Aprobado, ,,F,MTS548B,0,360,17/03/2025,EXPRESO LUJAN DEL CUYO SA,414159,22.6%,684.00,,3Tb7Jg4M
 40821,449 DITEC S R L,Ejecución de la orden pendiente,Todo Aprobado, ,,F,60950-00001-00,0,18,17/03/2025,EXPRESO CARGO SA,414262,54.8%,504.00,,5Xf2Ag4D
 40825,383 JOHNSON ACERO S.A. Industrial y Comercial,Ejecución de la orden pendiente,Todo Aprobado, ,,F,MTS548B,0,1080,17/03/2025,RICARDO PIERONI,414588,26.5%,2160.00,,6Bb0Mu1P
@@ -345,12 +345,13 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 40834,9402056 BUSTAMANTE CRISTIAN JAVIER (PLAZA FERRETERA),Facturada,Todo Aprobado,Ejecución de pedido de artículo 22481,Enviado,F,MTS536B,0,0,17/03/2025,RICARDO PIERONI,415476,38.8%,.00,T,1Kc0Xm1P
 40833,3926 ASERRADERO GOTTERT de GOTTERT RODOLFO RICARDO y OTROS SH,Facturada,Todo Aprobado,Ejecución de pedido de artículo 22477,Enviado,F,BV002,0,0,17/03/2025,EXPRESO CARGO SA,415582,49.3%,.00,T,4Pr4Ra1I
 40843,4111 INDUSTRIALIZADORA S.A.,Facturada,Todo Aprobado,Ejecución de pedido de artículo 22482,Enviado,F,PPA1548TE,0,0,17/03/2025,TRANSPORTE MOSTTO,415811,37.8%,.00,T,1Ay6Og3G
-40837,9400469 MAROLIO SA,Facturación pendiente,Todo Aprobado,Ejecución de pedido de artículo 22484,Enviado,F,PPAR1048T,0,0,17/03/2025,BARRY LATIMER,415908,0.0%,.00,F,2Tl0Nv6Y
+40837,9400469 MAROLIO SA,Facturada,Todo Aprobado,Ejecución de pedido de artículo 22484,Enviado,F,PPAR1048T,0,0,17/03/2025,BARRY LATIMER,415908,0.0%,.00,T,2Tl0Nv6Y
 40838,3581 ARGENSUN SA,Parcialmente ejecutada,Todo Aprobado,Ejecución de pedido de artículo 22483,Enviado,F,PPAR1048T,0,0,17/03/2025,BARRY LATIMER,416010,0.0%,.00,T,5Dt9Wh4R
-40838,3581 ARGENSUN SA,Parcialmente ejecutada,Todo Aprobado,Factura de venta ,Pagado por completo,F,PPAR10048T,0,2,17/03/2025,BARRY LATIMER,416010,0.0%,.00,,5Dt9Wh4R
+40838,3581 ARGENSUN SA,Parcialmente ejecutada,Todo Aprobado,Factura de venta 36808,Pagado por completo,F,PPAR10048T,0,2,17/03/2025,BARRY LATIMER,416010,0.0%,.00,,5Dt9Wh4R
+40838,3581 ARGENSUN SA,Parcialmente ejecutada,Todo Aprobado, ,,F,PPHR15048XT,2,0,17/03/2025,BARRY LATIMER,416010,0.0%,.00,,5Dt9Wh4R
 40839,722 EXPORTADOR DE HAMBURGUESAS ARGENTINAS SA,Facturada,Todo Aprobado,Ejecución de pedido de artículo 22485,Enviado,F,PPAR1048T,0,0,17/03/2025,BARRY LATIMER,416012,0.0%,.00,T,4Fk9Bq4S
 40839,722 EXPORTADOR DE HAMBURGUESAS ARGENTINAS SA,Facturada,Todo Aprobado,Ejecución de pedido de artículo 22485,Enviado,F,PPAR15048T,0,0,17/03/2025,BARRY LATIMER,416012,0.0%,.00,T,4Fk9Bq4S
-40840,9401555 ADECO AGROPECUARIA S.A.,Facturación pendiente,Todo Aprobado,Ejecución de pedido de artículo 22486,Enviado,F,PPAR15048T,0,0,17/03/2025,BARRY LATIMER,416014,0.0%,.00,F,7As8Gb5S
+40840,9401555 ADECO AGROPECUARIA S.A.,Facturada,Todo Aprobado,Ejecución de pedido de artículo 22486,Enviado,F,PPAR15048T,0,0,17/03/2025,BARRY LATIMER,416014,0.0%,.00,T,7As8Gb5S
 40827,322 SIDERSA S.A.,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Ensamblada,F,MF525T,720,0,19/03/2025,EXPRESO BRIO SRL,414820,36.9%,1425.60,,7Ia9Mm7L
 40841,9402290 BI MERCANTIL SAS,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Liberada,F,PPHR1216B,0,108,19/03/2025,TRANSPORTE MOSTTO,415809,47.8%,129.60,,6Cx3Az0M
 40841,9402290 BI MERCANTIL SAS,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Liberada,F,PVC612R,0,144,19/03/2025,TRANSPORTE MOSTTO,415809,55.3%,194.40,,6Cx3Az0M
