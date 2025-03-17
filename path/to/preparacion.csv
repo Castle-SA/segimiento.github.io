@@ -227,8 +227,8 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 40755,827 GONVARRI ARGENTINA SA,Facturada,Todo Aprobado,Ejecución de pedido de artículo 22387,Enviado,F,P579,0,0,10/03/2025,EXPRESO CARGO SA,410610,51.5%,-119.60,T,6Mv2Lk5E
 40756,86 EST GRAFICO IMPRESORES SA,Facturada,Todo Aprobado,Ejecución de pedido de artículo 22390,Enviado,F,H11/48,0,0,10/03/2025,EXPRESO CARGO SA,410824,46.7%,.00,T,9Xw3Zi2V
 40759,3926 ASERRADERO GOTTERT de GOTTERT RODOLFO RICARDO y OTROS SH,Facturada,Todo Aprobado,Ejecución de pedido de artículo 22392,Enviado,F,BV002,0,0,10/03/2025,EXPRESO CARGO SA,410931,49.3%,.00,T,4Pr4Ra1I
-40765,2410 LUIS SOLIMENO E HIJOS SA,Parcialmente ejecutada,Todo Aprobado,Ejecución de pedido de artículo 22388,Enviado,F,PPAR10048T,0,186,10/03/2025,TRANSPORTE TOMASSINI,411010,26.0%,1887.90,T,3Gh0Ze9O
 40765,2410 LUIS SOLIMENO E HIJOS SA,Parcialmente ejecutada,Todo Aprobado,Factura de venta 36723,Abierta,F,PPAR10048T,0,186,10/03/2025,TRANSPORTE TOMASSINI,411010,26.0%,1887.90,,3Gh0Ze9O
+40765,2410 LUIS SOLIMENO E HIJOS SA,Parcialmente ejecutada,Todo Aprobado,Ejecución de pedido de artículo 22388,Enviado,F,PPAR10048T,0,186,10/03/2025,TRANSPORTE TOMASSINI,411010,26.0%,1887.90,T,3Gh0Ze9O
 40766,9402290 BI MERCANTIL SAS,Parcialmente ejecutada,Todo Aprobado,Factura de venta 36725,Pagado por completo,F,PPAR10048T,0,6,10/03/2025,TRANSPORTE MOSTTO,411229,0.0%,.00,,6Cx3Az0M
 40766,9402290 BI MERCANTIL SAS,Parcialmente ejecutada,Todo Aprobado,Ejecución de pedido de artículo 22391,Enviado,F,PPAR15048T,0,0,10/03/2025,TRANSPORTE MOSTTO,411229,0.0%,.00,T,6Cx3Az0M
 40692,3909 LIBECO FILM SA,Facturada,Todo Aprobado,Ejecución de pedido de artículo 22407,Enviado,F,PPAR1048T,0,0,11/03/2025,EXPRESO CARGO SA,405331,43.7%,.00,T,4Vs0Qf0C
@@ -348,7 +348,8 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 40837,9400469 MAROLIO SA,Facturada,Todo Aprobado,Ejecución de pedido de artículo 22484,Enviado,F,PPAR1048T,0,0,17/03/2025,BARRY LATIMER,415908,0.0%,.00,T,2Tl0Nv6Y
 40838,3581 ARGENSUN SA,Parcialmente ejecutada,Todo Aprobado,Ejecución de pedido de artículo 22483,Enviado,F,PPAR1048T,0,0,17/03/2025,BARRY LATIMER,416010,0.0%,.00,T,5Dt9Wh4R
 40838,3581 ARGENSUN SA,Parcialmente ejecutada,Todo Aprobado,Factura de venta 36808,Pagado por completo,F,PPAR10048T,0,2,17/03/2025,BARRY LATIMER,416010,0.0%,.00,,5Dt9Wh4R
-40838,3581 ARGENSUN SA,Parcialmente ejecutada,Todo Aprobado, ,,F,PPHR15048XT,2,0,17/03/2025,BARRY LATIMER,416010,0.0%,.00,,5Dt9Wh4R
+40838,3581 ARGENSUN SA,Parcialmente ejecutada,Todo Aprobado,Factura de venta 36811,Pagado por completo,F,PPAR10048T,0,2,17/03/2025,BARRY LATIMER,416010,0.0%,.00,,5Dt9Wh4R
+40838,3581 ARGENSUN SA,Parcialmente ejecutada,Todo Aprobado,Ejecución de pedido de artículo 22487,Enviado,F,PPHR15048XT,0,0,17/03/2025,BARRY LATIMER,416010,0.0%,.00,T,5Dt9Wh4R
 40839,722 EXPORTADOR DE HAMBURGUESAS ARGENTINAS SA,Facturada,Todo Aprobado,Ejecución de pedido de artículo 22485,Enviado,F,PPAR1048T,0,0,17/03/2025,BARRY LATIMER,416012,0.0%,.00,T,4Fk9Bq4S
 40839,722 EXPORTADOR DE HAMBURGUESAS ARGENTINAS SA,Facturada,Todo Aprobado,Ejecución de pedido de artículo 22485,Enviado,F,PPAR15048T,0,0,17/03/2025,BARRY LATIMER,416012,0.0%,.00,T,4Fk9Bq4S
 40840,9401555 ADECO AGROPECUARIA S.A.,Facturada,Todo Aprobado,Ejecución de pedido de artículo 22486,Enviado,F,PPAR15048T,0,0,17/03/2025,BARRY LATIMER,416014,0.0%,.00,T,7As8Gb5S
@@ -358,6 +359,10 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 40842,2515 CONGELADOS ARTICO SA,Ejecución de la orden pendiente,Todo Aprobado, ,,F,PPAR1072T,720,0,19/03/2025,TRANSPORTE TOMASSINI,415810,42.2%,1058.40,,8Rn3En3G
 40844,4782 OFFAL EXP SA,Ejecución de la orden pendiente,Todo Aprobado, ,,F,PPAR10072T,288,0,19/03/2025,EXPRESO CARGO SA,415812,46.1%,4383.36,,2Gq6Ps1R
 40844,4782 OFFAL EXP SA,Ejecución de la orden pendiente,Todo Aprobado, ,,F,PPAR1072T,1248,0,19/03/2025,EXPRESO CARGO SA,415812,39.7%,1759.68,,2Gq6Ps1R
+40845,9402175 SEBASTIAN SANCHEZ RODRIGO,Ejecución de la orden pendiente,Todo Aprobado, ,,F,FLJPP30012B,3,0,19/03/2025,RETIRAN,416067,0.0%,.00,,7Xt9Gc1E
+40845,9402175 SEBASTIAN SANCHEZ RODRIGO,Ejecución de la orden pendiente,Todo Aprobado, ,,F,PPAR1048T,18,0,19/03/2025,RETIRAN,416067,0.0%,.00,,7Xt9Gc1E
+40845,9402175 SEBASTIAN SANCHEZ RODRIGO,Ejecución de la orden pendiente,Todo Aprobado, ,,F,PPAR1072T,18,0,19/03/2025,RETIRAN,416067,0.0%,.00,,7Xt9Gc1E
+40845,9402175 SEBASTIAN SANCHEZ RODRIGO,Ejecución de la orden pendiente,Todo Aprobado, ,,F,PPAR15048T,6,0,19/03/2025,RETIRAN,416067,0.0%,.00,,7Xt9Gc1E
 40711,9401339 QUICKFOOD S.A.,Ejecución de la orden pendiente,Todo Aprobado, ,,F,PPHR15048XT,180,0,21/03/2025,BERGAMASCHI OSVALDO RAMON,406688,55.9%,5220.00,,8Fy3Xp2W
 40767,1028 VIPAL SA,Ejecución de la orden pendiente,Todo Aprobado, ,,F,PPAR1048T,360,0,21/03/2025,RICARDO PIERONI,411367,57.7%,468.00,,1Kq9Oc2R
 40767,1028 VIPAL SA,Ejecución de la orden pendiente,Todo Aprobado, ,,F,PPAR10048T,0,60,21/03/2025,RICARDO PIERONI,411367,46.4%,840.00,,1Kq9Oc2R
