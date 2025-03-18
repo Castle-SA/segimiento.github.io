@@ -150,8 +150,8 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 40724,6141 LA PIAMONTESA DE AVERALDO SA,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 22342,Remitido,F,PPAR15048T,0,0,27/02/2025,EXPRESO CARGO SA,407699,49.7%,1385.10,T,3Ba7Qv6Q
 39719,5019 GRANJA TRES ARROYOS SACAFEI,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 22354,Remitido,F,5019/002,0,0,28/02/2025,EXPRESO CARGO SA,332939,72.7%,371.52,T,0Ql9Gi1V
 40316,12787 FLEXCOLOR SRL,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 22348,Remitido,F,MTS518B,0,0,28/02/2025,EXPRESO BRIO SRL,375947,33.8%,147.84,T,3Jc0Cw5E
-40337,2556 TEJIDOS LATINOS SA,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 22355,Remitido,F,2556/001,0,0,28/02/2025,EXPRESO CARGO SA,377963,67.3%,348.00,T,0Cb5Za6D
 40337,2556 TEJIDOS LATINOS SA,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 22350,Remitido,F,2556/001,0,0,28/02/2025,EXPRESO CARGO SA,377963,67.3%,556.80,T,0Cb5Za6D
+40337,2556 TEJIDOS LATINOS SA,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 22355,Remitido,F,2556/001,0,0,28/02/2025,EXPRESO CARGO SA,377963,67.3%,348.00,T,0Cb5Za6D
 40546,5019 GRANJA TRES ARROYOS SACAFEI,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 22349,Remitido,F,5019/005,0,0,28/02/2025,EXPRESO CARGO SA,395022,59.8%,1344.00,T,0Ql9Gi1V
 40571,9401339 QUICKFOOD S.A.,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 22343,Remitido,F,PPAR1048T,0,0,28/02/2025,BERGAMASCHI OSVALDO RAMON,396720,58.0%,707.40,T,8Fy3Xp2W
 40579,2561 LAGOMARSINO SA,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 22345,Remitido,F,PPAR1048T,0,0,28/02/2025,EXPRESO CARGO SA,397295,44.4%,1069.20,T,0Tn2Lb2H
@@ -290,7 +290,6 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 40801,1029 DREAN SA,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 22454,Remitido,F,0272/005,0,0,13/03/2025,EXPRESO CARGO SA,413373,44.6%,1176.00,T,6Ng7Hp1X
 40805,9400182 IDRIS PATAGONIA SA,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 22446,Remitido,F,PPAR1048T,0,0,13/03/2025,TRANSPORTE CRUZ DEL SUR SA,413908,42.7%,4147.20,T,7Wz3Al6N
 40806,4516 RAPECA ARGENTINA SA,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 22445,Remitido,F,PPA1548TE,0,0,13/03/2025,EXPRESO CARGO SA,414011,36.4%,504.00,T,2Aa9Oj0E
-40807,15 IND. JOHN DEERE ARGENTINA S.A.,Facturación pendiente,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 22438,Remitido,F,04169-00058-93,0,0,13/03/2025,FELICI JORGE ARIEL,414112,60.3%,960.00,T,8Ky5Hq9D
 40810,15 IND. JOHN DEERE ARGENTINA S.A.,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 22440,Remitido,F,04169-00057-93,0,0,13/03/2025,FELICI JORGE ARIEL,414113,56.4%,336.00,T,8Ky5Hq9D
 40811,15 IND. JOHN DEERE ARGENTINA S.A.,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 22439,Remitido,F,04169-00059-93,0,0,13/03/2025,FELICI JORGE ARIEL,414114,52.3%,240.00,T,8Ky5Hq9D
 40813,15 IND. JOHN DEERE ARGENTINA S.A.,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 22437,Remitido,F,04169-00061-93,0,0,13/03/2025,FELICI JORGE ARIEL,414115,55.6%,240.00,T,8Ky5Hq9D
@@ -327,8 +326,8 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 40667,9402312 DINDEL SA,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 22479,Remitido,F,TERM420,0,0,17/03/2025,EXPRESO CARGO SA,403203,67.2%,386.00,T,
 40776,12849 FERRERO ARGENTINA SA,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 22475,Remitido,F,PPAR1072T,0,0,17/03/2025,EXPRESO LUJAN DEL CUYO SA,411990,43.6%,357.60,T,5Oy9Im9F
 40817,1067 DIPAC SA,Parcialmente ejecutada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 22476,Remitido,F,PPAR1048T,0,0,17/03/2025,RICARDO PIERONI,414156,45.0%,360.00,T,9Tj7Li2O
-40817,1067 DIPAC SA,Parcialmente ejecutada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 22476,Remitido,F,PPAR524T,0,432,17/03/2025,RICARDO PIERONI,414156,99.8%,252.00,T,9Tj7Li2O
 40817,1067 DIPAC SA,Parcialmente ejecutada,Todo Aprobado,Factura de venta 36801,Pagado por completo,F,PPAR524T,0,432,17/03/2025,RICARDO PIERONI,414156,99.8%,108.00,,9Tj7Li2O
+40817,1067 DIPAC SA,Parcialmente ejecutada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 22476,Remitido,F,PPAR524T,0,432,17/03/2025,RICARDO PIERONI,414156,99.8%,252.00,T,9Tj7Li2O
 40820,2395 LARTEX SRL,Ejecución de la orden pendiente,Todo Aprobado, ,,F,MTS548B,0,360,17/03/2025,EXPRESO LUJAN DEL CUYO SA,414159,22.6%,684.00,,3Tb7Jg4M
 40821,449 DITEC S R L,Ejecución de la orden pendiente,Todo Aprobado,Pedido ,Recepción pendiente,T,60950-00001-00,0,18,17/03/2025,EXPRESO CARGO SA,414262,54.8%,504.00,,5Xf2Ag4D
 40825,383 JOHNSON ACERO S.A. Industrial y Comercial,Ejecución de la orden pendiente,Todo Aprobado, ,,F,MTS548B,0,1080,17/03/2025,RICARDO PIERONI,414588,26.5%,2160.00,,6Bb0Mu1P
