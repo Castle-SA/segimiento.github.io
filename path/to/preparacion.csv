@@ -150,8 +150,8 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 40724,6141 LA PIAMONTESA DE AVERALDO SA,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 22342,Remitido,F,PPAR15048T,0,0,27/02/2025,EXPRESO CARGO SA,407699,49.7%,1385.10,T,3Ba7Qv6Q
 39719,5019 GRANJA TRES ARROYOS SACAFEI,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 22354,Remitido,F,5019/002,0,0,28/02/2025,EXPRESO CARGO SA,332939,72.7%,371.52,T,0Ql9Gi1V
 40316,12787 FLEXCOLOR SRL,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 22348,Remitido,F,MTS518B,0,0,28/02/2025,EXPRESO BRIO SRL,375947,33.8%,147.84,T,3Jc0Cw5E
-40337,2556 TEJIDOS LATINOS SA,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 22355,Remitido,F,2556/001,0,0,28/02/2025,EXPRESO CARGO SA,377963,67.3%,348.00,T,0Cb5Za6D
 40337,2556 TEJIDOS LATINOS SA,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 22350,Remitido,F,2556/001,0,0,28/02/2025,EXPRESO CARGO SA,377963,67.3%,556.80,T,0Cb5Za6D
+40337,2556 TEJIDOS LATINOS SA,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 22355,Remitido,F,2556/001,0,0,28/02/2025,EXPRESO CARGO SA,377963,67.3%,348.00,T,0Cb5Za6D
 40546,5019 GRANJA TRES ARROYOS SACAFEI,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 22349,Remitido,F,5019/005,0,0,28/02/2025,EXPRESO CARGO SA,395022,59.8%,1344.00,T,0Ql9Gi1V
 40571,9401339 QUICKFOOD S.A.,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 22343,Remitido,F,PPAR1048T,0,0,28/02/2025,BERGAMASCHI OSVALDO RAMON,396720,58.0%,707.40,T,8Fy3Xp2W
 40579,2561 LAGOMARSINO SA,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 22345,Remitido,F,PPAR1048T,0,0,28/02/2025,EXPRESO CARGO SA,397295,44.4%,1069.20,T,0Tn2Lb2H
@@ -352,22 +352,22 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 40840,9401555 ADECO AGROPECUARIA S.A.,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 22486,Remitido,F,PPAR15048T,0,0,17/03/2025,BARRY LATIMER,416014,100.0%,.00,T,7As8Gb5S
 40765,2410 LUIS SOLIMENO E HIJOS SA,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 22496,Remitido,F,PPAR10048T,0,0,18/03/2025,TRANSPORTE TOMASSINI,411010,26.0%,1887.90,T,3Gh0Ze9O
 40766,9402290 BI MERCANTIL SAS,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 22491,Remitido,F,PPAR10048T,0,0,18/03/2025,TRANSPORTE MOSTTO,411229,100.0%,.00,T,6Cx3Az0M
-40780,2520 SOLNIK SA,Facturación pendiente,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 22500,Remitido,F,FLJPP30012B,0,0,18/03/2025,EXPRESO CARGO SA,412201,100.0%,.00,F,0Tp6Rh4W
+40780,2520 SOLNIK SA,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 22500,Remitido,F,FLJPP30012B,0,0,18/03/2025,EXPRESO CARGO SA,412201,100.0%,.00,T,0Tp6Rh4W
 40841,9402290 BI MERCANTIL SAS,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 22498,Remitido,F,PPHR1216B,0,0,18/03/2025,TRANSPORTE MOSTTO,415809,47.8%,129.60,T,6Cx3Az0M
 40841,9402290 BI MERCANTIL SAS,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 22498,Remitido,F,PVC612R,0,0,18/03/2025,TRANSPORTE MOSTTO,415809,55.3%,194.40,T,6Cx3Az0M
-40844,4782 OFFAL EXP SA,Facturación pendiente,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 22499,Remitido,F,PPAR10072T,0,0,18/03/2025,EXPRESO CARGO SA,415812,46.1%,4383.36,F,2Gq6Ps1R
-40844,4782 OFFAL EXP SA,Facturación pendiente,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 22499,Remitido,F,PPAR1072T,0,0,18/03/2025,EXPRESO CARGO SA,415812,39.7%,1759.68,F,2Gq6Ps1R
+40844,4782 OFFAL EXP SA,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 22499,Remitido,F,PPAR10072T,0,0,18/03/2025,EXPRESO CARGO SA,415812,46.1%,4383.36,T,2Gq6Ps1R
+40844,4782 OFFAL EXP SA,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 22499,Remitido,F,PPAR1072T,0,0,18/03/2025,EXPRESO CARGO SA,415812,39.7%,1759.68,T,2Gq6Ps1R
 40838,3581 ARGENSUN SA,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 22492,Remitido,F,PPAR10048T,0,0,18/03/2025,BARRY LATIMER,416010,100.0%,.00,T,5Dt9Wh4R
+40845,9402175 SEBASTIAN SANCHEZ RODRIGO,Facturación pendiente,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 22501,Remitido,F,FLJPP30012B,0,0,18/03/2025,RETIRAN,416067,100.0%,.00,F,7Xt9Gc1E
+40845,9402175 SEBASTIAN SANCHEZ RODRIGO,Facturación pendiente,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 22501,Remitido,F,PPAR1048T,0,0,18/03/2025,RETIRAN,416067,100.0%,.00,F,7Xt9Gc1E
+40845,9402175 SEBASTIAN SANCHEZ RODRIGO,Facturación pendiente,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 22501,Remitido,F,PPAR1072T,0,0,18/03/2025,RETIRAN,416067,100.0%,.00,F,7Xt9Gc1E
+40845,9402175 SEBASTIAN SANCHEZ RODRIGO,Facturación pendiente,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 22501,Remitido,F,PPAR15048T,0,0,18/03/2025,RETIRAN,416067,100.0%,.00,F,7Xt9Gc1E
 40847,5098 BOR UR SRL,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 22490,Remitido,F,H11/CPE,0,0,18/03/2025,RETIRAN,416178,56.9%,60.00,T,4Py6Ze4H
 40848,9401673 HINCK SA,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 22497,Remitido,F,PPA1048T040,0,0,18/03/2025,EXPRESO CARGO SA,416180,-20.3%,284.40,T,3Qd8Xz5F
 40851,9401715 ELABORADORA DE PRODUCTOS CARNICOS CARCARAÑA S.A.,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 22495,Remitido,F,PPAR1072T,0,0,18/03/2025,EXPRESO BRIO SRL,416182,46.5%,381.60,T,5Ro2Wu0T
 40849,9402347 GL SA,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 22493,Remitido,F,2492/001,0,0,18/03/2025,TRANSPORTE ÑANDUBAY SA,416280,45.9%,1382.40,T,
 40852,3771 PILISAR SA,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 22494,Remitido,F,PPAR1072T,0,0,18/03/2025,EXPRESO CARGO SA,416286,100.0%,.00,T,6Qa0Ib0C
 40836,911 ECHESORTU IKA S.R.L.,Ejecución de la orden pendiente,Todo Aprobado, ,,F,PPAR1048T,360,0,19/03/2025,RICARDO PIERONI,415808,64.5%,558.00,,6Dj6Kx3R
-40845,9402175 SEBASTIAN SANCHEZ RODRIGO,Ejecución de la orden pendiente,Todo Aprobado, ,,F,FLJPP30012B,3,0,19/03/2025,RETIRAN,416067,100.0%,.00,,7Xt9Gc1E
-40845,9402175 SEBASTIAN SANCHEZ RODRIGO,Ejecución de la orden pendiente,Todo Aprobado, ,,F,PPAR1048T,18,0,19/03/2025,RETIRAN,416067,100.0%,.00,,7Xt9Gc1E
-40845,9402175 SEBASTIAN SANCHEZ RODRIGO,Ejecución de la orden pendiente,Todo Aprobado, ,,F,PPAR1072T,18,0,19/03/2025,RETIRAN,416067,100.0%,.00,,7Xt9Gc1E
-40845,9402175 SEBASTIAN SANCHEZ RODRIGO,Ejecución de la orden pendiente,Todo Aprobado, ,,F,PPAR15048T,6,0,19/03/2025,RETIRAN,416067,100.0%,.00,,7Xt9Gc1E
 40856,2799 DOMVIL SA,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Ensamblada,F,PPHR1216B,108,0,20/03/2025,TRANSPORTE MOSTTO,416598,47.8%,129.60,,5Wi7Ey4M
 40711,9401339 QUICKFOOD S.A.,Ejecución de la orden pendiente,Todo Aprobado, ,,F,PPHR15048XT,180,0,21/03/2025,BERGAMASCHI OSVALDO RAMON,406688,55.9%,5220.00,,8Fy3Xp2W
 40767,1028 VIPAL SA,Ejecución de la orden pendiente,Todo Aprobado, ,,F,PPAR1048T,360,0,21/03/2025,RICARDO PIERONI,411367,57.7%,468.00,,1Kq9Oc2R
