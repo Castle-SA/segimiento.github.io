@@ -265,8 +265,8 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 40824,9402344 INFYA S.R.L.,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 22448,Remitido,F,VCI410,0,0,13/03/2025,RETIRAN,414571,75.8%,565.50,T,
 40245,9400962 CRYSTAL-ICE SRL,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 22456,Remitido,F,PPA1548TE,0,0,14/03/2025,RICARDO PIERONI,370615,39.4%,5376.60,T,4Is2Rn8E
 40678,9401339 QUICKFOOD S.A.,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 22455,Remitido,F,PPHR15048XT,0,0,14/03/2025,BERGAMASCHI OSVALDO RAMON,404029,55.9%,5220.00,T,8Fy3Xp2W
-40687,9402185 MONCHAMP INDUSTRIAS SRL,Parcialmente ejecutada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 22472,Remitido,F,MVAQUA180,15,25,14/03/2025,ALMAR ROSARIO SRL,404883,34.2%,591.60,T,7Ck6Zj2S
 40687,9402185 MONCHAMP INDUSTRIAS SRL,Parcialmente ejecutada,Todo Aprobado,Factura de venta 36794,Pagado por completo,F,MVAQUA180,15,25,14/03/2025,ALMAR ROSARIO SRL,404883,34.2%,394.40,,7Ck6Zj2S
+40687,9402185 MONCHAMP INDUSTRIAS SRL,Parcialmente ejecutada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 22472,Remitido,F,MVAQUA180,15,25,14/03/2025,ALMAR ROSARIO SRL,404883,34.2%,591.60,T,7Ck6Zj2S
 40710,94010 VISUAR SA,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 22462,Remitido,F,1823/002,0,0,14/03/2025,EXPRESO CARGO SA,406687,56.0%,5840.64,T,4Gf8Oa0H
 40722,1171 AUTOSAL SA,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 22468,Remitido,F,DT550G,0,0,14/03/2025,EXPRESO CARGO SA,407496,43.4%,1572.25,T,2Uv7Bb0L
 40722,1171 AUTOSAL SA,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 22468,Remitido,F,DT550N,0,0,14/03/2025,EXPRESO CARGO SA,407496,43.4%,1572.25,T,2Uv7Bb0L
@@ -337,9 +337,11 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 40849,9402347 GL SA,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 22493,Remitido,F,2492/001,0,0,18/03/2025,TRANSPORTE ÑANDUBAY SA,416280,45.9%,1382.40,T,
 40852,3771 PILISAR SA,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 22494,Remitido,F,PPAR1072T,0,0,18/03/2025,EXPRESO CARGO SA,416286,100.0%,.00,T,6Qa0Ib0C
 40858,3051 FRIMETAL S.A.,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 22504,Remitido,F,2280/004,0,0,18/03/2025,ALMAR ROSARIO SRL,416723,44.1%,804.916,T,3Dw0Uk2K
-40860,15 IND. JOHN DEERE ARGENTINA S.A.,Facturación pendiente,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 22503,Remitido,F,04169-00058-93,0,0,18/03/2025,FELICI JORGE ARIEL,416840,53.0%,144.00,T,8Ky5Hq9D
 40860,15 IND. JOHN DEERE ARGENTINA S.A.,Facturación pendiente,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 22505,Remitido,F,04169-00058-93,0,0,18/03/2025,FELICI JORGE ARIEL,416840,53.0%,960.00,F,8Ky5Hq9D
+40860,15 IND. JOHN DEERE ARGENTINA S.A.,Facturación pendiente,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 22503,Remitido,F,04169-00058-93,0,0,18/03/2025,FELICI JORGE ARIEL,416840,53.0%,144.00,T,8Ky5Hq9D
+40862,4095 REFINERIA DEL CENTRO SA,Ejecución de la orden pendiente,Todo Aprobado, ,,F,PPHR10048T,72,36,19/03/2025,EXPRESO SANTA ROSA,416956,30.8%,1573.56,,1Bj3Wa5S
 40856,2799 DOMVIL SA,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Ensamblada,F,PPHR1216B,108,0,20/03/2025,TRANSPORTE MOSTTO,416598,47.8%,129.60,,5Wi7Ey4M
+40863,2414 TAPALQUE ALIMENTOS SA,Ejecución de la orden pendiente,Todo Aprobado, ,,F,PPA1548TE,360,0,20/03/2025,EXPRESO CARGO SA,416957,68.1%,1008.00,,7Zr9Rh6S
 40711,9401339 QUICKFOOD S.A.,Ejecución de la orden pendiente,Todo Aprobado, ,,F,PPHR15048XT,180,0,21/03/2025,BERGAMASCHI OSVALDO RAMON,406688,55.9%,5220.00,,8Fy3Xp2W
 40767,1028 VIPAL SA,Ejecución de la orden pendiente,Todo Aprobado, ,,F,PPAR1048T,360,0,21/03/2025,RICARDO PIERONI,411367,57.7%,468.00,,1Kq9Oc2R
 40767,1028 VIPAL SA,Ejecución de la orden pendiente,Todo Aprobado, ,,F,PPAR10048T,60,0,21/03/2025,RICARDO PIERONI,411367,46.4%,840.00,,1Kq9Oc2R
@@ -349,6 +351,8 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 40835,3089 ARNEG ARGENTINA SA,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Liberada,F,3089/054,0,20000,21/03/2025,FELICI JORGE ARIEL,415632,99.2%,9360.00,,7Rx7Ub2H
 40835,3089 ARNEG ARGENTINA SA,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Liberada,F,3089/039,0,50000,21/03/2025,FELICI JORGE ARIEL,415632,98.2%,9850.00,,7Rx7Ub2H
 40853,4586 LIGNUM SA,Ejecución de la orden pendiente,Todo Aprobado, ,,F,MUESTRA ESPECIAL,1,0,21/03/2025,EXPRESO CARGO SA,416289,100.0%,.00,,7Cb8Sw3V
+40861,6220 INDUSTRIAL DECKERT S.R.L.,Ejecución de la orden pendiente,Todo Aprobado, ,,F,MTS548B,0,720,21/03/2025,EXPRESO CARGO SA,416854,26.5%,1440.00,,7Gs5Gq1V
+40861,6220 INDUSTRIAL DECKERT S.R.L.,Ejecución de la orden pendiente,Todo Aprobado, ,,F,MTS524B,384,0,21/03/2025,EXPRESO CARGO SA,416854,35.6%,384.00,,7Gs5Gq1V
 40463,202 FRIGORIFICO DE AVES SOYCHU SA,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Ensamblada,F,PVC612R,800,0,24/03/2025,EXPRESO CARGO SA,388842,56.4%,1080.00,,5Ow8Cg8A
 40846,3089 ARNEG ARGENTINA SA,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Liberada,F,3089/051,0,40000,24/03/2025,FELICI JORGE ARIEL,416071,95.0%,5360.00,,7Rx7Ub2H
 40857,2094 FABEN SA,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Liberada,F,2094/002,0,72,25/03/2025,EXPRESO SANTA ROSA,416622,69.0%,1757.52,,6Ga0Sl6A
