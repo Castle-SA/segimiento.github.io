@@ -275,8 +275,8 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 40667,9402312 DINDEL SA,Facturada,Todo Aprobado,Ejecución de pedido de artículo 22479,Enviado,F,TERM420,0,0,17/03/2025,EXPRESO CARGO SA,403203,67.2%,-6.00,T,
 40776,12849 FERRERO ARGENTINA SA,Facturada,Todo Aprobado,Ejecución de pedido de artículo 22475,Enviado,F,PPAR1072T,0,0,17/03/2025,EXPRESO LUJAN DEL CUYO SA,411990,43.6%,.00,T,5Oy9Im9F
 40817,1067 DIPAC SA,Parcialmente ejecutada,Todo Aprobado,Ejecución de pedido de artículo 22476,Enviado,F,PPAR1048T,0,0,17/03/2025,RICARDO PIERONI,414156,45.0%,.00,T,9Tj7Li2O
-40817,1067 DIPAC SA,Parcialmente ejecutada,Todo Aprobado,Factura de venta 36801,Pagado por completo,F,PPAR524T,0,432,17/03/2025,RICARDO PIERONI,414156,99.8%,108.00,,9Tj7Li2O
 40817,1067 DIPAC SA,Parcialmente ejecutada,Todo Aprobado,Ejecución de pedido de artículo 22476,Enviado,F,PPAR524T,0,432,17/03/2025,RICARDO PIERONI,414156,99.8%,108.00,T,9Tj7Li2O
+40817,1067 DIPAC SA,Parcialmente ejecutada,Todo Aprobado,Factura de venta 36801,Pagado por completo,F,PPAR524T,0,432,17/03/2025,RICARDO PIERONI,414156,99.8%,108.00,,9Tj7Li2O
 40820,2395 LARTEX SRL,Ejecución de la orden pendiente,Todo Aprobado, ,,F,MTS548B,0,360,17/03/2025,EXPRESO LUJAN DEL CUYO SA,414159,22.6%,684.00,,3Tb7Jg4M
 40825,383 JOHNSON ACERO S.A. Industrial y Comercial,Ejecución de la orden pendiente,Todo Aprobado, ,,F,MTS548B,0,1080,17/03/2025,RICARDO PIERONI,414588,26.5%,2160.00,,6Bb0Mu1P
 40827,322 SIDERSA S.A.,Facturada,Todo Aprobado,Ejecución de pedido de artículo 22488,Enviado,F,MF525T,0,0,17/03/2025,EXPRESO BRIO SRL,414820,36.9%,.00,T,7Ia9Mm7L
@@ -348,6 +348,7 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 40872,3089 ARNEG ARGENTINA SA,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Liberada,F,3089/078,0,15000,27/03/2025,FELICI JORGE ARIEL,417907,60.5%,1020.00,,7Rx7Ub2H
 40872,3089 ARNEG ARGENTINA SA,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Liberada,F,3089/079,0,30000,27/03/2025,FELICI JORGE ARIEL,417907,63.6%,2700.00,,7Rx7Ub2H
 40872,3089 ARNEG ARGENTINA SA,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Liberada,F,3089/080,0,30000,27/03/2025,FELICI JORGE ARIEL,417907,62.1%,3060.00,,7Rx7Ub2H
+40876,102 VOLKSWAGEN ARGENTINA S.A.,Ejecución de la orden pendiente,Todo Aprobado, ,,F,0685/002,0,1300,27/03/2025,EXPRESO CARGO SA,417910,37.0%,117.075,,7Kh2Zf0E
 40877,102 VOLKSWAGEN ARGENTINA S.A.,Ejecución de la orden pendiente,Todo Aprobado, ,,F,P579,260,0,27/03/2025,EXPRESO CARGO SA,418021,56.6%,1.743.119,,7Kh2Zf0E
 40752,9401339 QUICKFOOD S.A.,Ejecución de la orden pendiente,Todo Aprobado, ,,F,PPAR1048T,540,0,28/03/2025,BERGAMASCHI OSVALDO RAMON,410427,56.0%,675.00,,8Fy3Xp2W
 40873,3089 ARNEG ARGENTINA SA,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Liberada,F,3089/029,0,60000,28/03/2025,FELICI JORGE ARIEL,418009,87.0%,2040.00,,7Rx7Ub2H
