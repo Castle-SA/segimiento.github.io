@@ -323,15 +323,15 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 40862,4095 REFINERIA DEL CENTRO SA,Parcialmente ejecutada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 22506,Remitido,F,PPHR10048T,0,36,19/03/2025,EXPRESO SANTA ROSA,416956,30.8%,1049.04,T,1Bj3Wa5S
 40862,4095 REFINERIA DEL CENTRO SA,Parcialmente ejecutada,Todo Aprobado,Factura de venta 36829,Abierta,F,PPHR10048T,0,36,19/03/2025,EXPRESO SANTA ROSA,416956,30.8%,524.52,,1Bj3Wa5S
 40863,2414 TAPALQUE ALIMENTOS SA,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 22510,Remitido,F,PPA1548TE,0,0,19/03/2025,EXPRESO CARGO SA,416957,68.1%,1008.00,T,7Zr9Rh6S
-40463,202 FRIGORIFICO DE AVES SOYCHU SA,Facturación pendiente,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 22517,Remitido,F,PVC612R,0,0,20/03/2025,EXPRESO CARGO SA,388842,56.4%,1080.00,F,5Ow8Cg8A
+40463,202 FRIGORIFICO DE AVES SOYCHU SA,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 22517,Remitido,F,PVC612R,0,0,20/03/2025,EXPRESO CARGO SA,388842,56.4%,1080.00,T,5Ow8Cg8A
 40835,3089 ARNEG ARGENTINA SA,Parcialmente ejecutada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 22516,Remitido,F,3089/011,0,0,20/03/2025,FELICI JORGE ARIEL,415632,63.7%,3390.00,T,7Rx7Ub2H
 40835,3089 ARNEG ARGENTINA SA,Parcialmente ejecutada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 22516,Remitido,F,3089/029,0,0,20/03/2025,FELICI JORGE ARIEL,415632,87.0%,1360.00,T,7Rx7Ub2H
 40861,6220 INDUSTRIAL DECKERT S.R.L.,Parcialmente ejecutada,Todo Aprobado,Factura de venta 36837,Abierta,F,MTS548B,0,720,20/03/2025,EXPRESO CARGO SA,416854,26.5%,1440.00,,7Gs5Gq1V
 40861,6220 INDUSTRIAL DECKERT S.R.L.,Parcialmente ejecutada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 22515,Remitido,F,MTS524B,0,0,20/03/2025,EXPRESO CARGO SA,416854,35.6%,432.00,T,7Gs5Gq1V
 40865,918 PEDRIN III SRL,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 22513,Remitido,F,PPAR1048T,0,0,20/03/2025,RICARDO PIERONI,417058,45.0%,540.00,T,1Xs7Zy5E
 40867,9400314 ESTABLECIMIENTO LA MARIPOSA S A,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 22514,Remitido,F,PPAR15048T,0,0,20/03/2025,EXPRESO BRIO SRL,417532,52.9%,680.40,T,5Tm1Fu3S
-40868,12877 BRIKET SA,Facturación pendiente,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 22519,Remitido,F,0272/004,0,0,20/03/2025,FELICI JORGE ARIEL,417635,33.7%,3675.00,F,6Rp2Ce7I
-40871,9400469 MAROLIO SA,Facturación pendiente,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 22518,Remitido,F,PPAR10048T,0,0,20/03/2025,EXPRESO CARGO SA,417906,0.0%,.00,F,2Tl0Nv6Y
+40868,12877 BRIKET SA,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 22519,Remitido,F,0272/004,0,0,20/03/2025,FELICI JORGE ARIEL,417635,33.7%,3675.00,T,6Rp2Ce7I
+40871,9400469 MAROLIO SA,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 22518,Remitido,F,PPAR10048T,0,0,20/03/2025,EXPRESO CARGO SA,417906,0.0%,.00,T,2Tl0Nv6Y
 40711,9401339 QUICKFOOD S.A.,Ejecución de la orden pendiente,Todo Aprobado, ,,F,PPHR15048XT,180,0,21/03/2025,BERGAMASCHI OSVALDO RAMON,406688,55.9%,5220.00,,8Fy3Xp2W
 40767,1028 VIPAL SA,Ejecución de la orden pendiente,Todo Aprobado, ,,F,PPAR1048T,360,0,21/03/2025,RICARDO PIERONI,411367,57.7%,468.00,,1Kq9Oc2R
 40767,1028 VIPAL SA,Ejecución de la orden pendiente,Todo Aprobado, ,,F,PPAR10048T,60,0,21/03/2025,RICARDO PIERONI,411367,46.4%,840.00,,1Kq9Oc2R
@@ -349,7 +349,7 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 40872,3089 ARNEG ARGENTINA SA,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Liberada,F,3089/080,0,30000,27/03/2025,FELICI JORGE ARIEL,417907,62.1%,3060.00,,7Rx7Ub2H
 40752,9401339 QUICKFOOD S.A.,Ejecución de la orden pendiente,Todo Aprobado, ,,F,PPAR1048T,540,0,28/03/2025,BERGAMASCHI OSVALDO RAMON,410427,56.0%,675.00,,8Fy3Xp2W
 40800,1736 COMPANY SPY SRL,Ejecución de la orden pendiente,Todo Aprobado, ,,F,1736/001,0,360,31/03/2025,RICARDO PIERONI,413372,61.3%,644.40,,7Xr0Sq4A
-40815,15 IND. JOHN DEERE ARGENTINA S.A.,Ejecución de la orden pendiente,Todo Aprobado,Pedido ,Aprobación del supervisor pendiente,T,0015/014,0,4000,31/03/2025,FELICI JORGE ARIEL,414152,89.3%,1600.00,,8Ky5Hq9D
+40815,15 IND. JOHN DEERE ARGENTINA S.A.,Ejecución de la orden pendiente,Todo Aprobado,Pedido ,Aprobación del supervisor pendiente,T,0015/014,0,4.000,31/03/2025,FELICI JORGE ARIEL,414152,89.3%,1600.00,,8Ky5Hq9D
 40855,15 IND. JOHN DEERE ARGENTINA S.A.,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Ensamblada,F,0015/008,300,0,31/03/2025,FELICI JORGE ARIEL,416458,73.0%,3210.00,,8Ky5Hq9D
 40866,9400536 MILKAUT SA,Ejecución de la orden pendiente,Todo Aprobado, ,,F,PPHR15048XT,113,67,31/03/2025,RICARDO PIERONI,417414,46.5%,4302.00,,8Ny2Or7G
 40869,4095 REFINERIA DEL CENTRO SA,Ejecución de la orden pendiente,Todo Aprobado, ,,F,H11/72,30,0,02/04/2025,EXPRESO SANTA ROSA,417636,42.6%,695.10,,1Bj3Wa5S
