@@ -323,9 +323,10 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 40862,4095 REFINERIA DEL CENTRO SA,Parcialmente ejecutada,Todo Aprobado,Ejecución de pedido de artículo 22506,Enviado,F,PPHR10048T,0,36,19/03/2025,EXPRESO SANTA ROSA,416956,30.8%,524.52,T,1Bj3Wa5S
 40862,4095 REFINERIA DEL CENTRO SA,Parcialmente ejecutada,Todo Aprobado,Factura de venta 36829,Abierta,F,PPHR10048T,0,36,19/03/2025,EXPRESO SANTA ROSA,416956,30.8%,524.52,,1Bj3Wa5S
 40863,2414 TAPALQUE ALIMENTOS SA,Facturada,Todo Aprobado,Ejecución de pedido de artículo 22510,Enviado,F,PPA1548TE,0,0,19/03/2025,EXPRESO CARGO SA,416957,68.1%,.00,T,7Zr9Rh6S
-40861,6220 INDUSTRIAL DECKERT S.R.L.,Facturación pendiente/parcialmente ejecutada,Todo Aprobado,Ejecución de pedido de artículo 22515,Enviado,F,MTS524B,0,0,20/03/2025,EXPRESO CARGO SA,416854,35.6%,-48.00,F,7Gs5Gq1V
-40865,918 PEDRIN III SRL,Facturación pendiente,Todo Aprobado,Ejecución de pedido de artículo 22513,Enviado,F,PPAR1048T,0,0,20/03/2025,RICARDO PIERONI,417058,45.0%,.00,F,1Xs7Zy5E
-40867,9400314 ESTABLECIMIENTO LA MARIPOSA S A,Facturación pendiente,Todo Aprobado,Ejecución de pedido de artículo 22514,Enviado,F,PPAR15048T,0,0,20/03/2025,EXPRESO BRIO SRL,417532,52.9%,.00,F,5Tm1Fu3S
+40861,6220 INDUSTRIAL DECKERT S.R.L.,Parcialmente ejecutada,Todo Aprobado,Factura de venta 36837,Abierta,F,MTS548B,0,720,20/03/2025,EXPRESO CARGO SA,416854,26.5%,1440.00,,7Gs5Gq1V
+40861,6220 INDUSTRIAL DECKERT S.R.L.,Parcialmente ejecutada,Todo Aprobado,Ejecución de pedido de artículo 22515,Enviado,F,MTS524B,0,0,20/03/2025,EXPRESO CARGO SA,416854,35.6%,-48.00,T,7Gs5Gq1V
+40865,918 PEDRIN III SRL,Facturada,Todo Aprobado,Ejecución de pedido de artículo 22513,Enviado,F,PPAR1048T,0,0,20/03/2025,RICARDO PIERONI,417058,45.0%,.00,T,1Xs7Zy5E
+40867,9400314 ESTABLECIMIENTO LA MARIPOSA S A,Facturada,Todo Aprobado,Ejecución de pedido de artículo 22514,Enviado,F,PPAR15048T,0,0,20/03/2025,EXPRESO BRIO SRL,417532,52.9%,.00,T,5Tm1Fu3S
 40711,9401339 QUICKFOOD S.A.,Ejecución de la orden pendiente,Todo Aprobado, ,,F,PPHR15048XT,180,0,21/03/2025,BERGAMASCHI OSVALDO RAMON,406688,55.9%,5220.00,,8Fy3Xp2W
 40767,1028 VIPAL SA,Ejecución de la orden pendiente,Todo Aprobado, ,,F,PPAR1048T,360,0,21/03/2025,RICARDO PIERONI,411367,57.7%,468.00,,1Kq9Oc2R
 40767,1028 VIPAL SA,Ejecución de la orden pendiente,Todo Aprobado, ,,F,PPAR10048T,60,0,21/03/2025,RICARDO PIERONI,411367,46.4%,840.00,,1Kq9Oc2R
@@ -335,7 +336,6 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 40835,3089 ARNEG ARGENTINA SA,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Liberada,F,3089/054,0,20000,21/03/2025,FELICI JORGE ARIEL,415632,99.2%,9360.00,,7Rx7Ub2H
 40835,3089 ARNEG ARGENTINA SA,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Liberada,F,3089/039,0,50000,21/03/2025,FELICI JORGE ARIEL,415632,98.2%,9850.00,,7Rx7Ub2H
 40853,4586 LIGNUM SA,Ejecución de la orden pendiente,Todo Aprobado, ,,F,MUESTRA ESPECIAL,1,0,21/03/2025,EXPRESO CARGO SA,416289,100.0%,.00,,7Cb8Sw3V
-40861,6220 INDUSTRIAL DECKERT S.R.L.,Facturación pendiente/parcialmente ejecutada,Todo Aprobado, ,,F,MTS548B,0,720,21/03/2025,EXPRESO CARGO SA,416854,26.5%,1440.00,,7Gs5Gq1V
 40868,12877 BRIKET SA,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Liberada,F,0272/004,0,300,21/03/2025,FELICI JORGE ARIEL,417635,33.7%,3675.00,,6Rp2Ce7I
 40463,202 FRIGORIFICO DE AVES SOYCHU SA,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Ensamblada,F,PVC612R,800,0,24/03/2025,EXPRESO CARGO SA,388842,56.4%,1080.00,,5Ow8Cg8A
 40846,3089 ARNEG ARGENTINA SA,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Liberada,F,3089/051,0,40000,24/03/2025,FELICI JORGE ARIEL,416071,95.0%,5360.00,,7Rx7Ub2H
