@@ -265,7 +265,7 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 40817,1067 DIPAC SA,Parcialmente ejecutada,Todo Aprobado,Factura de venta 36801,Pagado por completo,F,PPAR524T,0,432,17/03/2025,RICARDO PIERONI,414156,99.8%,108.00,,9Tj7Li2O
 40817,1067 DIPAC SA,Parcialmente ejecutada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 22476,Remitido,F,PPAR524T,0,432,17/03/2025,RICARDO PIERONI,414156,99.8%,252.00,T,9Tj7Li2O
 40820,2395 LARTEX SRL,Ejecución de la orden pendiente,Todo Aprobado, ,,F,MTS548B,0,360,17/03/2025,EXPRESO LUJAN DEL CUYO SA,414159,22.6%,684.00,,3Tb7Jg4M
-40825,383 JOHNSON ACERO S.A. Industrial y Comercial,Ejecución de la orden pendiente,Todo Aprobado, ,,F,MTS548B,0,1080,17/03/2025,RICARDO PIERONI,414588,26.5%,2160.00,,6Bb0Mu1P
+40825,383 JOHNSON ACERO S.A. Industrial y Comercial,Ejecución de la orden pendiente,Todo Aprobado, ,,F,MTS548B,0,1.080,17/03/2025,RICARDO PIERONI,414588,26.5%,2160.00,,6Bb0Mu1P
 40827,322 SIDERSA S.A.,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 22488,Remitido,F,MF525T,0,0,17/03/2025,EXPRESO BRIO SRL,414820,36.9%,1425.60,T,7Ia9Mm7L
 40832,558 LUIS & MIGUEL ZANNIELLO SACI,Parcialmente ejecutada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 22480,Remitido,F,MTS524B,0,0,17/03/2025,EXPRESO CARGO SA,415475,41.7%,316.80,T,2Rl2Nm1Q
 40832,558 LUIS & MIGUEL ZANNIELLO SACI,Parcialmente ejecutada,Todo Aprobado,Factura de venta 36804,Abierta,F,MTS548B,0,144,17/03/2025,EXPRESO CARGO SA,415475,31.3%,308.16,,2Rl2Nm1Q
@@ -319,12 +319,12 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 40867,9400314 ESTABLECIMIENTO LA MARIPOSA S A,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 22514,Remitido,F,PPAR15048T,0,0,20/03/2025,EXPRESO BRIO SRL,417532,52.9%,680.40,T,5Tm1Fu3S
 40868,12877 BRIKET SA,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 22519,Remitido,F,0272/004,0,0,20/03/2025,FELICI JORGE ARIEL,417635,33.7%,3675.00,T,6Rp2Ce7I
 40871,9400469 MAROLIO SA,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 22518,Remitido,F,PPAR10048T,0,0,20/03/2025,EXPRESO CARGO SA,417906,0.0%,.00,T,2Tl0Nv6Y
-40711,9401339 QUICKFOOD S.A.,Ejecución de la orden pendiente,Todo Aprobado, ,,F,PPHR15048XT,180,0,21/03/2025,BERGAMASCHI OSVALDO RAMON,406688,55.9%,5220.00,,8Fy3Xp2W
+40711,9401339 QUICKFOOD S.A.,Facturación pendiente,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 22522,Remitido,F,PPHR15048XT,0,0,21/03/2025,BERGAMASCHI OSVALDO RAMON,406688,55.9%,5220.00,F,8Fy3Xp2W
 40767,1028 VIPAL SA,Ejecución de la orden pendiente,Todo Aprobado, ,,F,PPAR1048T,360,0,21/03/2025,RICARDO PIERONI,411367,57.7%,468.00,,1Kq9Oc2R
 40767,1028 VIPAL SA,Ejecución de la orden pendiente,Todo Aprobado, ,,F,PPAR10048T,60,0,21/03/2025,RICARDO PIERONI,411367,46.4%,840.00,,1Kq9Oc2R
 40767,1028 VIPAL SA,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Liberada,F,1028/005,0,60,21/03/2025,RICARDO PIERONI,411367,96.1%,1080.00,,1Kq9Oc2R
 40835,3089 ARNEG ARGENTINA SA,Parcialmente ejecutada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 22520,Remitido,F,3089/054,0,0,21/03/2025,FELICI JORGE ARIEL,415632,99.2%,9360.00,T,7Rx7Ub2H
-40835,3089 ARNEG ARGENTINA SA,Parcialmente ejecutada,Todo Aprobado,Orden de trabajo ,Liberada,F,3089/039,0,50.000,21/03/2025,FELICI JORGE ARIEL,415632,98.2%,9850.00,,7Rx7Ub2H
+40835,3089 ARNEG ARGENTINA SA,Parcialmente ejecutada,Todo Aprobado,Orden de trabajo ,Liberada,F,3089/039,0,50000,21/03/2025,FELICI JORGE ARIEL,415632,98.2%,9850.00,,7Rx7Ub2H
 40853,4586 LIGNUM SA,Ejecución de la orden pendiente,Todo Aprobado, ,,F,MUESTRA ESPECIAL,1,0,21/03/2025,EXPRESO CARGO SA,416289,100.0%,.00,,7Cb8Sw3V
 40875,3598 DEL VALLE EMBALAJES SRL,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 22521,Remitido,F,PPAR15048T,0,0,21/03/2025,RICARDO PIERONI,417909,51.4%,942.60,T,0Ph8Mv3F
 40881,4095 REFINERIA DEL CENTRO SA,Ejecución de la orden pendiente,Todo Aprobado, ,,F,PPA1572TE,0,2,21/03/2025,BARRY LATIMER,418369,100.0%,.00,,1Bj3Wa5S
