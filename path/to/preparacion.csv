@@ -215,8 +215,8 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 40824,9402344 INFYA S.R.L.,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 22448,Remitido,F,VCI410,0,0,13/03/2025,RETIRAN,414571,75.8%,565.50,T,
 40245,9400962 CRYSTAL-ICE SRL,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 22456,Remitido,F,PPA1548TE,0,0,14/03/2025,RICARDO PIERONI,370615,39.4%,5376.60,T,4Is2Rn8E
 40678,9401339 QUICKFOOD S.A.,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 22455,Remitido,F,PPHR15048XT,0,0,14/03/2025,BERGAMASCHI OSVALDO RAMON,404029,55.9%,5220.00,T,8Fy3Xp2W
-40687,9402185 MONCHAMP INDUSTRIAS SRL,Parcialmente ejecutada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 22472,Remitido,F,MVAQUA180,0,40,14/03/2025,ALMAR ROSARIO SRL,404883,34.2%,591.60,T,7Ck6Zj2S
 40687,9402185 MONCHAMP INDUSTRIAS SRL,Parcialmente ejecutada,Todo Aprobado,Factura de venta 36794,Pagado por completo,F,MVAQUA180,0,40,14/03/2025,ALMAR ROSARIO SRL,404883,34.2%,394.40,,7Ck6Zj2S
+40687,9402185 MONCHAMP INDUSTRIAS SRL,Parcialmente ejecutada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 22472,Remitido,F,MVAQUA180,0,40,14/03/2025,ALMAR ROSARIO SRL,404883,34.2%,591.60,T,7Ck6Zj2S
 40710,94010 VISUAR SA,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 22462,Remitido,F,1823/002,0,0,14/03/2025,EXPRESO CARGO SA,406687,56.0%,5840.64,T,4Gf8Oa0H
 40722,1171 AUTOSAL SA,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 22468,Remitido,F,DT550G,0,0,14/03/2025,EXPRESO CARGO SA,407496,43.4%,1572.25,T,2Uv7Bb0L
 40722,1171 AUTOSAL SA,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 22468,Remitido,F,DT550N,0,0,14/03/2025,EXPRESO CARGO SA,407496,43.4%,1572.25,T,2Uv7Bb0L
@@ -355,6 +355,7 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 37685,3096 FRECICAR SRL,Ejecución de la orden pendiente,Todo Aprobado, ,,F,52330-00040-00,7,0,03/04/2025,RICARDO PIERONI,253466,51.4%,3010.00,,9Zc0Jy4O
 40716,4604 TENTO SRL,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Liberada,T,4604/001,0,1008,04/04/2025,RICARDO PIERONI,407109,41.4%,1078.56,,8Oo4Jc0P
 40859,346 DOS HERMANOS S.A,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Ensamblada,F,PVC612B,576,0,04/04/2025,TRANSPORTE DE CARGAS MORENO SRL,416623,75.6%,1123.20,,2Pi6Wv1H
+40889,583 TERRAGENE SA,Ejecución de la orden pendiente,Todo Aprobado, ,,F,04965-00014-00,0,150,09/04/2025,RICARDO PIERONI,419050,43.7%,7500.00,,5Pl6Eg8H
 40850,1087 FALCONE BODETTO S.A.,Ejecución de la orden pendiente,Todo Aprobado, ,,F,PPAR1048T,36,0,11/04/2025,RICARDO PIERONI,416181,69.4%,64.80,,2Vf5Jo3E
 40850,1087 FALCONE BODETTO S.A.,Ejecución de la orden pendiente,Todo Aprobado, ,,F,1087/001,0,288,11/04/2025,RICARDO PIERONI,416181,72.3%,720.00,,2Vf5Jo3E
 40850,1087 FALCONE BODETTO S.A.,Ejecución de la orden pendiente,Todo Aprobado, ,,F,PPAR524T,0,72,11/04/2025,RICARDO PIERONI,416181,99.9%,36.00,,2Vf5Jo3E
