@@ -17,8 +17,8 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 40724,6141 LA PIAMONTESA DE AVERALDO SA,Facturada,Todo Aprobado,Ejecución de pedido de artículo 22342,Enviado,F,PPAR15048T,0,0,27/02/2025,EXPRESO CARGO SA,407699,49.7%,.00,T,3Ba7Qv6Q
 39719,5019 GRANJA TRES ARROYOS SACAFEI,Facturada,Todo Aprobado,Ejecución de pedido de artículo 22354,Enviado,F,5019/002,0,0,28/02/2025,EXPRESO CARGO SA,332939,72.7%,.00,T,0Ql9Gi1V
 40316,12787 FLEXCOLOR SRL,Facturada,Todo Aprobado,Ejecución de pedido de artículo 22348,Enviado,F,MTS518B,0,0,28/02/2025,EXPRESO BRIO SRL,375947,33.8%,.00,T,3Jc0Cw5E
-40337,2556 TEJIDOS LATINOS SA,Facturada,Todo Aprobado,Ejecución de pedido de artículo 22355,Enviado,F,2556/001,0,0,28/02/2025,EXPRESO CARGO SA,377963,67.3%,.00,T,0Cb5Za6D
 40337,2556 TEJIDOS LATINOS SA,Facturada,Todo Aprobado,Ejecución de pedido de artículo 22350,Enviado,F,2556/001,0,0,28/02/2025,EXPRESO CARGO SA,377963,67.3%,.00,T,0Cb5Za6D
+40337,2556 TEJIDOS LATINOS SA,Facturada,Todo Aprobado,Ejecución de pedido de artículo 22355,Enviado,F,2556/001,0,0,28/02/2025,EXPRESO CARGO SA,377963,67.3%,.00,T,0Cb5Za6D
 40546,5019 GRANJA TRES ARROYOS SACAFEI,Facturada,Todo Aprobado,Ejecución de pedido de artículo 22349,Enviado,F,5019/005,0,0,28/02/2025,EXPRESO CARGO SA,395022,59.8%,.00,T,0Ql9Gi1V
 40571,9401339 QUICKFOOD S.A.,Facturada,Todo Aprobado,Ejecución de pedido de artículo 22343,Enviado,F,PPAR1048T,0,0,28/02/2025,BERGAMASCHI OSVALDO RAMON,396720,58.0%,.00,T,8Fy3Xp2W
 40579,2561 LAGOMARSINO SA,Facturada,Todo Aprobado,Ejecución de pedido de artículo 22345,Enviado,F,PPAR1048T,0,0,28/02/2025,EXPRESO CARGO SA,397295,44.4%,.00,T,0Tn2Lb2H
@@ -237,8 +237,8 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 40671,60 INGERSOLL ARGENTINA S.A.,Facturada,Todo Aprobado,Ejecución de pedido de artículo 22511,Enviado,F,0060/001,0,0,19/03/2025,TRANSPORTE TRAVERSO,403426,83.7%,.00,T,2Df5Fp8J
 40821,449 DITEC S R L,Facturada,Todo Aprobado,Ejecución de pedido de artículo 22512,Enviado,F,60950-00001-00,0,0,19/03/2025,EXPRESO CARGO SA,414262,54.8%,.00,T,5Xf2Ag4D
 40856,2799 DOMVIL SA,Facturada,Todo Aprobado,Ejecución de pedido de artículo 22509,Enviado,F,PPHR1216B,0,0,19/03/2025,TRANSPORTE MOSTTO,416598,47.8%,.00,T,5Wi7Ey4M
-40862,4095 REFINERIA DEL CENTRO SA,Parcialmente ejecutada,Todo Aprobado,Ejecución de pedido de artículo 22506,Enviado,F,PPHR10048T,0,36,19/03/2025,EXPRESO SANTA ROSA,416956,30.8%,524.52,T,1Bj3Wa5S
 40862,4095 REFINERIA DEL CENTRO SA,Parcialmente ejecutada,Todo Aprobado,Factura de venta 36829,Abierta,F,PPHR10048T,0,36,19/03/2025,EXPRESO SANTA ROSA,416956,30.8%,524.52,,1Bj3Wa5S
+40862,4095 REFINERIA DEL CENTRO SA,Parcialmente ejecutada,Todo Aprobado,Ejecución de pedido de artículo 22506,Enviado,F,PPHR10048T,0,36,19/03/2025,EXPRESO SANTA ROSA,416956,30.8%,524.52,T,1Bj3Wa5S
 40863,2414 TAPALQUE ALIMENTOS SA,Facturada,Todo Aprobado,Ejecución de pedido de artículo 22510,Enviado,F,PPA1548TE,0,0,19/03/2025,EXPRESO CARGO SA,416957,68.1%,.00,T,7Zr9Rh6S
 40463,202 FRIGORIFICO DE AVES SOYCHU SA,Facturada,Todo Aprobado,Ejecución de pedido de artículo 22517,Enviado,F,PVC612R,0,0,20/03/2025,EXPRESO CARGO SA,388842,56.4%,.00,T,5Ow8Cg8A
 40835,3089 ARNEG ARGENTINA SA,Facturada,Todo Aprobado,Ejecución de pedido de artículo 22516,Enviado,F,3089/011,0,0,20/03/2025,FELICI JORGE ARIEL,415632,63.7%,.00,T,7Rx7Ub2H
@@ -312,6 +312,8 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 40905,15 IND. JOHN DEERE ARGENTINA S.A.,Facturada,Todo Aprobado,Ejecución de pedido de artículo 22553,Enviado,F,BV001,0,0,27/03/2025,FELICI JORGE ARIEL,420337,83.9%,.00,T,8Ky5Hq9D
 40910,4329 COMPANIA ELABORADORA DE PASTAS SA,Facturada,Todo Aprobado,Ejecución de pedido de artículo 22560,Enviado,F,PPAR15048T,0,0,27/03/2025,RETIRAN,420454,67.6%,.00,T,0Un8Nt2U
 40879,341 JULERIAQUE S.A.,Facturación pendiente,Todo Aprobado,Ejecución de pedido de artículo 22570,Enviado,F,PEG5L1570M,0,0,28/03/2025,RICARDO PIERONI,418131,58.0%,.00,F,1Sm0Dz4G
+40898,12662 PRINTEMPS S.R.L.,Facturación pendiente,Todo Aprobado,Ejecución de pedido de artículo 22572,Enviado,F,2662/001,0,0,28/03/2025,RICARDO PIERONI,419809,58.9%,.00,F,2Sp0Fe1F
+40898,12662 PRINTEMPS S.R.L.,Facturación pendiente,Todo Aprobado,Ejecución de pedido de artículo 22572,Enviado,F,04965-00176-00,0,0,28/03/2025,RICARDO PIERONI,419809,53.3%,.00,F,2Sp0Fe1F
 40899,9402267 SORIANO HNOS S A C E I,Facturación pendiente,Todo Aprobado,Ejecución de pedido de artículo 22562,Enviado,F,07063-00011-24,0,0,28/03/2025,EXPRESO TAS,419855,0.0%,.00,F,8Hy2Vk9Q
 40903,9400945 LAMED S.A.,Ejecución de la orden pendiente,Todo Aprobado, ,,F,PPAR10048T,0,30,28/03/2025,RICARDO PIERONI,419989,67.4%,333.60,,9Dw9Wh0V
 40909,12816 CSI ELECTRONICA SRL,Facturación pendiente,Todo Aprobado,Ejecución de pedido de artículo 22571,Enviado,F,64958-00001-00,0,0,28/03/2025,RICARDO PIERONI,420438,53.1%,.00,F,6Hu2Px3W
@@ -329,8 +331,6 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 40800,1736 COMPANY SPY SRL,Ejecución de la orden pendiente,Todo Aprobado, ,,F,1736/001,0,360,31/03/2025,RICARDO PIERONI,413372,61.3%,644.40,,7Xr0Sq4A
 40815,15 IND. JOHN DEERE ARGENTINA S.A.,Ejecución de la orden pendiente,Todo Aprobado,Pedido ,Recepción pendiente,T,0015/014,0,4000,31/03/2025,FELICI JORGE ARIEL,414152,89.3%,1600.00,,8Ky5Hq9D
 40866,9400536 MILKAUT SA,Ejecución de la orden pendiente,Todo Aprobado, ,,F,PPHR15048XT,113,67,31/03/2025,RICARDO PIERONI,417414,46.5%,4302.00,,8Ny2Or7G
-40898,12662 PRINTEMPS S.R.L.,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Ensamblada,F,2662/001,150,0,31/03/2025,RICARDO PIERONI,419809,58.9%,217.50,,2Sp0Fe1F
-40898,12662 PRINTEMPS S.R.L.,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Ensamblada,F,04965-00176-00,144,0,31/03/2025,RICARDO PIERONI,419809,53.3%,2105.28,,2Sp0Fe1F
 40869,4095 REFINERIA DEL CENTRO SA,Ejecución de la orden pendiente,Todo Aprobado, ,,F,H11/72,30,0,02/04/2025,EXPRESO SANTA ROSA,417636,42.6%,695.10,,1Bj3Wa5S
 40907,15 IND. JOHN DEERE ARGENTINA S.A.,Ejecución de la orden pendiente,Todo Aprobado, ,,F,0015/016,0,10,02/04/2025,FELICI JORGE ARIEL,420437,65.1%,1130.00,,8Ky5Hq9D
 40920,18293 DULCOR SA,Ejecución de la orden pendiente,Todo Aprobado, ,,F,PPAR1048T,540,0,02/04/2025,EXPRESO LUJAN DEL CUYO SA,420811,42.7%,518.40,,0Jn1Mv5H
