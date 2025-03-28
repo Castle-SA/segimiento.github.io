@@ -163,8 +163,8 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 40824,9402344 INFYA S.R.L.,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 22448,Remitido,F,VCI410,0,0,13/03/2025,RETIRAN,414571,75.8%,565.50,T,
 40245,9400962 CRYSTAL-ICE SRL,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 22456,Remitido,F,PPA1548TE,0,0,14/03/2025,RICARDO PIERONI,370615,39.4%,5376.60,T,4Is2Rn8E
 40678,9401339 QUICKFOOD S.A.,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 22455,Remitido,F,PPHR15048XT,0,0,14/03/2025,BERGAMASCHI OSVALDO RAMON,404029,55.9%,5220.00,T,8Fy3Xp2W
-40687,9402185 MONCHAMP INDUSTRIAS SRL,Parcialmente ejecutada,Todo Aprobado,Factura de venta 36794,Pagado por completo,F,MVAQUA180,0,40,14/03/2025,ALMAR ROSARIO SRL,404883,34.2%,394.40,,7Ck6Zj2S
 40687,9402185 MONCHAMP INDUSTRIAS SRL,Parcialmente ejecutada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 22472,Remitido,F,MVAQUA180,0,40,14/03/2025,ALMAR ROSARIO SRL,404883,34.2%,591.60,T,7Ck6Zj2S
+40687,9402185 MONCHAMP INDUSTRIAS SRL,Parcialmente ejecutada,Todo Aprobado,Factura de venta 36794,Pagado por completo,F,MVAQUA180,0,40,14/03/2025,ALMAR ROSARIO SRL,404883,34.2%,394.40,,7Ck6Zj2S
 40710,94010 VISUAR SA,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 22462,Remitido,F,1823/002,0,0,14/03/2025,EXPRESO CARGO SA,406687,56.0%,5840.64,T,4Gf8Oa0H
 40722,1171 AUTOSAL SA,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 22468,Remitido,F,DT550G,0,0,14/03/2025,EXPRESO CARGO SA,407496,43.4%,1572.25,T,2Uv7Bb0L
 40722,1171 AUTOSAL SA,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 22468,Remitido,F,DT550N,0,0,14/03/2025,EXPRESO CARGO SA,407496,43.4%,1572.25,T,2Uv7Bb0L
@@ -312,11 +312,11 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 40905,15 IND. JOHN DEERE ARGENTINA S.A.,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 22553,Remitido,F,BV001,0,0,27/03/2025,FELICI JORGE ARIEL,420337,83.9%,2154.00,T,8Ky5Hq9D
 40910,4329 COMPANIA ELABORADORA DE PASTAS SA,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 22560,Remitido,F,PPAR15048T,0,0,27/03/2025,RETIRAN,420454,67.6%,141.30,T,0Un8Nt2U
 40879,341 JULERIAQUE S.A.,Facturación pendiente,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 22570,Remitido,F,PEG5L1570M,0,0,28/03/2025,RICARDO PIERONI,418131,58.0%,300.00,F,1Sm0Dz4G
-40898,12662 PRINTEMPS S.R.L.,Facturación pendiente,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 22572,Remitido,F,2662/001,0,0,28/03/2025,RICARDO PIERONI,419809,58.9%,217.50,F,2Sp0Fe1F
-40898,12662 PRINTEMPS S.R.L.,Facturación pendiente,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 22572,Remitido,F,04965-00176-00,0,0,28/03/2025,RICARDO PIERONI,419809,53.3%,2105.28,F,2Sp0Fe1F
+40898,12662 PRINTEMPS S.R.L.,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 22572,Remitido,F,2662/001,0,0,28/03/2025,RICARDO PIERONI,419809,58.9%,217.50,T,2Sp0Fe1F
+40898,12662 PRINTEMPS S.R.L.,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 22572,Remitido,F,04965-00176-00,0,0,28/03/2025,RICARDO PIERONI,419809,53.3%,2105.28,T,2Sp0Fe1F
 40899,9402267 SORIANO HNOS S A C E I,Facturación pendiente,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 22562,Remitido,F,07063-00011-24,0,0,28/03/2025,EXPRESO TAS,419855,0.0%,.00,F,8Hy2Vk9Q
-40903,9400945 LAMED S.A.,Facturación pendiente,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 22573,Remitido,F,PPAR10048T,0,0,28/03/2025,RICARDO PIERONI,419989,67.4%,333.60,F,9Dw9Wh0V
-40909,12816 CSI ELECTRONICA SRL,Facturación pendiente,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 22571,Remitido,F,64958-00001-00,0,0,28/03/2025,RICARDO PIERONI,420438,53.1%,250.00,F,6Hu2Px3W
+40903,9400945 LAMED S.A.,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 22573,Remitido,F,PPAR10048T,0,0,28/03/2025,RICARDO PIERONI,419989,67.4%,333.60,T,9Dw9Wh0V
+40909,12816 CSI ELECTRONICA SRL,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 22571,Remitido,F,64958-00001-00,0,0,28/03/2025,RICARDO PIERONI,420438,53.1%,250.00,T,6Hu2Px3W
 40911,3051 FRIMETAL S.A.,Facturación pendiente,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 22568,Remitido,F,1823/002,0,0,28/03/2025,FELICI JORGE ARIEL,420569,49.6%,884.097,F,3Dw0Uk2K
 40911,3051 FRIMETAL S.A.,Facturación pendiente,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 22568,Remitido,F,3051/010,0,0,28/03/2025,FELICI JORGE ARIEL,420569,69.8%,441.924,F,3Dw0Uk2K
 40912,143 EPTA ARGENTINA S.A.,Facturación pendiente,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 22567,Remitido,F,PVC648B,0,0,28/03/2025,FELICI JORGE ARIEL,420570,77.7%,4572.00,F,1Tu2Pr5C
