@@ -304,8 +304,8 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 40835,3089 ARNEG ARGENTINA SA,Facturada,Todo Aprobado,Ejecución de pedido de artículo 22552,Enviado,F,3089/039,0,0,27/03/2025,FELICI JORGE ARIEL,415632,98.2%,.00,T,7Rx7Ub2H
 40846,3089 ARNEG ARGENTINA SA,Facturada,Todo Aprobado,Ejecución de pedido de artículo 22558,Enviado,F,3089/051,0,0,27/03/2025,FELICI JORGE ARIEL,416071,95.0%,.00,T,7Rx7Ub2H
 40880,9402290 BI MERCANTIL SAS,Facturada,Todo Aprobado,Ejecución de pedido de artículo 22561,Enviado,F,PPHR1216B,0,0,27/03/2025,TRANSPORTE MOSTTO,418236,47.8%,.00,T,6Cx3Az0M
-40893,655 SWIFT SA ARGENTINA,Parcialmente ejecutada,Todo Aprobado,Factura de venta 36868,Abierta,F,PPAR10048T,0,54,27/03/2025,RICARDO PIERONI,419232,64.9%,556.20,,8Wb3Xi2L
 40893,655 SWIFT SA ARGENTINA,Parcialmente ejecutada,Todo Aprobado,Ejecución de pedido de artículo 22555,Enviado,F,PPAR10048T,0,54,27/03/2025,RICARDO PIERONI,419232,64.9%,556.20,T,8Wb3Xi2L
+40893,655 SWIFT SA ARGENTINA,Parcialmente ejecutada,Todo Aprobado,Factura de venta 36868,Abierta,F,PPAR10048T,0,54,27/03/2025,RICARDO PIERONI,419232,64.9%,556.20,,8Wb3Xi2L
 40892,9400695 PILSEL ADRIAN GUSTAVO,Facturada,Todo Aprobado,Ejecución de pedido de artículo 22557,Enviado,F,04968-LOGROLL,0,0,27/03/2025,EXPRESO LANCIONI,419439,49.3%,.00,T,2Ux0Jr8I
 40897,874 LILIANA SRL,Facturada,Todo Aprobado,Ejecución de pedido de artículo 22554,Enviado,F,MTS524B,0,0,27/03/2025,FELICI JORGE ARIEL,419708,33.7%,.00,T,9Mb1Ks4W
 40900,3051 FRIMETAL S.A.,Facturada,Todo Aprobado,Ejecución de pedido de artículo 22556,Enviado,F,FTH220,0,0,27/03/2025,FELICI JORGE ARIEL,419860,51.6%,.00,T,3Dw0Uk2K
@@ -333,12 +333,16 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 40866,9400536 MILKAUT SA,Ejecución de la orden pendiente,Todo Aprobado, ,,F,PPHR15048XT,113,67,31/03/2025,RICARDO PIERONI,417414,46.5%,4302.00,,8Ny2Or7G
 40922,3926 ASERRADERO GOTTERT de GOTTERT RODOLFO RICARDO y OTROS SH,Ejecución de la orden pendiente,Todo Aprobado, ,,F,BV002,0,100,31/03/2025,EXPRESO CARGO SA,421191,49.3%,570.00,,4Pr4Ra1I
 40924,3086 MULTIORIGINAL PARTS SA,Ejecución de la orden pendiente,Todo Aprobado, ,,F,PPAR1048T,720,0,31/03/2025,RICARDO PIERONI,421193,46.1%,734.40,,1Fr4Ch9I
+40927,1265 FESTO S.A,Ejecución de la orden pendiente,Todo Aprobado, ,,F,PPA1548TE,180,0,31/03/2025,EXPRESO CARGO SA,421407,43.4%,284.40,,6Le2Sp6A
 40869,4095 REFINERIA DEL CENTRO SA,Ejecución de la orden pendiente,Todo Aprobado, ,,F,H11/72,30,0,02/04/2025,EXPRESO SANTA ROSA,417636,42.6%,695.10,,1Bj3Wa5S
 40907,15 IND. JOHN DEERE ARGENTINA S.A.,Ejecución de la orden pendiente,Todo Aprobado,Pedido ,Recepción pendiente,T,0015/016,0,10,02/04/2025,FELICI JORGE ARIEL,420437,65.1%,1130.00,,8Ky5Hq9D
 40920,18293 DULCOR SA,Ejecución de la orden pendiente,Todo Aprobado, ,,F,PPAR1048T,540,0,02/04/2025,EXPRESO LUJAN DEL CUYO SA,420811,42.7%,518.40,,0Jn1Mv5H
 40920,18293 DULCOR SA,Ejecución de la orden pendiente,Todo Aprobado, ,,F,PPAR15048T,120,0,02/04/2025,EXPRESO LUJAN DEL CUYO SA,420811,50.1%,1836.00,,0Jn1Mv5H
 37685,3096 FRECICAR SRL,Ejecución de la orden pendiente,Todo Aprobado, ,,F,52330-00040-00,7,0,03/04/2025,RICARDO PIERONI,253466,51.4%,3010.00,,9Zc0Jy4O
 40716,4604 TENTO SRL,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Liberada,T,4604/001,0,1008,04/04/2025,RICARDO PIERONI,407109,41.4%,1078.56,,8Oo4Jc0P
+40926,1318 ALIBUE S.A.,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Liberada,F,PPHR1216B,0,432,04/04/2025,EXPRESO CARGO SA,421406,49.9%,540.00,,1Sn9Yn7I
+40926,1318 ALIBUE S.A.,Ejecución de la orden pendiente,Todo Aprobado, ,,F,PPAR1048T,180,0,04/04/2025,EXPRESO CARGO SA,421406,50.5%,199.80,,1Sn9Yn7I
+40926,1318 ALIBUE S.A.,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Liberada,F,PVC612R,0,1440,04/04/2025,EXPRESO CARGO SA,421406,65.4%,2520.00,,1Sn9Yn7I
 40917,3771 PILISAR SA,Ejecución de la orden pendiente,Todo Aprobado, ,,F,PPAR1072T,250,0,09/04/2025,EXPRESO CARGO SA,420671,38.0%,342.50,,6Qa0Ib0C
 40850,1087 FALCONE BODETTO S.A.,Ejecución de la orden pendiente,Todo Aprobado, ,,F,PPAR1048T,36,0,11/04/2025,RICARDO PIERONI,416181,69.4%,64.80,,2Vf5Jo3E
 40850,1087 FALCONE BODETTO S.A.,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Liberada,F,1087/001,0,288,11/04/2025,RICARDO PIERONI,416181,72.3%,720.00,,2Vf5Jo3E
