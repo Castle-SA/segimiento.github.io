@@ -4,7 +4,7 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 40501,6217 FULLPOINT SRL,Parcialmente ejecutada,Todo Aprobado,Factura de venta 36464,Pagado por completo,F,PPAR1024T,0,216,29/01/2025,RICARDO PIERONI,391528,37.0%,216.00,,8Mg9Eq6I
 40293,260 SUCESION DE BARCIA CLAUDIO RODRIGO,Parcialmente ejecutada,Todo Aprobado,Factura de venta 36487,Abierta,F,MTS548B,0,180,31/01/2025,RICARDO PIERONI,374492,56.3%,511.20,,6Ib6Fj6R
 40536,4558 FUSION SAN LUIS S A,Parcialmente ejecutada,Todo Aprobado,Factura de venta 36498,Pagado por completo,F,MTS548B,0,108,04/02/2025,EXPRESO LUJAN DEL CUYO SA,393946,56.3%,362.88,,6Yr2Cu9X
-40537,143 EPTA ARGENTINA S.A.,Facturación pendiente/parcialmente ejecutada,Todo Aprobado,Pedido ,Parcialmente recibida,T,0143/026,0,640,03/03/2025,FELICI JORGE ARIEL,394418,86.1%,1248.00,,1Tu2Pr5C
+40537,143 EPTA ARGENTINA S.A.,Facturación pendiente/parcialmente ejecutada,Todo Aprobado,Pedido ,Parcialmente recibida,T,0143/026,366.08,273.92,03/03/2025,FELICI JORGE ARIEL,394418,86.1%,1248.00,,1Tu2Pr5C
 40699,3051 FRIMETAL S.A.,Parcialmente ejecutada,Todo Aprobado,Pedido ,Recepción pendiente,T,3051/017,0,3600,04/03/2025,FELICI JORGE ARIEL,405836,56.4%,91.624,,3Dw0Uk2K
 37684,3096 FRECICAR SRL,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 22357,Remitido,F,52330-00040-00,0,0,05/03/2025,RICARDO PIERONI,253465,51.4%,3010.00,T,9Zc0Jy4O
 40726,9400314 ESTABLECIMIENTO LA MARIPOSA S A,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 22356,Remitido,F,PPAR15048T,0,0,05/03/2025,EXPRESO CARGO SA,408136,55.0%,103.14,T,5Tm1Fu3S
@@ -135,8 +135,8 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 40824,9402344 INFYA S.R.L.,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 22448,Remitido,F,VCI410,0,0,13/03/2025,RETIRAN,414571,75.8%,565.50,T,
 40245,9400962 CRYSTAL-ICE SRL,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 22456,Remitido,F,PPA1548TE,0,0,14/03/2025,RICARDO PIERONI,370615,39.4%,5376.60,T,4Is2Rn8E
 40678,9401339 QUICKFOOD S.A.,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 22455,Remitido,F,PPHR15048XT,0,0,14/03/2025,BERGAMASCHI OSVALDO RAMON,404029,55.9%,5220.00,T,8Fy3Xp2W
-40687,9402185 MONCHAMP INDUSTRIAS SRL,Parcialmente ejecutada,Todo Aprobado,Factura de venta 36794,Pagado por completo,F,MVAQUA180,0,40,14/03/2025,ALMAR ROSARIO SRL,404883,34.2%,394.40,,7Ck6Zj2S
 40687,9402185 MONCHAMP INDUSTRIAS SRL,Parcialmente ejecutada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 22472,Remitido,F,MVAQUA180,0,40,14/03/2025,ALMAR ROSARIO SRL,404883,34.2%,591.60,T,7Ck6Zj2S
+40687,9402185 MONCHAMP INDUSTRIAS SRL,Parcialmente ejecutada,Todo Aprobado,Factura de venta 36794,Pagado por completo,F,MVAQUA180,0,40,14/03/2025,ALMAR ROSARIO SRL,404883,34.2%,394.40,,7Ck6Zj2S
 40710,94010 VISUAR SA,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 22462,Remitido,F,1823/002,0,0,14/03/2025,EXPRESO CARGO SA,406687,56.0%,5840.64,T,4Gf8Oa0H
 40722,1171 AUTOSAL SA,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 22468,Remitido,F,DT550G,0,0,14/03/2025,EXPRESO CARGO SA,407496,43.4%,1572.25,T,2Uv7Bb0L
 40722,1171 AUTOSAL SA,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 22468,Remitido,F,DT550N,0,0,14/03/2025,EXPRESO CARGO SA,407496,43.4%,1572.25,T,2Uv7Bb0L
@@ -209,8 +209,8 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 40671,60 INGERSOLL ARGENTINA S.A.,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 22511,Remitido,F,0060/001,0,0,19/03/2025,TRANSPORTE TRAVERSO,403426,83.7%,1860.00,T,2Df5Fp8J
 40821,449 DITEC S R L,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 22512,Remitido,F,60950-00001-00,0,0,19/03/2025,EXPRESO CARGO SA,414262,54.8%,504.00,T,5Xf2Ag4D
 40856,2799 DOMVIL SA,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 22509,Remitido,F,PPHR1216B,0,0,19/03/2025,TRANSPORTE MOSTTO,416598,47.8%,129.60,T,5Wi7Ey4M
-40862,4095 REFINERIA DEL CENTRO SA,Parcialmente ejecutada,Todo Aprobado,Factura de venta 36829,Abierta,F,PPHR10048T,0,36,19/03/2025,EXPRESO SANTA ROSA,416956,30.8%,524.52,,1Bj3Wa5S
 40862,4095 REFINERIA DEL CENTRO SA,Parcialmente ejecutada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 22506,Remitido,F,PPHR10048T,0,36,19/03/2025,EXPRESO SANTA ROSA,416956,30.8%,1049.04,T,1Bj3Wa5S
+40862,4095 REFINERIA DEL CENTRO SA,Parcialmente ejecutada,Todo Aprobado,Factura de venta 36829,Abierta,F,PPHR10048T,0,36,19/03/2025,EXPRESO SANTA ROSA,416956,30.8%,524.52,,1Bj3Wa5S
 40863,2414 TAPALQUE ALIMENTOS SA,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 22510,Remitido,F,PPA1548TE,0,0,19/03/2025,EXPRESO CARGO SA,416957,68.1%,1008.00,T,7Zr9Rh6S
 40463,202 FRIGORIFICO DE AVES SOYCHU SA,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 22517,Remitido,F,PVC612R,0,0,20/03/2025,EXPRESO CARGO SA,388842,56.4%,1080.00,T,5Ow8Cg8A
 40835,3089 ARNEG ARGENTINA SA,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 22516,Remitido,F,3089/011,0,0,20/03/2025,FELICI JORGE ARIEL,415632,63.7%,3390.00,T,7Rx7Ub2H
@@ -300,7 +300,7 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 40918,430 EMPAQUE S.A.,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 22564,Remitido,F,MTS524B,0,0,28/03/2025,EXPRESO LUJAN DEL CUYO SA,420711,35.7%,72.00,T,4Oq4Xr3M
 40918,430 EMPAQUE S.A.,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 22564,Remitido,F,PPAR1048M,0,0,28/03/2025,EXPRESO LUJAN DEL CUYO SA,420711,33.3%,367.20,T,4Oq4Xr3M
 40918,430 EMPAQUE S.A.,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 22564,Remitido,F,PPAR1048T,0,0,28/03/2025,EXPRESO LUJAN DEL CUYO SA,420711,46.1%,550.80,T,4Oq4Xr3M
-40537,143 EPTA ARGENTINA S.A.,Facturación pendiente/parcialmente ejecutada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 22580,Remitido,F,0143/026,0,640,31/03/2025,FELICI JORGE ARIEL,394418,86.1%,2847.00,F,1Tu2Pr5C
+40537,143 EPTA ARGENTINA S.A.,Facturación pendiente/parcialmente ejecutada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 22580,Remitido,F,0143/026,366.08,273.92,31/03/2025,FELICI JORGE ARIEL,394418,86.1%,2847.00,F,1Tu2Pr5C
 40815,15 IND. JOHN DEERE ARGENTINA S.A.,Ejecución de la orden pendiente,Todo Aprobado,Pedido ,Recepción pendiente,T,0015/014,0,4000,31/03/2025,FELICI JORGE ARIEL,414152,89.3%,1600.00,,8Ky5Hq9D
 40866,9400536 MILKAUT SA,Parcialmente ejecutada,Todo Aprobado,Factura de venta 01309,Abierta,F,PPHR15048XT,6,60,31/03/2025,RICARDO PIERONI,417414,46.5%,1577.40,,8Ny2Or7G
 40866,9400536 MILKAUT SA,Parcialmente ejecutada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 22576,Remitido,F,PPHR15048XT,6,60,31/03/2025,RICARDO PIERONI,417414,46.5%,2724.60,T,8Ny2Or7G
