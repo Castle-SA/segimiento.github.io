@@ -164,8 +164,8 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 40667,9402312 DINDEL SA,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 22479,Remitido,F,TERM420,0,0,17/03/2025,EXPRESO CARGO SA,403203,67.2%,386.00,T,
 40776,12849 FERRERO ARGENTINA SA,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 22475,Remitido,F,PPAR1072T,0,0,17/03/2025,EXPRESO LUJAN DEL CUYO SA,411990,43.6%,357.60,T,5Oy9Im9F
 40817,1067 DIPAC SA,Parcialmente ejecutada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 22476,Remitido,F,PPAR1048T,0,0,17/03/2025,RICARDO PIERONI,414156,45.0%,360.00,T,9Tj7Li2O
-40817,1067 DIPAC SA,Parcialmente ejecutada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 22476,Remitido,F,PPAR524T,0,432,17/03/2025,RICARDO PIERONI,414156,99.8%,252.00,T,9Tj7Li2O
 40817,1067 DIPAC SA,Parcialmente ejecutada,Todo Aprobado,Factura de venta 36801,Pagado por completo,F,PPAR524T,0,432,17/03/2025,RICARDO PIERONI,414156,99.8%,108.00,,9Tj7Li2O
+40817,1067 DIPAC SA,Parcialmente ejecutada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 22476,Remitido,F,PPAR524T,0,432,17/03/2025,RICARDO PIERONI,414156,99.8%,252.00,T,9Tj7Li2O
 40820,2395 LARTEX SRL,Ejecución de la orden pendiente,Todo Aprobado, ,,F,MTS548B,0,360,17/03/2025,EXPRESO LUJAN DEL CUYO SA,414159,22.6%,684.00,,3Tb7Jg4M
 40825,383 JOHNSON ACERO S.A. Industrial y Comercial,Ejecución de la orden pendiente,Todo Aprobado, ,,F,MTS548B,0,1080,17/03/2025,RICARDO PIERONI,414588,26.5%,2160.00,,6Bb0Mu1P
 40827,322 SIDERSA S.A.,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 22488,Remitido,F,MF525T,0,0,17/03/2025,EXPRESO BRIO SRL,414820,58.9%,1425.60,T,7Ia9Mm7L
@@ -209,8 +209,8 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 40671,60 INGERSOLL ARGENTINA S.A.,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 22511,Remitido,F,0060/001,0,0,19/03/2025,TRANSPORTE TRAVERSO,403426,83.7%,1860.00,T,2Df5Fp8J
 40821,449 DITEC S R L,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 22512,Remitido,F,60950-00001-00,0,0,19/03/2025,EXPRESO CARGO SA,414262,54.8%,504.00,T,5Xf2Ag4D
 40856,2799 DOMVIL SA,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 22509,Remitido,F,PPHR1216B,0,0,19/03/2025,TRANSPORTE MOSTTO,416598,47.8%,129.60,T,5Wi7Ey4M
-40862,4095 REFINERIA DEL CENTRO SA,Parcialmente ejecutada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 22506,Remitido,F,PPHR10048T,0,36,19/03/2025,EXPRESO SANTA ROSA,416956,30.8%,1049.04,T,1Bj3Wa5S
 40862,4095 REFINERIA DEL CENTRO SA,Parcialmente ejecutada,Todo Aprobado,Factura de venta 36829,Abierta,F,PPHR10048T,0,36,19/03/2025,EXPRESO SANTA ROSA,416956,30.8%,524.52,,1Bj3Wa5S
+40862,4095 REFINERIA DEL CENTRO SA,Parcialmente ejecutada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 22506,Remitido,F,PPHR10048T,0,36,19/03/2025,EXPRESO SANTA ROSA,416956,30.8%,1049.04,T,1Bj3Wa5S
 40863,2414 TAPALQUE ALIMENTOS SA,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 22510,Remitido,F,PPA1548TE,0,0,19/03/2025,EXPRESO CARGO SA,416957,68.1%,1008.00,T,7Zr9Rh6S
 40463,202 FRIGORIFICO DE AVES SOYCHU SA,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 22517,Remitido,F,PVC612R,0,0,20/03/2025,EXPRESO CARGO SA,388842,56.4%,1080.00,T,5Ow8Cg8A
 40835,3089 ARNEG ARGENTINA SA,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 22516,Remitido,F,3089/011,0,0,20/03/2025,FELICI JORGE ARIEL,415632,63.7%,3390.00,T,7Rx7Ub2H
@@ -276,7 +276,7 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 40835,3089 ARNEG ARGENTINA SA,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 22552,Remitido,F,3089/039,0,0,27/03/2025,FELICI JORGE ARIEL,415632,98.2%,9850.00,T,7Rx7Ub2H
 40846,3089 ARNEG ARGENTINA SA,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 22558,Remitido,F,3089/051,0,0,27/03/2025,FELICI JORGE ARIEL,416071,95.0%,5360.00,T,7Rx7Ub2H
 40880,9402290 BI MERCANTIL SAS,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 22561,Remitido,F,PPHR1216B,0,0,27/03/2025,TRANSPORTE MOSTTO,418236,47.8%,2592.00,T,6Cx3Az0M
-40893,655 SWIFT SA ARGENTINA,Facturación pendiente,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 22555,Remitido,F,PPAR10048T,0,0,27/03/2025,RICARDO PIERONI,419232,64.9%,4449.60,T,8Wb3Xi2L
+40893,655 SWIFT SA ARGENTINA,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 22555,Remitido,F,PPAR10048T,0,0,27/03/2025,RICARDO PIERONI,419232,64.9%,4449.60,T,8Wb3Xi2L
 40892,9400695 PILSEL ADRIAN GUSTAVO,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 22557,Remitido,F,04968-LOGROLL,0,0,27/03/2025,EXPRESO LANCIONI,419439,49.3%,1703.63,T,2Ux0Jr8I
 40897,874 LILIANA SRL,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 22554,Remitido,F,MTS524B,0,0,27/03/2025,FELICI JORGE ARIEL,419708,33.7%,488.88,T,9Mb1Ks4W
 40900,3051 FRIMETAL S.A.,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 22556,Remitido,F,FTH220,0,0,27/03/2025,FELICI JORGE ARIEL,419860,51.6%,1.012.994,T,3Dw0Uk2K
@@ -304,7 +304,7 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 40815,15 IND. JOHN DEERE ARGENTINA S.A.,Ejecución de la orden pendiente,Todo Aprobado,Pedido ,Recepción pendiente,T,0015/014,0,4000,31/03/2025,FELICI JORGE ARIEL,414152,89.3%,1600.00,,8Ky5Hq9D
 40866,9400536 MILKAUT SA,Parcialmente ejecutada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 22576,Remitido,F,PPHR15048XT,6,60,31/03/2025,RICARDO PIERONI,417414,46.5%,2724.60,T,8Ny2Or7G
 40866,9400536 MILKAUT SA,Parcialmente ejecutada,Todo Aprobado,Factura de venta 01309,Abierta,F,PPHR15048XT,6,60,31/03/2025,RICARDO PIERONI,417414,46.5%,1577.40,,8Ny2Or7G
-40893,655 SWIFT SA ARGENTINA,Facturación pendiente,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 22586,Remitido,F,PPAR10048T,0,0,31/03/2025,RICARDO PIERONI,419232,64.9%,556.20,F,8Wb3Xi2L
+40893,655 SWIFT SA ARGENTINA,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 22586,Remitido,F,PPAR10048T,0,0,31/03/2025,RICARDO PIERONI,419232,64.9%,556.20,T,8Wb3Xi2L
 40896,9402059 BUENA PROA SA,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 22579,Remitido,F,9402059/002,0,0,31/03/2025,TRANSPORTE TOMASSINI,419605,43.6%,266.40,T,5Ym6Nh1E
 40896,9402059 BUENA PROA SA,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 22579,Remitido,F,9402059/001,0,0,31/03/2025,TRANSPORTE TOMASSINI,419605,36.5%,1056.00,T,5Ym6Nh1E
 40922,3926 ASERRADERO GOTTERT de GOTTERT RODOLFO RICARDO y OTROS SH,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 22578,Remitido,F,BV002,0,0,31/03/2025,EXPRESO CARGO SA,421191,49.3%,570.00,T,4Pr4Ra1I
