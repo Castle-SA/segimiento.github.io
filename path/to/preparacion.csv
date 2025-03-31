@@ -209,8 +209,8 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 40671,60 INGERSOLL ARGENTINA S.A.,Facturada,Todo Aprobado,Ejecución de pedido de artículo 22511,Enviado,F,0060/001,0,0,19/03/2025,TRANSPORTE TRAVERSO,403426,83.7%,.00,T,2Df5Fp8J
 40821,449 DITEC S R L,Facturada,Todo Aprobado,Ejecución de pedido de artículo 22512,Enviado,F,60950-00001-00,0,0,19/03/2025,EXPRESO CARGO SA,414262,54.8%,.00,T,5Xf2Ag4D
 40856,2799 DOMVIL SA,Facturada,Todo Aprobado,Ejecución de pedido de artículo 22509,Enviado,F,PPHR1216B,0,0,19/03/2025,TRANSPORTE MOSTTO,416598,47.8%,.00,T,5Wi7Ey4M
-40862,4095 REFINERIA DEL CENTRO SA,Parcialmente ejecutada,Todo Aprobado,Factura de venta 36829,Abierta,F,PPHR10048T,0,36,19/03/2025,EXPRESO SANTA ROSA,416956,30.8%,524.52,,1Bj3Wa5S
 40862,4095 REFINERIA DEL CENTRO SA,Parcialmente ejecutada,Todo Aprobado,Ejecución de pedido de artículo 22506,Enviado,F,PPHR10048T,0,36,19/03/2025,EXPRESO SANTA ROSA,416956,30.8%,524.52,T,1Bj3Wa5S
+40862,4095 REFINERIA DEL CENTRO SA,Parcialmente ejecutada,Todo Aprobado,Factura de venta 36829,Abierta,F,PPHR10048T,0,36,19/03/2025,EXPRESO SANTA ROSA,416956,30.8%,524.52,,1Bj3Wa5S
 40863,2414 TAPALQUE ALIMENTOS SA,Facturada,Todo Aprobado,Ejecución de pedido de artículo 22510,Enviado,F,PPA1548TE,0,0,19/03/2025,EXPRESO CARGO SA,416957,68.1%,.00,T,7Zr9Rh6S
 40463,202 FRIGORIFICO DE AVES SOYCHU SA,Facturada,Todo Aprobado,Ejecución de pedido de artículo 22517,Enviado,F,PVC612R,0,0,20/03/2025,EXPRESO CARGO SA,388842,56.4%,.00,T,5Ow8Cg8A
 40835,3089 ARNEG ARGENTINA SA,Facturada,Todo Aprobado,Ejecución de pedido de artículo 22516,Enviado,F,3089/011,0,0,20/03/2025,FELICI JORGE ARIEL,415632,63.7%,.00,T,7Rx7Ub2H
@@ -276,8 +276,8 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 40835,3089 ARNEG ARGENTINA SA,Facturada,Todo Aprobado,Ejecución de pedido de artículo 22552,Enviado,F,3089/039,0,0,27/03/2025,FELICI JORGE ARIEL,415632,98.2%,.00,T,7Rx7Ub2H
 40846,3089 ARNEG ARGENTINA SA,Facturada,Todo Aprobado,Ejecución de pedido de artículo 22558,Enviado,F,3089/051,0,0,27/03/2025,FELICI JORGE ARIEL,416071,95.0%,.00,T,7Rx7Ub2H
 40880,9402290 BI MERCANTIL SAS,Facturada,Todo Aprobado,Ejecución de pedido de artículo 22561,Enviado,F,PPHR1216B,0,0,27/03/2025,TRANSPORTE MOSTTO,418236,47.8%,.00,T,6Cx3Az0M
-40893,655 SWIFT SA ARGENTINA,Parcialmente ejecutada,Todo Aprobado,Factura de venta 36868,Abierta,F,PPAR10048T,0,54,27/03/2025,RICARDO PIERONI,419232,64.9%,556.20,,8Wb3Xi2L
 40893,655 SWIFT SA ARGENTINA,Parcialmente ejecutada,Todo Aprobado,Ejecución de pedido de artículo 22555,Enviado,F,PPAR10048T,0,54,27/03/2025,RICARDO PIERONI,419232,64.9%,556.20,T,8Wb3Xi2L
+40893,655 SWIFT SA ARGENTINA,Parcialmente ejecutada,Todo Aprobado,Factura de venta 36868,Abierta,F,PPAR10048T,0,54,27/03/2025,RICARDO PIERONI,419232,64.9%,556.20,,8Wb3Xi2L
 40892,9400695 PILSEL ADRIAN GUSTAVO,Facturada,Todo Aprobado,Ejecución de pedido de artículo 22557,Enviado,F,04968-LOGROLL,0,0,27/03/2025,EXPRESO LANCIONI,419439,49.3%,.00,T,2Ux0Jr8I
 40897,874 LILIANA SRL,Facturada,Todo Aprobado,Ejecución de pedido de artículo 22554,Enviado,F,MTS524B,0,0,27/03/2025,FELICI JORGE ARIEL,419708,33.7%,.00,T,9Mb1Ks4W
 40900,3051 FRIMETAL S.A.,Facturada,Todo Aprobado,Ejecución de pedido de artículo 22556,Enviado,F,FTH220,0,0,27/03/2025,FELICI JORGE ARIEL,419860,51.6%,.00,T,3Dw0Uk2K
@@ -313,11 +313,13 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 40907,15 IND. JOHN DEERE ARGENTINA S.A.,Ejecución de la orden pendiente,Todo Aprobado,Pedido ,Recepción pendiente,T,0015/016,0,10,02/04/2025,FELICI JORGE ARIEL,420437,65.1%,1130.00,,8Ky5Hq9D
 40920,18293 DULCOR SA,Ejecución de la orden pendiente,Todo Aprobado, ,,F,PPAR1048T,540,0,02/04/2025,EXPRESO LUJAN DEL CUYO SA,420811,42.7%,518.40,,0Jn1Mv5H
 40920,18293 DULCOR SA,Ejecución de la orden pendiente,Todo Aprobado, ,,F,PPAR15048T,120,0,02/04/2025,EXPRESO LUJAN DEL CUYO SA,420811,50.1%,1836.00,,0Jn1Mv5H
+40930,9400422 LACTEOS TONUTTI S.R.L.,Ejecución de la orden pendiente,Todo Aprobado, ,,F,PPHR15048XT,0,60,02/04/2025,TRANSPORTE MOSTTO,421778,46.8%,1440.00,,3Nb5Vf8A
 37685,3096 FRECICAR SRL,Ejecución de la orden pendiente,Todo Aprobado, ,,F,52330-00040-00,7,0,03/04/2025,RICARDO PIERONI,253466,51.4%,3010.00,,9Zc0Jy4O
+40929,4782 OFFAL EXP SA,Ejecución de la orden pendiente,Todo Aprobado, ,,F,PPAR10048T,0,90,03/04/2025,EXPRESO CARGO SA,421676,59.4%,801.00,,2Gq6Ps1R
 40716,4604 TENTO SRL,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Liberada,T,4604/001,0,1008,04/04/2025,RICARDO PIERONI,407109,41.4%,1078.56,,8Oo4Jc0P
 40926,1318 ALIBUE S.A.,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Liberada,F,PPHR1216B,0,432,04/04/2025,EXPRESO CARGO SA,421406,49.9%,540.00,,1Sn9Yn7I
 40926,1318 ALIBUE S.A.,Ejecución de la orden pendiente,Todo Aprobado, ,,F,PPAR1048T,180,0,04/04/2025,EXPRESO CARGO SA,421406,50.5%,199.80,,1Sn9Yn7I
-40926,1318 ALIBUE S.A.,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Liberada,F,PVC612R,0,1440,04/04/2025,EXPRESO CARGO SA,421406,65.4%,2520.00,,1Sn9Yn7I
+40926,1318 ALIBUE S.A.,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Ensamblada,F,PVC612R,1440,0,04/04/2025,EXPRESO CARGO SA,421406,65.4%,2520.00,,1Sn9Yn7I
 40917,3771 PILISAR SA,Ejecución de la orden pendiente,Todo Aprobado, ,,F,PPAR1072T,250,0,09/04/2025,EXPRESO CARGO SA,420671,38.0%,342.50,,6Qa0Ib0C
 40850,1087 FALCONE BODETTO S.A.,Ejecución de la orden pendiente,Todo Aprobado, ,,F,PPAR1048T,36,0,11/04/2025,RICARDO PIERONI,416181,69.4%,64.80,,2Vf5Jo3E
 40850,1087 FALCONE BODETTO S.A.,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Liberada,F,1087/001,0,288,11/04/2025,RICARDO PIERONI,416181,72.3%,720.00,,2Vf5Jo3E
@@ -342,6 +344,6 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 40896,9402059 BUENA PROA SA,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Liberada,F,9402059/001,0,480,,TRANSPORTE TOMASSINI,419605,36.5%,1056.00,,5Ym6Nh1E
 40904,15 IND. JOHN DEERE ARGENTINA S.A.,Ejecución de la orden pendiente,Todo Aprobado,Pedido ,Recepción pendiente,T,0015/015,0,4000,,FELICI JORGE ARIEL,420237,75.8%,2120.00,,8Ky5Hq9D
 40921,89 PEUGEOT CITROEN ARGENTINA S.A.,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Liberada,F,0089/007,0,10,,RETIRAN,421022,65.9%,955.30,,6Xg2Vq7X
-40925,3089 ARNEG ARGENTINA SA,Ejecución de la orden pendiente,Todo Aprobado,Pedido ,Aprobación del supervisor pendiente,T,3089/052,0,4000,,FELICI JORGE ARIEL,421296,82.4%,8136.00,,7Rx7Ub2H
+40925,3089 ARNEG ARGENTINA SA,Ejecución de la orden pendiente,Todo Aprobado,Pedido ,Aprobación del supervisor pendiente,T,3089/052,0,4.000,,FELICI JORGE ARIEL,421296,82.4%,8136.00,,7Rx7Ub2H
 40925,3089 ARNEG ARGENTINA SA,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Liberada,F,3089/017,0,10000,,FELICI JORGE ARIEL,421296,72.4%,1920.00,,7Rx7Ub2H
 40925,3089 ARNEG ARGENTINA SA,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Liberada,F,3089/029,0,40000,,FELICI JORGE ARIEL,421296,87.3%,1360.00,,7Rx7Ub2H
