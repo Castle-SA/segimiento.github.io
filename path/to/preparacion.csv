@@ -161,8 +161,8 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 40667,9402312 DINDEL SA,Facturada,Todo Aprobado,Ejecución de pedido de artículo 22479,Enviado,F,TERM420,0,0,17/03/2025,EXPRESO CARGO SA,403203,67.2%,-6.00,T,
 40776,12849 FERRERO ARGENTINA SA,Facturada,Todo Aprobado,Ejecución de pedido de artículo 22475,Enviado,F,PPAR1072T,0,0,17/03/2025,EXPRESO LUJAN DEL CUYO SA,411990,43.6%,.00,T,5Oy9Im9F
 40817,1067 DIPAC SA,Parcialmente ejecutada,Todo Aprobado,Ejecución de pedido de artículo 22476,Enviado,F,PPAR1048T,0,0,17/03/2025,RICARDO PIERONI,414156,45.0%,.00,T,9Tj7Li2O
-40817,1067 DIPAC SA,Parcialmente ejecutada,Todo Aprobado,Ejecución de pedido de artículo 22476,Enviado,F,PPAR524T,0,432,17/03/2025,RICARDO PIERONI,414156,99.8%,108.00,T,9Tj7Li2O
 40817,1067 DIPAC SA,Parcialmente ejecutada,Todo Aprobado,Factura de venta 36801,Pagado por completo,F,PPAR524T,0,432,17/03/2025,RICARDO PIERONI,414156,99.8%,108.00,,9Tj7Li2O
+40817,1067 DIPAC SA,Parcialmente ejecutada,Todo Aprobado,Ejecución de pedido de artículo 22476,Enviado,F,PPAR524T,0,432,17/03/2025,RICARDO PIERONI,414156,99.8%,108.00,T,9Tj7Li2O
 40827,322 SIDERSA S.A.,Facturada,Todo Aprobado,Ejecución de pedido de artículo 22488,Enviado,F,MF525T,0,0,17/03/2025,EXPRESO BRIO SRL,414820,58.9%,.00,T,7Ia9Mm7L
 40832,558 LUIS & MIGUEL ZANNIELLO SACI,Parcialmente ejecutada,Todo Aprobado,Ejecución de pedido de artículo 22480,Enviado,F,MTS524B,0,0,17/03/2025,EXPRESO CARGO SA,415475,41.7%,.00,T,2Rl2Nm1Q
 40832,558 LUIS & MIGUEL ZANNIELLO SACI,Parcialmente ejecutada,Todo Aprobado,Factura de venta 36804,Abierta,F,MTS548B,0,144,17/03/2025,EXPRESO CARGO SA,415475,31.3%,308.16,,2Rl2Nm1Q
@@ -314,7 +314,7 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 40934,3636 JULICROC SA,Facturada,Todo Aprobado,Ejecución de pedido de artículo 22584,Enviado,F,PPAR15048T,0,0,31/03/2025,TRANSPORTE MOSTTO,422137,45.1%,.00,T,3Fa0Qy2E
 40935,3598 DEL VALLE EMBALAJES SRL,Facturada,Todo Aprobado,Ejecución de pedido de artículo 22588,Enviado,F,PPHR15048XT,0,0,31/03/2025,RICARDO PIERONI,422242,42.7%,.00,T,0Ph8Mv3F
 40936,132 MAHLE VALVULAS DE ARGENTINA SA,Facturada,Todo Aprobado,Ejecución de pedido de artículo 22591,Enviado,F,MVAQUA203V,0,0,31/03/2025,ALMAR ROSARIO SRL,422246,46.8%,.00,T,6Ls2Pd3Q
-40937,9402081 OLEOHIDRAULICA EL TORITO SA,Facturación pendiente,Todo Aprobado,Ejecución de pedido de artículo 22594,Enviado,F,MVLQS500,0,0,31/03/2025,BARRY LATIMER,422247,72.9%,.00,F,5Zl6Sa3R
+40937,9402081 OLEOHIDRAULICA EL TORITO SA,Facturada,Todo Aprobado,Ejecución de pedido de artículo 22594,Enviado,F,MVLQS500,0,0,31/03/2025,BARRY LATIMER,422247,72.9%,.00,T,5Zl6Sa3R
 40938,655 SWIFT SA ARGENTINA,Ejecución de la orden pendiente,Todo Aprobado, ,,F,PPAR10048T,0,354,01/04/2025,FELICI JORGE ARIEL,422365,37.6%,3646.20,,8Wb3Xi2L
 40869,4095 REFINERIA DEL CENTRO SA,Ejecución de la orden pendiente,Todo Aprobado, ,,F,H11/72,30,0,02/04/2025,EXPRESO SANTA ROSA,417636,42.6%,695.10,,1Bj3Wa5S
 40920,18293 DULCOR SA,Ejecución de la orden pendiente,Todo Aprobado, ,,F,PPAR1048T,540,0,02/04/2025,EXPRESO LUJAN DEL CUYO SA,420811,42.7%,518.40,,0Jn1Mv5H
