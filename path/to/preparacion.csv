@@ -161,8 +161,8 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 40667,9402312 DINDEL SA,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 22479,Remitido,F,TERM420,0,0,17/03/2025,EXPRESO CARGO SA,403203,67.2%,386.00,T,
 40776,12849 FERRERO ARGENTINA SA,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 22475,Remitido,F,PPAR1072T,0,0,17/03/2025,EXPRESO LUJAN DEL CUYO SA,411990,43.6%,357.60,T,5Oy9Im9F
 40817,1067 DIPAC SA,Parcialmente ejecutada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 22476,Remitido,F,PPAR1048T,0,0,17/03/2025,RICARDO PIERONI,414156,45.0%,360.00,T,9Tj7Li2O
-40817,1067 DIPAC SA,Parcialmente ejecutada,Todo Aprobado,Factura de venta 36801,Pagado por completo,F,PPAR524T,0,432,17/03/2025,RICARDO PIERONI,414156,99.8%,108.00,,9Tj7Li2O
 40817,1067 DIPAC SA,Parcialmente ejecutada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 22476,Remitido,F,PPAR524T,0,432,17/03/2025,RICARDO PIERONI,414156,99.8%,252.00,T,9Tj7Li2O
+40817,1067 DIPAC SA,Parcialmente ejecutada,Todo Aprobado,Factura de venta 36801,Pagado por completo,F,PPAR524T,0,432,17/03/2025,RICARDO PIERONI,414156,99.8%,108.00,,9Tj7Li2O
 40827,322 SIDERSA S.A.,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 22488,Remitido,F,MF525T,0,0,17/03/2025,EXPRESO BRIO SRL,414820,58.9%,1425.60,T,7Ia9Mm7L
 40832,558 LUIS & MIGUEL ZANNIELLO SACI,Parcialmente ejecutada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 22480,Remitido,F,MTS524B,0,0,17/03/2025,EXPRESO CARGO SA,415475,41.7%,316.80,T,2Rl2Nm1Q
 40832,558 LUIS & MIGUEL ZANNIELLO SACI,Parcialmente ejecutada,Todo Aprobado,Factura de venta 36804,Abierta,F,MTS548B,0,144,17/03/2025,EXPRESO CARGO SA,415475,31.3%,308.16,,2Rl2Nm1Q
@@ -318,17 +318,17 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 40938,655 SWIFT SA ARGENTINA,Ejecución de la orden pendiente,Todo Aprobado, ,,F,PPAR10048T,0,300,01/04/2025,FELICI JORGE ARIEL,422365,37.6%,3090.00,,8Wb3Xi2L
 40939,3771 PILISAR SA,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 22595,Remitido,F,MTS518B,0,0,01/04/2025,BARRY LATIMER,422527,0.0%,.00,T,6Qa0Ib0C
 40869,4095 REFINERIA DEL CENTRO SA,Ejecución de la orden pendiente,Todo Aprobado, ,,F,H11/72,30,0,02/04/2025,EXPRESO SANTA ROSA,417636,42.6%,695.10,,1Bj3Wa5S
-40933,86 EST GRAFICO IMPRESORES SA,Ejecución de la orden pendiente,Todo Aprobado, ,,F,H11/48,10,0,02/04/2025,EXPRESO CARGO SA,422136,46.2%,221.00,,9Xw3Zi2V
-40933,86 EST GRAFICO IMPRESORES SA,Ejecución de la orden pendiente,Todo Aprobado, ,,F,PPAR524T,0,288,02/04/2025,EXPRESO CARGO SA,422136,99.9%,138.24,,9Xw3Zi2V
+40933,86 EST GRAFICO IMPRESORES SA,Facturación pendiente/parcialmente ejecutada,Todo Aprobado, ,,F,PPAR524T,0,288,02/04/2025,EXPRESO CARGO SA,422136,99.9%,138.24,,9Xw3Zi2V
 37685,3096 FRECICAR SRL,Ejecución de la orden pendiente,Todo Aprobado, ,,F,52330-00040-00,7,0,03/04/2025,RICARDO PIERONI,253466,51.4%,3010.00,,9Zc0Jy4O
-40920,18293 DULCOR SA,Facturación pendiente,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 22597,Remitido,F,PPAR1048T,0,0,03/04/2025,EXPRESO LUJAN DEL CUYO SA,420811,42.7%,518.40,F,0Jn1Mv5H
-40920,18293 DULCOR SA,Facturación pendiente,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 22597,Remitido,F,PPAR15048T,0,0,03/04/2025,EXPRESO LUJAN DEL CUYO SA,420811,50.1%,1836.00,F,0Jn1Mv5H
-40926,1318 ALIBUE S.A.,Facturación pendiente,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 22598,Remitido,F,PPHR1216B,0,0,03/04/2025,EXPRESO CARGO SA,421406,49.9%,540.00,F,1Sn9Yn7I
-40926,1318 ALIBUE S.A.,Facturación pendiente,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 22598,Remitido,F,PPAR1048T,0,0,03/04/2025,EXPRESO CARGO SA,421406,50.5%,199.80,F,1Sn9Yn7I
-40926,1318 ALIBUE S.A.,Facturación pendiente,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 22598,Remitido,F,PVC612R,0,0,03/04/2025,EXPRESO CARGO SA,421406,65.4%,2520.00,F,1Sn9Yn7I
-40945,86 EST GRAFICO IMPRESORES SA,Facturación pendiente,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 22596,Remitido,F,PPHR15048XT,0,0,03/04/2025,EXPRESO CARGO SA,422781,54.4%,1344.00,F,9Xw3Zi2V
+40920,18293 DULCOR SA,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 22597,Remitido,F,PPAR1048T,0,0,03/04/2025,EXPRESO LUJAN DEL CUYO SA,420811,42.7%,518.40,T,0Jn1Mv5H
+40920,18293 DULCOR SA,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 22597,Remitido,F,PPAR15048T,0,0,03/04/2025,EXPRESO LUJAN DEL CUYO SA,420811,50.1%,1836.00,T,0Jn1Mv5H
+40926,1318 ALIBUE S.A.,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 22598,Remitido,F,PPHR1216B,0,0,03/04/2025,EXPRESO CARGO SA,421406,49.9%,540.00,F,1Sn9Yn7I
+40926,1318 ALIBUE S.A.,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 22598,Remitido,F,PPAR1048T,0,0,03/04/2025,EXPRESO CARGO SA,421406,50.5%,199.80,F,1Sn9Yn7I
+40926,1318 ALIBUE S.A.,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 22598,Remitido,F,PVC612R,0,0,03/04/2025,EXPRESO CARGO SA,421406,65.4%,2520.00,F,1Sn9Yn7I
+40933,86 EST GRAFICO IMPRESORES SA,Facturación pendiente/parcialmente ejecutada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 22599,Remitido,F,H11/48,0,0,03/04/2025,EXPRESO CARGO SA,422136,46.2%,221.00,F,9Xw3Zi2V
+40941,3051 FRIMETAL S.A.,Facturación pendiente,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 22600,Remitido,F,PPAR1048M,0,0,03/04/2025,FELICI JORGE ARIEL,422669,41.1%,414.156,F,3Dw0Uk2K
+40945,86 EST GRAFICO IMPRESORES SA,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 22596,Remitido,F,PPHR15048XT,0,0,03/04/2025,EXPRESO CARGO SA,422781,54.4%,1344.00,T,9Xw3Zi2V
 40716,4604 TENTO SRL,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Liberada,T,4604/001,0,1008,04/04/2025,RICARDO PIERONI,407109,41.4%,1078.56,,8Oo4Jc0P
-40941,3051 FRIMETAL S.A.,Ejecución de la orden pendiente,Todo Aprobado, ,,F,PPAR1048M,360,0,04/04/2025,FELICI JORGE ARIEL,422669,41.1%,414.156,,3Dw0Uk2K
 40942,3051 FRIMETAL S.A.,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Liberada,F,0272/003,0,60,08/04/2025,FELICI JORGE ARIEL,422769,51.9%,6.617.064,,3Dw0Uk2K
 40943,3051 FRIMETAL S.A.,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Liberada,F,1823/002,0,140,08/04/2025,FELICI JORGE ARIEL,422770,49.4%,3860.85,,3Dw0Uk2K
 40917,3771 PILISAR SA,Ejecución de la orden pendiente,Todo Aprobado, ,,F,PPAR1072T,250,0,09/04/2025,EXPRESO CARGO SA,420671,38.0%,342.50,,6Qa0Ib0C
