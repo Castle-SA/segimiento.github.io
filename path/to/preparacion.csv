@@ -287,8 +287,8 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 40537,143 EPTA ARGENTINA S.A.,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 22582,Remitido,F,0143/026,0,0,31/03/2025,FELICI JORGE ARIEL,394418,86.1%,713.857,T,1Tu2Pr5C
 40687,9402185 MONCHAMP INDUSTRIAS SRL,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 22592,Remitido,F,MVAQUA180,0,0,31/03/2025,ALMAR ROSARIO SRL,404883,34.2%,394.40,T,7Ck6Zj2S
 40758,3598 DEL VALLE EMBALAJES SRL,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 22593,Remitido,F,PPAR15096T,0,0,31/03/2025,RICARDO PIERONI,410930,59.3%,3770.40,T,0Ph8Mv3F
-40866,9400536 MILKAUT SA,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 22589,Remitido,F,PPHR15048XT,0,0,31/03/2025,RICARDO PIERONI,417414,46.5%,1577.40,T,8Ny2Or7G
 40866,9400536 MILKAUT SA,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 22576,Remitido,F,PPHR15048XT,0,0,31/03/2025,RICARDO PIERONI,417414,46.5%,2724.60,T,8Ny2Or7G
+40866,9400536 MILKAUT SA,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 22589,Remitido,F,PPHR15048XT,0,0,31/03/2025,RICARDO PIERONI,417414,46.5%,1577.40,T,8Ny2Or7G
 40893,655 SWIFT SA ARGENTINA,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 22586,Remitido,F,PPAR10048T,0,0,31/03/2025,RICARDO PIERONI,419232,64.9%,556.20,T,8Wb3Xi2L
 40896,9402059 BUENA PROA SA,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 22579,Remitido,F,9402059/002,0,0,31/03/2025,TRANSPORTE TOMASSINI,419605,43.6%,266.40,T,5Ym6Nh1E
 40896,9402059 BUENA PROA SA,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 22579,Remitido,F,9402059/001,0,0,31/03/2025,TRANSPORTE TOMASSINI,419605,36.5%,1056.00,T,5Ym6Nh1E
@@ -333,8 +333,8 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 40951,969 COTO C.I.C.S.A.,Parcialmente ejecutada,Todo Aprobado,Factura de venta 36923,Pagado por completo,F,PPAR524T,0,1,04/04/2025,BARRY LATIMER,423132,100.0%,.00,,8Os9Yf5O
 40951,969 COTO C.I.C.S.A.,Parcialmente ejecutada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 22609,Remitido,F,PPAR1048T,0,0,04/04/2025,BARRY LATIMER,423132,0.0%,.00,T,8Os9Yf5O
 40951,969 COTO C.I.C.S.A.,Parcialmente ejecutada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 22609,Remitido,F,PPAR1072T,0,0,04/04/2025,BARRY LATIMER,423132,0.0%,.00,T,8Os9Yf5O
-40951,969 COTO C.I.C.S.A.,Parcialmente ejecutada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 22610,Remitido,F,PPA1048T040,0,0,04/04/2025,BARRY LATIMER,423132,0.0%,.00,T,8Os9Yf5O
 40951,969 COTO C.I.C.S.A.,Parcialmente ejecutada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 22609,Remitido,F,PPA1048T040,0,0,04/04/2025,BARRY LATIMER,423132,0.0%,.00,T,8Os9Yf5O
+40951,969 COTO C.I.C.S.A.,Parcialmente ejecutada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 22610,Remitido,F,PPA1048T040,0,0,04/04/2025,BARRY LATIMER,423132,0.0%,.00,T,8Os9Yf5O
 40951,969 COTO C.I.C.S.A.,Parcialmente ejecutada,Todo Aprobado,Factura de venta 36923,Pagado por completo,F,PPAR10048T,0,2,04/04/2025,BARRY LATIMER,423132,0.0%,.00,,8Os9Yf5O
 40951,969 COTO C.I.C.S.A.,Parcialmente ejecutada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 22610,Remitido,F,PPHR15048XT,0,0,04/04/2025,BARRY LATIMER,423132,0.0%,.00,T,8Os9Yf5O
 40951,969 COTO C.I.C.S.A.,Parcialmente ejecutada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 22609,Remitido,F,PPHR15048XT,0,0,04/04/2025,BARRY LATIMER,423132,0.0%,.00,T,8Os9Yf5O
@@ -343,6 +343,7 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 40954,4435 TUTTO PORKY S SRL,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 22605,Remitido,F,PPAR1048T,0,0,04/04/2025,TRANSPORTE SNAIDER,423238,39.6%,327.60,T,1Cp3Rq7P
 40957,9402082 FRANCISCO CACHAN,Ejecución de la orden pendiente,Todo Aprobado, ,,F,MVAQUA180,20,0,04/04/2025,RETIRAN,423405,0.0%,.00,,3Xj3Ej2T
 40949,831 COLFER INDUSTRIAL SH,Ejecución de la orden pendiente,Todo Aprobado, ,,F,MTS548B,0,540,07/04/2025,EXPRESO CARGO SA,422921,26.5%,1080.00,,2Cu4Bb2H
+40955,16650 METALIZA SACI,Ejecución de la orden pendiente,Todo Aprobado, ,,F,P579,30,0,07/04/2025,RETIRAN,423339,71.1%,240.00,,9Dr4Hx4E
 40963,9400100 ABBOUD MARCELO BANAIOT,Ejecución de la orden pendiente,Todo Aprobado, ,,F,PPA1048T040,6,0,07/04/2025,EXPRESO CARGO SA,423808,0.0%,.00,,5Pj9Xf1N
 40963,9400100 ABBOUD MARCELO BANAIOT,Ejecución de la orden pendiente,Todo Aprobado, ,,F,MTS536B,6,0,07/04/2025,EXPRESO CARGO SA,423808,0.0%,.00,,5Pj9Xf1N
 40963,9400100 ABBOUD MARCELO BANAIOT,Ejecución de la orden pendiente,Todo Aprobado, ,,F,PPAR100144T,1,0,07/04/2025,EXPRESO CARGO SA,423808,0.0%,.00,,5Pj9Xf1N
