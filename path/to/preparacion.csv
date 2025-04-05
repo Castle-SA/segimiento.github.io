@@ -326,8 +326,8 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 40869,4095 REFINERIA DEL CENTRO SA,Facturada,Todo Aprobado,Ejecución de pedido de artículo 22603,Enviado,F,H11/72,0,0,04/04/2025,EXPRESO SANTA ROSA,417636,42.6%,.00,T,1Bj3Wa5S
 40907,15 IND. JOHN DEERE ARGENTINA S.A.,Facturada,Todo Aprobado,Ejecución de pedido de artículo 22612,Enviado,F,0015/016,0,0,04/04/2025,FELICI JORGE ARIEL,420437,65.1%,.00,T,8Ky5Hq9D
 40919,623 BM SEÑALIZACIONES S.A.,Ejecución de la orden pendiente,Todo Aprobado, ,,F,PPAR1048T,288,0,04/04/2025,ALMAR ROSARIO SRL,420712,49.1%,311.04,,3Ys9An8W
-40932,9400962 CRYSTAL-ICE SRL,Parcialmente ejecutada,Todo Aprobado,Factura de venta 36921,Abierta,F,PPAR524T,0,216,04/04/2025,RICARDO PIERONI,422135,99.8%,47.52,,4Is2Rn8E
 40932,9400962 CRYSTAL-ICE SRL,Parcialmente ejecutada,Todo Aprobado,Ejecución de pedido de artículo 22604,Enviado,F,PPAR524T,0,216,04/04/2025,RICARDO PIERONI,422135,99.8%,47.52,T,4Is2Rn8E
+40932,9400962 CRYSTAL-ICE SRL,Parcialmente ejecutada,Todo Aprobado,Factura de venta 36921,Abierta,F,PPAR524T,0,216,04/04/2025,RICARDO PIERONI,422135,99.8%,47.52,,4Is2Rn8E
 40938,655 SWIFT SA ARGENTINA,Facturada,Todo Aprobado,Ejecución de pedido de artículo 22608,Enviado,F,CAS-PPAR10048T047,0,0,04/04/2025,FELICI JORGE ARIEL,422365,53.5%,.00,T,8Wb3Xi2L
 40948,4048 EL EMPORIO DE LA GOMA SRL,Facturada,Todo Aprobado,Ejecución de pedido de artículo 22607,Enviado,F,PPAR1048T,0,0,04/04/2025,CONTE HNOS Y CIA SA,422920,42.1%,.00,T,5Nn8Fo2O
 40951,969 COTO C.I.C.S.A.,Parcialmente ejecutada,Todo Aprobado,Factura de venta 36923,Pagado por completo,F,PPAR524T,0,1,04/04/2025,BARRY LATIMER,423132,100.0%,.00,,8Os9Yf5O
@@ -336,8 +336,8 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 40951,969 COTO C.I.C.S.A.,Parcialmente ejecutada,Todo Aprobado,Ejecución de pedido de artículo 22610,Enviado,F,PPA1048T040,0,0,04/04/2025,BARRY LATIMER,423132,0.0%,.00,T,8Os9Yf5O
 40951,969 COTO C.I.C.S.A.,Parcialmente ejecutada,Todo Aprobado,Ejecución de pedido de artículo 22609,Enviado,F,PPA1048T040,0,0,04/04/2025,BARRY LATIMER,423132,0.0%,.00,T,8Os9Yf5O
 40951,969 COTO C.I.C.S.A.,Parcialmente ejecutada,Todo Aprobado,Factura de venta 36923,Pagado por completo,F,PPAR10048T,0,2,04/04/2025,BARRY LATIMER,423132,0.0%,.00,,8Os9Yf5O
-40951,969 COTO C.I.C.S.A.,Parcialmente ejecutada,Todo Aprobado,Ejecución de pedido de artículo 22609,Enviado,F,PPHR15048XT,0,0,04/04/2025,BARRY LATIMER,423132,0.0%,.00,T,8Os9Yf5O
 40951,969 COTO C.I.C.S.A.,Parcialmente ejecutada,Todo Aprobado,Ejecución de pedido de artículo 22610,Enviado,F,PPHR15048XT,0,0,04/04/2025,BARRY LATIMER,423132,0.0%,.00,T,8Os9Yf5O
+40951,969 COTO C.I.C.S.A.,Parcialmente ejecutada,Todo Aprobado,Ejecución de pedido de artículo 22609,Enviado,F,PPHR15048XT,0,0,04/04/2025,BARRY LATIMER,423132,0.0%,.00,T,8Os9Yf5O
 40952,4586 LIGNUM SA,Facturación pendiente,Todo Aprobado,Ejecución de pedido de artículo 22611,Enviado,F,PVC618R,0,0,04/04/2025,EXPRESO CARGO SA,423133,70.0%,.00,F,7Cb8Sw3V
 40953,3029 DARK SRL,Facturada,Todo Aprobado,Ejecución de pedido de artículo 22606,Enviado,F,PPAR1048T,0,0,04/04/2025,RICARDO PIERONI,423237,50.0%,.00,T,7Va0Bu1J
 40954,4435 TUTTO PORKY S SRL,Facturada,Todo Aprobado,Ejecución de pedido de artículo 22605,Enviado,F,PPAR1048T,0,0,04/04/2025,TRANSPORTE SNAIDER,423238,39.6%,.00,T,1Cp3Rq7P
@@ -366,6 +366,12 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 40940,3051 FRIMETAL S.A.,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Ensamblada,F,1823/002,64,0,11/04/2025,FELICI JORGE ARIEL,422568,49.4%,1764.96,,3Dw0Uk2K
 40940,3051 FRIMETAL S.A.,Ejecución de la orden pendiente,Todo Aprobado, ,,F,PPAR1048M,72,0,11/04/2025,FELICI JORGE ARIEL,422568,41.1%,82.831,,3Dw0Uk2K
 40940,3051 FRIMETAL S.A.,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Ensamblada,F,3051/010,720,0,11/04/2025,FELICI JORGE ARIEL,422568,69.7%,3.308.365,,3Dw0Uk2K
+40966,3769 GAROFOLI CONSTRUCCIONES SRL,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Liberada,F,0674/003,0,20,11/04/2025,RODRIGUEZ HNOS. TRANSP. SA,423850,60.7%,172.80,,7Qv9Mi1Z
+40966,3769 GAROFOLI CONSTRUCCIONES SRL,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Liberada,F,64958-00001-00,0,20,11/04/2025,RODRIGUEZ HNOS. TRANSP. SA,423850,60.3%,115.20,,7Qv9Mi1Z
+40966,3769 GAROFOLI CONSTRUCCIONES SRL,Ejecución de la orden pendiente,Todo Aprobado, ,,F,1771/001,0,10,11/04/2025,RODRIGUEZ HNOS. TRANSP. SA,423850,61.2%,115.20,,7Qv9Mi1Z
+40966,3769 GAROFOLI CONSTRUCCIONES SRL,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Liberada,F,PVC612R,0,144,11/04/2025,RODRIGUEZ HNOS. TRANSP. SA,423850,69.6%,252.00,,7Qv9Mi1Z
+40966,3769 GAROFOLI CONSTRUCCIONES SRL,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Liberada,F,PVC624R,0,72,11/04/2025,RODRIGUEZ HNOS. TRANSP. SA,423850,72.1%,252.00,,7Qv9Mi1Z
+40966,3769 GAROFOLI CONSTRUCCIONES SRL,Ejecución de la orden pendiente,Todo Aprobado, ,,F,PVC636R,0,96,11/04/2025,RODRIGUEZ HNOS. TRANSP. SA,423850,72.4%,504.00,,7Qv9Mi1Z
 40874,12877 BRIKET SA,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Ensamblada,F,0272/004,300,0,15/04/2025,ALMAR ROSARIO SRL,417908,33.7%,3675.00,,6Rp2Ce7I
 40712,94010 VISUAR SA,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Ensamblada,F,1823/002,192,0,18/04/2025,EXPRESO CARGO SA,406791,56.0%,5840.64,,4Gf8Oa0H
 40944,5019 GRANJA TRES ARROYOS SACAFEI,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Liberada,F,PPHR1216B,0,1440,23/04/2025,EXPRESO CARGO SA,422670,55.3%,2016.00,,0Ql9Gi1V
