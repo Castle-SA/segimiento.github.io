@@ -281,15 +281,15 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 40716,4604 TENTO SRL,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Liberada,T,4604/001,0,1008,04/04/2025,RICARDO PIERONI,407109,41.4%,1078.56,,8Oo4Jc0P
 40869,4095 REFINERIA DEL CENTRO SA,Facturada,Todo Aprobado,Ejecución de pedido de artículo 22603,Enviado,F,H11/72,0,0,04/04/2025,EXPRESO SANTA ROSA,417636,42.6%,.00,T,1Bj3Wa5S
 40907,15 IND. JOHN DEERE ARGENTINA S.A.,Facturada,Todo Aprobado,Ejecución de pedido de artículo 22612,Enviado,F,0015/016,0,0,04/04/2025,FELICI JORGE ARIEL,420437,65.1%,.00,T,8Ky5Hq9D
-40932,9400962 CRYSTAL-ICE SRL,Parcialmente ejecutada,Todo Aprobado,Ejecución de pedido de artículo 22604,Enviado,F,PPAR524T,0,216,04/04/2025,RICARDO PIERONI,422135,99.8%,47.52,T,4Is2Rn8E
 40932,9400962 CRYSTAL-ICE SRL,Parcialmente ejecutada,Todo Aprobado,Factura de venta 36921,Abierta,F,PPAR524T,0,216,04/04/2025,RICARDO PIERONI,422135,99.8%,47.52,,4Is2Rn8E
+40932,9400962 CRYSTAL-ICE SRL,Parcialmente ejecutada,Todo Aprobado,Ejecución de pedido de artículo 22604,Enviado,F,PPAR524T,0,216,04/04/2025,RICARDO PIERONI,422135,99.8%,47.52,T,4Is2Rn8E
 40938,655 SWIFT SA ARGENTINA,Facturada,Todo Aprobado,Ejecución de pedido de artículo 22608,Enviado,F,CAS-PPAR10048T047,0,0,04/04/2025,FELICI JORGE ARIEL,422365,53.5%,.00,T,8Wb3Xi2L
 40948,4048 EL EMPORIO DE LA GOMA SRL,Facturada,Todo Aprobado,Ejecución de pedido de artículo 22607,Enviado,F,PPAR1048T,0,0,04/04/2025,CONTE HNOS Y CIA SA,422920,42.1%,.00,T,5Nn8Fo2O
 40951,969 COTO C.I.C.S.A.,Parcialmente ejecutada,Todo Aprobado,Factura de venta 36923,Pagado por completo,F,PPAR524T,0,1,04/04/2025,BARRY LATIMER,423132,100.0%,.00,,8Os9Yf5O
 40951,969 COTO C.I.C.S.A.,Parcialmente ejecutada,Todo Aprobado,Ejecución de pedido de artículo 22609,Enviado,F,PPAR1048T,0,0,04/04/2025,BARRY LATIMER,423132,0.0%,.00,T,8Os9Yf5O
 40951,969 COTO C.I.C.S.A.,Parcialmente ejecutada,Todo Aprobado,Ejecución de pedido de artículo 22609,Enviado,F,PPAR1072T,0,0,04/04/2025,BARRY LATIMER,423132,0.0%,.00,T,8Os9Yf5O
-40951,969 COTO C.I.C.S.A.,Parcialmente ejecutada,Todo Aprobado,Ejecución de pedido de artículo 22610,Enviado,F,PPA1048T040,0,0,04/04/2025,BARRY LATIMER,423132,0.0%,.00,T,8Os9Yf5O
 40951,969 COTO C.I.C.S.A.,Parcialmente ejecutada,Todo Aprobado,Ejecución de pedido de artículo 22609,Enviado,F,PPA1048T040,0,0,04/04/2025,BARRY LATIMER,423132,0.0%,.00,T,8Os9Yf5O
+40951,969 COTO C.I.C.S.A.,Parcialmente ejecutada,Todo Aprobado,Ejecución de pedido de artículo 22610,Enviado,F,PPA1048T040,0,0,04/04/2025,BARRY LATIMER,423132,0.0%,.00,T,8Os9Yf5O
 40951,969 COTO C.I.C.S.A.,Parcialmente ejecutada,Todo Aprobado,Factura de venta 36923,Pagado por completo,F,PPAR10048T,0,2,04/04/2025,BARRY LATIMER,423132,0.0%,.00,,8Os9Yf5O
 40951,969 COTO C.I.C.S.A.,Parcialmente ejecutada,Todo Aprobado,Ejecución de pedido de artículo 22609,Enviado,F,PPHR15048XT,0,0,04/04/2025,BARRY LATIMER,423132,0.0%,.00,T,8Os9Yf5O
 40951,969 COTO C.I.C.S.A.,Parcialmente ejecutada,Todo Aprobado,Ejecución de pedido de artículo 22610,Enviado,F,PPHR15048XT,0,0,04/04/2025,BARRY LATIMER,423132,0.0%,.00,T,8Os9Yf5O
@@ -312,8 +312,10 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 40963,9400100 ABBOUD MARCELO BANAIOT,Facturada,Todo Aprobado,Ejecución de pedido de artículo 22617,Enviado,F,PPA1048T040,0,0,07/04/2025,EXPRESO CARGO SA,423808,0.0%,.00,T,5Pj9Xf1N
 40963,9400100 ABBOUD MARCELO BANAIOT,Facturada,Todo Aprobado,Ejecución de pedido de artículo 22617,Enviado,F,MTS536B,0,0,07/04/2025,EXPRESO CARGO SA,423808,0.0%,.00,T,5Pj9Xf1N
 40963,9400100 ABBOUD MARCELO BANAIOT,Facturada,Todo Aprobado,Ejecución de pedido de artículo 22617,Enviado,F,PPAR100144T,0,0,07/04/2025,EXPRESO CARGO SA,423808,0.0%,.00,T,5Pj9Xf1N
+40964,3096 FRECICAR SRL,Facturación pendiente/parcialmente ejecutada,Todo Aprobado,Ejecución de pedido de artículo 22622,Enviado,F,CF518T,0,0,07/04/2025,RICARDO PIERONI,423848,86.1%,.00,F,9Zc0Jy4O
 40967,3676 FRIGORIFICO MARK SA,Facturada,Todo Aprobado,Ejecución de pedido de artículo 22621,Enviado,F,PVC612R,0,0,07/04/2025,RETIRAN,424095,73.4%,.00,T,2Nw2Uj9H
 40976,9402135 ALBERTO G MORO SRL,Ejecución de la orden pendiente,Todo Aprobado, ,,F,MVAQUA580LDW,20,0,07/04/2025,BARRY LATIMER,424348,0.0%,.00,,3Ql7Hs1H
+40977,960 LSG SKY CHEFS ARGENTINA SA,Facturación pendiente,Todo Aprobado,Ejecución de pedido de artículo 22623,Enviado,F,PPAR1048T,0,0,07/04/2025,EXPRESO CARGO SA,424363,58.0%,.00,F,6Vf5Ir9K
 40942,3051 FRIMETAL S.A.,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Liberada,F,0272/003,0,60,08/04/2025,FELICI JORGE ARIEL,422769,51.9%,6.617.064,,3Dw0Uk2K
 40943,3051 FRIMETAL S.A.,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Liberada,F,1823/002,0,140,08/04/2025,FELICI JORGE ARIEL,422770,49.4%,3860.85,,3Dw0Uk2K
 40962,1499 FAIART ARGENTINA SA,Ejecución de la orden pendiente,Todo Aprobado, ,,F,CH523EXR,64,0,08/04/2025,RICARDO PIERONI,423528,56.1%,960.00,,9Pk0Ny6V
@@ -321,9 +323,7 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 40965,9400816 MORELLI SRL,Ejecución de la orden pendiente,Todo Aprobado, ,,F,MTS548B,0,360,08/04/2025,RICARDO PIERONI,423849,26.5%,720.00,,2Au6Re6F
 40965,9400816 MORELLI SRL,Ejecución de la orden pendiente,Todo Aprobado, ,,F,PPA1048T040,360,0,08/04/2025,RICARDO PIERONI,423849,-30.1%,262.80,,2Au6Re6F
 40974,34 ARGENTAL S.A.I.C.,Ejecución de la orden pendiente,Todo Aprobado, ,,F,VCI420,80,0,08/04/2025,RICARDO PIERONI,424098,49.0%,720.00,,7Rh7In1Q
-40964,3096 FRECICAR SRL,Ejecución de la orden pendiente,Todo Aprobado, ,,F,3096/004,0,504,09/04/2025,RICARDO PIERONI,423848,61.5%,907.20,,9Zc0Jy4O
-40964,3096 FRECICAR SRL,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Ensamblada,F,CF518T,100,0,09/04/2025,RICARDO PIERONI,423848,86.1%,450.00,,9Zc0Jy4O
-40977,960 LSG SKY CHEFS ARGENTINA SA,Ejecución de la orden pendiente,Todo Aprobado, ,,F,PPAR1048T,360,0,09/04/2025,EXPRESO CARGO SA,424363,58.0%,471.60,,6Vf5Ir9K
+40964,3096 FRECICAR SRL,Facturación pendiente/parcialmente ejecutada,Todo Aprobado, ,,F,3096/004,0,504,09/04/2025,RICARDO PIERONI,423848,61.5%,907.20,,9Zc0Jy4O
 40946,12877 BRIKET SA,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Ensamblada,F,PVC615A,909,0,10/04/2025,FELICI JORGE ARIEL,422784,54.3%,1345.32,,6Rp2Ce7I
 40950,9401445 HILOS PLASTICOS SA,Ejecución de la orden pendiente,Todo Aprobado, ,,F,PVC648R,36,0,10/04/2025,RETIRAN,423131,-94.1%,36.00,,4Fo7Im4B
 40850,1087 FALCONE BODETTO S.A.,Ejecución de la orden pendiente,Todo Aprobado, ,,F,PPAR1048T,36,0,11/04/2025,RICARDO PIERONI,416181,69.4%,64.80,,2Vf5Jo3E
