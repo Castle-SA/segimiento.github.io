@@ -211,12 +211,12 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 40918,430 EMPAQUE S.A.,Facturada,Todo Aprobado,Ejecución de pedido de artículo 22564,Enviado,F,MTS524B,0,0,28/03/2025,EXPRESO LUJAN DEL CUYO SA,420711,35.7%,.00,T,4Oq4Xr3M
 40918,430 EMPAQUE S.A.,Facturada,Todo Aprobado,Ejecución de pedido de artículo 22564,Enviado,F,PPAR1048M,0,0,28/03/2025,EXPRESO LUJAN DEL CUYO SA,420711,33.3%,.00,T,4Oq4Xr3M
 40918,430 EMPAQUE S.A.,Facturada,Todo Aprobado,Ejecución de pedido de artículo 22564,Enviado,F,PPAR1048T,0,0,28/03/2025,EXPRESO LUJAN DEL CUYO SA,420711,46.1%,.00,T,4Oq4Xr3M
-40537,143 EPTA ARGENTINA S.A.,Facturada,Todo Aprobado,Ejecución de pedido de artículo 22582,Enviado,F,0143/026,0,0,31/03/2025,FELICI JORGE ARIEL,394418,86.1%,.00,T,1Tu2Pr5C
 40537,143 EPTA ARGENTINA S.A.,Facturada,Todo Aprobado,Ejecución de pedido de artículo 22580,Enviado,F,0143/026,0,0,31/03/2025,FELICI JORGE ARIEL,394418,86.1%,.00,T,1Tu2Pr5C
+40537,143 EPTA ARGENTINA S.A.,Facturada,Todo Aprobado,Ejecución de pedido de artículo 22582,Enviado,F,0143/026,0,0,31/03/2025,FELICI JORGE ARIEL,394418,86.1%,.00,T,1Tu2Pr5C
 40687,9402185 MONCHAMP INDUSTRIAS SRL,Facturada,Todo Aprobado,Ejecución de pedido de artículo 22592,Enviado,F,MVAQUA180,0,0,31/03/2025,ALMAR ROSARIO SRL,404883,34.2%,.00,T,7Ck6Zj2S
 40758,3598 DEL VALLE EMBALAJES SRL,Facturada,Todo Aprobado,Ejecución de pedido de artículo 22593,Enviado,F,PPAR15096T,0,0,31/03/2025,RICARDO PIERONI,410930,59.3%,.00,T,0Ph8Mv3F
-40866,9400536 MILKAUT SA,Facturada,Todo Aprobado,Ejecución de pedido de artículo 22589,Enviado,F,PPHR15048XT,0,0,31/03/2025,RICARDO PIERONI,417414,46.5%,.00,T,8Ny2Or7G
 40866,9400536 MILKAUT SA,Facturada,Todo Aprobado,Ejecución de pedido de artículo 22576,Enviado,F,PPHR15048XT,0,0,31/03/2025,RICARDO PIERONI,417414,46.5%,.00,T,8Ny2Or7G
+40866,9400536 MILKAUT SA,Facturada,Todo Aprobado,Ejecución de pedido de artículo 22589,Enviado,F,PPHR15048XT,0,0,31/03/2025,RICARDO PIERONI,417414,46.5%,.00,T,8Ny2Or7G
 40893,655 SWIFT SA ARGENTINA,Facturada,Todo Aprobado,Ejecución de pedido de artículo 22586,Enviado,F,PPAR10048T,0,0,31/03/2025,RICARDO PIERONI,419232,64.9%,.00,T,8Wb3Xi2L
 40896,9402059 BUENA PROA SA,Facturada,Todo Aprobado,Ejecución de pedido de artículo 22579,Enviado,F,9402059/002,0,0,31/03/2025,TRANSPORTE TOMASSINI,419605,43.6%,.00,T,5Ym6Nh1E
 40896,9402059 BUENA PROA SA,Facturada,Todo Aprobado,Ejecución de pedido de artículo 22579,Enviado,F,9402059/001,0,0,31/03/2025,TRANSPORTE TOMASSINI,419605,36.5%,.00,T,5Ym6Nh1E
@@ -369,7 +369,7 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 41013,674 KRETZ SA,Facturada,Todo Aprobado,Ejecución de pedido de artículo 22659,Enviado,F,PPAR1072T,0,0,10/04/2025,EXPRESO BRIO SRL,426603,43.3%,.00,T,0Io3Fg7R
 41013,674 KRETZ SA,Facturada,Todo Aprobado,Ejecución de pedido de artículo 22659,Enviado,F,CAS-PPAR10048T047,0,0,10/04/2025,EXPRESO BRIO SRL,426603,55.9%,.00,T,0Io3Fg7R
 41016,346 DOS HERMANOS S.A,Facturada,Todo Aprobado,Ejecución de pedido de artículo 22664,Enviado,F,PPAR10072T,0,0,10/04/2025,TRANSPORTE DE CARGAS MORENO SRL,426820,69.4%,.00,T,2Pi6Wv1H
-40991,4188 DOMITEC SA,Ejecución de la orden pendiente,Todo Aprobado, ,,F,CAS-PPHR10048B,0,42,14/04/2025,TRANSPORTE SNAIDER,425406,43.0%,903.00,,4Md8Pr6J
+40991,4188 DOMITEC SA,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Ensamblada,F,CAS-PPHR10048B,42,0,14/04/2025,TRANSPORTE SNAIDER,425406,43.0%,903.00,,4Md8Pr6J
 41018,3060 AVICOLA TELOS SA,Ejecución de la orden pendiente,Todo Aprobado, ,,F,PPA1548TE,1080,0,14/04/2025,TRANSPORTE SONGINI,426821,39.7%,1620.00,,7Un2Ij7V
 41017,3086 MULTIORIGINAL PARTS SA,Ejecución de la orden pendiente,Todo Aprobado, ,,F,PPAR1048T,720,0,14/04/2025,TRANSPORTE TOMASSINI,426924,42.1%,684.00,,1Fr4Ch9I
 41020,9400716 RAFAELA ALIMENTOS SA,Ejecución de la orden pendiente,Todo Aprobado, ,,F,PPAR15048T,204,0,14/04/2025,EXPRESO SANTA ROSA,427036,42.2%,2692.80,,8Ej8At4Q
