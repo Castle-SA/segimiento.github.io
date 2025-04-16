@@ -11,8 +11,8 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 40667,9402312 DINDEL SA,Facturada,Todo Aprobado,Ejecución de pedido de artículo 22479,Enviado,F,TERM420,0,0,17/03/2025,EXPRESO CARGO SA,403203,67.2%,-6.00,T,
 40776,12849 FERRERO ARGENTINA SA,Facturada,Todo Aprobado,Ejecución de pedido de artículo 22475,Enviado,F,PPAR1072T,0,0,17/03/2025,EXPRESO LUJAN DEL CUYO SA,411990,43.6%,.00,T,5Oy9Im9F
 40817,1067 DIPAC SA,Parcialmente ejecutada,Todo Aprobado,Ejecución de pedido de artículo 22476,Enviado,F,PPAR1048T,0,0,17/03/2025,RICARDO PIERONI,414156,45.0%,.00,T,9Tj7Li2O
-40817,1067 DIPAC SA,Parcialmente ejecutada,Todo Aprobado,Ejecución de pedido de artículo 22476,Enviado,F,PPAR524T,0,432,17/03/2025,RICARDO PIERONI,414156,99.8%,108.00,T,9Tj7Li2O
 40817,1067 DIPAC SA,Parcialmente ejecutada,Todo Aprobado,Factura de venta 36801,Pagado por completo,F,PPAR524T,0,432,17/03/2025,RICARDO PIERONI,414156,99.8%,108.00,,9Tj7Li2O
+40817,1067 DIPAC SA,Parcialmente ejecutada,Todo Aprobado,Ejecución de pedido de artículo 22476,Enviado,F,PPAR524T,0,432,17/03/2025,RICARDO PIERONI,414156,99.8%,108.00,T,9Tj7Li2O
 40827,322 SIDERSA S.A.,Facturada,Todo Aprobado,Ejecución de pedido de artículo 22488,Enviado,F,MF525T,0,0,17/03/2025,EXPRESO BRIO SRL,414820,58.9%,.00,T,7Ia9Mm7L
 40832,558 LUIS & MIGUEL ZANNIELLO SACI,Parcialmente ejecutada,Todo Aprobado,Ejecución de pedido de artículo 22480,Enviado,F,MTS524B,0,0,17/03/2025,EXPRESO CARGO SA,415475,41.7%,.00,T,2Rl2Nm1Q
 40832,558 LUIS & MIGUEL ZANNIELLO SACI,Parcialmente ejecutada,Todo Aprobado,Factura de venta 36804,Abierta,F,MTS548B,0,144,17/03/2025,EXPRESO CARGO SA,415475,31.3%,308.16,,2Rl2Nm1Q
@@ -137,12 +137,12 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 40918,430 EMPAQUE S.A.,Facturada,Todo Aprobado,Ejecución de pedido de artículo 22564,Enviado,F,MTS524B,0,0,28/03/2025,EXPRESO LUJAN DEL CUYO SA,420711,35.7%,.00,T,4Oq4Xr3M
 40918,430 EMPAQUE S.A.,Facturada,Todo Aprobado,Ejecución de pedido de artículo 22564,Enviado,F,PPAR1048M,0,0,28/03/2025,EXPRESO LUJAN DEL CUYO SA,420711,33.3%,.00,T,4Oq4Xr3M
 40918,430 EMPAQUE S.A.,Facturada,Todo Aprobado,Ejecución de pedido de artículo 22564,Enviado,F,PPAR1048T,0,0,28/03/2025,EXPRESO LUJAN DEL CUYO SA,420711,46.1%,.00,T,4Oq4Xr3M
-40537,143 EPTA ARGENTINA S.A.,Facturada,Todo Aprobado,Ejecución de pedido de artículo 22580,Enviado,F,0143/026,0,0,31/03/2025,FELICI JORGE ARIEL,394418,86.1%,.00,T,1Tu2Pr5C
 40537,143 EPTA ARGENTINA S.A.,Facturada,Todo Aprobado,Ejecución de pedido de artículo 22582,Enviado,F,0143/026,0,0,31/03/2025,FELICI JORGE ARIEL,394418,86.1%,.00,T,1Tu2Pr5C
+40537,143 EPTA ARGENTINA S.A.,Facturada,Todo Aprobado,Ejecución de pedido de artículo 22580,Enviado,F,0143/026,0,0,31/03/2025,FELICI JORGE ARIEL,394418,86.1%,.00,T,1Tu2Pr5C
 40687,9402185 MONCHAMP INDUSTRIAS SRL,Facturada,Todo Aprobado,Ejecución de pedido de artículo 22592,Enviado,F,MVAQUA180,0,0,31/03/2025,ALMAR ROSARIO SRL,404883,34.2%,.00,T,7Ck6Zj2S
 40758,3598 DEL VALLE EMBALAJES SRL,Facturada,Todo Aprobado,Ejecución de pedido de artículo 22593,Enviado,F,PPAR15096T,0,0,31/03/2025,RICARDO PIERONI,410930,59.3%,.00,T,0Ph8Mv3F
-40866,9400536 MILKAUT SA,Facturada,Todo Aprobado,Ejecución de pedido de artículo 22576,Enviado,F,PPHR15048XT,0,0,31/03/2025,RICARDO PIERONI,417414,46.5%,.00,T,8Ny2Or7G
 40866,9400536 MILKAUT SA,Facturada,Todo Aprobado,Ejecución de pedido de artículo 22589,Enviado,F,PPHR15048XT,0,0,31/03/2025,RICARDO PIERONI,417414,46.5%,.00,T,8Ny2Or7G
+40866,9400536 MILKAUT SA,Facturada,Todo Aprobado,Ejecución de pedido de artículo 22576,Enviado,F,PPHR15048XT,0,0,31/03/2025,RICARDO PIERONI,417414,46.5%,.00,T,8Ny2Or7G
 40893,655 SWIFT SA ARGENTINA,Facturada,Todo Aprobado,Ejecución de pedido de artículo 22586,Enviado,F,PPAR10048T,0,0,31/03/2025,RICARDO PIERONI,419232,64.9%,.00,T,8Wb3Xi2L
 40896,9402059 BUENA PROA SA,Facturada,Todo Aprobado,Ejecución de pedido de artículo 22579,Enviado,F,9402059/002,0,0,31/03/2025,TRANSPORTE TOMASSINI,419605,43.6%,.00,T,5Ym6Nh1E
 40896,9402059 BUENA PROA SA,Facturada,Todo Aprobado,Ejecución de pedido de artículo 22579,Enviado,F,9402059/001,0,0,31/03/2025,TRANSPORTE TOMASSINI,419605,36.5%,.00,T,5Ym6Nh1E
@@ -186,8 +186,8 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 40951,969 COTO C.I.C.S.A.,Parcialmente ejecutada,Todo Aprobado,Ejecución de pedido de artículo 22610,Enviado,F,PPA1048T040,0,0,04/04/2025,BARRY LATIMER,423132,0.0%,.00,T,8Os9Yf5O
 40951,969 COTO C.I.C.S.A.,Parcialmente ejecutada,Todo Aprobado,Ejecución de pedido de artículo 22609,Enviado,F,PPA1048T040,0,0,04/04/2025,BARRY LATIMER,423132,0.0%,.00,T,8Os9Yf5O
 40951,969 COTO C.I.C.S.A.,Parcialmente ejecutada,Todo Aprobado,Factura de venta 36923,Pagado por completo,F,PPAR10048T,0,2,04/04/2025,BARRY LATIMER,423132,0.0%,.00,,8Os9Yf5O
-40951,969 COTO C.I.C.S.A.,Parcialmente ejecutada,Todo Aprobado,Ejecución de pedido de artículo 22610,Enviado,F,PPHR15048XT,0,0,04/04/2025,BARRY LATIMER,423132,0.0%,.00,T,8Os9Yf5O
 40951,969 COTO C.I.C.S.A.,Parcialmente ejecutada,Todo Aprobado,Ejecución de pedido de artículo 22609,Enviado,F,PPHR15048XT,0,0,04/04/2025,BARRY LATIMER,423132,0.0%,.00,T,8Os9Yf5O
+40951,969 COTO C.I.C.S.A.,Parcialmente ejecutada,Todo Aprobado,Ejecución de pedido de artículo 22610,Enviado,F,PPHR15048XT,0,0,04/04/2025,BARRY LATIMER,423132,0.0%,.00,T,8Os9Yf5O
 40952,4586 LIGNUM SA,Facturada,Todo Aprobado,Ejecución de pedido de artículo 22611,Enviado,F,PVC618R,0,0,04/04/2025,EXPRESO CARGO SA,423133,70.0%,.00,T,7Cb8Sw3V
 40953,3029 DARK SRL,Facturada,Todo Aprobado,Ejecución de pedido de artículo 22606,Enviado,F,PPAR1048T,0,0,04/04/2025,RICARDO PIERONI,423237,50.0%,.00,T,7Va0Bu1J
 40954,4435 TUTTO PORKY S SRL,Facturada,Todo Aprobado,Ejecución de pedido de artículo 22605,Enviado,F,PPAR1048T,0,0,04/04/2025,TRANSPORTE SNAIDER,423238,39.6%,.00,T,1Cp3Rq7P
@@ -342,6 +342,8 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 41014,12662 PRINTEMPS S.R.L.,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Ensamblada,F,04965-00176-00,144,0,17/04/2025,RICARDO PIERONI,426707,53.3%,2105.28,,2Sp0Fe1F
 41014,12662 PRINTEMPS S.R.L.,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Liberada,F,2662/004,0,300,17/04/2025,RICARDO PIERONI,426707,58.5%,1026.00,,2Sp0Fe1F
 41058,4 BEROWOOD SRL,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Ensamblada,F,PPA1048F,108,0,17/04/2025,RICARDO PIERONI,429358,50.6%,302.40,,8El3Qk6P
+41064,629 INDUSTRIAS QUIMICAS BG SRL,Ejecución de la orden pendiente,Todo Aprobado, ,,F,CH5235,80,0,17/04/2025,RICARDO PIERONI,429654,59.4%,508.80,,0Ze2Hm4P
+41064,629 INDUSTRIAS QUIMICAS BG SRL,Ejecución de la orden pendiente,Todo Aprobado, ,,F,PPAR1048T,72,0,17/04/2025,RICARDO PIERONI,429654,49.1%,77.76,,0Ze2Hm4P
 40984,1171 AUTOSAL SA,Ejecución de la orden pendiente,Todo Aprobado, ,,F,PPAR1072T,192,0,21/04/2025,EXPRESO CARGO SA,424816,38.8%,266.88,,2Uv7Bb0L
 41005,4089 SOBRERO Y CAGNOLO SA,Ejecución de la orden pendiente,Todo Aprobado, ,,F,PPAR1048T,504,0,21/04/2025,RICARDO PIERONI,426171,39.6%,458.64,,9Or7Px4G
 41045,9400682 EDERA S.A.,Ejecución de la orden pendiente,Todo Aprobado, ,,F,PPAR512T,1.440,0,21/04/2025,RETIRAN,428878,-20.0%,144.00,,8Qk2Bm4T
