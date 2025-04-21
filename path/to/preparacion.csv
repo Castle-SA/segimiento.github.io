@@ -220,8 +220,8 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 41016,346 DOS HERMANOS S.A,Facturada,Todo Aprobado,Ejecución de pedido de artículo 22664,Enviado,F,PPAR10072T,0,0,10/04/2025,TRANSPORTE DE CARGAS MORENO SRL,426820,69.4%,.00,T,2Pi6Wv1H
 40949,831 COLFER INDUSTRIAL SH,Facturada,Todo Aprobado,Ejecución de pedido de artículo 22672,Enviado,F,MTP548B,0,0,11/04/2025,EXPRESO CARGO SA,422921,32.0%,.00,T,2Cu4Bb2H
 40950,9401445 HILOS PLASTICOS SA,Facturada,Todo Aprobado,Ejecución de pedido de artículo 22675,Enviado,F,PVC648R,0,0,11/04/2025,RETIRAN,423131,-94.1%,.00,T,4Fo7Im4B
-40970,132 MAHLE VALVULAS DE ARGENTINA SA,Parcialmente ejecutada,Todo Aprobado,Factura de venta 36977,Abierta,F,MVAQUA203V,0,200,11/04/2025,EXPRESO SANTA ROSA,424218,46.8%,1972.00,,6Ls2Pd3Q
 40970,132 MAHLE VALVULAS DE ARGENTINA SA,Parcialmente ejecutada,Todo Aprobado,Ejecución de pedido de artículo 22674,Enviado,F,MVAQUA203V,0,200,11/04/2025,EXPRESO SANTA ROSA,424218,46.8%,1972.00,T,6Ls2Pd3Q
+40970,132 MAHLE VALVULAS DE ARGENTINA SA,Parcialmente ejecutada,Todo Aprobado,Factura de venta 36977,Abierta,F,MVAQUA203V,0,200,11/04/2025,EXPRESO SANTA ROSA,424218,46.8%,1972.00,,6Ls2Pd3Q
 40991,4188 DOMITEC SA,Facturada,Todo Aprobado,Ejecución de pedido de artículo 22669,Enviado,F,CAS-PPHR10048B,0,0,11/04/2025,TRANSPORTE SNAIDER,425406,43.0%,.00,T,4Md8Pr6J
 41018,3060 AVICOLA TELOS SA,Facturada,Todo Aprobado,Ejecución de pedido de artículo 22676,Enviado,F,PPA1548TE,0,0,11/04/2025,TRANSPORTE SONGINI,426821,39.7%,.00,T,7Un2Ij7V
 41018,3060 AVICOLA TELOS SA,Facturada,Todo Aprobado,Ejecución de pedido de artículo 22676,Enviado,F,H11/CPE,0,0,11/04/2025,TRANSPORTE SONGINI,426821,0.0%,.00,T,7Un2Ij7V
@@ -230,11 +230,6 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 41020,9400716 RAFAELA ALIMENTOS SA,Facturada,Todo Aprobado,Ejecución de pedido de artículo 22677,Enviado,F,PPAR15048T,0,0,11/04/2025,EXPRESO SANTA ROSA,427036,42.2%,.00,T,8Ej8At4Q
 41023,9400115 BEST COLD SRL,Facturada,Todo Aprobado,Ejecución de pedido de artículo 22670,Enviado,F,MTS518B,0,0,11/04/2025,ALMAR ROSARIO SRL,427182,30.1%,.00,T,8Xq9Re2A
 40712,94010 VISUAR SA,Facturada,Todo Aprobado,Ejecución de pedido de artículo 22687,Enviado,F,1823/002,0,0,14/04/2025,EXPRESO CARGO SA,406791,56.0%,.00,T,4Gf8Oa0H
-41008,3089 ARNEG ARGENTINA S.A.,Parcialmente ejecutada,Todo Aprobado,Ejecución de pedido de artículo 22685,Enviado,F,3089/040,0,0,14/04/2025,FELICI JORGE ARIEL,426361,99.4%,.00,T,7Rx7Ub2H
-41008,3089 ARNEG ARGENTINA S.A.,Parcialmente ejecutada,Todo Aprobado,Ejecución de pedido de artículo 22686,Enviado,F,3089/078,0,0,14/04/2025,FELICI JORGE ARIEL,426361,60.7%,.00,T,7Rx7Ub2H
-41008,3089 ARNEG ARGENTINA S.A.,Parcialmente ejecutada,Todo Aprobado,Ejecución de pedido de artículo 22686,Enviado,F,3089/079,0,0,14/04/2025,FELICI JORGE ARIEL,426361,63.8%,.00,T,7Rx7Ub2H
-41008,3089 ARNEG ARGENTINA S.A.,Parcialmente ejecutada,Todo Aprobado,Ejecución de pedido de artículo 22686,Enviado,F,3089/080,0,124000,14/04/2025,FELICI JORGE ARIEL,426361,62.3%,12648.00,T,7Rx7Ub2H
-41008,3089 ARNEG ARGENTINA S.A.,Parcialmente ejecutada,Todo Aprobado,Ejecución de pedido de artículo 22686,Enviado,F,3089/029,0,0,14/04/2025,FELICI JORGE ARIEL,426361,88.4%,.00,T,7Rx7Ub2H
 41012,Marido 4884 METALURGICA SAN PATRICIO S H,Facturada,Todo Aprobado,Ejecución de pedido de artículo 22684,Enviado,F,PVC612A,0,0,14/04/2025,EXPRESO CARGO SA,426473,86.5%,.00,T,4Gq8Ju7U
 41015,9402267 SORIANO HNOS S A C E I,Facturada,Todo Aprobado,Ejecución de pedido de artículo 22688,Enviado,F,07063-00018-24,0,0,14/04/2025,EXPRESO CARGO SA,426819,35.2%,.00,T,8Hy2Vk9Q
 41022,60 INGERSOLL ARGENTINA S.A.,Ejecución de la orden pendiente,Todo Aprobado, ,,F,0060/001,50,50,14/04/2025,TRANSPORTE TRAVERSO,427037,83.9%,1240.00,,2Df5Fp8J
@@ -331,4 +326,3 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 40925,3089 ARNEG ARGENTINA S.A.,Parcialmente ejecutada,Todo Aprobado,Orden de trabajo ,Ensamblada,F,3089/017,0,0,,FELICI JORGE ARIEL,421296,72.4%,-96.00,,7Rx7Ub2H
 40959,9401820 MEI GROUP PTY LTD SUC ARG,Ejecución de la orden pendiente,Todo Aprobado, ,,F,TERM420,0,114,,EXPRESO CARGO SA,423407,64.1%,1026.00,,6Fv1Ea4E
 40964,3096 FRECICAR SRL,Parcialmente ejecutada,Todo Aprobado,Orden de trabajo ,Liberada,F,3096/004,0,504,,RICARDO PIERONI,423848,61.5%,907.20,,9Zc0Jy4O
-41008,3089 ARNEG ARGENTINA S.A.,Parcialmente ejecutada,Todo Aprobado,Orden de trabajo ,En curso,F,3089/080,0,124000,,FELICI JORGE ARIEL,426361,62.3%,12648.00,,7Rx7Ub2H
