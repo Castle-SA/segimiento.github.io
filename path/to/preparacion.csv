@@ -112,11 +112,11 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 40951,969 COTO C.I.C.S.A.,Parcialmente ejecutada,Todo Aprobado,Factura de venta 36923,Pagado por completo,F,PPAR524T,0,1,04/04/2025,BARRY LATIMER,423132,100.0%,.00,,8Os9Yf5O
 40951,969 COTO C.I.C.S.A.,Parcialmente ejecutada,Todo Aprobado,Ejecución de pedido de artículo 22609,Enviado,F,PPAR1048T,0,0,04/04/2025,BARRY LATIMER,423132,0.0%,.00,T,8Os9Yf5O
 40951,969 COTO C.I.C.S.A.,Parcialmente ejecutada,Todo Aprobado,Ejecución de pedido de artículo 22609,Enviado,F,PPAR1072T,0,0,04/04/2025,BARRY LATIMER,423132,0.0%,.00,T,8Os9Yf5O
-40951,969 COTO C.I.C.S.A.,Parcialmente ejecutada,Todo Aprobado,Ejecución de pedido de artículo 22609,Enviado,F,PPA1048T040,0,0,04/04/2025,BARRY LATIMER,423132,0.0%,.00,T,8Os9Yf5O
 40951,969 COTO C.I.C.S.A.,Parcialmente ejecutada,Todo Aprobado,Ejecución de pedido de artículo 22610,Enviado,F,PPA1048T040,0,0,04/04/2025,BARRY LATIMER,423132,0.0%,.00,T,8Os9Yf5O
+40951,969 COTO C.I.C.S.A.,Parcialmente ejecutada,Todo Aprobado,Ejecución de pedido de artículo 22609,Enviado,F,PPA1048T040,0,0,04/04/2025,BARRY LATIMER,423132,0.0%,.00,T,8Os9Yf5O
 40951,969 COTO C.I.C.S.A.,Parcialmente ejecutada,Todo Aprobado,Factura de venta 36923,Pagado por completo,F,PPAR10048T,0,2,04/04/2025,BARRY LATIMER,423132,0.0%,.00,,8Os9Yf5O
-40951,969 COTO C.I.C.S.A.,Parcialmente ejecutada,Todo Aprobado,Ejecución de pedido de artículo 22610,Enviado,F,PPHR15048XT,0,0,04/04/2025,BARRY LATIMER,423132,0.0%,.00,T,8Os9Yf5O
 40951,969 COTO C.I.C.S.A.,Parcialmente ejecutada,Todo Aprobado,Ejecución de pedido de artículo 22609,Enviado,F,PPHR15048XT,0,0,04/04/2025,BARRY LATIMER,423132,0.0%,.00,T,8Os9Yf5O
+40951,969 COTO C.I.C.S.A.,Parcialmente ejecutada,Todo Aprobado,Ejecución de pedido de artículo 22610,Enviado,F,PPHR15048XT,0,0,04/04/2025,BARRY LATIMER,423132,0.0%,.00,T,8Os9Yf5O
 40952,4586 LIGNUM SA,Facturada,Todo Aprobado,Ejecución de pedido de artículo 22611,Enviado,F,PVC618R,0,0,04/04/2025,EXPRESO CARGO SA,423133,70.0%,.00,T,7Cb8Sw3V
 40953,3029 DARK SRL,Facturada,Todo Aprobado,Ejecución de pedido de artículo 22606,Enviado,F,PPAR1048T,0,0,04/04/2025,RICARDO PIERONI,423237,50.0%,.00,T,7Va0Bu1J
 40954,4435 TUTTO PORKY S SRL,Facturada,Todo Aprobado,Ejecución de pedido de artículo 22605,Enviado,F,PPAR1048T,0,0,04/04/2025,TRANSPORTE SNAIDER,423238,39.6%,.00,T,1Cp3Rq7P
@@ -284,7 +284,7 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 41080,2106 AGRANA FRUIT ARGENTINA SA,Facturada,Todo Aprobado,Ejecución de pedido de artículo 22723,Enviado,F,CAS-PPAR1048T043,0,0,21/04/2025,TRANSPORTE RAOSA SRL,430575,48.2%,.00,T,0Gm2Go6L
 41079,4018 LHERITIER ARGENTINA SA,Facturada,Todo Aprobado,Ejecución de pedido de artículo 22722,Enviado,F,CAS-PPA1048T040,0,0,21/04/2025,TRANSPORTE PEDRITO,430676,58.5%,.00,T,0Ef7Np9L
 41027,15 IND. JOHN DEERE ARGENTINA S.A.,Ejecución de la orden pendiente,Todo Aprobado,Pedido ,Recepción pendiente,T,0015/016,0,5,22/04/2025,FELICI JORGE ARIEL,427682,65.3%,565.00,,8Ky5Hq9D
-41050,3089 ARNEG ARGENTINA S.A.,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Ensamblada,F,3089/082,5000,0,22/04/2025,FELICI JORGE ARIEL,428998,72.9%,11020.00,,7Rx7Ub2H
+41050,3089 ARNEG ARGENTINA S.A.,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Ensamblada,F,3089/082,5.000,0,22/04/2025,FELICI JORGE ARIEL,428998,72.9%,11020.00,,7Rx7Ub2H
 41071,9402413 SCARPIGNATO S.A.S.,Facturada,Todo Aprobado,Ejecución de pedido de artículo 22730,Enviado,F,CAS-PPAR10048T047,0,0,22/04/2025,RICARDO PIERONI,430199,55.8%,.00,T,
 41073,9401929 PETROPACK S.A.,Facturada,Todo Aprobado,Ejecución de pedido de artículo 22727,Enviado,F,PPAR1048M,0,0,22/04/2025,TRANSPORTE MOSTTO,430322,24.2%,.00,T,8Ou2Yz9L
 41073,9401929 PETROPACK S.A.,Facturada,Todo Aprobado,Ejecución de pedido de artículo 22727,Enviado,F,PPAR100144T,0,0,22/04/2025,TRANSPORTE MOSTTO,430322,39.6%,.00,T,8Ou2Yz9L
@@ -306,7 +306,7 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 41094,9400096 REBOZADOS HORNEADOS SA,Facturada,Todo Aprobado,Ejecución de pedido de artículo 22735,Enviado,F,PPA1548TE,0,0,23/04/2025,TRANSPORTE TOMASSINI,431044,44.6%,.00,T,3Kh9Hu5P
 41095,88 LACTEOS PUYEHUE S.R.L.,Facturada,Todo Aprobado,Ejecución de pedido de artículo 22736,Enviado,F,PPAR15048T,0,0,23/04/2025,RICARDO PIERONI,431169,51.0%,.00,T,2Cq0Kg9P
 41095,88 LACTEOS PUYEHUE S.R.L.,Facturada,Todo Aprobado,Ejecución de pedido de artículo 22736,Enviado,F,PPA1548TE,0,0,23/04/2025,RICARDO PIERONI,431169,55.3%,.00,T,2Cq0Kg9P
-41109,1412 F R I A R SA,Facturación pendiente,Todo Aprobado,Ejecución de pedido de artículo 22739,Enviado,F,PPAR1072T,0,0,23/04/2025,RICARDO PIERONI,432474,0.0%,.00,F,1Vf8Uo1P
+41109,1412 F R I A R SA,Facturada,Todo Aprobado,Ejecución de pedido de artículo 22739,Enviado,F,PPAR1072T,0,0,23/04/2025,RICARDO PIERONI,432474,0.0%,.00,T,1Vf8Uo1P
 41103,86 EST GRAFICO IMPRESORES SA,Ejecución de la orden pendiente,Todo Aprobado, ,,F,H11/48,15,0,24/04/2025,EXPRESO CARGO SA,431439,45.4%,331.50,,9Xw3Zi2V
 41101,1067 DIPAC SA,Ejecución de la orden pendiente,Todo Aprobado, ,,F,PPAR1048T,720,0,24/04/2025,RICARDO PIERONI,431744,52.6%,720.00,,9Tj7Li2O
 41101,1067 DIPAC SA,Ejecución de la orden pendiente,Todo Aprobado, ,,F,PPAR524T,0,2160,24/04/2025,RICARDO PIERONI,431744,60.3%,540.00,,9Tj7Li2O
@@ -316,7 +316,7 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 41047,2515 CONGELADOS ARTICO SA,Ejecución de la orden pendiente,Todo Aprobado, ,,F,PPAR1072T,720,0,28/04/2025,TRANSPORTE TOMASSINI,428880,34.7%,1058.40,,8Rn3En3G
 41047,2515 CONGELADOS ARTICO SA,Ejecución de la orden pendiente,Todo Aprobado, ,,F,CAS-PPAR10048T047,48,12,28/04/2025,TRANSPORTE TOMASSINI,428880,57.8%,677.40,,8Rn3En3G
 41075,3089 ARNEG ARGENTINA S.A.,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Liberada,F,3089/029,0,40000,28/04/2025,FELICI JORGE ARIEL,430455,89.2%,1360.00,,7Rx7Ub2H
-41075,3089 ARNEG ARGENTINA S.A.,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Ensamblada,F,3089/068,10000,0,28/04/2025,FELICI JORGE ARIEL,430455,70.5%,2570.00,,7Rx7Ub2H
+41075,3089 ARNEG ARGENTINA S.A.,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Ensamblada,F,3089/068,10.000,0,28/04/2025,FELICI JORGE ARIEL,430455,70.5%,2570.00,,7Rx7Ub2H
 41105,9400816 MORELLI SRL,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Liberada,F,04970-00048-00,0,30,28/04/2025,RICARDO PIERONI,431954,31.4%,1080.00,,2Au6Re6F
 41053,396 IPROA SA,Ejecución de la orden pendiente,Todo Aprobado, ,,F,PPAR1048T,144,0,29/04/2025,RICARDO PIERONI,429126,60.7%,201.60,,2Sr2Wv3Z
 41053,396 IPROA SA,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Ensamblada,F,04965-00176-00,70,0,29/04/2025,RICARDO PIERONI,429126,56.9%,1190.00,,2Sr2Wv3Z
@@ -336,7 +336,7 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 41034,9400536 MILKAUT SA,Ejecución de la orden pendiente,Todo Aprobado, ,,F,PPHR15048XT,342,0,30/04/2025,RICARDO PIERONI,428165,46.5%,8173.80,,8Ny2Or7G
 41060,12877 BRIKET SA,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Liberada,F,0272/004,0,300,30/04/2025,ALMAR ROSARIO SRL,429522,33.9%,3675.00,,6Rp2Ce7I
 41060,12877 BRIKET SA,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Ensamblada,F,PVC615A,912,0,30/04/2025,ALMAR ROSARIO SRL,429522,56.7%,1349.76,,6Rp2Ce7I
-41076,202 FRIGORIFICO DE AVES SOYCHU SA,Ejecución de la orden pendiente,Todo Aprobado, ,,F,CAS-PPAR1048T040,0,1.080,30/04/2025,EXPRESO CARGO SA,430459,52.6%,756.00,,5Ow8Cg8A
+41076,202 FRIGORIFICO DE AVES SOYCHU SA,Ejecución de la orden pendiente,Todo Aprobado, ,,F,CAS-PPAR1048T040,0,1080,30/04/2025,EXPRESO CARGO SA,430459,52.6%,756.00,,5Ow8Cg8A
 41082,1418 MAPSA SRL,Ejecución de la orden pendiente,Todo Aprobado, ,,F,PPAR15048T,60,0,30/04/2025,RICARDO PIERONI,430577,48.8%,894.00,,4Mb1Np8W
 41041,9402347 GL SA,Ejecución de la orden pendiente,Todo Aprobado, ,,F,PPAR1072T,360,0,02/05/2025,TRANSPORTE ÑANDUBAY SA,428631,22.7%,396.00,,
 41041,9402347 GL SA,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Liberada,F,2492/001,0,1080,02/05/2025,TRANSPORTE ÑANDUBAY SA,428631,46.7%,1382.40,,
@@ -349,7 +349,7 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 41032,3089 ARNEG ARGENTINA S.A.,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Ensamblada,F,3089/035,10,0,23/05/2025,ALMAR ROSARIO SRL,427815,88.4%,577.66,,7Rx7Ub2H
 41032,3089 ARNEG ARGENTINA S.A.,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Ensamblada,F,3089/034,10,0,23/05/2025,ALMAR ROSARIO SRL,427815,88.5%,1456.12,,7Rx7Ub2H
 40434,812 SYSTEL SA,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Liberada,F,07063-00012-16,0,5,28/05/2025,EXPRESO CARGO SA,386405,60.9%,174.25,,6Ll4Vl5M
-41077,202 FRIGORIFICO DE AVES SOYCHU SA,Ejecución de la orden pendiente,Todo Aprobado, ,,F,CAS-PPAR1048T040,0,1008,02/06/2025,EXPRESO CARGO SA,430560,52.6%,705.60,,5Ow8Cg8A
+41077,202 FRIGORIFICO DE AVES SOYCHU SA,Ejecución de la orden pendiente,Todo Aprobado, ,,F,CAS-PPAR1048T040,0,1.008,02/06/2025,EXPRESO CARGO SA,430560,52.6%,705.60,,5Ow8Cg8A
 40890,583 TERRAGENE SA,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Liberada,F,04965-00014-00,0,150,10/06/2025,RICARDO PIERONI,419051,43.7%,7500.00,,5Pl6Eg8H
 41061,279 HONDA MOTOR DE ARGENTINA S.A.,Ejecución de la orden pendiente,Todo Aprobado, ,,F,04169-00058-93,10,0,10/06/2025,EXPRESO CARGO SA,429523,52.4%,257.248,,1Rf6Ez5C
 39934,67 FORD ARGENTINA S.C.A.,Ejecución de la orden pendiente,Todo Aprobado, ,,F,BV002,11604,28096,23/06/2025,ALMAR ROSARIO SRL,346461,66.7%,344596.00,,0Bz8Ix7O
