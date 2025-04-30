@@ -259,8 +259,7 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 41112,894 R.V.ZACCHINO S.A.,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 22752,Remitido,F,PPAR1048T,0,0,25/04/2025,RICARDO PIERONI,432590,67.3%,540.00,T,9Ik1Jj1Q
 41112,894 R.V.ZACCHINO S.A.,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 22752,Remitido,F,PPAR1048M,0,0,25/04/2025,RICARDO PIERONI,432590,58.7%,540.00,T,9Ik1Jj1Q
 41047,2515 CONGELADOS ARTICO SA,Parcialmente ejecutada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 22774,Remitido,F,PPAR1072T,0,0,28/04/2025,TRANSPORTE TOMASSINI,428880,34.7%,1058.40,T,8Rn3En3G
-41047,2515 CONGELADOS ARTICO SA,Parcialmente ejecutada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 22774,Remitido,F,CAS-PPAR10048T047,0,12,28/04/2025,TRANSPORTE TOMASSINI,428880,57.8%,541.92,T,8Rn3En3G
-41047,2515 CONGELADOS ARTICO SA,Parcialmente ejecutada,Todo Aprobado,Factura de venta 37081,Abierta,F,CAS-PPAR10048T047,0,12,28/04/2025,TRANSPORTE TOMASSINI,428880,57.8%,135.48,,8Rn3En3G
+41047,2515 CONGELADOS ARTICO SA,Parcialmente ejecutada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 22774,Remitido,F,CAS-PPAR10048T047,12,0,28/04/2025,TRANSPORTE TOMASSINI,428880,57.8%,541.92,T,8Rn3En3G
 41060,12877 BRIKET SA,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 22780,Remitido,F,0272/004,0,0,28/04/2025,ALMAR ROSARIO SRL,429522,33.9%,3675.00,T,6Rp2Ce7I
 41060,12877 BRIKET SA,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 22780,Remitido,F,PVC615A,0,0,28/04/2025,ALMAR ROSARIO SRL,429522,56.7%,1349.76,T,6Rp2Ce7I
 41075,3089 ARNEG ARGENTINA S.A.,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 22779,Remitido,F,3089/068,0,0,28/04/2025,FELICI JORGE ARIEL,430455,70.5%,2698.50,T,7Rx7Ub2H
@@ -314,6 +313,7 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 41125,105 SCANIA ARGENTINA SAU,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 22803,Remitido,F,LC579,0,0,30/04/2025,LA SEVILLANITA SRL,433317,54.8%,3720.00,T,2Yb2Zq5E
 41131,1029 DREAN SA,Ejecución de la orden pendiente,Todo Aprobado, ,,F,MTP548B,0,1008,30/04/2025,EXPRESO CARGO SA,433576,38.2%,1965.60,,6Ng7Hp1X
 41132,1029 DREAN SA,Ejecución de la orden pendiente,Todo Aprobado, ,,F,MTP548B,0,1008,30/04/2025,EXPRESO CARGO SA,433577,38.2%,1965.60,,6Ng7Hp1X
+41145,2410 LUIS SOLIMENO E HIJOS SA,Facturación pendiente,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 22819,Remitido,F,CAS-PPAR10048T047,0,0,30/04/2025,TRANSPORTE TOMASSINI,433935,48.9%,3362.40,F,3Gh0Ze9O
 41146,827 GONVARRI ARGENTINA SA,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 22801,Remitido,F,FLJSPET12016V,0,0,30/04/2025,EXPRESO CARGO SA,433936,11.1%,900.00,T,6Mv2Lk5E
 41147,9400677 SABORES DE CAÑUELAS S.R.L.,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 22815,Remitido,F,PPAR15048T,0,0,30/04/2025,FELICI JORGE ARIEL,434056,46.1%,849.00,T,7Gf9On6L
 41161,4329 COMPANIA ELABORADORA DE PASTAS SA,Ejecución de la orden pendiente,Todo Aprobado, ,,F,CAS-PPAR1048T043,36,0,30/04/2025,RETIRAN,435011,52.5%,35.64,,0Un8Nt2U
@@ -325,6 +325,7 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 41159,9400155 FORMATO S.A.,Ejecución de la orden pendiente,Todo Aprobado, ,,F,CAS-PPA1048T040,0,1,01/05/2025,EXPRESO CARGO SA,434963,0.0%,.00,,7Tv4Pl2O
 41159,9400155 FORMATO S.A.,Ejecución de la orden pendiente,Todo Aprobado, ,,F,PPAR512T,1,0,01/05/2025,EXPRESO CARGO SA,434963,0.0%,.00,,7Tv4Pl2O
 41172,722 EXPORTADOR DE HAMBURGUESAS ARGENTINAS SA,Ejecución de la orden pendiente,Todo Aprobado, ,,F,PPAR10048T,0,30,01/05/2025,EXPRESO CARGO SA,435469,33.6%,316.20,,4Fk9Bq4S
+41178,4342 SAINT-GOBAIN ARGENTINA SA,Ejecución de la orden pendiente,Todo Aprobado, ,,F,CAS-PPAR10072T045,0,500,02/05/2025,EXPRESO CARGO SA,435877,68.9%,7450.00,,1Kv2St0L
 37686,3096 FRECICAR SRL,Ejecución de la orden pendiente,Todo Aprobado, ,,F,52330-00040-00,7,0,05/05/2025,RICARDO PIERONI,253467,51.4%,3010.00,,9Zc0Jy4O
 41113,3051 FRIMETAL S.A.,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Ensamblada,F,1823/002,100,0,05/05/2025,FELICI JORGE ARIEL,432700,36.3%,2.577.436,,3Dw0Uk2K
 41152,3089 ARNEG ARGENTINA S.A.,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Liberada,F,3089/021,0,20000,05/05/2025,RICARDO PIERONI,434061,66.6%,1140.00,,7Rx7Ub2H
@@ -332,6 +333,8 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 41152,3089 ARNEG ARGENTINA S.A.,Ejecución de la orden pendiente,Todo Aprobado, ,,F,PER3040U,300,0,05/05/2025,RICARDO PIERONI,434061,63.7%,555.90,,7Rx7Ub2H
 41152,3089 ARNEG ARGENTINA S.A.,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Liberada,F,3089/034,0,10,05/05/2025,RICARDO PIERONI,434061,90.0%,1456.12,,7Rx7Ub2H
 41160,3676 FRIGORIFICO MARK SA,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Liberada,F,PVC612R,0,432,05/05/2025,RETIRAN,435010,68.2%,868.32,,2Nw2Uj9H
+41176,202 FRIGORIFICO DE AVES SOYCHU SA,Ejecución de la orden pendiente,Todo Aprobado, ,,F,CAS-PPA1048T040,0,2160,05/05/2025,EXPRESO CARGO SA,435756,38.8%,1512.00,,5Ow8Cg8A
+41179,9400868 SINTARYC S A I C,Ejecución de la orden pendiente,Todo Aprobado, ,,F,PPHR15048XT,4,0,05/05/2025,EXPRESO CARGO SA,435881,0.0%,.00,,9Gs4Xo3J
 41090,814 OBLAK HNOS SACIFI,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Ensamblada,F,07063-00001-24,100,0,06/05/2025,EXPRESO CARGO SA,430743,31.4%,815.00,,1Hy0Vd3I
 41162,3051 FRIMETAL S.A.,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Liberada,F,07055-00007-22,0,108,06/05/2025,FELICI JORGE ARIEL,435012,58.4%,1.752.618,,3Dw0Uk2K
 41162,3051 FRIMETAL S.A.,Ejecución de la orden pendiente,Todo Aprobado, ,,F,PPAR1048M,252,0,06/05/2025,FELICI JORGE ARIEL,435012,37.5%,266.40,,3Dw0Uk2K
@@ -372,7 +375,6 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 41118,202 FRIGORIFICO DE AVES SOYCHU SA,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Liberada,F,PVC612R,0,720,,EXPRESO CARGO SA,432921,49.1%,900.00,,5Ow8Cg8A
 41115,132 MAHLE VALVULAS DE ARGENTINA SA,Parcialmente ejecutada,Todo Aprobado,Orden de trabajo ,Liberada,F,3351/001,0,10000,,EXPRESO SANTA ROSA,433082,97.1%,1370.00,,6Ls2Pd3Q
 41128,3894 SOSTRE FERNANDO,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Liberada,F,CAS-PPA1048T040,0,3240,,EXPRESO CARGO SA,433440,27.4%,1911.60,,6Ui3Rq6T
-41145,2410 LUIS SOLIMENO E HIJOS SA,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Liberada,F,CAS-PPAR10048T047,0,360,,TRANSPORTE TOMASSINI,433935,48.9%,3362.40,,3Gh0Ze9O
 41148,12706 LA GAUCHITA SACI,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Liberada,F,CAS-PPAR1048T040,0,3500,,RICARDO PIERONI,433937,30.9%,2380.00,,0Pq7Yr6O
 41149,3598 DEL VALLE EMBALAJES SRL,Ejecución de la orden pendiente,Todo Aprobado, ,,F,PPAR1024T,0,720,,ALMAR ROSARIO SRL,433938,-45.8%,345.60,,0Ph8Mv3F
 41149,3598 DEL VALLE EMBALAJES SRL,Ejecución de la orden pendiente,Todo Aprobado, ,,F,CAS-PPAR1048T043,3204,396,,ALMAR ROSARIO SRL,433938,38.9%,2772.00,,0Ph8Mv3F
