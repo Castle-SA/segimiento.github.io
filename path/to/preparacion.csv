@@ -127,8 +127,8 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 41016,346 DOS HERMANOS S.A,Facturada,Todo Aprobado,Ejecución de pedido de artículo 22664,Enviado,F,PPAR10072T,0,0,10/04/2025,TRANSPORTE DE CARGAS MORENO SRL,426820,69.4%,.00,T,2Pi6Wv1H
 40949,831 COLFER INDUSTRIAL SH,Facturada,Todo Aprobado,Ejecución de pedido de artículo 22672,Enviado,F,MTP548B,0,0,11/04/2025,EXPRESO CARGO SA,422921,32.0%,.00,T,2Cu4Bb2H
 40950,9401445 HILOS PLASTICOS SA,Facturada,Todo Aprobado,Ejecución de pedido de artículo 22675,Enviado,F,PVC648R,0,0,11/04/2025,RETIRAN,423131,-94.1%,.00,T,4Fo7Im4B
-40970,132 MAHLE VALVULAS DE ARGENTINA SA,Parcialmente ejecutada,Todo Aprobado,Ejecución de pedido de artículo 22674,Enviado,F,MVAQUA203V,0,200,11/04/2025,EXPRESO SANTA ROSA,424218,46.8%,1972.00,T,6Ls2Pd3Q
 40970,132 MAHLE VALVULAS DE ARGENTINA SA,Parcialmente ejecutada,Todo Aprobado,Factura de venta 36977,Abierta,F,MVAQUA203V,0,200,11/04/2025,EXPRESO SANTA ROSA,424218,46.8%,1972.00,,6Ls2Pd3Q
+40970,132 MAHLE VALVULAS DE ARGENTINA SA,Parcialmente ejecutada,Todo Aprobado,Ejecución de pedido de artículo 22674,Enviado,F,MVAQUA203V,0,200,11/04/2025,EXPRESO SANTA ROSA,424218,46.8%,1972.00,T,6Ls2Pd3Q
 40991,4188 DOMITEC SA,Facturada,Todo Aprobado,Ejecución de pedido de artículo 22669,Enviado,F,CAS-PPHR10048B,0,0,11/04/2025,TRANSPORTE SNAIDER,425406,43.0%,.00,T,4Md8Pr6J
 41018,3060 AVICOLA TELOS SA,Facturada,Todo Aprobado,Ejecución de pedido de artículo 22676,Enviado,F,PPA1548TE,0,0,11/04/2025,TRANSPORTE SONGINI,426821,39.7%,.00,T,7Un2Ij7V
 41018,3060 AVICOLA TELOS SA,Facturada,Todo Aprobado,Ejecución de pedido de artículo 22676,Enviado,F,H11/CPE,0,0,11/04/2025,TRANSPORTE SONGINI,426821,0.0%,.00,T,7Un2Ij7V
@@ -185,8 +185,8 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 41066,9400028 CAN METAL S.A.S.,Facturada,Todo Aprobado,Ejecución de pedido de artículo 22717,Enviado,F,PPA1548TE,0,0,21/04/2025,EXPRESO CARGO SA,429909,27.6%,.00,T,6Up5Bc5Z
 41067,6174 INDUSTRIAL SELEMA SRL,Facturada,Todo Aprobado,Ejecución de pedido de artículo 22715,Enviado,F,PER2633V,0,0,21/04/2025,RICARDO PIERONI,429910,97.8%,-170.00,T,8Zd4Xh7J
 41068,3046 ALTA ROTACION SRL,Facturada,Todo Aprobado,Ejecución de pedido de artículo 22718,Enviado,F,H11/CPE,0,0,21/04/2025,EXPRESO CARGO SA,429911,39.9%,.00,T,1Md0Cx2B
-41069,4782 OFFAL EXP SA,Facturación pendiente/parcialmente ejecutada,Todo Aprobado,Ejecución de pedido de artículo 22716,Enviado,F,PPAR10072T,0,72,21/04/2025,EXPRESO CARGO SA,429912,37.8%,1072.80,T,2Gq6Ps1R
-41069,4782 OFFAL EXP SA,Facturación pendiente/parcialmente ejecutada,Todo Aprobado,Factura de venta 37022,Abierta,F,PPAR10072T,0,72,21/04/2025,EXPRESO CARGO SA,429912,37.8%,1072.80,,2Gq6Ps1R
+41069,4782 OFFAL EXP SA,Parcialmente ejecutada,Todo Aprobado,Factura de venta 37022,Abierta,F,PPAR10072T,0,72,21/04/2025,EXPRESO CARGO SA,429912,37.8%,1072.80,,2Gq6Ps1R
+41069,4782 OFFAL EXP SA,Parcialmente ejecutada,Todo Aprobado,Ejecución de pedido de artículo 22716,Enviado,F,PPAR10072T,0,72,21/04/2025,EXPRESO CARGO SA,429912,37.8%,1072.80,T,2Gq6Ps1R
 41072,3771 PILISAR SA,Facturada,Todo Aprobado,Ejecución de pedido de artículo 22721,Enviado,F,MTP548B,0,0,21/04/2025,EXPRESO CARGO SA,430274,31.4%,.00,T,6Qa0Ib0C
 41080,2106 AGRANA FRUIT ARGENTINA SA,Facturada,Todo Aprobado,Ejecución de pedido de artículo 22723,Enviado,F,CAS-PPAR1048T043,0,0,21/04/2025,TRANSPORTE RAOSA SRL,430575,48.2%,.00,T,0Gm2Go6L
 41079,4018 LHERITIER ARGENTINA SA,Facturada,Todo Aprobado,Ejecución de pedido de artículo 22722,Enviado,F,CAS-PPA1048T040,0,0,21/04/2025,TRANSPORTE PEDRITO,430676,58.5%,.00,T,0Ef7Np9L
@@ -197,8 +197,8 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 41084,2673 XARDO SA,Facturada,Todo Aprobado,Ejecución de pedido de artículo 22732,Enviado,F,PPAR15048T,0,0,22/04/2025,EXPRESO CARGO SA,430579,46.2%,.00,T,5Qc6Ch2Q
 41085,9400609 PAN S COMPANY SA,Facturada,Todo Aprobado,Ejecución de pedido de artículo 22728,Enviado,F,PPHR15048XT,0,0,22/04/2025,EXPRESO CARGO SA,430739,41.9%,.00,T,9Qb8Fy5U
 41085,9400609 PAN S COMPANY SA,Facturada,Todo Aprobado,Ejecución de pedido de artículo 22728,Enviado,F,PPAR15048T,0,0,22/04/2025,EXPRESO CARGO SA,430739,45.5%,.00,T,9Qb8Fy5U
-41087,769 PROSEIND SA,Parcialmente ejecutada,Todo Aprobado,Ejecución de pedido de artículo 22729,Enviado,F,60950-00001-00,0,5,22/04/2025,RICARDO PIERONI,430741,61.9%,175.00,T,7Ii4Et8I
 41087,769 PROSEIND SA,Parcialmente ejecutada,Todo Aprobado,Factura de venta 37036,Abierta,F,60950-00001-00,0,5,22/04/2025,RICARDO PIERONI,430741,61.9%,175.00,,7Ii4Et8I
+41087,769 PROSEIND SA,Parcialmente ejecutada,Todo Aprobado,Ejecución de pedido de artículo 22729,Enviado,F,60950-00001-00,0,5,22/04/2025,RICARDO PIERONI,430741,61.9%,175.00,T,7Ii4Et8I
 41088,9400267 THE FRAGRANCE GROUP SRL,Facturada,Todo Aprobado,Ejecución de pedido de artículo 22733,Enviado,F,CAS-PPAR1048T043,0,0,22/04/2025,EXPRESO CARGO SA,430742,68.6%,.00,T,8Qr6Jo7G
 41092,9402267 SORIANO HNOS S A C E I,Facturada,Todo Aprobado,Ejecución de pedido de artículo 22731,Enviado,F,07063-00018-24,0,0,22/04/2025,EXPRESO CARGO SA,430940,32.9%,.00,T,8Hy2Vk9Q
 41097,4692 PRODUCTOS TINCHO SA,Facturada,Todo Aprobado,Ejecución de pedido de artículo 22734,Enviado,F,PPAR1048T,0,0,22/04/2025,BARRY LATIMER,431426,0.0%,.00,T,3Es2Zr6V
@@ -215,8 +215,8 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 41032,3089 ARNEG ARGENTINA S.A.,Facturada,Todo Aprobado,Ejecución de pedido de artículo 22744,Enviado,F,3089/035,0,0,24/04/2025,FELICI JORGE ARIEL,427815,88.4%,.00,T,7Rx7Ub2H
 41032,3089 ARNEG ARGENTINA S.A.,Facturada,Todo Aprobado,Ejecución de pedido de artículo 22744,Enviado,F,3089/034,0,0,24/04/2025,FELICI JORGE ARIEL,427815,88.5%,.00,T,7Rx7Ub2H
 41050,3089 ARNEG ARGENTINA S.A.,Facturada,Todo Aprobado,Ejecución de pedido de artículo 22747,Enviado,F,3089/082,0,0,24/04/2025,FELICI JORGE ARIEL,428998,72.9%,.00,T,7Rx7Ub2H
-41069,4782 OFFAL EXP SA,Facturación pendiente/parcialmente ejecutada,Todo Aprobado,Factura de venta 37049,Abierta,F,PPAR10072T,0,72,24/04/2025,EXPRESO CARGO SA,429912,37.8%,1072.80,,2Gq6Ps1R
-41069,4782 OFFAL EXP SA,Facturación pendiente/parcialmente ejecutada,Todo Aprobado,Ejecución de pedido de artículo 22743,Enviado,F,CAS-PPAR10048T047,0,0,24/04/2025,EXPRESO CARGO SA,429912,46.4%,.00,T,2Gq6Ps1R
+41069,4782 OFFAL EXP SA,Parcialmente ejecutada,Todo Aprobado,Factura de venta 37049,Abierta,F,PPAR10072T,0,72,24/04/2025,EXPRESO CARGO SA,429912,37.8%,1072.80,,2Gq6Ps1R
+41069,4782 OFFAL EXP SA,Parcialmente ejecutada,Todo Aprobado,Ejecución de pedido de artículo 22743,Enviado,F,CAS-PPAR10048T047,0,0,24/04/2025,EXPRESO CARGO SA,429912,46.4%,.00,T,2Gq6Ps1R
 41083,1412 F R I A R SA,Facturada,Todo Aprobado,Ejecución de pedido de artículo 22746,Enviado,F,PPAR1072T,0,0,24/04/2025,TRANSPORTE SNAIDER,430578,37.1%,.00,T,1Vf8Uo1P
 41104,827 GONVARRI ARGENTINA SA,Facturada,Todo Aprobado,Ejecución de pedido de artículo 22745,Enviado,F,FLJSPET12016V,0,0,24/04/2025,EXPRESO CARGO SA,431953,17.9%,.00,T,6Mv2Lk5E
 41106,9400945 LAMED S.A.,Facturada,Todo Aprobado,Ejecución de pedido de artículo 22741,Enviado,F,CAS-PPAR1048T043,0,0,24/04/2025,RICARDO PIERONI,432199,48.1%,.00,T,9Dw9Wh0V
@@ -231,8 +231,8 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 40832,558 LUIS & MIGUEL ZANNIELLO SACI,Parcialmente ejecutada,Todo Aprobado,Factura de venta 37068,Abierta,F,PPAR524T,0,288,25/04/2025,EXPRESO CARGO SA,415475,99.8%,72.00,,2Rl2Nm1Q
 40861,6220 INDUSTRIAL DECKERT S.R.L.,Facturada,Todo Aprobado,Ejecución de pedido de artículo 22767,Enviado,F,MTS548B,0,0,25/04/2025,EXPRESO CARGO SA,416854,26.5%,.00,T,7Gs5Gq1V
 40904,15 IND. JOHN DEERE ARGENTINA S.A.,Facturada,Todo Aprobado,Ejecución de pedido de artículo 22756,Enviado,F,0015/015,0,0,25/04/2025,FELICI JORGE ARIEL,420237,75.8%,-37.10,T,8Ky5Hq9D
-40960,260 SUCESION DE BARCIA CLAUDIO RODRIGO,Facturada,Todo Aprobado,Ejecución de pedido de artículo 22769,Enviado,F,MTS548B,0,0,25/04/2025,RICARDO PIERONI,423408,26.5%,.00,T,6Ib6Fj6R
 40960,260 SUCESION DE BARCIA CLAUDIO RODRIGO,Facturada,Todo Aprobado,Ejecución de pedido de artículo 22764,Enviado,F,MTS548B,0,0,25/04/2025,RICARDO PIERONI,423408,26.5%,.00,T,6Ib6Fj6R
+40960,260 SUCESION DE BARCIA CLAUDIO RODRIGO,Facturada,Todo Aprobado,Ejecución de pedido de artículo 22769,Enviado,F,MTS548B,0,0,25/04/2025,RICARDO PIERONI,423408,26.5%,.00,T,6Ib6Fj6R
 40964,3096 FRECICAR SRL,Facturada,Todo Aprobado,Ejecución de pedido de artículo 22749,Enviado,F,3096/004,0,0,25/04/2025,RICARDO PIERONI,423848,61.5%,-64.80,T,9Zc0Jy4O
 40965,9400816 MORELLI SRL,Parcialmente ejecutada,Todo Aprobado,Factura de venta 37075,Abierta,F,MTS548B,0,252,25/04/2025,RICARDO PIERONI,423849,26.5%,504.00,,2Au6Re6F
 40965,9400816 MORELLI SRL,Parcialmente ejecutada,Todo Aprobado,Ejecución de pedido de artículo 22770,Enviado,F,MTS548B,0,252,25/04/2025,RICARDO PIERONI,423849,26.5%,504.00,T,2Au6Re6F
@@ -242,8 +242,8 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 41035,866 SOCOTHERM AMERICAS SA,Parcialmente ejecutada,Todo Aprobado,Ejecución de pedido de artículo 22773,Enviado,F,MTS548B,0,216,25/04/2025,EXPRESO CARGO SA,428405,26.5%,432.00,T,8Og1Ql4E
 41035,866 SOCOTHERM AMERICAS SA,Parcialmente ejecutada,Todo Aprobado,Factura de venta 00403,Pagado por completo,F,PPAR548T,0,360,25/04/2025,EXPRESO CARGO SA,428405,99.8%,162.00,,8Og1Ql4E
 41050,3089 ARNEG ARGENTINA S.A.,Facturada,Todo Aprobado,Ejecución de pedido de artículo 22753,Enviado,F,3089/082,0,0,25/04/2025,FELICI JORGE ARIEL,428998,72.9%,.00,T,7Rx7Ub2H
-41081,6467 INDUSTRIAS JUAN F SECCO S.A.,Parcialmente ejecutada,Todo Aprobado,Factura de venta 37079,Pagado por completo,F,MTS548B,0,972,25/04/2025,RICARDO PIERONI,430576,24.2%,1885.68,,8Ul8Kh6G
 41081,6467 INDUSTRIAS JUAN F SECCO S.A.,Parcialmente ejecutada,Todo Aprobado,Ejecución de pedido de artículo 22772,Enviado,F,MTS548B,0,972,25/04/2025,RICARDO PIERONI,430576,24.2%,1885.68,T,8Ul8Kh6G
+41081,6467 INDUSTRIAS JUAN F SECCO S.A.,Parcialmente ejecutada,Todo Aprobado,Factura de venta 37079,Pagado por completo,F,MTS548B,0,972,25/04/2025,RICARDO PIERONI,430576,24.2%,1885.68,,8Ul8Kh6G
 41086,260 SUCESION DE BARCIA CLAUDIO RODRIGO,Facturada,Todo Aprobado,Ejecución de pedido de artículo 22748,Enviado,F,60950-00000-00,0,0,25/04/2025,RICARDO PIERONI,430740,50.4%,.00,T,6Ib6Fj6R
 41098,12815 INDUSTRIAS AVICOLAS SA,Facturada,Todo Aprobado,Ejecución de pedido de artículo 22758,Enviado,F,PPHR1216B,0,0,25/04/2025,TRANSPORTE MOSTTO,431438,55.9%,.00,T,4Jk9Hq6A
 41098,12815 INDUSTRIAS AVICOLAS SA,Facturada,Todo Aprobado,Ejecución de pedido de artículo 22754,Enviado,F,PVC612R,0,0,25/04/2025,TRANSPORTE MOSTTO,431438,55.2%,.00,T,4Jk9Hq6A
@@ -296,10 +296,11 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 40973,15 IND. JOHN DEERE ARGENTINA S.A.,Facturada,Todo Aprobado,Ejecución de pedido de artículo 22802,Enviado,F,LC579,0,0,30/04/2025,FELICI JORGE ARIEL,424323,60.6%,.00,T,8Ky5Hq9D
 41032,3089 ARNEG ARGENTINA S.A.,Facturada,Todo Aprobado,Ejecución de pedido de artículo 22813,Enviado,F,3089/029,0,0,30/04/2025,FELICI JORGE ARIEL,427815,88.4%,.00,T,7Rx7Ub2H
 41034,9400536 MILKAUT SA,Facturada,Todo Aprobado,Ejecución de pedido de artículo 22800,Enviado,F,PPHR15048XT,0,0,30/04/2025,RICARDO PIERONI,428165,46.5%,.00,T,8Ny2Or7G
-41041,9402347 GL SA,Facturación pendiente,Todo Aprobado,Ejecución de pedido de artículo 22816,Enviado,F,PPAR1072T,0,0,30/04/2025,TRANSPORTE ÑANDUBAY SA,428631,22.7%,.00,F,
-41041,9402347 GL SA,Facturación pendiente,Todo Aprobado,Ejecución de pedido de artículo 22816,Enviado,F,2492/001,0,0,30/04/2025,TRANSPORTE ÑANDUBAY SA,428631,46.7%,.00,F,
+41041,9402347 GL SA,Facturada,Todo Aprobado,Ejecución de pedido de artículo 22816,Enviado,F,PPAR1072T,0,0,30/04/2025,TRANSPORTE ÑANDUBAY SA,428631,22.7%,.00,T,
+41041,9402347 GL SA,Facturada,Todo Aprobado,Ejecución de pedido de artículo 22816,Enviado,F,2492/001,0,0,30/04/2025,TRANSPORTE ÑANDUBAY SA,428631,46.7%,.00,T,
 41059,611 QUESOS DON ATILIO SA,Facturada,Todo Aprobado,Ejecución de pedido de artículo 22806,Enviado,F,PPAR15048T,0,0,30/04/2025,EXPRESO TAS,429359,54.5%,.00,T,8Br5Ap2B
-41069,4782 OFFAL EXP SA,Facturación pendiente/parcialmente ejecutada,Todo Aprobado,Ejecución de pedido de artículo 22817,Enviado,F,PPAR10072T,0,72,30/04/2025,EXPRESO CARGO SA,429912,37.8%,1072.80,F,2Gq6Ps1R
+41069,4782 OFFAL EXP SA,Parcialmente ejecutada,Todo Aprobado,Factura de venta 37129,Abierta,F,PPAR10072T,0,72,30/04/2025,EXPRESO CARGO SA,429912,37.8%,1072.80,,2Gq6Ps1R
+41069,4782 OFFAL EXP SA,Parcialmente ejecutada,Todo Aprobado,Ejecución de pedido de artículo 22817,Enviado,F,PPAR10072T,0,72,30/04/2025,EXPRESO CARGO SA,429912,37.8%,1072.80,T,2Gq6Ps1R
 41070,4739 GESTION PORCINA SA,Facturada,Todo Aprobado,Ejecución de pedido de artículo 22821,Enviado,F,H11/48,0,0,30/04/2025,EXPRESO CARGO SA,430094,44.1%,.00,T,
 41070,4739 GESTION PORCINA SA,Facturada,Todo Aprobado,Ejecución de pedido de artículo 22821,Enviado,F,4739/001,0,0,30/04/2025,EXPRESO CARGO SA,430094,62.8%,.00,T,
 41075,3089 ARNEG ARGENTINA S.A.,Facturada,Todo Aprobado,Ejecución de pedido de artículo 22811,Enviado,F,3089/029,0,0,30/04/2025,FELICI JORGE ARIEL,430455,89.2%,.00,T,7Rx7Ub2H
@@ -322,7 +323,7 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 41166,4931 ALGABO SA,Facturada,Todo Aprobado,Ejecución de pedido de artículo 22809,Enviado,F,MUESTRA ESPECIAL,0,0,30/04/2025,EXPRESO CARGO SA,435260,100.0%,.00,T,
 41166,4931 ALGABO SA,Facturada,Todo Aprobado,Ejecución de pedido de artículo 22809,Enviado,F,MUESTRA ESPECIAL,0,0,30/04/2025,EXPRESO CARGO SA,435260,100.0%,.00,T,
 41167,9402149 AMRO SRL,Ejecución de la orden pendiente,Todo Aprobado, ,,F,MVAQUA180,20,0,30/04/2025,BARRY LATIMER,435262,34.2%,197.20,,3Rw9Ac2U
-41168,1809 MERCOMAX SA,Facturación pendiente,Todo Aprobado,Ejecución de pedido de artículo 22818,Enviado,F,PPAR1048T,0,0,30/04/2025,EXPRESO CARGO SA,435263,41.0%,.00,F,5Rr7Ys4Y
+41168,1809 MERCOMAX SA,Facturada,Todo Aprobado,Ejecución de pedido de artículo 22818,Enviado,F,PPAR1048T,0,0,30/04/2025,EXPRESO CARGO SA,435263,41.0%,.00,T,5Rr7Ys4Y
 41169,1809 MERCOMAX SA,Facturada,Todo Aprobado,Ejecución de pedido de artículo 22810,Enviado,F,PPAR1048T,0,0,30/04/2025,EXPRESO CARGO SA,435366,41.0%,.00,T,5Rr7Ys4Y
 41173,9401238 COLGATE PALMOLIVE SA,Facturada,Todo Aprobado,Ejecución de pedido de artículo 22808,Enviado,F,MUESTRA ESPECIAL,0,0,30/04/2025,EXPRESO CARGO SA,435591,100.0%,.00,T,4Zo2Ty4N
 41159,9400155 FORMATO S.A.,Ejecución de la orden pendiente,Todo Aprobado, ,,F,CAS-PPA1048T040,0,1,01/05/2025,EXPRESO CARGO SA,434963,0.0%,.00,,7Tv4Pl2O
