@@ -17,15 +17,15 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 40945,86 EST GRAFICO IMPRESORES SA,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 22596,Remitido,F,PPHR15048XT,0,0,03/04/2025,EXPRESO CARGO SA,422781,54.4%,1344.00,T,9Xw3Zi2V
 40869,4095 REFINERIA DEL CENTRO SA,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 22603,Remitido,F,H11/72,0,0,04/04/2025,EXPRESO SANTA ROSA,417636,42.6%,695.10,T,1Bj3Wa5S
 40907,15 IND. JOHN DEERE ARGENTINA S.A.,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 22612,Remitido,F,0015/016,0,0,04/04/2025,FELICI JORGE ARIEL,420437,65.1%,1130.00,T,8Ky5Hq9D
-40932,9400962 CRYSTAL-ICE SRL,Parcialmente ejecutada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 22604,Remitido,F,PPAR524T,0,216,04/04/2025,RICARDO PIERONI,422135,99.8%,15.84,T,4Is2Rn8E
 40932,9400962 CRYSTAL-ICE SRL,Parcialmente ejecutada,Todo Aprobado,Factura de venta 36921,Pagado por completo,F,PPAR524T,0,216,04/04/2025,RICARDO PIERONI,422135,99.8%,47.52,,4Is2Rn8E
+40932,9400962 CRYSTAL-ICE SRL,Parcialmente ejecutada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 22604,Remitido,F,PPAR524T,0,216,04/04/2025,RICARDO PIERONI,422135,99.8%,15.84,T,4Is2Rn8E
 40938,655 SWIFT SA ARGENTINA,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 22608,Remitido,F,CAS-PPAR10048T047,0,0,04/04/2025,FELICI JORGE ARIEL,422365,53.5%,3090.00,T,8Wb3Xi2L
 40948,4048 EL EMPORIO DE LA GOMA SRL,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 22607,Remitido,F,PPAR1048T,0,0,04/04/2025,CONTE HNOS Y CIA SA,422920,42.1%,410.40,T,5Nn8Fo2O
 40951,969 COTO C.I.C.S.A.,Parcialmente ejecutada,Todo Aprobado,Factura de venta 36923,Pagado por completo,F,PPAR524T,0,1,04/04/2025,BARRY LATIMER,423132,100.0%,.00,,8Os9Yf5O
 40951,969 COTO C.I.C.S.A.,Parcialmente ejecutada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 22609,Remitido,F,PPAR1048T,0,0,04/04/2025,BARRY LATIMER,423132,0.0%,.00,T,8Os9Yf5O
 40951,969 COTO C.I.C.S.A.,Parcialmente ejecutada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 22609,Remitido,F,PPAR1072T,0,0,04/04/2025,BARRY LATIMER,423132,0.0%,.00,T,8Os9Yf5O
-40951,969 COTO C.I.C.S.A.,Parcialmente ejecutada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 22609,Remitido,F,PPA1048T040,0,0,04/04/2025,BARRY LATIMER,423132,0.0%,.00,T,8Os9Yf5O
 40951,969 COTO C.I.C.S.A.,Parcialmente ejecutada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 22610,Remitido,F,PPA1048T040,0,0,04/04/2025,BARRY LATIMER,423132,0.0%,.00,T,8Os9Yf5O
+40951,969 COTO C.I.C.S.A.,Parcialmente ejecutada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 22609,Remitido,F,PPA1048T040,0,0,04/04/2025,BARRY LATIMER,423132,0.0%,.00,T,8Os9Yf5O
 40951,969 COTO C.I.C.S.A.,Parcialmente ejecutada,Todo Aprobado,Factura de venta 36923,Pagado por completo,F,PPAR10048T,0,2,04/04/2025,BARRY LATIMER,423132,0.0%,.00,,8Os9Yf5O
 40951,969 COTO C.I.C.S.A.,Parcialmente ejecutada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 22610,Remitido,F,PPHR15048XT,0,0,04/04/2025,BARRY LATIMER,423132,0.0%,.00,T,8Os9Yf5O
 40951,969 COTO C.I.C.S.A.,Parcialmente ejecutada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 22609,Remitido,F,PPHR15048XT,0,0,04/04/2025,BARRY LATIMER,423132,0.0%,.00,T,8Os9Yf5O
@@ -225,8 +225,8 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 40793,3598 DEL VALLE EMBALAJES SRL,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 22763,Remitido,F,MTS548B,0,0,25/04/2025,RICARDO PIERONI,412903,24.2%,1396.80,T,0Ph8Mv3F
 40815,15 IND. JOHN DEERE ARGENTINA S.A.,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 22755,Remitido,F,0015/014,0,0,25/04/2025,FELICI JORGE ARIEL,414152,89.3%,1660.00,T,8Ky5Hq9D
 40820,2395 LARTEX SRL,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 22766,Remitido,F,MTS548B,0,0,25/04/2025,EXPRESO LUJAN DEL CUYO SA,414159,22.6%,684.00,T,3Tb7Jg4M
-40825,383 JOHNSON ACERO S.A. Industrial y Comercial,Parcialmente ejecutada,Todo Aprobado,Factura de venta 37078,Pagado por completo,F,MTS548B,0,720,25/04/2025,RICARDO PIERONI,414588,26.5%,1440.00,,6Bb0Mu1P
 40825,383 JOHNSON ACERO S.A. Industrial y Comercial,Parcialmente ejecutada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 22762,Remitido,F,MTS548B,0,720,25/04/2025,RICARDO PIERONI,414588,26.5%,720.00,T,6Bb0Mu1P
+40825,383 JOHNSON ACERO S.A. Industrial y Comercial,Parcialmente ejecutada,Todo Aprobado,Factura de venta 37078,Pagado por completo,F,MTS548B,0,720,25/04/2025,RICARDO PIERONI,414588,26.5%,1440.00,,6Bb0Mu1P
 40832,558 LUIS & MIGUEL ZANNIELLO SACI,Parcialmente ejecutada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 22765,Remitido,F,MTS548B,0,0,25/04/2025,EXPRESO CARGO SA,415475,31.3%,308.16,T,2Rl2Nm1Q
 40832,558 LUIS & MIGUEL ZANNIELLO SACI,Parcialmente ejecutada,Todo Aprobado,Factura de venta 37068,Abierta,F,PPAR524T,0,288,25/04/2025,EXPRESO CARGO SA,415475,99.8%,72.00,,2Rl2Nm1Q
 40861,6220 INDUSTRIAL DECKERT S.R.L.,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 22767,Remitido,F,MTS548B,0,0,25/04/2025,EXPRESO CARGO SA,416854,26.5%,1440.00,T,7Gs5Gq1V
