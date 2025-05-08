@@ -203,8 +203,8 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 41062,2638 QUE RICO SA,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 22798,Remitido,F,PVC612R,0,0,29/04/2025,EXPRESO CARGO SA,429524,67.7%,756.00,T,0Sl1Br5D
 41076,202 FRIGORIFICO DE AVES SOYCHU SA,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 22790,Remitido,F,CAS-PPA1048T040,0,0,29/04/2025,EXPRESO CARGO SA,430459,38.7%,756.00,T,5Ow8Cg8A
 41126,1171 AUTOSAL SA,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 22795,Remitido,F,PVC624A,0,0,29/04/2025,EXPRESO CARGO SA,433422,31.1%,133.20,T,2Uv7Bb0L
-41129,1029 DREAN SA,Parcialmente ejecutada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 22788,Remitido,F,0272/005,0,60,29/04/2025,EXPRESO CARGO SA,433570,35.2%,588.00,T,6Ng7Hp1X
 41129,1029 DREAN SA,Parcialmente ejecutada,Todo Aprobado,Factura de venta 37094,Abierta,F,0272/005,0,60,29/04/2025,EXPRESO CARGO SA,433570,35.2%,588.00,,6Ng7Hp1X
+41129,1029 DREAN SA,Parcialmente ejecutada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 22788,Remitido,F,0272/005,0,60,29/04/2025,EXPRESO CARGO SA,433570,35.2%,588.00,T,6Ng7Hp1X
 41130,1029 DREAN SA,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 22796,Remitido,F,0272/003,0,0,29/04/2025,EXPRESO CARGO SA,433572,36.2%,7840.00,T,6Ng7Hp1X
 41133,9400716 RAFAELA ALIMENTOS SA,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 22792,Remitido,F,PPAR1048T,0,0,29/04/2025,EXPRESO SANTA ROSA,433578,48.0%,765.00,T,8Ej8At4Q
 41142,4379 FRANCHRIS2010 SRL,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 22785,Remitido,F,PPAR1048T,0,0,29/04/2025,TRANSPORTE TOMASSINI,433820,43.0%,309.60,T,
@@ -300,6 +300,7 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 41199,9400507 ALIMENTARIA MONTE CRISTO SRL,Parcialmente ejecutada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 22853,Remitido,F,CAS-PPAR10048T047,0,78,07/05/2025,EXPRESO LANCIONI,436785,46.6%,1178.76,T,8Gq3Xq7U
 41206,2993 COTEMINAS ARGENTINA SA,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 22843,Remitido,F,MTS524B,0,0,07/05/2025,EXPRESO BRIO SRL,437407,31.5%,285.12,T,6Ks3Py8W
 41208,4558 FUSION SAN LUIS S A,Ejecución de la orden pendiente,Todo Aprobado, ,,F,PVC648R,1,0,07/05/2025,RETIRAN,437582,100.0%,.00,,6Yr2Cu9X
+41209,4063 GLUPS SRL,Ejecución de la orden pendiente,Todo Aprobado, ,,F,PPAR1048T,0,1080,09/05/2025,EXPRESO CARGO SA,437655,38.8%,864.00,,2Ys1Jc8S
 41211,178 DROGUERIA DEL SUD S.A.,Ejecución de la orden pendiente,Todo Aprobado, ,,F,CAS-PPA1048T043,0,648,09/05/2025,EXPRESO CARGO SA,437656,41.4%,473.04,,5Mx5Rs0E
 41212,178 DROGUERIA DEL SUD S.A.,Ejecución de la orden pendiente,Todo Aprobado, ,,F,CAS-PPA1048T043,0,108,09/05/2025,EXPRESO LUJAN DEL CUYO SA,437657,41.4%,78.84,,5Mx5Rs0E
 41213,178 DROGUERIA DEL SUD S.A.,Ejecución de la orden pendiente,Todo Aprobado, ,,F,CAS-PPA1048T043,0,2016,09/05/2025,EXPRESO LANCIONI,437658,41.4%,1471.68,,5Mx5Rs0E
@@ -308,6 +309,7 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 41215,178 DROGUERIA DEL SUD S.A.,Ejecución de la orden pendiente,Todo Aprobado, ,,F,CAS-PPA1048T043,0,72,09/05/2025,EXPRESO LUJAN DEL CUYO SA,437660,41.4%,52.56,,5Mx5Rs0E
 41216,178 DROGUERIA DEL SUD S.A.,Ejecución de la orden pendiente,Todo Aprobado, ,,F,CAS-PPA1048T043,0,396,09/05/2025,EXPRESO LANCIONI,437661,41.4%,289.08,,5Mx5Rs0E
 41210,178 DROGUERIA DEL SUD S.A.,Ejecución de la orden pendiente,Todo Aprobado, ,,F,CAS-PPA1048T043,0,648,09/05/2025,TRANSPORTE TOMASSINI,437759,41.4%,473.04,,5Mx5Rs0E
+41220,9401272 RED CHAMBER ARGENTINA SA,Ejecución de la orden pendiente,Todo Aprobado, ,,F,CAS-PPAR1048T043,2.004,5196,09/05/2025,TRANSPORTE TOMASSINI,438003,39.0%,5544.00,,2Gk8Ia6Y
 41091,655 SWIFT SA ARGENTINA,Ejecución de la orden pendiente,Todo Aprobado, ,,F,PPAR1072T,6720,0,12/05/2025,FELICI JORGE ARIEL,430744,37.1%,9609.60,,8Wb3Xi2L
 41187,3089 ARNEG ARGENTINA S.A.,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Ensamblada,F,PVC672B,96,0,12/05/2025,RICARDO PIERONI,436253,73.0%,1046.88,,7Rx7Ub2H
 41203,18321 PLANTA FAENADORA DE SUPERMERCADOS TOLEDO SA,Ejecución de la orden pendiente,Todo Aprobado, ,,F,MUESTRA ESPECIAL,6,0,12/05/2025,EXPRESO CARGO SA,437300,100.0%,.00,,3Gc4Mw6J
@@ -332,6 +334,8 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 41061,279 HONDA MOTOR DE ARGENTINA S.A.,Ejecución de la orden pendiente,Todo Aprobado, ,,F,04169-00058-93,10,0,10/06/2025,EXPRESO CARGO SA,429523,52.4%,257.248,,1Rf6Ez5C
 41204,5019 GRANJA TRES ARROYOS SACAFEI,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Liberada,F,5019/004,0,192,16/06/2025,EXPRESO CARGO SA,437201,71.8%,426.24,,0Ql9Gi1V
 41204,5019 GRANJA TRES ARROYOS SACAFEI,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Liberada,F,5019/005,0,60,16/06/2025,EXPRESO CARGO SA,437201,71.9%,1332.00,,0Ql9Gi1V
+41219,9402175 SEBASTIAN SANCHEZ RODRIGO,Ejecución de la orden pendiente,Todo Aprobado, ,,F,PPHR15048XT,2,0,18/06/2025,RETIRAN,438002,0.0%,.00,,7Xt9Gc1E
+41219,9402175 SEBASTIAN SANCHEZ RODRIGO,Ejecución de la orden pendiente,Todo Aprobado, ,,F,CAS-PPAR1048T043,12,0,18/06/2025,RETIRAN,438002,0.0%,.00,,7Xt9Gc1E
 39934,67 FORD ARGENTINA S.C.A.,Ejecución de la orden pendiente,Todo Aprobado, ,,F,BV002,11044,28656,23/06/2025,ALMAR ROSARIO SRL,346461,66.7%,344596.00,,0Bz8Ix7O
 40102,272 TALLERES METALURGICOS BAMBI S.A.,Ejecución de la orden pendiente,Todo Aprobado, ,,F,0272/005,0,666,23/06/2025,FELICI JORGE ARIEL,359279,42.6%,6526.80,,6Sy2Dr1B
 40102,272 TALLERES METALURGICOS BAMBI S.A.,Ejecución de la orden pendiente,Todo Aprobado, ,,F,0272/004,0,566,23/06/2025,FELICI JORGE ARIEL,359279,34.3%,6933.50,,6Sy2Dr1B
