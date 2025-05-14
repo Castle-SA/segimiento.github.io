@@ -139,8 +139,8 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 41062,2638 QUE RICO SA,Facturada,Todo Aprobado,Ejecución de pedido de artículo 22798,Enviado,F,PVC612R,0,0,29/04/2025,EXPRESO CARGO SA,429524,67.7%,.00,T,0Sl1Br5D
 41076,202 FRIGORIFICO DE AVES SOYCHU SA,Facturada,Todo Aprobado,Ejecución de pedido de artículo 22790,Enviado,F,CAS-PPA1048T040,0,0,29/04/2025,EXPRESO CARGO SA,430459,38.7%,.00,T,5Ow8Cg8A
 41126,1171 AUTOSAL SA,Facturada,Todo Aprobado,Ejecución de pedido de artículo 22795,Enviado,F,PVC624A,0,0,29/04/2025,EXPRESO CARGO SA,433422,31.1%,.00,T,2Uv7Bb0L
-41129,1029 DREAN SA,Parcialmente ejecutada,Todo Aprobado,Ejecución de pedido de artículo 22788,Enviado,F,0272/005,0,60,29/04/2025,EXPRESO CARGO SA,433570,31.7%,558.00,T,6Ng7Hp1X
 41129,1029 DREAN SA,Parcialmente ejecutada,Todo Aprobado,Factura de venta 37094,Abierta,F,0272/005,0,60,29/04/2025,EXPRESO CARGO SA,433570,31.7%,558.00,,6Ng7Hp1X
+41129,1029 DREAN SA,Parcialmente ejecutada,Todo Aprobado,Ejecución de pedido de artículo 22788,Enviado,F,0272/005,0,60,29/04/2025,EXPRESO CARGO SA,433570,31.7%,558.00,T,6Ng7Hp1X
 41130,1029 DREAN SA,Facturada,Todo Aprobado,Ejecución de pedido de artículo 22796,Enviado,F,0272/003,0,0,29/04/2025,EXPRESO CARGO SA,433572,36.2%,.00,T,6Ng7Hp1X
 41133,9400716 RAFAELA ALIMENTOS SA,Facturada,Todo Aprobado,Ejecución de pedido de artículo 22792,Enviado,F,PPAR1048T,0,0,29/04/2025,EXPRESO SANTA ROSA,433578,48.0%,.00,T,8Ej8At4Q
 41142,4379 FRANCHRIS2010 SRL,Facturada,Todo Aprobado,Ejecución de pedido de artículo 22785,Enviado,F,PPAR1048T,0,0,29/04/2025,TRANSPORTE TOMASSINI,433820,43.0%,.00,T,
@@ -242,14 +242,14 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 41216,178 DROGUERIA DEL SUD S.A.,Ejecución de la orden pendiente,Todo Aprobado, ,,F,PPAR1048T,396,0,09/05/2025,EXPRESO LANCIONI,437661,31.5%,289.08,,5Mx5Rs0E
 41210,178 DROGUERIA DEL SUD S.A.,Ejecución de la orden pendiente,Todo Aprobado, ,,F,PPAR1048T,648,0,09/05/2025,TRANSPORTE TOMASSINI,437759,31.5%,473.04,,5Mx5Rs0E
 41115,132 MAHLE VALVULAS DE ARGENTINA SA,Facturada,Todo Aprobado,Ejecución de pedido de artículo 22870,Enviado,F,3351/001,0,0,12/05/2025,EXPRESO SANTA ROSA,433082,97.1%,-411.00,T,6Ls2Pd3Q
-41120,9400115 BEST COLD SRL,Parcialmente ejecutada,Todo Aprobado,Factura de venta 37174,Abierta,F,MTP548B,0,792,12/05/2025,FELICI JORGE ARIEL,433155,26.5%,1465.20,,8Xq9Re2A
 41120,9400115 BEST COLD SRL,Parcialmente ejecutada,Todo Aprobado,Ejecución de pedido de artículo 22869,Enviado,F,MTP548B,0,792,12/05/2025,FELICI JORGE ARIEL,433155,26.5%,1465.20,T,8Xq9Re2A
+41120,9400115 BEST COLD SRL,Parcialmente ejecutada,Todo Aprobado,Factura de venta 37174,Abierta,F,MTP548B,0,792,12/05/2025,FELICI JORGE ARIEL,433155,26.5%,1465.20,,8Xq9Re2A
 41180,4845 HAMBURGUESAS BELTRAN SRL,Parcialmente ejecutada,Todo Aprobado,Ejecución de pedido de artículo 22866,Enviado,F,PPA1548TE,0,0,12/05/2025,EXPRESO CARGO SA,435900,38.7%,.00,T,7Hf7Bk2A
 41180,4845 HAMBURGUESAS BELTRAN SRL,Parcialmente ejecutada,Todo Aprobado,Factura de venta 37177,Pagado por completo,F,PPAR524T,0,72,12/05/2025,EXPRESO CARGO SA,435900,99.9%,19.44,,7Hf7Bk2A
 41185,5002 EMBALAJES DEL CENTRO S.R.L.,Parcialmente ejecutada,Todo Aprobado,Ejecución de pedido de artículo 22868,Enviado,F,MTS524B,0,0,12/05/2025,EXPRESO CARGO SA,436149,32.4%,.00,T,9Es7Yc7Q
 41185,5002 EMBALAJES DEL CENTRO S.R.L.,Parcialmente ejecutada,Todo Aprobado,Ejecución de pedido de artículo 22868,Enviado,F,MTS518B,0,0,12/05/2025,EXPRESO CARGO SA,436149,29.3%,.00,T,9Es7Yc7Q
-41185,5002 EMBALAJES DEL CENTRO S.R.L.,Parcialmente ejecutada,Todo Aprobado,Factura de venta 37178,Abierta,F,MTS536B,40,8,12/05/2025,EXPRESO CARGO SA,436149,38.0%,72.00,,9Es7Yc7Q
 41185,5002 EMBALAJES DEL CENTRO S.R.L.,Parcialmente ejecutada,Todo Aprobado,Ejecución de pedido de artículo 22868,Enviado,F,MTS536B,40,8,12/05/2025,EXPRESO CARGO SA,436149,38.0%,72.00,T,9Es7Yc7Q
+41185,5002 EMBALAJES DEL CENTRO S.R.L.,Parcialmente ejecutada,Todo Aprobado,Factura de venta 37178,Abierta,F,MTS536B,40,8,12/05/2025,EXPRESO CARGO SA,436149,38.0%,72.00,,9Es7Yc7Q
 41185,5002 EMBALAJES DEL CENTRO S.R.L.,Parcialmente ejecutada,Todo Aprobado,Factura de venta 37178,Abierta,F,MTS548B,0,180,12/05/2025,EXPRESO CARGO SA,436149,5.5%,360.00,,9Es7Yc7Q
 41187,3089 ARNEG ARGENTINA S.A.,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Ensamblada,F,PVC672B,96,0,12/05/2025,RICARDO PIERONI,436253,73.0%,1046.88,,7Rx7Ub2H
 41191,9401926 INDUSTRIAS FRIGORIFICAS RECREO SAIC,Facturada,Todo Aprobado,Ejecución de pedido de artículo 22864,Enviado,F,CAS-PPAR1048T043,0,0,12/05/2025,EXPRESO BRIO SRL,436555,35.6%,.00,T,8Zu3It0W
@@ -306,9 +306,9 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 41275,827 GONVARRI ARGENTINA SA,Ejecución de la orden pendiente,Todo Aprobado, ,,F,P579,400,0,14/05/2025,EXPRESO CARGO SA,441006,49.8%,2272.00,,6Mv2Lk5E
 41276,9400018 SEND SRL,Facturada,Todo Aprobado,Ejecución de pedido de artículo 22899,Enviado,F,PPAR1048T,0,0,14/05/2025,RICARDO PIERONI,441308,42.4%,.00,T,3Ql9Lb2K
 41280,426 ALTA PLASTICA SA,Facturada,Todo Aprobado,Ejecución de pedido de artículo 22897,Enviado,F,PPAR1048T,0,0,14/05/2025,EXPRESO CARGO SA,441759,36.7%,.00,T,2Bk1Dc2Q
-41287,9402175 SEBASTIAN SANCHEZ RODRIGO,Facturación pendiente,Todo Aprobado,Ejecución de pedido de artículo 22901,Enviado,F,CAS-PPAR1048T043,0,0,14/05/2025,RETIRAN,442108,0.0%,.00,F,7Xt9Gc1E
-41287,9402175 SEBASTIAN SANCHEZ RODRIGO,Facturación pendiente,Todo Aprobado,Ejecución de pedido de artículo 22901,Enviado,F,CAS-PPAR10048T047,0,0,14/05/2025,RETIRAN,442108,0.0%,.00,F,7Xt9Gc1E
-41287,9402175 SEBASTIAN SANCHEZ RODRIGO,Facturación pendiente,Todo Aprobado,Ejecución de pedido de artículo 22901,Enviado,F,PPHR15048XT,0,0,14/05/2025,RETIRAN,442108,0.0%,.00,F,7Xt9Gc1E
+41287,9402175 SEBASTIAN SANCHEZ RODRIGO,Facturada,Todo Aprobado,Ejecución de pedido de artículo 22901,Enviado,F,CAS-PPAR1048T043,0,0,14/05/2025,RETIRAN,442108,0.0%,.00,T,7Xt9Gc1E
+41287,9402175 SEBASTIAN SANCHEZ RODRIGO,Facturada,Todo Aprobado,Ejecución de pedido de artículo 22901,Enviado,F,CAS-PPAR10048T047,0,0,14/05/2025,RETIRAN,442108,0.0%,.00,T,7Xt9Gc1E
+41287,9402175 SEBASTIAN SANCHEZ RODRIGO,Facturada,Todo Aprobado,Ejecución de pedido de artículo 22901,Enviado,F,PPHR15048XT,0,0,14/05/2025,RETIRAN,442108,0.0%,.00,T,7Xt9Gc1E
 41232,1029 DREAN SA,Ejecución de la orden pendiente,Todo Aprobado, ,,F,MTP548B,0,1008,15/05/2025,EXPRESO CARGO SA,438749,28.8%,1925.28,,6Ng7Hp1X
 41281,9400297 VERONICA SACIAFI,Ejecución de la orden pendiente,Todo Aprobado, ,,F,PPAR1048T,432,0,15/05/2025,EXPRESO LANCIONI,441760,37.5%,345.60,,1Gv1Va5C
 41281,9400297 VERONICA SACIAFI,Ejecución de la orden pendiente,Todo Aprobado, ,,F,PPAR15048T,60,0,15/05/2025,EXPRESO LANCIONI,441760,44.7%,825.00,,1Gv1Va5C
