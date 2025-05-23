@@ -288,10 +288,10 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 41223,3115 GOOD FOOD SA,Facturada,Todo Aprobado,Ejecución de pedido de artículo 22939,Enviado,F,PPAR15048T,0,0,20/05/2025,EXPRESO BRIO SRL,438473,100.0%,.00,T,8Pc1Jl3L
 41273,3771 PILISAR SA,Facturación pendiente,Todo Aprobado,Ejecución de pedido de artículo 22935,Enviado,F,0272/003,0,0,20/05/2025,EXPRESO CARGO SA,441005,38.8%,.00,F,6Qa0Ib0C
 41307,9402135 ALBERTO G MORO SRL,Facturada,Todo Aprobado,Ejecución de pedido de artículo 22932,Enviado,F,MVAQUA180,0,0,20/05/2025,EXPRESO BRIO SRL,443428,34.2%,.00,T,3Ql7Hs1H
-41315,9400945 LAMED S.A.,Parcialmente ejecutada,Todo Aprobado,Ejecución de pedido de artículo 22944,Enviado,F,PPA1048F,0,72,20/05/2025,RICARDO PIERONI,444305,23.1%,131.04,T,9Dw9Wh0V
 41315,9400945 LAMED S.A.,Parcialmente ejecutada,Todo Aprobado,Orden de trabajo ,En curso,F,PPA1048F,0,72,20/05/2025,RICARDO PIERONI,444305,23.1%,131.04,,9Dw9Wh0V
-41316,3086 MULTIORIGINAL PARTS SA,Facturada,Todo Aprobado,Ejecución de pedido de artículo 22937,Enviado,F,PPAR1048T,0,0,20/05/2025,EXPRESO BRIO SRL,444405,37.5%,-288.00,T,1Fr4Ch9I
+41315,9400945 LAMED S.A.,Parcialmente ejecutada,Todo Aprobado,Ejecución de pedido de artículo 22944,Enviado,F,PPA1048F,0,72,20/05/2025,RICARDO PIERONI,444305,23.1%,131.04,T,9Dw9Wh0V
 41316,3086 MULTIORIGINAL PARTS SA,Facturada,Todo Aprobado,Ejecución de pedido de artículo 22941,Enviado,F,PPAR1048T,0,0,20/05/2025,EXPRESO BRIO SRL,444405,37.5%,-288.00,T,1Fr4Ch9I
+41316,3086 MULTIORIGINAL PARTS SA,Facturada,Todo Aprobado,Ejecución de pedido de artículo 22937,Enviado,F,PPAR1048T,0,0,20/05/2025,EXPRESO BRIO SRL,444405,37.5%,-288.00,T,1Fr4Ch9I
 41320,3965 PRO DE MAN SA,Facturada,Todo Aprobado,Ejecución de pedido de artículo 22940,Enviado,F,PPAR1048T,0,0,20/05/2025,FELICI JORGE ARIEL,444755,39.0%,.00,T,0Ye3Eq5F
 41322,4894 VANOLI Y CIA SA,Facturada,Todo Aprobado,Ejecución de pedido de artículo 22942,Enviado,F,PPAR1048T,0,0,20/05/2025,EXPRESO CARGO SA,444878,35.1%,.00,T,1Qt0Ac5G
 41323,26 SPICER EJES PESADOS SRL,Facturada,Todo Aprobado,Ejecución de pedido de artículo 22934,Enviado,F,60022-00001-00,0,0,20/05/2025,EXPRESO CARGO SA,444883,67.8%,.00,T,0Wt2Wp0H
@@ -309,8 +309,8 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 41302,12816 CSI ELECTRONICA SRL,Facturada,Todo Aprobado,Ejecución de pedido de artículo 22953,Enviado,F,PVC618B,0,0,21/05/2025,RICARDO PIERONI,442959,0.0%,.00,T,6Hu2Px3W
 41302,12816 CSI ELECTRONICA SRL,Facturada,Todo Aprobado,Ejecución de pedido de artículo 22953,Enviado,F,64958-00001-00,0,0,21/05/2025,RICARDO PIERONI,442959,52.8%,.00,T,6Hu2Px3W
 41306,12707 PORTA HNOS. SA,Parcialmente ejecutada,Todo Aprobado,Ejecución de pedido de artículo 22960,Enviado,F,PPAR15048T,0,148,21/05/2025,EXPRESO CARGO SA,443427,47.3%,2138.60,T,4Np7Tr4O
-41311,9400049 COMPAÑIA AMERICANA DE ALIMENTOS S.A.,Parcialmente ejecutada,Todo Aprobado,Ejecución de pedido de artículo 22961,Enviado,F,PPHR15048T,0,396,21/05/2025,EXPRESO CARGO SA,443983,42.7%,8316.00,T,2Jl6Ja1C
 41311,9400049 COMPAÑIA AMERICANA DE ALIMENTOS S.A.,Parcialmente ejecutada,Todo Aprobado,Factura de venta 37276,Abierta,F,PPHR15048T,0,396,21/05/2025,EXPRESO CARGO SA,443983,42.7%,8316.00,,2Jl6Ja1C
+41311,9400049 COMPAÑIA AMERICANA DE ALIMENTOS S.A.,Parcialmente ejecutada,Todo Aprobado,Ejecución de pedido de artículo 22961,Enviado,F,PPHR15048T,0,396,21/05/2025,EXPRESO CARGO SA,443983,42.7%,8316.00,T,2Jl6Ja1C
 41319,9402347 GL SA,Ejecución de la orden pendiente,Todo Aprobado, ,,F,CAS-PPA1072T040,0,360,21/05/2025,EXPRESO BRIO SRL,444641,33.2%,349.20,,
 41319,9402347 GL SA,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Liberada,F,2492/001,0,1080,21/05/2025,EXPRESO BRIO SRL,444641,44.5%,1274.40,,
 41319,9402347 GL SA,Ejecución de la orden pendiente,Todo Aprobado, ,,F,H11/72,5,0,21/05/2025,EXPRESO BRIO SRL,444641,44.3%,130.00,,
@@ -366,6 +366,9 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 41310,3089 ARNEG ARGENTINA S.A.,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Ensamblada,F,3089/079,50.000,0,23/05/2025,FELICI JORGE ARIEL,443982,7.9%,1770.00,,7Rx7Ub2H
 41351,9400313 HOJALMAR SOCIEDAD ANONIMA,Ejecución de la orden pendiente,Todo Aprobado, ,,F,PPAR15048T,0,2,23/05/2025,EXPRESO CARGO SA,446421,100.0%,.00,,4Ik6Eg2O
 41353,2915 COMPANIA LA PILARICA SA,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Liberada,F,CAS-PPA548T043,0,360,23/05/2025,RICARDO PIERONI,446426,38.1%,133.20,,8Ds2Kv5E
+41362,9400100 ABBOUD MARCELO BANAIOT,Ejecución de la orden pendiente,Todo Aprobado, ,,F,CAS-PPA1048T040,593,8623,23/05/2025,EXPRESO CARGO SA,446677,19.1%,4884.48,,5Pj9Xf1N
+41363,9400983 CATESUR SA,Ejecución de la orden pendiente,Todo Aprobado, ,,F,FLJPP30012B,48,0,23/05/2025,TRANSPORTE TOMASSINI,446678,-1.7%,1800.00,,1Du0Dz8M
+41363,9400983 CATESUR SA,Ejecución de la orden pendiente,Todo Aprobado, ,,F,PPAR1048T,1800,0,23/05/2025,TRANSPORTE TOMASSINI,446678,35.1%,1386.00,,1Du0Dz8M
 41371,9402601 MILENIO SRL,Ejecución de la orden pendiente,Todo Aprobado, ,,F,PPAR512T,1,0,23/05/2025,EXPRESO LANCIONI,447289,0.0%,.00,,
 41371,9402601 MILENIO SRL,Ejecución de la orden pendiente,Todo Aprobado, ,,F,PPAR524T,0,1,23/05/2025,EXPRESO LANCIONI,447289,100.0%,.00,,
 41371,9402601 MILENIO SRL,Ejecución de la orden pendiente,Todo Aprobado, ,,F,CAS-PPA1048T043,0,1,23/05/2025,EXPRESO LANCIONI,447289,0.0%,.00,,
