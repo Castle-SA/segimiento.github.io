@@ -31,8 +31,8 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 41062,2638 QUE RICO SA,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 22798,Remitido,F,PVC612R,0,0,29/04/2025,EXPRESO CARGO SA,429524,67.7%,756.00,T,0Sl1Br5D
 41076,202 FRIGORIFICO DE AVES SOYCHU SA,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 22790,Remitido,F,CAS-PPA1048T040,0,0,29/04/2025,EXPRESO CARGO SA,430459,38.7%,756.00,T,5Ow8Cg8A
 41126,1171 AUTOSAL SA,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 22795,Remitido,F,PVC624A,0,0,29/04/2025,EXPRESO CARGO SA,433422,31.1%,133.20,T,2Uv7Bb0L
-41129,1029 DREAN SA,Parcialmente ejecutada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 22788,Remitido,F,0272/005,0,60,29/04/2025,EXPRESO CARGO SA,433570,31.7%,558.00,T,6Ng7Hp1X
 41129,1029 DREAN SA,Parcialmente ejecutada,Todo Aprobado,Factura de venta 37094,Abierta,F,0272/005,0,60,29/04/2025,EXPRESO CARGO SA,433570,31.7%,558.00,,6Ng7Hp1X
+41129,1029 DREAN SA,Parcialmente ejecutada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 22788,Remitido,F,0272/005,0,60,29/04/2025,EXPRESO CARGO SA,433570,31.7%,558.00,T,6Ng7Hp1X
 41130,1029 DREAN SA,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 22796,Remitido,F,0272/003,0,0,29/04/2025,EXPRESO CARGO SA,433572,36.2%,7840.00,T,6Ng7Hp1X
 41133,9400716 RAFAELA ALIMENTOS SA,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 22792,Remitido,F,PPAR1048T,0,0,29/04/2025,EXPRESO SANTA ROSA,433578,48.0%,765.00,T,8Ej8At4Q
 41142,4379 FRANCHRIS2010 SRL,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 22785,Remitido,F,PPAR1048T,0,0,29/04/2025,TRANSPORTE TOMASSINI,433820,43.0%,309.60,T,
@@ -50,8 +50,8 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 41041,9402347 GL SA,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 22816,Remitido,F,2492/001,0,0,30/04/2025,TRANSPORTE ÑANDUBAY SA,428631,46.7%,1382.40,T,
 41047,2515 CONGELADOS ARTICO SA,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 22827,Remitido,F,CAS-PPAR10048T047,0,0,30/04/2025,TRANSPORTE TOMASSINI,428880,57.8%,135.48,T,8Rn3En3G
 41059,611 QUESOS DON ATILIO SA,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 22806,Remitido,F,PPAR15048T,0,0,30/04/2025,EXPRESO TAS,429359,54.5%,301.86,T,8Br5Ap2B
-41069,4782 OFFAL EXP SA,Parcialmente ejecutada,Todo Aprobado,Factura de venta 37129,Abierta,F,PPAR10072T,0,72,30/04/2025,EXPRESO CARGO SA,429912,37.8%,1072.80,,2Gq6Ps1R
 41069,4782 OFFAL EXP SA,Parcialmente ejecutada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 22817,Remitido,F,PPAR10072T,0,72,30/04/2025,EXPRESO CARGO SA,429912,37.8%,238.40,T,2Gq6Ps1R
+41069,4782 OFFAL EXP SA,Parcialmente ejecutada,Todo Aprobado,Factura de venta 37129,Abierta,F,PPAR10072T,0,72,30/04/2025,EXPRESO CARGO SA,429912,37.8%,1072.80,,2Gq6Ps1R
 41070,4739 GESTION PORCINA SA,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 22821,Remitido,F,H11/48,0,0,30/04/2025,EXPRESO CARGO SA,430094,44.1%,95.60,T,
 41070,4739 GESTION PORCINA SA,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 22821,Remitido,F,4739/001,0,0,30/04/2025,EXPRESO CARGO SA,430094,62.8%,648.00,T,
 41075,3089 ARNEG ARGENTINA S.A.,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 22811,Remitido,F,3089/029,0,0,30/04/2025,FELICI JORGE ARIEL,430455,89.2%,1360.00,T,7Rx7Ub2H
@@ -231,8 +231,8 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 41307,9402135 ALBERTO G MORO SRL,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 22932,Remitido,F,MVAQUA180,0,0,20/05/2025,EXPRESO BRIO SRL,443428,34.2%,197.20,T,3Ql7Hs1H
 41315,9400945 LAMED S.A.,Parcialmente ejecutada,Todo Aprobado,Orden de trabajo ,En curso,F,PPA1048F,0,72,20/05/2025,RICARDO PIERONI,444305,23.1%,131.04,,9Dw9Wh0V
 41315,9400945 LAMED S.A.,Parcialmente ejecutada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 22944,Remitido,F,PPA1048F,0,72,20/05/2025,RICARDO PIERONI,444305,23.1%,131.04,T,9Dw9Wh0V
-41316,3086 MULTIORIGINAL PARTS SA,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 22941,Remitido,F,PPAR1048T,0,0,20/05/2025,EXPRESO BRIO SRL,444405,37.5%,288.00,T,1Fr4Ch9I
 41316,3086 MULTIORIGINAL PARTS SA,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 22937,Remitido,F,PPAR1048T,0,0,20/05/2025,EXPRESO BRIO SRL,444405,37.5%,288.00,T,1Fr4Ch9I
+41316,3086 MULTIORIGINAL PARTS SA,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 22941,Remitido,F,PPAR1048T,0,0,20/05/2025,EXPRESO BRIO SRL,444405,37.5%,288.00,T,1Fr4Ch9I
 41320,3965 PRO DE MAN SA,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 22940,Remitido,F,PPAR1048T,0,0,20/05/2025,FELICI JORGE ARIEL,444755,39.0%,413.28,T,0Ye3Eq5F
 41322,4894 VANOLI Y CIA SA,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 22942,Remitido,F,PPAR1048T,0,0,20/05/2025,EXPRESO CARGO SA,444878,35.1%,415.80,T,1Qt0Ac5G
 41323,26 SPICER EJES PESADOS SRL,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 22934,Remitido,F,60022-00001-00,0,0,20/05/2025,EXPRESO CARGO SA,444883,67.8%,1344.00,T,0Wt2Wp0H
@@ -350,11 +350,11 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 41377,674 KRETZ SA,Facturación pendiente/parcialmente ejecutada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 22997,Remitido,F,PPAR1072T,0,0,26/05/2025,EXPRESO BRIO SRL,447514,34.6%,91.44,F,0Io3Fg7R
 41376,9400309 MENOYO S.A.,Facturación pendiente/parcialmente ejecutada,Todo Aprobado, ,,F,PPAR15048T,0,120,26/05/2025,EXPRESO CARGO SA,447613,41.5%,1560.00,,5Se1Tb7J
 41376,9400309 MENOYO S.A.,Facturación pendiente/parcialmente ejecutada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 23001,Remitido,F,PPAR1048T,0,0,26/05/2025,EXPRESO CARGO SA,447613,35.1%,277.20,F,5Se1Tb7J
-41378,2021 SOLAUT S.A.,Facturación pendiente,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 23002,Remitido,F,PPA1548TE,0,0,26/05/2025,EXPRESO CARGO SA,447880,38.7%,1285.20,F,5Rg6Oq8Y
-41378,2021 SOLAUT S.A.,Facturación pendiente,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 23002,Remitido,F,H11/CPE,0,0,26/05/2025,EXPRESO CARGO SA,447880,50.2%,87.00,F,5Rg6Oq8Y
+41378,2021 SOLAUT S.A.,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 23002,Remitido,F,PPA1548TE,0,0,26/05/2025,EXPRESO CARGO SA,447880,38.7%,1285.20,T,5Rg6Oq8Y
+41378,2021 SOLAUT S.A.,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 23002,Remitido,F,H11/CPE,0,0,26/05/2025,EXPRESO CARGO SA,447880,50.2%,87.00,T,5Rg6Oq8Y
 41379,2021 SOLAUT S.A.,Facturación pendiente,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 22993,Remitido,F,PPA1548TE,0,0,26/05/2025,RICARDO PIERONI,447984,38.7%,1285.20,F,5Rg6Oq8Y
 41379,2021 SOLAUT S.A.,Facturación pendiente,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 22993,Remitido,F,H11/CPE,0,0,26/05/2025,RICARDO PIERONI,447984,50.2%,87.00,F,5Rg6Oq8Y
-41380,3089 ARNEG ARGENTINA S.A.,Facturación pendiente,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 23004,Remitido,F,3089/035,0,0,26/05/2025,RICARDO PIERONI,448135,80.5%,300.00,F,7Rx7Ub2H
+41380,3089 ARNEG ARGENTINA S.A.,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 23004,Remitido,F,3089/035,0,0,26/05/2025,RICARDO PIERONI,448135,80.5%,300.00,T,7Rx7Ub2H
 41388,2475 GAMISOL Y CIA SA,Facturación pendiente,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 23003,Remitido,F,PPA1548TE,0,0,26/05/2025,EXPRESO CARGO SA,448148,38.7%,428.40,F,8Ax3Mu7O
 41385,1171 AUTOSAL SA,Facturación pendiente,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 22998,Remitido,F,0674/002,0,0,26/05/2025,EXPRESO CARGO SA,448246,0.0%,.00,F,2Uv7Bb0L
 41389,4874 TIENDA DE AROMAS SRL,Facturación pendiente/parcialmente ejecutada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 22992,Remitido,F,PPAR1048T,0,0,26/05/2025,TRANSPORTE TOMASSINI,448251,39.0%,295.20,F,3Bt9Eu0Q
@@ -374,6 +374,7 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 41235,1029 DREAN SA,Ejecución de la orden pendiente,Todo Aprobado, ,,F,MTP548B,0,1008,28/05/2025,EXPRESO CARGO SA,438755,28.8%,1925.28,,6Ng7Hp1X
 41352,4931 ALGABO SA,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Liberada,F,CAS-PPHR1048XT045,0,3000,28/05/2025,EXPRESO CARGO SA,446425,64.6%,3990.00,,
 41352,4931 ALGABO SA,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Liberada,F,CAS-PPHR10072XT045,0,50,28/05/2025,EXPRESO CARGO SA,446425,66.2%,1001.00,,
+41393,1490 IPLOV SRL,Ejecución de la orden pendiente,Todo Aprobado, ,,F,PPAR1048T,360,0,28/05/2025,RICARDO PIERONI,448485,50.0%,360.00,,7Xz6Ym0I
 41394,812 SYSTEL SA,Ejecución de la orden pendiente,Todo Aprobado, ,,F,07063-00012-24,0,30,28/05/2025,EXPRESO CARGO SA,448585,56.8%,1585.50,,6Ll4Vl5M
 41397,4095 REFINERIA DEL CENTRO SA,Ejecución de la orden pendiente,Todo Aprobado, ,,F,CAS-PPAR10072T045,0,60,28/05/2025,EXPRESO SANTA ROSA,448709,62.3%,738.00,,1Bj3Wa5S
 41170,655 SWIFT SA ARGENTINA,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Ensamblada,F,CAS-PPAR10048T047,486,0,29/05/2025,EXPRESO CARGO SA,435264,53.7%,5005.80,,8Wb3Xi2L
