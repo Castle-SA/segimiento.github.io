@@ -29,8 +29,8 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 41062,2638 QUE RICO SA,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 22798,Remitido,F,PVC612R,0,0,29/04/2025,EXPRESO CARGO SA,429524,67.7%,756.00,T,0Sl1Br5D
 41076,202 FRIGORIFICO DE AVES SOYCHU SA,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 22790,Remitido,F,CAS-PPA1048T040,0,0,29/04/2025,EXPRESO CARGO SA,430459,38.7%,756.00,T,5Ow8Cg8A
 41126,1171 AUTOSAL SA,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 22795,Remitido,F,PVC624A,0,0,29/04/2025,EXPRESO CARGO SA,433422,31.1%,133.20,T,2Uv7Bb0L
-41129,1029 DREAN SA,Parcialmente ejecutada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 22788,Remitido,F,0272/005,0,60,29/04/2025,EXPRESO CARGO SA,433570,31.7%,558.00,T,6Ng7Hp1X
 41129,1029 DREAN SA,Parcialmente ejecutada,Todo Aprobado,Factura de venta 37094,Abierta,F,0272/005,0,60,29/04/2025,EXPRESO CARGO SA,433570,31.7%,558.00,,6Ng7Hp1X
+41129,1029 DREAN SA,Parcialmente ejecutada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 22788,Remitido,F,0272/005,0,60,29/04/2025,EXPRESO CARGO SA,433570,31.7%,558.00,T,6Ng7Hp1X
 41130,1029 DREAN SA,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 22796,Remitido,F,0272/003,0,0,29/04/2025,EXPRESO CARGO SA,433572,36.2%,7840.00,T,6Ng7Hp1X
 41133,9400716 RAFAELA ALIMENTOS SA,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 22792,Remitido,F,PPAR1048T,0,0,29/04/2025,EXPRESO SANTA ROSA,433578,48.0%,765.00,T,8Ej8At4Q
 41142,4379 FRANCHRIS2010 SRL,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 22785,Remitido,F,PPAR1048T,0,0,29/04/2025,TRANSPORTE TOMASSINI,433820,43.0%,309.60,T,
@@ -121,8 +121,8 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 41201,2660 VICUNHA ARGENTINA SA (Tintoreria Ullum),Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 22860,Remitido,F,MTP536B,0,0,09/05/2025,EXPRESO CARGO SA,436786,23.3%,3024.00,T,5Dr6Pr8I
 41208,4558 FUSION SAN LUIS S A,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 22859,Remitido,F,PVC648R,0,0,09/05/2025,RETIRAN,437582,100.0%,.00,T,6Yr2Cu9X
 41115,132 MAHLE VALVULAS DE ARGENTINA SA,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 22870,Remitido,F,3351/001,0,0,12/05/2025,EXPRESO SANTA ROSA,433082,97.1%,1781.00,T,6Ls2Pd3Q
-41120,9400115 BEST COLD SRL,Parcialmente ejecutada,Todo Aprobado,Factura de venta 37174,Abierta,F,MTP548B,0,792,12/05/2025,FELICI JORGE ARIEL,433155,26.5%,1465.20,,8Xq9Re2A
 41120,9400115 BEST COLD SRL,Parcialmente ejecutada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 22869,Remitido,F,MTP548B,0,792,12/05/2025,FELICI JORGE ARIEL,433155,26.5%,532.80,T,8Xq9Re2A
+41120,9400115 BEST COLD SRL,Parcialmente ejecutada,Todo Aprobado,Factura de venta 37174,Abierta,F,MTP548B,0,792,12/05/2025,FELICI JORGE ARIEL,433155,26.5%,1465.20,,8Xq9Re2A
 41180,4845 HAMBURGUESAS BELTRAN SRL,Parcialmente ejecutada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 22866,Remitido,F,PPA1548TE,0,0,12/05/2025,EXPRESO CARGO SA,435900,38.7%,856.80,T,7Hf7Bk2A
 41180,4845 HAMBURGUESAS BELTRAN SRL,Parcialmente ejecutada,Todo Aprobado,Factura de venta 37177,Pagado por completo,F,PPAR524T,0,72,12/05/2025,EXPRESO CARGO SA,435900,99.9%,19.44,,7Hf7Bk2A
 41185,5002 EMBALAJES DEL CENTRO S.R.L.,Facturación pendiente/parcialmente ejecutada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 22868,Remitido,F,MTS524B,0,0,12/05/2025,EXPRESO CARGO SA,436149,32.4%,360.00,T,9Es7Yc7Q
@@ -223,10 +223,10 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 41223,3115 GOOD FOOD SA,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 22939,Remitido,F,PPAR15048T,0,0,20/05/2025,EXPRESO BRIO SRL,438473,100.0%,.00,T,8Pc1Jl3L
 41273,3771 PILISAR SA,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 22935,Remitido,F,0272/003,0,0,20/05/2025,EXPRESO CARGO SA,441005,38.8%,4312.00,T,6Qa0Ib0C
 41307,9402135 ALBERTO G MORO SRL,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 22932,Remitido,F,MVAQUA180,0,0,20/05/2025,EXPRESO BRIO SRL,443428,34.2%,197.20,T,3Ql7Hs1H
-41315,9400945 LAMED S.A.,Parcialmente ejecutada,Todo Aprobado,Orden de trabajo ,En curso,F,PPA1048F,0,72,20/05/2025,RICARDO PIERONI,444305,23.1%,131.04,,9Dw9Wh0V
 41315,9400945 LAMED S.A.,Parcialmente ejecutada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 22944,Remitido,F,PPA1048F,0,72,20/05/2025,RICARDO PIERONI,444305,23.1%,131.04,T,9Dw9Wh0V
-41316,3086 MULTIORIGINAL PARTS SA,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 22937,Remitido,F,PPAR1048T,0,0,20/05/2025,EXPRESO BRIO SRL,444405,37.5%,288.00,T,1Fr4Ch9I
+41315,9400945 LAMED S.A.,Parcialmente ejecutada,Todo Aprobado,Orden de trabajo ,En curso,F,PPA1048F,0,72,20/05/2025,RICARDO PIERONI,444305,23.1%,131.04,,9Dw9Wh0V
 41316,3086 MULTIORIGINAL PARTS SA,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 22941,Remitido,F,PPAR1048T,0,0,20/05/2025,EXPRESO BRIO SRL,444405,37.5%,288.00,T,1Fr4Ch9I
+41316,3086 MULTIORIGINAL PARTS SA,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 22937,Remitido,F,PPAR1048T,0,0,20/05/2025,EXPRESO BRIO SRL,444405,37.5%,288.00,T,1Fr4Ch9I
 41320,3965 PRO DE MAN SA,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 22940,Remitido,F,PPAR1048T,0,0,20/05/2025,FELICI JORGE ARIEL,444755,39.0%,413.28,T,0Ye3Eq5F
 41322,4894 VANOLI Y CIA SA,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 22942,Remitido,F,PPAR1048T,0,0,20/05/2025,EXPRESO CARGO SA,444878,35.1%,415.80,T,1Qt0Ac5G
 41323,26 SPICER EJES PESADOS SRL,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 22934,Remitido,F,60022-00001-00,0,0,20/05/2025,EXPRESO CARGO SA,444883,67.8%,1344.00,T,0Wt2Wp0H
@@ -424,7 +424,7 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 41124,202 FRIGORIFICO DE AVES SOYCHU SA,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Ensamblada,F,PVC612R,720,0,23/06/2025,EXPRESO CARGO SA,433282,49.1%,900.00,,5Ow8Cg8A
 41124,202 FRIGORIFICO DE AVES SOYCHU SA,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Ensamblada,F,CAS-PPA1048T040,1764,0,23/06/2025,EXPRESO CARGO SA,433282,38.8%,1234.80,,5Ow8Cg8A
 41186,202 FRIGORIFICO DE AVES SOYCHU SA,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Liberada,F,CAS-PPA1048T040,0,1980,25/06/2025,EXPRESO CARGO SA,436249,38.8%,1386.00,,5Ow8Cg8A
-41313,3598 DEL VALLE EMBALAJES SRL,Ejecución de la orden pendiente,Todo Aprobado, ,,F,PPAR1048T,3600,0,27/06/2025,RICARDO PIERONI,443984,35.1%,2772.00,,0Ph8Mv3F
+41313,3598 DEL VALLE EMBALAJES SRL,Ejecución de la orden pendiente,Todo Aprobado, ,,F,PPAR1048T,3.600,0,27/06/2025,RICARDO PIERONI,443984,35.1%,2772.00,,0Ph8Mv3F
 41370,992 ESKABE SA,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Ensamblada,F,PVC624A,72,0,27/06/2025,EXPRESO CARGO SA,447065,79.2%,440.64,,2Ew7Gl2O
 41331,132 MAHLE VALVULAS DE ARGENTINA SA,Ejecución de la orden pendiente,Todo Aprobado, ,,F,MVAQUA203V,0,360,01/07/2025,ALMAR ROSARIO SRL,445308,46.8%,3549.60,,6Ls2Pd3Q
 41356,9402175 SEBASTIAN SANCHEZ RODRIGO,Ejecución de la orden pendiente,Todo Aprobado, ,,F,PPAR1048T,12,0,02/07/2025,RETIRAN,446544,100.0%,.00,,7Xt9Gc1E
