@@ -189,8 +189,8 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 41223,3115 GOOD FOOD SA,Facturada,Todo Aprobado,Ejecución de pedido de artículo 22939,Enviado,F,PPAR15048T,0,0,20/05/2025,EXPRESO BRIO SRL,438473,100.0%,.00,T,8Pc1Jl3L
 41273,3771 PILISAR SA,Facturada,Todo Aprobado,Ejecución de pedido de artículo 22935,Enviado,F,0272/003,0,0,20/05/2025,EXPRESO CARGO SA,441005,38.8%,.00,T,6Qa0Ib0C
 41307,9402135 ALBERTO G MORO SRL,Facturada,Todo Aprobado,Ejecución de pedido de artículo 22932,Enviado,F,MVAQUA180,0,0,20/05/2025,EXPRESO BRIO SRL,443428,34.2%,.00,T,3Ql7Hs1H
-41315,9400945 LAMED S.A.,Parcialmente ejecutada,Todo Aprobado,Orden de trabajo ,En curso,F,PPA1048F,0,72,20/05/2025,RICARDO PIERONI,444305,23.1%,131.04,,9Dw9Wh0V
 41315,9400945 LAMED S.A.,Parcialmente ejecutada,Todo Aprobado,Ejecución de pedido de artículo 22944,Enviado,F,PPA1048F,0,72,20/05/2025,RICARDO PIERONI,444305,23.1%,131.04,T,9Dw9Wh0V
+41315,9400945 LAMED S.A.,Parcialmente ejecutada,Todo Aprobado,Orden de trabajo ,En curso,F,PPA1048F,0,72,20/05/2025,RICARDO PIERONI,444305,23.1%,131.04,,9Dw9Wh0V
 41316,3086 MULTIORIGINAL PARTS SA,Facturada,Todo Aprobado,Ejecución de pedido de artículo 22941,Enviado,F,PPAR1048T,0,0,20/05/2025,EXPRESO BRIO SRL,444405,37.5%,-288.00,T,1Fr4Ch9I
 41316,3086 MULTIORIGINAL PARTS SA,Facturada,Todo Aprobado,Ejecución de pedido de artículo 22937,Enviado,F,PPAR1048T,0,0,20/05/2025,EXPRESO BRIO SRL,444405,37.5%,-288.00,T,1Fr4Ch9I
 41320,3965 PRO DE MAN SA,Facturada,Todo Aprobado,Ejecución de pedido de artículo 22940,Enviado,F,PPAR1048T,0,0,20/05/2025,FELICI JORGE ARIEL,444755,39.0%,.00,T,0Ye3Eq5F
@@ -302,14 +302,14 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 41192,6467 INDUSTRIAS JUAN F SECCO S.A.,Parcialmente ejecutada,Todo Aprobado,Ejecución de pedido de artículo 23031,Enviado,F,MTS548B,0,252,27/05/2025,RICARDO PIERONI,436560,5.8%,505.694,T,8Ul8Kh6G
 41217,2638 QUE RICO SA,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Liberada,F,PPHR1216B,0,648,27/05/2025,EXPRESO CARGO SA,437662,67.1%,1082.16,,0Sl1Br5D
 41217,2638 QUE RICO SA,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Ensamblada,F,PVC612R,576,0,27/05/2025,EXPRESO CARGO SA,437662,62.7%,979.20,,0Sl1Br5D
-41243,260 SUCESION DE BARCIA CLAUDIO RODRIGO,Facturada,Todo Aprobado,Ejecución de pedido de artículo 23011,Enviado,F,MTS548B,0,0,27/05/2025,RICARDO PIERONI,438972,5.5%,-720.00,T,6Ib6Fj6R
 41243,260 SUCESION DE BARCIA CLAUDIO RODRIGO,Facturada,Todo Aprobado,Ejecución de pedido de artículo 23013,Enviado,F,MTS548B,0,0,27/05/2025,RICARDO PIERONI,438972,5.5%,-720.00,T,6Ib6Fj6R
+41243,260 SUCESION DE BARCIA CLAUDIO RODRIGO,Facturada,Todo Aprobado,Ejecución de pedido de artículo 23011,Enviado,F,MTS548B,0,0,27/05/2025,RICARDO PIERONI,438972,5.5%,-720.00,T,6Ib6Fj6R
 41290,3482 NUTRICORRIENTES SA,Facturada,Todo Aprobado,Ejecución de pedido de artículo 23012,Enviado,F,PPHR15048XT,0,0,27/05/2025,EXPRESO HERAL,442268,0.0%,.00,T,9Fo0Ln1Y
 41306,12707 PORTA HNOS. SA,Facturada,Todo Aprobado,Ejecución de pedido de artículo 23021,Enviado,F,PPAR15048T,0,0,27/05/2025,EXPRESO CARGO SA,443427,47.3%,.00,T,4Np7Tr4O
 41306,12707 PORTA HNOS. SA,Facturada,Todo Aprobado,Ejecución de pedido de artículo 23021,Enviado,F,PPAR15048T,0,0,27/05/2025,EXPRESO CARGO SA,443427,47.3%,.00,T,4Np7Tr4O
 41311,9400049 COMPAÑIA AMERICANA DE ALIMENTOS S.A.,Facturada,Todo Aprobado,Ejecución de pedido de artículo 23023,Enviado,F,PPHR15048XT,0,0,27/05/2025,EXPRESO CARGO SA,443983,36.1%,.00,T,2Jl6Ja1C
-41330,4733 TECNOSISTEM SRL,Parcialmente ejecutada,Todo Aprobado,Ejecución de pedido de artículo 23019,Enviado,F,MTS548B,0,684,27/05/2025,EXPRESO CARGO SA,445307,2.6%,1368.00,T,4Mf4Bj0L
 41330,4733 TECNOSISTEM SRL,Parcialmente ejecutada,Todo Aprobado,Factura de venta 37337,Abierta,F,MTS548B,0,684,27/05/2025,EXPRESO CARGO SA,445307,2.6%,1368.00,,4Mf4Bj0L
+41330,4733 TECNOSISTEM SRL,Parcialmente ejecutada,Todo Aprobado,Ejecución de pedido de artículo 23019,Enviado,F,MTS548B,0,684,27/05/2025,EXPRESO CARGO SA,445307,2.6%,1368.00,T,4Mf4Bj0L
 41347,4095 REFINERIA DEL CENTRO SA,Parcialmente ejecutada,Todo Aprobado,Orden de trabajo ,Liberada,F,CAS-PPHR10048XT045,0,108,27/05/2025,EXPRESO SANTA ROSA,446174,68.7%,1533.60,,1Bj3Wa5S
 41348,260 SUCESION DE BARCIA CLAUDIO RODRIGO,Parcialmente ejecutada,Todo Aprobado,Ejecución de pedido de artículo 23030,Enviado,F,MTS548B,0,360,27/05/2025,RICARDO PIERONI,446175,5.5%,720.00,T,6Ib6Fj6R
 41348,260 SUCESION DE BARCIA CLAUDIO RODRIGO,Parcialmente ejecutada,Todo Aprobado,Factura de venta 37331,Abierta,F,MTS548B,0,360,27/05/2025,RICARDO PIERONI,446175,5.5%,720.00,,6Ib6Fj6R
@@ -337,8 +337,8 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 41333,346 DOS HERMANOS S.A,Facturada,Todo Aprobado,Ejecución de pedido de artículo 23042,Enviado,F,CAS-PPAR10072T047,0,0,28/05/2025,TRANSPORTE DE CARGAS MORENO SRL,445512,68.2%,.00,T,2Pi6Wv1H
 41339,3494 TECHNO PACK de MASCHERPA MARIA PAULA,Facturada,Todo Aprobado,Ejecución de pedido de artículo 23044,Enviado,F,PPAR15096T,0,0,28/05/2025,EXPRESO CARGO SA,445955,40.2%,.00,T,4Qq9Xb0L
 41341,9400422 LACTEOS TONUTTI S.R.L.,Facturada,Todo Aprobado,Ejecución de pedido de artículo 23033,Enviado,F,PPHR15048XT,0,0,28/05/2025,TRANSPORTE MOSTTO,446055,38.4%,.00,T,3Nb5Vf8A
-41346,60 INGERSOLL ARGENTINA S.A.,Parcialmente ejecutada,Todo Aprobado,Ejecución de pedido de artículo 23032,Enviado,F,0060/001,0,100,28/05/2025,TRANSPORTE TRAVERSO,446064,79.9%,940.00,T,2Df5Fp8J
 41346,60 INGERSOLL ARGENTINA S.A.,Parcialmente ejecutada,Todo Aprobado,Factura de venta 37345,Abierta,F,0060/001,0,100,28/05/2025,TRANSPORTE TRAVERSO,446064,79.9%,940.00,,2Df5Fp8J
+41346,60 INGERSOLL ARGENTINA S.A.,Parcialmente ejecutada,Todo Aprobado,Ejecución de pedido de artículo 23032,Enviado,F,0060/001,0,100,28/05/2025,TRANSPORTE TRAVERSO,446064,79.9%,940.00,T,2Df5Fp8J
 41371,9402601 MILENIO SRL,Parcialmente ejecutada,Todo Aprobado,Factura de venta 37359,Pagado por completo,F,PPAR524T,0,1,28/05/2025,EXPRESO LUJAN DEL CUYO SA,447289,100.0%,.00,,
 41371,9402601 MILENIO SRL,Parcialmente ejecutada,Todo Aprobado,Factura de venta 37359,Pagado por completo,F,PPAR548T,0,1,28/05/2025,EXPRESO LUJAN DEL CUYO SA,447289,100.0%,.00,,
 41371,9402601 MILENIO SRL,Parcialmente ejecutada,Todo Aprobado,Ejecución de pedido de artículo 23046,Enviado,F,PPAR1048T,0,0,28/05/2025,EXPRESO LUJAN DEL CUYO SA,447289,0.0%,.00,T,
