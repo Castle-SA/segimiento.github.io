@@ -89,16 +89,16 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 41201,2660 VICUNHA ARGENTINA SA (Tintoreria Ullum),Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 22860,Remitido,F,MTP536B,0,0,09/05/2025,EXPRESO CARGO SA,436786,23.3%,3024.00,T,5Dr6Pr8I
 41208,4558 FUSION SAN LUIS S A,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 22859,Remitido,F,PVC648R,0,0,09/05/2025,RETIRAN,437582,100.0%,.00,T,6Yr2Cu9X
 41115,132 MAHLE VALVULAS DE ARGENTINA SA,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 22870,Remitido,F,3351/001,0,0,12/05/2025,EXPRESO SANTA ROSA,433082,97.1%,1781.00,T,6Ls2Pd3Q
-41120,9400115 BEST COLD SRL,Parcialmente ejecutada,Todo Aprobado,Factura de venta 37174,Abierta,F,MTP548B,0,792,12/05/2025,FELICI JORGE ARIEL,433155,26.5%,1465.20,,8Xq9Re2A
 41120,9400115 BEST COLD SRL,Parcialmente ejecutada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 22869,Remitido,F,MTP548B,0,792,12/05/2025,FELICI JORGE ARIEL,433155,26.5%,532.80,T,8Xq9Re2A
+41120,9400115 BEST COLD SRL,Parcialmente ejecutada,Todo Aprobado,Factura de venta 37174,Abierta,F,MTP548B,0,792,12/05/2025,FELICI JORGE ARIEL,433155,26.5%,1465.20,,8Xq9Re2A
 41180,4845 HAMBURGUESAS BELTRAN SRL,Parcialmente ejecutada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 22866,Remitido,F,PPA1548TE,0,0,12/05/2025,EXPRESO CARGO SA,435900,38.7%,856.80,T,7Hf7Bk2A
 41180,4845 HAMBURGUESAS BELTRAN SRL,Parcialmente ejecutada,Todo Aprobado,Factura de venta 37177,Pagado por completo,F,PPAR524T,0,72,12/05/2025,EXPRESO CARGO SA,435900,99.9%,19.44,,7Hf7Bk2A
 41185,5002 EMBALAJES DEL CENTRO S.R.L.,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 22868,Remitido,F,MTS524B,0,0,12/05/2025,EXPRESO CARGO SA,436149,32.4%,360.00,T,9Es7Yc7Q
 41185,5002 EMBALAJES DEL CENTRO S.R.L.,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 22868,Remitido,F,MTS518B,0,0,12/05/2025,EXPRESO CARGO SA,436149,29.3%,1080.00,T,9Es7Yc7Q
 41185,5002 EMBALAJES DEL CENTRO S.R.L.,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 22868,Remitido,F,MTS536B,0,0,12/05/2025,EXPRESO CARGO SA,436149,38.0%,288.00,T,9Es7Yc7Q
 41191,9401926 INDUSTRIAS FRIGORIFICAS RECREO SAIC,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 22864,Remitido,F,CAS-PPAR1048T043,0,0,12/05/2025,EXPRESO BRIO SRL,436555,35.6%,788.40,T,8Zu3It0W
-41220,9401272 RED CHAMBER ARGENTINA SA,Parcialmente ejecutada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 22867,Remitido,F,CAS-PPAR1048T043,0,5184,12/05/2025,TRANSPORTE TOMASSINI,438003,39.0%,1552.32,T,2Gk8Ia6Y
 41220,9401272 RED CHAMBER ARGENTINA SA,Parcialmente ejecutada,Todo Aprobado,Factura de venta 37175,Abierta,F,CAS-PPAR1048T043,0,5184,12/05/2025,TRANSPORTE TOMASSINI,438003,39.0%,3991.68,,2Gk8Ia6Y
+41220,9401272 RED CHAMBER ARGENTINA SA,Parcialmente ejecutada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 22867,Remitido,F,CAS-PPAR1048T043,0,5184,12/05/2025,TRANSPORTE TOMASSINI,438003,39.0%,1552.32,T,2Gk8Ia6Y
 41222,3894 SOSTRE FERNANDO,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 22865,Remitido,F,H11/72,0,0,12/05/2025,EXPRESO CARGO SA,438352,49.0%,55.80,T,6Ui3Rq6T
 41222,3894 SOSTRE FERNANDO,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 22865,Remitido,F,PPA1548TE,0,0,12/05/2025,EXPRESO CARGO SA,438352,35.4%,81.36,T,6Ui3Rq6T
 41229,862 ZF ARGENTINA S.A.,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 22863,Remitido,F,LC579,0,0,12/05/2025,TRANSPORTE CARROSIO Y VAIROLATTI,438625,64.9%,2664.00,T,2Uj4Kr4Y
@@ -387,8 +387,8 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 41420,9402287 GRAELLS NELSON ANTONIO,Ejecución de la orden pendiente,Todo Aprobado, ,,F,CAS-PPA1048T040,0,36,29/05/2025,RICARDO PIERONI,449540,27.3%,21.24,,0Ux3Ra3D
 41421,9402287 GRAELLS NELSON ANTONIO,Ejecución de la orden pendiente,Todo Aprobado, ,,F,CAS-PPA1048T040,0,72,29/05/2025,RICARDO PIERONI,449541,27.3%,42.48,,0Ux3Ra3D
 41422,9402287 GRAELLS NELSON ANTONIO,Ejecución de la orden pendiente,Todo Aprobado, ,,F,CAS-PPA1048T040,0,216,29/05/2025,RICARDO PIERONI,449543,27.3%,127.44,,0Ux3Ra3D
-41424,18293 DULCOR SA,Ejecución de la orden pendiente,Todo Aprobado, ,,F,CAS-PPAR1048T043,0,1080,29/05/2025,EXPRESO LUJAN DEL CUYO SA,449754,38.8%,831.60,,0Jn1Mv5H
-41424,18293 DULCOR SA,Ejecución de la orden pendiente,Todo Aprobado, ,,F,PPAR15048T,180,0,29/05/2025,EXPRESO LUJAN DEL CUYO SA,449754,60.3%,2475.00,,0Jn1Mv5H
+41424,18293 DULCOR SA,Facturación pendiente/parcialmente ejecutada,Todo Aprobado, ,,F,CAS-PPAR1048T043,0,1080,29/05/2025,EXPRESO LUJAN DEL CUYO SA,449754,38.8%,831.60,,0Jn1Mv5H
+41424,18293 DULCOR SA,Facturación pendiente/parcialmente ejecutada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 23058,Remitido,F,PPAR15048T,0,0,29/05/2025,EXPRESO LUJAN DEL CUYO SA,449754,60.3%,2475.00,F,0Jn1Mv5H
 41425,18293 DULCOR SA,Facturación pendiente/parcialmente ejecutada,Todo Aprobado, ,,F,CAS-PPAR1048T043,0,360,29/05/2025,EXPRESO LANCIONI,449755,38.8%,277.20,,0Jn1Mv5H
 41425,18293 DULCOR SA,Facturación pendiente/parcialmente ejecutada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 23057,Remitido,F,PPAR15048T,0,0,29/05/2025,EXPRESO LANCIONI,449755,60.3%,1650.00,F,0Jn1Mv5H
 41428,86 EST GRAFICO IMPRESORES SA,Ejecución de la orden pendiente,Todo Aprobado, ,,F,CAS-PPAR1048T043,0,2016,29/05/2025,EXPRESO CARGO SA,449757,44.6%,1713.60,,9Xw3Zi2V
