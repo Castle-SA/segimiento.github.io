@@ -50,15 +50,15 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 41201,2660 VICUNHA ARGENTINA SA (Tintoreria Ullum),Facturada,Todo Aprobado,Ejecución de pedido de artículo 22860,Enviado,F,MTP536B,0,0,09/05/2025,EXPRESO CARGO SA,436786,23.3%,.00,T,5Dr6Pr8I
 41208,4558 FUSION SAN LUIS S A,Facturada,Todo Aprobado,Ejecución de pedido de artículo 22859,Enviado,F,PVC648R,0,0,09/05/2025,RETIRAN,437582,100.0%,.00,T,6Yr2Cu9X
 41115,132 MAHLE VALVULAS DE ARGENTINA SA,Facturada,Todo Aprobado,Ejecución de pedido de artículo 22870,Enviado,F,3351/001,0,0,12/05/2025,EXPRESO SANTA ROSA,433082,97.1%,-411.00,T,6Ls2Pd3Q
-41120,9400115 BEST COLD SRL,Parcialmente ejecutada,Todo Aprobado,Factura de venta 37174,Pagado por completo,F,MTP548B,0,792,12/05/2025,FELICI JORGE ARIEL,433155,26.5%,1465.20,,8Xq9Re2A
 41120,9400115 BEST COLD SRL,Parcialmente ejecutada,Todo Aprobado,Ejecución de pedido de artículo 22869,Enviado,F,MTP548B,0,792,12/05/2025,FELICI JORGE ARIEL,433155,26.5%,1465.20,T,8Xq9Re2A
+41120,9400115 BEST COLD SRL,Parcialmente ejecutada,Todo Aprobado,Factura de venta 37174,Pagado por completo,F,MTP548B,0,792,12/05/2025,FELICI JORGE ARIEL,433155,26.5%,1465.20,,8Xq9Re2A
 41180,4845 HAMBURGUESAS BELTRAN SRL,Parcialmente ejecutada,Todo Aprobado,Ejecución de pedido de artículo 22866,Enviado,F,PPA1548TE,0,0,12/05/2025,EXPRESO CARGO SA,435900,38.7%,.00,T,7Hf7Bk2A
 41180,4845 HAMBURGUESAS BELTRAN SRL,Parcialmente ejecutada,Todo Aprobado,Factura de venta 37177,Pagado por completo,F,PPAR524T,0,72,12/05/2025,EXPRESO CARGO SA,435900,99.9%,19.44,,7Hf7Bk2A
 41185,5002 EMBALAJES DEL CENTRO S.R.L.,Facturada,Todo Aprobado,Ejecución de pedido de artículo 22868,Enviado,F,MTS524B,0,0,12/05/2025,EXPRESO CARGO SA,436149,32.4%,.00,T,9Es7Yc7Q
 41185,5002 EMBALAJES DEL CENTRO S.R.L.,Facturada,Todo Aprobado,Ejecución de pedido de artículo 22868,Enviado,F,MTS518B,0,0,12/05/2025,EXPRESO CARGO SA,436149,29.3%,.00,T,9Es7Yc7Q
 41185,5002 EMBALAJES DEL CENTRO S.R.L.,Facturada,Todo Aprobado,Ejecución de pedido de artículo 22868,Enviado,F,MTS536B,0,0,12/05/2025,EXPRESO CARGO SA,436149,38.0%,.00,T,9Es7Yc7Q
 41191,9401926 INDUSTRIAS FRIGORIFICAS RECREO SAIC,Facturada,Todo Aprobado,Ejecución de pedido de artículo 22864,Enviado,F,CAS-PPAR1048T043,0,0,12/05/2025,EXPRESO BRIO SRL,436555,35.6%,.00,T,8Zu3It0W
-41220,9401272 RED CHAMBER ARGENTINA SA,Facturación pendiente,Todo Aprobado,Ejecución de pedido de artículo 22867,Enviado,F,CAS-PPAR1048T043,0,0,12/05/2025,TRANSPORTE TOMASSINI,438003,39.0%,.00,T,2Gk8Ia6Y
+41220,9401272 RED CHAMBER ARGENTINA SA,Facturada,Todo Aprobado,Ejecución de pedido de artículo 22867,Enviado,F,CAS-PPAR1048T043,0,0,12/05/2025,TRANSPORTE TOMASSINI,438003,39.0%,.00,T,2Gk8Ia6Y
 41222,3894 SOSTRE FERNANDO,Facturada,Todo Aprobado,Ejecución de pedido de artículo 22865,Enviado,F,H11/72,0,0,12/05/2025,EXPRESO CARGO SA,438352,49.0%,.00,T,6Ui3Rq6T
 41222,3894 SOSTRE FERNANDO,Facturada,Todo Aprobado,Ejecución de pedido de artículo 22865,Enviado,F,PPA1548TE,0,0,12/05/2025,EXPRESO CARGO SA,438352,35.4%,.00,T,6Ui3Rq6T
 41229,862 ZF ARGENTINA S.A.,Facturada,Todo Aprobado,Ejecución de pedido de artículo 22863,Enviado,F,LC579,0,0,12/05/2025,TRANSPORTE CARROSIO Y VAIROLATTI,438625,64.9%,.00,T,2Uj4Kr4Y
@@ -139,7 +139,7 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 41304,3642 PINAR SA,Facturada,Todo Aprobado,Ejecución de pedido de artículo 22926,Enviado,F,H11/48,0,0,19/05/2025,RETIRAN,443305,64.3%,.00,T,7Wv4Iu5X
 41305,3223 FRIGOLAR SA,Facturada,Todo Aprobado,Ejecución de pedido de artículo 22927,Enviado,F,PPAR15048T,0,0,19/05/2025,EXPRESO CARGO SA,443422,0.0%,.00,T,5Xi8Rr4I
 41102,86 EST GRAFICO IMPRESORES SA,Facturada,Todo Aprobado,Ejecución de pedido de artículo 22938,Enviado,F,H11/48,0,0,20/05/2025,EXPRESO CARGO SA,431844,45.4%,.00,T,9Xw3Zi2V
-41163,1171 AUTOSAL SA,Facturación pendiente,Todo Aprobado,Ejecución de pedido de artículo 22936,Enviado,F,0272/005,0,0,20/05/2025,EXPRESO CARGO SA,435013,31.3%,.00,T,2Uv7Bb0L
+41163,1171 AUTOSAL SA,Facturada,Todo Aprobado,Ejecución de pedido de artículo 22936,Enviado,F,0272/005,0,0,20/05/2025,EXPRESO CARGO SA,435013,31.3%,.00,T,2Uv7Bb0L
 41180,4845 HAMBURGUESAS BELTRAN SRL,Parcialmente ejecutada,Todo Aprobado,Ejecución de pedido de artículo 22943,Enviado,F,PPAR512T,0,0,20/05/2025,EXPRESO CARGO SA,435900,14.3%,.00,T,7Hf7Bk2A
 41180,4845 HAMBURGUESAS BELTRAN SRL,Parcialmente ejecutada,Todo Aprobado,Factura de venta 37257,Pagado por completo,F,PPAR524T,0,72,20/05/2025,EXPRESO CARGO SA,435900,99.9%,19.44,,7Hf7Bk2A
 41202,814 OBLAK HNOS SACIFI,Facturada,Todo Aprobado,Ejecución de pedido de artículo 22933,Enviado,F,07063-00001-24,0,0,20/05/2025,EXPRESO CARGO SA,437200,31.2%,.00,T,1Hy0Vd3I
@@ -352,28 +352,28 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 41437,4329 COMPANIA ELABORADORA DE PASTAS SA,Facturada,Todo Aprobado,Ejecución de pedido de artículo 23053,Enviado,F,PPAR15048T,0,0,29/05/2025,RICARDO PIERONI,450213,75.1%,.00,T,0Un8Nt2U
 41442,9402636 FRUNAT SA,Parcialmente ejecutada,Todo Aprobado,Factura de venta 37371,Abierta,F,CAS-PPAR1048T043,0,900,29/05/2025,EXPRESO LANCIONI,450537,38.9%,693.00,,
 41442,9402636 FRUNAT SA,Parcialmente ejecutada,Todo Aprobado,Ejecución de pedido de artículo 23059,Enviado,F,PPAR15048T,0,0,29/05/2025,EXPRESO LANCIONI,450537,60.3%,.00,T,
-41163,1171 AUTOSAL SA,Facturación pendiente,Todo Aprobado,Ejecución de pedido de artículo 23081,Enviado,F,PVC624A,0,0,30/05/2025,EXPRESO CARGO SA,435013,30.7%,.00,F,2Uv7Bb0L
-41163,1171 AUTOSAL SA,Facturación pendiente,Todo Aprobado,Ejecución de pedido de artículo 23081,Enviado,F,74662-00003-01,0,0,30/05/2025,EXPRESO CARGO SA,435013,42.3%,.00,F,2Uv7Bb0L
-41163,1171 AUTOSAL SA,Facturación pendiente,Todo Aprobado,Ejecución de pedido de artículo 23081,Enviado,F,74662-00002-00,0,0,30/05/2025,EXPRESO CARGO SA,435013,47.7%,.00,F,2Uv7Bb0L
-41220,9401272 RED CHAMBER ARGENTINA SA,Facturación pendiente,Todo Aprobado,Ejecución de pedido de artículo 23084,Enviado,F,PPAR1048T,0,0,30/05/2025,TRANSPORTE TOMASSINI,438003,35.1%,.00,F,2Gk8Ia6Y
+41163,1171 AUTOSAL SA,Facturada,Todo Aprobado,Ejecución de pedido de artículo 23081,Enviado,F,PVC624A,0,0,30/05/2025,EXPRESO CARGO SA,435013,30.7%,.00,T,2Uv7Bb0L
+41163,1171 AUTOSAL SA,Facturada,Todo Aprobado,Ejecución de pedido de artículo 23081,Enviado,F,74662-00003-01,0,0,30/05/2025,EXPRESO CARGO SA,435013,42.3%,.00,T,2Uv7Bb0L
+41163,1171 AUTOSAL SA,Facturada,Todo Aprobado,Ejecución de pedido de artículo 23081,Enviado,F,74662-00002-00,0,0,30/05/2025,EXPRESO CARGO SA,435013,47.7%,.00,T,2Uv7Bb0L
+41220,9401272 RED CHAMBER ARGENTINA SA,Facturada,Todo Aprobado,Ejecución de pedido de artículo 23084,Enviado,F,PPAR1048T,0,0,30/05/2025,TRANSPORTE TOMASSINI,438003,35.1%,.00,T,2Gk8Ia6Y
 41293,3108 E A BALBI E HIJOS SA,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Liberada,F,3108/001,0,2880,30/05/2025,EXPRESO CARGO SA,442541,47.5%,3600.00,,1Hh7Gx0G
 41299,9400536 MILKAUT SA,Facturada,Todo Aprobado,Ejecución de pedido de artículo 23075,Enviado,F,PPHR15048XT,0,0,30/05/2025,RICARDO PIERONI,442647,39.4%,-21.95,T,8Ny2Or7G
 41381,3089 ARNEG ARGENTINA S.A.,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Ensamblada,F,3089/067,23000,0,30/05/2025,RICARDO PIERONI,448136,96.1%,3818.00,,7Rx7Ub2H
 41424,18293 DULCOR SA DULCOR SA,Facturada,Todo Aprobado,Ejecución de pedido de artículo 23073,Enviado,F,PPAR1048T,0,0,30/05/2025,EXPRESO LUJAN DEL CUYO SA,449754,35.1%,.00,T,0Jn1Mv5H
 41425,18293 DULCOR SA DULCOR SA,Facturada,Todo Aprobado,Ejecución de pedido de artículo 23079,Enviado,F,PPAR1048T,0,0,30/05/2025,EXPRESO LANCIONI,449755,35.1%,.00,T,0Jn1Mv5H
 41426,9400100 ABBOUD MARCELO BANAIOT,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Liberada,F,CAS-PPA548T040,0,9720,30/05/2025,EXPRESO CARGO SA,449756,15.3%,2624.40,,5Pj9Xf1N
-41428,86 EST GRAFICO IMPRESORES SA,Facturación pendiente,Todo Aprobado,Ejecución de pedido de artículo 23085,Enviado,F,PPAR1048T,0,0,30/05/2025,EXPRESO CARGO SA,449757,41.2%,.00,F,9Xw3Zi2V
+41428,86 EST GRAFICO IMPRESORES SA,Facturada,Todo Aprobado,Ejecución de pedido de artículo 23085,Enviado,F,PPAR1048T,0,0,30/05/2025,EXPRESO CARGO SA,449757,41.2%,.00,T,9Xw3Zi2V
 41434,9401509 GRECIAMAR SA,Facturada,Todo Aprobado,Ejecución de pedido de artículo 23080,Enviado,F,PPAR1048T,0,0,30/05/2025,TRANSPORTE TOMASSINI,449960,35.1%,.00,T,6Ja0Ks2W
 41436,3086 MULTIORIGINAL PARTS SA,Facturada,Todo Aprobado,Ejecución de pedido de artículo 23078,Enviado,F,PPAR1048T,0,0,30/05/2025,EXPRESO LUJAN DEL CUYO SA,450092,37.5%,.00,T,1Fr4Ch9I
 41438,2515 CONGELADOS ARTICO SA,Facturada,Todo Aprobado,Ejecución de pedido de artículo 23077,Enviado,F,PPAR1072T,0,0,30/05/2025,TRANSPORTE TOMASSINI,450214,48.9%,.00,T,8Rn3En3G
 41441,9400536 MILKAUT SA,Facturada,Todo Aprobado,Ejecución de pedido de artículo 23074,Enviado,F,PPAR1048T,0,0,30/05/2025,FELICI JORGE ARIEL,450437,35.1%,.00,T,8Ny2Or7G
-41447,3494 TECHNO PACK de MASCHERPA MARIA PAULA,Facturación pendiente,Todo Aprobado,Ejecución de pedido de artículo 23082,Enviado,F,PPHPR100144B028,0,0,30/05/2025,EXPRESO CARGO SA,450680,0.0%,.00,F,4Qq9Xb0L
+41447,3494 TECHNO PACK de MASCHERPA MARIA PAULA,Facturada,Todo Aprobado,Ejecución de pedido de artículo 23082,Enviado,F,PPHPR100144B028,0,0,30/05/2025,EXPRESO CARGO SA,450680,0.0%,.00,T,4Qq9Xb0L
 41448,2588 LA DELICIA FELIPE FORT SA,Parcialmente ejecutada,Todo Aprobado,Ejecución de pedido de artículo 23076,Enviado,F,PPA1048F,0,0,30/05/2025,EXPRESO CARGO SA,450692,0.0%,.00,T,1Wc2Ua1X
 41448,2588 LA DELICIA FELIPE FORT SA,Parcialmente ejecutada,Todo Aprobado,Factura de venta 37389,Pagado por completo,F,4912/001,0,1,30/05/2025,EXPRESO CARGO SA,450692,0.0%,.00,,1Wc2Ua1X
 41448,2588 LA DELICIA FELIPE FORT SA,Parcialmente ejecutada,Todo Aprobado,Factura de venta 37389,Pagado por completo,F,CAS-PPAR1048T043,0,6,30/05/2025,EXPRESO CARGO SA,450692,0.0%,.00,,1Wc2Ua1X
 41448,2588 LA DELICIA FELIPE FORT SA,Parcialmente ejecutada,Todo Aprobado,Ejecución de pedido de artículo 23076,Enviado,F,PPHR15048XT,0,0,30/05/2025,EXPRESO CARGO SA,450692,0.0%,.00,T,1Wc2Ua1X
 41448,2588 LA DELICIA FELIPE FORT SA,Parcialmente ejecutada,Todo Aprobado,Ejecución de pedido de artículo 23076,Enviado,F,PPAR15048T,0,0,30/05/2025,EXPRESO CARGO SA,450692,0.0%,.00,T,1Wc2Ua1X
-41449,9401715 ELABORADORA DE PRODUCTOS CARNICOS CARCARAÑA S.A.,Facturación pendiente,Todo Aprobado,Ejecución de pedido de artículo 23083,Enviado,F,PPAR1072T,0,0,30/05/2025,EXPRESO BRIO SRL,450694,45.5%,.00,F,5Ro2Wu0T
+41449,9401715 ELABORADORA DE PRODUCTOS CARNICOS CARCARAÑA S.A.,Facturada,Todo Aprobado,Ejecución de pedido de artículo 23083,Enviado,F,PPAR1072T,0,0,30/05/2025,EXPRESO BRIO SRL,450694,45.5%,.00,T,5Ro2Wu0T
 41236,1029 DREAN SA,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Ensamblada,F,0272/005,120,0,02/06/2025,EXPRESO CARGO SA,438756,34.2%,1116.00,,6Ng7Hp1X
 41257,5019 GRANJA TRES ARROYOS SACAFEI,Ejecución de la orden pendiente,Todo Aprobado, ,,F,PPAR1072T,120,0,02/06/2025,EXPRESO CARGO SA,439926,41.6%,164.40,,0Ql9Gi1V
 41260,814 OBLAK HNOS SACIFI,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Liberada,F,07063-00001-24,0,100,02/06/2025,EXPRESO CARGO SA,439988,31.3%,815.00,,1Hy0Vd3I
