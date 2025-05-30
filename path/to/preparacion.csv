@@ -14,8 +14,8 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 41152,3089 ARNEG ARGENTINA S.A.,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 22835,Remitido,F,PER3040U,0,0,06/05/2025,RICARDO PIERONI,434061,63.7%,555.90,T,7Rx7Ub2H
 41175,9400215 CARLOS MAXIMILIANO BASILIO,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 22838,Remitido,F,PPHPR100144B028,0,0,06/05/2025,EXPRESO CARGO SA,435745,0.0%,.00,T,0Fo4Wq8J
 41179,9400868 SINTARYC S A I C,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 22836,Remitido,F,PPHR15048XT,0,0,06/05/2025,EXPRESO CARGO SA,435881,0.0%,.00,T,9Gs4Xo3J
-41181,1499 FAIART ARGENTINA SA,Parcialmente ejecutada,Todo Aprobado,Factura de venta 37150,Abierta,F,CH523EXR,0,22,06/05/2025,EXPRESO BRIO SRL,436035,56.1%,330.00,,9Pk0Ny6V
 41181,1499 FAIART ARGENTINA SA,Parcialmente ejecutada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 22840,Remitido,F,CH523EXR,0,22,06/05/2025,EXPRESO BRIO SRL,436035,56.1%,630.00,T,9Pk0Ny6V
+41181,1499 FAIART ARGENTINA SA,Parcialmente ejecutada,Todo Aprobado,Factura de venta 37150,Abierta,F,CH523EXR,0,22,06/05/2025,EXPRESO BRIO SRL,436035,56.1%,330.00,,9Pk0Ny6V
 41182,9400049 COMPAÑIA AMERICANA DE ALIMENTOS S.A.,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 22841,Remitido,F,PPAR15048T,0,0,06/05/2025,EXPRESO CARGO SA,436036,48.8%,3039.60,T,2Jl6Ja1C
 41194,6733 CARLOS ANIBAL SCIALPI,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 22833,Remitido,F,74662-00003-01,0,0,06/05/2025,TRANSPORTE TOMASSINI,436577,47.6%,1296.00,T,0Qc5An1T
 41195,9401339 QUICKFOOD S.A.,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 22839,Remitido,F,PPAR1048T,0,0,06/05/2025,FELICI JORGE ARIEL,436681,48.4%,513.00,T,8Fy3Xp2W
@@ -148,8 +148,8 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 41273,3771 PILISAR SA,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 22935,Remitido,F,0272/003,0,0,20/05/2025,EXPRESO CARGO SA,441005,38.8%,4312.00,T,6Qa0Ib0C
 41307,9402135 ALBERTO G MORO SRL,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 22932,Remitido,F,MVAQUA180,0,0,20/05/2025,EXPRESO BRIO SRL,443428,34.2%,197.20,T,3Ql7Hs1H
 41315,9400945 LAMED S.A.,Parcialmente ejecutada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 22944,Remitido,F,PPA1048F,0,72,20/05/2025,RICARDO PIERONI,444305,23.1%,131.04,T,9Dw9Wh0V
-41316,3086 MULTIORIGINAL PARTS SA,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 22941,Remitido,F,PPAR1048T,0,0,20/05/2025,EXPRESO BRIO SRL,444405,37.5%,288.00,T,1Fr4Ch9I
 41316,3086 MULTIORIGINAL PARTS SA,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 22937,Remitido,F,PPAR1048T,0,0,20/05/2025,EXPRESO BRIO SRL,444405,37.5%,288.00,T,1Fr4Ch9I
+41316,3086 MULTIORIGINAL PARTS SA,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 22941,Remitido,F,PPAR1048T,0,0,20/05/2025,EXPRESO BRIO SRL,444405,37.5%,288.00,T,1Fr4Ch9I
 41320,3965 PRO DE MAN SA,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 22940,Remitido,F,PPAR1048T,0,0,20/05/2025,FELICI JORGE ARIEL,444755,39.0%,413.28,T,0Ye3Eq5F
 41322,4894 VANOLI Y CIA SA,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 22942,Remitido,F,PPAR1048T,0,0,20/05/2025,EXPRESO CARGO SA,444878,35.1%,415.80,T,1Qt0Ac5G
 41323,26 SPICER EJES PESADOS SRL,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 22934,Remitido,F,60022-00001-00,0,0,20/05/2025,EXPRESO CARGO SA,444883,67.8%,1344.00,T,0Wt2Wp0H
@@ -350,7 +350,7 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 41432,100 ROSARIO PACK S.R.L.,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 23065,Remitido,F,MTS536B,0,0,29/05/2025,RICARDO PIERONI,449946,0.0%,.00,T,1Dx9Uz1L
 41432,100 ROSARIO PACK S.R.L.,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 23065,Remitido,F,MTS524B,0,0,29/05/2025,RICARDO PIERONI,449946,0.0%,.00,T,1Dx9Uz1L
 41437,4329 COMPANIA ELABORADORA DE PASTAS SA,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 23053,Remitido,F,PPAR15048T,0,0,29/05/2025,RICARDO PIERONI,450213,75.1%,131.40,T,0Un8Nt2U
-41442,9402636 FRUNAT SA,Parcialmente ejecutada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 23059,Remitido,F,PPAR15048T,0,0,29/05/2025,EXPRESO LANCIONI,450537,60.3%,1485.00,T,
+41442,9402636 FRUNAT SA,Facturación pendiente,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 23059,Remitido,F,PPAR15048T,0,0,29/05/2025,EXPRESO LANCIONI,450537,60.3%,1485.00,T,
 41163,1171 AUTOSAL SA,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 23081,Remitido,F,PVC624A,0,0,30/05/2025,EXPRESO CARGO SA,435013,30.7%,133.20,T,2Uv7Bb0L
 41163,1171 AUTOSAL SA,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 23081,Remitido,F,74662-00003-01,0,0,30/05/2025,EXPRESO CARGO SA,435013,42.3%,1588.80,T,2Uv7Bb0L
 41163,1171 AUTOSAL SA,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 23081,Remitido,F,74662-00002-00,0,0,30/05/2025,EXPRESO CARGO SA,435013,47.7%,1588.80,T,2Uv7Bb0L
@@ -366,6 +366,7 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 41436,3086 MULTIORIGINAL PARTS SA,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 23078,Remitido,F,PPAR1048T,0,0,30/05/2025,EXPRESO LUJAN DEL CUYO SA,450092,37.5%,576.00,T,1Fr4Ch9I
 41438,2515 CONGELADOS ARTICO SA,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 23077,Remitido,F,PPAR1072T,0,0,30/05/2025,TRANSPORTE TOMASSINI,450214,48.9%,943.20,T,8Rn3En3G
 41441,9400536 MILKAUT SA,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 23074,Remitido,F,PPAR1048T,0,0,30/05/2025,FELICI JORGE ARIEL,450437,35.1%,55.44,T,8Ny2Or7G
+41442,9402636 FRUNAT SA,Facturación pendiente,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 23086,Remitido,F,PPAR1048T,0,0,30/05/2025,EXPRESO LANCIONI,450537,35.1%,693.00,F,
 41447,3494 TECHNO PACK de MASCHERPA MARIA PAULA,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 23082,Remitido,F,PPHPR100144B028,0,0,30/05/2025,EXPRESO CARGO SA,450680,0.0%,.00,T,4Qq9Xb0L
 41448,2588 LA DELICIA FELIPE FORT SA,Parcialmente ejecutada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 23076,Remitido,F,PPA1048F,0,0,30/05/2025,EXPRESO CARGO SA,450692,0.0%,.00,T,1Wc2Ua1X
 41448,2588 LA DELICIA FELIPE FORT SA,Parcialmente ejecutada,Todo Aprobado,Factura de venta 37389,Pagado por completo,F,4912/001,0,1,30/05/2025,EXPRESO CARGO SA,450692,0.0%,.00,,1Wc2Ua1X
@@ -373,15 +374,15 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 41448,2588 LA DELICIA FELIPE FORT SA,Parcialmente ejecutada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 23076,Remitido,F,PPHR15048XT,0,0,30/05/2025,EXPRESO CARGO SA,450692,0.0%,.00,T,1Wc2Ua1X
 41448,2588 LA DELICIA FELIPE FORT SA,Parcialmente ejecutada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 23076,Remitido,F,PPAR15048T,0,0,30/05/2025,EXPRESO CARGO SA,450692,0.0%,.00,T,1Wc2Ua1X
 41449,9401715 ELABORADORA DE PRODUCTOS CARNICOS CARCARAÑA S.A.,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 23083,Remitido,F,PPAR1072T,0,0,30/05/2025,EXPRESO BRIO SRL,450694,45.5%,295.20,T,5Ro2Wu0T
+41454,3086 MULTIORIGINAL PARTS SA,Facturación pendiente,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 23087,Remitido,F,PPAR1048T,0,0,30/05/2025,TRANSPORTE TOMASSINI,451021,37.5%,576.00,F,1Fr4Ch9I
+41457,3862 FAMEIM SA,Facturación pendiente,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 23088,Remitido,F,PPAR1048T,0,0,30/05/2025,EXPRESO BRIO SRL,451258,39.0%,147.60,F,2Sr4Oc0K
+41457,3862 FAMEIM SA,Facturación pendiente,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 23088,Remitido,F,PPAR1072T,0,0,30/05/2025,EXPRESO BRIO SRL,451258,45.5%,295.20,F,2Sr4Oc0K
 41236,1029 DREAN SA,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Ensamblada,F,0272/005,120,0,02/06/2025,EXPRESO CARGO SA,438756,34.2%,1116.00,,6Ng7Hp1X
 41257,5019 GRANJA TRES ARROYOS SACAFEI,Ejecución de la orden pendiente,Todo Aprobado, ,,F,PPAR1072T,120,0,02/06/2025,EXPRESO CARGO SA,439926,41.6%,164.40,,0Ql9Gi1V
 41260,814 OBLAK HNOS SACIFI,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Liberada,F,07063-00001-24,0,100,02/06/2025,EXPRESO CARGO SA,439988,31.3%,815.00,,1Hy0Vd3I
 41444,4095 REFINERIA DEL CENTRO SA,Ejecución de la orden pendiente,Todo Aprobado, ,,F,CAS-PPAR10072T047,0,60,02/06/2025,EXPRESO SANTA ROSA,450539,40.9%,738.00,,1Bj3Wa5S
 41452,279 HONDA MOTOR DE ARGENTINA S.A.,Ejecución de la orden pendiente,Todo Aprobado, ,,F,04169-00058-93,20,0,02/06/2025,EXPRESO CARGO SA,450911,58.3%,570.029,,1Rf6Ez5C
 41452,279 HONDA MOTOR DE ARGENTINA S.A.,Ejecución de la orden pendiente,Todo Aprobado, ,,F,04169-00056-93,20,0,02/06/2025,EXPRESO CARGO SA,450911,58.7%,541.202,,1Rf6Ez5C
-41454,3086 MULTIORIGINAL PARTS SA,Ejecución de la orden pendiente,Todo Aprobado, ,,F,CAS-PPAR1048T043,0,720,02/06/2025,TRANSPORTE TOMASSINI,451021,41.2%,576.00,,1Fr4Ch9I
-41457,3862 FAMEIM SA,Ejecución de la orden pendiente,Todo Aprobado, ,,F,CAS-PPAR1048T043,0,180,02/06/2025,EXPRESO BRIO SRL,451258,42.6%,147.60,,2Sr4Oc0K
-41457,3862 FAMEIM SA,Ejecución de la orden pendiente,Todo Aprobado, ,,F,CAS-PPAR1072T043,0,240,02/06/2025,EXPRESO BRIO SRL,451258,41.9%,295.20,,2Sr4Oc0K
 41279,3493 HASUMAC SA,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Liberada,F,3493/002,0,360,03/06/2025,EXPRESO CARGO SA,441758,44.4%,424.80,,0Do6Gs7X
 41406,94010 VISUAR SA,Ejecución de la orden pendiente,Todo Aprobado, ,,F,MUESTRA ESPECIAL,1,0,03/06/2025,EXPRESO CARGO SA,449412,0.0%,.00,,4Gf8Oa0H
 41406,94010 VISUAR SA,Ejecución de la orden pendiente,Todo Aprobado, ,,F,MUESTRA ESPECIAL,1,0,03/06/2025,EXPRESO CARGO SA,449412,0.0%,.00,,4Gf8Oa0H
@@ -445,4 +446,3 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 41352,4931 ALGABO SA,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Liberada,F,CAS-PPHR1048XT045,0,3000,,EXPRESO CARGO SA,446425,64.6%,3990.00,,
 41352,4931 ALGABO SA,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Liberada,F,CAS-PPHR10072XT045,0,50,,EXPRESO CARGO SA,446425,66.2%,1001.00,,
 41399,9400115 BEST COLD SRL,Ejecución de la orden pendiente,Todo Aprobado, ,,F,MTP548B,0,1620,,FELICI JORGE ARIEL,448710,26.5%,2997.00,,8Xq9Re2A
-41442,9402636 FRUNAT SA,Parcialmente ejecutada,Todo Aprobado, ,,F,PPAR1048T,900,0,,EXPRESO LANCIONI,450537,35.1%,693.00,,
