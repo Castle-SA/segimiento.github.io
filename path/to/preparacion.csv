@@ -248,10 +248,10 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 41306,12707 PORTA HNOS. SA,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 23021,Remitido,F,PPAR15048T,0,0,27/05/2025,EXPRESO CARGO SA,443427,47.3%,2138.60,T,4Np7Tr4O
 41306,12707 PORTA HNOS. SA,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 23021,Remitido,F,PPAR15048T,0,0,27/05/2025,EXPRESO CARGO SA,443427,47.3%,28.90,T,4Np7Tr4O
 41311,9400049 COMPAÑIA AMERICANA DE ALIMENTOS S.A.,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 23023,Remitido,F,PPHR15048XT,0,0,27/05/2025,EXPRESO CARGO SA,443983,36.1%,8316.00,T,2Jl6Ja1C
-41330,4733 TECNOSISTEM SRL,Parcialmente ejecutada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 23019,Remitido,F,MTS548B,0,684,27/05/2025,EXPRESO CARGO SA,445307,2.6%,792.00,T,4Mf4Bj0L
 41330,4733 TECNOSISTEM SRL,Parcialmente ejecutada,Todo Aprobado,Factura de venta 37337,Abierta,F,MTS548B,0,684,27/05/2025,EXPRESO CARGO SA,445307,2.6%,1368.00,,4Mf4Bj0L
-41348,260 SUCESION DE BARCIA CLAUDIO RODRIGO,Parcialmente ejecutada,Todo Aprobado,Factura de venta 37331,Abierta,F,MTS548B,0,360,27/05/2025,RICARDO PIERONI,446175,5.5%,720.00,,6Ib6Fj6R
+41330,4733 TECNOSISTEM SRL,Parcialmente ejecutada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 23019,Remitido,F,MTS548B,0,684,27/05/2025,EXPRESO CARGO SA,445307,2.6%,792.00,T,4Mf4Bj0L
 41348,260 SUCESION DE BARCIA CLAUDIO RODRIGO,Parcialmente ejecutada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 23030,Remitido,F,MTS548B,0,360,27/05/2025,RICARDO PIERONI,446175,5.5%,144.00,T,6Ib6Fj6R
+41348,260 SUCESION DE BARCIA CLAUDIO RODRIGO,Parcialmente ejecutada,Todo Aprobado,Factura de venta 37331,Abierta,F,MTS548B,0,360,27/05/2025,RICARDO PIERONI,446175,5.5%,720.00,,6Ib6Fj6R
 41348,260 SUCESION DE BARCIA CLAUDIO RODRIGO,Parcialmente ejecutada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 23030,Remitido,F,MTS536B,0,0,27/05/2025,RICARDO PIERONI,446175,38.0%,144.00,T,6Ib6Fj6R
 41351,9400313 HOJALMAR SOCIEDAD ANONIMA,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 23020,Remitido,F,PPAR15048T,0,0,27/05/2025,EXPRESO CARGO SA,446421,100.0%,.00,T,4Ik6Eg2O
 41365,94010 VISUAR SA,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 23024,Remitido,F,PPHR15048XT,0,0,27/05/2025,EXPRESO CARGO SA,446924,38.2%,264.00,T,4Gf8Oa0H
@@ -384,8 +384,8 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 41458,78 AGCO ARGENTINA S.A.,Ejecución de la orden pendiente,Todo Aprobado, ,,F,0058/001,0,10,03/06/2025,EXPRESO CARGO SA,451363,0.0%,.00,,2Vu6Nr4A
 41460,9402057 MEDIADOR SRL,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 23094,Remitido,F,PPAR1048T,0,0,03/06/2025,EXPRESO LUJAN DEL CUYO SA,451449,41.2%,459.00,T,7Ii1Mi8Q
 41461,9400939 AGRO ACEITUNERA SA,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 23102,Remitido,F,PPHR15048XT,0,0,03/06/2025,EXPRESO CARGO SA,451631,35.0%,9568.26,T,5Ov4Xv6Y
-41465,132 MAHLE VALVULAS DE ARGENTINA SA,Parcialmente ejecutada,Todo Aprobado,Factura de venta 37410,Abierta,F,04169-00058-93,0,3,03/06/2025,EXPRESO SANTA ROSA,451634,55.3%,80.40,,6Ls2Pd3Q
 41465,132 MAHLE VALVULAS DE ARGENTINA SA,Parcialmente ejecutada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 23097,Remitido,F,04169-00058-93,0,3,03/06/2025,EXPRESO SANTA ROSA,451634,55.3%,26.80,T,6Ls2Pd3Q
+41465,132 MAHLE VALVULAS DE ARGENTINA SA,Parcialmente ejecutada,Todo Aprobado,Factura de venta 37410,Abierta,F,04169-00058-93,0,3,03/06/2025,EXPRESO SANTA ROSA,451634,55.3%,80.40,,6Ls2Pd3Q
 41465,132 MAHLE VALVULAS DE ARGENTINA SA,Parcialmente ejecutada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 23097,Remitido,F,04169-00056-93,0,0,03/06/2025,EXPRESO SANTA ROSA,451634,58.0%,160.80,T,6Ls2Pd3Q
 41465,132 MAHLE VALVULAS DE ARGENTINA SA,Parcialmente ejecutada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 23097,Remitido,F,04169-00059-93,0,0,03/06/2025,EXPRESO SANTA ROSA,451634,54.5%,26.80,T,6Ls2Pd3Q
 41462,9400939 AGRO ACEITUNERA SA,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 23101,Remitido,F,PPHR15048XT,0,0,03/06/2025,EXPRESO CARGO SA,451732,35.0%,3739.32,T,5Ov4Xv6Y
@@ -403,15 +403,15 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 41476,2481 BUSTOS Y BELTRAN SA,Ejecución de la orden pendiente,Todo Aprobado, ,,F,PPAR1048T,3600,0,04/06/2025,EXPRESO LANCIONI,452518,37.5%,2880.00,,5Hl5Oe6D
 41480,178 DROGUERIA DEL SUD S.A.,Facturación pendiente,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 23104,Remitido,F,PPAR1048T,0,0,04/06/2025,TRANSPORTE TOMASSINI,452916,31.5%,473.04,F,5Mx5Rs0E
 41483,178 DROGUERIA DEL SUD S.A.,Facturación pendiente,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 23105,Remitido,F,PPAR1048T,0,0,04/06/2025,EXPRESO LANCIONI,453160,31.5%,473.04,F,5Mx5Rs0E
+41486,178 DROGUERIA DEL SUD S.A.,Facturación pendiente,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 23106,Remitido,F,PPAR1048T,0,0,04/06/2025,EXPRESO LANCIONI,453170,31.5%,525.60,F,5Mx5Rs0E
+41488,178 DROGUERIA DEL SUD S.A.,Facturación pendiente,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 23107,Remitido,F,PPAR1048T,0,0,04/06/2025,EXPRESO LANCIONI,453178,31.5%,289.08,F,5Mx5Rs0E
 41451,15 IND. JOHN DEERE ARGENTINA S.A.,Ejecución de la orden pendiente,Todo Aprobado,Pedido ,Recepción pendiente,T,0015/016,0,5,05/06/2025,FELICI JORGE ARIEL,450806,67.6%,565.00,,8Ky5Hq9D
 41467,3862 FAMEIM SA,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Liberada,F,64621-00006-00,0,48,05/06/2025,EXPRESO BRIO SRL,451787,62.6%,421.44,,2Sr4Oc0K
 41479,1029 DREAN SA,Ejecución de la orden pendiente,Todo Aprobado, ,,F,PPAR1048M,240,0,05/06/2025,EXPRESO CARGO SA,452638,35.2%,218.40,,6Ng7Hp1X
 41484,178 DROGUERIA DEL SUD S.A.,Ejecución de la orden pendiente,Todo Aprobado, ,,F,PPAR1048T,72,0,05/06/2025,EXPRESO LUJAN DEL CUYO SA,453162,31.5%,52.56,,5Mx5Rs0E
 41485,178 DROGUERIA DEL SUD S.A.,Ejecución de la orden pendiente,Todo Aprobado, ,,F,PPAR1048T,504,0,05/06/2025,TRANSPORTE TOMASSINI,453168,31.5%,367.92,,5Mx5Rs0E
-41486,178 DROGUERIA DEL SUD S.A.,Ejecución de la orden pendiente,Todo Aprobado, ,,F,PPAR1048T,720,0,05/06/2025,EXPRESO LANCIONI,453170,31.5%,525.60,,5Mx5Rs0E
 41487,178 DROGUERIA DEL SUD S.A.,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Liberada,F,PPA1048F,0,72,05/06/2025,EXPRESO LUJAN DEL CUYO SA,453177,28.5%,146.88,,5Mx5Rs0E
 41487,178 DROGUERIA DEL SUD S.A.,Ejecución de la orden pendiente,Todo Aprobado, ,,F,PPAR1048T,180,0,05/06/2025,EXPRESO LUJAN DEL CUYO SA,453177,31.5%,131.40,,5Mx5Rs0E
-41488,178 DROGUERIA DEL SUD S.A.,Ejecución de la orden pendiente,Todo Aprobado, ,,F,PPAR1048T,396,0,05/06/2025,EXPRESO LANCIONI,453178,31.5%,289.08,,5Mx5Rs0E
 41492,9402175 SEBASTIAN SANCHEZ RODRIGO,Ejecución de la orden pendiente,Todo Aprobado, ,,F,MUESTRA ESPECIAL,2,0,05/06/2025,RETIRAN,453283,100.0%,.00,,7Xt9Gc1E
 41492,9402175 SEBASTIAN SANCHEZ RODRIGO,Ejecución de la orden pendiente,Todo Aprobado, ,,F,MUESTRA ESPECIAL,2,0,05/06/2025,RETIRAN,453283,100.0%,.00,,7Xt9Gc1E
 41236,1029 DREAN SA,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Ensamblada,F,0272/005,120,0,06/06/2025,EXPRESO CARGO SA,438756,34.2%,1116.00,,6Ng7Hp1X
@@ -459,6 +459,7 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 41464,655 SWIFT SA ARGENTINA,Ejecución de la orden pendiente,Todo Aprobado, ,,F,PPAR1072T,8808,0,16/06/2025,EXPRESO BRIO SRL,451633,50.4%,11890.80,,8Wb3Xi2L
 41481,15 IND. JOHN DEERE ARGENTINA S.A.,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Ensamblada,F,0015/008,300,0,17/06/2025,FELICI JORGE ARIEL,453054,73.3%,3210.00,,8Ky5Hq9D
 41482,15 IND. JOHN DEERE ARGENTINA S.A.,Ejecución de la orden pendiente,Todo Aprobado, ,,F,LC579,1200,0,17/06/2025,FELICI JORGE ARIEL,453154,57.6%,396.00,,8Ky5Hq9D
+41494,1029 DREAN SA,Ejecución de la orden pendiente,Todo Aprobado, ,,F,0272/005,40,320,17/06/2025,EXPRESO CARGO SA,453384,34.1%,3348.00,,6Ng7Hp1X
 41219,9402175 SEBASTIAN SANCHEZ RODRIGO,Ejecución de la orden pendiente,Todo Aprobado, ,,F,PPHR15048XT,2,0,18/06/2025,RETIRAN,438002,100.0%,.00,,7Xt9Gc1E
 41219,9402175 SEBASTIAN SANCHEZ RODRIGO,Ejecución de la orden pendiente,Todo Aprobado, ,,F,PPAR1048T,12,0,18/06/2025,RETIRAN,438002,100.0%,.00,,7Xt9Gc1E
 41242,1386 FRIGORIFICO PALADINI SA,Ejecución de la orden pendiente,Todo Aprobado, ,,F,PPAR1048T,648,0,19/06/2025,FELICI JORGE ARIEL,438867,36.4%,509.305,,0Ut2Zv0U
@@ -470,8 +471,10 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 41124,202 FRIGORIFICO DE AVES SOYCHU SA,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Ensamblada,F,PVC612R,720,0,23/06/2025,EXPRESO CARGO SA,433282,49.1%,900.00,,5Ow8Cg8A
 41124,202 FRIGORIFICO DE AVES SOYCHU SA,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Ensamblada,F,CAS-PPA1048T040,1764,0,23/06/2025,EXPRESO CARGO SA,433282,38.8%,1234.80,,5Ow8Cg8A
 41366,143 EPTA ARGENTINA S.A.,Ejecución de la orden pendiente,Todo Aprobado,Pedido ,Aprobación del supervisor pendiente,T,0143/021,0,150,23/06/2025,FELICI JORGE ARIEL,446925,73.6%,1972.50,,1Tu2Pr5C
+41495,1029 DREAN SA,Ejecución de la orden pendiente,Todo Aprobado, ,,F,MTP548B,0,2016,24/06/2025,EXPRESO CARGO SA,453385,28.8%,3850.56,,6Ng7Hp1X
 41186,202 FRIGORIFICO DE AVES SOYCHU SA,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Liberada,F,CAS-PPA1048T040,0,1980,25/06/2025,EXPRESO CARGO SA,436249,38.8%,1386.00,,5Ow8Cg8A
 41370,992 ESKABE SA,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Ensamblada,F,PVC624A,72,0,27/06/2025,EXPRESO CARGO SA,447065,79.2%,440.64,,2Ew7Gl2O
+41493,1029 DREAN SA,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Liberada,F,0272/003,0,80,30/06/2025,EXPRESO CARGO SA,453284,35.1%,7440.00,,6Ng7Hp1X
 41331,132 MAHLE VALVULAS DE ARGENTINA SA,Ejecución de la orden pendiente,Todo Aprobado, ,,F,MVAQUA203V,0,360,01/07/2025,ALMAR ROSARIO SRL,445308,46.8%,3549.60,,6Ls2Pd3Q
 41356,9402175 SEBASTIAN SANCHEZ RODRIGO,Ejecución de la orden pendiente,Todo Aprobado, ,,F,PPAR1048T,12,0,02/07/2025,RETIRAN,446544,100.0%,.00,,7Xt9Gc1E
 41463,4381 IBERCONSA DE ARGENTINA SA,Ejecución de la orden pendiente,Todo Aprobado, ,,F,FLJPP30012B,48,0,11/07/2025,TRANSPORTE TOMASSINI,451632,-1.7%,1800.00,,9Lx6Mu2V
