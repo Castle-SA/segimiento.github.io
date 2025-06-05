@@ -71,7 +71,7 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 40501,6217 FULLPOINT SRL,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 22886,Remitido,F,PPAR1024T,0,0,14/05/2025,RICARDO PIERONI,391528,37.0%,216.00,T,8Mg9Eq6I
 40982,6142 PAPELERA DEL SUR SRL,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 22887,Remitido,F,PPAR1024T,0,0,14/05/2025,RICARDO PIERONI,424705,8.6%,504.00,T,9Rc3Gf4C
 41091,655 SWIFT SA ARGENTINA,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 22884,Remitido,F,PPAR1072T,0,0,14/05/2025,FELICI JORGE ARIEL,430744,37.1%,1372.80,T,8Wb3Xi2L
-41123,202 FRIGORIFICO DE AVES SOYCHU SA,Parcialmente ejecutada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 22896,Remitido,F,PVC612R,0,0,14/05/2025,EXPRESO CARGO SA,433276,49.1%,900.00,T,5Ow8Cg8A
+41123,202 FRIGORIFICO DE AVES SOYCHU SA,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 22896,Remitido,F,PVC612R,0,0,14/05/2025,EXPRESO CARGO SA,433276,49.1%,900.00,T,5Ow8Cg8A
 41149,3598 DEL VALLE EMBALAJES SRL,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 22891,Remitido,F,PPAR1024T,0,0,14/05/2025,FELICI JORGE ARIEL,433938,-45.8%,345.60,T,0Ph8Mv3F
 41149,3598 DEL VALLE EMBALAJES SRL,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 22891,Remitido,F,PPAR15096T,0,0,14/05/2025,FELICI JORGE ARIEL,433938,48.5%,3300.00,T,0Ph8Mv3F
 41172,722 EXPORTADOR DE HAMBURGUESAS ARGENTINAS SA,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 22889,Remitido,F,CAS-PPAR10048T047,0,0,14/05/2025,EXPRESO CARGO SA,435469,54.7%,316.20,T,4Fk9Bq4S
@@ -133,8 +133,8 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 41273,3771 PILISAR SA,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 22935,Remitido,F,0272/003,0,0,20/05/2025,EXPRESO CARGO SA,441005,38.8%,4312.00,T,6Qa0Ib0C
 41307,9402135 ALBERTO G MORO SRL,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 22932,Remitido,F,MVAQUA180,0,0,20/05/2025,EXPRESO BRIO SRL,443428,34.2%,197.20,T,3Ql7Hs1H
 41315,9400945 LAMED S.A.,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 22944,Remitido,F,PPA1048F,0,0,20/05/2025,RICARDO PIERONI,444305,23.1%,131.04,T,9Dw9Wh0V
-41316,3086 MULTIORIGINAL PARTS SA,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 22937,Remitido,F,PPAR1048T,0,0,20/05/2025,EXPRESO BRIO SRL,444405,37.5%,288.00,T,1Fr4Ch9I
 41316,3086 MULTIORIGINAL PARTS SA,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 22941,Remitido,F,PPAR1048T,0,0,20/05/2025,EXPRESO BRIO SRL,444405,37.5%,288.00,T,1Fr4Ch9I
+41316,3086 MULTIORIGINAL PARTS SA,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 22937,Remitido,F,PPAR1048T,0,0,20/05/2025,EXPRESO BRIO SRL,444405,37.5%,288.00,T,1Fr4Ch9I
 41320,3965 PRO DE MAN SA,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 22940,Remitido,F,PPAR1048T,0,0,20/05/2025,FELICI JORGE ARIEL,444755,39.0%,413.28,T,0Ye3Eq5F
 41322,4894 VANOLI Y CIA SA,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 22942,Remitido,F,PPAR1048T,0,0,20/05/2025,EXPRESO CARGO SA,444878,35.1%,415.80,T,1Qt0Ac5G
 41323,26 SPICER EJES PESADOS SRL,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 22934,Remitido,F,60022-00001-00,0,0,20/05/2025,EXPRESO CARGO SA,444883,67.8%,1344.00,T,0Wt2Wp0H
@@ -198,7 +198,6 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 41363,9400983 CATESUR SA,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 22987,Remitido,F,FLJPP30012B,0,0,23/05/2025,TRANSPORTE TOMASSINI,446678,-1.7%,1800.00,T,1Du0Dz8M
 41363,9400983 CATESUR SA,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 22987,Remitido,F,PPAR1048T,0,0,23/05/2025,TRANSPORTE TOMASSINI,446678,35.1%,1386.00,T,1Du0Dz8M
 41373,1606 DANES SRL,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 22986,Remitido,F,MTS518B,0,0,23/05/2025,RICARDO PIERONI,447408,36.9%,403.20,T,1Km7Ai4M
-41123,202 FRIGORIFICO DE AVES SOYCHU SA,Parcialmente ejecutada,Todo Aprobado,Orden de trabajo ,Ensamblada,F,CAS-PPA1048T040,1764,0,26/05/2025,EXPRESO CARGO SA,433276,38.8%,1234.80,,5Ow8Cg8A
 41225,1029 DREAN SA,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 22999,Remitido,F,0272/003,0,0,26/05/2025,EXPRESO CARGO SA,438623,35.2%,7440.00,T,6Ng7Hp1X
 41231,1029 DREAN SA,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 23000,Remitido,F,PPAR1048T,0,0,26/05/2025,EXPRESO CARGO SA,438747,45.1%,163.80,T,6Ng7Hp1X
 41333,346 DOS HERMANOS S.A,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 23007,Remitido,F,PVC612B,0,0,26/05/2025,TRANSPORTE DE CARGAS MORENO SRL,445512,72.3%,1123.20,T,2Pi6Wv1H
@@ -240,8 +239,8 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 41311,9400049 COMPAÑIA AMERICANA DE ALIMENTOS S.A.,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 23023,Remitido,F,PPHR15048XT,0,0,27/05/2025,EXPRESO CARGO SA,443983,36.1%,8316.00,T,2Jl6Ja1C
 41330,4733 TECNOSISTEM SRL,Parcialmente ejecutada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 23019,Remitido,F,MTS548B,0,684,27/05/2025,EXPRESO CARGO SA,445307,2.6%,792.00,T,4Mf4Bj0L
 41330,4733 TECNOSISTEM SRL,Parcialmente ejecutada,Todo Aprobado,Factura de venta 37337,Abierta,F,MTS548B,0,684,27/05/2025,EXPRESO CARGO SA,445307,2.6%,1368.00,,4Mf4Bj0L
-41348,260 SUCESION DE BARCIA CLAUDIO RODRIGO,Parcialmente ejecutada,Todo Aprobado,Factura de venta 37331,Abierta,F,MTS548B,0,360,27/05/2025,RICARDO PIERONI,446175,5.5%,720.00,,6Ib6Fj6R
 41348,260 SUCESION DE BARCIA CLAUDIO RODRIGO,Parcialmente ejecutada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 23030,Remitido,F,MTS548B,0,360,27/05/2025,RICARDO PIERONI,446175,5.5%,144.00,T,6Ib6Fj6R
+41348,260 SUCESION DE BARCIA CLAUDIO RODRIGO,Parcialmente ejecutada,Todo Aprobado,Factura de venta 37331,Abierta,F,MTS548B,0,360,27/05/2025,RICARDO PIERONI,446175,5.5%,720.00,,6Ib6Fj6R
 41348,260 SUCESION DE BARCIA CLAUDIO RODRIGO,Parcialmente ejecutada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 23030,Remitido,F,MTS536B,0,0,27/05/2025,RICARDO PIERONI,446175,38.0%,144.00,T,6Ib6Fj6R
 41351,9400313 HOJALMAR SOCIEDAD ANONIMA,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 23020,Remitido,F,PPAR15048T,0,0,27/05/2025,EXPRESO CARGO SA,446421,100.0%,.00,T,4Ik6Eg2O
 41365,94010 VISUAR SA,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 23024,Remitido,F,PPHR15048XT,0,0,27/05/2025,EXPRESO CARGO SA,446924,38.2%,264.00,T,4Gf8Oa0H
@@ -319,8 +318,8 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 41293,3108 E A BALBI E HIJOS SA,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Liberada,F,3108/001,0,2880,30/05/2025,EXPRESO CARGO SA,442541,47.5%,3600.00,,1Hh7Gx0G
 41299,9400536 MILKAUT SA,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 23075,Remitido,F,PPHR15048XT,0,0,30/05/2025,RICARDO PIERONI,442647,39.4%,6980.10,T,8Ny2Or7G
 41315,9400945 LAMED S.A.,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 23091,Remitido,F,PPA1048F,0,0,30/05/2025,RICARDO PIERONI,444305,23.1%,131.04,T,9Dw9Wh0V
-41381,3089 ARNEG ARGENTINA S.A.,Parcialmente ejecutada,Todo Aprobado,Orden de trabajo ,En curso,F,3089/067,0,3000,30/05/2025,EXPRESO BRIO SRL,448136,96.1%,498.00,,7Rx7Ub2H
 41381,3089 ARNEG ARGENTINA S.A.,Parcialmente ejecutada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 23092,Remitido,F,3089/067,0,3000,30/05/2025,EXPRESO BRIO SRL,448136,96.1%,3320.00,T,7Rx7Ub2H
+41381,3089 ARNEG ARGENTINA S.A.,Parcialmente ejecutada,Todo Aprobado,Orden de trabajo ,En curso,F,3089/067,0,3000,30/05/2025,EXPRESO BRIO SRL,448136,96.1%,498.00,,7Rx7Ub2H
 41424,18293 DULCOR SA,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 23073,Remitido,F,PPAR1048T,0,0,30/05/2025,EXPRESO LUJAN DEL CUYO SA,449754,35.1%,831.60,T,0Jn1Mv5H
 41425,18293 DULCOR SA,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 23079,Remitido,F,PPAR1048T,0,0,30/05/2025,EXPRESO LANCIONI,449755,35.1%,277.20,T,0Jn1Mv5H
 41426,9400100 ABBOUD MARCELO BANAIOT,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 23093,Remitido,F,CAS-PPA548T040,0,0,30/05/2025,EXPRESO CARGO SA,449756,15.3%,2624.40,T,5Pj9Xf1N
@@ -391,7 +390,8 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 41492,9402175 SEBASTIAN SANCHEZ RODRIGO,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 23119,Remitido,F,MUESTRA ESPECIAL,0,0,04/06/2025,RETIRAN,453283,100.0%,.00,T,7Xt9Gc1E
 41496,9402347 GL SA,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 23116,Remitido,F,CAS-PPA1072T040,0,0,04/06/2025,EXPRESO LUJAN DEL CUYO SA,453473,33.3%,1396.80,T,
 41120,9400115 BEST COLD SRL,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 23127,Remitido,F,MTP548B,0,0,05/06/2025,FELICI JORGE ARIEL,433155,26.5%,1465.20,T,8Xq9Re2A
-41184,202 FRIGORIFICO DE AVES SOYCHU SA,Facturación pendiente,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 23134,Remitido,F,CAS-PPA1048T040,0,0,05/06/2025,EXPRESO CARGO SA,436148,38.8%,1512.00,F,5Ow8Cg8A
+41123,202 FRIGORIFICO DE AVES SOYCHU SA,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 23149,Remitido,F,CAS-PPA1048T040,0,0,05/06/2025,EXPRESO CARGO SA,433276,38.8%,1234.80,T,5Ow8Cg8A
+41184,202 FRIGORIFICO DE AVES SOYCHU SA,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 23134,Remitido,F,CAS-PPA1048T040,0,0,05/06/2025,EXPRESO CARGO SA,436148,38.8%,1512.00,T,5Ow8Cg8A
 41230,1029 DREAN SA,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 23128,Remitido,F,MTP548B,0,0,05/06/2025,EXPRESO CARGO SA,438746,28.8%,1925.28,T,6Ng7Hp1X
 41233,1029 DREAN SA,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 23129,Remitido,F,MTP548B,0,0,05/06/2025,EXPRESO CARGO SA,438750,28.8%,962.64,T,6Ng7Hp1X
 41326,9402055 SOCIEDAD ANONIMA CARNES PAMPEANAS SA,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 23135,Remitido,F,CAS-PPA1048T040,0,0,05/06/2025,TRANSPORTE TOMASSINI,444988,34.0%,655.20,T,2Pf7Rs2C
@@ -399,22 +399,22 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 41407,9402287 GRAELLS NELSON ANTONIO,Parcialmente ejecutada,Todo Aprobado,Factura de venta 37447,Abierta,F,CAS-PPA1048T040,0,2628,05/06/2025,RICARDO PIERONI,449418,27.3%,1550.52,,0Ux3Ra3D
 41407,9402287 GRAELLS NELSON ANTONIO,Parcialmente ejecutada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 23130,Remitido,F,CAS-PPA1048T040,0,2628,05/06/2025,RICARDO PIERONI,449418,27.3%,403.56,T,0Ux3Ra3D
 41408,9402287 GRAELLS NELSON ANTONIO,Facturación pendiente,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 23131,Remitido,F,CAS-PPA1048T040,0,0,05/06/2025,RICARDO PIERONI,449522,27.3%,21.24,F,0Ux3Ra3D
-41409,9402287 GRAELLS NELSON ANTONIO,Facturación pendiente,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 23132,Remitido,F,CAS-PPA1048T040,0,0,05/06/2025,RICARDO PIERONI,449524,27.3%,21.24,F,0Ux3Ra3D
+41409,9402287 GRAELLS NELSON ANTONIO,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 23132,Remitido,F,CAS-PPA1048T040,0,0,05/06/2025,RICARDO PIERONI,449524,27.3%,21.24,T,0Ux3Ra3D
 41410,9402287 GRAELLS NELSON ANTONIO,Facturación pendiente,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 23133,Remitido,F,CAS-PPA1048T040,0,0,05/06/2025,RICARDO PIERONI,449526,27.3%,127.44,F,0Ux3Ra3D
 41411,9402287 GRAELLS NELSON ANTONIO,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 23136,Remitido,F,CAS-PPA1048T040,0,0,05/06/2025,RICARDO PIERONI,449527,27.3%,42.48,T,0Ux3Ra3D
-41412,9402287 GRAELLS NELSON ANTONIO,Facturación pendiente,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 23137,Remitido,F,CAS-PPA1048T040,0,0,05/06/2025,RICARDO PIERONI,449529,27.3%,21.24,F,0Ux3Ra3D
 41412,9402287 GRAELLS NELSON ANTONIO,Facturación pendiente,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 23138,Remitido,F,CAS-PPA1048T040,0,0,05/06/2025,RICARDO PIERONI,449529,27.3%,21.24,F,0Ux3Ra3D
+41412,9402287 GRAELLS NELSON ANTONIO,Facturación pendiente,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 23137,Remitido,F,CAS-PPA1048T040,0,0,05/06/2025,RICARDO PIERONI,449529,27.3%,21.24,F,0Ux3Ra3D
 41413,9402287 GRAELLS NELSON ANTONIO,Facturación pendiente,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 23139,Remitido,F,CAS-PPA1048T040,0,0,05/06/2025,RICARDO PIERONI,449530,27.3%,21.24,F,0Ux3Ra3D
 41414,9402287 GRAELLS NELSON ANTONIO,Facturación pendiente,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 23140,Remitido,F,CAS-PPA1048T040,0,0,05/06/2025,RICARDO PIERONI,449532,27.3%,21.24,F,0Ux3Ra3D
 41415,9402287 GRAELLS NELSON ANTONIO,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 23141,Remitido,F,CAS-PPA1048T040,0,0,05/06/2025,RICARDO PIERONI,449533,27.3%,21.24,T,0Ux3Ra3D
-41416,9402287 GRAELLS NELSON ANTONIO,Facturación pendiente,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 23142,Remitido,F,CAS-PPA1048T040,0,0,05/06/2025,RICARDO PIERONI,449535,27.3%,42.48,F,0Ux3Ra3D
+41416,9402287 GRAELLS NELSON ANTONIO,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 23142,Remitido,F,CAS-PPA1048T040,0,0,05/06/2025,RICARDO PIERONI,449535,27.3%,42.48,T,0Ux3Ra3D
 41417,9402287 GRAELLS NELSON ANTONIO,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 23143,Remitido,F,CAS-PPA1048T040,0,0,05/06/2025,RICARDO PIERONI,449536,27.3%,42.48,T,0Ux3Ra3D
-41418,9402287 GRAELLS NELSON ANTONIO,Facturación pendiente,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 23144,Remitido,F,CAS-PPA1048T040,0,0,05/06/2025,RICARDO PIERONI,449537,27.3%,42.48,F,0Ux3Ra3D
-41419,9402287 GRAELLS NELSON ANTONIO,Facturación pendiente,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 23145,Remitido,F,CAS-PPA1048T040,0,0,05/06/2025,RICARDO PIERONI,449539,27.1%,42.48,F,0Ux3Ra3D
+41418,9402287 GRAELLS NELSON ANTONIO,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 23144,Remitido,F,CAS-PPA1048T040,0,0,05/06/2025,RICARDO PIERONI,449537,27.3%,42.48,T,0Ux3Ra3D
+41419,9402287 GRAELLS NELSON ANTONIO,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 23145,Remitido,F,CAS-PPA1048T040,0,0,05/06/2025,RICARDO PIERONI,449539,27.1%,42.48,T,0Ux3Ra3D
 41420,9402287 GRAELLS NELSON ANTONIO,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 23146,Remitido,F,CAS-PPA1048T040,0,0,05/06/2025,RICARDO PIERONI,449540,27.3%,21.24,T,0Ux3Ra3D
 41421,9402287 GRAELLS NELSON ANTONIO,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 23147,Remitido,F,CAS-PPA1048T040,0,0,05/06/2025,RICARDO PIERONI,449541,27.3%,42.48,T,0Ux3Ra3D
-41422,9402287 GRAELLS NELSON ANTONIO,Parcialmente ejecutada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 23148,Remitido,F,CAS-PPA1048T040,0,36,05/06/2025,RICARDO PIERONI,449543,27.3%,106.20,T,0Ux3Ra3D
 41422,9402287 GRAELLS NELSON ANTONIO,Parcialmente ejecutada,Todo Aprobado,Factura de venta 37449,Abierta,F,CAS-PPA1048T040,0,36,05/06/2025,RICARDO PIERONI,449543,27.3%,21.24,,0Ux3Ra3D
+41422,9402287 GRAELLS NELSON ANTONIO,Parcialmente ejecutada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 23148,Remitido,F,CAS-PPA1048T040,0,36,05/06/2025,RICARDO PIERONI,449543,27.3%,106.20,T,0Ux3Ra3D
 41451,15 IND. JOHN DEERE ARGENTINA S.A.,Ejecución de la orden pendiente,Todo Aprobado,Pedido ,Recepción pendiente,T,0015/016,0,5,05/06/2025,FELICI JORGE ARIEL,450806,67.6%,565.00,,8Ky5Hq9D
 41467,3862 FAMEIM SA,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Ensamblada,F,64621-00006-00,48,0,05/06/2025,EXPRESO BRIO SRL,451787,62.6%,421.44,,2Sr4Oc0K
 41476,2481 BUSTOS Y BELTRAN SA,Parcialmente ejecutada,Todo Aprobado,Factura de venta 37437,Abierta,F,2481/001,0,1080,05/06/2025,EXPRESO LANCIONI,452518,36.7%,1350.00,,5Hl5Oe6D
@@ -517,7 +517,7 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 41269,3089 ARNEG ARGENTINA S.A.,Ejecución de la orden pendiente,Todo Aprobado, ,,F,MTP548B,480,0,,RICARDO PIERONI,440805,39.6%,1080.00,,7Rx7Ub2H
 41289,260 SUCESION DE BARCIA CLAUDIO RODRIGO,Ejecución de la orden pendiente,Todo Aprobado,Pedido ,Recepción pendiente,T,60951-00000-00,0,18,,RICARDO PIERONI,442117,45.6%,468.00,,6Ib6Fj6R
 41347,4095 REFINERIA DEL CENTRO SA,Parcialmente ejecutada,Todo Aprobado,Orden de trabajo ,Liberada,F,CAS-PPHR10048XT045,0,108,,EXPRESO SANTA ROSA,446174,68.7%,1533.60,,1Bj3Wa5S
-41352,4931 ALGABO SA,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Liberada,F,CAS-PPHR1048XT045,0,3.000,,EXPRESO CARGO SA,446425,64.6%,3990.00,,
+41352,4931 ALGABO SA,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Liberada,F,CAS-PPHR1048XT045,0,3000,,EXPRESO CARGO SA,446425,64.6%,3990.00,,
 41352,4931 ALGABO SA,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Liberada,F,CAS-PPHR10072XT045,0,50,,EXPRESO CARGO SA,446425,66.2%,1001.00,,
 41443,4558 FUSION SAN LUIS S A,Ejecución de la orden pendiente,Todo Aprobado, ,,F,MTS548B,0,72,,EXPRESO LUJAN DEL CUYO SA,450438,16.0%,162.00,,6Yr2Cu9X
 41443,4558 FUSION SAN LUIS S A,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Ensamblada,F,PVC648R,36,0,,EXPRESO LUJAN DEL CUYO SA,450438,66.9%,252.00,,6Yr2Cu9X
