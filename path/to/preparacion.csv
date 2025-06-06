@@ -301,8 +301,8 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 41293,3108 E A BALBI E HIJOS SA,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Liberada,F,3108/001,0,2880,30/05/2025,EXPRESO CARGO SA,442541,47.5%,3600.00,,1Hh7Gx0G
 41299,9400536 MILKAUT SA,Facturada,Todo Aprobado,Ejecución de pedido de artículo 23075,Enviado,F,PPHR15048XT,0,0,30/05/2025,RICARDO PIERONI,442647,39.4%,-21.95,T,8Ny2Or7G
 41315,9400945 LAMED S.A.,Facturada,Todo Aprobado,Ejecución de pedido de artículo 23091,Enviado,F,PPA1048F,0,0,30/05/2025,RICARDO PIERONI,444305,23.1%,.00,T,9Dw9Wh0V
-41381,3089 ARNEG ARGENTINA S.A.,Parcialmente ejecutada,Todo Aprobado,Orden de trabajo ,En curso,F,3089/067,0,3000,30/05/2025,EXPRESO BRIO SRL,448136,96.1%,498.00,,7Rx7Ub2H
-41381,3089 ARNEG ARGENTINA S.A.,Parcialmente ejecutada,Todo Aprobado,Ejecución de pedido de artículo 23092,Enviado,F,3089/067,0,3.000,30/05/2025,EXPRESO BRIO SRL,448136,96.1%,498.00,T,7Rx7Ub2H
+41381,3089 ARNEG ARGENTINA S.A.,Parcialmente ejecutada,Todo Aprobado,Ejecución de pedido de artículo 23092,Enviado,F,3089/067,0,3000,30/05/2025,EXPRESO BRIO SRL,448136,96.1%,498.00,T,7Rx7Ub2H
+41381,3089 ARNEG ARGENTINA S.A.,Parcialmente ejecutada,Todo Aprobado,Orden de trabajo ,En curso,F,3089/067,0,3.000,30/05/2025,EXPRESO BRIO SRL,448136,96.1%,498.00,,7Rx7Ub2H
 41424,18293 DULCOR SA,Facturada,Todo Aprobado,Ejecución de pedido de artículo 23073,Enviado,F,PPAR1048T,0,0,30/05/2025,EXPRESO LUJAN DEL CUYO SA,449754,35.1%,.00,T,0Jn1Mv5H
 41425,18293 DULCOR SA,Facturada,Todo Aprobado,Ejecución de pedido de artículo 23079,Enviado,F,PPAR1048T,0,0,30/05/2025,EXPRESO LANCIONI,449755,35.1%,.00,T,0Jn1Mv5H
 41426,9400100 ABBOUD MARCELO BANAIOT,Facturada,Todo Aprobado,Ejecución de pedido de artículo 23093,Enviado,F,CAS-PPA548T040,0,0,30/05/2025,EXPRESO CARGO SA,449756,15.3%,.00,T,5Pj9Xf1N
@@ -425,7 +425,7 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 41470,3089 ARNEG ARGENTINA S.A.,Facturada,Todo Aprobado,Ejecución de pedido de artículo 23155,Enviado,F,3089/080,0,0,06/06/2025,FELICI JORGE ARIEL,452313,8.1%,.00,T,7Rx7Ub2H
 41470,3089 ARNEG ARGENTINA S.A.,Facturada,Todo Aprobado,Ejecución de pedido de artículo 23155,Enviado,F,3089/081,0,0,06/06/2025,FELICI JORGE ARIEL,452313,8.1%,.00,T,7Rx7Ub2H
 41489,3897 LA EMILIA SA,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Liberada,F,PEG5L1570M,0,24,06/06/2025,RETIRAN,453055,61.9%,198.24,,7Lh8Zw6V
-41498,9402652 SOUTHERN MEAT SRL,Facturación pendiente,Todo Aprobado,Ejecución de pedido de artículo 23158,Enviado,F,CAS-PPAR10048T047,0,0,06/06/2025,EXPRESO CARGO SA,453590,54.7%,.00,F,
+41498,9402652 SOUTHERN MEAT SRL,Facturada,Todo Aprobado,Ejecución de pedido de artículo 23158,Enviado,F,CAS-PPAR10048T047,0,0,06/06/2025,EXPRESO CARGO SA,453590,54.7%,.00,T,
 41499,22 CARRARO ARGENTINA S.A.,Ejecución de la orden pendiente,Todo Aprobado, ,,F,BV004,40,0,06/06/2025,EXPRESO CARGO SA,453609,85.3%,148.40,,8Bb5Dn1K
 41499,22 CARRARO ARGENTINA S.A.,Ejecución de la orden pendiente,Todo Aprobado, ,,F,BV001,20,0,06/06/2025,EXPRESO CARGO SA,453609,78.0%,239.20,,8Bb5Dn1K
 41506,9400868 SINTARYC S A I C,Ejecución de la orden pendiente,Todo Aprobado, ,,F,PPHR15048XT,336,0,06/06/2025,EXPRESO CARGO SA,453742,41.9%,6854.40,,9Gs4Xo3J
