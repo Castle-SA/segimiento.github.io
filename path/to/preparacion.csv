@@ -208,8 +208,8 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 41293,3108 E A BALBI E HIJOS SA,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Liberada,F,3108/001,0,2880,30/05/2025,EXPRESO CARGO SA,442541,47.5%,3600.00,,1Hh7Gx0G
 41299,9400536 MILKAUT SA,Facturada,Todo Aprobado,Ejecución de pedido de artículo 23075,Enviado,T,PPHR15048XT,0,0,30/05/2025,RICARDO PIERONI,442647,39.4%,-21.95,T,8Ny2Or7G
 41315,9400945 LAMED S.A.,Facturada,Todo Aprobado,Ejecución de pedido de artículo 23091,Enviado,F,PPA1048F,0,0,30/05/2025,RICARDO PIERONI,444305,23.1%,.00,T,9Dw9Wh0V
-41381,3089 ARNEG ARGENTINA S.A.,Parcialmente ejecutada,Todo Aprobado,Ejecución de pedido de artículo 23092,Enviado,F,3089/067,0,3000,30/05/2025,EXPRESO BRIO SRL,448136,96.1%,498.00,T,7Rx7Ub2H
 41381,3089 ARNEG ARGENTINA S.A.,Parcialmente ejecutada,Todo Aprobado,Orden de trabajo ,En curso,F,3089/067,0,3000,30/05/2025,EXPRESO BRIO SRL,448136,96.1%,498.00,,7Rx7Ub2H
+41381,3089 ARNEG ARGENTINA S.A.,Parcialmente ejecutada,Todo Aprobado,Ejecución de pedido de artículo 23092,Enviado,F,3089/067,0,3000,30/05/2025,EXPRESO BRIO SRL,448136,96.1%,498.00,T,7Rx7Ub2H
 41424,18293 DULCOR SA,Facturada,Todo Aprobado,Ejecución de pedido de artículo 23073,Enviado,F,PPAR1048T,0,0,30/05/2025,EXPRESO LUJAN DEL CUYO SA,449754,35.1%,.00,T,0Jn1Mv5H
 41425,18293 DULCOR SA,Facturada,Todo Aprobado,Ejecución de pedido de artículo 23079,Enviado,F,PPAR1048T,0,0,30/05/2025,EXPRESO LANCIONI,449755,35.1%,.00,T,0Jn1Mv5H
 41426,9400100 ABBOUD MARCELO BANAIOT,Facturada,Todo Aprobado,Ejecución de pedido de artículo 23093,Enviado,F,CAS-PPA548T040,0,0,30/05/2025,EXPRESO CARGO SA,449756,15.3%,.00,T,5Pj9Xf1N
@@ -234,8 +234,8 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 41452,279 HONDA MOTOR DE ARGENTINA S.A.,Facturada,Todo Aprobado,Ejecución de pedido de artículo 23096,Enviado,F,04169-00056-93,0,0,03/06/2025,EXPRESO CARGO SA,450911,58.7%,.00,T,1Rf6Ez5C
 41460,9402057 MEDIADOR SRL,Facturada,Todo Aprobado,Ejecución de pedido de artículo 23094,Enviado,F,PPAR1048T,0,0,03/06/2025,EXPRESO LUJAN DEL CUYO SA,451449,41.2%,.00,T,7Ii1Mi8Q
 41461,9400939 AGRO ACEITUNERA SA,Facturada,Todo Aprobado,Ejecución de pedido de artículo 23102,Enviado,F,PPHR15048XT,0,0,03/06/2025,EXPRESO CARGO SA,451631,35.0%,-36.66,T,5Ov4Xv6Y
-41465,132 MAHLE VALVULAS DE ARGENTINA SA,Parcialmente ejecutada,Todo Aprobado,Ejecución de pedido de artículo 23097,Enviado,T,04169-00058-93,0,3,03/06/2025,EXPRESO SANTA ROSA,451634,55.3%,80.40,T,6Ls2Pd3Q
 41465,132 MAHLE VALVULAS DE ARGENTINA SA,Parcialmente ejecutada,Todo Aprobado,Factura de venta 37410,Abierta,T,04169-00058-93,0,3,03/06/2025,EXPRESO SANTA ROSA,451634,55.3%,80.40,,6Ls2Pd3Q
+41465,132 MAHLE VALVULAS DE ARGENTINA SA,Parcialmente ejecutada,Todo Aprobado,Ejecución de pedido de artículo 23097,Enviado,T,04169-00058-93,0,3,03/06/2025,EXPRESO SANTA ROSA,451634,55.3%,80.40,T,6Ls2Pd3Q
 41465,132 MAHLE VALVULAS DE ARGENTINA SA,Parcialmente ejecutada,Todo Aprobado,Ejecución de pedido de artículo 23097,Enviado,T,04169-00056-93,0,0,03/06/2025,EXPRESO SANTA ROSA,451634,58.0%,.00,T,6Ls2Pd3Q
 41465,132 MAHLE VALVULAS DE ARGENTINA SA,Parcialmente ejecutada,Todo Aprobado,Ejecución de pedido de artículo 23097,Enviado,T,04169-00059-93,0,0,03/06/2025,EXPRESO SANTA ROSA,451634,54.5%,.00,T,6Ls2Pd3Q
 41462,9400939 AGRO ACEITUNERA SA,Facturada,Todo Aprobado,Ejecución de pedido de artículo 23101,Enviado,F,PPHR15048XT,0,0,03/06/2025,EXPRESO CARGO SA,451732,35.0%,-73.32,T,5Ov4Xv6Y
@@ -347,12 +347,12 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 41207,2993 COTEMINAS ARGENTINA SA,Facturada,Todo Aprobado,Ejecución de pedido de artículo 23195,Enviado,F,2993/001,0,0,10/06/2025,EXPRESO BRIO SRL,437408,17.0%,.00,T,6Ks3Py8W
 41247,3089 ARNEG ARGENTINA S.A.,Facturada,Todo Aprobado,Ejecución de pedido de artículo 23185,Enviado,T,3089/082,0,0,10/06/2025,RICARDO PIERONI,439121,52.2%,.00,T,7Rx7Ub2H
 41319,9402347 GL SA,Facturada,Todo Aprobado,Ejecución de pedido de artículo 23196,Enviado,F,2492/001,0,0,10/06/2025,EXPRESO BRIO SRL,444641,44.5%,.00,T,
-41458,78 AGCO ARGENTINA S.A.,Parcialmente ejecutada,Todo Aprobado,Ejecución de pedido de artículo 23183,Enviado,F,BV001,0,0,10/06/2025,EXPRESO CARGO SA,451363,0.0%,.00,T,2Vu6Nr4A
 41458,78 AGCO ARGENTINA S.A.,Parcialmente ejecutada,Todo Aprobado,Ejecución de pedido de artículo 23181,Enviado,F,BV001,0,0,10/06/2025,EXPRESO CARGO SA,451363,0.0%,.00,T,2Vu6Nr4A
-41458,78 AGCO ARGENTINA S.A.,Parcialmente ejecutada,Todo Aprobado,Ejecución de pedido de artículo 23181,Enviado,F,BV004,0,0,10/06/2025,EXPRESO CARGO SA,451363,0.0%,.00,T,2Vu6Nr4A
+41458,78 AGCO ARGENTINA S.A.,Parcialmente ejecutada,Todo Aprobado,Ejecución de pedido de artículo 23183,Enviado,F,BV001,0,0,10/06/2025,EXPRESO CARGO SA,451363,0.0%,.00,T,2Vu6Nr4A
 41458,78 AGCO ARGENTINA S.A.,Parcialmente ejecutada,Todo Aprobado,Ejecución de pedido de artículo 23183,Enviado,F,BV004,0,0,10/06/2025,EXPRESO CARGO SA,451363,0.0%,.00,T,2Vu6Nr4A
-41458,78 AGCO ARGENTINA S.A.,Parcialmente ejecutada,Todo Aprobado,Ejecución de pedido de artículo 23183,Enviado,F,P579,0,0,10/06/2025,EXPRESO CARGO SA,451363,0.0%,.00,T,2Vu6Nr4A
+41458,78 AGCO ARGENTINA S.A.,Parcialmente ejecutada,Todo Aprobado,Ejecución de pedido de artículo 23181,Enviado,F,BV004,0,0,10/06/2025,EXPRESO CARGO SA,451363,0.0%,.00,T,2Vu6Nr4A
 41458,78 AGCO ARGENTINA S.A.,Parcialmente ejecutada,Todo Aprobado,Ejecución de pedido de artículo 23181,Enviado,F,P579,0,0,10/06/2025,EXPRESO CARGO SA,451363,0.0%,.00,T,2Vu6Nr4A
+41458,78 AGCO ARGENTINA S.A.,Parcialmente ejecutada,Todo Aprobado,Ejecución de pedido de artículo 23183,Enviado,F,P579,0,0,10/06/2025,EXPRESO CARGO SA,451363,0.0%,.00,T,2Vu6Nr4A
 41458,78 AGCO ARGENTINA S.A.,Parcialmente ejecutada,Todo Aprobado,Factura de venta 37499,Pagado por completo,F,0058/001,0,10,10/06/2025,EXPRESO CARGO SA,451363,0.0%,.00,,2Vu6Nr4A
 41463,4381 IBERCONSA DE ARGENTINA SA,Facturada,Todo Aprobado,Ejecución de pedido de artículo 23194,Enviado,F,FLJPP30012B,0,0,10/06/2025,TRANSPORTE TOMASSINI,451632,-1.7%,.00,T,9Lx6Mu2V
 41469,827 GONVARRI ARGENTINA SA,Facturada,Todo Aprobado,Ejecución de pedido de artículo 23193,Enviado,F,BV001,0,0,10/06/2025,EXPRESO CARGO SA,452310,0.0%,.00,T,6Mv2Lk5E
@@ -477,6 +477,7 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 41562,3051 FRIMETAL S.A.,Ejecución de la orden pendiente,Todo Aprobado, ,,F,PPAR1048M,278,0,19/06/2025,FELICI JORGE ARIEL,457731,37.1%,260.625,,3Dw0Uk2K
 41562,3051 FRIMETAL S.A.,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Liberada,F,PVC624A,0,72,19/06/2025,FELICI JORGE ARIEL,457731,49.1%,181.487,,3Dw0Uk2K
 41585,21 FUNDEMAP S.A.,Ejecución de la orden pendiente,Todo Aprobado, ,,F,P579,94,58,19/06/2025,RICARDO PIERONI,459411,57.6%,1064.00,,0Me0Dg4G
+41586,178 DROGUERIA DEL SUD S.A.,Ejecución de la orden pendiente,Todo Aprobado, ,,F,CAS-PPAR1048T043,0,1620,19/06/2025,TRANSPORTE RAOSA SRL,459515,35.6%,1182.60,,5Mx5Rs0E
 41255,5019 GRANJA TRES ARROYOS SACAFEI,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Cerrada,T,5019/003,0,120,20/06/2025,EXPRESO CARGO SA,439825,61.8%,1776.00,,0Ql9Gi1V
 41255,5019 GRANJA TRES ARROYOS SACAFEI,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Cerrada,T,5019/002,0,360,20/06/2025,EXPRESO CARGO SA,439825,58.8%,532.80,,0Ql9Gi1V
 41256,5019 GRANJA TRES ARROYOS SACAFEI,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Cerrada,F,5019/005,0,40,20/06/2025,EXPRESO CARGO SA,439826,61.5%,888.80,,0Ql9Gi1V
