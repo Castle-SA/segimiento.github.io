@@ -220,8 +220,8 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 41452,279 HONDA MOTOR DE ARGENTINA S.A.,Facturada,Todo Aprobado,Ejecución de pedido de artículo 23096,Enviado,F,04169-00056-93,0,0,03/06/2025,EXPRESO CARGO SA,450911,58.7%,.00,T,1Rf6Ez5C
 41460,9402057 MEDIADOR SRL,Facturada,Todo Aprobado,Ejecución de pedido de artículo 23094,Enviado,F,PPAR1048T,0,0,03/06/2025,EXPRESO LUJAN DEL CUYO SA,451449,41.2%,.00,T,7Ii1Mi8Q
 41461,9400939 AGRO ACEITUNERA SA,Facturada,Todo Aprobado,Ejecución de pedido de artículo 23102,Enviado,F,PPHR15048XT,0,0,03/06/2025,EXPRESO CARGO SA,451631,35.0%,-36.66,T,5Ov4Xv6Y
-41465,132 MAHLE VALVULAS DE ARGENTINA SA,Parcialmente ejecutada,Todo Aprobado,Ejecución de pedido de artículo 23097,Enviado,T,04169-00058-93,0,3,03/06/2025,EXPRESO SANTA ROSA,451634,55.3%,80.40,T,6Ls2Pd3Q
 41465,132 MAHLE VALVULAS DE ARGENTINA SA,Parcialmente ejecutada,Todo Aprobado,Factura de venta 37410,Abierta,T,04169-00058-93,0,3,03/06/2025,EXPRESO SANTA ROSA,451634,55.3%,80.40,,6Ls2Pd3Q
+41465,132 MAHLE VALVULAS DE ARGENTINA SA,Parcialmente ejecutada,Todo Aprobado,Ejecución de pedido de artículo 23097,Enviado,T,04169-00058-93,0,3,03/06/2025,EXPRESO SANTA ROSA,451634,55.3%,80.40,T,6Ls2Pd3Q
 41465,132 MAHLE VALVULAS DE ARGENTINA SA,Parcialmente ejecutada,Todo Aprobado,Ejecución de pedido de artículo 23097,Enviado,T,04169-00056-93,0,0,03/06/2025,EXPRESO SANTA ROSA,451634,58.0%,.00,T,6Ls2Pd3Q
 41465,132 MAHLE VALVULAS DE ARGENTINA SA,Parcialmente ejecutada,Todo Aprobado,Ejecución de pedido de artículo 23097,Enviado,T,04169-00059-93,0,0,03/06/2025,EXPRESO SANTA ROSA,451634,54.5%,.00,T,6Ls2Pd3Q
 41462,9400939 AGRO ACEITUNERA SA,Facturada,Todo Aprobado,Ejecución de pedido de artículo 23101,Enviado,F,PPHR15048XT,0,0,03/06/2025,EXPRESO CARGO SA,451732,35.0%,-73.32,T,5Ov4Xv6Y
@@ -471,7 +471,6 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 41591,279 HONDA MOTOR DE ARGENTINA S.A.,Parcialmente ejecutada,Todo Aprobado,Factura de venta 37578,Abierta,F,04169-00058-93,0,58,18/06/2025,EXPRESO CARGO SA,459857,51.0%,1.225.782,,1Rf6Ez5C
 41591,279 HONDA MOTOR DE ARGENTINA S.A.,Parcialmente ejecutada,Todo Aprobado,Ejecución de pedido de artículo 23269,Enviado,F,04169-00056-93,0,0,18/06/2025,EXPRESO CARGO SA,459857,46.9%,.00,T,1Rf6Ez5C
 41390,9402378 PEDRO NOSSOVITCH Y CIA S A,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Liberada,F,9402378/001,0,720,19/06/2025,EXPRESO CARGO SA,448356,32.5%,849.60,,
-41587,9400609 PAN S COMPANY SA,Ejecución de la orden pendiente,Todo Aprobado, ,,F,PPHR15048XT,150,0,19/06/2025,EXPRESO CARGO SA,459516,29.9%,3103.50,,9Qb8Fy5U
 41589,1099 ROBERTO CALZAVARA SRL,Ejecución de la orden pendiente,Todo Aprobado, ,,F,PPA1548TE,288,0,19/06/2025,RICARDO PIERONI,459725,38.7%,342.72,,9Ir4Dd6D
 41589,1099 ROBERTO CALZAVARA SRL,Ejecución de la orden pendiente,Todo Aprobado, ,,F,PPA1048F,70,2,19/06/2025,RICARDO PIERONI,459725,18.9%,131.04,,9Ir4Dd6D
 41589,1099 ROBERTO CALZAVARA SRL,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Liberada,F,CAS-PPAR1048T040,0,36,19/06/2025,RICARDO PIERONI,459725,34.8%,25.92,,9Ir4Dd6D
@@ -486,9 +485,13 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 41597,4329 COMPANIA ELABORADORA DE PASTAS SA,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Liberada,F,CAS-PPAR1048T043,0,36,20/06/2025,RETIRAN,460433,52.5%,35.64,,0Un8Nt2U
 41597,4329 COMPANIA ELABORADORA DE PASTAS SA,Ejecución de la orden pendiente,Todo Aprobado, ,,F,PPAR15048T,6,0,20/06/2025,RETIRAN,460433,60.8%,131.40,,0Un8Nt2U
 41598,9400182 IDRIS PATAGONIA SA,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Liberada,F,CAS-PPAR1048T043,0,4320,20/06/2025,TRANSPORTE CRUZ DEL SUR SA,460434,40.5%,3412.80,,7Wz3Al6N
+41602,260 SUCESION DE BARCIA CLAUDIO RODRIGO,Ejecución de la orden pendiente,Todo Aprobado, ,,F,MTS548B,540,0,20/06/2025,RICARDO PIERONI,460545,29.5%,1080.00,,6Ib6Fj6R
 41124,202 FRIGORIFICO DE AVES SOYCHU SA,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Ensamblada,F,PVC612R,720,0,23/06/2025,EXPRESO CARGO SA,433282,49.1%,900.00,,5Ow8Cg8A
 41124,202 FRIGORIFICO DE AVES SOYCHU SA,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Ensamblada,F,CAS-PPA1048T040,1764,0,23/06/2025,EXPRESO CARGO SA,433282,38.8%,1234.80,,5Ow8Cg8A
 41366,143 EPTA ARGENTINA S.A.,Ejecución de la orden pendiente,Todo Aprobado,Pedido ,Recepción pendiente,T,0143/021,0,150,23/06/2025,FELICI JORGE ARIEL,446925,73.6%,1972.50,,1Tu2Pr5C
+41601,3965 PRO DE MAN SA,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Liberada,F,CAS-PPAR1048T043,0,400,23/06/2025,FELICI JORGE ARIEL,460544,41.2%,320.00,,0Ye3Eq5F
+41601,3965 PRO DE MAN SA,Ejecución de la orden pendiente,Todo Aprobado, ,,F,PPAR1072T,400,0,23/06/2025,FELICI JORGE ARIEL,460544,40.0%,480.00,,0Ye3Eq5F
+41600,9400964 AFG INGENIERIA SRL,Ejecución de la orden pendiente,Todo Aprobado, ,,T,VCI420,79,281,23/06/2025,FELICI JORGE ARIEL,460646,48.2%,3146.40,,2Te0Og1Q
 41495,1029 DREAN SA,Ejecución de la orden pendiente,Todo Aprobado, ,,F,MTP548B,540,1476,24/06/2025,EXPRESO CARGO SA,453385,28.8%,3850.56,,6Ng7Hp1X
 41186,202 FRIGORIFICO DE AVES SOYCHU SA,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Liberada,F,CAS-PPA1048T040,0,1980,25/06/2025,EXPRESO CARGO SA,436249,38.8%,1386.00,,5Ow8Cg8A
 41592,143 EPTA ARGENTINA S.A.,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Liberada,F,PVC648B,0,720,25/06/2025,FELICI JORGE ARIEL,459858,69.4%,4572.00,,1Tu2Pr5C
