@@ -206,8 +206,8 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 41452,279 HONDA MOTOR DE ARGENTINA S.A.,Facturada,Todo Aprobado,Ejecución de pedido de artículo 23096,Enviado,F,04169-00056-93,0,0,03/06/2025,EXPRESO CARGO SA,450911,58.7%,.00,T,1Rf6Ez5C
 41460,9402057 MEDIADOR SRL,Facturada,Todo Aprobado,Ejecución de pedido de artículo 23094,Enviado,F,PPAR1048T,0,0,03/06/2025,EXPRESO LUJAN DEL CUYO SA,451449,41.2%,.00,T,7Ii1Mi8Q
 41461,9400939 AGRO ACEITUNERA SA,Facturada,Todo Aprobado,Ejecución de pedido de artículo 23102,Enviado,F,PPHR15048XT,0,0,03/06/2025,EXPRESO CARGO SA,451631,35.0%,-36.66,T,5Ov4Xv6Y
-41465,132 MAHLE VALVULAS DE ARGENTINA SA,Parcialmente ejecutada,Todo Aprobado,Ejecución de pedido de artículo 23097,Enviado,T,04169-00058-93,0,3,03/06/2025,EXPRESO SANTA ROSA,451634,55.3%,80.40,T,6Ls2Pd3Q
 41465,132 MAHLE VALVULAS DE ARGENTINA SA,Parcialmente ejecutada,Todo Aprobado,Factura de venta 37410,Abierta,T,04169-00058-93,0,3,03/06/2025,EXPRESO SANTA ROSA,451634,55.3%,80.40,,6Ls2Pd3Q
+41465,132 MAHLE VALVULAS DE ARGENTINA SA,Parcialmente ejecutada,Todo Aprobado,Ejecución de pedido de artículo 23097,Enviado,T,04169-00058-93,0,3,03/06/2025,EXPRESO SANTA ROSA,451634,55.3%,80.40,T,6Ls2Pd3Q
 41465,132 MAHLE VALVULAS DE ARGENTINA SA,Parcialmente ejecutada,Todo Aprobado,Ejecución de pedido de artículo 23097,Enviado,T,04169-00056-93,0,0,03/06/2025,EXPRESO SANTA ROSA,451634,58.0%,.00,T,6Ls2Pd3Q
 41465,132 MAHLE VALVULAS DE ARGENTINA SA,Parcialmente ejecutada,Todo Aprobado,Ejecución de pedido de artículo 23097,Enviado,T,04169-00059-93,0,0,03/06/2025,EXPRESO SANTA ROSA,451634,54.5%,.00,T,6Ls2Pd3Q
 41462,9400939 AGRO ACEITUNERA SA,Facturada,Todo Aprobado,Ejecución de pedido de artículo 23101,Enviado,F,PPHR15048XT,0,0,03/06/2025,EXPRESO CARGO SA,451732,35.0%,-73.32,T,5Ov4Xv6Y
@@ -247,8 +247,8 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 41409,9402287 GRAELLS NELSON ANTONIO,Facturada,Todo Aprobado,Ejecución de pedido de artículo 23132,Enviado,F,CAS-PPA1048T040,0,0,05/06/2025,RICARDO PIERONI,449524,27.3%,.00,T,0Ux3Ra3D
 41410,9402287 GRAELLS NELSON ANTONIO,Facturada,Todo Aprobado,Ejecución de pedido de artículo 23133,Enviado,F,CAS-PPA1048T040,0,0,05/06/2025,RICARDO PIERONI,449526,27.3%,.00,T,0Ux3Ra3D
 41411,9402287 GRAELLS NELSON ANTONIO,Facturada,Todo Aprobado,Ejecución de pedido de artículo 23136,Enviado,F,CAS-PPA1048T040,0,0,05/06/2025,RICARDO PIERONI,449527,27.3%,.00,T,0Ux3Ra3D
-41412,9402287 GRAELLS NELSON ANTONIO,Facturada,Todo Aprobado,Ejecución de pedido de artículo 23137,Enviado,F,CAS-PPA1048T040,0,0,05/06/2025,RICARDO PIERONI,449529,27.3%,-21.24,T,0Ux3Ra3D
 41412,9402287 GRAELLS NELSON ANTONIO,Facturada,Todo Aprobado,Ejecución de pedido de artículo 23138,Enviado,F,CAS-PPA1048T040,0,0,05/06/2025,RICARDO PIERONI,449529,27.3%,-21.24,T,0Ux3Ra3D
+41412,9402287 GRAELLS NELSON ANTONIO,Facturada,Todo Aprobado,Ejecución de pedido de artículo 23137,Enviado,F,CAS-PPA1048T040,0,0,05/06/2025,RICARDO PIERONI,449529,27.3%,-21.24,T,0Ux3Ra3D
 41413,9402287 GRAELLS NELSON ANTONIO,Facturada,Todo Aprobado,Ejecución de pedido de artículo 23139,Enviado,F,CAS-PPA1048T040,0,0,05/06/2025,RICARDO PIERONI,449530,27.3%,.00,T,0Ux3Ra3D
 41414,9402287 GRAELLS NELSON ANTONIO,Facturada,Todo Aprobado,Ejecución de pedido de artículo 23140,Enviado,F,CAS-PPA1048T040,0,0,05/06/2025,RICARDO PIERONI,449532,27.3%,.00,T,0Ux3Ra3D
 41415,9402287 GRAELLS NELSON ANTONIO,Facturada,Todo Aprobado,Ejecución de pedido de artículo 23141,Enviado,F,CAS-PPA1048T040,0,0,05/06/2025,RICARDO PIERONI,449533,27.3%,.00,T,0Ux3Ra3D
@@ -386,7 +386,6 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 41503,5019 GRANJA TRES ARROYOS SACAFEI,Facturada,Todo Aprobado,Ejecución de pedido de artículo 23230,Enviado,F,PPAR10072T,0,0,13/06/2025,EXPRESO CARGO SA,453726,61.6%,.00,T,0Ql9Gi1V
 41521,3096 FRECICAR SRL,Parcialmente ejecutada,Todo Aprobado,Orden de trabajo ,Ensamblada,F,3096/004,180,0,13/06/2025,RICARDO PIERONI,455055,61.7%,324.00,,9Zc0Jy4O
 41537,12794 ACEROLATINA SA,Parcialmente ejecutada,Todo Aprobado,Ejecución de pedido de artículo 23232,Enviado,F,CF5240T,0,23,13/06/2025,EXPRESO CARGO SA,456317,85.4%,1150.00,T,7Ir5If6T
-41557,131 FARMQUIP SRL,Facturación pendiente/parcialmente ejecutada,Todo Aprobado, ,,T,CH523EXR,0,12,13/06/2025,RICARDO PIERONI,457173,45.2%,144.00,,3Db1Yg8K
 41204,5019 GRANJA TRES ARROYOS SACAFEI,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Cerrada,T,5019/004,0,192,16/06/2025,EXPRESO CARGO SA,437201,71.8%,426.24,,0Ql9Gi1V
 41204,5019 GRANJA TRES ARROYOS SACAFEI,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Cerrada,T,5019/005,0,60,16/06/2025,EXPRESO CARGO SA,437201,71.9%,1332.00,,0Ql9Gi1V
 41403,94010 VISUAR SA,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Liberada,F,1823/002,0,192,16/06/2025,EXPRESO CARGO SA,448929,44.5%,5475.84,,4Gf8Oa0H
@@ -455,13 +454,14 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 41591,279 HONDA MOTOR DE ARGENTINA S.A.,Parcialmente ejecutada,Todo Aprobado,Factura de venta 37578,Abierta,F,04169-00058-93,0,58,18/06/2025,EXPRESO CARGO SA,459857,51.0%,1.225.782,,1Rf6Ez5C
 41591,279 HONDA MOTOR DE ARGENTINA S.A.,Parcialmente ejecutada,Todo Aprobado,Ejecución de pedido de artículo 23269,Enviado,F,04169-00056-93,0,0,18/06/2025,EXPRESO CARGO SA,459857,46.9%,.00,T,1Rf6Ez5C
 41390,9402378 PEDRO NOSSOVITCH Y CIA S A,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Liberada,F,9402378/001,0,720,19/06/2025,EXPRESO CARGO SA,448356,32.5%,849.60,,
-41557,131 FARMQUIP SRL,Facturación pendiente/parcialmente ejecutada,Todo Aprobado,Ejecución de pedido de artículo 23276,Enviado,T,HWF125,0,0,19/06/2025,RICARDO PIERONI,457173,38.3%,-21.00,F,3Db1Yg8K
-41557,131 FARMQUIP SRL,Facturación pendiente/parcialmente ejecutada,Todo Aprobado,Ejecución de pedido de artículo 23276,Enviado,T,PPAR1048T,0,0,19/06/2025,RICARDO PIERONI,457173,67.3%,.00,F,3Db1Yg8K
+41557,131 FARMQUIP SRL,Parcialmente ejecutada,Todo Aprobado,Ejecución de pedido de artículo 23276,Enviado,T,HWF125,0,0,19/06/2025,RICARDO PIERONI,457173,38.3%,-21.00,T,3Db1Yg8K
+41557,131 FARMQUIP SRL,Parcialmente ejecutada,Todo Aprobado,Ejecución de pedido de artículo 23276,Enviado,T,PPAR1048T,0,0,19/06/2025,RICARDO PIERONI,457173,67.3%,.00,T,3Db1Yg8K
+41557,131 FARMQUIP SRL,Parcialmente ejecutada,Todo Aprobado,Factura de venta 37589,Abierta,T,CH523EXR,0,12,19/06/2025,RICARDO PIERONI,457173,45.2%,144.00,,3Db1Yg8K
 41589,1099 ROBERTO CALZAVARA SRL,Ejecución de la orden pendiente,Todo Aprobado, ,,F,PPA1548TE,288,0,19/06/2025,RICARDO PIERONI,459725,38.7%,342.72,,9Ir4Dd6D
 41589,1099 ROBERTO CALZAVARA SRL,Ejecución de la orden pendiente,Todo Aprobado, ,,F,PPA1048F,70,2,19/06/2025,RICARDO PIERONI,459725,18.9%,131.04,,9Ir4Dd6D
 41589,1099 ROBERTO CALZAVARA SRL,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Liberada,F,CAS-PPAR1048T040,0,36,19/06/2025,RICARDO PIERONI,459725,34.8%,25.92,,9Ir4Dd6D
 41590,3086 MULTIORIGINAL PARTS SA,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Liberada,F,CAS-PPAR1048T043,0,1800,19/06/2025,EXPRESO LUJAN DEL CUYO SA,459726,41.2%,1440.00,,1Fr4Ch9I
-41602,260 SUCESION DE BARCIA CLAUDIO RODRIGO,Facturación pendiente,Todo Aprobado,Ejecución de pedido de artículo 23277,Enviado,F,MTS548B,0,0,19/06/2025,RICARDO PIERONI,460545,29.5%,.00,F,6Ib6Fj6R
+41602,260 SUCESION DE BARCIA CLAUDIO RODRIGO,Facturada,Todo Aprobado,Ejecución de pedido de artículo 23277,Enviado,F,MTS548B,0,0,19/06/2025,RICARDO PIERONI,460545,29.5%,.00,T,6Ib6Fj6R
 41255,5019 GRANJA TRES ARROYOS SACAFEI,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Cerrada,T,5019/003,0,120,20/06/2025,EXPRESO CARGO SA,439825,61.8%,1776.00,,0Ql9Gi1V
 41255,5019 GRANJA TRES ARROYOS SACAFEI,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Cerrada,T,5019/002,0,360,20/06/2025,EXPRESO CARGO SA,439825,58.8%,532.80,,0Ql9Gi1V
 41256,5019 GRANJA TRES ARROYOS SACAFEI,Parcialmente ejecutada,Todo Aprobado,Orden de trabajo ,Cerrada,F,5019/005,0,40,20/06/2025,EXPRESO CARGO SA,439826,61.5%,888.80,,0Ql9Gi1V
