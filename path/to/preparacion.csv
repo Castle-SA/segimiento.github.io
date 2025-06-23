@@ -43,8 +43,8 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 41185,5002 EMBALAJES DEL CENTRO S.R.L.,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 23029,Remitido,F,MTS536B,0,0,27/05/2025,EXPRESO CARGO SA,436149,38.0%,72.00,T,9Es7Yc7Q
 41185,5002 EMBALAJES DEL CENTRO S.R.L.,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 23018,Remitido,F,MTS548B,0,0,27/05/2025,EXPRESO CARGO SA,436149,5.5%,360.00,T,9Es7Yc7Q
 41192,6467 INDUSTRIAS JUAN F SECCO S.A.,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 23031,Remitido,F,MTS548B,0,0,27/05/2025,RICARDO PIERONI,436560,5.8%,1444.84,T,8Ul8Kh6G
-41243,260 SUCESION DE BARCIA CLAUDIO RODRIGO,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 23011,Remitido,F,MTS548B,0,0,27/05/2025,RICARDO PIERONI,438972,5.5%,720.00,T,6Ib6Fj6R
 41243,260 SUCESION DE BARCIA CLAUDIO RODRIGO,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 23013,Remitido,F,MTS548B,0,0,27/05/2025,RICARDO PIERONI,438972,5.5%,720.00,T,6Ib6Fj6R
+41243,260 SUCESION DE BARCIA CLAUDIO RODRIGO,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 23011,Remitido,F,MTS548B,0,0,27/05/2025,RICARDO PIERONI,438972,5.5%,720.00,T,6Ib6Fj6R
 41290,3482 NUTRICORRIENTES SA,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 23012,Remitido,F,PPHR15048XT,0,0,27/05/2025,EXPRESO HERAL,442268,0.0%,.00,T,9Fo0Ln1Y
 41306,12707 PORTA HNOS. SA,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 23021,Remitido,F,PPAR15048T,0,0,27/05/2025,EXPRESO CARGO SA,443427,47.3%,2138.60,T,4Np7Tr4O
 41306,12707 PORTA HNOS. SA,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 23021,Remitido,F,PPAR15048T,0,0,27/05/2025,EXPRESO CARGO SA,443427,47.3%,28.90,T,4Np7Tr4O
@@ -424,8 +424,8 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 41601,3965 PRO DE MAN SA,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Liberada,F,CAS-PPAR1048T043,0,400,23/06/2025,FELICI JORGE ARIEL,460544,41.2%,320.00,,0Ye3Eq5F
 41601,3965 PRO DE MAN SA,Ejecución de la orden pendiente,Todo Aprobado, ,,F,PPAR1072T,400,0,23/06/2025,FELICI JORGE ARIEL,460544,40.0%,480.00,,0Ye3Eq5F
 41600,9400964 AFG INGENIERIA SRL,Ejecución de la orden pendiente,Todo Aprobado, ,,T,VCI420,79,281,23/06/2025,FELICI JORGE ARIEL,460646,48.2%,3146.40,,2Te0Og1Q
-41606,2414 TAPALQUE ALIMENTOS SA,Ejecución de la orden pendiente,Todo Aprobado, ,,F,H11/CPE,1,0,23/06/2025,EXPRESO CARGO SA,460888,0.0%,.00,,7Zr9Rh6S
-41606,2414 TAPALQUE ALIMENTOS SA,Ejecución de la orden pendiente,Todo Aprobado, ,,F,PPA1548TE,360,0,23/06/2025,EXPRESO CARGO SA,460888,73.9%,1008.00,,7Zr9Rh6S
+41606,2414 TAPALQUE ALIMENTOS SA,Facturación pendiente,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 23293,Remitido,F,H11/CPE,0,0,23/06/2025,EXPRESO CARGO SA,460888,0.0%,.00,F,7Zr9Rh6S
+41606,2414 TAPALQUE ALIMENTOS SA,Facturación pendiente,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 23293,Remitido,F,PPA1548TE,0,0,23/06/2025,EXPRESO CARGO SA,460888,73.9%,1008.00,F,7Zr9Rh6S
 41607,260 SUCESION DE BARCIA CLAUDIO RODRIGO,Facturación pendiente,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 23291,Remitido,F,60950-00000-00,0,0,23/06/2025,RICARDO PIERONI,460889,49.2%,486.00,F,6Ib6Fj6R
 41608,4515 GER PLAST SRL,Facturación pendiente,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 23290,Remitido,F,MTS524B,0,0,23/06/2025,EXPRESO LUJAN DEL CUYO SA,461003,30.7%,741.60,F,6Cw3Dt0K
 41608,4515 GER PLAST SRL,Facturación pendiente,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 23290,Remitido,F,CAS-PPHR1048XT045,0,0,23/06/2025,EXPRESO LUJAN DEL CUYO SA,461003,38.2%,525.60,F,6Cw3Dt0K
