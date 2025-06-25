@@ -99,8 +99,8 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 41293,3108 E A BALBI E HIJOS SA,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Liberada,F,3108/001,0,2880,30/05/2025,EXPRESO CARGO SA,442541,47.5%,3600.00,,1Hh7Gx0G
 41299,9400536 MILKAUT SA,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 23075,Remitido,T,PPHR15048XT,0,0,30/05/2025,RICARDO PIERONI,442647,39.4%,6980.10,T,8Ny2Or7G
 41315,9400945 LAMED S.A.,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 23091,Remitido,F,PPA1048F,0,0,30/05/2025,RICARDO PIERONI,444305,23.1%,131.04,T,9Dw9Wh0V
-41381,3089 ARNEG ARGENTINA S.A.,Parcialmente ejecutada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 23092,Remitido,F,3089/067,3000,0,30/05/2025,EXPRESO BRIO SRL,448136,96.1%,3320.00,T,7Rx7Ub2H
 41381,3089 ARNEG ARGENTINA S.A.,Parcialmente ejecutada,Todo Aprobado,Orden de trabajo ,Ensamblada,F,3089/067,3000,0,30/05/2025,EXPRESO BRIO SRL,448136,96.1%,498.00,,7Rx7Ub2H
+41381,3089 ARNEG ARGENTINA S.A.,Parcialmente ejecutada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 23092,Remitido,F,3089/067,3000,0,30/05/2025,EXPRESO BRIO SRL,448136,96.1%,3320.00,T,7Rx7Ub2H
 41424,18293 DULCOR SA,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 23073,Remitido,F,PPAR1048T,0,0,30/05/2025,EXPRESO LUJAN DEL CUYO SA,449754,35.1%,831.60,T,0Jn1Mv5H
 41425,18293 DULCOR SA,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 23079,Remitido,F,PPAR1048T,0,0,30/05/2025,EXPRESO LANCIONI,449755,35.1%,277.20,T,0Jn1Mv5H
 41426,9400100 ABBOUD MARCELO BANAIOT,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 23093,Remitido,F,CAS-PPA548T040,0,0,30/05/2025,EXPRESO CARGO SA,449756,15.3%,2624.40,T,5Pj9Xf1N
@@ -405,7 +405,7 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 41609,6174 INDUSTRIAL SELEMA SRL,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 23295,Remitido,F,PER2633V,0,0,23/06/2025,RICARDO PIERONI,461004,97.7%,340.00,T,8Zd4Xh7J
 41610,12710 CELULOSA ARGENTINA SA,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 23297,Remitido,F,FLJPP7005B,0,0,23/06/2025,EXPRESO BRIO SRL,461005,18.9%,4788.00,T,0Sw2Uo1J
 41617,4 BEROWOOD SRL,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 23299,Remitido,F,PPA1548TE,0,0,23/06/2025,RICARDO PIERONI,461415,59.4%,648.00,T,8El3Qk6P
-41495,1029 DREAN SA,Ejecución de la orden pendiente,Todo Aprobado, ,,F,MTP548B,36,1.980,24/06/2025,EXPRESO CARGO SA,453385,28.8%,3850.56,,6Ng7Hp1X
+41495,1029 DREAN SA,Ejecución de la orden pendiente,Todo Aprobado, ,,F,MTP548B,36,1980,24/06/2025,EXPRESO CARGO SA,453385,28.8%,3850.56,,6Ng7Hp1X
 41592,143 EPTA ARGENTINA S.A.,Parcialmente ejecutada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 23306,Remitido,F,PVC648B,0,360,24/06/2025,FELICI JORGE ARIEL,459858,69.4%,2286.00,T,1Tu2Pr5C
 41612,1906 SOFTBOND SA,Parcialmente ejecutada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 23305,Remitido,F,H11/48,0,0,24/06/2025,EXPRESO CARGO SA,461240,52.5%,81.00,T,0Ij4Pc0C
 41612,1906 SOFTBOND SA,Parcialmente ejecutada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 23305,Remitido,F,PPAR1048T,0,0,24/06/2025,EXPRESO CARGO SA,461240,38.8%,288.00,T,0Ij4Pc0C
@@ -430,8 +430,8 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 41616,9402017 NUNZIO SRL,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Liberada,F,CAS-PPAR1048T043,0,360,25/06/2025,RICARDO PIERONI,461414,59.1%,414.00,,3Ww3Di0Q
 41627,1049 EL ALMACEN DEL CELIACO de MARTIN GNESETTI,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Liberada,F,CAS-PPAR1048T043,0,216,25/06/2025,RICARDO PIERONI,461784,47.1%,192.24,,6Wv2Br0V
 41632,346 DOS HERMANOS S.A,Parcialmente ejecutada,Todo Aprobado,Factura de venta 37621,Abierta,F,PVC612B,0,720,25/06/2025,TRANSPORTE DE CARGAS MORENO SRL,462215,71.7%,1404.00,,2Pi6Wv1H
-41632,346 DOS HERMANOS S.A,Parcialmente ejecutada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 23320,Remitido,F,PVC612B,0,720,25/06/2025,TRANSPORTE DE CARGAS MORENO SRL,462215,71.7%,280.80,T,2Pi6Wv1H
 41632,346 DOS HERMANOS S.A,Parcialmente ejecutada,Todo Aprobado,Factura de venta 37630,Abierta,F,PVC612B,0,720,25/06/2025,TRANSPORTE DE CARGAS MORENO SRL,462215,71.7%,1404.00,,2Pi6Wv1H
+41632,346 DOS HERMANOS S.A,Parcialmente ejecutada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 23320,Remitido,F,PVC612B,0,720,25/06/2025,TRANSPORTE DE CARGAS MORENO SRL,462215,71.7%,280.80,T,2Pi6Wv1H
 41632,346 DOS HERMANOS S.A,Parcialmente ejecutada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 23310,Remitido,F,PPAR10072T,8,0,25/06/2025,TRANSPORTE DE CARGAS MORENO SRL,462215,66.8%,1190.80,T,2Pi6Wv1H
 41633,9400868 SINTARYC S A I C,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 23315,Remitido,F,PPHR15048XT,0,0,25/06/2025,EXPRESO CARGO SA,462216,29.8%,12240.00,T,9Gs4Xo3J
 41634,9400983 CATESUR SA,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 23314,Remitido,F,FLJPP30012B,0,0,25/06/2025,TRANSPORTE TOMASSINI,462328,-1.7%,1800.00,T,1Du0Dz8M
@@ -462,7 +462,7 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 41644,12816 CSI ELECTRONICA SRL,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Liberada,F,64958-00001-00,0,200,30/06/2025,RICARDO PIERONI,462805,51.1%,1000.00,,6Hu2Px3W
 41551,4095 REFINERIA DEL CENTRO SA,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Ensamblada,F,CAS-PPHR10048XT045,54,0,01/07/2025,EXPRESO SANTA ROSA,456793,68.7%,766.80,,1Bj3Wa5S
 41552,4095 REFINERIA DEL CENTRO SA,Ejecución de la orden pendiente,Todo Aprobado, ,,F,H11/72,30,0,01/07/2025,EXPRESO SANTA ROSA,456794,35.4%,695.10,,1Bj3Wa5S
-41552,4095 REFINERIA DEL CENTRO SA,Ejecución de la orden pendiente,Todo Aprobado, ,,F,PPAR1072T,2.700,0,01/07/2025,EXPRESO SANTA ROSA,456794,35.6%,2808.00,,1Bj3Wa5S
+41552,4095 REFINERIA DEL CENTRO SA,Ejecución de la orden pendiente,Todo Aprobado, ,,F,PPAR1072T,2700,0,01/07/2025,EXPRESO SANTA ROSA,456794,35.6%,2808.00,,1Bj3Wa5S
 41552,4095 REFINERIA DEL CENTRO SA,Ejecución de la orden pendiente,Todo Aprobado, ,,F,PPAR10072T,120,0,01/07/2025,EXPRESO SANTA ROSA,456794,53.5%,1476.00,,1Bj3Wa5S
 41640,132 MAHLE VALVULAS DE ARGENTINA SA,Ejecución de la orden pendiente,Todo Aprobado, ,,F,BV002,0,400,01/07/2025,EXPRESO SANTA ROSA,462333,64.7%,3232.00,,6Ls2Pd3Q
 41640,132 MAHLE VALVULAS DE ARGENTINA SA,Ejecución de la orden pendiente,Todo Aprobado, ,,F,3351/003,11500,8500,01/07/2025,EXPRESO SANTA ROSA,462333,78.1%,3000.00,,6Ls2Pd3Q
