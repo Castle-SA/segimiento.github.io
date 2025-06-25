@@ -395,7 +395,7 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 41587,9400609 PAN S COMPANY SA,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 23296,Remitido,F,PPHR15048XT,0,0,23/06/2025,EXPRESO CARGO SA,459516,29.9%,3103.50,T,9Qb8Fy5U
 41601,3965 PRO DE MAN SA,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Liberada,F,CAS-PPAR1048T043,0,400,23/06/2025,FELICI JORGE ARIEL,460544,41.2%,320.00,,0Ye3Eq5F
 41601,3965 PRO DE MAN SA,Ejecución de la orden pendiente,Todo Aprobado, ,,F,PPAR1072T,400,0,23/06/2025,FELICI JORGE ARIEL,460544,40.0%,480.00,,0Ye3Eq5F
-41600,9400964 AFG INGENIERIA SRL,Ejecución de la orden pendiente,Todo Aprobado, ,,T,VCI420,40.6,319.4,23/06/2025,FELICI JORGE ARIEL,460646,48.2%,3146.40,,2Te0Og1Q
+41600,9400964 AFG INGENIERIA SRL,Ejecución de la orden pendiente,Todo Aprobado, ,,T,VCI420,30.6,329.4,23/06/2025,FELICI JORGE ARIEL,460646,48.2%,3146.40,,2Te0Og1Q
 41606,2414 TAPALQUE ALIMENTOS SA,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 23293,Remitido,F,H11/CPE,0,0,23/06/2025,EXPRESO CARGO SA,460888,0.0%,.00,T,7Zr9Rh6S
 41606,2414 TAPALQUE ALIMENTOS SA,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 23293,Remitido,F,PPA1548TE,0,0,23/06/2025,EXPRESO CARGO SA,460888,73.9%,1008.00,T,7Zr9Rh6S
 41607,260 SUCESION DE BARCIA CLAUDIO RODRIGO,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 23291,Remitido,F,60950-00000-00,0,0,23/06/2025,RICARDO PIERONI,460889,49.2%,486.00,T,6Ib6Fj6R
@@ -407,7 +407,6 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 41617,4 BEROWOOD SRL,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 23299,Remitido,F,PPA1548TE,0,0,23/06/2025,RICARDO PIERONI,461415,59.4%,648.00,T,8El3Qk6P
 41495,1029 DREAN SA,Ejecución de la orden pendiente,Todo Aprobado, ,,F,MTP548B,36,1.980,24/06/2025,EXPRESO CARGO SA,453385,28.8%,3850.56,,6Ng7Hp1X
 41592,143 EPTA ARGENTINA S.A.,Parcialmente ejecutada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 23306,Remitido,F,PVC648B,0,360,24/06/2025,FELICI JORGE ARIEL,459858,69.4%,2286.00,T,1Tu2Pr5C
-41604,78 AGCO ARGENTINA S.A.,Ejecución de la orden pendiente,Todo Aprobado, ,,T,VCI420,0,10,24/06/2025,EXPRESO CARGO SA,460871,100.0%,.00,,2Vu6Nr4A
 41612,1906 SOFTBOND SA,Parcialmente ejecutada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 23305,Remitido,F,H11/48,0,0,24/06/2025,EXPRESO CARGO SA,461240,52.5%,81.00,T,0Ij4Pc0C
 41612,1906 SOFTBOND SA,Parcialmente ejecutada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 23305,Remitido,F,PPAR1048T,0,0,24/06/2025,EXPRESO CARGO SA,461240,38.8%,288.00,T,0Ij4Pc0C
 41613,2515 CONGELADOS ARTICO SA,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 23302,Remitido,F,PPAR1072T,0,0,24/06/2025,TRANSPORTE TOMASSINI,461411,45.0%,943.20,T,8Rn3En3G
@@ -425,6 +424,7 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 41592,143 EPTA ARGENTINA S.A.,Parcialmente ejecutada,Todo Aprobado,Orden de trabajo ,En curso,F,PVC648B,0,360,25/06/2025,FELICI JORGE ARIEL,459858,69.4%,2286.00,,1Tu2Pr5C
 41594,15 IND. JOHN DEERE ARGENTINA S.A.,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Liberada,F,0015/008,0,300,25/06/2025,FELICI JORGE ARIEL,459995,73.3%,3210.00,,8Ky5Hq9D
 41598,9400182 IDRIS PATAGONIA SA,Parcialmente ejecutada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 23311,Remitido,F,PPAR1048T,0,0,25/06/2025,TRANSPORTE CRUZ DEL SUR SA,460434,38.0%,711.00,T,7Wz3Al6N
+41604,78 AGCO ARGENTINA S.A.,Facturación pendiente,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 23319,Remitido,T,VCI420,0,0,25/06/2025,EXPRESO CARGO SA,460871,100.0%,.00,F,2Vu6Nr4A
 41605,12851 MAXIMO BAUDUCCO SACIF,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 23312,Remitido,T,VCI420,0,0,25/06/2025,RETIRAN,460884,54.7%,384.00,T,9Vs6Ri4U
 41612,1906 SOFTBOND SA,Parcialmente ejecutada,Todo Aprobado,Orden de trabajo ,Liberada,F,CAS-PPAR1048T043,0,1008,25/06/2025,EXPRESO CARGO SA,461240,41.2%,806.40,,0Ij4Pc0C
 41616,9402017 NUNZIO SRL,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Liberada,F,CAS-PPAR1048T043,0,360,25/06/2025,RICARDO PIERONI,461414,59.1%,414.00,,3Ww3Di0Q
@@ -435,13 +435,13 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 41634,9400983 CATESUR SA,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 23314,Remitido,F,FLJPP30012B,0,0,25/06/2025,TRANSPORTE TOMASSINI,462328,-1.7%,1800.00,T,1Du0Dz8M
 41636,2688 BARK S.A.,Facturación pendiente/parcialmente ejecutada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 23317,Remitido,F,PPAR15048T,0,0,25/06/2025,EXPRESO CARGO SA,462330,33.6%,1550.40,F,5Nj3Sn5W
 41637,9402697 KLATT PACK SRL,Ejecución de la orden pendiente,Todo Aprobado, ,,F,BV002,0,100,25/06/2025,EXPRESO CARGO SA,462331,50.0%,570.00,,
+41647,1865 BIMBO DE ARGENTINA SA,Facturación pendiente,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 23318,Remitido,F,PPAR15048T,0,0,25/06/2025,RETIRAN,463049,0.0%,.00,F,9Sq4Bf1E
+41647,1865 BIMBO DE ARGENTINA SA,Facturación pendiente,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 23318,Remitido,F,PPHR15048XT,0,0,25/06/2025,RETIRAN,463049,0.0%,.00,F,9Sq4Bf1E
 41629,3051 FRIMETAL S.A.,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Liberada,F,1823/002,0,216,26/06/2025,FELICI JORGE ARIEL,462025,30.5%,5.079.372,,3Dw0Uk2K
 41629,3051 FRIMETAL S.A.,Ejecución de la orden pendiente,Todo Aprobado, ,,F,PPAR1048M,180,0,26/06/2025,FELICI JORGE ARIEL,462025,38.9%,170.886,,3Dw0Uk2K
 41629,3051 FRIMETAL S.A.,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Liberada,F,3051/010,0,144,26/06/2025,FELICI JORGE ARIEL,462025,24.4%,367.568,,3Dw0Uk2K
 41629,3051 FRIMETAL S.A.,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Liberada,F,3051/011,0,144,26/06/2025,FELICI JORGE ARIEL,462025,66.2%,551.392,,3Dw0Uk2K
 41636,2688 BARK S.A.,Facturación pendiente/parcialmente ejecutada,Todo Aprobado, ,,F,CAS-PPAR1048T043,0,180,26/06/2025,EXPRESO CARGO SA,462330,40.5%,142.20,,5Nj3Sn5W
-41647,1865 BIMBO DE ARGENTINA SA,Ejecución de la orden pendiente,Todo Aprobado, ,,F,PPAR15048T,2,0,26/06/2025,RETIRAN,463049,0.0%,.00,,9Sq4Bf1E
-41647,1865 BIMBO DE ARGENTINA SA,Ejecución de la orden pendiente,Todo Aprobado, ,,F,PPHR15048XT,2,0,26/06/2025,RETIRAN,463049,0.0%,.00,,9Sq4Bf1E
 41370,992 ESKABE SA,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Ensamblada,F,PVC624A,72,0,27/06/2025,EXPRESO CARGO SA,447065,79.2%,440.64,,2Ew7Gl2O
 41493,1029 DREAN SA,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Liberada,F,0272/003,0,80,30/06/2025,EXPRESO CARGO SA,453284,35.1%,7440.00,,6Ng7Hp1X
 41527,862 ZF ARGENTINA S.A.,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Liberada,F,4193/001,0,720,30/06/2025,TRANSPORTE CARROSIO Y VAIROLATTI,455487,66.2%,1468.80,,2Uj4Kr4Y
