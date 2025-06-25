@@ -99,8 +99,8 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 41293,3108 E A BALBI E HIJOS SA,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Liberada,F,3108/001,0,2880,30/05/2025,EXPRESO CARGO SA,442541,47.5%,3600.00,,1Hh7Gx0G
 41299,9400536 MILKAUT SA,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 23075,Remitido,T,PPHR15048XT,0,0,30/05/2025,RICARDO PIERONI,442647,39.4%,6980.10,T,8Ny2Or7G
 41315,9400945 LAMED S.A.,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 23091,Remitido,F,PPA1048F,0,0,30/05/2025,RICARDO PIERONI,444305,23.1%,131.04,T,9Dw9Wh0V
-41381,3089 ARNEG ARGENTINA S.A.,Parcialmente ejecutada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 23092,Remitido,F,3089/067,3000,0,30/05/2025,EXPRESO BRIO SRL,448136,96.1%,3320.00,T,7Rx7Ub2H
 41381,3089 ARNEG ARGENTINA S.A.,Parcialmente ejecutada,Todo Aprobado,Orden de trabajo ,Ensamblada,F,3089/067,3000,0,30/05/2025,EXPRESO BRIO SRL,448136,96.1%,498.00,,7Rx7Ub2H
+41381,3089 ARNEG ARGENTINA S.A.,Parcialmente ejecutada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 23092,Remitido,F,3089/067,3000,0,30/05/2025,EXPRESO BRIO SRL,448136,96.1%,3320.00,T,7Rx7Ub2H
 41424,18293 DULCOR SA,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 23073,Remitido,F,PPAR1048T,0,0,30/05/2025,EXPRESO LUJAN DEL CUYO SA,449754,35.1%,831.60,T,0Jn1Mv5H
 41425,18293 DULCOR SA,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 23079,Remitido,F,PPAR1048T,0,0,30/05/2025,EXPRESO LANCIONI,449755,35.1%,277.20,T,0Jn1Mv5H
 41426,9400100 ABBOUD MARCELO BANAIOT,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 23093,Remitido,F,CAS-PPA548T040,0,0,30/05/2025,EXPRESO CARGO SA,449756,15.3%,2624.40,T,5Pj9Xf1N
@@ -302,7 +302,7 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 41503,5019 GRANJA TRES ARROYOS SACAFEI,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 23230,Remitido,F,PPAR10072T,0,0,13/06/2025,EXPRESO CARGO SA,453726,61.6%,596.40,T,0Ql9Gi1V
 41204,5019 GRANJA TRES ARROYOS SACAFEI,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Cerrada,T,5019/004,0,192,16/06/2025,EXPRESO CARGO SA,437201,71.8%,426.24,,0Ql9Gi1V
 41204,5019 GRANJA TRES ARROYOS SACAFEI,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Cerrada,T,5019/005,0,60,16/06/2025,EXPRESO CARGO SA,437201,71.9%,1332.00,,0Ql9Gi1V
-41403,94010 VISUAR SA,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Liberada,F,1823/002,0,192,16/06/2025,EXPRESO CARGO SA,448929,44.5%,5475.84,,4Gf8Oa0H
+41403,94010 VISUAR SA,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Ensamblada,F,1823/002,192,0,16/06/2025,EXPRESO CARGO SA,448929,44.5%,5475.84,,4Gf8Oa0H
 41192,6467 INDUSTRIAS JUAN F SECCO S.A.,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 23242,Remitido,F,MTS548B,0,0,17/06/2025,RICARDO PIERONI,436560,5.8%,505.694,T,8Ul8Kh6G
 41205,132 MAHLE VALVULAS DE ARGENTINA SA,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 23251,Remitido,F,3351/001,0,0,17/06/2025,EXPRESO SANTA ROSA,437333,97.1%,411.00,T,6Ls2Pd3Q
 41207,2993 COTEMINAS ARGENTINA SA,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 23249,Remitido,F,2993/002,0,0,17/06/2025,EXPRESO BRIO SRL,437408,100.0%,1160.22,T,6Ks3Py8W
@@ -476,3 +476,4 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 41535,3089 ARNEG ARGENTINA S.A.,Parcialmente ejecutada,Todo Aprobado,Orden de trabajo ,Liberada,F,3089/017,0,15000,,RICARDO PIERONI,456208,12.1%,1191.00,,7Rx7Ub2H
 41535,3089 ARNEG ARGENTINA S.A.,Parcialmente ejecutada,Todo Aprobado,Orden de trabajo ,En curso,F,3089/029,40500,9500,,RICARDO PIERONI,456208,26.7%,270.00,,7Rx7Ub2H
 41535,3089 ARNEG ARGENTINA S.A.,Parcialmente ejecutada,Todo Aprobado,Orden de trabajo ,Liberada,F,3089/034,0,20,,RICARDO PIERONI,456208,80.6%,1500.00,,7Rx7Ub2H
+41598,9400182 IDRIS PATAGONIA SA,Ejecución de la orden pendiente,Todo Aprobado, ,,F,PPAR1048T,261,639,,TRANSPORTE CRUZ DEL SUR SA,460434,38.0%,711.00,,7Wz3Al6N
