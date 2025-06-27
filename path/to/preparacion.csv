@@ -297,8 +297,8 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 41570,4018 LHERITIER ARGENTINA SA,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 23264,Remitido,F,PPAR1048T,0,0,18/06/2025,EXPRESO LANCIONI,458599,38.8%,288.00,T,0Ef7Np9L
 41577,9400507 ALIMENTARIA MONTE CRISTO SRL,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 23267,Remitido,F,CAS-PPAR10048T047,0,0,18/06/2025,EXPRESO LANCIONI,458824,46.6%,1875.30,T,8Gq3Xq7U
 41578,874 LILIANA SRL,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 23272,Remitido,F,MTS524B,0,0,18/06/2025,FELICI JORGE ARIEL,458931,26.1%,488.88,T,9Mb1Ks4W
-41585,21 FUNDEMAP S.A.,Parcialmente ejecutada,Todo Aprobado,Factura de venta 37582,Abierta,T,P579,0,58,18/06/2025,RICARDO PIERONI,459411,57.6%,406.00,,0Me0Dg4G
 41585,21 FUNDEMAP S.A.,Parcialmente ejecutada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 23266,Remitido,T,P579,0,58,18/06/2025,RICARDO PIERONI,459411,57.6%,658.00,T,0Me0Dg4G
+41585,21 FUNDEMAP S.A.,Parcialmente ejecutada,Todo Aprobado,Factura de venta 37582,Abierta,T,P579,0,58,18/06/2025,RICARDO PIERONI,459411,57.6%,406.00,,0Me0Dg4G
 41586,178 DROGUERIA DEL SUD S.A.,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 23265,Remitido,F,PPAR1048T,0,0,18/06/2025,TRANSPORTE RAOSA SRL,459515,32.9%,1182.60,T,5Mx5Rs0E
 41591,279 HONDA MOTOR DE ARGENTINA S.A.,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 23269,Remitido,F,04169-00056-93,0,0,18/06/2025,EXPRESO CARGO SA,459857,46.9%,1.098.977,T,1Rf6Ez5C
 41219,9400154 SEBASTIAN SANCHEZ,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 23282,Remitido,F,PPHR15048XT,0,0,19/06/2025,RETIRAN,438002,100.0%,.00,T,7Xt9Gc1E
@@ -426,6 +426,7 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 41657,874 LILIANA SRL,Ejecución de la orden pendiente,Todo Aprobado, ,,F,CAS-PPA1048T040,2160,0,30/06/2025,FELICI GERARDO FABIAN,463428,49.9%,1339.20,,9Mb1Ks4W
 41658,3086 MULTIORIGINAL PARTS SA,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Liberada,F,CAS-PPAR1048T043,0,324,30/06/2025,EXPRESO CARGO SA,463561,40.8%,259.20,,1Fr4Ch9I
 41659,775 JOSE CURI ANTUN E HIJOS S.A. DIFERENTE UNIFORMES,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Liberada,F,CAS-PPAR1048T043,0,720,30/06/2025,EXPRESO CARGO SA,463664,44.3%,612.00,,7Qu7Bf8E
+41660,9401372 BECE EMPAQUES Y SERVICIOS S.A.,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Liberada,F,CAS-PPAR12048T040,0,306,30/06/2025,EXPRESO LUJAN DEL CUYO SA,463878,54.7%,2524.50,,0Us8Le9E
 41661,88 LACTEOS PUYEHUE S.R.L.,Ejecución de la orden pendiente,Todo Aprobado, ,,F,H11/CPE,4,0,30/06/2025,RICARDO PIERONI,463982,52.9%,128.00,,2Cq0Kg9P
 41662,15515 DISTRIBUIDORA DIQUE SRL,Ejecución de la orden pendiente,Todo Aprobado, ,,F,CAS-PPA1048T040,1080,0,30/06/2025,RICARDO PIERONI,464116,49.9%,669.60,,0Xf3Bl8T
 41551,4095 REFINERIA DEL CENTRO SA,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Ensamblada,F,CAS-PPHR10048XT045,54,0,01/07/2025,EXPRESO SANTA ROSA,456793,68.7%,766.80,,1Bj3Wa5S
