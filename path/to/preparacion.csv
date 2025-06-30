@@ -361,7 +361,7 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 41655,430 EMPAQUE S.A.,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Ensamblada,F,CAS-PPAR1048T043,540,0,27/06/2025,TRANSPORTE CRUZ DEL SUR SA,463184,42.7%,442.80,,4Oq4Xr3M
 41655,430 EMPAQUE S.A.,Ejecución de la orden pendiente,Todo Aprobado, ,,F,PPAR1048M,360,0,27/06/2025,TRANSPORTE CRUZ DEL SUR SA,463184,35.6%,324.00,,4Oq4Xr3M
 41656,6467 INDUSTRIAS JUAN F SECCO S.A.,Facturada,Todo Aprobado,Ejecución de pedido de artículo 23345,Enviado,F,0272/003,0,0,27/06/2025,RICARDO PIERONI,463289,51.0%,.00,T,8Ul8Kh6G
-41493,1029 DREAN SA,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Liberada,F,0272/003,0,80,30/06/2025,EXPRESO CARGO SA,453284,35.1%,7440.00,,6Ng7Hp1X
+41493,1029 DREAN SA,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Ensamblada,F,0272/003,80,0,30/06/2025,EXPRESO CARGO SA,453284,35.1%,7440.00,,6Ng7Hp1X
 41544,9400536 MILKAUT SA,Ejecución de la orden pendiente,Todo Aprobado, ,,F,PPHR15048XT,204,0,30/06/2025,RICARDO PIERONI,456574,44.0%,4347.24,,8Ny2Or7G
 41611,4931 ALGABO SA,Ejecución de la orden pendiente,Todo Aprobado, ,,F,CAS-PPHR1048XT045,360,2640,30/06/2025,EXPRESO CARGO SA,461127,32.2%,3990.00,,
 41611,4931 ALGABO SA,Ejecución de la orden pendiente,Todo Aprobado, ,,F,CAS-PPHR10072XT045,0,52,30/06/2025,EXPRESO CARGO SA,461127,33.3%,1041.04,,
@@ -380,17 +380,18 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 41663,4782 OFFAL EXP SA,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Liberada,F,CAS-PPAR10048T047,0,102,30/06/2025,EXPRESO CARGO SA,464247,43.9%,867.00,,2Gq6Ps1R
 41663,4782 OFFAL EXP SA,Ejecución de la orden pendiente,Todo Aprobado, ,,F,PPAR10072T,300,0,30/06/2025,EXPRESO CARGO SA,464247,40.2%,3876.00,,2Gq6Ps1R
 41665,9400816 MORELLI SRL,Facturada,Todo Aprobado,Ejecución de pedido de artículo 23351,Enviado,F,MTS548B,0,0,30/06/2025,RICARDO PIERONI,464249,29.5%,.00,T,2Au6Re6F
-41667,9400816 MORELLI SRL,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Liberada,F,04848-90200-01,0,100,30/06/2025,RICARDO PIERONI,464603,49.1%,2710.00,,2Au6Re6F
+41667,9400816 MORELLI SRL,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Ensamblada,F,04848-90200-01,100,0,30/06/2025,RICARDO PIERONI,464603,49.1%,2710.00,,2Au6Re6F
 41668,9402883 VULCANO SA,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Liberada,F,CAS-PPAR1048T043,0,6,30/06/2025,EXPRESO CARGO SA,464745,0.0%,.00,,
 41669,2638 QUE RICO SA,Ejecución de la orden pendiente,Todo Aprobado, ,,F,H11/48,10,0,30/06/2025,EXPRESO CARGO SA,464746,44.4%,235.50,,0Sl1Br5D
 41669,2638 QUE RICO SA,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Liberada,F,PPHR1216B,0,648,30/06/2025,EXPRESO CARGO SA,464746,65.2%,1023.84,,0Sl1Br5D
 41669,2638 QUE RICO SA,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Liberada,F,CAS-PPAR1048T043,0,396,30/06/2025,EXPRESO CARGO SA,464746,42.2%,324.72,,0Sl1Br5D
 41669,2638 QUE RICO SA,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Liberada,F,PVC612R,0,690,30/06/2025,EXPRESO CARGO SA,464746,59.5%,1110.90,,0Sl1Br5D
-41670,3769 GAROFOLI CONSTRUCCIONES SRL,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Liberada,F,64958-00001-00,0,45,30/06/2025,RODRIGUEZ HNOS. TRANSP. SA,464855,57.2%,259.20,,7Qv9Mi1Z
+41670,3769 GAROFOLI CONSTRUCCIONES SRL,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Ensamblada,F,64958-00001-00,45,0,30/06/2025,RODRIGUEZ HNOS. TRANSP. SA,464855,57.2%,259.20,,7Qv9Mi1Z
 41670,3769 GAROFOLI CONSTRUCCIONES SRL,Ejecución de la orden pendiente,Todo Aprobado, ,,F,MTS518B,1440,0,30/06/2025,RODRIGUEZ HNOS. TRANSP. SA,464855,37.3%,1080.00,,7Qv9Mi1Z
 41670,3769 GAROFOLI CONSTRUCCIONES SRL,Ejecución de la orden pendiente,Todo Aprobado, ,,F,MTS524B,1080,0,30/06/2025,RODRIGUEZ HNOS. TRANSP. SA,464855,27.6%,1080.00,,7Qv9Mi1Z
 41670,3769 GAROFOLI CONSTRUCCIONES SRL,Ejecución de la orden pendiente,Todo Aprobado, ,,F,MTS536B,480,0,30/06/2025,RODRIGUEZ HNOS. TRANSP. SA,464855,38.0%,720.00,,7Qv9Mi1Z
 41671,4050 FAPERSA ICSA,Facturada,Todo Aprobado,Ejecución de pedido de artículo 23350,Enviado,F,BV002,0,0,30/06/2025,TRANSPORTE PEDRITO,464959,68.1%,.00,T,5Pv6Sm4S
+41672,9400215 CARLOS MAXIMILIANO BASILIO,Ejecución de la orden pendiente,Todo Aprobado, ,,F,PPHPR100144B028,50,0,30/06/2025,EXPRESO CARGO SA,465069,-1.1%,1950.00,,0Fo4Wq8J
 41673,60 INGERSOLL ARGENTINA S.A.,Ejecución de la orden pendiente,Todo Aprobado, ,,F,P579HKG,50,0,30/06/2025,TRANSPORTE TRAVERSO,465169,55.7%,230.00,,2Df5Fp8J
 41674,4084 ALIMENTOS MYG SA,Ejecución de la orden pendiente,Todo Aprobado, ,,F,PPA1548TE,360,0,30/06/2025,EXPRESO CARGO SA,465172,40.7%,442.80,,8Aq8Xr9K
 41551,4095 REFINERIA DEL CENTRO SA,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Ensamblada,F,CAS-PPHR10048XT045,54,0,01/07/2025,EXPRESO SANTA ROSA,456793,68.7%,766.80,,1Bj3Wa5S
@@ -409,6 +410,7 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 41638,9402697 KLATT PACK SRL,Ejecución de la orden pendiente,Todo Aprobado, ,,F,BV002,40,120,07/07/2025,EXPRESO CARGO SA,462529,50.0%,912.00,,
 41572,1386 FRIGORIFICO PALADINI SA,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Liberada,F,CAS-PPAR1048T043,0,432,08/07/2025,FELICI JORGE ARIEL,458699,100.0%,304.92,,0Ut2Zv0U
 41630,4095 REFINERIA DEL CENTRO SA,Ejecución de la orden pendiente,Todo Aprobado, ,,F,PPAR1072T,2.700,0,09/07/2025,EXPRESO SANTA ROSA,462095,30.8%,2808.00,,1Bj3Wa5S
+41677,9400774 CORREO OFICIAL DE LA REPUBLICA ARGENTINA SA,Ejecución de la orden pendiente,Todo Aprobado, ,,F,9400774/001,0,8000,11/07/2025,EXPRESO CARGO SA,465543,100.0%,7200.00,,8Iv9Nk5M
 41404,94010 VISUAR SA,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Liberada,F,1823/002,0,192,14/07/2025,EXPRESO CARGO SA,449047,44.5%,5475.84,,4Gf8Oa0H
 41555,17046 SUPER S A SOC URUGUAYENSE DE PRODUCTORES DE ENTRE RIOS SOC ANON,Ejecución de la orden pendiente,Todo Aprobado, ,,F,PPAR1072T,140,0,16/07/2025,EXPRESO CARGO SA,457146,51.1%,191.80,,0Qu5Fi8T
 41621,12877 BRIKET SA,Ejecución de la orden pendiente,Todo Aprobado, ,,F,MTP548B,0,612,17/07/2025,FELICI JORGE ARIEL,461531,40.5%,1224.00,,6Rp2Ce7I
