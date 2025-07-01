@@ -229,8 +229,8 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 41570,4018 LHERITIER ARGENTINA SA,Facturada,Todo Aprobado,Ejecución de pedido de artículo 23264,Enviado,F,PPAR1048T,0,0,18/06/2025,EXPRESO LANCIONI,458599,38.8%,.00,T,0Ef7Np9L
 41577,9400507 ALIMENTARIA MONTE CRISTO SRL,Facturada,Todo Aprobado,Ejecución de pedido de artículo 23267,Enviado,F,CAS-PPAR10048T047,0,0,18/06/2025,EXPRESO LANCIONI,458824,46.6%,.00,T,8Gq3Xq7U
 41578,874 LILIANA SRL,Facturada,Todo Aprobado,Ejecución de pedido de artículo 23272,Enviado,F,MTS524B,0,0,18/06/2025,FELICI JORGE ARIEL,458931,26.1%,.00,T,9Mb1Ks4W
-41585,21 FUNDEMAP S.A.,Parcialmente ejecutada,Todo Aprobado,Ejecución de pedido de artículo 23266,Enviado,T,P579,0,58,18/06/2025,RICARDO PIERONI,459411,57.6%,406.00,T,0Me0Dg4G
 41585,21 FUNDEMAP S.A.,Parcialmente ejecutada,Todo Aprobado,Factura de venta 37582,Abierta,T,P579,0,58,18/06/2025,RICARDO PIERONI,459411,57.6%,406.00,,0Me0Dg4G
+41585,21 FUNDEMAP S.A.,Parcialmente ejecutada,Todo Aprobado,Ejecución de pedido de artículo 23266,Enviado,T,P579,0,58,18/06/2025,RICARDO PIERONI,459411,57.6%,406.00,T,0Me0Dg4G
 41586,178 DROGUERIA DEL SUD S.A.,Facturada,Todo Aprobado,Ejecución de pedido de artículo 23265,Enviado,F,PPAR1048T,0,0,18/06/2025,TRANSPORTE RAOSA SRL,459515,32.9%,.00,T,5Mx5Rs0E
 41591,279 HONDA MOTOR DE ARGENTINA S.A.,Facturada,Todo Aprobado,Ejecución de pedido de artículo 23269,Enviado,F,04169-00056-93,0,0,18/06/2025,EXPRESO CARGO SA,459857,46.9%,.00,T,1Rf6Ez5C
 41219,9400154 SEBASTIAN SANCHEZ,Facturada,Todo Aprobado,Ejecución de pedido de artículo 23282,Enviado,F,PPHR15048XT,0,0,19/06/2025,RETIRAN,438002,100.0%,.00,T,7Xt9Gc1E
@@ -411,12 +411,14 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 41685,3029 DARK SRL,Ejecución de la orden pendiente,Todo Aprobado, ,,F,FLJPP30012B,4,0,02/07/2025,RICARDO PIERONI,466132,4.6%,160.00,,7Va0Bu1J
 41685,3029 DARK SRL,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Liberada,F,CAS-PPAR1048T043,0,180,02/07/2025,RICARDO PIERONI,466132,44.3%,153.00,,7Va0Bu1J
 41686,9400009 CERAMICA SAN LORENZO,Ejecución de la orden pendiente,Todo Aprobado, ,,F,CAS-PPA1048T043,0,432,03/07/2025,EXPRESO TAS,466249,43.2%,328.32,,9Hm9Dl7F
+41687,183 OLIVERO ARIEL Y DARIO SH,Ejecución de la orden pendiente,Todo Aprobado, ,,F,HWF125,34.3,1.7,03/07/2025,RICARDO PIERONI,466364,38.0%,252.00,,1Uf0Pc9G
+41687,183 OLIVERO ARIEL Y DARIO SH,Ejecución de la orden pendiente,Todo Aprobado, ,,F,CH523EXR,40,0,03/07/2025,RICARDO PIERONI,466364,49.4%,520.00,,1Uf0Pc9G
 41615,9400962 CRYSTAL-ICE SRL,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Liberada,F,9400962/006,0,360,04/07/2025,RICARDO PIERONI,461413,27.2%,388.80,,4Is2Rn8E
 41681,4872 PAMPA GLOBAL TRADE S.A,Ejecución de la orden pendiente,Todo Aprobado, ,,F,PPAR15048T,120,0,04/07/2025,RICARDO PIERONI,465786,38.7%,1680.00,,4Rs4Vh2H
 41639,812 SYSTEL SA,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Ensamblada,F,07063-00012-24,10,0,07/07/2025,EXPRESO CARGO SA,462332,56.2%,528.50,,6Ll4Vl5M
 41638,9402697 KLATT PACK SRL,Ejecución de la orden pendiente,Todo Aprobado, ,,F,BV002,40,120,07/07/2025,EXPRESO CARGO SA,462529,50.0%,912.00,,
 41572,1386 FRIGORIFICO PALADINI SA,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Liberada,F,CAS-PPAR1048T043,0,432,08/07/2025,FELICI JORGE ARIEL,458699,100.0%,304.92,,0Ut2Zv0U
-41630,4095 REFINERIA DEL CENTRO SA,Ejecución de la orden pendiente,Todo Aprobado, ,,F,PPAR1072T,2700,0,09/07/2025,EXPRESO SANTA ROSA,462095,30.8%,2808.00,,1Bj3Wa5S
+41630,4095 REFINERIA DEL CENTRO SA,Ejecución de la orden pendiente,Todo Aprobado, ,,F,PPAR1072T,2.700,0,09/07/2025,EXPRESO SANTA ROSA,462095,30.8%,2808.00,,1Bj3Wa5S
 41677,9400774 CORREO OFICIAL DE LA REPUBLICA ARGENTINA SA,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Liberada,F,9400774/001,0,8000,11/07/2025,EXPRESO CARGO SA,465543,13.4%,7200.00,,8Iv9Nk5M
 41404,94010 VISUAR SA,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Liberada,F,1823/002,0,192,14/07/2025,EXPRESO CARGO SA,449047,44.5%,5475.84,,4Gf8Oa0H
 41555,17046 SUPER S A SOC URUGUAYENSE DE PRODUCTORES DE ENTRE RIOS SOC ANON,Ejecución de la orden pendiente,Todo Aprobado, ,,F,PPAR1072T,140,0,16/07/2025,EXPRESO CARGO SA,457146,51.1%,191.80,,0Qu5Fi8T
