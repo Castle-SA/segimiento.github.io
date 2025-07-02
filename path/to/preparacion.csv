@@ -60,8 +60,8 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 41409,9402287 GRAELLS NELSON ANTONIO,Facturada,Todo Aprobado,Ejecución de pedido de artículo 23132,Enviado,F,CAS-PPA1048T040,0,0,05/06/2025,RICARDO PIERONI,449524,27.3%,.00,T,0Ux3Ra3D
 41410,9402287 GRAELLS NELSON ANTONIO,Facturada,Todo Aprobado,Ejecución de pedido de artículo 23133,Enviado,F,CAS-PPA1048T040,0,0,05/06/2025,RICARDO PIERONI,449526,27.3%,.00,T,0Ux3Ra3D
 41411,9402287 GRAELLS NELSON ANTONIO,Facturada,Todo Aprobado,Ejecución de pedido de artículo 23136,Enviado,F,CAS-PPA1048T040,0,0,05/06/2025,RICARDO PIERONI,449527,27.3%,.00,T,0Ux3Ra3D
-41412,9402287 GRAELLS NELSON ANTONIO,Facturada,Todo Aprobado,Ejecución de pedido de artículo 23137,Enviado,F,CAS-PPA1048T040,0,0,05/06/2025,RICARDO PIERONI,449529,27.3%,-21.24,T,0Ux3Ra3D
 41412,9402287 GRAELLS NELSON ANTONIO,Facturada,Todo Aprobado,Ejecución de pedido de artículo 23138,Enviado,F,CAS-PPA1048T040,0,0,05/06/2025,RICARDO PIERONI,449529,27.3%,-21.24,T,0Ux3Ra3D
+41412,9402287 GRAELLS NELSON ANTONIO,Facturada,Todo Aprobado,Ejecución de pedido de artículo 23137,Enviado,F,CAS-PPA1048T040,0,0,05/06/2025,RICARDO PIERONI,449529,27.3%,-21.24,T,0Ux3Ra3D
 41413,9402287 GRAELLS NELSON ANTONIO,Facturada,Todo Aprobado,Ejecución de pedido de artículo 23139,Enviado,F,CAS-PPA1048T040,0,0,05/06/2025,RICARDO PIERONI,449530,27.3%,.00,T,0Ux3Ra3D
 41414,9402287 GRAELLS NELSON ANTONIO,Facturada,Todo Aprobado,Ejecución de pedido de artículo 23140,Enviado,F,CAS-PPA1048T040,0,0,05/06/2025,RICARDO PIERONI,449532,27.3%,.00,T,0Ux3Ra3D
 41415,9402287 GRAELLS NELSON ANTONIO,Facturada,Todo Aprobado,Ejecución de pedido de artículo 23141,Enviado,F,CAS-PPA1048T040,0,0,05/06/2025,RICARDO PIERONI,449533,27.3%,.00,T,0Ux3Ra3D
@@ -229,8 +229,8 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 41570,4018 LHERITIER ARGENTINA SA,Facturada,Todo Aprobado,Ejecución de pedido de artículo 23264,Enviado,F,PPAR1048T,0,0,18/06/2025,EXPRESO LANCIONI,458599,38.8%,.00,T,0Ef7Np9L
 41577,9400507 ALIMENTARIA MONTE CRISTO SRL,Facturada,Todo Aprobado,Ejecución de pedido de artículo 23267,Enviado,F,CAS-PPAR10048T047,0,0,18/06/2025,EXPRESO LANCIONI,458824,46.6%,.00,T,8Gq3Xq7U
 41578,874 LILIANA SRL,Facturada,Todo Aprobado,Ejecución de pedido de artículo 23272,Enviado,F,MTS524B,0,0,18/06/2025,FELICI JORGE ARIEL,458931,26.1%,.00,T,9Mb1Ks4W
-41585,21 FUNDEMAP S.A.,Parcialmente ejecutada,Todo Aprobado,Ejecución de pedido de artículo 23266,Enviado,T,P579,0,58,18/06/2025,RICARDO PIERONI,459411,57.6%,406.00,T,0Me0Dg4G
 41585,21 FUNDEMAP S.A.,Parcialmente ejecutada,Todo Aprobado,Factura de venta 37582,Abierta,T,P579,0,58,18/06/2025,RICARDO PIERONI,459411,57.6%,406.00,,0Me0Dg4G
+41585,21 FUNDEMAP S.A.,Parcialmente ejecutada,Todo Aprobado,Ejecución de pedido de artículo 23266,Enviado,T,P579,0,58,18/06/2025,RICARDO PIERONI,459411,57.6%,406.00,T,0Me0Dg4G
 41586,178 DROGUERIA DEL SUD S.A.,Facturada,Todo Aprobado,Ejecución de pedido de artículo 23265,Enviado,F,PPAR1048T,0,0,18/06/2025,TRANSPORTE RAOSA SRL,459515,32.9%,.00,T,5Mx5Rs0E
 41591,279 HONDA MOTOR DE ARGENTINA S.A.,Facturada,Todo Aprobado,Ejecución de pedido de artículo 23269,Enviado,F,04169-00056-93,0,0,18/06/2025,EXPRESO CARGO SA,459857,46.9%,.00,T,1Rf6Ez5C
 41219,9400154 SEBASTIAN SANCHEZ,Facturada,Todo Aprobado,Ejecución de pedido de artículo 23282,Enviado,F,PPHR15048XT,0,0,19/06/2025,RETIRAN,438002,100.0%,.00,T,7Xt9Gc1E
@@ -403,9 +403,9 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 41552,4095 REFINERIA DEL CENTRO SA,Ejecución de la orden pendiente,Todo Aprobado, ,,F,PPAR1072T,2700,0,01/07/2025,EXPRESO SANTA ROSA,456794,35.6%,2808.00,,1Bj3Wa5S
 41552,4095 REFINERIA DEL CENTRO SA,Ejecución de la orden pendiente,Todo Aprobado, ,,F,PPAR10072T,120,0,01/07/2025,EXPRESO SANTA ROSA,456794,53.5%,1476.00,,1Bj3Wa5S
 41640,132 MAHLE VALVULAS DE ARGENTINA SA,Parcialmente ejecutada,Todo Aprobado,Orden de trabajo ,Ensamblada,F,3351/003,20000,0,01/07/2025,EXPRESO SANTA ROSA,462333,78.1%,3000.00,,6Ls2Pd3Q
-41684,1318 ALIBUE S.A.,Facturada,Todo Aprobado,Ejecución de pedido de artículo 23395,Enviado,F,CAS-PPAR1048T043,0,0,01/07/2025,EXPRESO CARGO SA,466032,44.3%,.00,F,1Sn9Yn7I
+41684,1318 ALIBUE S.A.,Facturada,Todo Aprobado,Ejecución de pedido de artículo 23396,Enviado,F,CAS-PPAR1048T043,0,0,01/07/2025,EXPRESO CARGO SA,466032,44.3%,.00,T,1Sn9Yn7I
 41684,1318 ALIBUE S.A.,Facturada,Todo Aprobado,Ejecución de pedido de artículo 23394,Enviado,F,CAS-PPAR1048T043,0,0,01/07/2025,EXPRESO CARGO SA,466032,44.3%,.00,T,1Sn9Yn7I
-41684,1318 ALIBUE S.A.,Facturada,Todo Aprobado,Ejecución de pedido de artículo 23396,Enviado,F,CAS-PPAR1048T043,0,0,01/07/2025,EXPRESO CARGO SA,466032,44.3%,.00,F,1Sn9Yn7I
+41684,1318 ALIBUE S.A.,Facturada,Todo Aprobado,Ejecución de pedido de artículo 23395,Enviado,F,CAS-PPAR1048T043,0,0,01/07/2025,EXPRESO CARGO SA,466032,44.3%,.00,T,1Sn9Yn7I
 41356,9400154 SEBASTIAN SANCHEZ,Facturada,Todo Aprobado,Ejecución de pedido de artículo 23397,Enviado,F,PPAR1048T,0,0,02/07/2025,RETIRAN,446544,100.0%,.00,T,7Xt9Gc1E
 41593,15601 SPRAYTEC SRL,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Liberada,F,5601/001,0,360,02/07/2025,RICARDO PIERONI,459859,43.7%,936.00,,9Xa1Ax5K
 41642,9400536 MILKAUT SA,Ejecución de la orden pendiente,Todo Aprobado, ,,F,CAS-PPAR548T043,1440,0,02/07/2025,RICARDO PIERONI,462644,30.1%,504.00,,8Ny2Or7G
