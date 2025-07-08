@@ -150,8 +150,8 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 41570,4018 LHERITIER ARGENTINA SA,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 23264,Remitido,F,PPAR1048T,0,0,18/06/2025,EXPRESO LANCIONI,458599,38.8%,288.00,T,0Ef7Np9L
 41577,9400507 ALIMENTARIA MONTE CRISTO SRL,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 23267,Remitido,F,CAS-PPAR10048T047,0,0,18/06/2025,EXPRESO LANCIONI,458824,46.6%,1875.30,T,8Gq3Xq7U
 41578,874 LILIANA SRL,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 23272,Remitido,F,MTS524B,0,0,18/06/2025,FELICI JORGE ARIEL,458931,26.1%,488.88,T,9Mb1Ks4W
-41585,21 FUNDEMAP S.A.,Parcialmente ejecutada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 23266,Remitido,T,P579,0,58,18/06/2025,RICARDO PIERONI,459411,57.6%,658.00,T,0Me0Dg4G
 41585,21 FUNDEMAP S.A.,Parcialmente ejecutada,Todo Aprobado,Factura de venta 37582,Pagado por completo,T,P579,0,58,18/06/2025,RICARDO PIERONI,459411,57.6%,406.00,,0Me0Dg4G
+41585,21 FUNDEMAP S.A.,Parcialmente ejecutada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 23266,Remitido,T,P579,0,58,18/06/2025,RICARDO PIERONI,459411,57.6%,658.00,T,0Me0Dg4G
 41586,178 DROGUERIA DEL SUD S.A.,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 23265,Remitido,F,PPAR1048T,0,0,18/06/2025,TRANSPORTE RAOSA SRL,459515,32.9%,1182.60,T,5Mx5Rs0E
 41591,279 HONDA MOTOR DE ARGENTINA S.A.,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 23269,Remitido,F,04169-00056-93,0,0,18/06/2025,EXPRESO CARGO SA,459857,46.9%,1.098.977,T,1Rf6Ez5C
 41219,9400154 SEBASTIAN SANCHEZ,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 23282,Remitido,F,PPHR15048XT,0,0,19/06/2025,RETIRAN,438002,100.0%,.00,T,7Xt9Gc1E
@@ -378,7 +378,6 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 41695,1499 FAIART ARGENTINA SA,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 23423,Remitido,F,PPAR1072T,0,0,07/07/2025,EXPRESO BRIO SRL,467037,64.0%,336.00,T,9Pk0Ny6V
 41696,3676 FRIGORIFICO MARK SA,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 23422,Remitido,F,PVC612R,0,0,07/07/2025,RETIRAN,467139,67.3%,578.88,T,2Nw2Uj9H
 41697,1171 AUTOSAL SA,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 23425,Remitido,F,CAS-PPA1072T040,0,0,07/07/2025,EXPRESO CARGO SA,467252,52.7%,237.60,T,2Uv7Bb0L
-41715,15 IND. JOHN DEERE ARGENTINA S.A.,Ejecución de la orden pendiente,Todo Aprobado, ,,F,BV001,140,0,07/07/2025,FELICI JORGE ARIEL,467833,85.8%,2513.00,,8Ky5Hq9D
 41720,6374 AMIANTO ROSARIO de FERRARO RAYMUNDO ANTONIO,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 23421,Remitido,F,PVC612R,0,0,07/07/2025,RICARDO PIERONI,467985,62.5%,252.00,T,3Cz8Jm6T
 41722,67 FORD ARGENTINA S.C.A.,Ejecución de la orden pendiente,Todo Aprobado, ,,F,BV002,0,1000,07/07/2025,EXPRESO CARGO SA,468132,57.6%,6720.00,,0Bz8Ix7O
 41723,9402652 SOUTHERN MEAT SRL,Ejecución de la orden pendiente,Todo Aprobado, ,,F,CAS-PPAR10048T047,60,0,07/07/2025,EXPRESO CARGO SA,468138,54.8%,632.40,,
@@ -396,7 +395,8 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 41702,3089 ARNEG ARGENTINA S.A.,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Ensamblada,F,3089/079,47000,0,08/07/2025,FELICI JORGE ARIEL,467259,32.8%,1663.80,,7Rx7Ub2H
 41702,3089 ARNEG ARGENTINA S.A.,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Ensamblada,F,3089/080,49500,0,08/07/2025,FELICI JORGE ARIEL,467259,32.9%,2074.05,,7Rx7Ub2H
 41704,3089 ARNEG ARGENTINA S.A.,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Ensamblada,F,3089/040,10000,0,08/07/2025,FELICI JORGE ARIEL,467261,96.5%,3160.00,,7Rx7Ub2H
-41725,1606 DANES SRL,Ejecución de la orden pendiente,Todo Aprobado, ,,F,51618-00004-00,10,0,08/07/2025,RETIRAN,468417,66.6%,98.00,,1Km7Ai4M
+41715,15 IND. JOHN DEERE ARGENTINA S.A.,Facturación pendiente,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 23434,Remitido,F,BV001,0,0,08/07/2025,FELICI JORGE ARIEL,467833,85.8%,2513.00,F,8Ky5Hq9D
+41725,1606 DANES SRL,Facturación pendiente,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 23433,Remitido,F,51618-00004-00,0,0,08/07/2025,RETIRAN,468417,66.6%,98.00,F,1Km7Ai4M
 41726,4687 ACUERDOS SRL,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Ensamblada,F,PPA1048F,360,0,08/07/2025,EXPRESO CARGO SA,468446,100.0%,360.00,,5Ej2Gr3N
 41726,4687 ACUERDOS SRL,Ejecución de la orden pendiente,Todo Aprobado, ,,F,PPAR1048T,0,144,08/07/2025,EXPRESO CARGO SA,468446,42.4%,122.40,,5Ej2Gr3N
 41728,1067 DIPAC SA,Ejecución de la orden pendiente,Todo Aprobado, ,,F,PPAR524T,0,1440,08/07/2025,RICARDO PIERONI,468447,99.9%,432.00,,9Tj7Li2O
