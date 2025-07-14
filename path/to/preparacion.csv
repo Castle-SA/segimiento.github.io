@@ -50,8 +50,8 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 41570,4018 LHERITIER ARGENTINA SA,Facturada,Todo Aprobado,Ejecución de pedido de artículo 23264,Enviado,F,PPAR1048T,0,0,18/06/2025,EXPRESO LANCIONI,458599,38.8%,.00,T,0Ef7Np9L
 41577,9400507 ALIMENTARIA MONTE CRISTO SRL,Facturada,Todo Aprobado,Ejecución de pedido de artículo 23267,Enviado,F,CAS-PPAR10048T047,0,0,18/06/2025,EXPRESO LANCIONI,458824,46.6%,.00,T,8Gq3Xq7U
 41578,874 LILIANA SRL,Facturada,Todo Aprobado,Ejecución de pedido de artículo 23272,Enviado,F,MTS524B,0,0,18/06/2025,FELICI JORGE ARIEL,458931,26.1%,.00,T,9Mb1Ks4W
-41585,21 FUNDEMAP S.A.,Parcialmente ejecutada,Todo Aprobado,Ejecución de pedido de artículo 23266,Enviado,T,P579,0,58,18/06/2025,RICARDO PIERONI,459411,57.6%,406.00,T,0Me0Dg4G
 41585,21 FUNDEMAP S.A.,Parcialmente ejecutada,Todo Aprobado,Factura de venta 37582,Pagado por completo,T,P579,0,58,18/06/2025,RICARDO PIERONI,459411,57.6%,406.00,,0Me0Dg4G
+41585,21 FUNDEMAP S.A.,Parcialmente ejecutada,Todo Aprobado,Ejecución de pedido de artículo 23266,Enviado,T,P579,0,58,18/06/2025,RICARDO PIERONI,459411,57.6%,406.00,T,0Me0Dg4G
 41586,178 DROGUERIA DEL SUD S.A.,Facturada,Todo Aprobado,Ejecución de pedido de artículo 23265,Enviado,F,PPAR1048T,0,0,18/06/2025,TRANSPORTE RAOSA SRL,459515,32.9%,.00,T,5Mx5Rs0E
 41591,279 HONDA MOTOR DE ARGENTINA S.A.,Facturada,Todo Aprobado,Ejecución de pedido de artículo 23269,Enviado,F,04169-00056-93,0,0,18/06/2025,EXPRESO CARGO SA,459857,46.9%,.00,T,1Rf6Ez5C
 41219,9400154 SEBASTIAN SANCHEZ,Facturada,Todo Aprobado,Ejecución de pedido de artículo 23282,Enviado,F,PPHR15048XT,0,0,19/06/2025,RETIRAN,438002,100.0%,.00,T,7Xt9Gc1E
@@ -297,7 +297,7 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 41730,9400366 LACTEOS AURORA SRL,Facturada,Todo Aprobado,Ejecución de pedido de artículo 23441,Enviado,F,CAS-PPAR1048T043,0,0,10/07/2025,EXPRESO CARGO SA,468724,100.0%,.00,T,9Mm2Os8C
 41730,9400366 LACTEOS AURORA SRL,Facturada,Todo Aprobado,Ejecución de pedido de artículo 23441,Enviado,F,PPAR15048T,0,0,10/07/2025,EXPRESO CARGO SA,468724,100.0%,.00,T,9Mm2Os8C
 41741,5048 RURAL SANTA FE SAICYA,Facturada,Todo Aprobado,Ejecución de pedido de artículo 23439,Enviado,F,PPAR1072T,0,0,10/07/2025,RETIRAN,468966,37.9%,.00,T,1Vh6Ki9L
-41744,4389 FOOD ARTS SA,Ejecución de la orden pendiente,Todo Aprobado, ,,F,PPAR1048T,3600,0,10/07/2025,TRANSPORTE TOMASSINI,469251,36.4%,2772.00,,3Px3Tl3X
+41744,4389 FOOD ARTS SA,Ejecución de la orden pendiente,Todo Aprobado, ,,F,PPAR1048T,3.600,0,10/07/2025,TRANSPORTE TOMASSINI,469251,36.4%,2772.00,,3Px3Tl3X
 41745,2410 LUIS SOLIMENO E HIJOS SA,Ejecución de la orden pendiente,Todo Aprobado, ,,F,H11/48,20,0,10/07/2025,TRANSPORTE TOMASSINI,469352,45.2%,500.00,,3Gh0Ze9O
 41745,2410 LUIS SOLIMENO E HIJOS SA,Ejecución de la orden pendiente,Todo Aprobado, ,,F,H11/72,25,0,10/07/2025,TRANSPORTE TOMASSINI,469352,43.9%,700.00,,3Gh0Ze9O
 41750,12849 FERRERO ARGENTINA SA,Facturada,Todo Aprobado,Ejecución de pedido de artículo 23438,Enviado,F,PPAR1072T,0,0,10/07/2025,EXPRESO CARGO SA,469582,41.5%,.00,T,5Oy9Im9F
@@ -408,7 +408,7 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 41435,1783 A & C SOLUCIONES SA,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Liberada,F,1783/001,0,360,,EXPRESO LANCIONI,449961,62.2%,666.00,,9To2Cy4M
 41599,60 INGERSOLL ARGENTINA S.A.,Ejecución de la orden pendiente,Todo Aprobado, ,,T,P579,0,30,,TRANSPORTE TRAVERSO,460543,61.8%,230.70,,2Df5Fp8J
 41603,89 PEUGEOT CITROEN ARGENTINA S.A.,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Liberada,F,0089/007,0,10,,EXPRESO CARGO SA,460741,59.9%,955.30,,6Xg2Vq7X
-41703,3089 ARNEG ARGENTINA S.A.,Ejecución de la orden pendiente,Todo Aprobado, ,,T,3089/082,400,7600,,FELICI JORGE ARIEL,467260,52.2%,10000.00,,7Rx7Ub2H
+41703,3089 ARNEG ARGENTINA S.A.,Ejecución de la orden pendiente,Todo Aprobado, ,,T,3089/082,400,7.600,,FELICI JORGE ARIEL,467260,52.2%,10000.00,,7Rx7Ub2H
 41703,3089 ARNEG ARGENTINA S.A.,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Liberada,T,3089/029,0,80000,,FELICI JORGE ARIEL,467260,26.7%,432.00,,7Rx7Ub2H
 41703,3089 ARNEG ARGENTINA S.A.,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Ensamblada,T,3089/021,6000,0,,FELICI JORGE ARIEL,467260,29.2%,161.40,,7Rx7Ub2H
 41703,3089 ARNEG ARGENTINA S.A.,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Ensamblada,T,3089/014,3000,0,,FELICI JORGE ARIEL,467260,28.1%,102.00,,7Rx7Ub2H
