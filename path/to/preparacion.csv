@@ -210,9 +210,9 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 41682,6098 MARCELO RAUL MARTINEZ,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 23371,Remitido,F,PPA1548TE,0,0,30/06/2025,RETIRAN,465888,63.5%,72.00,T,5Tb3Jl5E
 41683,5087 SARMIENTO HECTOR DAVID,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 23370,Remitido,F,CAS-PPA1048T040,0,0,30/06/2025,EXPRESO CARGO SA,465900,52.2%,351.00,T,0Ko6Bl1F
 41640,132 MAHLE VALVULAS DE ARGENTINA SA,Parcialmente ejecutada,Todo Aprobado,Orden de trabajo ,Ensamblada,F,3351/003,20000,0,01/07/2025,EXPRESO SANTA ROSA,462333,78.1%,3000.00,,6Ls2Pd3Q
-41684,1318 ALIBUE S.A.,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 23396,Remitido,F,CAS-PPAR1048T043,0,0,01/07/2025,EXPRESO CARGO SA,466032,44.3%,91.80,T,1Sn9Yn7I
 41684,1318 ALIBUE S.A.,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 23394,Remitido,F,CAS-PPAR1048T043,0,0,01/07/2025,EXPRESO CARGO SA,466032,44.3%,153.00,T,1Sn9Yn7I
 41684,1318 ALIBUE S.A.,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 23395,Remitido,F,CAS-PPAR1048T043,0,0,01/07/2025,EXPRESO CARGO SA,466032,44.3%,61.20,T,1Sn9Yn7I
+41684,1318 ALIBUE S.A.,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 23396,Remitido,F,CAS-PPAR1048T043,0,0,01/07/2025,EXPRESO CARGO SA,466032,44.3%,91.80,T,1Sn9Yn7I
 41254,5019 GRANJA TRES ARROYOS SACAFEI,Parcialmente ejecutada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 23401,Remitido,T,5019/003,0,24,02/07/2025,EXPRESO CARGO SA,439824,61.8%,1420.80,T,0Ql9Gi1V
 41254,5019 GRANJA TRES ARROYOS SACAFEI,Parcialmente ejecutada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 23401,Remitido,T,5019/002,0,0,02/07/2025,EXPRESO CARGO SA,439824,58.8%,372.96,T,0Ql9Gi1V
 41255,5019 GRANJA TRES ARROYOS SACAFEI,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 23400,Remitido,T,5019/003,0,0,02/07/2025,EXPRESO CARGO SA,439825,61.8%,1776.00,T,0Ql9Gi1V
@@ -248,8 +248,6 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 41706,9400154 SEBASTIAN SANCHEZ,Ejecución de la orden pendiente,Todo Aprobado, ,,F,PPAR1072T,24,0,04/07/2025,RETIRAN,467406,100.0%,.00,,7Xt9Gc1E
 41707,874 LILIANA SRL,Ejecución de la orden pendiente,Todo Aprobado, ,,F,MUESTRA ESPECIAL,1,0,04/07/2025,BARRY LATIMER,467422,100.0%,.00,,9Mb1Ks4W
 41707,874 LILIANA SRL,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Ensamblada,F,64958-00001-00,1,0,04/07/2025,BARRY LATIMER,467422,100.0%,.00,,9Mb1Ks4W
-41708,814 OBLAK HNOS SACIFI,Ejecución de la orden pendiente,Todo Aprobado, ,,F,MUESTRA ESPECIAL,1,0,04/07/2025,EXPRESO CARGO SA,467423,100.0%,.00,,1Hy0Vd3I
-41708,814 OBLAK HNOS SACIFI,Ejecución de la orden pendiente,Todo Aprobado, ,,F,MUESTRA ESPECIAL,1,0,04/07/2025,EXPRESO CARGO SA,467423,100.0%,.00,,1Hy0Vd3I
 41719,4516 RAPECA ARGENTINA SA,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 23413,Remitido,F,PPA1548TE,0,0,04/07/2025,EXPRESO CARGO SA,467835,40.7%,442.80,T,2Aa9Oj0E
 41630,4095 REFINERIA DEL CENTRO SA,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 23424,Remitido,F,PPAR1072T,0,0,07/07/2025,EXPRESO SANTA ROSA,462095,30.8%,2820.48,T,1Bj3Wa5S
 41639,812 SYSTEL SA,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 23418,Remitido,F,07063-00012-24,0,0,07/07/2025,EXPRESO CARGO SA,462332,56.2%,528.50,T,6Ll4Vl5M
@@ -338,8 +336,7 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 41757,827 GONVARRI ARGENTINA SA,Ejecución de la orden pendiente,Todo Aprobado, ,,T,P579,0,400,14/07/2025,EXPRESO CARGO SA,470186,44.4%,2272.00,,6Mv2Lk5E
 41765,9402422 VALBO S A I C Y F,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 23476,Remitido,F,MTS548B,0,0,14/07/2025,RETIRAN,470818,29.5%,216.00,T,
 41765,9402422 VALBO S A I C Y F,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 23476,Remitido,F,PPAR1048T,0,0,14/07/2025,RETIRAN,470818,43.8%,864.00,T,
-41766,4095 REFINERIA DEL CENTRO SA,Ejecución de la orden pendiente,Todo Aprobado, ,,F,PPHR10048T,0,54,14/07/2025,EXPRESO SANTA ROSA,470819,23.1%,766.80,,1Bj3Wa5S
-41766,4095 REFINERIA DEL CENTRO SA,Ejecución de la orden pendiente,Todo Aprobado, ,,F,PPAR10072T,120,0,14/07/2025,EXPRESO SANTA ROSA,470819,33.5%,1476.00,,1Bj3Wa5S
+41766,4095 REFINERIA DEL CENTRO SA,Facturación pendiente/parcialmente ejecutada,Todo Aprobado, ,,F,PPHR10048T,0,54,14/07/2025,EXPRESO SANTA ROSA,470819,23.1%,766.80,,1Bj3Wa5S
 41772,5078 GRANJA SRL,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 23457,Remitido,F,H11/CPE,0,0,14/07/2025,RICARDO PIERONI,470998,45.1%,116.00,T,8Xs6Zk8N
 41772,5078 GRANJA SRL,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 23457,Remitido,F,PPA1548TE,0,0,14/07/2025,RICARDO PIERONI,470998,47.2%,442.80,T,8Xs6Zk8N
 41768,12787 FLEXCOLOR SRL,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 23458,Remitido,F,PPA1548TE,0,0,14/07/2025,EXPRESO BRIO SRL,471115,47.2%,885.60,T,3Jc0Cw5E
@@ -350,6 +347,8 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 41781,6467 INDUSTRIAS JUAN F SECCO S.A.,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 23469,Remitido,F,0272/003,0,0,14/07/2025,RICARDO PIERONI,471585,52.6%,383.70,T,8Ul8Kh6G
 41544,9400536 MILKAUT SA,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 23483,Remitido,F,PPHR15048XT,0,0,15/07/2025,RICARDO PIERONI,456574,44.0%,2812.92,T,8Ny2Or7G
 41582,1029 DREAN SA,Ejecución de la orden pendiente,Todo Aprobado, ,,F,MTP548B,2010,6,15/07/2025,EXPRESO CARGO SA,459092,37.7%,3850.56,,6Ng7Hp1X
+41708,814 OBLAK HNOS SACIFI,Facturación pendiente,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 23490,Remitido,F,MUESTRA ESPECIAL,0,0,15/07/2025,EXPRESO CARGO SA,467423,100.0%,.00,F,1Hy0Vd3I
+41708,814 OBLAK HNOS SACIFI,Facturación pendiente,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 23490,Remitido,F,MUESTRA ESPECIAL,0,0,15/07/2025,EXPRESO CARGO SA,467423,100.0%,.00,F,1Hy0Vd3I
 41714,9400609 PAN S COMPANY SA,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 23482,Remitido,F,PPHR15048XT,0,0,15/07/2025,EXPRESO CARGO SA,467663,29.3%,2110.38,T,9Qb8Fy5U
 41728,1067 DIPAC SA,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 23479,Remitido,F,PPAR524T,0,0,15/07/2025,RICARDO PIERONI,468447,99.9%,432.00,T,9Tj7Li2O
 41734,178 DROGUERIA DEL SUD S.A.,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 23484,Remitido,F,PPAR1048T,0,0,15/07/2025,EXPRESO LANCIONI,468965,32.9%,473.04,T,5Mx5Rs0E
@@ -358,6 +357,7 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 41740,178 DROGUERIA DEL SUD S.A.,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 23481,Remitido,F,PPAR1048T,0,0,15/07/2025,EXPRESO LANCIONI,469096,32.9%,289.08,T,5Mx5Rs0E
 41745,2410 LUIS SOLIMENO E HIJOS SA,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 23487,Remitido,F,H11/48,0,0,15/07/2025,TRANSPORTE TOMASSINI,469352,45.2%,500.00,T,3Gh0Ze9O
 41745,2410 LUIS SOLIMENO E HIJOS SA,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 23487,Remitido,F,H11/72,0,0,15/07/2025,TRANSPORTE TOMASSINI,469352,43.9%,700.00,T,3Gh0Ze9O
+41766,4095 REFINERIA DEL CENTRO SA,Facturación pendiente/parcialmente ejecutada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 23489,Remitido,F,PPAR10072T,0,0,15/07/2025,EXPRESO SANTA ROSA,470819,33.5%,1476.00,F,1Bj3Wa5S
 41767,674 KRETZ SA,Parcialmente ejecutada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 23488,Remitido,F,0674/002,0,21,15/07/2025,EXPRESO BRIO SRL,470997,36.7%,535.86,T,0Io3Fg7R
 41767,674 KRETZ SA,Parcialmente ejecutada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 23488,Remitido,F,0674/003,0,0,15/07/2025,EXPRESO BRIO SRL,470997,31.7%,419.40,T,0Io3Fg7R
 41767,674 KRETZ SA,Parcialmente ejecutada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 23488,Remitido,F,MF525T,0,0,15/07/2025,EXPRESO BRIO SRL,470997,88.2%,193.80,T,0Io3Fg7R
