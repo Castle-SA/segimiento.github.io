@@ -28,8 +28,8 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 41570,4018 LHERITIER ARGENTINA SA,Facturada,Todo Aprobado,Ejecución de pedido de artículo 23264,Enviado,F,PPAR1048T,0,0,18/06/2025,EXPRESO LANCIONI,458599,38.8%,.00,T,0Ef7Np9L
 41577,9400507 ALIMENTARIA MONTE CRISTO SRL,Facturada,Todo Aprobado,Ejecución de pedido de artículo 23267,Enviado,F,CAS-PPAR10048T047,0,0,18/06/2025,EXPRESO LANCIONI,458824,46.6%,.00,T,8Gq3Xq7U
 41578,874 LILIANA SRL,Facturada,Todo Aprobado,Ejecución de pedido de artículo 23272,Enviado,F,MTS524B,0,0,18/06/2025,FELICI JORGE ARIEL,458931,26.1%,.00,T,9Mb1Ks4W
-41585,21 FUNDEMAP S.A.,Parcialmente ejecutada,Todo Aprobado,Ejecución de pedido de artículo 23266,Enviado,T,P579,0,58,18/06/2025,RICARDO PIERONI,459411,57.6%,406.00,T,0Me0Dg4G
 41585,21 FUNDEMAP S.A.,Parcialmente ejecutada,Todo Aprobado,Factura de venta 37582,Pagado por completo,T,P579,0,58,18/06/2025,RICARDO PIERONI,459411,57.6%,406.00,,0Me0Dg4G
+41585,21 FUNDEMAP S.A.,Parcialmente ejecutada,Todo Aprobado,Ejecución de pedido de artículo 23266,Enviado,T,P579,0,58,18/06/2025,RICARDO PIERONI,459411,57.6%,406.00,T,0Me0Dg4G
 41586,178 DROGUERIA DEL SUD S.A.,Facturada,Todo Aprobado,Ejecución de pedido de artículo 23265,Enviado,F,PPAR1048T,0,0,18/06/2025,TRANSPORTE RAOSA SRL,459515,32.9%,.00,T,5Mx5Rs0E
 41591,279 HONDA MOTOR DE ARGENTINA S.A.,Facturada,Todo Aprobado,Ejecución de pedido de artículo 23269,Enviado,F,04169-00056-93,0,0,18/06/2025,EXPRESO CARGO SA,459857,46.9%,.00,T,1Rf6Ez5C
 41219,9400154 SEBASTIAN SANCHEZ,Facturada,Todo Aprobado,Ejecución de pedido de artículo 23282,Enviado,F,PPHR15048XT,0,0,19/06/2025,RETIRAN,438002,100.0%,.00,T,7Xt9Gc1E
@@ -187,8 +187,8 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 41680,655 SWIFT SA ARGENTINA,Parcialmente ejecutada,Todo Aprobado,Ejecución de pedido de artículo 23366,Enviado,F,CAS-PPAR10048T047,0,0,30/06/2025,FELICI JORGE ARIEL,465680,53.7%,.00,T,8Wb3Xi2L
 41682,6098 MARCELO RAUL MARTINEZ,Facturada,Todo Aprobado,Ejecución de pedido de artículo 23371,Enviado,F,PPA1548TE,0,0,30/06/2025,RETIRAN,465888,63.5%,.00,T,5Tb3Jl5E
 41683,5087 SARMIENTO HECTOR DAVID,Facturada,Todo Aprobado,Ejecución de pedido de artículo 23370,Enviado,F,CAS-PPA1048T040,0,0,30/06/2025,EXPRESO CARGO SA,465900,52.2%,.00,T,0Ko6Bl1F
-41684,1318 ALIBUE S.A.,Facturada,Todo Aprobado,Ejecución de pedido de artículo 23394,Enviado,F,CAS-PPAR1048T043,0,0,01/07/2025,EXPRESO CARGO SA,466032,44.3%,.00,T,1Sn9Yn7I
 41684,1318 ALIBUE S.A.,Facturada,Todo Aprobado,Ejecución de pedido de artículo 23396,Enviado,F,CAS-PPAR1048T043,0,0,01/07/2025,EXPRESO CARGO SA,466032,44.3%,.00,T,1Sn9Yn7I
+41684,1318 ALIBUE S.A.,Facturada,Todo Aprobado,Ejecución de pedido de artículo 23394,Enviado,F,CAS-PPAR1048T043,0,0,01/07/2025,EXPRESO CARGO SA,466032,44.3%,.00,T,1Sn9Yn7I
 41684,1318 ALIBUE S.A.,Facturada,Todo Aprobado,Ejecución de pedido de artículo 23395,Enviado,F,CAS-PPAR1048T043,0,0,01/07/2025,EXPRESO CARGO SA,466032,44.3%,.00,T,1Sn9Yn7I
 41254,5019 GRANJA TRES ARROYOS SACAFEI,Facturada,Todo Aprobado,Ejecución de pedido de artículo 23401,Enviado,T,5019/003,0,0,02/07/2025,EXPRESO CARGO SA,439824,61.8%,.00,T,0Ql9Gi1V
 41254,5019 GRANJA TRES ARROYOS SACAFEI,Facturada,Todo Aprobado,Ejecución de pedido de artículo 23401,Enviado,T,5019/002,0,0,02/07/2025,EXPRESO CARGO SA,439824,58.8%,-17.76,T,0Ql9Gi1V
@@ -273,7 +273,7 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 41580,1029 DREAN SA,Parcialmente ejecutada,Todo Aprobado,Factura de venta 37756,Abierta,F,MTP548B,72,648,11/07/2025,EXPRESO CARGO SA,459089,37.7%,1375.20,,6Ng7Hp1X
 41581,1029 DREAN SA,Facturada,Todo Aprobado,Ejecución de pedido de artículo 23455,Enviado,F,MTP548B,0,0,11/07/2025,EXPRESO CARGO SA,459090,37.7%,.00,T,6Ng7Hp1X
 41620,12877 BRIKET SA,Facturada,Todo Aprobado,Ejecución de pedido de artículo 23448,Enviado,F,MTP548B,0,0,11/07/2025,RICARDO PIERONI,461418,40.5%,.00,T,6Rp2Ce7I
-41677,9400774 CORREO OFICIAL DE LA REPUBLICA ARGENTINA SA,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Liberada,F,9400774/001,0,8000,11/07/2025,EXPRESO CARGO SA,465543,13.4%,7200.00,,8Iv9Nk5M
+41677,9400774 CORREO OFICIAL DE LA REPUBLICA ARGENTINA SA,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Ensamblada,F,9400774/001,8000,0,11/07/2025,EXPRESO CARGO SA,465543,13.4%,7200.00,,8Iv9Nk5M
 41689,9402059 BUENA PROA SA,Facturada,Todo Aprobado,Ejecución de pedido de artículo 23445,Enviado,T,CAS-PPAR1048T043,0,0,11/07/2025,TRANSPORTE TOMASSINI,466798,100.0%,.00,T,5Ym6Nh1E
 41743,9402056 BUSTAMANTE CRISTIAN JAVIER (PLAZA FERRETERA),Facturada,Todo Aprobado,Ejecución de pedido de artículo 23447,Enviado,F,MTS518B,0,0,11/07/2025,RETIRAN,469118,39.0%,.00,T,1Kc0Xm1P
 41743,9402056 BUSTAMANTE CRISTIAN JAVIER (PLAZA FERRETERA),Facturada,Todo Aprobado,Ejecución de pedido de artículo 23447,Enviado,F,MTS548B,0,0,11/07/2025,RETIRAN,469118,32.9%,.00,T,1Kc0Xm1P
@@ -295,7 +295,7 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 41693,9401929 PETROPACK S.A.,Facturada,Todo Aprobado,Ejecución de pedido de artículo 23477,Enviado,F,PPAR1024T,0,0,14/07/2025,TRANSPORTE MOSTTO,466928,50.0%,.00,T,8Ou2Yz9L
 41693,9401929 PETROPACK S.A.,Facturada,Todo Aprobado,Ejecución de pedido de artículo 23477,Enviado,F,PPAR1048M,0,0,14/07/2025,TRANSPORTE MOSTTO,466928,38.7%,.00,T,8Ou2Yz9L
 41693,9401929 PETROPACK S.A.,Facturada,Todo Aprobado,Ejecución de pedido de artículo 23477,Enviado,F,PPAR100144T,0,0,14/07/2025,TRANSPORTE MOSTTO,466928,42.0%,.00,T,8Ou2Yz9L
-41709,9402347 GL SA,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Liberada,F,2492/001,0,288,14/07/2025,EXPRESO BRIO SRL,467438,34.2%,339.84,,
+41709,9402347 GL SA,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Ensamblada,F,2492/001,288,0,14/07/2025,EXPRESO BRIO SRL,467438,34.2%,339.84,,
 41712,6142 PAPELERA DEL SUR SRL,Facturada,Todo Aprobado,Ejecución de pedido de artículo 23470,Enviado,T,MTS518B,0,0,14/07/2025,RICARDO PIERONI,467558,41.3%,.00,T,9Rc3Gf4C
 41712,6142 PAPELERA DEL SUR SRL,Facturada,Todo Aprobado,Ejecución de pedido de artículo 23470,Enviado,T,MTS524B,0,0,14/07/2025,RICARDO PIERONI,467558,27.1%,.00,T,9Rc3Gf4C
 41712,6142 PAPELERA DEL SUR SRL,Facturada,Todo Aprobado,Ejecución de pedido de artículo 23470,Enviado,T,MTS548B,0,0,14/07/2025,RICARDO PIERONI,467558,29.5%,.00,T,9Rc3Gf4C
@@ -371,13 +371,14 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 41204,5019 GRANJA TRES ARROYOS SACAFEI,Facturada,Todo Aprobado,Ejecución de pedido de artículo 23513,Enviado,T,5019/004,0,0,17/07/2025,EXPRESO CARGO SA,437201,71.8%,.00,T,0Ql9Gi1V
 41204,5019 GRANJA TRES ARROYOS SACAFEI,Facturada,Todo Aprobado,Ejecución de pedido de artículo 23513,Enviado,T,5019/005,0,0,17/07/2025,EXPRESO CARGO SA,437201,71.9%,.00,T,0Ql9Gi1V
 41256,5019 GRANJA TRES ARROYOS SACAFEI,Facturada,Todo Aprobado,Ejecución de pedido de artículo 23514,Enviado,F,5019/005,0,0,17/07/2025,EXPRESO CARGO SA,439826,61.5%,.00,T,0Ql9Gi1V
-41371,9402601 MILENIO SRL,Facturación pendiente,Todo Aprobado,Ejecución de pedido de artículo 23516,Enviado,F,PPAR524T,0,0,17/07/2025,EXPRESO LUJAN DEL CUYO SA,447289,100.0%,.00,F,
-41371,9402601 MILENIO SRL,Facturación pendiente,Todo Aprobado,Ejecución de pedido de artículo 23516,Enviado,F,PPAR548T,0,0,17/07/2025,EXPRESO LUJAN DEL CUYO SA,447289,100.0%,.00,F,
+41371,9402601 MILENIO SRL,Facturada,Todo Aprobado,Ejecución de pedido de artículo 23516,Enviado,F,PPAR524T,0,0,17/07/2025,EXPRESO LUJAN DEL CUYO SA,447289,100.0%,.00,T,
+41371,9402601 MILENIO SRL,Facturada,Todo Aprobado,Ejecución de pedido de artículo 23516,Enviado,F,PPAR548T,0,0,17/07/2025,EXPRESO LUJAN DEL CUYO SA,447289,100.0%,.00,T,
 41621,12877 BRIKET SA,Ejecución de la orden pendiente,Todo Aprobado, ,,F,MTP548B,0,612,17/07/2025,FELICI JORGE ARIEL,461531,40.5%,1224.00,,6Rp2Ce7I
 41761,1029 DREAN SA,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Ensamblada,F,07063-00009-24,360,0,17/07/2025,EXPRESO CARGO SA,470693,48.1%,7740.00,,6Ng7Hp1X
 41788,260 SUCESION DE BARCIA CLAUDIO RODRIGO,Facturada,Todo Aprobado,Ejecución de pedido de artículo 23515,Enviado,F,60630-00002-00,0,0,17/07/2025,RICARDO PIERONI,472325,49.9%,.00,T,6Ib6Fj6R
 41788,260 SUCESION DE BARCIA CLAUDIO RODRIGO,Facturada,Todo Aprobado,Ejecución de pedido de artículo 23515,Enviado,F,MTS536B,0,0,17/07/2025,RICARDO PIERONI,472325,38.0%,.00,T,6Ib6Fj6R
-41790,3922 EMPRECO ARGENTINA DE NICOLAS C DELENIKAS,Facturación pendiente,Todo Aprobado,Ejecución de pedido de artículo 23517,Enviado,F,04968-00008-00,0,0,17/07/2025,EXPRESO CARGO SA,472443,45.1%,.00,F,8Nu5Gj8P
+41790,3922 EMPRECO ARGENTINA DE NICOLAS C DELENIKAS,Facturada,Todo Aprobado,Ejecución de pedido de artículo 23517,Enviado,F,04968-00008-00,0,0,17/07/2025,EXPRESO CARGO SA,472443,45.1%,.00,T,8Nu5Gj8P
+41805,3891 CRAMSA SA,Ejecución de la orden pendiente,Todo Aprobado, ,,F,VCI410,38,0,17/07/2025,TRANSPORTE TOMASSINI,473735,69.0%,380.00,,4Xf3Fu0P
 41758,04379 FRANCHRIS2010 SRL,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Liberada,F,4379/001,0,360,18/07/2025,TRANSPORTE TOMASSINI,470414,24.2%,738.00,,
 41775,3089 ARNEG ARGENTINA S.A.,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Ensamblada,F,3089/022,3000,0,18/07/2025,RICARDO PIERONI,471452,78.6%,123.30,,7Rx7Ub2H
 41775,3089 ARNEG ARGENTINA S.A.,Ejecución de la orden pendiente,Todo Aprobado, ,,F,MTS548B,384,120,18/07/2025,RICARDO PIERONI,471452,41.7%,1134.00,,7Rx7Ub2H
