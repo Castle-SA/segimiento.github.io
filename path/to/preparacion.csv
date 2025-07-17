@@ -188,10 +188,10 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 41682,6098 MARCELO RAUL MARTINEZ,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 23371,Remitido,F,PPA1548TE,0,0,30/06/2025,RETIRAN,465888,63.5%,72.00,T,5Tb3Jl5E
 41683,5087 SARMIENTO HECTOR DAVID,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 23370,Remitido,F,CAS-PPA1048T040,0,0,30/06/2025,EXPRESO CARGO SA,465900,52.2%,351.00,T,0Ko6Bl1F
 41684,1318 ALIBUE S.A.,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 23395,Remitido,F,CAS-PPAR1048T043,0,0,01/07/2025,EXPRESO CARGO SA,466032,44.3%,61.20,T,1Sn9Yn7I
-41684,1318 ALIBUE S.A.,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 23394,Remitido,F,CAS-PPAR1048T043,0,0,01/07/2025,EXPRESO CARGO SA,466032,44.3%,153.00,T,1Sn9Yn7I
 41684,1318 ALIBUE S.A.,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 23396,Remitido,F,CAS-PPAR1048T043,0,0,01/07/2025,EXPRESO CARGO SA,466032,44.3%,91.80,T,1Sn9Yn7I
-41254,5019 GRANJA TRES ARROYOS SACAFEI,Facturación pendiente,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 23401,Remitido,T,5019/003,0,0,02/07/2025,EXPRESO CARGO SA,439824,61.8%,1420.80,T,0Ql9Gi1V
-41254,5019 GRANJA TRES ARROYOS SACAFEI,Facturación pendiente,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 23401,Remitido,T,5019/002,0,0,02/07/2025,EXPRESO CARGO SA,439824,58.8%,372.96,T,0Ql9Gi1V
+41684,1318 ALIBUE S.A.,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 23394,Remitido,F,CAS-PPAR1048T043,0,0,01/07/2025,EXPRESO CARGO SA,466032,44.3%,153.00,T,1Sn9Yn7I
+41254,5019 GRANJA TRES ARROYOS SACAFEI,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 23401,Remitido,T,5019/003,0,0,02/07/2025,EXPRESO CARGO SA,439824,61.8%,1420.80,T,0Ql9Gi1V
+41254,5019 GRANJA TRES ARROYOS SACAFEI,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 23401,Remitido,T,5019/002,0,0,02/07/2025,EXPRESO CARGO SA,439824,58.8%,372.96,T,0Ql9Gi1V
 41255,5019 GRANJA TRES ARROYOS SACAFEI,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 23400,Remitido,T,5019/003,0,0,02/07/2025,EXPRESO CARGO SA,439825,61.8%,1776.00,T,0Ql9Gi1V
 41255,5019 GRANJA TRES ARROYOS SACAFEI,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 23400,Remitido,T,5019/002,0,0,02/07/2025,EXPRESO CARGO SA,439825,58.8%,532.80,T,0Ql9Gi1V
 41356,9400154 SEBASTIAN SANCHEZ,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 23397,Remitido,F,PPAR1048T,0,0,02/07/2025,RETIRAN,446544,100.0%,.00,T,7Xt9Gc1E
@@ -348,16 +348,14 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 41767,674 KRETZ SA,Parcialmente ejecutada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 23488,Remitido,F,PPAR1072T,0,0,15/07/2025,EXPRESO BRIO SRL,470997,43.3%,152.40,T,0Io3Fg7R
 41782,6220 INDUSTRIAL DECKERT S.R.L.,Ejecución de la orden pendiente,Todo Aprobado, ,,F,MTS524B,648,0,15/07/2025,EXPRESO CARGO SA,471588,32.1%,686.88,,7Gs5Gq1V
 41785,3086 MULTIORIGINAL PARTS SA,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 23486,Remitido,F,PPAR1048T,0,0,15/07/2025,TRANSPORTE TOMASSINI,472019,43.8%,576.00,T,1Fr4Ch9I
-41787,279 HONDA MOTOR DE ARGENTINA S.A.,Parcialmente ejecutada,Todo Aprobado,Factura de venta 37804,Abierta,T,04169-00058-93,0,10,15/07/2025,EXPRESO CARGO SA,472200,41.3%,208.70,,1Rf6Ez5C
 41787,279 HONDA MOTOR DE ARGENTINA S.A.,Parcialmente ejecutada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 23494,Remitido,T,04169-00058-93,0,10,15/07/2025,EXPRESO CARGO SA,472200,41.3%,834.80,T,1Rf6Ez5C
+41787,279 HONDA MOTOR DE ARGENTINA S.A.,Parcialmente ejecutada,Todo Aprobado,Factura de venta 37804,Abierta,T,04169-00058-93,0,10,15/07/2025,EXPRESO CARGO SA,472200,41.3%,208.70,,1Rf6Ez5C
 41798,9402909 EL ALMACEN SRL,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 23498,Remitido,F,CAS-PPAR1048T043,0,0,15/07/2025,RETIRAN,473522,47.0%,192.24,T,
 41799,9402909 EL ALMACEN SRL,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 23499,Remitido,F,CAS-PPAR1048T043,0,0,15/07/2025,RETIRAN,473523,47.0%,192.24,T,
-41254,5019 GRANJA TRES ARROYOS SACAFEI,Facturación pendiente,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 23512,Remitido,T,5019/003,0,0,16/07/2025,EXPRESO CARGO SA,439824,61.8%,355.20,F,0Ql9Gi1V
+41254,5019 GRANJA TRES ARROYOS SACAFEI,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 23512,Remitido,T,5019/003,0,0,16/07/2025,EXPRESO CARGO SA,439824,61.8%,355.20,T,0Ql9Gi1V
 41640,132 MAHLE VALVULAS DE ARGENTINA SA,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 23503,Remitido,F,3351/003,0,0,16/07/2025,EXPRESO SANTA ROSA,462333,78.1%,3000.00,T,6Ls2Pd3Q
 41744,4389 FOOD ARTS SA,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 23507,Remitido,F,PPAR1048T,0,0,16/07/2025,TRANSPORTE TOMASSINI,469251,36.4%,2772.00,T,3Px3Tl3X
 41776,15 IND. JOHN DEERE ARGENTINA S.A.,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 23506,Remitido,F,CH5235,0,0,16/07/2025,FELICI JORGE ARIEL,471453,39.1%,17.50,T,8Ky5Hq9D
-41788,260 SUCESION DE BARCIA CLAUDIO RODRIGO,Ejecución de la orden pendiente,Todo Aprobado, ,,F,60630-00002-00,36,0,16/07/2025,RICARDO PIERONI,472325,49.9%,396.00,,6Ib6Fj6R
-41788,260 SUCESION DE BARCIA CLAUDIO RODRIGO,Ejecución de la orden pendiente,Todo Aprobado, ,,F,MTS536B,288,0,16/07/2025,RICARDO PIERONI,472325,38.0%,432.00,,6Ib6Fj6R
 41789,3363 GUALTIERI HNOS SA,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 23502,Remitido,F,PPAR1048T,0,0,16/07/2025,EXPRESO LANCIONI,472442,41.6%,2494.80,T,1Sz3Yg2S
 41789,3363 GUALTIERI HNOS SA,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 23502,Remitido,F,PPAR15048T,0,0,16/07/2025,EXPRESO LANCIONI,472442,49.7%,2475.00,T,1Sz3Yg2S
 41791,2065 CHITARRONI S.A.,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 23505,Remitido,F,PPA1548TE,0,0,16/07/2025,RICARDO PIERONI,472660,63.9%,648.00,T,3Or5Ev6A
@@ -375,7 +373,9 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 41256,5019 GRANJA TRES ARROYOS SACAFEI,Facturación pendiente,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 23514,Remitido,F,5019/005,0,0,17/07/2025,EXPRESO CARGO SA,439826,61.5%,888.80,F,0Ql9Gi1V
 41621,12877 BRIKET SA,Ejecución de la orden pendiente,Todo Aprobado, ,,F,MTP548B,0,612,17/07/2025,FELICI JORGE ARIEL,461531,40.5%,1224.00,,6Rp2Ce7I
 41761,1029 DREAN SA,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Ensamblada,F,07063-00009-24,360,0,17/07/2025,EXPRESO CARGO SA,470693,48.1%,7740.00,,6Ng7Hp1X
-41790,3922 EMPRECO ARGENTINA DE NICOLAS C DELENIKAS,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Liberada,F,04968-00008-00,0,70,17/07/2025,EXPRESO CARGO SA,472443,45.1%,804.30,,8Nu5Gj8P
+41788,260 SUCESION DE BARCIA CLAUDIO RODRIGO,Facturación pendiente,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 23515,Remitido,F,60630-00002-00,0,0,17/07/2025,RICARDO PIERONI,472325,49.9%,396.00,F,6Ib6Fj6R
+41788,260 SUCESION DE BARCIA CLAUDIO RODRIGO,Facturación pendiente,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 23515,Remitido,F,MTS536B,0,0,17/07/2025,RICARDO PIERONI,472325,38.0%,432.00,F,6Ib6Fj6R
+41790,3922 EMPRECO ARGENTINA DE NICOLAS C DELENIKAS,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Ensamblada,F,04968-00008-00,70,0,17/07/2025,EXPRESO CARGO SA,472443,45.1%,804.30,,8Nu5Gj8P
 41758,04379 FRANCHRIS2010 SRL,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Liberada,F,4379/001,0,360,18/07/2025,TRANSPORTE TOMASSINI,470414,24.2%,738.00,,
 41775,3089 ARNEG ARGENTINA S.A.,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Ensamblada,F,3089/022,3000,0,18/07/2025,RICARDO PIERONI,471452,78.6%,123.30,,7Rx7Ub2H
 41775,3089 ARNEG ARGENTINA S.A.,Ejecución de la orden pendiente,Todo Aprobado, ,,F,MTS548B,384,120,18/07/2025,RICARDO PIERONI,471452,41.7%,1134.00,,7Rx7Ub2H
@@ -417,7 +417,6 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 41283,583 TERRAGENE SA,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Liberada,F,04965-00014-00,0,150,11/12/2025,FELICI JORGE ARIEL,441960,42.1%,7500.00,,5Pl6Eg8H
 41099,102 VOLKSWAGEN ARGENTINA S.A.,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Liberada,T,0103/001,0,200,,EXPRESO CARGO SA,431539,37.8%,363.243,,7Kh2Zf0E
 41107,5094 GOLOSINAS PALMESANO,Parcialmente ejecutada,Todo Aprobado,Orden de trabajo ,En curso,F,5094/001,0,1224,,EXPRESO SANTA ROSA,432335,41.7%,1566.72,,9Bm7Yz1H
-41254,5019 GRANJA TRES ARROYOS SACAFEI,Facturación pendiente,Todo Aprobado,Orden de trabajo ,Cerrada,T,5019/002,0,0,,EXPRESO CARGO SA,439824,58.8%,-17.76,,0Ql9Gi1V
 41279,3493 HASUMAC SA,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Liberada,F,3493/002,0,360,,EXPRESO CARGO SA,441758,44.4%,424.80,,0Do6Gs7X
 41337,920 DMED S.R.L.,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Liberada,F,0920/001,0,720,,RICARDO PIERONI,445855,29.8%,1440.00,,8Ll4Gg3U
 41345,3490 ALTO IMPACTO SRL (VERTIGO),Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Liberada,F,3490/001,0,400,,RICARDO PIERONI,446061,32.9%,480.00,,1Wa0Iu6X
