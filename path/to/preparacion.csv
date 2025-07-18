@@ -1,7 +1,7 @@
 Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. Especial,Pedido,Artículo,Cantidad,Faltante,Fecha,Transportista,ID,GP,,,
 41043,9402290 BI MERCANTIL SAS,Parcialmente ejecutada,Todo Aprobado,Orden de trabajo ,Ensamblada,F,PPHR1216B,240,0,16/04/2025,TRANSPORTE MOSTTO,428732,54.1%,288.00,,6Cx3Az0M
 41293,3108 E A BALBI E HIJOS SA,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Liberada,F,3108/001,0,2880,30/05/2025,EXPRESO CARGO SA,442541,47.5%,3600.00,,1Hh7Gx0G
-41381,3089 ARNEG ARGENTINA S.A.,Parcialmente ejecutada,Todo Aprobado,Orden de trabajo ,Ensamblada,F,3089/067,3000,0,30/05/2025,EXPRESO BRIO SRL,448136,96.1%,498.00,,7Rx7Ub2H
+41381,3089 ARNEG ARGENTINA S.A.,Facturación pendiente,Todo Aprobado,Orden de trabajo ,Ensamblada,F,3089/067,0,0,30/05/2025,EXPRESO BRIO SRL,448136,96.1%,-166.00,,7Rx7Ub2H
 41585,21 FUNDEMAP S.A.,Parcialmente ejecutada,Todo Aprobado,Factura de venta 37582,Pagado por completo,T,P579,0,58,18/06/2025,RICARDO PIERONI,459411,57.6%,406.00,,0Me0Dg4G
 41219,9400154 SEBASTIAN SANCHEZ,Facturada,Todo Aprobado,Ejecución de pedido de artículo 23282,Enviado,F,PPHR15048XT,0,0,19/06/2025,RETIRAN,438002,100.0%,.00,T,7Xt9Gc1E
 41219,9400154 SEBASTIAN SANCHEZ,Facturada,Todo Aprobado,Ejecución de pedido de artículo 23282,Enviado,F,PPAR1048T,0,0,19/06/2025,RETIRAN,438002,100.0%,.00,T,7Xt9Gc1E
@@ -350,11 +350,12 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 41810,9402910 HP FELIPE TRANSPORTES SRL,Facturada,Todo Aprobado,Ejecución de pedido de artículo 23521,Enviado,F,MTS548B,0,0,17/07/2025,EXPRESO CARGO SA,473950,29.5%,.00,T,
 41810,9402910 HP FELIPE TRANSPORTES SRL,Facturada,Todo Aprobado,Ejecución de pedido de artículo 23521,Enviado,F,PPAR1048T,0,0,17/07/2025,EXPRESO CARGO SA,473950,41.6%,.00,T,
 41815,9402872 HARTMANN SA,Ejecución de la orden pendiente,Todo Aprobado, ,,F,MUESTRA ESPECIAL,1,0,17/07/2025,RETIRAN,474400,100.0%,.00,,
+41381,3089 ARNEG ARGENTINA S.A.,Facturación pendiente,Todo Aprobado,Ejecución de pedido de artículo 23532,Enviado,F,3089/067,0,0,18/07/2025,EXPRESO BRIO SRL,448136,96.1%,-166.00,F,7Rx7Ub2H
 41704,3089 ARNEG ARGENTINA S.A.,Facturación pendiente,Todo Aprobado,Ejecución de pedido de artículo 23530,Enviado,F,3089/040,0,0,18/07/2025,FELICI JORGE ARIEL,467261,96.5%,.00,F,7Rx7Ub2H
 41758,4379 FRANCHRIS2010 SRL,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Liberada,F,4379/001,0,360,18/07/2025,TRANSPORTE TOMASSINI,470414,24.2%,738.00,,
-41775,3089 ARNEG ARGENTINA S.A.,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Ensamblada,F,3089/022,3000,0,18/07/2025,RICARDO PIERONI,471452,78.6%,123.30,,7Rx7Ub2H
-41775,3089 ARNEG ARGENTINA S.A.,Ejecución de la orden pendiente,Todo Aprobado, ,,F,MTS548B,0,504,18/07/2025,RICARDO PIERONI,471452,41.7%,1134.00,,7Rx7Ub2H
-41775,3089 ARNEG ARGENTINA S.A.,Ejecución de la orden pendiente,Todo Aprobado, ,,F,PER3040U,150,0,18/07/2025,RICARDO PIERONI,471452,67.7%,300.00,,7Rx7Ub2H
+41775,3089 ARNEG ARGENTINA S.A.,Facturación pendiente,Todo Aprobado,Ejecución de pedido de artículo 23531,Enviado,F,3089/022,0,0,18/07/2025,RICARDO PIERONI,471452,78.6%,.00,F,7Rx7Ub2H
+41775,3089 ARNEG ARGENTINA S.A.,Facturación pendiente,Todo Aprobado,Ejecución de pedido de artículo 23531,Enviado,F,MTS548B,0,0,18/07/2025,RICARDO PIERONI,471452,41.7%,.00,F,7Rx7Ub2H
+41775,3089 ARNEG ARGENTINA S.A.,Facturación pendiente,Todo Aprobado,Ejecución de pedido de artículo 23531,Enviado,F,PER3040U,0,0,18/07/2025,RICARDO PIERONI,471452,67.7%,.00,F,7Rx7Ub2H
 41783,9400962 CRYSTAL-ICE SRL,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Liberada,F,CAS-PPAR1048T040,0,540,18/07/2025,RICARDO PIERONI,471799,43.7%,324.00,,4Is2Rn8E
 41783,9400962 CRYSTAL-ICE SRL,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Liberada,F,CAS-PPA1048T040,0,7200,18/07/2025,RICARDO PIERONI,471799,43.8%,3960.00,,4Is2Rn8E
 41783,9400962 CRYSTAL-ICE SRL,Ejecución de la orden pendiente,Todo Aprobado, ,,F,PPA1548TE,1.080,0,18/07/2025,RICARDO PIERONI,471799,42.5%,1220.40,,4Is2Rn8E
@@ -378,7 +379,7 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 41690,2638 QUE RICO SA,Ejecución de la orden pendiente,Todo Aprobado, ,,F,PPAR1048T,360,0,28/07/2025,EXPRESO CARGO SA,466805,40.2%,295.20,,0Sl1Br5D
 41754,9400536 MILKAUT SA,Ejecución de la orden pendiente,Todo Aprobado, ,,F,PPHR15048XT,216,0,01/08/2025,RICARDO PIERONI,469952,30.2%,4469.04,,8Ny2Or7G
 41813,3046 ALTA ROTACION SRL,Ejecución de la orden pendiente,Todo Aprobado, ,,F,PPA1548TE,720,0,01/08/2025,EXPRESO CARGO SA,474189,47.2%,885.60,,1Md0Cx2B
-41635,3051 FRIMETAL S.A.,Ejecución de la orden pendiente,Todo Aprobado, ,,F,MTS548B,1692,324,05/08/2025,FELICI JORGE ARIEL,462329,31.0%,4.117.063,,3Dw0Uk2K
+41635,3051 FRIMETAL S.A.,Ejecución de la orden pendiente,Todo Aprobado, ,,F,MTS548B,1188,828,05/08/2025,FELICI JORGE ARIEL,462329,31.0%,4.117.063,,3Dw0Uk2K
 41817,655 SWIFT SA ARGENTINA,Ejecución de la orden pendiente,Todo Aprobado, ,,F,PPAR1072T,540,0,05/08/2025,TRANSPORTE CRUZ DEL SUR SA,474818,46.7%,729.00,,8Wb3Xi2L
 41808,4872 PAMPA GLOBAL TRADE S.A,Ejecución de la orden pendiente,Todo Aprobado, ,,F,PPAR15048T,48,0,06/08/2025,RICARDO PIERONI,473791,59.4%,816.00,,4Rs4Vh2H
 41716,5019 GRANJA TRES ARROYOS SACAFEI,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Liberada,F,5019/005,0,40,11/08/2025,EXPRESO CARGO SA,467834,58.0%,880.00,,0Ql9Gi1V
