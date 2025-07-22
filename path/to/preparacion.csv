@@ -135,9 +135,9 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 41680,655 SWIFT SA ARGENTINA,Facturada,Todo Aprobado,Ejecución de pedido de artículo 23366,Enviado,F,CAS-PPAR10048T047,0,0,30/06/2025,FELICI JORGE ARIEL,465680,53.7%,.00,T,8Wb3Xi2L
 41682,6098 MARCELO RAUL MARTINEZ,Facturada,Todo Aprobado,Ejecución de pedido de artículo 23371,Enviado,F,PPA1548TE,0,0,30/06/2025,RETIRAN,465888,63.5%,.00,T,5Tb3Jl5E
 41683,5087 SARMIENTO HECTOR DAVID,Facturada,Todo Aprobado,Ejecución de pedido de artículo 23370,Enviado,F,CAS-PPA1048T040,0,0,30/06/2025,EXPRESO CARGO SA,465900,52.2%,.00,T,0Ko6Bl1F
+41684,1318 ALIBUE S.A.,Facturada,Todo Aprobado,Ejecución de pedido de artículo 23395,Enviado,F,CAS-PPAR1048T043,0,0,01/07/2025,EXPRESO CARGO SA,466032,44.3%,.00,T,1Sn9Yn7I
 41684,1318 ALIBUE S.A.,Facturada,Todo Aprobado,Ejecución de pedido de artículo 23396,Enviado,F,CAS-PPAR1048T043,0,0,01/07/2025,EXPRESO CARGO SA,466032,44.3%,.00,T,1Sn9Yn7I
 41684,1318 ALIBUE S.A.,Facturada,Todo Aprobado,Ejecución de pedido de artículo 23394,Enviado,F,CAS-PPAR1048T043,0,0,01/07/2025,EXPRESO CARGO SA,466032,44.3%,.00,T,1Sn9Yn7I
-41684,1318 ALIBUE S.A.,Facturada,Todo Aprobado,Ejecución de pedido de artículo 23395,Enviado,F,CAS-PPAR1048T043,0,0,01/07/2025,EXPRESO CARGO SA,466032,44.3%,.00,T,1Sn9Yn7I
 41254,5019 GRANJA TRES ARROYOS SACAFEI,Facturada,Todo Aprobado,Ejecución de pedido de artículo 23401,Enviado,T,5019/003,0,0,02/07/2025,EXPRESO CARGO SA,439824,61.8%,.00,T,0Ql9Gi1V
 41254,5019 GRANJA TRES ARROYOS SACAFEI,Facturada,Todo Aprobado,Ejecución de pedido de artículo 23401,Enviado,T,5019/002,0,0,02/07/2025,EXPRESO CARGO SA,439824,58.8%,-17.76,T,0Ql9Gi1V
 41255,5019 GRANJA TRES ARROYOS SACAFEI,Facturada,Todo Aprobado,Ejecución de pedido de artículo 23400,Enviado,T,5019/003,0,0,02/07/2025,EXPRESO CARGO SA,439825,61.8%,.00,T,0Ql9Gi1V
@@ -396,12 +396,12 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 41754,9400536 MILKAUT SA,Ejecución de la orden pendiente,Todo Aprobado, ,,F,PPHR15048XT,216,0,01/08/2025,RICARDO PIERONI,469952,30.2%,4469.04,,8Ny2Or7G
 41813,3046 ALTA ROTACION SRL,Ejecución de la orden pendiente,Todo Aprobado, ,,F,PPA1548TE,720,0,01/08/2025,EXPRESO CARGO SA,474189,47.2%,885.60,,1Md0Cx2B
 41826,4674 GIORNO S A (GRUPO VALASTRO),Ejecución de la orden pendiente,Todo Aprobado, ,,F,PPAR1072T,2400,0,01/08/2025,TRANSPORTE TOMASSINI,475434,45.5%,3168.00,,1Jm9Zf6J
-41849,814 OBLAK HNOS SACIFI,Ejecución de la orden pendiente,Todo Aprobado, ,,F,07063-00001-24,0,150,01/08/2025,EXPRESO CARGO SA,476137,29.6%,1222.50,,1Hy0Vd3I
+41849,814 OBLAK HNOS SACIFI,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Liberada,F,07063-00001-24,0,150,01/08/2025,EXPRESO CARGO SA,476137,29.6%,1222.50,,1Hy0Vd3I
 41841,202 FRIGORIFICO DE AVES SOYCHU SA,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Liberada,F,PVC612R,0,255,04/08/2025,EXPRESO CARGO SA,475924,43.9%,293.25,,5Ow8Cg8A
-41841,202 FRIGORIFICO DE AVES SOYCHU SA,Ejecución de la orden pendiente,Todo Aprobado, ,,F,PPHR1216B,0,390,04/08/2025,EXPRESO CARGO SA,475924,45.7%,393.90,,5Ow8Cg8A
+41841,202 FRIGORIFICO DE AVES SOYCHU SA,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Liberada,F,PPHR1216B,0,390,04/08/2025,EXPRESO CARGO SA,475924,45.7%,393.90,,5Ow8Cg8A
 41635,3051 FRIMETAL S.A.,Ejecución de la orden pendiente,Todo Aprobado, ,,F,MTS548B,1152,864,05/08/2025,FELICI JORGE ARIEL,462329,31.0%,4.117.063,,3Dw0Uk2K
 41817,655 SWIFT SA ARGENTINA,Ejecución de la orden pendiente,Todo Aprobado, ,,F,PPAR1072T,540,0,05/08/2025,TRANSPORTE CRUZ DEL SUR SA,474818,46.7%,729.00,,8Wb3Xi2L
-41838,202 FRIGORIFICO DE AVES SOYCHU SA,Ejecución de la orden pendiente,Todo Aprobado, ,,F,PPHR1216B,0,650,05/08/2025,EXPRESO CARGO SA,475918,45.7%,656.50,,5Ow8Cg8A
+41838,202 FRIGORIFICO DE AVES SOYCHU SA,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Liberada,F,PPHR1216B,0,650,05/08/2025,EXPRESO CARGO SA,475918,45.7%,656.50,,5Ow8Cg8A
 41838,202 FRIGORIFICO DE AVES SOYCHU SA,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Liberada,F,PVC612R,0,600,05/08/2025,EXPRESO CARGO SA,475918,43.9%,690.00,,5Ow8Cg8A
 41808,4872 PAMPA GLOBAL TRADE S.A,Ejecución de la orden pendiente,Todo Aprobado, ,,F,PPAR15048T,48,0,06/08/2025,RICARDO PIERONI,473791,59.4%,816.00,,4Rs4Vh2H
 41716,5019 GRANJA TRES ARROYOS SACAFEI,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Liberada,F,5019/005,0,40,11/08/2025,EXPRESO CARGO SA,467834,58.0%,880.00,,0Ql9Gi1V
@@ -419,16 +419,16 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 41832,5019 GRANJA TRES ARROYOS SACAFEI,Ejecución de la orden pendiente,Todo Aprobado, ,,F,5019/003,30,30,20/08/2025,EXPRESO CARGO SA,475783,39.3%,594.00,,0Ql9Gi1V
 41832,5019 GRANJA TRES ARROYOS SACAFEI,Ejecución de la orden pendiente,Todo Aprobado, ,,F,5019/004,24,168,20/08/2025,EXPRESO CARGO SA,475783,36.0%,268.80,,0Ql9Gi1V
 41832,5019 GRANJA TRES ARROYOS SACAFEI,Ejecución de la orden pendiente,Todo Aprobado, ,,F,5019/005,60,0,20/08/2025,EXPRESO CARGO SA,475783,35.5%,840.00,,0Ql9Gi1V
-41839,202 FRIGORIFICO DE AVES SOYCHU SA,Ejecución de la orden pendiente,Todo Aprobado, ,,F,PPHR1216B,0,650,25/08/2025,EXPRESO CARGO SA,475919,45.7%,656.50,,5Ow8Cg8A
+41839,202 FRIGORIFICO DE AVES SOYCHU SA,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Liberada,F,PPHR1216B,0,650,25/08/2025,EXPRESO CARGO SA,475919,45.7%,656.50,,5Ow8Cg8A
 41839,202 FRIGORIFICO DE AVES SOYCHU SA,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Liberada,F,PVC612R,0,600,25/08/2025,EXPRESO CARGO SA,475919,43.9%,690.00,,5Ow8Cg8A
 41842,202 FRIGORIFICO DE AVES SOYCHU SA,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Liberada,F,PVC612R,0,255,25/08/2025,EXPRESO CARGO SA,475926,43.9%,293.25,,5Ow8Cg8A
-41842,202 FRIGORIFICO DE AVES SOYCHU SA,Ejecución de la orden pendiente,Todo Aprobado, ,,F,PPHR1216B,0,390,25/08/2025,EXPRESO CARGO SA,475926,45.7%,393.90,,5Ow8Cg8A
+41842,202 FRIGORIFICO DE AVES SOYCHU SA,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Liberada,F,PPHR1216B,0,390,25/08/2025,EXPRESO CARGO SA,475926,45.7%,393.90,,5Ow8Cg8A
 41811,94010 VISUAR SA,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Liberada,F,1823/002,0,192,03/09/2025,EXPRESO CARGO SA,474182,44.8%,5475.84,,4Gf8Oa0H
 41282,583 TERRAGENE SA,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Liberada,F,04965-00014-00,0,150,11/09/2025,FELICI GERARDO FABIAN,441859,42.1%,7500.00,,5Pl6Eg8H
 41843,202 FRIGORIFICO DE AVES SOYCHU SA,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Liberada,F,PVC612R,0,255,22/09/2025,EXPRESO CARGO SA,475927,43.9%,293.25,,5Ow8Cg8A
-41843,202 FRIGORIFICO DE AVES SOYCHU SA,Ejecución de la orden pendiente,Todo Aprobado, ,,F,PPHR1216B,0,390,22/09/2025,EXPRESO CARGO SA,475927,45.7%,393.90,,5Ow8Cg8A
+41843,202 FRIGORIFICO DE AVES SOYCHU SA,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Liberada,F,PPHR1216B,0,390,22/09/2025,EXPRESO CARGO SA,475927,45.7%,393.90,,5Ow8Cg8A
 41812,94010 VISUAR SA,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Liberada,F,1823/002,0,192,23/09/2025,EXPRESO CARGO SA,474183,44.8%,5475.84,,4Gf8Oa0H
-41840,202 FRIGORIFICO DE AVES SOYCHU SA,Ejecución de la orden pendiente,Todo Aprobado, ,,F,PPHR1216B,0,650,23/09/2025,EXPRESO CARGO SA,475922,45.7%,656.50,,5Ow8Cg8A
+41840,202 FRIGORIFICO DE AVES SOYCHU SA,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Liberada,F,PPHR1216B,0,650,23/09/2025,EXPRESO CARGO SA,475922,45.7%,656.50,,5Ow8Cg8A
 41840,202 FRIGORIFICO DE AVES SOYCHU SA,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Liberada,F,PVC612R,0,600,23/09/2025,EXPRESO CARGO SA,475922,48.4%,750.00,,5Ow8Cg8A
 39934,67 FORD ARGENTINA S.C.A.,Ejecución de la orden pendiente,Todo Aprobado, ,,F,BV002,2502,33198,06/10/2025,ALMAR ROSARIO SRL,346461,57.0%,239904.00,,0Bz8Ix7O
 41283,583 TERRAGENE SA,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Liberada,F,04965-00014-00,0,150,11/12/2025,FELICI JORGE ARIEL,441960,42.1%,7500.00,,5Pl6Eg8H
