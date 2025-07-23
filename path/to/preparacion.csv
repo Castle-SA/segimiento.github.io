@@ -264,8 +264,8 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 41767,674 KRETZ SA,Parcialmente ejecutada,Todo Aprobado,Ejecución de pedido de artículo 23488,Enviado,F,MF525T,0,0,15/07/2025,EXPRESO BRIO SRL,470997,88.2%,.00,T,0Io3Fg7R
 41767,674 KRETZ SA,Parcialmente ejecutada,Todo Aprobado,Ejecución de pedido de artículo 23488,Enviado,F,PPAR1072T,0,0,15/07/2025,EXPRESO BRIO SRL,470997,43.3%,.00,T,0Io3Fg7R
 41785,3086 MULTIORIGINAL PARTS SA,Facturada,Todo Aprobado,Ejecución de pedido de artículo 23486,Enviado,F,PPAR1048T,0,0,15/07/2025,TRANSPORTE TOMASSINI,472019,43.8%,.00,T,1Fr4Ch9I
-41787,279 HONDA MOTOR DE ARGENTINA S.A.,Parcialmente ejecutada,Todo Aprobado,Factura de venta 37804,Abierta,T,04169-00058-93,0,10,15/07/2025,EXPRESO CARGO SA,472200,41.3%,208.70,,1Rf6Ez5C
 41787,279 HONDA MOTOR DE ARGENTINA S.A.,Parcialmente ejecutada,Todo Aprobado,Ejecución de pedido de artículo 23494,Enviado,T,04169-00058-93,0,10,15/07/2025,EXPRESO CARGO SA,472200,41.3%,208.70,T,1Rf6Ez5C
+41787,279 HONDA MOTOR DE ARGENTINA S.A.,Parcialmente ejecutada,Todo Aprobado,Factura de venta 37804,Abierta,T,04169-00058-93,0,10,15/07/2025,EXPRESO CARGO SA,472200,41.3%,208.70,,1Rf6Ez5C
 41798,9402909 EL ALMACEN SRL,Facturada,Todo Aprobado,Ejecución de pedido de artículo 23498,Enviado,F,CAS-PPAR1048T043,0,0,15/07/2025,RETIRAN,473522,47.0%,.00,T,
 41799,9402909 EL ALMACEN SRL,Facturada,Todo Aprobado,Ejecución de pedido de artículo 23499,Enviado,F,CAS-PPAR1048T043,0,0,15/07/2025,RETIRAN,473523,47.0%,.00,T,
 41254,5019 GRANJA TRES ARROYOS SACAFEI,Facturada,Todo Aprobado,Ejecución de pedido de artículo 23512,Enviado,T,5019/003,0,0,16/07/2025,EXPRESO CARGO SA,439824,61.8%,.00,T,0Ql9Gi1V
@@ -433,7 +433,7 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 41283,583 TERRAGENE SA,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Liberada,F,04965-00014-00,0,150,11/12/2025,FELICI JORGE ARIEL,441960,42.1%,7500.00,,5Pl6Eg8H
 41099,102 VOLKSWAGEN ARGENTINA S.A.,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Liberada,T,0103/001,0,200,,EXPRESO CARGO SA,431539,37.8%,363.243,,7Kh2Zf0E
 41346,60 INGERSOLL ARGENTINA S.A.,Parcialmente ejecutada,Todo Aprobado,Orden de trabajo ,Liberada,F,0060/001,0,100,,TRANSPORTE TRAVERSO,446064,79.9%,940.00,,2Df5Fp8J
-41435,1783 A & C SOLUCIONES SA,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Liberada,F,1783/001,0,360,,EXPRESO LANCIONI,449961,62.2%,666.00,,9To2Cy4M
+41435,1783 A & C SOLUCIONES SA,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Ensamblada,F,1783/001,360,0,,EXPRESO LANCIONI,449961,62.2%,666.00,,9To2Cy4M
 41599,60 INGERSOLL ARGENTINA S.A.,Ejecución de la orden pendiente,Todo Aprobado, ,,T,P579,0,30,,TRANSPORTE TRAVERSO,460543,61.8%,230.70,,2Df5Fp8J
 41603,89 PEUGEOT CITROEN ARGENTINA S.A.,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Liberada,F,0089/007,0,10,,EXPRESO CARGO SA,460741,59.9%,955.30,,6Xg2Vq7X
 41710,9400959 PANIFICADORA ESTADIO SA,Ejecución de la orden pendiente,Todo Aprobado, ,,F,CAS-PPA1048T040,1,0,,BARRY LATIMER,467440,100.0%,.00,,
