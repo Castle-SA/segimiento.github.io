@@ -1,5 +1,4 @@
 Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. Especial,Pedido,Artículo,Cantidad,Faltante,Fecha,Transportista,ID,GP,,,
-41043,9402290 BI MERCANTIL SAS,Facturación pendiente,Todo Aprobado,Orden de trabajo ,Ensamblada,F,PPHR1216B,0,0,16/04/2025,TRANSPORTE MOSTTO,428732,54.1%,-2174.40,,6Cx3Az0M
 41293,3108 E A BALBI E HIJOS SA,Parcialmente ejecutada,Todo Aprobado,Orden de trabajo ,En curso,F,3108/001,0,2160,30/05/2025,EXPRESO CARGO SA,442541,47.5%,2700.00,,1Hh7Gx0G
 41626,9400945 LAMED S.A.,Parcialmente ejecutada,Todo Aprobado,Orden de trabajo ,Liberada,F,0945/001,0,60,24/06/2025,RICARDO PIERONI,461783,35.4%,708.00,,9Dw9Wh0V
 41124,202 FRIGORIFICO DE AVES SOYCHU SA,Facturada,Todo Aprobado,Ejecución de pedido de artículo 23316,Enviado,F,PVC612R,0,0,25/06/2025,EXPRESO CARGO SA,433282,49.1%,.00,T,5Ow8Cg8A
@@ -180,8 +179,8 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 41495,1029 DREAN SA,Facturada,Todo Aprobado,Ejecución de pedido de artículo 23453,Enviado,F,MTP548B,0,0,11/07/2025,EXPRESO CARGO SA,453385,28.8%,.00,T,6Ng7Hp1X
 41544,9400536 MILKAUT SA,Facturada,Todo Aprobado,Ejecución de pedido de artículo 23450,Enviado,F,PPHR15048XT,0,0,11/07/2025,RICARDO PIERONI,456574,44.0%,.00,T,8Ny2Or7G
 41579,1029 DREAN SA,Facturada,Todo Aprobado,Ejecución de pedido de artículo 23452,Enviado,F,MTP548B,0,0,11/07/2025,EXPRESO CARGO SA,459080,37.7%,.00,T,6Ng7Hp1X
-41580,1029 DREAN SA,Parcialmente ejecutada,Todo Aprobado,Factura de venta 37756,Abierta,F,MTP548B,72,648,11/07/2025,EXPRESO CARGO SA,459089,37.7%,1375.20,,6Ng7Hp1X
 41580,1029 DREAN SA,Parcialmente ejecutada,Todo Aprobado,Ejecución de pedido de artículo 23451,Enviado,F,MTP548B,72,648,11/07/2025,EXPRESO CARGO SA,459089,37.7%,1375.20,T,6Ng7Hp1X
+41580,1029 DREAN SA,Parcialmente ejecutada,Todo Aprobado,Factura de venta 37756,Abierta,F,MTP548B,72,648,11/07/2025,EXPRESO CARGO SA,459089,37.7%,1375.20,,6Ng7Hp1X
 41581,1029 DREAN SA,Facturada,Todo Aprobado,Ejecución de pedido de artículo 23455,Enviado,F,MTP548B,0,0,11/07/2025,EXPRESO CARGO SA,459090,37.7%,.00,T,6Ng7Hp1X
 41620,12877 BRIKET SA,Facturada,Todo Aprobado,Ejecución de pedido de artículo 23448,Enviado,F,MTP548B,0,0,11/07/2025,RICARDO PIERONI,461418,40.5%,.00,T,6Rp2Ce7I
 41689,9402059 BUENA PROA SA,Facturada,Todo Aprobado,Ejecución de pedido de artículo 23445,Enviado,T,CAS-PPAR1048T043,0,0,11/07/2025,TRANSPORTE TOMASSINI,466798,100.0%,.00,T,5Ym6Nh1E
@@ -250,8 +249,8 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 41767,674 KRETZ SA,Parcialmente ejecutada,Todo Aprobado,Ejecución de pedido de artículo 23488,Enviado,F,MF525T,0,0,15/07/2025,EXPRESO BRIO SRL,470997,88.2%,.00,T,0Io3Fg7R
 41767,674 KRETZ SA,Parcialmente ejecutada,Todo Aprobado,Ejecución de pedido de artículo 23488,Enviado,F,PPAR1072T,0,0,15/07/2025,EXPRESO BRIO SRL,470997,43.3%,.00,T,0Io3Fg7R
 41785,3086 MULTIORIGINAL PARTS SA,Facturada,Todo Aprobado,Ejecución de pedido de artículo 23486,Enviado,F,PPAR1048T,0,0,15/07/2025,TRANSPORTE TOMASSINI,472019,43.8%,.00,T,1Fr4Ch9I
-41787,279 HONDA MOTOR DE ARGENTINA S.A.,Parcialmente ejecutada,Todo Aprobado,Factura de venta 37804,Abierta,T,04169-00058-93,0,10,15/07/2025,EXPRESO CARGO SA,472200,41.3%,208.70,,1Rf6Ez5C
 41787,279 HONDA MOTOR DE ARGENTINA S.A.,Parcialmente ejecutada,Todo Aprobado,Ejecución de pedido de artículo 23494,Enviado,T,04169-00058-93,0,10,15/07/2025,EXPRESO CARGO SA,472200,41.3%,208.70,T,1Rf6Ez5C
+41787,279 HONDA MOTOR DE ARGENTINA S.A.,Parcialmente ejecutada,Todo Aprobado,Factura de venta 37804,Abierta,T,04169-00058-93,0,10,15/07/2025,EXPRESO CARGO SA,472200,41.3%,208.70,,1Rf6Ez5C
 41798,9402909 EL ALMACEN SRL,Facturada,Todo Aprobado,Ejecución de pedido de artículo 23498,Enviado,F,CAS-PPAR1048T043,0,0,15/07/2025,RETIRAN,473522,47.0%,.00,T,
 41799,9402909 EL ALMACEN SRL,Facturada,Todo Aprobado,Ejecución de pedido de artículo 23499,Enviado,F,CAS-PPAR1048T043,0,0,15/07/2025,RETIRAN,473523,47.0%,.00,T,
 41254,5019 GRANJA TRES ARROYOS SACAFEI,Facturada,Todo Aprobado,Ejecución de pedido de artículo 23512,Enviado,T,5019/003,0,0,16/07/2025,EXPRESO CARGO SA,439824,61.8%,.00,T,0Ql9Gi1V
@@ -373,17 +372,17 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 41857,1412 F R I A R SA,Facturada,Todo Aprobado,Ejecución de pedido de artículo 23579,Enviado,F,PPAR1072T,0,0,23/07/2025,TRANSPORTE PEDRITO,476557,41.5%,.00,T,1Vf8Uo1P
 41858,9400945 LAMED S.A.,Facturada,Todo Aprobado,Ejecución de pedido de artículo 23578,Enviado,F,CAS-PPA1048T040,0,0,23/07/2025,RICARDO PIERONI,476559,52.5%,.00,T,9Dw9Wh0V
 41858,9400945 LAMED S.A.,Facturada,Todo Aprobado,Ejecución de pedido de artículo 23578,Enviado,F,PPAR1048T,0,0,23/07/2025,RICARDO PIERONI,476559,43.8%,.00,T,9Dw9Wh0V
-41043,9402290 BI MERCANTIL SAS,Facturación pendiente,Todo Aprobado,Ejecución de pedido de artículo 23587,Enviado,F,PPHR1216B,0,0,24/07/2025,TRANSPORTE MOSTTO,428732,54.1%,-2174.40,F,6Cx3Az0M
-41450,143 EPTA ARGENTINA S.A.,Facturación pendiente,Todo Aprobado,Ejecución de pedido de artículo 23581,Enviado,T,0143/008,0,0,24/07/2025,FELICI JORGE ARIEL,450805,57.3%,-781.75,F,1Tu2Pr5C
-41585,21 FUNDEMAP S.A.,Facturación pendiente,Todo Aprobado,Ejecución de pedido de artículo 23583,Enviado,T,P579,0,0,24/07/2025,RICARDO PIERONI,459411,57.6%,-14.00,F,0Me0Dg4G
-41757,827 GONVARRI ARGENTINA SA,Facturación pendiente,Todo Aprobado,Ejecución de pedido de artículo 23584,Enviado,T,P579,0,0,24/07/2025,EXPRESO CARGO SA,470186,44.4%,-11.36,F,6Mv2Lk5E
+41043,9402290 BI MERCANTIL SAS,Facturada,Todo Aprobado,Ejecución de pedido de artículo 23587,Enviado,F,PPHR1216B,0,0,24/07/2025,TRANSPORTE MOSTTO,428732,54.1%,-2174.40,T,6Cx3Az0M
+41450,143 EPTA ARGENTINA S.A.,Facturada,Todo Aprobado,Ejecución de pedido de artículo 23581,Enviado,T,0143/008,0,0,24/07/2025,FELICI JORGE ARIEL,450805,57.3%,-781.75,T,1Tu2Pr5C
+41585,21 FUNDEMAP S.A.,Facturada,Todo Aprobado,Ejecución de pedido de artículo 23583,Enviado,T,P579,0,0,24/07/2025,RICARDO PIERONI,459411,57.6%,-14.00,T,0Me0Dg4G
+41757,827 GONVARRI ARGENTINA SA,Facturada,Todo Aprobado,Ejecución de pedido de artículo 23584,Enviado,T,P579,0,0,24/07/2025,EXPRESO CARGO SA,470186,44.4%,-11.36,T,6Mv2Lk5E
 41766,4095 REFINERIA DEL CENTRO SA,Facturación pendiente/parcialmente ejecutada,Todo Aprobado,Ejecución de pedido de artículo 23588,Enviado,F,CAS-PPHR10048XT045,0,42,24/07/2025,EXPRESO SANTA ROSA,470819,38.3%,596.40,F,1Bj3Wa5S
-41824,2515 CONGELADOS ARTICO SA,Facturación pendiente,Todo Aprobado,Ejecución de pedido de artículo 23582,Enviado,F,PPAR1072T,0,0,24/07/2025,TRANSPORTE TOMASSINI,475536,45.0%,.00,F,8Rn3En3G
-41860,396 IPROA SA,Facturación pendiente,Todo Aprobado,Ejecución de pedido de artículo 23585,Enviado,F,04965-00177-00,0,0,24/07/2025,RICARDO PIERONI,476621,46.1%,.00,F,2Sr2Wv3Z
-41860,396 IPROA SA,Facturación pendiente,Todo Aprobado,Ejecución de pedido de artículo 23585,Enviado,F,PPAR1048T,0,0,24/07/2025,RICARDO PIERONI,476621,67.9%,.00,F,2Sr2Wv3Z
-41864,22 CARRARO ARGENTINA S.A.,Facturación pendiente,Todo Aprobado,Ejecución de pedido de artículo 23586,Enviado,F,BV004,0,0,24/07/2025,EXPRESO CARGO SA,476632,85.9%,.00,F,8Bb5Dn1K
-41864,22 CARRARO ARGENTINA S.A.,Facturación pendiente,Todo Aprobado,Ejecución de pedido de artículo 23586,Enviado,F,BV002,0,0,24/07/2025,EXPRESO CARGO SA,476632,62.0%,.00,F,8Bb5Dn1K
-41864,22 CARRARO ARGENTINA S.A.,Facturación pendiente,Todo Aprobado,Ejecución de pedido de artículo 23586,Enviado,F,BV001,0,0,24/07/2025,EXPRESO CARGO SA,476632,79.1%,.00,F,8Bb5Dn1K
+41824,2515 CONGELADOS ARTICO SA,Facturada,Todo Aprobado,Ejecución de pedido de artículo 23582,Enviado,F,PPAR1072T,0,0,24/07/2025,TRANSPORTE TOMASSINI,475536,45.0%,.00,T,8Rn3En3G
+41860,396 IPROA SA,Facturada,Todo Aprobado,Ejecución de pedido de artículo 23585,Enviado,F,04965-00177-00,0,0,24/07/2025,RICARDO PIERONI,476621,46.1%,.00,T,2Sr2Wv3Z
+41860,396 IPROA SA,Facturada,Todo Aprobado,Ejecución de pedido de artículo 23585,Enviado,F,PPAR1048T,0,0,24/07/2025,RICARDO PIERONI,476621,67.9%,.00,T,2Sr2Wv3Z
+41864,22 CARRARO ARGENTINA S.A.,Facturada,Todo Aprobado,Ejecución de pedido de artículo 23586,Enviado,F,BV004,0,0,24/07/2025,EXPRESO CARGO SA,476632,85.9%,.00,T,8Bb5Dn1K
+41864,22 CARRARO ARGENTINA S.A.,Facturada,Todo Aprobado,Ejecución de pedido de artículo 23586,Enviado,F,BV002,0,0,24/07/2025,EXPRESO CARGO SA,476632,62.0%,.00,T,8Bb5Dn1K
+41864,22 CARRARO ARGENTINA S.A.,Facturada,Todo Aprobado,Ejecución de pedido de artículo 23586,Enviado,F,BV001,0,0,24/07/2025,EXPRESO CARGO SA,476632,79.1%,.00,T,8Bb5Dn1K
 41868,3089 ARNEG ARGENTINA S.A.,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Liberada,F,3089/021,0,22500,25/07/2025,FELICI JORGE ARIEL,476646,29.2%,605.25,,7Rx7Ub2H
 41690,2638 QUE RICO SA,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Liberada,F,PPHR1216B,0,432,28/07/2025,EXPRESO CARGO SA,466805,67.1%,721.44,,0Sl1Br5D
 41690,2638 QUE RICO SA,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Ensamblada,F,PVC612R,720,0,28/07/2025,EXPRESO CARGO SA,466805,61.4%,1224.00,,0Sl1Br5D
