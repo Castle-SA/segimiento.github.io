@@ -93,9 +93,9 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 41680,655 SWIFT SA ARGENTINA,Facturada,Todo Aprobado,Ejecución de pedido de artículo 23366,Enviado,F,CAS-PPAR10048T047,0,0,30/06/2025,FELICI JORGE ARIEL,465680,53.7%,.00,T,8Wb3Xi2L
 41682,6098 MARCELO RAUL MARTINEZ,Facturada,Todo Aprobado,Ejecución de pedido de artículo 23371,Enviado,F,PPA1548TE,0,0,30/06/2025,RETIRAN,465888,63.5%,.00,T,5Tb3Jl5E
 41683,5087 SARMIENTO HECTOR DAVID,Facturada,Todo Aprobado,Ejecución de pedido de artículo 23370,Enviado,F,CAS-PPA1048T040,0,0,30/06/2025,EXPRESO CARGO SA,465900,52.2%,.00,T,0Ko6Bl1F
-41684,1318 ALIBUE S.A.,Facturada,Todo Aprobado,Ejecución de pedido de artículo 23394,Enviado,F,CAS-PPAR1048T043,0,0,01/07/2025,EXPRESO CARGO SA,466032,44.3%,.00,T,1Sn9Yn7I
-41684,1318 ALIBUE S.A.,Facturada,Todo Aprobado,Ejecución de pedido de artículo 23396,Enviado,F,CAS-PPAR1048T043,0,0,01/07/2025,EXPRESO CARGO SA,466032,44.3%,.00,T,1Sn9Yn7I
 41684,1318 ALIBUE S.A.,Facturada,Todo Aprobado,Ejecución de pedido de artículo 23395,Enviado,F,CAS-PPAR1048T043,0,0,01/07/2025,EXPRESO CARGO SA,466032,44.3%,.00,T,1Sn9Yn7I
+41684,1318 ALIBUE S.A.,Facturada,Todo Aprobado,Ejecución de pedido de artículo 23396,Enviado,F,CAS-PPAR1048T043,0,0,01/07/2025,EXPRESO CARGO SA,466032,44.3%,.00,T,1Sn9Yn7I
+41684,1318 ALIBUE S.A.,Facturada,Todo Aprobado,Ejecución de pedido de artículo 23394,Enviado,F,CAS-PPAR1048T043,0,0,01/07/2025,EXPRESO CARGO SA,466032,44.3%,.00,T,1Sn9Yn7I
 41254,5019 GRANJA TRES ARROYOS SACAFEI,Facturada,Todo Aprobado,Ejecución de pedido de artículo 23401,Enviado,T,5019/003,0,0,02/07/2025,EXPRESO CARGO SA,439824,61.8%,.00,T,0Ql9Gi1V
 41254,5019 GRANJA TRES ARROYOS SACAFEI,Facturada,Todo Aprobado,Ejecución de pedido de artículo 23401,Enviado,T,5019/002,0,0,02/07/2025,EXPRESO CARGO SA,439824,58.8%,-17.76,T,0Ql9Gi1V
 41255,5019 GRANJA TRES ARROYOS SACAFEI,Facturada,Todo Aprobado,Ejecución de pedido de artículo 23400,Enviado,T,5019/003,0,0,02/07/2025,EXPRESO CARGO SA,439825,61.8%,.00,T,0Ql9Gi1V
@@ -361,8 +361,8 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 41450,143 EPTA ARGENTINA S.A.,Facturada,Todo Aprobado,Ejecución de pedido de artículo 23581,Enviado,T,0143/008,0,0,24/07/2025,FELICI JORGE ARIEL,450805,57.3%,-781.75,T,1Tu2Pr5C
 41585,21 FUNDEMAP S.A.,Facturada,Todo Aprobado,Ejecución de pedido de artículo 23583,Enviado,T,P579,0,0,24/07/2025,RICARDO PIERONI,459411,57.6%,-14.00,T,0Me0Dg4G
 41757,827 GONVARRI ARGENTINA SA,Facturada,Todo Aprobado,Ejecución de pedido de artículo 23584,Enviado,T,P579,0,0,24/07/2025,EXPRESO CARGO SA,470186,44.4%,-11.36,T,6Mv2Lk5E
-41766,4095 REFINERIA DEL CENTRO SA,Parcialmente ejecutada,Todo Aprobado,Factura de venta 37899,Abierta,F,CAS-PPHR10048XT045,0,42,24/07/2025,EXPRESO SANTA ROSA,470819,38.3%,596.40,,1Bj3Wa5S
 41766,4095 REFINERIA DEL CENTRO SA,Parcialmente ejecutada,Todo Aprobado,Ejecución de pedido de artículo 23588,Enviado,F,CAS-PPHR10048XT045,0,42,24/07/2025,EXPRESO SANTA ROSA,470819,38.3%,596.40,T,1Bj3Wa5S
+41766,4095 REFINERIA DEL CENTRO SA,Parcialmente ejecutada,Todo Aprobado,Factura de venta 37899,Abierta,F,CAS-PPHR10048XT045,0,42,24/07/2025,EXPRESO SANTA ROSA,470819,38.3%,596.40,,1Bj3Wa5S
 41824,2515 CONGELADOS ARTICO SA,Facturada,Todo Aprobado,Ejecución de pedido de artículo 23582,Enviado,F,PPAR1072T,0,0,24/07/2025,TRANSPORTE TOMASSINI,475536,45.0%,.00,T,8Rn3En3G
 41860,396 IPROA SA,Facturada,Todo Aprobado,Ejecución de pedido de artículo 23585,Enviado,F,04965-00177-00,0,0,24/07/2025,RICARDO PIERONI,476621,46.1%,.00,T,2Sr2Wv3Z
 41860,396 IPROA SA,Facturada,Todo Aprobado,Ejecución de pedido de artículo 23585,Enviado,F,PPAR1048T,0,0,24/07/2025,RICARDO PIERONI,476621,67.9%,.00,T,2Sr2Wv3Z
@@ -408,7 +408,7 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 41881,15 IND. JOHN DEERE ARGENTINA S.A.,Ejecución de la orden pendiente,Todo Aprobado, ,,F,04169-00057-93,11,0,31/07/2025,FELICI JORGE ARIEL,476709,52.3%,264.00,,8Ky5Hq9D
 41754,9400536 MILKAUT SA,Ejecución de la orden pendiente,Todo Aprobado, ,,F,PPHR15048XT,216,0,01/08/2025,RICARDO PIERONI,469952,30.2%,4469.04,,8Ny2Or7G
 41813,3046 ALTA ROTACION SRL,Ejecución de la orden pendiente,Todo Aprobado, ,,F,PPA1548TE,720,0,01/08/2025,EXPRESO CARGO SA,474189,47.2%,885.60,,1Md0Cx2B
-41826,4674 GIORNO S A (GRUPO VALASTRO),Ejecución de la orden pendiente,Todo Aprobado, ,,F,PPAR1072T,2.400,0,01/08/2025,TRANSPORTE TOMASSINI,475434,40.0%,2880.00,,1Jm9Zf6J
+41826,4674 GIORNO S A (GRUPO VALASTRO),Ejecución de la orden pendiente,Todo Aprobado, ,,F,PPAR1072T,2400,0,01/08/2025,TRANSPORTE TOMASSINI,475434,40.0%,2880.00,,1Jm9Zf6J
 41849,814 OBLAK HNOS SACIFI,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Liberada,F,07063-00001-24,0,150,01/08/2025,EXPRESO CARGO SA,476137,29.6%,1222.50,,1Hy0Vd3I
 41841,202 FRIGORIFICO DE AVES SOYCHU SA,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Ensamblada,F,PVC612R,255,0,04/08/2025,EXPRESO CARGO SA,475924,43.9%,293.25,,5Ow8Cg8A
 41841,202 FRIGORIFICO DE AVES SOYCHU SA,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Liberada,F,PPHR1216B,0,390,04/08/2025,EXPRESO CARGO SA,475924,45.7%,393.90,,5Ow8Cg8A
@@ -454,8 +454,6 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 41099,102 VOLKSWAGEN ARGENTINA S.A.,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Liberada,T,0103/001,0,200,,EXPRESO CARGO SA,431539,37.8%,363.243,,7Kh2Zf0E
 41346,60 INGERSOLL ARGENTINA S.A.,Parcialmente ejecutada,Todo Aprobado,Orden de trabajo ,Liberada,F,0060/001,0,100,,TRANSPORTE TRAVERSO,446064,79.9%,940.00,,2Df5Fp8J
 41603,89 PEUGEOT CITROEN ARGENTINA S.A.,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Liberada,F,0089/007,0,10,,EXPRESO CARGO SA,460741,59.9%,955.30,,6Xg2Vq7X
-41710,9400959 PANIFICADORA ESTADIO SA,Ejecución de la orden pendiente,Todo Aprobado, ,,F,CAS-PPA1048T040,1,0,,BARRY LATIMER,467440,100.0%,.00,,
-41710,9400959 PANIFICADORA ESTADIO SA,Ejecución de la orden pendiente,Todo Aprobado, ,,F,CAS-PPA1048T045,0,1,,BARRY LATIMER,467440,100.0%,.00,,
 41733,56 CIRUBON S.A.,Parcialmente ejecutada,Todo Aprobado,Orden de trabajo ,Ensamblada,F,6158/001,2,0,,RETIRAN,468851,58.2%,376.00,,0Wm2Xw7K
 41746,1650 ARAG ARGENTINA SA,Ejecución de la orden pendiente,Todo Aprobado,Pedido ,Recepción pendiente,T,1650/002,0,500,,RICARDO PIERONI,469456,60.7%,1900.00,,8Yp8Ld0P
 41767,674 KRETZ SA,Parcialmente ejecutada,Todo Aprobado,Orden de trabajo ,En curso,F,0674/002,0,21,,EXPRESO BRIO SRL,470997,36.7%,288.54,,0Io3Fg7R
