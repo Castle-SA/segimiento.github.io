@@ -326,8 +326,8 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 41450,143 EPTA ARGENTINA S.A.,Facturada,Todo Aprobado,Ejecución de pedido de artículo 23581,Enviado,T,0143/008,0,0,24/07/2025,FELICI JORGE ARIEL,450805,57.3%,-781.75,T,1Tu2Pr5C
 41585,21 FUNDEMAP S.A.,Facturada,Todo Aprobado,Ejecución de pedido de artículo 23583,Enviado,T,P579,0,0,24/07/2025,RICARDO PIERONI,459411,57.6%,-14.00,T,0Me0Dg4G
 41757,827 GONVARRI ARGENTINA SA,Facturada,Todo Aprobado,Ejecución de pedido de artículo 23584,Enviado,T,P579,0,0,24/07/2025,EXPRESO CARGO SA,470186,44.4%,-11.36,T,6Mv2Lk5E
-41766,4095 REFINERIA DEL CENTRO SA,Parcialmente ejecutada,Todo Aprobado,Factura de venta 37899,Abierta,F,CAS-PPHR10048XT045,0,42,24/07/2025,EXPRESO SANTA ROSA,470819,38.3%,596.40,,1Bj3Wa5S
 41766,4095 REFINERIA DEL CENTRO SA,Parcialmente ejecutada,Todo Aprobado,Ejecución de pedido de artículo 23588,Enviado,F,CAS-PPHR10048XT045,0,42,24/07/2025,EXPRESO SANTA ROSA,470819,38.3%,596.40,T,1Bj3Wa5S
+41766,4095 REFINERIA DEL CENTRO SA,Parcialmente ejecutada,Todo Aprobado,Factura de venta 37899,Abierta,F,CAS-PPHR10048XT045,0,42,24/07/2025,EXPRESO SANTA ROSA,470819,38.3%,596.40,,1Bj3Wa5S
 41824,2515 CONGELADOS ARTICO SA,Facturada,Todo Aprobado,Ejecución de pedido de artículo 23582,Enviado,F,PPAR1072T,0,0,24/07/2025,TRANSPORTE TOMASSINI,475536,45.0%,.00,T,8Rn3En3G
 41860,396 IPROA SA,Facturada,Todo Aprobado,Ejecución de pedido de artículo 23585,Enviado,F,04965-00177-00,0,0,24/07/2025,RICARDO PIERONI,476621,46.1%,.00,T,2Sr2Wv3Z
 41860,396 IPROA SA,Facturada,Todo Aprobado,Ejecución de pedido de artículo 23585,Enviado,F,PPAR1048T,0,0,24/07/2025,RICARDO PIERONI,476621,67.9%,.00,T,2Sr2Wv3Z
@@ -345,18 +345,18 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 41868,3089 ARNEG ARGENTINA S.A.,Facturada,Todo Aprobado,Ejecución de pedido de artículo 23590,Enviado,F,3089/021,0,0,25/07/2025,FELICI JORGE ARIEL,476646,29.2%,.00,T,7Rx7Ub2H
 41873,9402909 EL ALMACEN SRL,Facturada,Todo Aprobado,Ejecución de pedido de artículo 23589,Enviado,F,PPAR1048T,0,0,25/07/2025,RICARDO PIERONI,476690,49.4%,.00,T,
 41877,1759 COTAGRO COOPERATIVA AGROPECUARIA LIMITADA,Facturada,Todo Aprobado,Ejecución de pedido de artículo 23592,Enviado,F,PPAR1048T,0,0,25/07/2025,EXPRESO LUJAN DEL CUYO SA,476704,100.0%,.00,T,0Gm9Ja1E
-41690,2638 QUE RICO SA,Facturación pendiente/parcialmente ejecutada,Todo Aprobado,Orden de trabajo ,Liberada,F,PPHR1216B,0,432,28/07/2025,EXPRESO CARGO SA,466805,67.1%,721.44,,0Sl1Br5D
-41690,2638 QUE RICO SA,Facturación pendiente/parcialmente ejecutada,Todo Aprobado,Ejecución de pedido de artículo 23601,Enviado,F,PVC612R,0,0,28/07/2025,EXPRESO CARGO SA,466805,61.4%,.00,F,0Sl1Br5D
-41690,2638 QUE RICO SA,Facturación pendiente/parcialmente ejecutada,Todo Aprobado,Ejecución de pedido de artículo 23601,Enviado,F,PPAR1048T,0,0,28/07/2025,EXPRESO CARGO SA,466805,40.2%,.00,F,0Sl1Br5D
+41690,2638 QUE RICO SA,Parcialmente ejecutada,Todo Aprobado,Orden de trabajo ,Liberada,F,PPHR1216B,0,432,28/07/2025,EXPRESO CARGO SA,466805,67.1%,721.44,,0Sl1Br5D
+41690,2638 QUE RICO SA,Parcialmente ejecutada,Todo Aprobado,Ejecución de pedido de artículo 23601,Enviado,F,PVC612R,0,0,28/07/2025,EXPRESO CARGO SA,466805,61.4%,.00,T,0Sl1Br5D
+41690,2638 QUE RICO SA,Parcialmente ejecutada,Todo Aprobado,Ejecución de pedido de artículo 23601,Enviado,F,PPAR1048T,0,0,28/07/2025,EXPRESO CARGO SA,466805,40.2%,.00,T,0Sl1Br5D
 41807,3051 FRIMETAL S.A.,Ejecución de la orden pendiente,Todo Aprobado, ,,T,3051/006,0,240,28/07/2025,FELICI JORGE ARIEL,473790,62.0%,25425.00,,3Dw0Uk2K
 41829,9400962 CRYSTAL-ICE SRL,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Liberada,F,9400962/004,0,360,28/07/2025,RICARDO PIERONI,475437,23.8%,352.80,,4Is2Rn8E
-41870,4095 REFINERIA DEL CENTRO SA,Ejecución de la orden pendiente,Todo Aprobado, ,,F,PPAR1072T,2700,0,28/07/2025,EXPRESO SANTA ROSA,476651,30.8%,2808.00,,1Bj3Wa5S
+41870,4095 REFINERIA DEL CENTRO SA,Facturada,Todo Aprobado,Ejecución de pedido de artículo 23602,Enviado,F,PPAR1072T,0,0,28/07/2025,EXPRESO SANTA ROSA,476651,30.8%,-12.48,T,1Bj3Wa5S
 41871,4095 REFINERIA DEL CENTRO SA,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Liberada,F,CAS-PPHR10048XT045,0,108,28/07/2025,EXPRESO SANTA ROSA,476658,38.3%,1533.60,,1Bj3Wa5S
 41871,4095 REFINERIA DEL CENTRO SA,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Liberada,F,CAS-PPAR10072T045,0,120,28/07/2025,EXPRESO SANTA ROSA,476658,62.3%,1476.00,,1Bj3Wa5S
 41876,34 ARGENTAL S.A.I.C.,Ejecución de la orden pendiente,Todo Aprobado, ,,F,VCI420,100,0,28/07/2025,FELICI JORGE ARIEL,476700,55.4%,900.00,,7Rh7In1Q
-41879,9402018 FARMACIA LA FRANCO SOCIEDAD DE RESPONSABILIDAD LIMITADA,Facturación pendiente,Todo Aprobado,Ejecución de pedido de artículo 23599,Enviado,F,PPAR1048T,0,0,28/07/2025,TRANSPORTE TOMASSINI,476705,52.6%,.00,F,4Xz9An3R
-41885,9401192 COPECA SA,Facturación pendiente,Todo Aprobado,Ejecución de pedido de artículo 23600,Enviado,F,PPAR15048T,0,0,28/07/2025,EXPRESO TAS,476719,49.7%,.00,F,7Ur8Rq3A
-41885,9401192 COPECA SA,Facturación pendiente,Todo Aprobado,Ejecución de pedido de artículo 23600,Enviado,F,PPAR1048T,0,0,28/07/2025,EXPRESO TAS,476719,41.6%,.00,F,7Ur8Rq3A
+41879,9402018 FARMACIA LA FRANCO SOCIEDAD DE RESPONSABILIDAD LIMITADA,Facturada,Todo Aprobado,Ejecución de pedido de artículo 23599,Enviado,F,PPAR1048T,0,0,28/07/2025,TRANSPORTE TOMASSINI,476705,52.6%,.00,T,4Xz9An3R
+41885,9401192 COPECA SA,Facturada,Todo Aprobado,Ejecución de pedido de artículo 23600,Enviado,F,PPAR15048T,0,0,28/07/2025,EXPRESO TAS,476719,49.7%,.00,T,7Ur8Rq3A
+41885,9401192 COPECA SA,Facturada,Todo Aprobado,Ejecución de pedido de artículo 23600,Enviado,F,PPAR1048T,0,0,28/07/2025,EXPRESO TAS,476719,41.6%,.00,T,7Ur8Rq3A
 41862,12662 PRINTEMPS S.R.L.,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Liberada,F,2662/001,0,300,30/07/2025,RICARDO PIERONI,476626,49.2%,345.00,,2Sp0Fe1F
 41862,12662 PRINTEMPS S.R.L.,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Ensamblada,F,04965-00176-00,288,0,30/07/2025,RICARDO PIERONI,476626,43.9%,3772.80,,2Sp0Fe1F
 41862,12662 PRINTEMPS S.R.L.,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Ensamblada,F,2662/004,144,0,30/07/2025,RICARDO PIERONI,476626,41.9%,377.28,,2Sp0Fe1F
