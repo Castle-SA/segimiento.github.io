@@ -200,8 +200,8 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 41767,674 KRETZ SA,Parcialmente ejecutada,Todo Aprobado,Ejecución de pedido de artículo 23488,Enviado,F,MF525T,0,0,15/07/2025,EXPRESO BRIO SRL,470997,88.2%,.00,T,0Io3Fg7R
 41767,674 KRETZ SA,Parcialmente ejecutada,Todo Aprobado,Ejecución de pedido de artículo 23488,Enviado,F,PPAR1072T,0,0,15/07/2025,EXPRESO BRIO SRL,470997,43.3%,.00,T,0Io3Fg7R
 41785,3086 MULTIORIGINAL PARTS SA,Facturada,Todo Aprobado,Ejecución de pedido de artículo 23486,Enviado,F,PPAR1048T,0,0,15/07/2025,TRANSPORTE TOMASSINI,472019,43.8%,.00,T,1Fr4Ch9I
-41787,279 HONDA MOTOR DE ARGENTINA S.A.,Parcialmente ejecutada,Todo Aprobado,Ejecución de pedido de artículo 23494,Enviado,T,04169-00058-93,0,10,15/07/2025,EXPRESO CARGO SA,472200,41.3%,208.70,T,1Rf6Ez5C
 41787,279 HONDA MOTOR DE ARGENTINA S.A.,Parcialmente ejecutada,Todo Aprobado,Factura de venta 37804,Abierta,T,04169-00058-93,0,10,15/07/2025,EXPRESO CARGO SA,472200,41.3%,208.70,,1Rf6Ez5C
+41787,279 HONDA MOTOR DE ARGENTINA S.A.,Parcialmente ejecutada,Todo Aprobado,Ejecución de pedido de artículo 23494,Enviado,T,04169-00058-93,0,10,15/07/2025,EXPRESO CARGO SA,472200,41.3%,208.70,T,1Rf6Ez5C
 41798,9402909 EL ALMACEN SRL,Facturada,Todo Aprobado,Ejecución de pedido de artículo 23498,Enviado,F,CAS-PPAR1048T043,0,0,15/07/2025,RETIRAN,473522,47.0%,.00,T,
 41799,9402909 EL ALMACEN SRL,Facturada,Todo Aprobado,Ejecución de pedido de artículo 23499,Enviado,F,CAS-PPAR1048T043,0,0,15/07/2025,RETIRAN,473523,47.0%,.00,T,
 41254,5019 GRANJA TRES ARROYOS SACAFEI,Facturada,Todo Aprobado,Ejecución de pedido de artículo 23512,Enviado,T,5019/003,0,0,16/07/2025,EXPRESO CARGO SA,439824,61.8%,.00,T,0Ql9Gi1V
@@ -370,6 +370,7 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 41869,3051 FRIMETAL S.A.,Ejecución de la orden pendiente,Todo Aprobado, ,,F,3051/017,10000,0,30/07/2025,FELICI JORGE ARIEL,476647,41.0%,189.804,,3Dw0Uk2K
 41869,3051 FRIMETAL S.A.,Ejecución de la orden pendiente,Todo Aprobado, ,,F,PPAR1048M,288,0,30/07/2025,FELICI JORGE ARIEL,476647,32.3%,254.118,,3Dw0Uk2K
 41869,3051 FRIMETAL S.A.,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Ensamblada,F,3051/011,72,0,30/07/2025,FELICI JORGE ARIEL,476647,59.1%,170.811,,3Dw0Uk2K
+41888,9402663 FERRUM SA DE CERAMICA Y METALURGIA,Ejecución de la orden pendiente,Todo Aprobado, ,,F,CAS-PPAR548T043,432,2592,30/07/2025,EXPRESO CARGO SA,477272,35.7%,1149.12,,
 41825,2515 CONGELADOS ARTICO SA,Ejecución de la orden pendiente,Todo Aprobado, ,,F,PPAR1072T,720,0,31/07/2025,TRANSPORTE TOMASSINI,475537,45.0%,943.20,,8Rn3En3G
 41837,9400962 CRYSTAL-ICE SRL,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Liberada,F,9400962/003,0,360,31/07/2025,RICARDO PIERONI,475851,31.3%,338.40,,4Is2Rn8E
 41855,1386 FRIGORIFICO PALADINI SA,Ejecución de la orden pendiente,Todo Aprobado, ,,F,PPAR15048T,150,0,31/07/2025,FELICI JORGE ARIEL,476378,48.8%,2.022.837,,0Ut2Zv0U
