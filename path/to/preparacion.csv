@@ -57,9 +57,9 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 41680,655 SWIFT SA ARGENTINA,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 23366,Remitido,F,CAS-PPAR10048T047,0,0,30/06/2025,FELICI JORGE ARIEL,465680,53.7%,370.80,T,8Wb3Xi2L
 41682,6098 MARCELO RAUL MARTINEZ,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 23371,Remitido,F,PPA1548TE,0,0,30/06/2025,RETIRAN,465888,63.5%,72.00,T,5Tb3Jl5E
 41683,5087 SARMIENTO HECTOR DAVID,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 23370,Remitido,F,CAS-PPA1048T040,0,0,30/06/2025,EXPRESO CARGO SA,465900,52.2%,351.00,T,0Ko6Bl1F
-41684,1318 ALIBUE S.A.,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 23396,Remitido,F,CAS-PPAR1048T043,0,0,01/07/2025,EXPRESO CARGO SA,466032,44.3%,91.80,T,1Sn9Yn7I
 41684,1318 ALIBUE S.A.,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 23394,Remitido,F,CAS-PPAR1048T043,0,0,01/07/2025,EXPRESO CARGO SA,466032,44.3%,153.00,T,1Sn9Yn7I
 41684,1318 ALIBUE S.A.,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 23395,Remitido,F,CAS-PPAR1048T043,0,0,01/07/2025,EXPRESO CARGO SA,466032,44.3%,61.20,T,1Sn9Yn7I
+41684,1318 ALIBUE S.A.,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 23396,Remitido,F,CAS-PPAR1048T043,0,0,01/07/2025,EXPRESO CARGO SA,466032,44.3%,91.80,T,1Sn9Yn7I
 41254,5019 GRANJA TRES ARROYOS SACAFEI,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 23401,Remitido,T,5019/003,0,0,02/07/2025,EXPRESO CARGO SA,439824,61.8%,1420.80,T,0Ql9Gi1V
 41254,5019 GRANJA TRES ARROYOS SACAFEI,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 23401,Remitido,T,5019/002,0,0,02/07/2025,EXPRESO CARGO SA,439824,58.8%,372.96,T,0Ql9Gi1V
 41255,5019 GRANJA TRES ARROYOS SACAFEI,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 23400,Remitido,T,5019/003,0,0,02/07/2025,EXPRESO CARGO SA,439825,61.8%,1776.00,T,0Ql9Gi1V
@@ -382,6 +382,7 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 41907,9400049 COMPAÑIA AMERICANA DE ALIMENTOS S.A.,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 23620,Remitido,F,PPAR15048T,0,0,29/07/2025,EXPRESO CARGO SA,478154,53.6%,3039.60,T,2Jl6Ja1C
 41909,9400609 PAN S COMPANY SA,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 23624,Remitido,F,PPHR15048XT,0,0,29/07/2025,EXPRESO CARGO SA,478156,43.8%,1096.20,T,9Qb8Fy5U
 41865,3089 ARNEG ARGENTINA S.A.,Ejecución de la orden pendiente,Todo Aprobado, ,,F,3089/052,5000,0,30/07/2025,FELICI JORGE ARIEL,476635,26.7%,4600.00,,7Rx7Ub2H
+41892,4005 RICHETTA Y CIA SA,Ejecución de la orden pendiente,Todo Aprobado, ,,F,PPA1548TE,360,0,30/07/2025,EXPRESO CARGO SA,477412,47.2%,442.80,,1Rc0Ey3R
 41911,9400816 MORELLI SRL,Ejecución de la orden pendiente,Todo Aprobado, ,,F,04848-90001-01,0,60,30/07/2025,RICARDO PIERONI,478448,47.2%,408.00,,2Au6Re6F
 41913,7 MARCELO TRENTO S.R.L.,Ejecución de la orden pendiente,Todo Aprobado, ,,F,CAS-PPAR1048T043,180,0,30/07/2025,RICARDO PIERONI,478590,52.9%,180.00,,9Wv5Pd7I
 41837,9400962 CRYSTAL-ICE SRL,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Liberada,F,9400962/003,0,360,31/07/2025,RICARDO PIERONI,475851,31.3%,338.40,,4Is2Rn8E
