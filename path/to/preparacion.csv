@@ -191,7 +191,7 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 41704,3089 ARNEG ARGENTINA S.A.,Facturada,Todo Aprobado,Ejecución de pedido de artículo 23530,Enviado,F,3089/040,0,0,18/07/2025,FELICI JORGE ARIEL,467261,96.5%,.00,T,7Rx7Ub2H
 41733,56 CIRUBON S.A.,Parcialmente ejecutada,Todo Aprobado,Ejecución de pedido de artículo 23542,Enviado,F,BV002,0,0,18/07/2025,RETIRAN,468851,69.0%,-91.90,T,0Wm2Xw7K
 41735,178 DROGUERIA DEL SUD S.A.,Facturada,Todo Aprobado,Ejecución de pedido de artículo 23540,Enviado,F,PPAR1048T,0,0,18/07/2025,EXPRESO LUJAN DEL CUYO SA,469074,38.4%,.00,T,5Mx5Rs0E
-41758,4379 FRANCHRIS2010 SRL,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Liberada,F,4379/001,0,360,18/07/2025,TRANSPORTE TOMASSINI,470414,24.2%,738.00,,
+41758,4379 FRANCHRIS2010 SRL,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Ensamblada,F,4379/001,360,0,18/07/2025,TRANSPORTE TOMASSINI,470414,24.2%,738.00,,
 41773,9400147 UNION AGRICOLA DE AVELLANEDA COOPERATIVA LIMITADA,Parcialmente ejecutada,Todo Aprobado,Orden de trabajo ,Ensamblada,F,PPHR1216B,360,0,18/07/2025,TRANSPORTE SNAIDER,471352,73.2%,738.00,,2Jk3Fr6K
 41775,3089 ARNEG ARGENTINA S.A.,Facturada,Todo Aprobado,Ejecución de pedido de artículo 23531,Enviado,F,3089/022,0,0,18/07/2025,RICARDO PIERONI,471452,78.6%,.00,T,7Rx7Ub2H
 41775,3089 ARNEG ARGENTINA S.A.,Facturada,Todo Aprobado,Ejecución de pedido de artículo 23531,Enviado,F,MTS548B,0,0,18/07/2025,RICARDO PIERONI,471452,41.7%,.00,T,7Rx7Ub2H
@@ -343,10 +343,10 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 41913,7 MARCELO TRENTO S.R.L.,Facturada,Todo Aprobado,Ejecución de pedido de artículo 23625,Enviado,F,PPAR1048T,0,0,30/07/2025,RICARDO PIERONI,478590,55.0%,.00,T,9Wv5Pd7I
 41917,629 INDUSTRIAS QUIMICAS BG SRL,Facturada,Todo Aprobado,Ejecución de pedido de artículo 23627,Enviado,F,CAS-PPAR1048T043,0,0,30/07/2025,RICARDO PIERONI,478896,56.3%,.00,T,0Ze2Hm4P
 41917,629 INDUSTRIAS QUIMICAS BG SRL,Facturada,Todo Aprobado,Ejecución de pedido de artículo 23627,Enviado,F,CH5235,0,0,30/07/2025,RICARDO PIERONI,478896,76.3%,.00,T,0Ze2Hm4P
+41918,9402081 OLEOHIDRAULICA EL TORITO SA,Facturación pendiente,Todo Aprobado,Ejecución de pedido de artículo 23634,Enviado,F,MVAQUA180,0,0,30/07/2025,RETIRAN,479018,53.6%,.00,F,5Zl6Sa3R
 41921,9400983 CATESUR SA,Facturada,Todo Aprobado,Ejecución de pedido de artículo 23629,Enviado,F,FLJPP30012B,0,0,30/07/2025,TRANSPORTE TOMASSINI,479024,2.2%,.00,T,1Du0Dz8M
 41837,9400962 CRYSTAL-ICE SRL,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Liberada,F,9400962/003,0,360,31/07/2025,RICARDO PIERONI,475851,31.3%,338.40,,4Is2Rn8E
 41872,4188 DOMITEC SA,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Liberada,F,CAS-PPHR10048B,0,60,31/07/2025,TRANSPORTE SNAIDER,476671,33.8%,1251.60,,4Md8Pr6J
-41918,9402081 OLEOHIDRAULICA EL TORITO SA,Ejecución de la orden pendiente,Todo Aprobado, ,,F,MVAQUA180,60,0,31/07/2025,RETIRAN,479018,53.6%,839.40,,5Zl6Sa3R
 41922,3598 DEL VALLE EMBALAJES SRL,Ejecución de la orden pendiente,Todo Aprobado, ,,F,PPAR15072T,40,0,31/07/2025,RICARDO PIERONI,479025,23.8%,825.20,,0Ph8Mv3F
 41754,9400536 MILKAUT SA,Ejecución de la orden pendiente,Todo Aprobado, ,,F,PPHR15048XT,216,0,01/08/2025,RICARDO PIERONI,469952,30.2%,4469.04,,8Ny2Or7G
 41813,3046 ALTA ROTACION SRL,Ejecución de la orden pendiente,Todo Aprobado, ,,F,PPA1548TE,720,0,01/08/2025,EXPRESO CARGO SA,474189,47.2%,885.60,,1Md0Cx2B
