@@ -67,8 +67,8 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 41495,1029 DREAN SA,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 23453,Remitido,F,MTP548B,0,0,11/07/2025,EXPRESO CARGO SA,453385,28.8%,3850.56,T,6Ng7Hp1X
 41544,9400536 MILKAUT SA,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 23450,Remitido,F,PPHR15048XT,0,0,11/07/2025,RICARDO PIERONI,456574,44.0%,1534.32,T,8Ny2Or7G
 41579,1029 DREAN SA,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 23452,Remitido,F,MTP548B,0,0,11/07/2025,EXPRESO CARGO SA,459080,37.7%,3850.56,T,6Ng7Hp1X
-41580,1029 DREAN SA,Parcialmente ejecutada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 23451,Remitido,F,MTP548B,72,648,11/07/2025,EXPRESO CARGO SA,459089,37.7%,1512.72,T,6Ng7Hp1X
 41580,1029 DREAN SA,Parcialmente ejecutada,Todo Aprobado,Factura de venta 37756,Abierta,F,MTP548B,72,648,11/07/2025,EXPRESO CARGO SA,459089,37.7%,1375.20,,6Ng7Hp1X
+41580,1029 DREAN SA,Parcialmente ejecutada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 23451,Remitido,F,MTP548B,72,648,11/07/2025,EXPRESO CARGO SA,459089,37.7%,1512.72,T,6Ng7Hp1X
 41581,1029 DREAN SA,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 23455,Remitido,F,MTP548B,0,0,11/07/2025,EXPRESO CARGO SA,459090,37.7%,2887.92,T,6Ng7Hp1X
 41620,12877 BRIKET SA,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 23448,Remitido,F,MTP548B,0,0,11/07/2025,RICARDO PIERONI,461418,40.5%,1224.00,T,6Rp2Ce7I
 41689,9402059 BUENA PROA SA,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 23445,Remitido,T,CAS-PPAR1048T043,0,0,11/07/2025,TRANSPORTE TOMASSINI,466798,100.0%,669.60,T,5Ym6Nh1E
@@ -203,8 +203,8 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 41827,3056 LABORATORIOS NOVARA SRL,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 23539,Remitido,F,PPAR1048T,0,0,18/07/2025,RETIRAN,475435,47.1%,153.00,T,1Uf6Rl4U
 41279,3493 HASUMAC SA,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 23556,Remitido,F,3493/002,0,0,21/07/2025,EXPRESO CARGO SA,441758,44.4%,424.80,T,0Do6Gs7X
 41337,920 DMED S.R.L.,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 23543,Remitido,F,0920/001,0,0,21/07/2025,RICARDO PIERONI,445855,29.8%,1440.00,T,8Ll4Gg3U
-41703,3089 ARNEG ARGENTINA S.A.,Parcialmente ejecutada,Todo Aprobado,Factura de venta 37859,Abierta,T,3089/082,0,6250,21/07/2025,FELICI JORGE ARIEL,467260,52.2%,7812.50,,7Rx7Ub2H
 41703,3089 ARNEG ARGENTINA S.A.,Parcialmente ejecutada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 23553,Remitido,T,3089/082,0,6250,21/07/2025,FELICI JORGE ARIEL,467260,52.2%,2187.50,T,7Rx7Ub2H
+41703,3089 ARNEG ARGENTINA S.A.,Parcialmente ejecutada,Todo Aprobado,Factura de venta 37859,Abierta,T,3089/082,0,6250,21/07/2025,FELICI JORGE ARIEL,467260,52.2%,7812.50,,7Rx7Ub2H
 41705,9402135 ALBERTO G MORO SRL,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 23552,Remitido,F,MVAQUA180,0,0,21/07/2025,EXPRESO LUJAN DEL CUYO SA,467263,34.0%,196.80,T,3Ql7Hs1H
 41770,3051 FRIMETAL S.A.,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 23544,Remitido,F,0272/003,0,0,21/07/2025,FELICI JORGE ARIEL,471348,30.6%,3.496.973,T,3Dw0Uk2K
 41771,3051 FRIMETAL S.A.,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 23546,Remitido,F,PPAR1048M,0,0,21/07/2025,FELICI JORGE ARIEL,471349,32.3%,190.588,T,3Dw0Uk2K
@@ -347,7 +347,9 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 41897,3089 ARNEG ARGENTINA S.A.,Parcialmente ejecutada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 23640,Remitido,F,3089/078,0,0,31/07/2025,FELICI JORGE ARIEL,477627,7.9%,870.00,T,7Rx7Ub2H
 41897,3089 ARNEG ARGENTINA S.A.,Parcialmente ejecutada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 23640,Remitido,F,3089/079,0,0,31/07/2025,FELICI JORGE ARIEL,477627,7.9%,1805.40,T,7Rx7Ub2H
 41897,3089 ARNEG ARGENTINA S.A.,Parcialmente ejecutada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 23640,Remitido,F,3089/080,0,12500,31/07/2025,FELICI JORGE ARIEL,477627,8.1%,1571.25,T,7Rx7Ub2H
+41898,12877 BRIKET SA,Facturación pendiente,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 23647,Remitido,F,0272/004,0,0,31/07/2025,FELICI JORGE ARIEL,477668,33.4%,3600.00,F,6Rp2Ce7I
 41911,9400816 MORELLI SRL,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 23639,Remitido,F,04848-90001-01,0,0,31/07/2025,RICARDO PIERONI,478448,47.2%,408.00,T,2Au6Re6F
+41914,682 MAYO TRANSFORMADORES S.R.L.,Facturación pendiente,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 23646,Remitido,F,CF512T,0,0,31/07/2025,RICARDO PIERONI,478591,73.0%,750.00,F,0We8Yn4Q
 41922,3598 DEL VALLE EMBALAJES SRL,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 23638,Remitido,F,PPAR15072T,0,0,31/07/2025,RICARDO PIERONI,479025,23.8%,825.20,T,0Ph8Mv3F
 41924,611 QUESOS DON ATILIO SA,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 23637,Remitido,F,PPA1548TE,0,0,31/07/2025,EXPRESO TAS,479308,49.2%,368.64,T,8Br5Ap2B
 41924,611 QUESOS DON ATILIO SA,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 23637,Remitido,F,PPAR15048T,0,0,31/07/2025,EXPRESO TAS,479308,55.8%,187.44,T,8Br5Ap2B
@@ -366,8 +368,6 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 41841,202 FRIGORIFICO DE AVES SOYCHU SA,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Liberada,F,PPHR1216B,0,390,04/08/2025,EXPRESO CARGO SA,475924,45.7%,393.90,,5Ow8Cg8A
 41897,3089 ARNEG ARGENTINA S.A.,Parcialmente ejecutada,Todo Aprobado,Orden de trabajo ,Cerrada,F,3089/079,0,0,04/08/2025,FELICI JORGE ARIEL,477627,7.9%,-35.40,,7Rx7Ub2H
 41897,3089 ARNEG ARGENTINA S.A.,Parcialmente ejecutada,Todo Aprobado,Orden de trabajo ,Liberada,F,3089/080,0,12500,04/08/2025,FELICI JORGE ARIEL,477627,8.1%,523.75,,7Rx7Ub2H
-41898,12877 BRIKET SA,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Ensamblada,F,0272/004,300,0,04/08/2025,FELICI JORGE ARIEL,477668,33.4%,3600.00,,6Rp2Ce7I
-41914,682 MAYO TRANSFORMADORES S.R.L.,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Ensamblada,F,CF512T,500,0,04/08/2025,RICARDO PIERONI,478591,73.0%,750.00,,0We8Yn4Q
 41635,3051 FRIMETAL S.A.,Ejecución de la orden pendiente,Todo Aprobado, ,,F,MTS548B,612,1404,05/08/2025,FELICI JORGE ARIEL,462329,31.0%,4.117.063,,3Dw0Uk2K
 41838,202 FRIGORIFICO DE AVES SOYCHU SA,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Liberada,F,PPHR1216B,0,650,05/08/2025,EXPRESO CARGO SA,475918,45.7%,656.50,,5Ow8Cg8A
 41838,202 FRIGORIFICO DE AVES SOYCHU SA,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Ensamblada,F,PVC612R,600,0,05/08/2025,EXPRESO CARGO SA,475918,43.9%,690.00,,5Ow8Cg8A
