@@ -1,10 +1,5 @@
 Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. Especial,Pedido,Artículo,Cantidad,Faltante,Fecha,Transportista,ID,GP,,,
 41593,15601 SPRAYTEC SRL,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Liberada,F,5601/001,0,360,02/07/2025,RICARDO PIERONI,459859,43.7%,936.00,,9Xa1Ax5K
-41366,143 EPTA ARGENTINA S.A.,Facturada,Todo Aprobado,Ejecución de pedido de artículo 23415,Enviado,F,0143/021,0,0,04/07/2025,FELICI JORGE ARIEL,446925,73.6%,-499.70,T,1Tu2Pr5C
-41552,4095 REFINERIA DEL CENTRO SA,Facturada,Todo Aprobado,Ejecución de pedido de artículo 23412,Enviado,F,H11/72,0,0,04/07/2025,EXPRESO SANTA ROSA,456794,35.4%,.00,T,1Bj3Wa5S
-41664,9400395 SALAZAR DIEGO ALEXIS,Facturada,Todo Aprobado,Ejecución de pedido de artículo 23416,Enviado,F,MTS518B,0,0,04/07/2025,RF TRANSPORTE SA (CREDIFIN),464248,41.3%,.00,T,2Uk9Sm3R
-41694,814 OBLAK HNOS SACIFI,Facturada,Todo Aprobado,Ejecución de pedido de artículo 23417,Enviado,F,07063-00001-24,0,0,04/07/2025,EXPRESO CARGO SA,467036,28.1%,.00,T,1Hy0Vd3I
-41719,4516 RAPECA ARGENTINA SA,Facturada,Todo Aprobado,Ejecución de pedido de artículo 23413,Enviado,F,PPA1548TE,0,0,04/07/2025,EXPRESO CARGO SA,467835,40.7%,.00,T,2Aa9Oj0E
 41630,4095 REFINERIA DEL CENTRO SA,Facturada,Todo Aprobado,Ejecución de pedido de artículo 23424,Enviado,F,PPAR1072T,0,0,07/07/2025,EXPRESO SANTA ROSA,462095,30.8%,-12.48,T,1Bj3Wa5S
 41639,812 SYSTEL SA,Facturada,Todo Aprobado,Ejecución de pedido de artículo 23418,Enviado,F,07063-00012-24,0,0,07/07/2025,EXPRESO CARGO SA,462332,56.2%,.00,T,6Ll4Vl5M
 41680,655 SWIFT SA ARGENTINA,Facturada,Todo Aprobado,Ejecución de pedido de artículo 23427,Enviado,F,CAS-PPAR10048T047,0,0,07/07/2025,FELICI JORGE ARIEL,465680,53.7%,.00,T,8Wb3Xi2L
@@ -179,8 +174,8 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 41827,3056 LABORATORIOS NOVARA SRL,Facturada,Todo Aprobado,Ejecución de pedido de artículo 23539,Enviado,F,PPAR1048T,0,0,18/07/2025,RETIRAN,475435,47.1%,.00,T,1Uf6Rl4U
 41279,3493 HASUMAC SA,Facturada,Todo Aprobado,Ejecución de pedido de artículo 23556,Enviado,F,3493/002,0,0,21/07/2025,EXPRESO CARGO SA,441758,44.4%,.00,T,0Do6Gs7X
 41337,920 DMED S.R.L.,Facturada,Todo Aprobado,Ejecución de pedido de artículo 23543,Enviado,F,0920/001,0,0,21/07/2025,RICARDO PIERONI,445855,29.8%,.00,T,8Ll4Gg3U
-41703,3089 ARNEG ARGENTINA S.A.,Parcialmente ejecutada,Todo Aprobado,Ejecución de pedido de artículo 23553,Enviado,T,3089/082,0,6250,21/07/2025,FELICI JORGE ARIEL,467260,52.2%,7812.50,T,7Rx7Ub2H
 41703,3089 ARNEG ARGENTINA S.A.,Parcialmente ejecutada,Todo Aprobado,Factura de venta 37859,Abierta,T,3089/082,0,6250,21/07/2025,FELICI JORGE ARIEL,467260,52.2%,7812.50,,7Rx7Ub2H
+41703,3089 ARNEG ARGENTINA S.A.,Parcialmente ejecutada,Todo Aprobado,Ejecución de pedido de artículo 23553,Enviado,T,3089/082,0,6250,21/07/2025,FELICI JORGE ARIEL,467260,52.2%,7812.50,T,7Rx7Ub2H
 41705,9402135 ALBERTO G MORO SRL,Facturada,Todo Aprobado,Ejecución de pedido de artículo 23552,Enviado,F,MVAQUA180,0,0,21/07/2025,EXPRESO LUJAN DEL CUYO SA,467263,34.0%,.00,T,3Ql7Hs1H
 41770,3051 FRIMETAL S.A.,Facturada,Todo Aprobado,Ejecución de pedido de artículo 23544,Enviado,F,0272/003,0,0,21/07/2025,FELICI JORGE ARIEL,471348,30.6%,.00,T,3Dw0Uk2K
 41771,3051 FRIMETAL S.A.,Facturada,Todo Aprobado,Ejecución de pedido de artículo 23546,Enviado,F,PPAR1048M,0,0,21/07/2025,FELICI JORGE ARIEL,471349,32.3%,.00,T,3Dw0Uk2K
@@ -357,7 +352,7 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 41932,3096 FRECICAR SRL,Ejecución de la orden pendiente,Todo Aprobado, ,,F,H11/48,10,0,05/08/2025,RICARDO PIERONI,479898,61.0%,250.00,,9Zc0Jy4O
 41932,3096 FRECICAR SRL,Ejecución de la orden pendiente,Todo Aprobado, ,,F,04169-00056-93,13,23,05/08/2025,RICARDO PIERONI,479898,66.1%,1260.00,,9Zc0Jy4O
 41808,4872 PAMPA GLOBAL TRADE S.A,Ejecución de la orden pendiente,Todo Aprobado, ,,F,PPAR15048T,35,13,06/08/2025,RICARDO PIERONI,473791,59.4%,816.00,,4Rs4Vh2H
-41874,9400115 BEST COLD SRL,Ejecución de la orden pendiente,Todo Aprobado, ,,F,MTP548B,72,1.548,06/08/2025,FELICI JORGE ARIEL,476698,34.6%,2997.00,,8Xq9Re2A
+41874,9400115 BEST COLD SRL,Ejecución de la orden pendiente,Todo Aprobado, ,,F,MTP548B,72,1548,06/08/2025,FELICI JORGE ARIEL,476698,34.6%,2997.00,,8Xq9Re2A
 41931,3089 ARNEG ARGENTINA S.A.,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Liberada,F,3089/016,0,10500,07/08/2025,FELICI JORGE ARIEL,479897,14.5%,684.60,,7Rx7Ub2H
 41844,9402066 URBAN NEXT SRL,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Liberada,F,4887/002,0,360,08/08/2025,EXPRESO CARGO SA,475963,45.3%,424.80,,2Mu2Vl2K
 41887,3769 GAROFOLI CONSTRUCCIONES SRL,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Liberada,F,3769/002,0,1080,08/08/2025,RODRIGUEZ HNOS. TRANSP. SA,476968,45.5%,1274.40,,7Qv9Mi1Z
@@ -390,7 +385,7 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 41883,15 IND. JOHN DEERE ARGENTINA S.A.,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Liberada,F,0015/008,0,300,26/08/2025,FELICI JORGE ARIEL,476715,73.3%,3210.00,,8Ky5Hq9D
 41884,15 IND. JOHN DEERE ARGENTINA S.A.,Ejecución de la orden pendiente,Todo Aprobado, ,,F,LC579,1200,0,26/08/2025,FELICI JORGE ARIEL,476717,54.5%,396.00,,8Ky5Hq9D
 41811,94010 VISUAR SA,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Liberada,F,1823/002,0,192,03/09/2025,EXPRESO CARGO SA,474182,44.8%,5475.84,,4Gf8Oa0H
-41875,9400115 BEST COLD SRL,Ejecución de la orden pendiente,Todo Aprobado, ,,F,MTP548B,0,1620,04/09/2025,FELICI JORGE ARIEL,476699,34.6%,2997.00,,8Xq9Re2A
+41875,9400115 BEST COLD SRL,Ejecución de la orden pendiente,Todo Aprobado, ,,F,MTP548B,0,1.620,04/09/2025,FELICI JORGE ARIEL,476699,34.6%,2997.00,,8Xq9Re2A
 41880,1029 DREAN SA,Ejecución de la orden pendiente,Todo Aprobado, ,,F,MTP548B,0,504,04/09/2025,EXPRESO CARGO SA,476707,36.6%,962.64,,6Ng7Hp1X
 41282,583 TERRAGENE SA,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Liberada,F,04965-00014-00,0,150,11/09/2025,FELICI GERARDO FABIAN,441859,42.1%,7500.00,,5Pl6Eg8H
 41843,202 FRIGORIFICO DE AVES SOYCHU SA,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Ensamblada,F,PVC612R,255,0,22/09/2025,EXPRESO CARGO SA,475927,43.9%,293.25,,5Ow8Cg8A
