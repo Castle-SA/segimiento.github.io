@@ -250,8 +250,7 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 41869,3051 FRIMETAL S.A.,Facturada,Todo Aprobado,Ejecución de pedido de artículo 23612,Enviado,F,PPAR1048M,0,0,28/07/2025,FELICI JORGE ARIEL,476647,32.3%,.00,T,3Dw0Uk2K
 41869,3051 FRIMETAL S.A.,Facturada,Todo Aprobado,Ejecución de pedido de artículo 23612,Enviado,F,3051/011,0,0,28/07/2025,FELICI JORGE ARIEL,476647,59.1%,.00,T,3Dw0Uk2K
 41870,4095 REFINERIA DEL CENTRO SA,Facturada,Todo Aprobado,Ejecución de pedido de artículo 23602,Enviado,F,PPAR1072T,0,0,28/07/2025,EXPRESO SANTA ROSA,476651,30.8%,-12.48,T,1Bj3Wa5S
-41871,4095 REFINERIA DEL CENTRO SA,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Liberada,F,CAS-PPHR10048XT045,0,108,28/07/2025,EXPRESO SANTA ROSA,476658,38.3%,1533.60,,1Bj3Wa5S
-41871,4095 REFINERIA DEL CENTRO SA,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Liberada,F,CAS-PPAR10072T045,0,120,28/07/2025,EXPRESO SANTA ROSA,476658,62.3%,1476.00,,1Bj3Wa5S
+41871,4095 REFINERIA DEL CENTRO SA,Facturación pendiente/parcialmente ejecutada,Todo Aprobado,Orden de trabajo ,Liberada,F,CAS-PPHR10048XT045,0,108,28/07/2025,EXPRESO SANTA ROSA,476658,38.3%,1533.60,,1Bj3Wa5S
 41876,34 ARGENTAL S.A.I.C.,Facturada,Todo Aprobado,Ejecución de pedido de artículo 23603,Enviado,F,VCI420,0,0,28/07/2025,FELICI JORGE ARIEL,476700,55.4%,.00,T,7Rh7In1Q
 41879,9402018 FARMACIA LA FRANCO SOCIEDAD DE RESPONSABILIDAD LIMITADA,Facturada,Todo Aprobado,Ejecución de pedido de artículo 23599,Enviado,F,PPAR1048T,0,0,28/07/2025,TRANSPORTE TOMASSINI,476705,52.6%,.00,T,4Xz9An3R
 41881,15 IND. JOHN DEERE ARGENTINA S.A.,Facturada,Todo Aprobado,Ejecución de pedido de artículo 23613,Enviado,F,04169-00057-93,0,0,28/07/2025,FELICI JORGE ARIEL,476709,52.3%,.00,T,8Ky5Hq9D
@@ -336,8 +335,8 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 41931,3089 ARNEG ARGENTINA S.A.,Facturada,Todo Aprobado,Ejecución de pedido de artículo 23667,Enviado,F,3089/016,0,0,04/08/2025,FELICI JORGE ARIEL,479897,14.5%,.00,T,7Rx7Ub2H
 41932,3096 FRECICAR SRL,Parcialmente ejecutada,Todo Aprobado,Ejecución de pedido de artículo 23662,Enviado,T,CAS-PPAR1048T043,0,0,04/08/2025,RICARDO PIERONI,479898,47.7%,.00,T,9Zc0Jy4O
 41932,3096 FRECICAR SRL,Parcialmente ejecutada,Todo Aprobado,Ejecución de pedido de artículo 23662,Enviado,T,H11/48,0,0,04/08/2025,RICARDO PIERONI,479898,61.0%,.00,T,9Zc0Jy4O
-41932,3096 FRECICAR SRL,Parcialmente ejecutada,Todo Aprobado,Factura de venta 37976,Abierta,T,04169-00056-93,0,23,04/08/2025,RICARDO PIERONI,479898,66.1%,805.00,,9Zc0Jy4O
 41932,3096 FRECICAR SRL,Parcialmente ejecutada,Todo Aprobado,Ejecución de pedido de artículo 23662,Enviado,T,04169-00056-93,0,23,04/08/2025,RICARDO PIERONI,479898,66.1%,805.00,T,9Zc0Jy4O
+41932,3096 FRECICAR SRL,Parcialmente ejecutada,Todo Aprobado,Factura de venta 37976,Abierta,T,04169-00056-93,0,23,04/08/2025,RICARDO PIERONI,479898,66.1%,805.00,,9Zc0Jy4O
 41934,1606 DANES SRL,Facturada,Todo Aprobado,Ejecución de pedido de artículo 23653,Enviado,F,MTS536B,0,0,04/08/2025,RETIRAN,480047,40.0%,-55.80,T,1Km7Ai4M
 41937,9400182 IDRIS PATAGONIA SA,Facturada,Todo Aprobado,Ejecución de pedido de artículo 23657,Enviado,F,CAS-PPAR1048T043,0,0,04/08/2025,TRANSPORTE CRUZ DEL SUR SA,480201,39.0%,.00,T,7Wz3Al6N
 41939,2825 IMPACK SA,Facturada,Todo Aprobado,Ejecución de pedido de artículo 23666,Enviado,F,MF550T,0,0,04/08/2025,RETIRAN,480450,62.7%,.00,T,0No5Ey8F
@@ -353,6 +352,7 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 41945,9400945 LAMED S.A.,Facturada,Todo Aprobado,Ejecución de pedido de artículo 23673,Enviado,F,PPAR1072T,0,0,05/08/2025,RICARDO PIERONI,480733,41.5%,.00,T,9Dw9Wh0V
 41946,15294 PROMAPLA SRL,Facturada,Todo Aprobado,Ejecución de pedido de artículo 23674,Enviado,F,PPAR1072T,0,0,05/08/2025,RICARDO PIERONI,480734,41.5%,.00,T,6Hd9Bz5N
 41949,9400309 MENOYO S.A.,Ejecución de la orden pendiente,Todo Aprobado, ,,F,PPAR10048T,162,0,05/08/2025,EXPRESO CARGO SA,480968,40.1%,1402.92,,5Se1Tb7J
+41871,4095 REFINERIA DEL CENTRO SA,Facturación pendiente/parcialmente ejecutada,Todo Aprobado,Ejecución de pedido de artículo 23680,Enviado,F,PPAR10072T,4,20,06/08/2025,EXPRESO SANTA ROSA,476658,33.5%,295.20,F,1Bj3Wa5S
 41905,9402290 BI MERCANTIL SAS,Facturación pendiente,Todo Aprobado,Ejecución de pedido de artículo 23678,Enviado,F,CAS-PPAR1048T040,0,0,06/08/2025,TRANSPORTE MOSTTO,478013,46.4%,.00,F,6Cx3Az0M
 41953,3255 JOSE LLENES SACIF,Facturación pendiente,Todo Aprobado,Ejecución de pedido de artículo 23679,Enviado,F,CAS-PPAR1048T043,0,0,06/08/2025,EXPRESO CARGO SA,480975,38.9%,.00,F,8Uz0Uq7T
 41962,1171 AUTOSAL SA,Ejecución de la orden pendiente,Todo Aprobado, ,,F,MUESTRA ESPECIAL,2,0,06/08/2025,RETIRAN,481248,0.0%,.00,,2Uv7Bb0L
