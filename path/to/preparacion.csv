@@ -325,8 +325,8 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 41841,202 FRIGORIFICO DE AVES SOYCHU SA,Parcialmente ejecutada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 23661,Remitido,F,PVC612R,0,0,04/08/2025,EXPRESO CARGO SA,475924,43.9%,293.25,T,5Ow8Cg8A
 41849,814 OBLAK HNOS SACIFI,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 23655,Remitido,F,07063-00001-24,0,0,04/08/2025,EXPRESO CARGO SA,476137,29.6%,1222.50,T,1Hy0Vd3I
 41861,9400444 CRONI SA,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 23656,Remitido,F,PPHR15048XT,0,0,04/08/2025,EXPRESO BRIO SRL,476623,44.3%,2482.80,T,0Rx5Fn3N
-41874,9400115 BEST COLD SRL,Parcialmente ejecutada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 23663,Remitido,F,MTP548B,72,1404,04/08/2025,FELICI JORGE ARIEL,476698,34.6%,133.20,T,8Xq9Re2A
 41874,9400115 BEST COLD SRL,Parcialmente ejecutada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 23659,Remitido,F,MTP548B,72,1404,04/08/2025,FELICI JORGE ARIEL,476698,34.6%,133.20,T,8Xq9Re2A
+41874,9400115 BEST COLD SRL,Parcialmente ejecutada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 23663,Remitido,F,MTP548B,72,1404,04/08/2025,FELICI JORGE ARIEL,476698,34.6%,133.20,T,8Xq9Re2A
 41874,9400115 BEST COLD SRL,Parcialmente ejecutada,Todo Aprobado,Factura de venta 37971,Abierta,F,MTP548B,72,1404,04/08/2025,FELICI JORGE ARIEL,476698,34.6%,2730.60,,8Xq9Re2A
 41897,3089 ARNEG ARGENTINA S.A.,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 23668,Remitido,F,3089/080,0,0,04/08/2025,FELICI JORGE ARIEL,477627,8.1%,523.75,T,7Rx7Ub2H
 41903,1531 PAPELTECNICA SAIC,Parcialmente ejecutada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 23665,Remitido,F,CAS-PPA1048T040,0,0,04/08/2025,FELICI JORGE ARIEL,478011,45.9%,61.56,T,6Tm5Az5M
@@ -353,6 +353,7 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 41945,9400945 LAMED S.A.,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 23673,Remitido,F,PPAR1072T,0,0,05/08/2025,RICARDO PIERONI,480733,41.5%,177.12,T,9Dw9Wh0V
 41946,15294 PROMAPLA SRL,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 23674,Remitido,F,PPAR1072T,0,0,05/08/2025,RICARDO PIERONI,480734,41.5%,177.12,T,6Hd9Bz5N
 41949,9400309 MENOYO S.A.,Ejecución de la orden pendiente,Todo Aprobado, ,,F,PPAR10048T,162,0,05/08/2025,EXPRESO CARGO SA,480968,40.1%,1402.92,,5Se1Tb7J
+41905,9402290 BI MERCANTIL SAS,Facturación pendiente,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 23678,Remitido,F,CAS-PPAR1048T040,0,0,06/08/2025,TRANSPORTE MOSTTO,478013,46.4%,226.80,F,6Cx3Az0M
 41953,3255 JOSE LLENES SACIF,Ejecución de la orden pendiente,Todo Aprobado, ,,F,CAS-PPAR1048T043,360,0,06/08/2025,EXPRESO CARGO SA,480975,38.9%,277.20,,8Uz0Uq7T
 41962,1171 AUTOSAL SA,Ejecución de la orden pendiente,Todo Aprobado, ,,F,MUESTRA ESPECIAL,2,0,06/08/2025,RETIRAN,481248,0.0%,.00,,2Uv7Bb0L
 41964,4636 FRIGORIFICO BERMEJO SA,Facturación pendiente,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 23677,Remitido,F,CAS-PPAR1048T043,0,0,06/08/2025,LA SEVILLANITA SRL,481250,41.2%,1440.00,F,6Hl2Oa7U
@@ -422,6 +423,5 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 41841,202 FRIGORIFICO DE AVES SOYCHU SA,Parcialmente ejecutada,Todo Aprobado,Orden de trabajo ,Liberada,F,PPHR1216B,0,390,,EXPRESO CARGO SA,475924,45.7%,393.90,,5Ow8Cg8A
 41844,9402066 URBAN NEXT SRL,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Liberada,F,4887/002,0,360,,EXPRESO CARGO SA,475963,45.3%,424.80,,2Mu2Vl2K
 41859,433 MOLLON SA,Parcialmente ejecutada,Todo Aprobado,Orden de trabajo ,En curso,F,PPHR1216B,0,180,,EXPRESO CARGO SA,476595,50.1%,198.00,,3Gj7Vu0K
-41905,9402290 BI MERCANTIL SAS,Ejecución de la orden pendiente,Todo Aprobado, ,,F,CAS-PPAR1048T040,360,0,,TRANSPORTE MOSTTO,478013,46.4%,226.80,,6Cx3Az0M
 41906,1736 COMPANY SPY SRL,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Liberada,F,1736/002,0,360,,RICARDO PIERONI,478014,53.9%,576.00,,7Xr0Sq4A
 41916,3646 EDUARDO STERTZ E HIJOS SRL,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Liberada,F,PPHR1216B,0,216,,TRANSPORTE AGUILAR S.R.L.,478794,50.2%,237.60,,8Mc1Gw5Y
