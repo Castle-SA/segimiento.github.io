@@ -85,8 +85,8 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 41767,674 KRETZ SA,Parcialmente ejecutada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 23488,Remitido,F,MF525T,0,0,15/07/2025,EXPRESO BRIO SRL,470997,88.2%,193.80,T,0Io3Fg7R
 41767,674 KRETZ SA,Parcialmente ejecutada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 23488,Remitido,F,PPAR1072T,0,0,15/07/2025,EXPRESO BRIO SRL,470997,43.3%,152.40,T,0Io3Fg7R
 41785,3086 MULTIORIGINAL PARTS SA,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 23486,Remitido,F,PPAR1048T,0,0,15/07/2025,TRANSPORTE TOMASSINI,472019,43.8%,576.00,T,1Fr4Ch9I
-41787,279 HONDA MOTOR DE ARGENTINA S.A.,Parcialmente ejecutada,Todo Aprobado,Factura de venta 37804,Pagado por completo,T,04169-00058-93,0,10,15/07/2025,EXPRESO CARGO SA,472200,41.3%,208.70,,1Rf6Ez5C
 41787,279 HONDA MOTOR DE ARGENTINA S.A.,Parcialmente ejecutada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 23494,Remitido,T,04169-00058-93,0,10,15/07/2025,EXPRESO CARGO SA,472200,41.3%,834.80,T,1Rf6Ez5C
+41787,279 HONDA MOTOR DE ARGENTINA S.A.,Parcialmente ejecutada,Todo Aprobado,Factura de venta 37804,Pagado por completo,T,04169-00058-93,0,10,15/07/2025,EXPRESO CARGO SA,472200,41.3%,208.70,,1Rf6Ez5C
 41798,9402909 EL ALMACEN SRL,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 23498,Remitido,F,CAS-PPAR1048T043,0,0,15/07/2025,RETIRAN,473522,47.0%,192.24,T,
 41799,9402909 EL ALMACEN SRL,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 23499,Remitido,F,CAS-PPAR1048T043,0,0,15/07/2025,RETIRAN,473523,47.0%,192.24,T,
 41254,5019 GRANJA TRES ARROYOS SACAFEI,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 23512,Remitido,T,5019/003,0,0,16/07/2025,EXPRESO CARGO SA,439824,61.8%,355.20,T,0Ql9Gi1V
@@ -311,9 +311,9 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 41841,202 FRIGORIFICO DE AVES SOYCHU SA,Parcialmente ejecutada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 23661,Remitido,F,PVC612R,0,0,04/08/2025,EXPRESO CARGO SA,475924,43.9%,293.25,T,5Ow8Cg8A
 41849,814 OBLAK HNOS SACIFI,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 23655,Remitido,F,07063-00001-24,0,0,04/08/2025,EXPRESO CARGO SA,476137,29.6%,1222.50,T,1Hy0Vd3I
 41861,9400444 CRONI SA,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 23656,Remitido,F,PPHR15048XT,0,0,04/08/2025,EXPRESO BRIO SRL,476623,44.3%,2482.80,T,0Rx5Fn3N
-41874,9400115 BEST COLD SRL,Parcialmente ejecutada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 23663,Remitido,F,MTP548B,72,1404,04/08/2025,FELICI JORGE ARIEL,476698,34.6%,133.20,T,8Xq9Re2A
 41874,9400115 BEST COLD SRL,Parcialmente ejecutada,Todo Aprobado,Factura de venta 37971,Abierta,F,MTP548B,72,1404,04/08/2025,FELICI JORGE ARIEL,476698,34.6%,2730.60,,8Xq9Re2A
 41874,9400115 BEST COLD SRL,Parcialmente ejecutada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 23659,Remitido,F,MTP548B,72,1404,04/08/2025,FELICI JORGE ARIEL,476698,34.6%,133.20,T,8Xq9Re2A
+41874,9400115 BEST COLD SRL,Parcialmente ejecutada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 23663,Remitido,F,MTP548B,72,1404,04/08/2025,FELICI JORGE ARIEL,476698,34.6%,133.20,T,8Xq9Re2A
 41897,3089 ARNEG ARGENTINA S.A.,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 23668,Remitido,F,3089/080,0,0,04/08/2025,FELICI JORGE ARIEL,477627,8.1%,523.75,T,7Rx7Ub2H
 41903,1531 PAPELTECNICA SAIC,Parcialmente ejecutada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 23665,Remitido,F,CAS-PPA1048T040,0,0,04/08/2025,FELICI JORGE ARIEL,478011,45.9%,61.56,T,6Tm5Az5M
 41903,1531 PAPELTECNICA SAIC,Parcialmente ejecutada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 23665,Remitido,F,MTS524B,0,0,04/08/2025,FELICI JORGE ARIEL,478011,28.3%,72.00,T,6Tm5Az5M
@@ -342,8 +342,8 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 41899,12877 BRIKET SA,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 23683,Remitido,F,0272/004,0,0,06/08/2025,FELICI JORGE ARIEL,477669,33.4%,3600.00,T,6Rp2Ce7I
 41905,9402290 BI MERCANTIL SAS,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 23678,Remitido,F,CAS-PPAR1048T040,0,0,06/08/2025,TRANSPORTE MOSTTO,478013,46.4%,226.80,T,6Cx3Az0M
 41910,9400609 PAN S COMPANY SA,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 23690,Remitido,F,PPHR15048XT,0,0,06/08/2025,EXPRESO CARGO SA,478267,43.8%,1096.20,T,9Qb8Fy5U
-41912,9400816 MORELLI SRL,Parcialmente ejecutada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 23688,Remitido,F,MTS548B,0,288,06/08/2025,RICARDO PIERONI,478589,27.0%,144.00,T,2Au6Re6F
 41912,9400816 MORELLI SRL,Parcialmente ejecutada,Todo Aprobado,Factura de venta 37998,Abierta,F,MTS548B,0,288,06/08/2025,RICARDO PIERONI,478589,27.0%,576.00,,2Au6Re6F
+41912,9400816 MORELLI SRL,Parcialmente ejecutada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 23688,Remitido,F,MTS548B,0,288,06/08/2025,RICARDO PIERONI,478589,27.0%,144.00,T,2Au6Re6F
 41938,9400962 CRYSTAL-ICE SRL,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 23689,Remitido,F,9400962/002,0,0,06/08/2025,RICARDO PIERONI,480346,33.0%,676.80,T,4Is2Rn8E
 41949,9400309 MENOYO S.A.,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 23685,Remitido,F,PPAR10048T,0,0,06/08/2025,EXPRESO CARGO SA,480968,40.1%,1402.92,T,5Se1Tb7J
 41953,3255 JOSE LLENES SACIF,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 23679,Remitido,F,CAS-PPAR1048T043,0,0,06/08/2025,EXPRESO CARGO SA,480975,38.9%,277.20,T,8Uz0Uq7T
