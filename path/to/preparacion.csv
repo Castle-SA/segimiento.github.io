@@ -280,9 +280,9 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 41841,202 FRIGORIFICO DE AVES SOYCHU SA,Parcialmente ejecutada,Todo Aprobado,Ejecución de pedido de artículo 23661,Enviado,F,PVC612R,0,0,04/08/2025,EXPRESO CARGO SA,475924,43.9%,.00,T,5Ow8Cg8A
 41849,814 OBLAK HNOS SACIFI,Facturada,Todo Aprobado,Ejecución de pedido de artículo 23655,Enviado,F,07063-00001-24,0,0,04/08/2025,EXPRESO CARGO SA,476137,29.6%,.00,T,1Hy0Vd3I
 41861,9400444 CRONI SA,Facturada,Todo Aprobado,Ejecución de pedido de artículo 23656,Enviado,F,PPHR15048XT,0,0,04/08/2025,EXPRESO BRIO SRL,476623,44.3%,.00,T,0Rx5Fn3N
+41874,9400115 BEST COLD SRL,Parcialmente ejecutada,Todo Aprobado,Ejecución de pedido de artículo 23663,Enviado,F,MTP548B,72,1.404,04/08/2025,FELICI JORGE ARIEL,476698,34.6%,2730.60,T,8Xq9Re2A
 41874,9400115 BEST COLD SRL,Parcialmente ejecutada,Todo Aprobado,Ejecución de pedido de artículo 23659,Enviado,F,MTP548B,72,1.404,04/08/2025,FELICI JORGE ARIEL,476698,34.6%,2730.60,T,8Xq9Re2A
 41874,9400115 BEST COLD SRL,Parcialmente ejecutada,Todo Aprobado,Factura de venta 37971,Abierta,F,MTP548B,72,1.404,04/08/2025,FELICI JORGE ARIEL,476698,34.6%,2730.60,,8Xq9Re2A
-41874,9400115 BEST COLD SRL,Parcialmente ejecutada,Todo Aprobado,Ejecución de pedido de artículo 23663,Enviado,F,MTP548B,72,1.404,04/08/2025,FELICI JORGE ARIEL,476698,34.6%,2730.60,T,8Xq9Re2A
 41897,3089 ARNEG ARGENTINA S.A.,Facturada,Todo Aprobado,Ejecución de pedido de artículo 23668,Enviado,F,3089/080,0,0,04/08/2025,FELICI JORGE ARIEL,477627,8.1%,.00,T,7Rx7Ub2H
 41903,1531 PAPELTECNICA SAIC,Parcialmente ejecutada,Todo Aprobado,Ejecución de pedido de artículo 23665,Enviado,F,CAS-PPA1048T040,0,0,04/08/2025,FELICI JORGE ARIEL,478011,45.9%,.00,T,6Tm5Az5M
 41903,1531 PAPELTECNICA SAIC,Parcialmente ejecutada,Todo Aprobado,Ejecución de pedido de artículo 23665,Enviado,F,MTS524B,0,0,04/08/2025,FELICI JORGE ARIEL,478011,28.3%,.00,T,6Tm5Az5M
@@ -310,7 +310,7 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 41899,12877 BRIKET SA,Facturada,Todo Aprobado,Ejecución de pedido de artículo 23683,Enviado,F,0272/004,0,0,06/08/2025,FELICI JORGE ARIEL,477669,33.4%,.00,T,6Rp2Ce7I
 41905,9402290 BI MERCANTIL SAS,Facturada,Todo Aprobado,Ejecución de pedido de artículo 23678,Enviado,F,CAS-PPAR1048T040,0,0,06/08/2025,TRANSPORTE MOSTTO,478013,46.4%,.00,T,6Cx3Az0M
 41910,9400609 PAN S COMPANY SA,Facturada,Todo Aprobado,Ejecución de pedido de artículo 23690,Enviado,F,PPHR15048XT,0,0,06/08/2025,EXPRESO CARGO SA,478267,43.8%,.00,T,9Qb8Fy5U
-41912,9400816 MORELLI SRL,Parcialmente ejecutada,Todo Aprobado,Ejecución de pedido de artículo 23688,Enviado,F,MTS548B,288,0,06/08/2025,RICARDO PIERONI,478589,27.0%,576.00,T,2Au6Re6F
+41912,9400816 MORELLI SRL,Facturación pendiente,Todo Aprobado,Ejecución de pedido de artículo 23688,Enviado,F,MTS548B,0,0,06/08/2025,RICARDO PIERONI,478589,27.0%,.00,T,2Au6Re6F
 41938,9400962 CRYSTAL-ICE SRL,Facturada,Todo Aprobado,Ejecución de pedido de artículo 23689,Enviado,F,9400962/002,0,0,06/08/2025,RICARDO PIERONI,480346,33.0%,.00,T,4Is2Rn8E
 41949,9400309 MENOYO S.A.,Facturada,Todo Aprobado,Ejecución de pedido de artículo 23685,Enviado,F,PPAR10048T,0,0,06/08/2025,EXPRESO CARGO SA,480968,40.1%,.00,T,5Se1Tb7J
 41952,1171 AUTOSAL SA,Ejecución de la orden pendiente,Todo Aprobado, ,,F,74662-00003-01,48,0,06/08/2025,RETIRAN,480973,41.9%,794.40,,2Uv7Bb0L
@@ -365,8 +365,10 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 41767,674 KRETZ SA,Facturación pendiente,Todo Aprobado,Ejecución de pedido de artículo 23724,Enviado,F,0674/002,0,0,11/08/2025,EXPRESO BRIO SRL,470997,36.7%,.00,F,0Io3Fg7R
 41783,9400962 CRYSTAL-ICE SRL,Parcialmente ejecutada,Todo Aprobado,Ejecución de pedido de artículo 23723,Enviado,F,CAS-PPA1048T040,0,1920,11/08/2025,RICARDO PIERONI,471799,43.8%,1056.00,T,4Is2Rn8E
 41787,279 HONDA MOTOR DE ARGENTINA S.A.,Facturada,Todo Aprobado,Ejecución de pedido de artículo 23716,Enviado,T,04169-00058-93,0,0,11/08/2025,EXPRESO CARGO SA,472200,41.3%,.00,T,1Rf6Ez5C
+41844,9402066 URBAN NEXT SRL,Facturación pendiente,Todo Aprobado,Ejecución de pedido de artículo 23728,Enviado,F,4887/002,0,0,11/08/2025,EXPRESO CARGO SA,475963,45.3%,.00,F,2Mu2Vl2K
 41882,15 IND. JOHN DEERE ARGENTINA S.A.,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Ensamblada,F,0015/008,300,0,11/08/2025,FELICI JORGE ARIEL,476710,73.3%,3210.00,,8Ky5Hq9D
 41887,3769 GAROFOLI CONSTRUCCIONES SRL,Facturada,Todo Aprobado,Ejecución de pedido de artículo 23708,Enviado,F,3769/002,0,0,11/08/2025,RODRIGUEZ HNOS. TRANSP. SA,476968,45.5%,.00,T,7Qv9Mi1Z
+41912,9400816 MORELLI SRL,Facturación pendiente,Todo Aprobado,Ejecución de pedido de artículo 23727,Enviado,F,MTS548B,0,0,11/08/2025,RICARDO PIERONI,478589,27.0%,.00,F,2Au6Re6F
 41932,3096 FRECICAR SRL,Facturada,Todo Aprobado,Ejecución de pedido de artículo 23718,Enviado,T,04169-00056-93,0,0,11/08/2025,RICARDO PIERONI,479898,66.1%,.00,T,9Zc0Jy4O
 41948,9402942 CABAÑA EL FORTIN S.A.,Parcialmente ejecutada,Todo Aprobado,Orden de trabajo ,Liberada,F,PPHR1216B,0,108,11/08/2025,TRANSPORTE ITALIA SRL,480966,60.6%,150.12,,
 41969,3089 ARNEG ARGENTINA S.A.,Facturada,Todo Aprobado,Ejecución de pedido de artículo 23714,Enviado,F,PER3040U,0,0,11/08/2025,RICARDO PIERONI,481827,69.9%,.00,T,7Rx7Ub2H
@@ -378,8 +380,8 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 41989,4586 LIGNUM SA,Facturación pendiente,Todo Aprobado,Ejecución de pedido de artículo 23719,Enviado,F,PVC618R,0,0,11/08/2025,TRANSPORTE CRUZ DEL SUR SA,483188,65.2%,.00,F,7Cb8Sw3V
 41992,3086 MULTIORIGINAL PARTS SA,Facturada,Todo Aprobado,Ejecución de pedido de artículo 23712,Enviado,F,CAS-PPAR1048T043,0,0,11/08/2025,EXPRESO BRIO SRL,483439,41.2%,.00,T,1Fr4Ch9I
 41993,4353 SMOVIR LUIS ALBERTO  SMOVIR ERNESTO SMOVIR EDUARDO SH,Facturación pendiente,Todo Aprobado,Ejecución de pedido de artículo 23725,Enviado,F,PPAR1048M,0,0,11/08/2025,EXPRESO LUJAN DEL CUYO SA,483440,32.3%,.00,F,9Aq0Ft5G
-41994,5098 BOR UR SRL,Ejecución de la orden pendiente,Todo Aprobado, ,,F,PPA1548TE,1800,0,11/08/2025,RETIRAN,483541,43.5%,2070.00,,4Py6Ze4H
-41994,5098 BOR UR SRL,Ejecución de la orden pendiente,Todo Aprobado, ,,F,H11/CPE,5,0,11/08/2025,RETIRAN,483541,0.0%,.00,,4Py6Ze4H
+41994,5098 BOR UR SRL,Facturación pendiente,Todo Aprobado,Ejecución de pedido de artículo 23726,Enviado,F,PPA1548TE,0,0,11/08/2025,RETIRAN,483541,43.5%,.00,F,4Py6Ze4H
+41994,5098 BOR UR SRL,Facturación pendiente,Todo Aprobado,Ejecución de pedido de artículo 23726,Enviado,F,H11/CPE,0,0,11/08/2025,RETIRAN,483541,0.0%,.00,F,4Py6Ze4H
 41995,1067 DIPAC SA,Facturada,Todo Aprobado,Ejecución de pedido de artículo 23710,Enviado,F,CAS-PPAR1048T043,0,0,11/08/2025,RICARDO PIERONI,483655,52.0%,.00,T,9Tj7Li2O
 41996,569 CONAM SRL,Facturada,Todo Aprobado,Ejecución de pedido de artículo 23721,Enviado,F,MTS572B,0,0,11/08/2025,EXPRESO CARGO SA,483834,18.2%,.00,T,5Ko0Ey7A
 42004,2561 LAGOMARSINO SA,Facturada,Todo Aprobado,Ejecución de pedido de artículo 23715,Enviado,F,CAS-PPAR1048T043,0,0,11/08/2025,EXPRESO CARGO SA,484211,41.1%,.00,T,0Tn2Lb2H
@@ -432,7 +434,6 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 41819,763 HIJOS DE GARBER SRL,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Liberada,F,PPHR1216B,0,540,,EXPRESO CARGO SA,474980,50.1%,594.00,,0Zw3Xq6V
 41838,202 FRIGORIFICO DE AVES SOYCHU SA,Parcialmente ejecutada,Todo Aprobado,Orden de trabajo ,Liberada,F,PPHR1216B,0,650,,EXPRESO CARGO SA,475918,45.7%,656.50,,5Ow8Cg8A
 41841,202 FRIGORIFICO DE AVES SOYCHU SA,Parcialmente ejecutada,Todo Aprobado,Orden de trabajo ,Liberada,F,PPHR1216B,0,390,,EXPRESO CARGO SA,475924,45.7%,393.90,,5Ow8Cg8A
-41844,9402066 URBAN NEXT SRL,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Liberada,F,4887/002,0,360,,EXPRESO CARGO SA,475963,45.3%,424.80,,2Mu2Vl2K
 41859,433 MOLLON SA,Parcialmente ejecutada,Todo Aprobado,Orden de trabajo ,En curso,F,PPHR1216B,0,180,,EXPRESO CARGO SA,476595,50.1%,198.00,,3Gj7Vu0K
 41889,1171 AUTOSAL SA,Ejecución de la orden pendiente,Todo Aprobado, ,,F,74662-00003-01,50,0,,EXPRESO CARGO SA,477384,40.8%,827.50,,2Uv7Bb0L
 41889,1171 AUTOSAL SA,Ejecución de la orden pendiente,Todo Aprobado, ,,F,74662-00002-00,50,0,,EXPRESO CARGO SA,477384,46.3%,827.50,,2Uv7Bb0L
