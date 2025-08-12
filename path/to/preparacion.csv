@@ -278,8 +278,8 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 41841,202 FRIGORIFICO DE AVES SOYCHU SA,Parcialmente ejecutada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 23661,Remitido,F,PVC612R,0,0,04/08/2025,EXPRESO CARGO SA,475924,43.9%,293.25,T,5Ow8Cg8A
 41849,814 OBLAK HNOS SACIFI,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 23655,Remitido,F,07063-00001-24,0,0,04/08/2025,EXPRESO CARGO SA,476137,29.6%,1222.50,T,1Hy0Vd3I
 41861,9400444 CRONI SA,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 23656,Remitido,F,PPHR15048XT,0,0,04/08/2025,EXPRESO BRIO SRL,476623,44.3%,2482.80,T,0Rx5Fn3N
-41874,9400115 BEST COLD SRL,Parcialmente ejecutada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 23659,Remitido,F,MTP548B,72,1.404,04/08/2025,FELICI JORGE ARIEL,476698,34.6%,133.20,T,8Xq9Re2A
-41874,9400115 BEST COLD SRL,Parcialmente ejecutada,Todo Aprobado,Factura de venta 37971,Abierta,F,MTP548B,72,1404,04/08/2025,FELICI JORGE ARIEL,476698,34.6%,2730.60,,8Xq9Re2A
+41874,9400115 BEST COLD SRL,Parcialmente ejecutada,Todo Aprobado,Factura de venta 37971,Abierta,F,MTP548B,72,1.404,04/08/2025,FELICI JORGE ARIEL,476698,34.6%,2730.60,,8Xq9Re2A
+41874,9400115 BEST COLD SRL,Parcialmente ejecutada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 23659,Remitido,F,MTP548B,72,1404,04/08/2025,FELICI JORGE ARIEL,476698,34.6%,133.20,T,8Xq9Re2A
 41874,9400115 BEST COLD SRL,Parcialmente ejecutada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 23663,Remitido,F,MTP548B,72,1404,04/08/2025,FELICI JORGE ARIEL,476698,34.6%,133.20,T,8Xq9Re2A
 41897,3089 ARNEG ARGENTINA S.A.,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 23668,Remitido,F,3089/080,0,0,04/08/2025,FELICI JORGE ARIEL,477627,8.1%,523.75,T,7Rx7Ub2H
 41903,1531 PAPELTECNICA SAIC,Parcialmente ejecutada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 23665,Remitido,F,CAS-PPA1048T040,0,0,04/08/2025,FELICI JORGE ARIEL,478011,45.9%,61.56,T,6Tm5Az5M
@@ -407,6 +407,7 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 42028,17046 SUPER S A SOC URUGUAYENSE DE PRODUCTORES DE ENTRE RIOS SOC ANON,Ejecución de la orden pendiente,Todo Aprobado, ,,F,CAS-PPAR1072T043,0,144,14/08/2025,EXPRESO CARGO SA,485440,47.8%,197.28,,0Qu5Fi8T
 42030,3089 ARNEG ARGENTINA S.A.,Ejecución de la orden pendiente,Todo Aprobado, ,,F,3089/019,800,200,14/08/2025,RICARDO PIERONI,485541,76.4%,700.00,,7Rx7Ub2H
 42030,3089 ARNEG ARGENTINA S.A.,Ejecución de la orden pendiente,Todo Aprobado, ,,F,3089/086,0,2000,14/08/2025,RICARDO PIERONI,485541,70.8%,360.00,,7Rx7Ub2H
+42031,4329 COMPANIA ELABORADORA DE PASTAS SA,Ejecución de la orden pendiente,Todo Aprobado, ,,F,PPAR15048T,0,6,14/08/2025,RETIRAN,485542,65.3%,119.40,,0Un8Nt2U
 42033,9400066 XEITOSIÑO SA,Ejecución de la orden pendiente,Todo Aprobado, ,,F,CAS-PPAR1072T043,0,3000,14/08/2025,TRANSPORTE TOMASSINI,485673,38.3%,3480.00,,2Wy4Vz4B
 42034,9400066 XEITOSIÑO SA,Ejecución de la orden pendiente,Todo Aprobado, ,,F,CAS-PPAR1072T043,0,4200,14/08/2025,TRANSPORTE TOMASSINI,485784,38.3%,4872.00,,2Wy4Vz4B
 41908,9400100 ABBOUD MARCELO BANAIOT,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Liberada,F,CAS-PPA1048T040,0,16200,15/08/2025,EXPRESO CARGO SA,478155,38.4%,8100.00,,5Pj9Xf1N
@@ -444,6 +445,7 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 41880,1029 DREAN SA,Ejecución de la orden pendiente,Todo Aprobado, ,,F,MTP548B,0,504,04/09/2025,EXPRESO CARGO SA,476707,36.6%,962.64,,6Ng7Hp1X
 41950,1386 FRIGORIFICO PALADINI SA,Ejecución de la orden pendiente,Todo Aprobado, ,,F,CAS-PPAR1048T043,648,0,08/09/2025,FELICI JORGE ARIEL,480969,37.8%,490.124,,0Ut2Zv0U
 41282,583 TERRAGENE SA,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Ensamblada,F,04965-00014-00,150,0,11/09/2025,FELICI GERARDO FABIAN,441859,42.1%,7500.00,,5Pl6Eg8H
+42029,17046 SUPER S A SOC URUGUAYENSE DE PRODUCTORES DE ENTRE RIOS SOC ANON,Ejecución de la orden pendiente,Todo Aprobado, ,,F,CAS-PPAR1072T043,0,144,16/09/2025,EXPRESO CARGO SA,485540,47.8%,197.28,,0Qu5Fi8T
 42000,3490 ALTO IMPACTO SRL (VERTIGO),Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Liberada,F,3490/001,0,360,19/09/2025,RICARDO PIERONI,484208,39.2%,432.00,,1Wa0Iu6X
 41843,202 FRIGORIFICO DE AVES SOYCHU SA,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Ensamblada,F,PVC612R,255,0,22/09/2025,EXPRESO CARGO SA,475927,43.9%,293.25,,5Ow8Cg8A
 41843,202 FRIGORIFICO DE AVES SOYCHU SA,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Liberada,F,PPHR1216B,0,390,22/09/2025,EXPRESO CARGO SA,475927,45.7%,393.90,,5Ow8Cg8A
