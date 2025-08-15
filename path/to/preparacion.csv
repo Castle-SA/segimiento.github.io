@@ -359,8 +359,8 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 42048,1809 MERCOMAX SA,Ejecución de la orden pendiente,Todo Aprobado, ,,F,CAS-PPAR1048T043,1620,0,15/08/2025,EXPRESO CARGO SA,487154,38.8%,1247.40,,5Rr7Ys4Y
 42049,18293 DULCOR SA,Ejecución de la orden pendiente,Todo Aprobado, ,,F,PPAR15048T,0,144,15/08/2025,EXPRESO CARGO SA,487155,49.7%,1980.00,,0Jn1Mv5H
 42053,449 DITEC S R L,Ejecución de la orden pendiente,Todo Aprobado, ,,F,60950-00000-00,12,0,15/08/2025,EXPRESO CARGO SA,487384,46.8%,156.00,,5Xf2Ag4D
-42053,449 DITEC S R L,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Liberada,F,64958-00003-00,0,24,15/08/2025,EXPRESO CARGO SA,487384,28.2%,168.00,,5Xf2Ag4D
-42053,449 DITEC S R L,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Liberada,F,0727/004,0,48,15/08/2025,EXPRESO CARGO SA,487384,33.4%,230.40,,5Xf2Ag4D
+42053,449 DITEC S R L,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Ensamblada,F,64958-00003-00,24,0,15/08/2025,EXPRESO CARGO SA,487384,28.2%,168.00,,5Xf2Ag4D
+42053,449 DITEC S R L,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Ensamblada,F,0727/004,48,0,15/08/2025,EXPRESO CARGO SA,487384,33.4%,230.40,,5Xf2Ag4D
 42008,132 MAHLE VALVULAS DE ARGENTINA SA,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Liberada,F,3351/002,0,17000,18/08/2025,EXPRESO SANTA ROSA,484569,67.0%,2329.00,,6Ls2Pd3Q
 42015,3598 DEL VALLE EMBALAJES SRL,Ejecución de la orden pendiente,Todo Aprobado, ,,F,CAS-PPA1048T040,1800,0,18/08/2025,RICARDO PIERONI,484923,46.0%,1026.00,,0Ph8Mv3F
 42015,3598 DEL VALLE EMBALAJES SRL,Ejecución de la orden pendiente,Todo Aprobado, ,,F,CAS-PPAR1048T043,3600,0,18/08/2025,RICARDO PIERONI,484923,38.8%,2772.00,,0Ph8Mv3F
@@ -452,5 +452,5 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 41970,3051 FRIMETAL S.A.,Ejecución de la orden pendiente,Todo Aprobado, ,,T,MTS548B,0,972,,FELICI JORGE ARIEL,481828,25.9%,1915.62,,3Dw0Uk2K
 41970,3051 FRIMETAL S.A.,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Liberada,T,0272/003,0,40,,FELICI JORGE ARIEL,481828,33.3%,3.631.007,,3Dw0Uk2K
 42010,15 IND. JOHN DEERE ARGENTINA S.A.,Ejecución de la orden pendiente,Todo Aprobado, ,,T,0015/014,0,3500,,FELICI JORGE ARIEL,484590,83.0%,1400.00,,8Ky5Hq9D
-42044,9401030 ABELARDO CUFFIA S.A,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Liberada,F,0727/004,0,20,,EXPRESO LUJAN DEL CUYO SA,486536,46.7%,120.00,,7Es1Xz6T
-42046,3096 FRECICAR SRL,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Liberada,F,CF518T,0,100,,RICARDO PIERONI,486807,87.7%,450.00,,9Zc0Jy4O
+42044,9401030 ABELARDO CUFFIA S.A,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Ensamblada,F,0727/004,20,0,,EXPRESO LUJAN DEL CUYO SA,486536,46.7%,120.00,,7Es1Xz6T
+42046,3096 FRECICAR SRL,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Ensamblada,F,CF518T,100,0,,RICARDO PIERONI,486807,87.7%,450.00,,9Zc0Jy4O
