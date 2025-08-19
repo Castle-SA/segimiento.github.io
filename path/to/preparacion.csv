@@ -160,8 +160,8 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 41841,202 FRIGORIFICO DE AVES SOYCHU SA,Parcialmente ejecutada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 23661,Remitido,F,PVC612R,0,0,04/08/2025,EXPRESO CARGO SA,475924,43.9%,293.25,T,5Ow8Cg8A
 41849,814 OBLAK HNOS SACIFI,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 23655,Remitido,F,07063-00001-24,0,0,04/08/2025,EXPRESO CARGO SA,476137,29.6%,1222.50,T,1Hy0Vd3I
 41861,9400444 CRONI SA,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 23656,Remitido,F,PPHR15048XT,0,0,04/08/2025,EXPRESO BRIO SRL,476623,44.3%,2482.80,T,0Rx5Fn3N
-41874,9400115 BEST COLD SRL,Parcialmente ejecutada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 23659,Remitido,F,MTP548B,72,1404,04/08/2025,FELICI JORGE ARIEL,476698,34.6%,133.20,T,8Xq9Re2A
 41874,9400115 BEST COLD SRL,Parcialmente ejecutada,Todo Aprobado,Factura de venta 37971,Pagado por completo,F,MTP548B,72,1404,04/08/2025,FELICI JORGE ARIEL,476698,34.6%,2730.60,,8Xq9Re2A
+41874,9400115 BEST COLD SRL,Parcialmente ejecutada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 23659,Remitido,F,MTP548B,72,1404,04/08/2025,FELICI JORGE ARIEL,476698,34.6%,133.20,T,8Xq9Re2A
 41874,9400115 BEST COLD SRL,Parcialmente ejecutada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 23663,Remitido,F,MTP548B,72,1404,04/08/2025,FELICI JORGE ARIEL,476698,34.6%,133.20,T,8Xq9Re2A
 41897,3089 ARNEG ARGENTINA S.A.,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 23668,Remitido,F,3089/080,0,0,04/08/2025,FELICI JORGE ARIEL,477627,8.1%,523.75,T,7Rx7Ub2H
 41903,1531 PAPELTECNICA SAIC,Parcialmente ejecutada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 23665,Remitido,F,CAS-PPA1048T040,0,0,04/08/2025,FELICI JORGE ARIEL,478011,45.9%,61.56,T,6Tm5Az5M
@@ -317,7 +317,7 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 42039,3089 ARNEG ARGENTINA S.A.,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 23766,Remitido,F,3089/029,0,0,15/08/2025,RICARDO PIERONI,486145,26.7%,216.00,T,7Rx7Ub2H
 42044,9401030 ABELARDO CUFFIA S.A,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 23759,Remitido,F,0727/004,0,0,15/08/2025,EXPRESO LUJAN DEL CUYO SA,486536,46.7%,120.00,T,7Es1Xz6T
 42046,3096 FRECICAR SRL,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 23762,Remitido,F,CF518T,0,0,15/08/2025,RICARDO PIERONI,486807,87.7%,450.00,T,9Zc0Jy4O
-42047,1809 MERCOMAX SA,Parcialmente ejecutada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 23775,Remitido,F,CAS-PPAR1048T043,0,0,15/08/2025,EXPRESO CARGO SA,487054,38.8%,1386.00,T,5Rr7Ys4Y
+42047,1809 MERCOMAX SA,Facturación pendiente,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 23775,Remitido,F,CAS-PPAR1048T043,0,0,15/08/2025,EXPRESO CARGO SA,487054,38.8%,1386.00,T,5Rr7Ys4Y
 42050,18293 DULCOR SA,Parcialmente ejecutada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 23774,Remitido,F,CAS-PPAR1048T043,0,0,15/08/2025,EXPRESO LUJAN DEL CUYO SA,487055,38.8%,332.64,T,0Jn1Mv5H
 42050,18293 DULCOR SA,Parcialmente ejecutada,Todo Aprobado,Factura de venta 38085,Abierta,F,PPAR15048T,0,192,15/08/2025,EXPRESO LUJAN DEL CUYO SA,487055,49.7%,2640.00,,0Jn1Mv5H
 42048,1809 MERCOMAX SA,Ejecución de la orden pendiente,Todo Aprobado, ,,F,CAS-PPAR1048T043,1620,0,15/08/2025,EXPRESO CARGO SA,487154,38.8%,1247.40,,5Rr7Ys4Y
@@ -347,8 +347,8 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 42054,4379 FRANCHRIS2010 SRL,Ejecución de la orden pendiente,Todo Aprobado, ,,F,CAS-PPAR1048T043,900,0,18/08/2025,TRANSPORTE TOMASSINI,487496,42.6%,738.00,,
 42056,9400079 PESQUERA SANTA CRUZ SA,Parcialmente ejecutada,Todo Aprobado,Factura de venta 38087,Abierta,F,CAS-PPAR1072T043,0,1080,18/08/2025,TRANSPORTE TOMASSINI,487498,40.4%,1296.00,,8Cf1Ra3G
 42056,9400079 PESQUERA SANTA CRUZ SA,Parcialmente ejecutada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 23776,Remitido,F,CAS-PPAR1072T043,0,1080,18/08/2025,TRANSPORTE TOMASSINI,487498,40.4%,5184.00,T,8Cf1Ra3G
-42058,4016 BLACK BAMBOO ENTERPRISES SA,Parcialmente ejecutada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 23783,Remitido,F,CAS-PPA1072T040,0,960,18/08/2025,EXPRESO LUJAN DEL CUYO SA,487691,47.1%,1182.72,T,5Hd9Vg2B
 42058,4016 BLACK BAMBOO ENTERPRISES SA,Parcialmente ejecutada,Todo Aprobado,Factura de venta 38096,Abierta,F,CAS-PPA1072T040,0,960,18/08/2025,EXPRESO LUJAN DEL CUYO SA,487691,47.1%,844.80,,5Hd9Vg2B
+42058,4016 BLACK BAMBOO ENTERPRISES SA,Parcialmente ejecutada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 23783,Remitido,F,CAS-PPA1072T040,0,960,18/08/2025,EXPRESO LUJAN DEL CUYO SA,487691,47.1%,1182.72,T,5Hd9Vg2B
 42060,1606 DANES SRL,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 23781,Remitido,F,MTS518B,0,0,18/08/2025,RETIRAN,487953,42.7%,472.32,T,1Km7Ai4M
 42063,2414 TAPALQUE ALIMENTOS SA,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 23782,Remitido,F,PPA1548TE,0,0,18/08/2025,EXPRESO CARGO SA,487954,67.5%,720.00,T,7Zr9Rh6S
 42068,4516 RAPECA ARGENTINA SA,Ejecución de la orden pendiente,Todo Aprobado, ,,F,MTS548B,0,36,18/08/2025,EXPRESO CARGO SA,488485,35.1%,81.00,,2Aa9Oj0E
@@ -360,6 +360,7 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 41975,4628 KELES MARIO LEONARDO,Facturación pendiente,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 23789,Remitido,F,3901/001,0,0,19/08/2025,RICARDO PIERONI,482358,47.5%,432.00,F,6Kx5Tt1L
 41975,4628 KELES MARIO LEONARDO,Facturación pendiente,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 23789,Remitido,F,HWF125,0,0,19/08/2025,RICARDO PIERONI,482358,52.9%,1208.00,F,6Kx5Tt1L
 42033,9400066 XEITOSIÑO SA,Facturación pendiente,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 23790,Remitido,F,CAS-PPAR1072T043,0,0,19/08/2025,TRANSPORTE TOMASSINI,485673,38.3%,974.40,F,2Wy4Vz4B
+42047,1809 MERCOMAX SA,Facturación pendiente,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 23791,Remitido,F,CAS-PPAR1072T043,0,0,19/08/2025,EXPRESO CARGO SA,487054,38.3%,1670.40,F,5Rr7Ys4Y
 42059,1188 DENSO MANUFACTURING ARGENTINA SA,Ejecución de la orden pendiente,Todo Aprobado, ,,F,CAS-PPAR1048T043,1367,73,19/08/2025,EXPRESO CARGO SA,487853,38.8%,1108.80,,2Me3Fc7D
 42059,1188 DENSO MANUFACTURING ARGENTINA SA,Ejecución de la orden pendiente,Todo Aprobado, ,,F,MTS548B,0,864,19/08/2025,EXPRESO CARGO SA,487853,31.1%,1831.68,,2Me3Fc7D
 42065,9400049 COMPAÑIA AMERICANA DE ALIMENTOS S.A.,Ejecución de la orden pendiente,Todo Aprobado, ,,F,PPAR15048T,0,204,19/08/2025,EXPRESO CARGO SA,488154,53.6%,3039.60,,2Jl6Ja1C
