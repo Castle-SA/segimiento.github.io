@@ -315,8 +315,8 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 42040,3089 ARNEG ARGENTINA S.A.,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 23777,Remitido,F,3089/034,0,0,18/08/2025,RICARDO PIERONI,486245,51.5%,600.00,T,7Rx7Ub2H
 42040,3089 ARNEG ARGENTINA S.A.,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 23777,Remitido,F,3089/035,0,0,18/08/2025,RICARDO PIERONI,486245,92.2%,3750.00,T,7Rx7Ub2H
 42056,9400079 PESQUERA SANTA CRUZ SA,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 23776,Remitido,F,CAS-PPAR1072T043,0,0,18/08/2025,TRANSPORTE TOMASSINI,487498,40.4%,5184.00,T,8Cf1Ra3G
-42058,4016 BLACK BAMBOO ENTERPRISES SA,Parcialmente ejecutada,Todo Aprobado,Factura de venta 38096,Abierta,F,CAS-PPA1072T040,0,960,18/08/2025,EXPRESO LUJAN DEL CUYO SA,487691,47.1%,844.80,,5Hd9Vg2B
 42058,4016 BLACK BAMBOO ENTERPRISES SA,Parcialmente ejecutada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 23783,Remitido,F,CAS-PPA1072T040,0,960,18/08/2025,EXPRESO LUJAN DEL CUYO SA,487691,47.1%,1182.72,T,5Hd9Vg2B
+42058,4016 BLACK BAMBOO ENTERPRISES SA,Parcialmente ejecutada,Todo Aprobado,Factura de venta 38096,Abierta,F,CAS-PPA1072T040,0,960,18/08/2025,EXPRESO LUJAN DEL CUYO SA,487691,47.1%,844.80,,5Hd9Vg2B
 42060,1606 DANES SRL,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 23781,Remitido,F,MTS518B,0,0,18/08/2025,RETIRAN,487953,42.7%,472.32,T,1Km7Ai4M
 42063,2414 TAPALQUE ALIMENTOS SA,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 23782,Remitido,F,PPA1548TE,0,0,18/08/2025,EXPRESO CARGO SA,487954,67.5%,720.00,T,7Zr9Rh6S
 42069,9402909 EL ALMACEN SRL,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 23787,Remitido,F,CAS-PPAR1048T043,0,0,18/08/2025,RICARDO PIERONI,488755,44.5%,244.80,T,
@@ -395,6 +395,8 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 42098,6272 PAPELERA SAMAKI SRL,Ejecución de la orden pendiente,Todo Aprobado, ,,F,CAS-PPAR1048T043,0,360,22/08/2025,EXPRESO CARGO SA,490887,45.8%,295.20,,3Cz8Fy3Y
 42098,6272 PAPELERA SAMAKI SRL,Ejecución de la orden pendiente,Todo Aprobado, ,,F,MTS518B,960,0,22/08/2025,EXPRESO CARGO SA,490887,44.0%,806.40,,3Cz8Fy3Y
 42099,9401925 INDUSTRIAS FRIGORIFICAS RECREO SAIC,Ejecución de la orden pendiente,Todo Aprobado, ,,F,CAS-PPAR1048T043,0,2160,22/08/2025,EXPRESO LANCIONI,491046,42.3%,1663.20,,6Fx1Id6N
+42102,5095 JUAN J BAIML E HIJOS SRL,Ejecución de la orden pendiente,Todo Aprobado, ,,F,PPA1548TE,360,0,22/08/2025,RETIRAN,491270,49.2%,460.80,,1Kp7Az6D
+42102,5095 JUAN J BAIML E HIJOS SRL,Ejecución de la orden pendiente,Todo Aprobado, ,,F,H11/CPE,2,0,22/08/2025,RETIRAN,491270,48.9%,64.00,,1Kp7Az6D
 41839,202 FRIGORIFICO DE AVES SOYCHU SA,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Liberada,F,PPHR1216B,0,650,25/08/2025,EXPRESO CARGO SA,475919,45.7%,656.50,,5Ow8Cg8A
 41839,202 FRIGORIFICO DE AVES SOYCHU SA,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Ensamblada,F,PVC612R,600,0,25/08/2025,EXPRESO CARGO SA,475919,43.9%,690.00,,5Ow8Cg8A
 41842,202 FRIGORIFICO DE AVES SOYCHU SA,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Ensamblada,F,PVC612R,255,0,25/08/2025,EXPRESO CARGO SA,475926,43.9%,293.25,,5Ow8Cg8A
@@ -403,6 +405,7 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 41884,15 IND. JOHN DEERE ARGENTINA S.A.,Ejecución de la orden pendiente,Todo Aprobado, ,,F,LC579,1200,0,26/08/2025,FELICI JORGE ARIEL,476717,54.5%,396.00,,8Ky5Hq9D
 42082,12837 FRIGORIFICO SAN FRANCISCO S.A,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Liberada,F,2837/001,0,2340,26/08/2025,"CAROSSIO, VAIROLATTI Y CIA",489684,66.6%,4329.00,,9Ry7Wa5R
 42086,67 FORD ARGENTINA S.C.A.,Ejecución de la orden pendiente,Todo Aprobado, ,,F,BV002,0,1000,26/08/2025,EXPRESO CARGO SA,489913,57.6%,6720.00,,0Bz8Ix7O
+42101,3089 ARNEG ARGENTINA S.A.,Ejecución de la orden pendiente,Todo Aprobado, ,,F,3089/082,0,2000,27/08/2025,RICARDO PIERONI,491257,53.2%,2500.00,,7Rx7Ub2H
 42019,9402336 INDUSTRIAS ALIMENTARIAS DEL SUD S.A.,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Liberada,F,2336/002,0,12,28/08/2025,EXPRESO CARGO SA,485042,22.5%,168.00,,
 42019,9402336 INDUSTRIAS ALIMENTARIAS DEL SUD S.A.,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Liberada,F,2336/003,0,12,28/08/2025,EXPRESO CARGO SA,485042,22.5%,168.00,,
 42019,9402336 INDUSTRIAS ALIMENTARIAS DEL SUD S.A.,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Liberada,F,2336/004,0,12,28/08/2025,EXPRESO CARGO SA,485042,22.5%,168.00,,
