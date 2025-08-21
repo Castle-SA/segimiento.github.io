@@ -160,8 +160,8 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 41967,9402422 VALBO S A I C Y F,Parcialmente ejecutada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 23687,Remitido,F,CAS-PPAR1048T043,0,0,06/08/2025,RETIRAN,481524,41.2%,864.00,T,
 41967,9402422 VALBO S A I C Y F,Parcialmente ejecutada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 23687,Remitido,F,H11/48,0,0,06/08/2025,RETIRAN,481524,59.6%,250.00,T,
 41967,9402422 VALBO S A I C Y F,Parcialmente ejecutada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 23687,Remitido,F,MTS524B,0,0,06/08/2025,RETIRAN,481524,28.1%,72.00,T,
-41967,9402422 VALBO S A I C Y F,Parcialmente ejecutada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 23687,Remitido,F,MTS548B,0,36,06/08/2025,RETIRAN,481524,27.0%,72.00,T,
 41967,9402422 VALBO S A I C Y F,Parcialmente ejecutada,Todo Aprobado,Factura de venta 37999,Abierta,F,MTS548B,0,36,06/08/2025,RETIRAN,481524,27.0%,72.00,,
+41967,9402422 VALBO S A I C Y F,Parcialmente ejecutada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 23687,Remitido,F,MTS548B,0,36,06/08/2025,RETIRAN,481524,27.0%,72.00,T,
 41968,9400290 TOMAX SRL,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 23682,Remitido,F,PPHR15048XT,0,0,06/08/2025,EXPRESO CARGO SA,481627,42.8%,1200.00,T,7Zv2Of0S
 41972,9400507 ALIMENTARIA MONTE CRISTO SRL,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 23686,Remitido,F,PPAR10048T,0,0,06/08/2025,EXPRESO LANCIONI,481883,43.0%,1071.60,T,8Gq3Xq7U
 41703,3089 ARNEG ARGENTINA S.A.,Parcialmente ejecutada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 23701,Remitido,T,3089/082,0,4138,07/08/2025,FELICI JORGE ARIEL,467260,52.2%,2640.00,T,7Rx7Ub2H
@@ -371,18 +371,18 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 42067,4517 HIPER PACK ROSARIO DE CERRA VALERIA BEATRIZ,Parcialmente ejecutada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 23826,Remitido,F,MTS548B,0,0,21/08/2025,RICARDO PIERONI,488484,27.0%,72.00,T,3Ny6Zw2O
 42067,4517 HIPER PACK ROSARIO DE CERRA VALERIA BEATRIZ,Parcialmente ejecutada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 23826,Remitido,F,PPA1048F,0,0,21/08/2025,RICARDO PIERONI,488484,13.9%,61.92,T,3Ny6Zw2O
 42067,4517 HIPER PACK ROSARIO DE CERRA VALERIA BEATRIZ,Parcialmente ejecutada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 23826,Remitido,F,PPAR1048M,0,0,21/08/2025,RICARDO PIERONI,488484,29.1%,61.92,T,3Ny6Zw2O
-42067,4517 HIPER PACK ROSARIO DE CERRA VALERIA BEATRIZ,Parcialmente ejecutada,Todo Aprobado,Factura de venta 38135,Abierta,F,PPAR524T,0,72,21/08/2025,RICARDO PIERONI,488484,100.0%,18.00,,3Ny6Zw2O
 42067,4517 HIPER PACK ROSARIO DE CERRA VALERIA BEATRIZ,Parcialmente ejecutada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 23826,Remitido,F,PPAR524T,0,72,21/08/2025,RICARDO PIERONI,488484,100.0%,90.00,T,3Ny6Zw2O
+42067,4517 HIPER PACK ROSARIO DE CERRA VALERIA BEATRIZ,Parcialmente ejecutada,Todo Aprobado,Factura de venta 38135,Abierta,F,PPAR524T,0,72,21/08/2025,RICARDO PIERONI,488484,100.0%,18.00,,3Ny6Zw2O
 42074,3676 FRIGORIFICO MARK SA,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 23824,Remitido,F,PVC612R,0,0,21/08/2025,RETIRAN,489153,67.7%,868.32,T,2Nw2Uj9H
 42083,9402907 SAF ARGENTINA SOCIEDAD ANONIMA,Ejecución de la orden pendiente,Todo Aprobado, ,,F,PPAR15048T,0,2,21/08/2025,EXPRESO CARGO SA,489798,0.0%,.00,,
 42085,674 KRETZ SA,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 23819,Remitido,F,CAS-PPAR1072T043,0,0,21/08/2025,EXPRESO BRIO SRL,489803,45.1%,295.20,T,0Io3Fg7R
 42091,2020 RETENES SAV SA,Ejecución de la orden pendiente,Todo Aprobado, ,,F,CAS-PPAR1048T043,0,360,21/08/2025,RICARDO PIERONI,490414,65.8%,468.00,,8Ja8Rp6M
 42092,9400945 LAMED S.A.,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 23820,Remitido,F,CAS-PPA1048T040,0,0,21/08/2025,RICARDO PIERONI,490524,43.1%,468.00,T,9Dw9Wh0V
 42092,9400945 LAMED S.A.,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 23820,Remitido,F,CAS-PPAR1048T043,0,0,21/08/2025,RICARDO PIERONI,490524,44.5%,432.00,T,9Dw9Wh0V
+42095,1650 ARAG ARGENTINA SA,Facturación pendiente,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 23829,Remitido,F,51618-00004-00,0,0,21/08/2025,RICARDO PIERONI,490749,46.0%,4896.00,F,8Yp8Ld0P
 42097,629 INDUSTRIAS QUIMICAS BG SRL,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 23825,Remitido,F,CH5235,0,0,21/08/2025,RICARDO PIERONI,490886,70.9%,348.80,T,0Ze2Hm4P
 42098,6272 PAPELERA SAMAKI SRL,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 23823,Remitido,F,CAS-PPAR1048T043,0,0,21/08/2025,EXPRESO CARGO SA,490887,45.8%,295.20,T,3Cz8Fy3Y
 42098,6272 PAPELERA SAMAKI SRL,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 23823,Remitido,F,MTS518B,0,0,21/08/2025,EXPRESO CARGO SA,490887,44.0%,806.40,T,3Cz8Fy3Y
-42095,1650 ARAG ARGENTINA SA,Ejecución de la orden pendiente,Todo Aprobado, ,,F,51618-00004-00,800,0,22/08/2025,RICARDO PIERONI,490749,46.0%,4800.00,,8Yp8Ld0P
 42099,9401925 INDUSTRIAS FRIGORIFICAS RECREO SAIC,Ejecución de la orden pendiente,Todo Aprobado, ,,F,CAS-PPAR1048T043,0,2160,22/08/2025,EXPRESO LANCIONI,491046,42.3%,1663.20,,6Fx1Id6N
 42100,12815 INDUSTRIAS AVICOLAS SA,Ejecución de la orden pendiente,Todo Aprobado, ,,F,MQ-C50-CAS,0,5,22/08/2025,TRANSPORTE MOSTTO,491153,47.8%,5500.00,,4Jk9Hq6A
 42102,5095 JUAN J BAIML E HIJOS SRL,Ejecución de la orden pendiente,Todo Aprobado, ,,F,PPA1548TE,360,0,22/08/2025,RETIRAN,491270,49.2%,460.80,,1Kp7Az6D
