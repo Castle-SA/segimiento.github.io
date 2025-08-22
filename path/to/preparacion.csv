@@ -308,8 +308,8 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 42031,4329 COMPANIA ELABORADORA DE PASTAS SA,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 23817,Remitido,F,PPAR10048T,0,0,20/08/2025,RETIRAN,485542,62.0%,159.12,T,0Un8Nt2U
 42034,9400066 XEITOSIÑO SA,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 23800,Remitido,F,CAS-PPAR1072T043,0,0,20/08/2025,TRANSPORTE TOMASSINI,485784,38.3%,4872.00,T,2Wy4Vz4B
 42048,1809 MERCOMAX SA,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 23809,Remitido,F,CAS-PPAR1048T043,0,0,20/08/2025,EXPRESO CARGO SA,487154,38.8%,1247.40,T,5Rr7Ys4Y
-42054,4379 FRANCHRIS2010 SRL,Parcialmente ejecutada,Todo Aprobado,Factura de venta 38121,Abierta,F,CAS-PPAR1048T043,35,1,20/08/2025,TRANSPORTE TOMASSINI,487496,42.6%,29.52,,
 42054,4379 FRANCHRIS2010 SRL,Parcialmente ejecutada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 23813,Remitido,F,CAS-PPAR1048T043,35,1,20/08/2025,TRANSPORTE TOMASSINI,487496,42.6%,708.48,T,
+42054,4379 FRANCHRIS2010 SRL,Parcialmente ejecutada,Todo Aprobado,Factura de venta 38121,Abierta,F,CAS-PPAR1048T043,35,1,20/08/2025,TRANSPORTE TOMASSINI,487496,42.6%,29.52,,
 42055,4381 IBERCONSA DE ARGENTINA SA,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 23810,Remitido,F,PPAR1072T,0,0,20/08/2025,TRANSPORTE TOMASSINI,487497,40.0%,2332.80,T,9Lx6Mu2V
 42056,9400079 PESQUERA SANTA CRUZ SA,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 23811,Remitido,F,PPAR1072T,0,0,20/08/2025,TRANSPORTE TOMASSINI,487498,40.0%,1296.00,T,8Cf1Ra3G
 42066,3598 DEL VALLE EMBALAJES SRL,Parcialmente ejecutada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 23802,Remitido,F,CAS-PPAR1072T043,0,0,20/08/2025,RICARDO PIERONI,488353,38.3%,278.40,T,0Ph8Mv3F
@@ -376,8 +376,8 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 42091,2020 RETENES SAV SA,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 23841,Remitido,F,PPAR1048T,0,0,22/08/2025,RICARDO PIERONI,490414,65.4%,468.00,T,8Ja8Rp6M
 42099,9401925 INDUSTRIAS FRIGORIFICAS RECREO SAIC,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 23837,Remitido,F,PPAR1048T,0,0,22/08/2025,EXPRESO LANCIONI,491046,41.6%,1663.20,T,6Fx1Id6N
 42100,12815 INDUSTRIAS AVICOLAS SA,Ejecución de la orden pendiente,Todo Aprobado, ,,F,MQ-C50-CAS,0,5,22/08/2025,TRANSPORTE MOSTTO,491153,47.8%,5500.00,,4Jk9Hq6A
-42102,5095 JUAN J BAIML E HIJOS SRL,Facturación pendiente,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 23842,Remitido,F,PPA1548TE,0,0,22/08/2025,RETIRAN,491270,49.2%,460.80,F,1Kp7Az6D
-42102,5095 JUAN J BAIML E HIJOS SRL,Facturación pendiente,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 23842,Remitido,F,H11/CPE,0,0,22/08/2025,RETIRAN,491270,48.9%,64.00,F,1Kp7Az6D
+42102,5095 JUAN J BAIML E HIJOS SRL,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 23842,Remitido,F,PPA1548TE,0,0,22/08/2025,RETIRAN,491270,49.2%,460.80,T,1Kp7Az6D
+42102,5095 JUAN J BAIML E HIJOS SRL,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 23842,Remitido,F,H11/CPE,0,0,22/08/2025,RETIRAN,491270,48.9%,64.00,T,1Kp7Az6D
 42110,3051 FRIMETAL S.A.,Parcialmente ejecutada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 23834,Remitido,F,1823/002,0,0,22/08/2025,FELICI JORGE ARIEL,492005,30.9%,553.077,T,3Dw0Uk2K
 41839,202 FRIGORIFICO DE AVES SOYCHU SA,Parcialmente ejecutada,Todo Aprobado,Orden de trabajo ,Liberada,F,PPHR1216B,0,650,25/08/2025,EXPRESO CARGO SA,475919,45.7%,656.50,,5Ow8Cg8A
 41842,202 FRIGORIFICO DE AVES SOYCHU SA,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Ensamblada,F,PVC612R,255,0,25/08/2025,EXPRESO CARGO SA,475926,43.9%,293.25,,5Ow8Cg8A
@@ -390,6 +390,7 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 42116,12794 ACEROLATINA SA,Ejecución de la orden pendiente,Todo Aprobado, ,,F,CF51060T-MX,6,0,25/08/2025,EXPRESO CARGO SA,492627,85.5%,1200.00,,7Ir5If6T
 42117,4 BEROWOOD SRL,Ejecución de la orden pendiente,Todo Aprobado, ,,F,PPA1548TE,360,0,25/08/2025,RICARDO PIERONI,492628,63.9%,648.00,,8El3Qk6P
 42118,6631 PILKINGTON AUTOMOTIVE ARGENTINA SA,Ejecución de la orden pendiente,Todo Aprobado, ,,F,CAS-PPAR1048T043,0,1620,25/08/2025,EXPRESO CARGO SA,492764,43.2%,1296.00,,8Gy5Vz0B
+42119,769 PROSEIND SA,Ejecución de la orden pendiente,Todo Aprobado, ,,F,04169-00055-93,36,0,25/08/2025,FELICI JORGE ARIEL,492899,49.0%,720.00,,7Ii4Et8I
 41883,15 IND. JOHN DEERE ARGENTINA S.A.,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Ensamblada,F,0015/008,300,0,26/08/2025,FELICI JORGE ARIEL,476715,73.3%,3210.00,,8Ky5Hq9D
 41884,15 IND. JOHN DEERE ARGENTINA S.A.,Ejecución de la orden pendiente,Todo Aprobado, ,,F,LC579,1200,0,26/08/2025,FELICI JORGE ARIEL,476717,54.5%,396.00,,8Ky5Hq9D
 42082,12837 FRIGORIFICO SAN FRANCISCO S.A,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Liberada,F,2837/001,0,2340,26/08/2025,"CAROSSIO, VAIROLATTI Y CIA",489684,66.6%,4329.00,,9Ry7Wa5R
