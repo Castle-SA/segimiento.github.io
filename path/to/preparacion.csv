@@ -248,7 +248,7 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 42053,449 DITEC S R L,Facturada,Todo Aprobado,Ejecución de pedido de artículo 23763,Enviado,F,64958-00003-00,0,0,15/08/2025,EXPRESO CARGO SA,487384,28.2%,.00,T,5Xf2Ag4D
 42053,449 DITEC S R L,Facturada,Todo Aprobado,Ejecución de pedido de artículo 23763,Enviado,F,0727/004,0,0,15/08/2025,EXPRESO CARGO SA,487384,33.4%,.00,T,5Xf2Ag4D
 42055,4381 IBERCONSA DE ARGENTINA SA,Facturada,Todo Aprobado,Ejecución de pedido de artículo 23769,Enviado,F,CAS-PPAR1072T043,0,0,15/08/2025,TRANSPORTE TOMASSINI,487497,40.4%,.00,T,9Lx6Mu2V
-42058,4016 BLACK BAMBOO ENTERPRISES SA,Parcialmente ejecutada,Todo Aprobado,Ejecución de pedido de artículo 23770,Enviado,F,CAS-PPA1072T040,0,960,15/08/2025,EXPRESO LUJAN DEL CUYO SA,487691,47.1%,844.80,T,5Hd9Vg2B
+42058,4016 BLACK BAMBOO ENTERPRISES SA,Parcialmente ejecutada,Todo Aprobado,Ejecución de pedido de artículo 23770,Enviado,F,CAS-PPA1072T040,24,936,15/08/2025,EXPRESO LUJAN DEL CUYO SA,487691,47.1%,844.80,T,5Hd9Vg2B
 41748,12852 AVEX S.A,Facturada,Todo Aprobado,Ejecución de pedido de artículo 23785,Enviado,F,PPAR1048T,0,0,18/08/2025,EXPRESO CARGO SA,469580,46.2%,.00,T,7Ei3Zh4Q
 41749,4726 WADE SA,Parcialmente ejecutada,Todo Aprobado,Ejecución de pedido de artículo 23786,Enviado,F,PPAR1048T,0,0,18/08/2025,EXPRESO CARGO SA,469581,50.5%,.00,T,3Hy2Ia2F
 42008,132 MAHLE VALVULAS DE ARGENTINA SA,Facturada,Todo Aprobado,Ejecución de pedido de artículo 23780,Enviado,F,3351/002,0,0,18/08/2025,EXPRESO SANTA ROSA,484569,67.0%,.00,T,6Ls2Pd3Q
@@ -262,8 +262,8 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 42040,3089 ARNEG ARGENTINA S.A.,Facturada,Todo Aprobado,Ejecución de pedido de artículo 23777,Enviado,F,3089/034,0,0,18/08/2025,RICARDO PIERONI,486245,51.5%,.00,T,7Rx7Ub2H
 42040,3089 ARNEG ARGENTINA S.A.,Facturada,Todo Aprobado,Ejecución de pedido de artículo 23777,Enviado,F,3089/035,0,0,18/08/2025,RICARDO PIERONI,486245,92.2%,.00,T,7Rx7Ub2H
 42056,9400079 PESQUERA SANTA CRUZ SA,Facturada,Todo Aprobado,Ejecución de pedido de artículo 23776,Enviado,F,CAS-PPAR1072T043,0,0,18/08/2025,TRANSPORTE TOMASSINI,487498,40.4%,.00,T,8Cf1Ra3G
-42058,4016 BLACK BAMBOO ENTERPRISES SA,Parcialmente ejecutada,Todo Aprobado,Ejecución de pedido de artículo 23783,Enviado,F,CAS-PPA1072T040,0,960,18/08/2025,EXPRESO LUJAN DEL CUYO SA,487691,47.1%,844.80,T,5Hd9Vg2B
-42058,4016 BLACK BAMBOO ENTERPRISES SA,Parcialmente ejecutada,Todo Aprobado,Orden de trabajo ,Liberada,F,CAS-PPA1072T040,0,960,18/08/2025,EXPRESO LUJAN DEL CUYO SA,487691,47.1%,844.80,,5Hd9Vg2B
+42058,4016 BLACK BAMBOO ENTERPRISES SA,Parcialmente ejecutada,Todo Aprobado,Orden de trabajo ,Liberada,F,CAS-PPA1072T040,24,936,18/08/2025,EXPRESO LUJAN DEL CUYO SA,487691,47.1%,844.80,,5Hd9Vg2B
+42058,4016 BLACK BAMBOO ENTERPRISES SA,Parcialmente ejecutada,Todo Aprobado,Ejecución de pedido de artículo 23783,Enviado,F,CAS-PPA1072T040,24,936,18/08/2025,EXPRESO LUJAN DEL CUYO SA,487691,47.1%,844.80,T,5Hd9Vg2B
 42060,1606 DANES SRL,Facturada,Todo Aprobado,Ejecución de pedido de artículo 23781,Enviado,F,MTS518B,0,0,18/08/2025,RETIRAN,487953,42.7%,.00,T,1Km7Ai4M
 42063,2414 TAPALQUE ALIMENTOS SA,Facturada,Todo Aprobado,Ejecución de pedido de artículo 23782,Enviado,F,PPA1548TE,0,0,18/08/2025,EXPRESO CARGO SA,487954,67.5%,.00,T,7Zr9Rh6S
 42069,9402909 EL ALMACEN SRL,Facturada,Todo Aprobado,Ejecución de pedido de artículo 23787,Enviado,F,CAS-PPAR1048T043,0,0,18/08/2025,RICARDO PIERONI,488755,44.5%,.00,T,
@@ -297,8 +297,8 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 42031,4329 COMPANIA ELABORADORA DE PASTAS SA,Facturada,Todo Aprobado,Ejecución de pedido de artículo 23817,Enviado,F,PPAR10048T,0,0,20/08/2025,RETIRAN,485542,62.0%,.00,T,0Un8Nt2U
 42034,9400066 XEITOSIÑO SA,Facturada,Todo Aprobado,Ejecución de pedido de artículo 23800,Enviado,F,CAS-PPAR1072T043,0,0,20/08/2025,TRANSPORTE TOMASSINI,485784,38.3%,.00,T,2Wy4Vz4B
 42048,1809 MERCOMAX SA,Facturada,Todo Aprobado,Ejecución de pedido de artículo 23809,Enviado,F,CAS-PPAR1048T043,0,0,20/08/2025,EXPRESO CARGO SA,487154,38.8%,.00,T,5Rr7Ys4Y
-42054,4379 FRANCHRIS2010 SRL,Parcialmente ejecutada,Todo Aprobado,Factura de venta 38121,Abierta,F,CAS-PPAR1048T043,35,1,20/08/2025,TRANSPORTE TOMASSINI,487496,42.6%,29.52,,
 42054,4379 FRANCHRIS2010 SRL,Parcialmente ejecutada,Todo Aprobado,Ejecución de pedido de artículo 23813,Enviado,F,CAS-PPAR1048T043,35,1,20/08/2025,TRANSPORTE TOMASSINI,487496,42.6%,29.52,T,
+42054,4379 FRANCHRIS2010 SRL,Parcialmente ejecutada,Todo Aprobado,Factura de venta 38121,Abierta,F,CAS-PPAR1048T043,35,1,20/08/2025,TRANSPORTE TOMASSINI,487496,42.6%,29.52,,
 42055,4381 IBERCONSA DE ARGENTINA SA,Facturada,Todo Aprobado,Ejecución de pedido de artículo 23810,Enviado,F,PPAR1072T,0,0,20/08/2025,TRANSPORTE TOMASSINI,487497,40.0%,.00,T,9Lx6Mu2V
 42056,9400079 PESQUERA SANTA CRUZ SA,Facturada,Todo Aprobado,Ejecución de pedido de artículo 23811,Enviado,F,PPAR1072T,0,0,20/08/2025,TRANSPORTE TOMASSINI,487498,40.0%,.00,T,8Cf1Ra3G
 42066,3598 DEL VALLE EMBALAJES SRL,Parcialmente ejecutada,Todo Aprobado,Ejecución de pedido de artículo 23802,Enviado,F,CAS-PPAR1072T043,0,0,20/08/2025,RICARDO PIERONI,488353,38.3%,.00,T,0Ph8Mv3F
