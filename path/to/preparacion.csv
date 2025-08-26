@@ -251,8 +251,8 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 42040,3089 ARNEG ARGENTINA S.A.,Facturada,Todo Aprobado,Ejecución de pedido de artículo 23777,Enviado,F,3089/034,0,0,18/08/2025,RICARDO PIERONI,486245,51.5%,.00,T,7Rx7Ub2H
 42040,3089 ARNEG ARGENTINA S.A.,Facturada,Todo Aprobado,Ejecución de pedido de artículo 23777,Enviado,F,3089/035,0,0,18/08/2025,RICARDO PIERONI,486245,92.2%,.00,T,7Rx7Ub2H
 42056,9400079 PESQUERA SANTA CRUZ SA,Facturada,Todo Aprobado,Ejecución de pedido de artículo 23776,Enviado,F,CAS-PPAR1072T043,0,0,18/08/2025,TRANSPORTE TOMASSINI,487498,40.4%,.00,T,8Cf1Ra3G
-42058,4016 BLACK BAMBOO ENTERPRISES SA,Parcialmente ejecutada,Todo Aprobado,Ejecución de pedido de artículo 23783,Enviado,F,CAS-PPA1072T040,24,936,18/08/2025,EXPRESO LUJAN DEL CUYO SA,487691,47.1%,844.80,T,5Hd9Vg2B
 42058,4016 BLACK BAMBOO ENTERPRISES SA,Parcialmente ejecutada,Todo Aprobado,Orden de trabajo ,Liberada,F,CAS-PPA1072T040,24,936,18/08/2025,EXPRESO LUJAN DEL CUYO SA,487691,47.1%,844.80,,5Hd9Vg2B
+42058,4016 BLACK BAMBOO ENTERPRISES SA,Parcialmente ejecutada,Todo Aprobado,Ejecución de pedido de artículo 23783,Enviado,F,CAS-PPA1072T040,24,936,18/08/2025,EXPRESO LUJAN DEL CUYO SA,487691,47.1%,844.80,T,5Hd9Vg2B
 42060,1606 DANES SRL,Facturada,Todo Aprobado,Ejecución de pedido de artículo 23781,Enviado,F,MTS518B,0,0,18/08/2025,RETIRAN,487953,42.7%,.00,T,1Km7Ai4M
 42063,2414 TAPALQUE ALIMENTOS SA,Facturada,Todo Aprobado,Ejecución de pedido de artículo 23782,Enviado,F,PPA1548TE,0,0,18/08/2025,EXPRESO CARGO SA,487954,67.5%,.00,T,7Zr9Rh6S
 42069,9402909 EL ALMACEN SRL,Facturada,Todo Aprobado,Ejecución de pedido de artículo 23787,Enviado,F,CAS-PPAR1048T043,0,0,18/08/2025,RICARDO PIERONI,488755,44.5%,.00,T,
@@ -322,8 +322,8 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 42067,4517 HIPER PACK ROSARIO DE CERRA VALERIA BEATRIZ,Parcialmente ejecutada,Todo Aprobado,Ejecución de pedido de artículo 23826,Enviado,F,MTS548B,0,0,21/08/2025,RICARDO PIERONI,488484,27.0%,.00,T,3Ny6Zw2O
 42067,4517 HIPER PACK ROSARIO DE CERRA VALERIA BEATRIZ,Parcialmente ejecutada,Todo Aprobado,Ejecución de pedido de artículo 23826,Enviado,F,PPA1048F,0,0,21/08/2025,RICARDO PIERONI,488484,13.9%,.00,T,3Ny6Zw2O
 42067,4517 HIPER PACK ROSARIO DE CERRA VALERIA BEATRIZ,Parcialmente ejecutada,Todo Aprobado,Ejecución de pedido de artículo 23826,Enviado,F,PPAR1048M,0,0,21/08/2025,RICARDO PIERONI,488484,29.1%,.00,T,3Ny6Zw2O
-42067,4517 HIPER PACK ROSARIO DE CERRA VALERIA BEATRIZ,Parcialmente ejecutada,Todo Aprobado,Factura de venta 38135,Abierta,F,PPAR524T,0,72,21/08/2025,RICARDO PIERONI,488484,100.0%,18.00,,3Ny6Zw2O
 42067,4517 HIPER PACK ROSARIO DE CERRA VALERIA BEATRIZ,Parcialmente ejecutada,Todo Aprobado,Ejecución de pedido de artículo 23826,Enviado,F,PPAR524T,0,72,21/08/2025,RICARDO PIERONI,488484,100.0%,18.00,T,3Ny6Zw2O
+42067,4517 HIPER PACK ROSARIO DE CERRA VALERIA BEATRIZ,Parcialmente ejecutada,Todo Aprobado,Factura de venta 38135,Abierta,F,PPAR524T,0,72,21/08/2025,RICARDO PIERONI,488484,100.0%,18.00,,3Ny6Zw2O
 42074,3676 FRIGORIFICO MARK SA,Facturada,Todo Aprobado,Ejecución de pedido de artículo 23824,Enviado,F,PVC612R,0,0,21/08/2025,RETIRAN,489153,67.7%,.00,T,2Nw2Uj9H
 42083,9402907 SAF ARGENTINA SOCIEDAD ANONIMA,Ejecución de la orden pendiente,Todo Aprobado, ,,F,PPAR15048T,0,2,21/08/2025,EXPRESO CARGO SA,489798,0.0%,.00,,
 42085,674 KRETZ SA,Facturada,Todo Aprobado,Ejecución de pedido de artículo 23819,Enviado,F,CAS-PPAR1072T043,0,0,21/08/2025,EXPRESO BRIO SRL,489803,45.1%,.00,T,0Io3Fg7R
@@ -335,7 +335,7 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 42098,6272 PAPELERA SAMAKI SRL,Facturada,Todo Aprobado,Ejecución de pedido de artículo 23823,Enviado,F,MTS518B,0,0,21/08/2025,EXPRESO CARGO SA,490887,44.0%,.00,T,3Cz8Fy3Y
 41839,202 FRIGORIFICO DE AVES SOYCHU SA,Parcialmente ejecutada,Todo Aprobado,Ejecución de pedido de artículo 23833,Enviado,F,PVC612R,0,0,22/08/2025,EXPRESO CARGO SA,475919,43.9%,.00,T,5Ow8Cg8A
 42025,2492 FRIGORIFICO ALBERDI SA,Parcialmente ejecutada,Todo Aprobado,Ejecución de pedido de artículo 23840,Enviado,F,2492/001,0,0,22/08/2025,TRANSPORTE ÑANDUBAY SA,485274,29.3%,.00,T,0Vc7Du3D
-42032,3051 FRIMETAL S.A.,Parcialmente ejecutada,Todo Aprobado,Ejecución de pedido de artículo 23835,Enviado,F,1823/002,0,0,22/08/2025,FELICI JORGE ARIEL,485672,66.4%,.00,T,3Dw0Uk2K
+42032,3051 FRIMETAL S.A.,Facturación pendiente,Todo Aprobado,Ejecución de pedido de artículo 23835,Enviado,F,1823/002,0,0,22/08/2025,FELICI JORGE ARIEL,485672,66.4%,.00,T,3Dw0Uk2K
 42059,1188 DENSO MANUFACTURING ARGENTINA SA,Parcialmente ejecutada,Todo Aprobado,Factura de venta 38146,Abierta,F,MTS548B,0,864,22/08/2025,EXPRESO CARGO SA,487853,31.1%,1831.68,,2Me3Fc7D
 42059,1188 DENSO MANUFACTURING ARGENTINA SA,Parcialmente ejecutada,Todo Aprobado,Ejecución de pedido de artículo 23838,Enviado,F,PPAR1048T,0,0,22/08/2025,EXPRESO CARGO SA,487853,41.6%,.00,T,2Me3Fc7D
 42072,4407 LA ESCALERONA SA,Facturada,Todo Aprobado,Ejecución de pedido de artículo 23839,Enviado,F,PPAR1048T,0,0,22/08/2025,TRANSPORTE TOMASSINI,489041,41.6%,.00,T,4Jl3Vt9D
@@ -347,7 +347,7 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 42100,12815 INDUSTRIAS AVICOLAS SA,Ejecución de la orden pendiente,Todo Aprobado, ,,F,MQ-C50-CAS,0,5,22/08/2025,TRANSPORTE MOSTTO,491153,47.8%,5500.00,,4Jk9Hq6A
 42102,5095 JUAN J BAIML E HIJOS SRL,Facturada,Todo Aprobado,Ejecución de pedido de artículo 23842,Enviado,F,PPA1548TE,0,0,22/08/2025,RETIRAN,491270,49.2%,.00,T,1Kp7Az6D
 42102,5095 JUAN J BAIML E HIJOS SRL,Facturada,Todo Aprobado,Ejecución de pedido de artículo 23842,Enviado,F,H11/CPE,0,0,22/08/2025,RETIRAN,491270,48.9%,.00,T,1Kp7Az6D
-42110,3051 FRIMETAL S.A.,Parcialmente ejecutada,Todo Aprobado,Ejecución de pedido de artículo 23834,Enviado,F,1823/002,0,0,22/08/2025,FELICI JORGE ARIEL,492005,30.9%,.00,T,3Dw0Uk2K
+42110,3051 FRIMETAL S.A.,Facturación pendiente,Todo Aprobado,Ejecución de pedido de artículo 23834,Enviado,F,1823/002,0,0,22/08/2025,FELICI JORGE ARIEL,492005,30.9%,.00,T,3Dw0Uk2K
 41842,202 FRIGORIFICO DE AVES SOYCHU SA,Parcialmente ejecutada,Todo Aprobado,Ejecución de pedido de artículo 23849,Enviado,F,PVC612R,0,0,25/08/2025,EXPRESO CARGO SA,475926,43.9%,.00,T,5Ow8Cg8A
 41884,15 IND. JOHN DEERE ARGENTINA S.A.,Facturada,Todo Aprobado,Ejecución de pedido de artículo 23847,Enviado,F,LC579,0,0,25/08/2025,FELICI JORGE ARIEL,476717,54.5%,.00,T,8Ky5Hq9D
 42011,9400609 PAN S COMPANY SA,Facturada,Todo Aprobado,Ejecución de pedido de artículo 23850,Enviado,F,PPHR15048XT,0,0,25/08/2025,EXPRESO CARGO SA,484595,42.9%,.00,T,9Qb8Fy5U
@@ -365,6 +365,9 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 42120,621 MANUEL LAJARA S.A.,Facturada,Todo Aprobado,Ejecución de pedido de artículo 23844,Enviado,F,PPA1548TE,0,0,25/08/2025,RICARDO PIERONI,492900,76.8%,.00,T,7Su4Me5K
 42123,3029 DARK SRL,Facturada,Todo Aprobado,Ejecución de pedido de artículo 23843,Enviado,F,PPAR1048T,0,0,25/08/2025,RICARDO PIERONI,493202,46.4%,.00,T,7Va0Bu1J
 41883,15 IND. JOHN DEERE ARGENTINA S.A.,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Ensamblada,F,0015/008,300,0,26/08/2025,FELICI JORGE ARIEL,476715,73.3%,3210.00,,8Ky5Hq9D
+42032,3051 FRIMETAL S.A.,Facturación pendiente,Todo Aprobado,Ejecución de pedido de artículo 23866,Enviado,F,3051/010,0,0,26/08/2025,FELICI JORGE ARIEL,485672,84.9%,.00,F,3Dw0Uk2K
+42032,3051 FRIMETAL S.A.,Facturación pendiente,Todo Aprobado,Ejecución de pedido de artículo 23866,Enviado,F,3051/017,0,0,26/08/2025,FELICI JORGE ARIEL,485672,47.1%,.00,F,3Dw0Uk2K
+42032,3051 FRIMETAL S.A.,Facturación pendiente,Todo Aprobado,Ejecución de pedido de artículo 23866,Enviado,F,PPAR1048M,0,0,26/08/2025,FELICI JORGE ARIEL,485672,42.0%,.00,F,3Dw0Uk2K
 42054,4379 FRANCHRIS2010 SRL,Facturada,Todo Aprobado,Ejecución de pedido de artículo 23861,Enviado,F,CAS-PPAR1048T043,0,0,26/08/2025,TRANSPORTE TOMASSINI,487496,42.6%,.00,T,
 42061,3089 ARNEG ARGENTINA S.A.,Facturada,Todo Aprobado,Ejecución de pedido de artículo 23863,Enviado,F,3089/039,0,0,26/08/2025,RICARDO PIERONI,488053,99.1%,.00,T,7Rx7Ub2H
 42061,3089 ARNEG ARGENTINA S.A.,Facturada,Todo Aprobado,Ejecución de pedido de artículo 23863,Enviado,F,3089/040,0,0,26/08/2025,RICARDO PIERONI,488053,99.4%,.00,T,7Rx7Ub2H
@@ -372,6 +375,9 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 42062,3089 ARNEG ARGENTINA S.A.,Facturada,Todo Aprobado,Ejecución de pedido de artículo 23862,Enviado,F,3089/039,0,0,26/08/2025,RICARDO PIERONI,488153,99.1%,.00,T,7Rx7Ub2H
 42082,12837 FRIGORIFICO SAN FRANCISCO S.A,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Liberada,F,2837/001,0,2340,26/08/2025,"CAROSSIO, VAIROLATTI Y CIA",489684,66.6%,4329.00,,9Ry7Wa5R
 42086,67 FORD ARGENTINA S.C.A.,Ejecución de la orden pendiente,Todo Aprobado, ,,F,BV002,0,1000,26/08/2025,EXPRESO CARGO SA,489913,57.6%,6720.00,,0Bz8Ix7O
+42110,3051 FRIMETAL S.A.,Facturación pendiente,Todo Aprobado,Ejecución de pedido de artículo 23865,Enviado,F,3051/010,0,0,26/08/2025,FELICI JORGE ARIEL,492005,61.8%,.00,F,3Dw0Uk2K
+42110,3051 FRIMETAL S.A.,Facturación pendiente,Todo Aprobado,Ejecución de pedido de artículo 23865,Enviado,F,3051/011,0,0,26/08/2025,FELICI JORGE ARIEL,492005,61.4%,.00,F,3Dw0Uk2K
+42110,3051 FRIMETAL S.A.,Facturación pendiente,Todo Aprobado,Ejecución de pedido de artículo 23865,Enviado,F,PPAR1048M,0,0,26/08/2025,FELICI JORGE ARIEL,492005,33.7%,.00,F,3Dw0Uk2K
 42113,346 DOS HERMANOS S.A,Facturada,Todo Aprobado,Ejecución de pedido de artículo 23864,Enviado,F,PVC612B,0,0,26/08/2025,TRANSPORTE DE CARGAS MORENO SRL,492357,71.4%,.00,T,2Pi6Wv1H
 42121,6220 INDUSTRIAL DECKERT S.R.L.,Ejecución de la orden pendiente,Todo Aprobado, ,,F,MTS548B,0,360,26/08/2025,EXPRESO CARGO SA,493001,27.0%,720.00,,7Gs5Gq1V
 42122,3769 GAROFOLI CONSTRUCCIONES SRL,Facturada,Todo Aprobado,Ejecución de pedido de artículo 23860,Enviado,F,0674/003,0,0,26/08/2025,RODRIGUEZ HNOS. TRANSP. SA,493102,42.2%,.00,T,7Qv9Mi1Z
@@ -394,8 +400,6 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 42019,9402336 INDUSTRIAS ALIMENTARIAS DEL SUD S.A.,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Liberada,F,2336/008,0,24,28/08/2025,EXPRESO CARGO SA,485042,22.5%,336.00,,
 42019,9402336 INDUSTRIAS ALIMENTARIAS DEL SUD S.A.,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Ensamblada,F,MUESTRA ESPECIAL,7,0,28/08/2025,EXPRESO CARGO SA,485042,100.0%,420.00,,
 42105,9400079 PESQUERA SANTA CRUZ SA,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Liberada,F,9400079/001,0,216,28/08/2025,EXPRESO CARGO SA,491774,45.1%,270.00,,8Cf1Ra3G
-42110,3051 FRIMETAL S.A.,Parcialmente ejecutada,Todo Aprobado,Orden de trabajo ,Ensamblada,F,3051/010,912,0,28/08/2025,FELICI JORGE ARIEL,492005,61.8%,3.420.187,,3Dw0Uk2K
-42110,3051 FRIMETAL S.A.,Parcialmente ejecutada,Todo Aprobado,Orden de trabajo ,Ensamblada,F,3051/011,144,0,28/08/2025,FELICI JORGE ARIEL,492005,61.4%,359.996,,3Dw0Uk2K
 42132,2021 SOLAUT S.A.,Ejecución de la orden pendiente,Todo Aprobado, ,,F,PPA1548TE,1080,0,28/08/2025,RICARDO PIERONI,494096,45.4%,1285.20,,5Rg6Oq8Y
 42134,4353 SMOVIR LUIS ALBERTO  SMOVIR ERNESTO SMOVIR EDUARDO SH,Ejecución de la orden pendiente,Todo Aprobado, ,,F,CAS-PPAR1048T043,144,0,28/08/2025,RODRIGUEZ HNOS. TRANSP. SA,494097,51.3%,133.92,,9Aq0Ft5G
 42133,2021 SOLAUT S.A.,Ejecución de la orden pendiente,Todo Aprobado, ,,F,PPA1548TE,1080,0,28/08/2025,EXPRESO CARGO SA,494200,45.4%,1285.20,,5Rg6Oq8Y
@@ -469,7 +473,6 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 41970,3051 FRIMETAL S.A.,Ejecución de la orden pendiente,Todo Aprobado, ,,T,MTS548B,0,972,,FELICI JORGE ARIEL,481828,25.9%,1915.62,,3Dw0Uk2K
 41970,3051 FRIMETAL S.A.,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Liberada,T,0272/003,0,40,,FELICI JORGE ARIEL,481828,33.3%,3.631.007,,3Dw0Uk2K
 42010,15 IND. JOHN DEERE ARGENTINA S.A.,Ejecución de la orden pendiente,Todo Aprobado, ,,T,0015/014,0,3500,,FELICI JORGE ARIEL,484590,83.0%,1400.00,,8Ky5Hq9D
-42032,3051 FRIMETAL S.A.,Parcialmente ejecutada,Todo Aprobado,Orden de trabajo ,Ensamblada,F,3051/010,240,0,,FELICI JORGE ARIEL,485672,84.9%,910.112,,3Dw0Uk2K
 42089,4048 EL EMPORIO DE LA GOMA SRL,Parcialmente ejecutada,Todo Aprobado,Orden de trabajo ,Liberada,F,PPA1048F,0,72,,CONTE HNOS Y CIA SA,490041,18.9%,131.04,,5Nn8Fo2O
 42131,132 MAHLE VALVULAS DE ARGENTINA SA,Ejecución de la orden pendiente,Todo Aprobado, ,,F,BV002,0,400,,EXPRESO SANTA ROSA,493934,62.0%,3004.00,,6Ls2Pd3Q
 42131,132 MAHLE VALVULAS DE ARGENTINA SA,Ejecución de la orden pendiente,Todo Aprobado, ,,F,LC579,9600,0,,EXPRESO SANTA ROSA,493934,50.0%,3072.00,,6Ls2Pd3Q
