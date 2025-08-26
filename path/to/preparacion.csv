@@ -87,8 +87,8 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 41849,814 OBLAK HNOS SACIFI,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 23655,Remitido,F,07063-00001-24,0,0,04/08/2025,EXPRESO CARGO SA,476137,29.6%,1222.50,T,1Hy0Vd3I
 41861,9400444 CRONI SA,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 23656,Remitido,F,PPHR15048XT,0,0,04/08/2025,EXPRESO BRIO SRL,476623,44.3%,2482.80,T,0Rx5Fn3N
 41874,9400115 BEST COLD SRL,Parcialmente ejecutada,Todo Aprobado,Factura de venta 37971,Pagado por completo,F,MTP548B,72,1404,04/08/2025,FELICI JORGE ARIEL,476698,34.6%,2730.60,,8Xq9Re2A
-41874,9400115 BEST COLD SRL,Parcialmente ejecutada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 23659,Remitido,F,MTP548B,72,1404,04/08/2025,FELICI JORGE ARIEL,476698,34.6%,133.20,T,8Xq9Re2A
 41874,9400115 BEST COLD SRL,Parcialmente ejecutada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 23663,Remitido,F,MTP548B,72,1404,04/08/2025,FELICI JORGE ARIEL,476698,34.6%,133.20,T,8Xq9Re2A
+41874,9400115 BEST COLD SRL,Parcialmente ejecutada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 23659,Remitido,F,MTP548B,72,1404,04/08/2025,FELICI JORGE ARIEL,476698,34.6%,133.20,T,8Xq9Re2A
 41897,3089 ARNEG ARGENTINA S.A.,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 23668,Remitido,F,3089/080,0,0,04/08/2025,FELICI JORGE ARIEL,477627,8.1%,523.75,T,7Rx7Ub2H
 41903,1531 PAPELTECNICA SAIC,Parcialmente ejecutada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 23665,Remitido,F,CAS-PPA1048T040,0,0,04/08/2025,FELICI JORGE ARIEL,478011,45.9%,61.56,T,6Tm5Az5M
 41903,1531 PAPELTECNICA SAIC,Parcialmente ejecutada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 23665,Remitido,F,MTS524B,0,0,04/08/2025,FELICI JORGE ARIEL,478011,28.3%,72.00,T,6Tm5Az5M
@@ -251,8 +251,8 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 42040,3089 ARNEG ARGENTINA S.A.,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 23777,Remitido,F,3089/034,0,0,18/08/2025,RICARDO PIERONI,486245,51.5%,600.00,T,7Rx7Ub2H
 42040,3089 ARNEG ARGENTINA S.A.,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 23777,Remitido,F,3089/035,0,0,18/08/2025,RICARDO PIERONI,486245,92.2%,3750.00,T,7Rx7Ub2H
 42056,9400079 PESQUERA SANTA CRUZ SA,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 23776,Remitido,F,CAS-PPAR1072T043,0,0,18/08/2025,TRANSPORTE TOMASSINI,487498,40.4%,5184.00,T,8Cf1Ra3G
-42058,4016 BLACK BAMBOO ENTERPRISES SA,Parcialmente ejecutada,Todo Aprobado,Orden de trabajo ,Liberada,F,CAS-PPA1072T040,24,936,18/08/2025,EXPRESO LUJAN DEL CUYO SA,487691,47.1%,844.80,,5Hd9Vg2B
 42058,4016 BLACK BAMBOO ENTERPRISES SA,Parcialmente ejecutada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 23783,Remitido,F,CAS-PPA1072T040,24,936,18/08/2025,EXPRESO LUJAN DEL CUYO SA,487691,47.1%,1182.72,T,5Hd9Vg2B
+42058,4016 BLACK BAMBOO ENTERPRISES SA,Parcialmente ejecutada,Todo Aprobado,Orden de trabajo ,Liberada,F,CAS-PPA1072T040,24,936,18/08/2025,EXPRESO LUJAN DEL CUYO SA,487691,47.1%,844.80,,5Hd9Vg2B
 42060,1606 DANES SRL,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 23781,Remitido,F,MTS518B,0,0,18/08/2025,RETIRAN,487953,42.7%,472.32,T,1Km7Ai4M
 42063,2414 TAPALQUE ALIMENTOS SA,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 23782,Remitido,F,PPA1548TE,0,0,18/08/2025,EXPRESO CARGO SA,487954,67.5%,720.00,T,7Zr9Rh6S
 42069,9402909 EL ALMACEN SRL,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 23787,Remitido,F,CAS-PPAR1048T043,0,0,18/08/2025,RICARDO PIERONI,488755,44.5%,244.80,T,
@@ -386,6 +386,8 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 42122,3769 GAROFOLI CONSTRUCCIONES SRL,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 23860,Remitido,F,PPAR1048T,0,0,26/08/2025,RODRIGUEZ HNOS. TRANSP. SA,493102,41.6%,831.60,T,7Qv9Mi1Z
 42126,655 SWIFT SA ARGENTINA,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 23859,Remitido,F,CAS-PPAR1072T043,0,0,26/08/2025,CONTE HNOS Y CIA SA,493559,48.9%,5378.40,T,8Wb3Xi2L
 42127,1067 DIPAC SA,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 23858,Remitido,F,CAS-PPAR1048T043,0,0,26/08/2025,RICARDO PIERONI,493560,54.6%,360.00,T,9Tj7Li2O
+42133,2021 SOLAUT S.A.,Facturación pendiente,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 23868,Remitido,F,PPA1548TE,0,0,26/08/2025,EXPRESO CARGO SA,494200,45.4%,1285.20,F,5Rg6Oq8Y
+42133,2021 SOLAUT S.A.,Facturación pendiente,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 23868,Remitido,F,H11/CPE,0,0,26/08/2025,EXPRESO CARGO SA,494200,41.0%,145.00,F,5Rg6Oq8Y
 42101,3089 ARNEG ARGENTINA S.A.,Ejecución de la orden pendiente,Todo Aprobado, ,,T,3089/082,0,2000,27/08/2025,RICARDO PIERONI,491257,53.2%,2500.00,,7Rx7Ub2H
 42124,2660 VICUNHA ARGENTINA SA (Tintoreria Ullum),Ejecución de la orden pendiente,Todo Aprobado, ,,F,MTS518B,96,0,27/08/2025,EXPRESO CARGO SA,493431,37.3%,72.00,,5Dr6Pr8I
 42124,2660 VICUNHA ARGENTINA SA (Tintoreria Ullum),Ejecución de la orden pendiente,Todo Aprobado, ,,F,MTS536B,528,0,27/08/2025,EXPRESO CARGO SA,493431,38.0%,792.00,,5Dr6Pr8I
@@ -397,13 +399,11 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 42019,9402336 INDUSTRIAS ALIMENTARIAS DEL SUD S.A.,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Ensamblada,F,2336/005,36,0,28/08/2025,EXPRESO CARGO SA,485042,22.5%,504.00,,
 42019,9402336 INDUSTRIAS ALIMENTARIAS DEL SUD S.A.,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Liberada,F,2336/006,0,24,28/08/2025,EXPRESO CARGO SA,485042,22.5%,336.00,,
 42019,9402336 INDUSTRIAS ALIMENTARIAS DEL SUD S.A.,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Liberada,F,2336/007,0,36,28/08/2025,EXPRESO CARGO SA,485042,22.5%,504.00,,
-42019,9402336 INDUSTRIAS ALIMENTARIAS DEL SUD S.A.,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Liberada,F,2336/008,0,24,28/08/2025,EXPRESO CARGO SA,485042,22.5%,336.00,,
+42019,9402336 INDUSTRIAS ALIMENTARIAS DEL SUD S.A.,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Ensamblada,F,2336/008,24,0,28/08/2025,EXPRESO CARGO SA,485042,22.5%,336.00,,
 42019,9402336 INDUSTRIAS ALIMENTARIAS DEL SUD S.A.,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Ensamblada,F,MUESTRA ESPECIAL,7,0,28/08/2025,EXPRESO CARGO SA,485042,100.0%,420.00,,
 42105,9400079 PESQUERA SANTA CRUZ SA,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Liberada,F,9400079/001,0,216,28/08/2025,EXPRESO CARGO SA,491774,45.1%,270.00,,8Cf1Ra3G
 42132,2021 SOLAUT S.A.,Ejecución de la orden pendiente,Todo Aprobado, ,,F,PPA1548TE,1080,0,28/08/2025,RICARDO PIERONI,494096,45.4%,1285.20,,5Rg6Oq8Y
 42134,4353 SMOVIR LUIS ALBERTO  SMOVIR ERNESTO SMOVIR EDUARDO SH,Ejecución de la orden pendiente,Todo Aprobado, ,,F,CAS-PPAR1048T043,144,0,28/08/2025,RODRIGUEZ HNOS. TRANSP. SA,494097,51.3%,133.92,,9Aq0Ft5G
-42133,2021 SOLAUT S.A.,Ejecución de la orden pendiente,Todo Aprobado, ,,F,PPA1548TE,1080,0,28/08/2025,EXPRESO CARGO SA,494200,45.4%,1285.20,,5Rg6Oq8Y
-42133,2021 SOLAUT S.A.,Ejecución de la orden pendiente,Todo Aprobado, ,,F,H11/CPE,5,0,28/08/2025,EXPRESO CARGO SA,494200,41.0%,145.00,,5Rg6Oq8Y
 42135,9400154 SEBASTIAN SANCHEZ,Ejecución de la orden pendiente,Todo Aprobado, ,,F,CAS-PPAR1048T043,36,0,28/08/2025,RETIRAN,494206,0.0%,.00,,7Xt9Gc1E
 42135,9400154 SEBASTIAN SANCHEZ,Ejecución de la orden pendiente,Todo Aprobado, ,,F,CAS-PPA1048T040,12,0,28/08/2025,RETIRAN,494206,0.0%,.00,,7Xt9Gc1E
 42135,9400154 SEBASTIAN SANCHEZ,Ejecución de la orden pendiente,Todo Aprobado, ,,F,CAS-PPAR10048T047,12,0,28/08/2025,RETIRAN,494206,0.0%,.00,,7Xt9Gc1E
@@ -427,7 +427,7 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 41999,9400536 MILKAUT SA,Ejecución de la orden pendiente,Todo Aprobado, ,,F,PPHR15048XT,254,10,31/08/2025,RICARDO PIERONI,484098,44.7%,5462.16,,8Ny2Or7G
 42006,690 CEVA DE ARGENTINA SRL,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Liberada,F,0690/010,0,1000,31/08/2025,FELICI JORGE ARIEL,484428,97.4%,4100.00,,3Pt0Oq8I
 42007,690 CEVA DE ARGENTINA SRL,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Liberada,F,2025/001,0,1000,31/08/2025,FELICI JORGE ARIEL,484534,58.4%,3010.00,,3Pt0Oq8I
-42023,655 SWIFT SA ARGENTINA,Ejecución de la orden pendiente,Todo Aprobado, ,,F,PPAR1072T,1272,0,01/09/2025,EXPRESO LUJAN DEL CUYO SA,485272,46.7%,1717.20,,8Wb3Xi2L
+42023,655 SWIFT SA ARGENTINA,Ejecución de la orden pendiente,Todo Aprobado, ,,F,PPAR1072T,1.272,0,01/09/2025,EXPRESO LUJAN DEL CUYO SA,485272,46.7%,1717.20,,8Wb3Xi2L
 41811,94010 VISUAR SA,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Ensamblada,F,1823/002,192,0,03/09/2025,EXPRESO CARGO SA,474182,44.8%,5475.84,,4Gf8Oa0H
 41880,1029 DREAN SA,Ejecución de la orden pendiente,Todo Aprobado, ,,F,MTP548B,0,504,04/09/2025,EXPRESO CARGO SA,476707,36.6%,962.64,,6Ng7Hp1X
 42129,3577 TIEMPO FELIZ SA,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Liberada,F,3577/001,0,360,05/09/2025,EXPRESO CARGO SA,493824,49.5%,424.80,,5Cj2Fy8V
