@@ -220,8 +220,8 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 42040,3089 ARNEG ARGENTINA S.A.,Facturada,Todo Aprobado,Ejecución de pedido de artículo 23777,Enviado,F,3089/034,0,0,18/08/2025,RICARDO PIERONI,486245,51.5%,.00,T,7Rx7Ub2H
 42040,3089 ARNEG ARGENTINA S.A.,Facturada,Todo Aprobado,Ejecución de pedido de artículo 23777,Enviado,F,3089/035,0,0,18/08/2025,RICARDO PIERONI,486245,92.2%,.00,T,7Rx7Ub2H
 42056,9400079 PESQUERA SANTA CRUZ SA,Facturada,Todo Aprobado,Ejecución de pedido de artículo 23776,Enviado,F,CAS-PPAR1072T043,0,0,18/08/2025,TRANSPORTE TOMASSINI,487498,40.4%,.00,T,8Cf1Ra3G
-42058,4016 BLACK BAMBOO ENTERPRISES SA,Parcialmente ejecutada,Todo Aprobado,Orden de trabajo ,Liberada,F,CAS-PPA1072T040,24,936,18/08/2025,EXPRESO LUJAN DEL CUYO SA,487691,47.1%,844.80,,5Hd9Vg2B
 42058,4016 BLACK BAMBOO ENTERPRISES SA,Parcialmente ejecutada,Todo Aprobado,Ejecución de pedido de artículo 23783,Enviado,F,CAS-PPA1072T040,24,936,18/08/2025,EXPRESO LUJAN DEL CUYO SA,487691,47.1%,844.80,T,5Hd9Vg2B
+42058,4016 BLACK BAMBOO ENTERPRISES SA,Parcialmente ejecutada,Todo Aprobado,Orden de trabajo ,Liberada,F,CAS-PPA1072T040,24,936,18/08/2025,EXPRESO LUJAN DEL CUYO SA,487691,47.1%,844.80,,5Hd9Vg2B
 42060,1606 DANES SRL,Facturada,Todo Aprobado,Ejecución de pedido de artículo 23781,Enviado,F,MTS518B,0,0,18/08/2025,RETIRAN,487953,42.7%,.00,T,1Km7Ai4M
 42063,2414 TAPALQUE ALIMENTOS SA,Facturada,Todo Aprobado,Ejecución de pedido de artículo 23782,Enviado,F,PPA1548TE,0,0,18/08/2025,EXPRESO CARGO SA,487954,67.5%,.00,T,7Zr9Rh6S
 42069,9402909 EL ALMACEN SRL,Facturada,Todo Aprobado,Ejecución de pedido de artículo 23787,Enviado,F,CAS-PPAR1048T043,0,0,18/08/2025,RICARDO PIERONI,488755,44.5%,.00,T,
@@ -390,7 +390,7 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 42135,9400154 SEBASTIAN SANCHEZ,Ejecución de la orden pendiente,Todo Aprobado, ,,F,CAS-PPAR10048T047,12,0,28/08/2025,RETIRAN,494206,0.0%,.00,,7Xt9Gc1E
 42135,9400154 SEBASTIAN SANCHEZ,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Ensamblada,F,PPHR1216B,6,0,28/08/2025,RETIRAN,494206,0.0%,.00,,7Xt9Gc1E
 42135,9400154 SEBASTIAN SANCHEZ,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Ensamblada,F,PVC612R,6,0,28/08/2025,RETIRAN,494206,0.0%,.00,,7Xt9Gc1E
-42135,9400154 SEBASTIAN SANCHEZ,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Liberada,F,PPA1048F,0,2,28/08/2025,RETIRAN,494206,0.0%,.00,,7Xt9Gc1E
+42135,9400154 SEBASTIAN SANCHEZ,Ejecución de la orden pendiente,Todo Aprobado, ,,F,PPA1048F,0,2,28/08/2025,RETIRAN,494206,0.0%,.00,,7Xt9Gc1E
 42139,9400422 LACTEOS TONUTTI S.R.L.,Ejecución de la orden pendiente,Todo Aprobado, ,,F,PPHR15048XT,0,60,28/08/2025,TRANSPORTE MOSTTO,494374,45.5%,1260.00,,3Nb5Vf8A
 42142,3598 DEL VALLE EMBALAJES SRL,Facturada,Todo Aprobado,Ejecución de pedido de artículo 23879,Enviado,F,CAS-PPAR10048T047,0,0,28/08/2025,RETIRAN,494549,43.9%,.00,T,0Ph8Mv3F
 42145,9401929 PETROPACK S.A.,Ejecución de la orden pendiente,Todo Aprobado, ,,F,CAS-PPAR100144T045,0,20,28/08/2025,TRANSPORTE MOSTTO,494677,48.3%,520.00,,8Ou2Yz9L
