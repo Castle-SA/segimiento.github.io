@@ -344,9 +344,9 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 41976,3909 LIBECO FILM SA,Parcialmente ejecutada,Todo Aprobado,Ejecución de pedido de artículo 23908,Enviado,F,PPAR524T,49,23,29/08/2025,EXPRESO CARGO SA,482458,100.0%,20.16,T,4Vs0Qf0C
 41976,3909 LIBECO FILM SA,Parcialmente ejecutada,Todo Aprobado,Ejecución de pedido de artículo 23914,Enviado,F,CAS-PPAR548T043,0,0,29/08/2025,EXPRESO CARGO SA,482458,36.8%,.00,T,4Vs0Qf0C
 41976,3909 LIBECO FILM SA,Parcialmente ejecutada,Todo Aprobado,Ejecución de pedido de artículo 23908,Enviado,F,PPAR1048T,0,0,29/08/2025,EXPRESO CARGO SA,482458,45.1%,.00,T,4Vs0Qf0C
-41999,9400536 MILKAUT SA,Parcialmente ejecutada,Todo Aprobado,Ejecución de pedido de artículo 23917,Enviado,F,PPHR15048XT,0,59,29/08/2025,RICARDO PIERONI,484098,44.7%,1220.71,T,8Ny2Or7G
-41999,9400536 MILKAUT SA,Parcialmente ejecutada,Todo Aprobado,Ejecución de pedido de artículo 23887,Enviado,F,PPHR15048XT,0,59,29/08/2025,RICARDO PIERONI,484098,44.7%,1220.71,T,8Ny2Or7G
 41999,9400536 MILKAUT SA,Parcialmente ejecutada,Todo Aprobado,Factura de venta 01358,Abierta,F,PPHR15048XT,0,59,29/08/2025,RICARDO PIERONI,484098,44.7%,1220.71,,8Ny2Or7G
+41999,9400536 MILKAUT SA,Parcialmente ejecutada,Todo Aprobado,Ejecución de pedido de artículo 23887,Enviado,F,PPHR15048XT,0,59,29/08/2025,RICARDO PIERONI,484098,44.7%,1220.71,T,8Ny2Or7G
+41999,9400536 MILKAUT SA,Parcialmente ejecutada,Todo Aprobado,Ejecución de pedido de artículo 23917,Enviado,F,PPHR15048XT,0,59,29/08/2025,RICARDO PIERONI,484098,44.7%,1220.71,T,8Ny2Or7G
 42012,9400609 PAN S COMPANY SA,Ejecución de la orden pendiente,Todo Aprobado, ,,F,PPHR15048XT,0,54,29/08/2025,EXPRESO CARGO SA,484600,42.9%,1084.86,,9Qb8Fy5U
 42018,9402336 INDUSTRIAS ALIMENTARIAS DEL SUD S.A.,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Liberada,F,2336/001,0,12,29/08/2025,EXPRESO CARGO SA,485041,22.5%,168.00,,
 42018,9402336 INDUSTRIAS ALIMENTARIAS DEL SUD S.A.,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Liberada,F,2336/009,0,12,29/08/2025,EXPRESO CARGO SA,485041,22.5%,168.00,,
@@ -395,7 +395,9 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 41811,94010 VISUAR SA,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Ensamblada,F,1823/002,192,0,03/09/2025,EXPRESO CARGO SA,474182,44.8%,5475.84,,4Gf8Oa0H
 42149,4095 REFINERIA DEL CENTRO SA,Ejecución de la orden pendiente,Todo Aprobado, ,,F,CAS-PPAR10072T045,0,120,03/09/2025,EXPRESO SANTA ROSA,495112,62.4%,1476.00,,1Bj3Wa5S
 42168,1067 DIPAC SA,Ejecución de la orden pendiente,Todo Aprobado, ,,F,CAS-PPAR1048T043,360,0,03/09/2025,RICARDO PIERONI,496117,54.7%,360.00,,9Tj7Li2O
+42171,3051 FRIMETAL S.A.,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Liberada,F,1823/002,0,80,03/09/2025,RETIRAN,496497,28.8%,1.795.841,,3Dw0Uk2K
 41880,1029 DREAN SA,Ejecución de la orden pendiente,Todo Aprobado, ,,F,MTP548B,0,504,04/09/2025,EXPRESO CARGO SA,476707,36.6%,962.64,,6Ng7Hp1X
+42174,178 DROGUERIA DEL SUD S.A.,Ejecución de la orden pendiente,Todo Aprobado, ,,F,CAS-PPAR1048T040,144,0,04/09/2025,EXPRESO LUJAN DEL CUYO SA,496606,34.3%,90.72,,5Mx5Rs0E
 42152,9401460 INDUBOL SA,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Ensamblada,F,64621-00048-00,96,0,05/09/2025,RICARDO PIERONI,495259,47.8%,1176.00,,1Qd9By7M
 42153,3089 ARNEG ARGENTINA S.A.,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Liberada,F,PVC672B,0,300,05/09/2025,RICARDO PIERONI,495269,59.6%,2268.00,,7Rx7Ub2H
 42153,3089 ARNEG ARGENTINA S.A.,Ejecución de la orden pendiente,Todo Aprobado, ,,F,MTS536B,384,0,05/09/2025,RICARDO PIERONI,495269,45.0%,648.96,,7Rx7Ub2H
@@ -417,6 +419,7 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 42147,3515 LENCERIA INTIMA SRL,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Liberada,F,3515/003,0,360,12/09/2025,EXPRESO CARGO SA,494678,53.1%,460.80,,1Mp3Zb8B
 42147,3515 LENCERIA INTIMA SRL,Ejecución de la orden pendiente,Todo Aprobado, ,,F,CAS-PPAR1048T043,360,0,12/09/2025,EXPRESO CARGO SA,494678,47.9%,313.20,,1Mp3Zb8B
 42029,17046 SUPER S A SOC URUGUAYENSE DE PRODUCTORES DE ENTRE RIOS SOC ANON,Ejecución de la orden pendiente,Todo Aprobado, ,,F,CAS-PPAR1072T043,144,0,16/09/2025,EXPRESO CARGO SA,485540,47.8%,197.28,,0Qu5Fi8T
+42170,9400774 CORREO OFICIAL DE LA REPUBLICA ARGENTINA SA,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Liberada,F,9400774/001,0,18000,19/09/2025,EXPRESO CARGO SA,496260,21.5%,15840.00,,8Iv9Nk5M
 41843,202 FRIGORIFICO DE AVES SOYCHU SA,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Ensamblada,F,PVC612R,255,0,22/09/2025,EXPRESO CARGO SA,475927,43.9%,293.25,,5Ow8Cg8A
 41843,202 FRIGORIFICO DE AVES SOYCHU SA,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Liberada,F,PPHR1216B,0,390,22/09/2025,EXPRESO CARGO SA,475927,45.7%,393.90,,5Ow8Cg8A
 42071,3598 DEL VALLE EMBALAJES SRL,Ejecución de la orden pendiente,Todo Aprobado, ,,F,PPAR15096T,60,0,22/09/2025,RICARDO PIERONI,488888,62.3%,1650.00,,0Ph8Mv3F
