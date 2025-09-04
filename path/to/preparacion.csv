@@ -326,8 +326,8 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 42050,18293 DULCOR SA,Parcialmente ejecutada,Todo Aprobado,Ejecución de pedido de artículo 23919,Enviado,F,PPAR15048T,2,88,29/08/2025,EXPRESO LUJAN DEL CUYO SA,487055,49.7%,1237.50,T,0Jn1Mv5H
 42065,9400049 COMPAÑIA AMERICANA DE ALIMENTOS S.A.,Facturada,Todo Aprobado,Ejecución de pedido de artículo 23906,Enviado,F,CAS-PPAR10048T047,0,0,29/08/2025,EXPRESO CARGO SA,488154,52.5%,.00,T,2Jl6Ja1C
 42082,12837 FRIGORIFICO SAN FRANCISCO S.A,Facturada,Todo Aprobado,Ejecución de pedido de artículo 23889,Enviado,F,2837/001,0,0,29/08/2025,EXPRESO LUJAN DEL CUYO SA,489684,66.6%,.00,T,9Ry7Wa5R
-42086,67 FORD ARGENTINA S.C.A.,Facturación pendiente,Todo Aprobado,Ejecución de pedido de artículo 23903,Enviado,F,BV002,0,0,29/08/2025,EXPRESO CARGO SA,489913,57.6%,.00,F,0Bz8Ix7O
 42086,67 FORD ARGENTINA S.C.A.,Facturación pendiente,Todo Aprobado,Ejecución de pedido de artículo 23922,Enviado,F,BV002,0,0,29/08/2025,EXPRESO CARGO SA,489913,57.6%,.00,F,0Bz8Ix7O
+42086,67 FORD ARGENTINA S.C.A.,Facturación pendiente,Todo Aprobado,Ejecución de pedido de artículo 23903,Enviado,F,BV002,0,0,29/08/2025,EXPRESO CARGO SA,489913,57.6%,.00,F,0Bz8Ix7O
 42101,3089 ARNEG ARGENTINA S.A.,Facturada,Todo Aprobado,Ejecución de pedido de artículo 23891,Enviado,T,3089/082,0,0,29/08/2025,RICARDO PIERONI,491257,53.2%,.00,T,7Rx7Ub2H
 42124,2660 VICUNHA ARGENTINA SA (Tintoreria Ullum),Facturada,Todo Aprobado,Ejecución de pedido de artículo 23897,Enviado,F,CAS-PPAR1048T040,0,0,29/08/2025,EXPRESO CARGO SA,493431,42.3%,.00,T,5Dr6Pr8I
 42125,1087 FALCONE BODETTO S.A.,Parcialmente ejecutada,Todo Aprobado,Ejecución de pedido de artículo 23888,Enviado,F,1087/001,0,0,29/08/2025,RICARDO PIERONI,493432,72.9%,.00,T,2Vf5Jo3E
@@ -419,6 +419,8 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 42196,9402998 PAN FRESH   SA,Ejecución de la orden pendiente,Todo Aprobado, ,,F,CAS-PPAR10048T047,0,60,08/09/2025,EXPRESO CARGO SA,498010,46.6%,535.80,,
 42197,9402663 FERRUM SA DE CERAMICA Y METALURGIA,Ejecución de la orden pendiente,Todo Aprobado, ,,F,CAS-PPAR548T043,1728,1584,08/09/2025,EXPRESO CARGO SA,498011,37.0%,1258.56,,
 42198,9400079 PESQUERA SANTA CRUZ SA,Ejecución de la orden pendiente,Todo Aprobado, ,,F,H11/72,6,0,08/09/2025,TRANSPORTE TOMASSINI,498012,51.1%,130.74,,8Cf1Ra3G
+42202,3240 PEDRO MOSCUZZA E HIJOS SA,Ejecución de la orden pendiente,Todo Aprobado, ,,F,CAS-PPAR1048T043,5400,0,08/09/2025,TRANSPORTE TOMASSINI,498453,41.2%,4158.00,,4Sf9Dp0L
+42202,3240 PEDRO MOSCUZZA E HIJOS SA,Ejecución de la orden pendiente,Todo Aprobado, ,,F,CAS-PPAR1072T043,240,0,08/09/2025,TRANSPORTE TOMASSINI,498453,40.7%,278.40,,4Sf9Dp0L
 42114,1029 DREAN SA,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Liberada,F,0272/003,0,80,10/09/2025,EXPRESO CARGO SA,492494,34.7%,7440.00,,6Ng7Hp1X
 42115,1029 DREAN SA,Ejecución de la orden pendiente,Todo Aprobado, ,,F,MTP548B,0,1512,10/09/2025,EXPRESO CARGO SA,492597,36.6%,2887.92,,6Ng7Hp1X
 42194,9400049 COMPAÑIA AMERICANA DE ALIMENTOS S.A.,Ejecución de la orden pendiente,Todo Aprobado, ,,F,PPHR15048XT,0,504,11/09/2025,EXPRESO CARGO SA,497644,45.6%,10584.00,,2Jl6Ja1C
