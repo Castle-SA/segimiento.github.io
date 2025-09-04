@@ -1,8 +1,8 @@
 Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. Especial,Pedido,Artículo,Cantidad,Faltante,Fecha,Transportista,ID,GP,,,
 41874,9400115 BEST COLD SRL,Parcialmente ejecutada,Todo Aprobado,Factura de venta 37971,Pagado por completo,F,MTP548B,72,1404,04/08/2025,FELICI JORGE ARIEL,476698,34.6%,2730.60,,8Xq9Re2A
 41903,1531 PAPELTECNICA SAIC,Parcialmente ejecutada,Todo Aprobado,Factura de venta 37981,Pagado por completo,F,CAS-PPHR1048XT045,0,36,04/08/2025,FELICI JORGE ARIEL,478011,36.7%,51.12,,6Tm5Az5M
-41871,4095 REFINERIA DEL CENTRO SA,Parcialmente ejecutada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 23680,Remitido,F,PPAR10072T,0,24,06/08/2025,EXPRESO SANTA ROSA,476658,33.5%,1180.80,T,1Bj3Wa5S
 41871,4095 REFINERIA DEL CENTRO SA,Parcialmente ejecutada,Todo Aprobado,Factura de venta 37989,Abierta,F,PPAR10072T,0,24,06/08/2025,EXPRESO SANTA ROSA,476658,33.5%,295.20,,1Bj3Wa5S
+41871,4095 REFINERIA DEL CENTRO SA,Parcialmente ejecutada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 23680,Remitido,F,PPAR10072T,0,24,06/08/2025,EXPRESO SANTA ROSA,476658,33.5%,1180.80,T,1Bj3Wa5S
 41899,12877 BRIKET SA,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 23683,Remitido,F,0272/004,0,0,06/08/2025,FELICI JORGE ARIEL,477669,33.4%,3600.00,T,6Rp2Ce7I
 41905,9402290 BI MERCANTIL SAS,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 23678,Remitido,F,CAS-PPAR1048T040,0,0,06/08/2025,TRANSPORTE MOSTTO,478013,46.4%,226.80,T,6Cx3Az0M
 41910,9400609 PAN S COMPANY SA,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 23690,Remitido,F,PPHR15048XT,0,0,06/08/2025,EXPRESO CARGO SA,478267,43.8%,1096.20,T,9Qb8Fy5U
@@ -16,8 +16,8 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 41967,9402422 VALBO S A I C Y F,Parcialmente ejecutada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 23687,Remitido,F,CAS-PPAR1048T043,0,0,06/08/2025,RETIRAN,481524,41.2%,864.00,T,
 41967,9402422 VALBO S A I C Y F,Parcialmente ejecutada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 23687,Remitido,F,H11/48,0,0,06/08/2025,RETIRAN,481524,59.6%,250.00,T,
 41967,9402422 VALBO S A I C Y F,Parcialmente ejecutada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 23687,Remitido,F,MTS524B,0,0,06/08/2025,RETIRAN,481524,28.1%,72.00,T,
-41967,9402422 VALBO S A I C Y F,Parcialmente ejecutada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 23687,Remitido,F,MTS548B,0,36,06/08/2025,RETIRAN,481524,27.0%,72.00,T,
 41967,9402422 VALBO S A I C Y F,Parcialmente ejecutada,Todo Aprobado,Factura de venta 37999,Abierta,F,MTS548B,0,36,06/08/2025,RETIRAN,481524,27.0%,72.00,,
+41967,9402422 VALBO S A I C Y F,Parcialmente ejecutada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 23687,Remitido,F,MTS548B,0,36,06/08/2025,RETIRAN,481524,27.0%,72.00,T,
 41968,9400290 TOMAX SRL,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 23682,Remitido,F,PPHR15048XT,0,0,06/08/2025,EXPRESO CARGO SA,481627,42.8%,1200.00,T,7Zv2Of0S
 41972,9400507 ALIMENTARIA MONTE CRISTO SRL,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 23686,Remitido,F,PPAR10048T,0,0,06/08/2025,EXPRESO LANCIONI,481883,43.0%,1071.60,T,8Gq3Xq7U
 41703,3089 ARNEG ARGENTINA S.A.,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 23701,Remitido,T,3089/082,0,0,07/08/2025,FELICI JORGE ARIEL,467260,52.2%,2640.00,T,7Rx7Ub2H
@@ -201,8 +201,8 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 42067,4517 HIPER PACK ROSARIO DE CERRA VALERIA BEATRIZ,Parcialmente ejecutada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 23826,Remitido,F,MTS548B,0,0,21/08/2025,RICARDO PIERONI,488484,27.0%,72.00,T,3Ny6Zw2O
 42067,4517 HIPER PACK ROSARIO DE CERRA VALERIA BEATRIZ,Parcialmente ejecutada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 23826,Remitido,F,PPA1048F,0,0,21/08/2025,RICARDO PIERONI,488484,13.9%,61.92,T,3Ny6Zw2O
 42067,4517 HIPER PACK ROSARIO DE CERRA VALERIA BEATRIZ,Parcialmente ejecutada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 23826,Remitido,F,PPAR1048M,0,0,21/08/2025,RICARDO PIERONI,488484,29.1%,61.92,T,3Ny6Zw2O
-42067,4517 HIPER PACK ROSARIO DE CERRA VALERIA BEATRIZ,Parcialmente ejecutada,Todo Aprobado,Factura de venta 38135,Abierta,F,PPAR524T,0,72,21/08/2025,RICARDO PIERONI,488484,100.0%,18.00,,3Ny6Zw2O
 42067,4517 HIPER PACK ROSARIO DE CERRA VALERIA BEATRIZ,Parcialmente ejecutada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 23826,Remitido,F,PPAR524T,0,72,21/08/2025,RICARDO PIERONI,488484,100.0%,90.00,T,3Ny6Zw2O
+42067,4517 HIPER PACK ROSARIO DE CERRA VALERIA BEATRIZ,Parcialmente ejecutada,Todo Aprobado,Factura de venta 38135,Abierta,F,PPAR524T,0,72,21/08/2025,RICARDO PIERONI,488484,100.0%,18.00,,3Ny6Zw2O
 42074,3676 FRIGORIFICO MARK SA,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 23824,Remitido,F,PVC612R,0,0,21/08/2025,RETIRAN,489153,67.7%,868.32,T,2Nw2Uj9H
 42085,674 KRETZ SA,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 23819,Remitido,F,CAS-PPAR1072T043,0,0,21/08/2025,EXPRESO BRIO SRL,489803,45.1%,295.20,T,0Io3Fg7R
 42092,9400945 LAMED S.A.,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 23820,Remitido,F,CAS-PPA1048T040,0,0,21/08/2025,RICARDO PIERONI,490524,43.1%,468.00,T,9Dw9Wh0V
@@ -310,9 +310,9 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 41976,3909 LIBECO FILM SA,Parcialmente ejecutada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 23908,Remitido,F,PPAR524T,0,72,29/08/2025,EXPRESO CARGO SA,482458,100.0%,40.32,T,4Vs0Qf0C
 41976,3909 LIBECO FILM SA,Parcialmente ejecutada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 23914,Remitido,F,CAS-PPAR548T043,0,0,29/08/2025,EXPRESO CARGO SA,482458,36.8%,27.36,T,4Vs0Qf0C
 41976,3909 LIBECO FILM SA,Parcialmente ejecutada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 23908,Remitido,F,PPAR1048T,0,0,29/08/2025,EXPRESO CARGO SA,482458,45.1%,236.16,T,4Vs0Qf0C
+41999,9400536 MILKAUT SA,Parcialmente ejecutada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 23917,Remitido,F,PPHR15048XT,0,59,29/08/2025,RICARDO PIERONI,484098,44.7%,889.67,T,8Ny2Or7G
 41999,9400536 MILKAUT SA,Parcialmente ejecutada,Todo Aprobado,Factura de venta 01358,Abierta,F,PPHR15048XT,0,59,29/08/2025,RICARDO PIERONI,484098,44.7%,1220.71,,8Ny2Or7G
 41999,9400536 MILKAUT SA,Parcialmente ejecutada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 23887,Remitido,F,PPHR15048XT,0,59,29/08/2025,RICARDO PIERONI,484098,44.7%,3351.78,T,8Ny2Or7G
-41999,9400536 MILKAUT SA,Parcialmente ejecutada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 23917,Remitido,F,PPHR15048XT,0,59,29/08/2025,RICARDO PIERONI,484098,44.7%,889.67,T,8Ny2Or7G
 42012,9400609 PAN S COMPANY SA,Ejecución de la orden pendiente,Todo Aprobado, ,,F,PPHR15048XT,0,54,29/08/2025,EXPRESO CARGO SA,484600,42.9%,1084.86,,9Qb8Fy5U
 42018,9402336 INDUSTRIAS ALIMENTARIAS DEL SUD S.A.,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Liberada,F,2336/001,0,12,29/08/2025,EXPRESO CARGO SA,485041,22.5%,168.00,,
 42018,9402336 INDUSTRIAS ALIMENTARIAS DEL SUD S.A.,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Liberada,F,2336/009,0,12,29/08/2025,EXPRESO CARGO SA,485041,22.5%,168.00,,
@@ -326,8 +326,8 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 42050,18293 DULCOR SA,Parcialmente ejecutada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 23919,Remitido,F,PPAR15048T,2,88,29/08/2025,EXPRESO LUJAN DEL CUYO SA,487055,49.7%,1402.50,T,0Jn1Mv5H
 42065,9400049 COMPAÑIA AMERICANA DE ALIMENTOS S.A.,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 23906,Remitido,F,CAS-PPAR10048T047,0,0,29/08/2025,EXPRESO CARGO SA,488154,52.5%,595.98,T,2Jl6Ja1C
 42082,12837 FRIGORIFICO SAN FRANCISCO S.A,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 23889,Remitido,F,2837/001,0,0,29/08/2025,EXPRESO LUJAN DEL CUYO SA,489684,66.6%,1798.20,T,9Ry7Wa5R
-42086,67 FORD ARGENTINA S.C.A.,Facturación pendiente,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 23922,Remitido,F,BV002,0,0,29/08/2025,EXPRESO CARGO SA,489913,57.6%,4704.00,F,0Bz8Ix7O
 42086,67 FORD ARGENTINA S.C.A.,Facturación pendiente,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 23903,Remitido,F,BV002,0,0,29/08/2025,EXPRESO CARGO SA,489913,57.6%,2016.00,F,0Bz8Ix7O
+42086,67 FORD ARGENTINA S.C.A.,Facturación pendiente,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 23922,Remitido,F,BV002,0,0,29/08/2025,EXPRESO CARGO SA,489913,57.6%,4704.00,F,0Bz8Ix7O
 42101,3089 ARNEG ARGENTINA S.A.,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 23891,Remitido,T,3089/082,0,0,29/08/2025,RICARDO PIERONI,491257,53.2%,2500.00,T,7Rx7Ub2H
 42124,2660 VICUNHA ARGENTINA SA (Tintoreria Ullum),Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 23897,Remitido,F,CAS-PPAR1048T040,0,0,29/08/2025,EXPRESO CARGO SA,493431,42.3%,440.64,T,5Dr6Pr8I
 42125,1087 FALCONE BODETTO S.A.,Parcialmente ejecutada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 23888,Remitido,F,1087/001,0,0,29/08/2025,RICARDO PIERONI,493432,72.9%,633.60,T,2Vf5Jo3E
