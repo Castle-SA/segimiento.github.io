@@ -100,7 +100,7 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 42046,3096 FRECICAR SRL,Facturada,Todo Aprobado,Ejecución de pedido de artículo 23762,Enviado,F,CF518T,0,0,15/08/2025,RICARDO PIERONI,486807,87.7%,.00,T,9Zc0Jy4O
 42047,1809 MERCOMAX SA,Facturada,Todo Aprobado,Ejecución de pedido de artículo 23775,Enviado,F,CAS-PPAR1048T043,0,0,15/08/2025,EXPRESO CARGO SA,487054,38.8%,.00,T,5Rr7Ys4Y
 42050,18293 DULCOR SA,Parcialmente ejecutada,Todo Aprobado,Ejecución de pedido de artículo 23774,Enviado,F,CAS-PPAR1048T043,0,0,15/08/2025,EXPRESO LUJAN DEL CUYO SA,487055,38.8%,.00,T,0Jn1Mv5H
-42050,18293 DULCOR SA,Parcialmente ejecutada,Todo Aprobado,Factura de venta 38085,Abierta,F,PPAR15048T,2,88,15/08/2025,EXPRESO LUJAN DEL CUYO SA,487055,49.7%,1237.50,,0Jn1Mv5H
+42050,18293 DULCOR SA,Parcialmente ejecutada,Todo Aprobado,Factura de venta 38085,Abierta,F,PPAR15048T,0,90,15/08/2025,EXPRESO LUJAN DEL CUYO SA,487055,49.7%,1237.50,,0Jn1Mv5H
 42053,449 DITEC S R L,Facturada,Todo Aprobado,Ejecución de pedido de artículo 23763,Enviado,F,60950-00000-00,0,0,15/08/2025,EXPRESO CARGO SA,487384,46.8%,.00,T,5Xf2Ag4D
 42053,449 DITEC S R L,Facturada,Todo Aprobado,Ejecución de pedido de artículo 23763,Enviado,F,64958-00003-00,0,0,15/08/2025,EXPRESO CARGO SA,487384,28.2%,.00,T,5Xf2Ag4D
 42053,449 DITEC S R L,Facturada,Todo Aprobado,Ejecución de pedido de artículo 23763,Enviado,F,0727/004,0,0,15/08/2025,EXPRESO CARGO SA,487384,33.4%,.00,T,5Xf2Ag4D
@@ -119,8 +119,8 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 42040,3089 ARNEG ARGENTINA S.A.,Facturada,Todo Aprobado,Ejecución de pedido de artículo 23777,Enviado,F,3089/034,0,0,18/08/2025,RICARDO PIERONI,486245,51.5%,.00,T,7Rx7Ub2H
 42040,3089 ARNEG ARGENTINA S.A.,Facturada,Todo Aprobado,Ejecución de pedido de artículo 23777,Enviado,F,3089/035,0,0,18/08/2025,RICARDO PIERONI,486245,92.2%,.00,T,7Rx7Ub2H
 42056,9400079 PESQUERA SANTA CRUZ SA,Facturada,Todo Aprobado,Ejecución de pedido de artículo 23776,Enviado,F,CAS-PPAR1072T043,0,0,18/08/2025,TRANSPORTE TOMASSINI,487498,40.4%,.00,T,8Cf1Ra3G
-42058,4016 BLACK BAMBOO ENTERPRISES SA,Parcialmente ejecutada,Todo Aprobado,Orden de trabajo ,Liberada,F,CAS-PPA1072T040,0,960,18/08/2025,EXPRESO LUJAN DEL CUYO SA,487691,47.1%,844.80,,5Hd9Vg2B
 42058,4016 BLACK BAMBOO ENTERPRISES SA,Parcialmente ejecutada,Todo Aprobado,Ejecución de pedido de artículo 23783,Enviado,F,CAS-PPA1072T040,0,960,18/08/2025,EXPRESO LUJAN DEL CUYO SA,487691,47.1%,844.80,T,5Hd9Vg2B
+42058,4016 BLACK BAMBOO ENTERPRISES SA,Parcialmente ejecutada,Todo Aprobado,Orden de trabajo ,Liberada,F,CAS-PPA1072T040,0,960,18/08/2025,EXPRESO LUJAN DEL CUYO SA,487691,47.1%,844.80,,5Hd9Vg2B
 42060,1606 DANES SRL,Facturada,Todo Aprobado,Ejecución de pedido de artículo 23781,Enviado,F,MTS518B,0,0,18/08/2025,RETIRAN,487953,42.7%,.00,T,1Km7Ai4M
 42063,2414 TAPALQUE ALIMENTOS SA,Facturada,Todo Aprobado,Ejecución de pedido de artículo 23782,Enviado,F,PPA1548TE,0,0,18/08/2025,EXPRESO CARGO SA,487954,67.5%,.00,T,7Zr9Rh6S
 42069,9402909 EL ALMACEN SRL,Facturada,Todo Aprobado,Ejecución de pedido de artículo 23787,Enviado,F,CAS-PPAR1048T043,0,0,18/08/2025,RICARDO PIERONI,488755,44.5%,.00,T,
@@ -306,7 +306,7 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 42018,9402336 INDUSTRIAS ALIMENTARIAS DEL SUD S.A.,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Liberada,F,2336/014,0,12,29/08/2025,EXPRESO CARGO SA,485041,22.5%,168.00,,
 42018,9402336 INDUSTRIAS ALIMENTARIAS DEL SUD S.A.,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Ensamblada,F,MUESTRA ESPECIAL,7,0,29/08/2025,EXPRESO CARGO SA,485041,100.0%,420.00,,
 42025,2492 FRIGORIFICO ALBERDI SA,Parcialmente ejecutada,Todo Aprobado,Orden de trabajo ,Liberada,F,CAS-PPA1072T040,0,240,29/08/2025,TRANSPORTE ÑANDUBAY SA,485274,47.2%,211.20,,0Vc7Du3D
-42050,18293 DULCOR SA,Parcialmente ejecutada,Todo Aprobado,Ejecución de pedido de artículo 23919,Enviado,F,PPAR15048T,2,88,29/08/2025,EXPRESO LUJAN DEL CUYO SA,487055,49.7%,1237.50,T,0Jn1Mv5H
+42050,18293 DULCOR SA,Parcialmente ejecutada,Todo Aprobado,Ejecución de pedido de artículo 23919,Enviado,F,PPAR15048T,0,90,29/08/2025,EXPRESO LUJAN DEL CUYO SA,487055,49.7%,1237.50,T,0Jn1Mv5H
 42065,9400049 COMPAÑIA AMERICANA DE ALIMENTOS S.A.,Facturada,Todo Aprobado,Ejecución de pedido de artículo 23906,Enviado,F,CAS-PPAR10048T047,0,0,29/08/2025,EXPRESO CARGO SA,488154,52.5%,.00,T,2Jl6Ja1C
 42082,12837 FRIGORIFICO SAN FRANCISCO S.A,Facturada,Todo Aprobado,Ejecución de pedido de artículo 23889,Enviado,F,2837/001,0,0,29/08/2025,EXPRESO LUJAN DEL CUYO SA,489684,66.6%,.00,T,9Ry7Wa5R
 42086,67 FORD ARGENTINA S.C.A.,Facturación pendiente,Todo Aprobado,Ejecución de pedido de artículo 23903,Enviado,F,BV002,0,0,29/08/2025,EXPRESO CARGO SA,489913,57.6%,.00,F,0Bz8Ix7O
@@ -317,8 +317,8 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 42125,1087 FALCONE BODETTO S.A.,Parcialmente ejecutada,Todo Aprobado,Ejecución de pedido de artículo 23888,Enviado,F,CAS-PPAR1048T043,0,0,29/08/2025,RICARDO PIERONI,493432,74.8%,.00,T,2Vf5Jo3E
 42125,1087 FALCONE BODETTO S.A.,Parcialmente ejecutada,Todo Aprobado,Factura de venta 38202,Abierta,F,PPAR1024T,0,72,29/08/2025,RICARDO PIERONI,493432,67.8%,64.80,,2Vf5Jo3E
 42129,3577 TIEMPO FELIZ SA,Facturada,Todo Aprobado,Ejecución de pedido de artículo 23904,Enviado,F,3577/001,0,0,29/08/2025,EXPRESO CARGO SA,493824,49.5%,.00,T,5Cj2Fy8V
-42137,3089 ARNEG ARGENTINA S.A.,Parcialmente ejecutada,Todo Aprobado,Ejecución de pedido de artículo 23892,Enviado,T,3089/082,0,3678,29/08/2025,RICARDO PIERONI,494252,53.2%,4597.50,T,7Rx7Ub2H
 42137,3089 ARNEG ARGENTINA S.A.,Parcialmente ejecutada,Todo Aprobado,Factura de venta 38195,Abierta,T,3089/082,0,3678,29/08/2025,RICARDO PIERONI,494252,53.2%,4597.50,,7Rx7Ub2H
+42137,3089 ARNEG ARGENTINA S.A.,Parcialmente ejecutada,Todo Aprobado,Ejecución de pedido de artículo 23892,Enviado,T,3089/082,0,3678,29/08/2025,RICARDO PIERONI,494252,53.2%,4597.50,T,7Rx7Ub2H
 42143,15515 DISTRIBUIDORA DIQUE SRL,Facturada,Todo Aprobado,Ejecución de pedido de artículo 23894,Enviado,F,CAS-PPA1048T040,0,0,29/08/2025,RICARDO PIERONI,494550,33.6%,.00,T,0Xf3Bl8T
 42143,15515 DISTRIBUIDORA DIQUE SRL,Facturada,Todo Aprobado,Ejecución de pedido de artículo 23894,Enviado,F,H11/48,0,0,29/08/2025,RICARDO PIERONI,494550,0.0%,.00,T,0Xf3Bl8T
 42144,12662 PRINTEMPS S.R.L.,Facturada,Todo Aprobado,Ejecución de pedido de artículo 23920,Enviado,F,64621-00003-00,0,0,29/08/2025,RICARDO PIERONI,494676,60.9%,.00,T,2Sp0Fe1F
@@ -328,7 +328,7 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 42157,6224 AJEC AUTOADHESIVOS SA,Facturada,Todo Aprobado,Ejecución de pedido de artículo 23905,Enviado,F,PPA6001550T040,0,0,29/08/2025,EXPRESO CARGO SA,495620,1.2%,.00,T,0Cu0Hq8R
 41976,3909 LIBECO FILM SA,Parcialmente ejecutada,Todo Aprobado,Factura de venta 38214,Pagado por completo,F,PPAR524T,0,72,31/08/2025,EXPRESO CARGO SA,482458,100.0%,20.16,,4Vs0Qf0C
 41999,9400536 MILKAUT SA,Parcialmente ejecutada,Todo Aprobado,Factura de venta 38226,Abierta,F,PPHR15048XT,0,59,31/08/2025,RICARDO PIERONI,484098,44.7%,1220.71,,8Ny2Or7G
-42050,18293 DULCOR SA,Parcialmente ejecutada,Todo Aprobado,Factura de venta 38224,Abierta,F,PPAR15048T,2,88,31/08/2025,EXPRESO LUJAN DEL CUYO SA,487055,49.7%,1237.50,,0Jn1Mv5H
+42050,18293 DULCOR SA,Parcialmente ejecutada,Todo Aprobado,Factura de venta 38224,Abierta,F,PPAR15048T,0,90,31/08/2025,EXPRESO LUJAN DEL CUYO SA,487055,49.7%,1237.50,,0Jn1Mv5H
 42109,9400049 COMPAÑIA AMERICANA DE ALIMENTOS S.A.,Parcialmente ejecutada,Todo Aprobado,Ejecución de pedido de artículo 23924,Enviado,F,CAS-PPHR10048XT045,0,0,31/08/2025,EXPRESO CARGO SA,491886,45.2%,.00,T,2Jl6Ja1C
 42159,9400290 TOMAX SRL,Ejecución de la orden pendiente,Todo Aprobado, ,,F,PPHR15048XT,0,120,01/09/2025,EXPRESO CARGO SA,495623,42.5%,2400.00,,7Zv2Of0S
 42010,15 IND. JOHN DEERE ARGENTINA S.A.,Facturada,Todo Aprobado,Ejecución de pedido de artículo 23928,Enviado,T,0015/014,0,0,02/09/2025,FELICI JORGE ARIEL,484590,83.0%,-104.00,T,8Ky5Hq9D
@@ -353,10 +353,8 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 42172,178 DROGUERIA DEL SUD S.A.,Facturada,Todo Aprobado,Ejecución de pedido de artículo 23933,Enviado,F,CAS-PPAR1048T040,0,0,03/09/2025,TRANSPORTE TOMASSINI,496502,34.3%,.00,T,5Mx5Rs0E
 42173,178 DROGUERIA DEL SUD S.A.,Facturada,Todo Aprobado,Ejecución de pedido de artículo 23934,Enviado,F,CAS-PPAR1048T040,0,0,03/09/2025,EXPRESO LANCIONI,496605,34.3%,.00,T,5Mx5Rs0E
 42174,178 DROGUERIA DEL SUD S.A.,Facturada,Todo Aprobado,Ejecución de pedido de artículo 23935,Enviado,F,CAS-PPAR1048T040,0,0,03/09/2025,EXPRESO LUJAN DEL CUYO SA,496606,34.3%,.00,T,5Mx5Rs0E
-42175,178 DROGUERIA DEL SUD S.A.,Parcialmente ejecutada,Todo Aprobado,Factura de venta 38240,Abierta,F,CAS-PPAR1048T040,0,450,03/09/2025,EXPRESO LANCIONI,496607,34.3%,283.50,,5Mx5Rs0E
-42175,178 DROGUERIA DEL SUD S.A.,Parcialmente ejecutada,Todo Aprobado,Ejecución de pedido de artículo 23936,Enviado,F,CAS-PPAR1048T040,0,450,03/09/2025,EXPRESO LANCIONI,496607,34.3%,283.50,T,5Mx5Rs0E
+42175,178 DROGUERIA DEL SUD S.A.,Parcialmente ejecutada,Todo Aprobado,Ejecución de pedido de artículo 23936,Enviado,F,CAS-PPAR1048T040,450,0,03/09/2025,EXPRESO LANCIONI,496607,34.3%,283.50,T,5Mx5Rs0E
 42175,178 DROGUERIA DEL SUD S.A.,Parcialmente ejecutada,Todo Aprobado,Ejecución de pedido de artículo 23936,Enviado,F,PPA1048F,0,0,03/09/2025,EXPRESO LANCIONI,496607,18.3%,.00,T,5Mx5Rs0E
-42177,178 DROGUERIA DEL SUD S.A.,Parcialmente ejecutada,Todo Aprobado,Factura de venta 38237,Abierta,F,CAS-PPAR1048T040,0,144,03/09/2025,EXPRESO LUJAN DEL CUYO SA,496611,34.3%,90.72,,5Mx5Rs0E
 42177,178 DROGUERIA DEL SUD S.A.,Parcialmente ejecutada,Todo Aprobado,Ejecución de pedido de artículo 23937,Enviado,F,PPA1048F,0,0,03/09/2025,EXPRESO LUJAN DEL CUYO SA,496611,18.6%,.00,T,5Mx5Rs0E
 42189,"9403070 ACOFAR COOP. FARMACEUTICA,DE CREDITO,VIVIENDA Y CONSUMO LTDA",Facturada,Todo Aprobado,Ejecución de pedido de artículo 23941,Enviado,F,CAS-PPAR1048T043,0,0,03/09/2025,TRANSPORTE TOMASSINI,497405,43.4%,.00,T,
 42190,"9403070 ACOFAR COOP. FARMACEUTICA,DE CREDITO,VIVIENDA Y CONSUMO LTDA",Facturada,Todo Aprobado,Ejecución de pedido de artículo 23940,Enviado,F,CAS-PPAR1048T043,0,0,03/09/2025,TRANSPORTE TOMASSINI,497507,43.4%,.00,T,
