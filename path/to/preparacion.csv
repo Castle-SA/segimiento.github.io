@@ -184,8 +184,8 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 42067,4517 HIPER PACK ROSARIO DE CERRA VALERIA BEATRIZ,Parcialmente ejecutada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 23826,Remitido,F,MTS548B,0,0,21/08/2025,RICARDO PIERONI,488484,27.0%,72.00,T,3Ny6Zw2O
 42067,4517 HIPER PACK ROSARIO DE CERRA VALERIA BEATRIZ,Parcialmente ejecutada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 23826,Remitido,F,PPA1048F,0,0,21/08/2025,RICARDO PIERONI,488484,13.9%,61.92,T,3Ny6Zw2O
 42067,4517 HIPER PACK ROSARIO DE CERRA VALERIA BEATRIZ,Parcialmente ejecutada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 23826,Remitido,F,PPAR1048M,0,0,21/08/2025,RICARDO PIERONI,488484,29.1%,61.92,T,3Ny6Zw2O
-42067,4517 HIPER PACK ROSARIO DE CERRA VALERIA BEATRIZ,Parcialmente ejecutada,Todo Aprobado,Factura de venta 38135,Abierta,F,PPAR524T,0,72,21/08/2025,RICARDO PIERONI,488484,100.0%,18.00,,3Ny6Zw2O
 42067,4517 HIPER PACK ROSARIO DE CERRA VALERIA BEATRIZ,Parcialmente ejecutada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 23826,Remitido,F,PPAR524T,0,72,21/08/2025,RICARDO PIERONI,488484,100.0%,90.00,T,3Ny6Zw2O
+42067,4517 HIPER PACK ROSARIO DE CERRA VALERIA BEATRIZ,Parcialmente ejecutada,Todo Aprobado,Factura de venta 38135,Abierta,F,PPAR524T,0,72,21/08/2025,RICARDO PIERONI,488484,100.0%,18.00,,3Ny6Zw2O
 42074,3676 FRIGORIFICO MARK SA,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 23824,Remitido,F,PVC612R,0,0,21/08/2025,RETIRAN,489153,67.7%,868.32,T,2Nw2Uj9H
 42085,674 KRETZ SA,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 23819,Remitido,F,CAS-PPAR1072T043,0,0,21/08/2025,EXPRESO BRIO SRL,489803,45.1%,295.20,T,0Io3Fg7R
 42092,9400945 LAMED S.A.,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 23820,Remitido,F,CAS-PPA1048T040,0,0,21/08/2025,RICARDO PIERONI,490524,43.1%,468.00,T,9Dw9Wh0V
@@ -410,7 +410,7 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 42208,4381 IBERCONSA DE ARGENTINA SA,Ejecución de la orden pendiente,Todo Aprobado, ,,F,PPAR1072T,5016,0,08/09/2025,TRANSPORTE TOMASSINI,498537,32.5%,6019.20,,9Lx6Mu2V
 42209,678 PLASTICOS SUDAMERICANOS S.A.,Ejecución de la orden pendiente,Todo Aprobado, ,,F,PPA1548TE,360,0,08/09/2025,RICARDO PIERONI,498540,56.7%,540.00,,4To3Gr0Z
 42209,678 PLASTICOS SUDAMERICANOS S.A.,Ejecución de la orden pendiente,Todo Aprobado, ,,F,PPAR1048T,360,0,08/09/2025,RICARDO PIERONI,498540,51.0%,360.00,,4To3Gr0Z
-42210,396 IPROA SA,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Liberada,F,04965-00177-00,0,40,08/09/2025,EXPRESO CARGO SA,498679,50.0%,680.00,,2Sr2Wv3Z
+42210,396 IPROA SA,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Ensamblada,F,04965-00177-00,40,0,08/09/2025,EXPRESO CARGO SA,498679,50.0%,680.00,,2Sr2Wv3Z
 42210,396 IPROA SA,Ejecución de la orden pendiente,Todo Aprobado, ,,F,CAS-PPAR1048T043,144,0,08/09/2025,EXPRESO CARGO SA,498679,67.7%,201.60,,2Sr2Wv3Z
 42114,1029 DREAN SA,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Liberada,F,0272/003,0,80,10/09/2025,EXPRESO CARGO SA,492494,34.7%,7440.00,,6Ng7Hp1X
 42115,1029 DREAN SA,Ejecución de la orden pendiente,Todo Aprobado, ,,F,MTP548B,0,1512,10/09/2025,EXPRESO CARGO SA,492597,36.6%,2887.92,,6Ng7Hp1X
@@ -488,3 +488,6 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 42182,9400962 CRYSTAL-ICE SRL,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Liberada,F,9400962/010,0,360,,RICARDO PIERONI,496834,26.8%,338.40,,4Is2Rn8E
 42212,9402942 CABAÑA EL FORTIN S.A.,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Liberada,F,PPHR1216B,0,648,,TRANSPORTE ITALIA SRL,498834,52.0%,900.72,,
 42212,9402942 CABAÑA EL FORTIN S.A.,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Liberada,F,PVC612R,0,720,,TRANSPORTE ITALIA SRL,498834,62.9%,1260.00,,
+42213,2638 QUE RICO SA,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Liberada,F,PPHR1216B,0,432,,EXPRESO CARGO SA,499105,57.8%,682.56,,0Sl1Br5D
+42213,2638 QUE RICO SA,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Liberada,F,CAS-PPAR1048T043,0,360,,EXPRESO CARGO SA,499105,43.4%,288.00,,0Sl1Br5D
+42213,2638 QUE RICO SA,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Liberada,F,PVC612R,0,720,,EXPRESO CARGO SA,499105,59.7%,1159.20,,0Sl1Br5D
