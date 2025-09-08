@@ -233,7 +233,7 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 42108,1412 F R I A R SA ✮✮✮,Facturada,Todo Aprobado,Ejecución de pedido de artículo 23874,Enviado,F,CAS-PPAR1072T043,0,0,27/08/2025,TRANSPORTE SNAIDER,491885,45.1%,.00,T,1Vf8Uo1P,1Bj3Wa5S
 42132,2021 SOLAUT S.A. ✮✮,Facturada,Todo Aprobado,Ejecución de pedido de artículo 23873,Enviado,F,PPA1548TE,0,0,27/08/2025,RICARDO PIERONI,494096,45.4%,.00,T,5Rg6Oq8Y,4Vs0Qf0C
 42136,3051 FRIMETAL S.A. ✮✮,Facturada,Todo Aprobado,Ejecución de pedido de artículo 23876,Enviado,F,2280/004,0,0,27/08/2025,FELICI JORGE ARIEL,494244,45.3%,.00,T,3Dw0Uk2K,
-41346,60 INGERSOLL ARGENTINA S.A. ✮✮✮,Parcialmente ejecutada,Todo Aprobado,Ejecución de pedido de artículo 23875,Enviado,F,0060/001,0,50,27/08/2025,TRANSPORTE TRAVERSO,446064,79.9%,470.00,T,2Df5Fp8J,0Bz8Ix7O
+41346,60 INGERSOLL ARGENTINA S.A. ✮✮✮,Parcialmente ejecutada,Todo Aprobado,Ejecución de pedido de artículo 23875,Enviado,F,0060/001,0,50,27/08/2025,TRANSPORTE TRAVERSO,446064,79.9%,470.00,T,2Df5Fp8J,2Pi6Wv1H
 42140,682 MAYO TRANSFORMADORES S.R.L. ✮✮✮,Facturada,Todo Aprobado,Ejecución de pedido de artículo 23877,Enviado,F,MTS512B,0,0,27/08/2025,RICARDO PIERONI,494399,43.0%,.00,T,0We8Yn4Q,
 42090,9402290 BI MERCANTIL SAS ✮✮✮,Facturada,Todo Aprobado,Ejecución de pedido de artículo 23872,Enviado,F,CAS-PPA1048T040,0,0,27/08/2025,TRANSPORTE MOSTTO,490296,35.1%,.00,T,6Cx3Az0M,
 42090,9402290 BI MERCANTIL SAS ✮✮✮,Facturada,Todo Aprobado,Ejecución de pedido de artículo 23872,Enviado,F,PPA1548TE,0,0,27/08/2025,TRANSPORTE MOSTTO,490296,42.5%,.00,T,6Cx3Az0M,8Cf1Ra3G
@@ -397,6 +397,7 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 42196,9402998 PAN FRESH   SA ,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Liberada,F,CAS-PPAR10048T047,0,60,08/09/2025,EXPRESO CARGO SA,498010,46.6%,535.80,,,
 42115,1029 DREAN SA ✮✮✮,Ejecución de la orden pendiente,Todo Aprobado, ,,F,MTP548B,0,1512,10/09/2025,EXPRESO CARGO SA,492597,36.6%,2887.92,,6Ng7Hp1X,3Dw0Uk2K
 42216,9400126 IBERPESCA SA ,Ejecución de la orden pendiente,Todo Aprobado, ,,F,CAS-PPAR10072T045,0,200,10/09/2025,TRANSPORTE TOMASSINI,499957,64.2%,2584.00,,7Qe0Xm8H,1Qd9By7M
+42215,9400137 MUZO ENRIQUE DARIO ✮✮✮,Ejecución de la orden pendiente,Todo Aprobado, ,,F,CAS-PPA1048T040,1080,0,10/09/2025,RICARDO PIERONI,499796,41.1%,693.391,,0Mw8Gz3K,8Ew3Yq4Q
 42199,3051 FRIMETAL S.A. ✮✮,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Ensamblada,F,07055-00007-22,240,0,11/09/2025,FELICI JORGE ARIEL,498189,48.5%,3.201.905,,3Dw0Uk2K,
 42199,3051 FRIMETAL S.A. ✮✮,Ejecución de la orden pendiente,Todo Aprobado,Pedido ,Recepción pendiente,T,3051/017,0,40000,11/09/2025,FELICI JORGE ARIEL,498189,45.7%,765.091,,3Dw0Uk2K,
 42194,9400049 COMPAÑIA AMERICANA DE ALIMENTOS S.A. ✮✮,Ejecución de la orden pendiente,Todo Aprobado, ,,F,PPHR15048XT,0,504,11/09/2025,EXPRESO CARGO SA,497644,45.6%,10584.00,,2Jl6Ja1C,
@@ -454,7 +455,7 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 41973,4782 OFFAL EXP SA ✮✮,Parcialmente ejecutada,Todo Aprobado,Orden de trabajo ,Liberada,F,CAS-PPAR10048T047,0,0,,EXPRESO CARGO SA,481941,43.9%,-969.00,,2Gq6Ps1R,9Dw9Wh0V
 41973,4782 OFFAL EXP SA ✮✮,Parcialmente ejecutada,Todo Aprobado,Orden de trabajo ,Liberada,F,CAS-PPAR10072T045,0,120,,EXPRESO CARGO SA,481941,64.2%,1550.40,,2Gq6Ps1R,6Ll4Vl5M
 41733,56 CIRUBON S.A. ✮✮✮,Parcialmente ejecutada,Todo Aprobado,Orden de trabajo ,Ensamblada,F,6158/001,2,0,,RETIRAN,468851,58.2%,376.00,,0Wm2Xw7K,3Dw0Uk2K
-41346,60 INGERSOLL ARGENTINA S.A. ✮✮✮,Parcialmente ejecutada,Todo Aprobado,Orden de trabajo ,Liberada,F,0060/001,0,50,,TRANSPORTE TRAVERSO,446064,79.9%,470.00,,2Df5Fp8J,2Pi6Wv1H
+41346,60 INGERSOLL ARGENTINA S.A. ✮✮✮,Parcialmente ejecutada,Todo Aprobado,Orden de trabajo ,Liberada,F,0060/001,0,50,,TRANSPORTE TRAVERSO,446064,79.9%,470.00,,2Df5Fp8J,0Bz8Ix7O
 42006,690 CEVA DE ARGENTINA SRL ✮✮✮,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Liberada,F,0690/010,0,1000,,FELICI JORGE ARIEL,484428,97.4%,4100.00,,3Pt0Oq8I,6Ls2Pd3Q
 42007,690 CEVA DE ARGENTINA SRL ✮✮✮,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Liberada,F,2025/001,0,1000,,FELICI JORGE ARIEL,484534,58.4%,3010.00,,3Pt0Oq8I,6Ls2Pd3Q
 42109,9400049 COMPAÑIA AMERICANA DE ALIMENTOS S.A. ✮✮,Parcialmente ejecutada,Todo Aprobado,Orden de trabajo ,Liberada,F,CAS-PPHR10048XT045,0,526,,EXPRESO CARGO SA,491886,30.9%,7364.00,,2Jl6Ja1C,0We8Yn4Q
