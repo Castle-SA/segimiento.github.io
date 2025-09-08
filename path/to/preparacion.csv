@@ -65,7 +65,7 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 41957,178 DROGUERIA DEL SUD S.A. ✮✮,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 23773,Remitido,F,CAS-PPAR1048T043,0,0,15/08/2025,EXPRESO CARGO SA,481232,25.4%,113.40,T,5Mx5Rs0E,6Ib6Fj6R
 42047,1809 MERCOMAX SA ✮✮,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 23775,Remitido,F,CAS-PPAR1048T043,0,0,15/08/2025,EXPRESO CARGO SA,487054,38.8%,1386.00,T,5Rr7Ys4Y,5Mx5Rs0E
 42050,18293 DULCOR SA ✮✮,Parcialmente ejecutada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 23774,Remitido,F,CAS-PPAR1048T043,0,0,15/08/2025,EXPRESO LUJAN DEL CUYO SA,487055,38.8%,332.64,T,0Jn1Mv5H,5Mx5Rs0E
-42050,18293 DULCOR SA ✮✮,Parcialmente ejecutada,Todo Aprobado,Factura de venta 38085,Abierta,F,PPAR15048T,0,90,15/08/2025,EXPRESO LUJAN DEL CUYO SA,487055,49.7%,1237.50,,0Jn1Mv5H,5Mx5Rs0E
+42050,18293 DULCOR SA ✮✮,Parcialmente ejecutada,Todo Aprobado,Factura de venta 38085,Abierta,F,PPAR15048T,0,90,15/08/2025,EXPRESO LUJAN DEL CUYO SA,487055,49.7%,1237.50,,0Jn1Mv5H,
 41919,3051 FRIMETAL S.A. ✮✮,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 23761,Remitido,F,3051/010,0,0,15/08/2025,FELICI JORGE ARIEL,479023,59.2%,2.345.538,T,3Dw0Uk2K,9Qb8Fy5U
 41919,3051 FRIMETAL S.A. ✮✮,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 23761,Remitido,F,3051/011,0,0,15/08/2025,FELICI JORGE ARIEL,479023,58.8%,502.579,T,3Dw0Uk2K,3Pt0Oq8I
 41919,3051 FRIMETAL S.A. ✮✮,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 23771,Remitido,F,PPAR1048M,0,0,15/08/2025,FELICI JORGE ARIEL,479023,29.6%,311.538,T,3Dw0Uk2K,3Pt0Oq8I
@@ -206,7 +206,7 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 42011,9400609 PAN S COMPANY SA ✮✮✮,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 23850,Remitido,F,PPHR15048XT,0,0,25/08/2025,EXPRESO CARGO SA,484595,42.9%,361.62,T,9Qb8Fy5U,5Mx5Rs0E
 42106,9400716 RAFAELA ALIMENTOS SA ✮✮,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 23856,Remitido,F,PPAR1048T,0,0,25/08/2025,EXPRESO SANTA ROSA,491775,41.6%,1164.24,T,8Ej8At4Q,5Mx5Rs0E
 42127,1067 DIPAC SA ✮✮✮,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 23858,Remitido,F,CAS-PPAR1048T043,0,0,26/08/2025,RICARDO PIERONI,493560,54.6%,360.00,T,9Tj7Li2O,0Ql9Gi1V
-42082,12837 FRIGORIFICO SAN FRANCISCO S.A ✮✮,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 23870,Remitido,F,2837/001,0,0,26/08/2025,EXPRESO LUJAN DEL CUYO SA,489684,66.6%,2530.80,T,9Ry7Wa5R,0Ql9Gi1V
+42082,12837 FRIGORIFICO SAN FRANCISCO S.A ✮✮,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 23870,Remitido,F,2837/001,0,0,26/08/2025,EXPRESO LUJAN DEL CUYO SA,489684,66.6%,2530.80,T,9Ry7Wa5R,7Rx7Ub2H
 41883,15 IND. JOHN DEERE ARGENTINA S.A. ✮✮✮,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 23867,Remitido,F,0015/008,0,0,26/08/2025,FELICI JORGE ARIEL,476715,73.3%,3210.00,T,8Ky5Hq9D,8Ky5Hq9D
 42133,2021 SOLAUT S.A. ✮✮,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 23868,Remitido,F,PPA1548TE,0,0,26/08/2025,EXPRESO CARGO SA,494200,45.4%,1285.20,T,5Rg6Oq8Y,4Vs0Qf0C
 42133,2021 SOLAUT S.A. ✮✮,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 23868,Remitido,F,H11/CPE,0,0,26/08/2025,EXPRESO CARGO SA,494200,41.0%,145.00,T,5Rg6Oq8Y,2Uv7Bb0L
@@ -253,17 +253,17 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 42019,9402336 INDUSTRIAS ALIMENTARIAS DEL SUD S.A. ✮✮,Parcialmente ejecutada,Todo Aprobado,Orden de trabajo ,Liberada,F,2336/003,0,12,28/08/2025,EXPRESO CARGO SA,485042,22.5%,168.00,,,3Dw0Uk2K
 42019,9402336 INDUSTRIAS ALIMENTARIAS DEL SUD S.A. ✮✮,Parcialmente ejecutada,Todo Aprobado,Orden de trabajo ,Liberada,F,2336/004,0,12,28/08/2025,EXPRESO CARGO SA,485042,22.5%,168.00,,,3Dw0Uk2K
 42019,9402336 INDUSTRIAS ALIMENTARIAS DEL SUD S.A. ✮✮,Parcialmente ejecutada,Todo Aprobado,Orden de trabajo ,Ensamblada,F,2336/006,24,0,28/08/2025,EXPRESO CARGO SA,485042,22.5%,336.00,,,6Rp2Ce7I
-42019,9402336 INDUSTRIAS ALIMENTARIAS DEL SUD S.A. ✮✮,Parcialmente ejecutada,Todo Aprobado,Orden de trabajo ,Ensamblada,F,2336/007,26,0,28/08/2025,EXPRESO CARGO SA,485042,22.5%,364.00,,,9Lx6Mu2V
+42019,9402336 INDUSTRIAS ALIMENTARIAS DEL SUD S.A. ✮✮,Parcialmente ejecutada,Todo Aprobado,Orden de trabajo ,Ensamblada,F,2336/007,26,0,28/08/2025,EXPRESO CARGO SA,485042,22.5%,364.00,,,4To3Gr0Z
 41763,1029 DREAN SA ✮✮✮,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 23898,Remitido,F,1153/001,0,0,29/08/2025,EXPRESO CARGO SA,470800,55.5%,1980.00,T,6Ng7Hp1X,7Kh2Zf0E
 42125,1087 FALCONE BODETTO S.A. ✮✮,Parcialmente ejecutada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 23888,Remitido,F,1087/001,0,0,29/08/2025,RICARDO PIERONI,493432,72.9%,633.60,T,2Vf5Jo3E,0Ql9Gi1V
 42125,1087 FALCONE BODETTO S.A. ✮✮,Parcialmente ejecutada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 23888,Remitido,F,CAS-PPAR1048T043,0,0,29/08/2025,RICARDO PIERONI,493432,74.8%,64.80,T,2Vf5Jo3E,0Wm2Xw7K
 42125,1087 FALCONE BODETTO S.A. ✮✮,Parcialmente ejecutada,Todo Aprobado,Factura de venta 38202,Abierta,F,PPAR1024T,0,72,29/08/2025,RICARDO PIERONI,493432,67.8%,64.80,,2Vf5Jo3E,7Ei3Zh4Q
 42144,12662 PRINTEMPS S.R.L. ✮✮✮,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 23920,Remitido,F,64621-00003-00,0,0,29/08/2025,RICARDO PIERONI,494676,60.9%,947.52,T,2Sp0Fe1F,0Zw3Xq6V
-42082,12837 FRIGORIFICO SAN FRANCISCO S.A ✮✮,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 23889,Remitido,F,2837/001,0,0,29/08/2025,EXPRESO LUJAN DEL CUYO SA,489684,66.6%,1798.20,T,9Ry7Wa5R,7Rx7Ub2H
+42082,12837 FRIGORIFICO SAN FRANCISCO S.A ✮✮,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 23889,Remitido,F,2837/001,0,0,29/08/2025,EXPRESO LUJAN DEL CUYO SA,489684,66.6%,1798.20,T,9Ry7Wa5R,0Ql9Gi1V
 41863,132 MAHLE VALVULAS DE ARGENTINA SA ✮✮✮,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 23896,Remitido,F,3351/002,0,0,29/08/2025,EXPRESO SANTA ROSA,476628,75.7%,264.00,T,6Ls2Pd3Q,5Ow8Cg8A
 42143,15515 DISTRIBUIDORA DIQUE SRL ✮✮,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 23894,Remitido,F,CAS-PPA1048T040,0,0,29/08/2025,RICARDO PIERONI,494550,33.6%,2052.00,T,0Xf3Bl8T,6Tm5Az5M
 42143,15515 DISTRIBUIDORA DIQUE SRL ✮✮,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 23894,Remitido,F,H11/48,0,0,29/08/2025,RICARDO PIERONI,494550,0.0%,.00,T,0Xf3Bl8T,7Xr0Sq4A
-42050,18293 DULCOR SA ✮✮,Parcialmente ejecutada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 23919,Remitido,F,PPAR15048T,0,90,29/08/2025,EXPRESO LUJAN DEL CUYO SA,487055,49.7%,1402.50,T,0Jn1Mv5H,
+42050,18293 DULCOR SA ✮✮,Parcialmente ejecutada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 23919,Remitido,F,PPAR15048T,0,90,29/08/2025,EXPRESO LUJAN DEL CUYO SA,487055,49.7%,1402.50,T,0Jn1Mv5H,7Rx7Ub2H
 41838,202 FRIGORIFICO DE AVES SOYCHU SA ✮✮✮,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 23916,Remitido,F,PPHR1216B,0,0,29/08/2025,EXPRESO CARGO SA,475918,45.7%,656.50,T,5Ow8Cg8A,3Dw0Uk2K
 41839,202 FRIGORIFICO DE AVES SOYCHU SA ✮✮✮,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 23918,Remitido,F,PPHR1216B,0,0,29/08/2025,EXPRESO CARGO SA,475919,45.7%,656.50,T,5Ow8Cg8A,2Gq6Ps1R
 41841,202 FRIGORIFICO DE AVES SOYCHU SA ✮✮✮,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 23913,Remitido,F,PPHR1216B,0,0,29/08/2025,EXPRESO CARGO SA,475924,45.7%,393.90,T,5Ow8Cg8A,2Gq6Ps1R
@@ -293,9 +293,9 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 42154,918 PEDRIN III SRL ✮✮✮,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 23901,Remitido,F,CAS-PPAR1048T043,0,0,29/08/2025,RICARDO PIERONI,495343,46.6%,459.00,T,1Xs7Zy5E,7Rx7Ub2H
 42065,9400049 COMPAÑIA AMERICANA DE ALIMENTOS S.A. ✮✮,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 23906,Remitido,F,CAS-PPAR10048T047,0,0,29/08/2025,EXPRESO CARGO SA,488154,52.5%,595.98,T,2Jl6Ja1C,7Ei3Zh4Q
 42151,9400290 TOMAX SRL ✮✮,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 23902,Remitido,F,PPAR15048T,0,0,29/08/2025,EXPRESO CARGO SA,495214,0.0%,.00,T,7Zv2Of0S,3Jc0Cw5E
-41999,9400536 MILKAUT SA ✮✮,Parcialmente ejecutada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 23917,Remitido,F,PPHR15048XT,0,59,29/08/2025,RICARDO PIERONI,484098,44.7%,889.67,T,8Ny2Or7G,0Te3Bc5F
-41999,9400536 MILKAUT SA ✮✮,Parcialmente ejecutada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 23887,Remitido,F,PPHR15048XT,0,59,29/08/2025,RICARDO PIERONI,484098,44.7%,3351.78,T,8Ny2Or7G,9Tj7Li2O
-41999,9400536 MILKAUT SA ✮✮,Parcialmente ejecutada,Todo Aprobado,Factura de venta 01358,Abierta,F,PPHR15048XT,0,59,29/08/2025,RICARDO PIERONI,484098,44.7%,1220.71,,8Ny2Or7G,1Tu2Pr5C
+41999,9400536 MILKAUT SA ✮✮,Parcialmente ejecutada,Todo Aprobado,Factura de venta 01358,Abierta,F,PPHR15048XT,0,59,29/08/2025,RICARDO PIERONI,484098,44.7%,1220.71,,8Ny2Or7G,0Te3Bc5F
+41999,9400536 MILKAUT SA ✮✮,Parcialmente ejecutada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 23917,Remitido,F,PPHR15048XT,0,59,29/08/2025,RICARDO PIERONI,484098,44.7%,889.67,T,8Ny2Or7G,9Tj7Li2O
+41999,9400536 MILKAUT SA ✮✮,Parcialmente ejecutada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 23887,Remitido,F,PPHR15048XT,0,59,29/08/2025,RICARDO PIERONI,484098,44.7%,3351.78,T,8Ny2Or7G,1Tu2Pr5C
 42012,9400609 PAN S COMPANY SA ✮✮✮,Ejecución de la orden pendiente,Todo Aprobado, ,,F,PPHR15048XT,0,54,29/08/2025,EXPRESO CARGO SA,484600,42.9%,1084.86,,9Qb8Fy5U,5Mx5Rs0E
 41783,9400962 CRYSTAL-ICE SRL ✮✮✮,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 23899,Remitido,F,CAS-PPAR1048T040,0,0,29/08/2025,RICARDO PIERONI,471799,43.7%,324.00,T,4Is2Rn8E,6Ls2Pd3Q
 41783,9400962 CRYSTAL-ICE SRL ✮✮✮,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 23899,Remitido,F,CAS-PPA1048T040,0,0,29/08/2025,RICARDO PIERONI,471799,43.8%,435.60,T,4Is2Rn8E,4Is2Rn8E
@@ -308,7 +308,7 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 42018,9402336 INDUSTRIAS ALIMENTARIAS DEL SUD S.A. ✮✮,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Liberada,F,2336/014,0,12,29/08/2025,EXPRESO CARGO SA,485041,22.5%,168.00,,,3Dw0Uk2K
 42018,9402336 INDUSTRIAS ALIMENTARIAS DEL SUD S.A. ✮✮,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Ensamblada,F,MUESTRA ESPECIAL,7,0,29/08/2025,EXPRESO CARGO SA,485041,100.0%,420.00,,,3Dw0Uk2K
 41948,9402942 CABAÑA EL FORTIN S.A. ,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 23910,Remitido,F,PPHR1216B,0,0,29/08/2025,TRANSPORTE ITALIA SRL,480966,60.6%,150.12,T,,0Sl1Br5D
-42050,18293 DULCOR SA ✮✮,Parcialmente ejecutada,Todo Aprobado,Factura de venta 38224,Abierta,F,PPAR15048T,0,90,31/08/2025,EXPRESO LUJAN DEL CUYO SA,487055,49.7%,1237.50,,0Jn1Mv5H,7Rx7Ub2H
+42050,18293 DULCOR SA ✮✮,Parcialmente ejecutada,Todo Aprobado,Factura de venta 38224,Abierta,F,PPAR15048T,0,90,31/08/2025,EXPRESO LUJAN DEL CUYO SA,487055,49.7%,1237.50,,0Jn1Mv5H,5Mx5Rs0E
 41976,3909 LIBECO FILM SA ✮✮✮,Parcialmente ejecutada,Todo Aprobado,Factura de venta 38214,Pagado por completo,F,PPAR524T,0,72,31/08/2025,EXPRESO CARGO SA,482458,100.0%,20.16,,4Vs0Qf0C,7Rx7Ub2H
 42109,9400049 COMPAÑIA AMERICANA DE ALIMENTOS S.A. ✮✮,Parcialmente ejecutada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 23924,Remitido,F,CAS-PPHR10048XT045,0,0,31/08/2025,EXPRESO CARGO SA,491886,45.2%,3220.00,T,2Jl6Ja1C,3Nb5Vf8A
 41999,9400536 MILKAUT SA ✮✮,Parcialmente ejecutada,Todo Aprobado,Factura de venta 38226,Abierta,F,PPHR15048XT,0,59,31/08/2025,RICARDO PIERONI,484098,44.7%,1220.71,,8Ny2Or7G,0Te3Bc5F
@@ -321,14 +321,14 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 42150,9400312 SABORISIMO SA ,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 23925,Remitido,F,PPAR15048T,0,0,02/09/2025,EXPRESO CARGO SA,495213,100.0%,.00,T,7Ip7Qv8Y,7Rx7Ub2H
 42152,9401460 INDUBOL SA ✮✮,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 23926,Remitido,F,64621-00048-00,0,0,02/09/2025,RICARDO PIERONI,495259,47.8%,1176.00,T,1Qd9By7M,7Qv9Mi1Z
 42019,9402336 INDUSTRIAS ALIMENTARIAS DEL SUD S.A. ✮✮,Parcialmente ejecutada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 23931,Remitido,F,2336/005,0,0,02/09/2025,EXPRESO CARGO SA,485042,22.5%,504.00,T,,3Dw0Uk2K
-42019,9402336 INDUSTRIAS ALIMENTARIAS DEL SUD S.A. ✮✮,Parcialmente ejecutada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 23931,Remitido,F,2336/007,26,0,02/09/2025,EXPRESO CARGO SA,485042,22.5%,140.00,T,,4To3Gr0Z
+42019,9402336 INDUSTRIAS ALIMENTARIAS DEL SUD S.A. ✮✮,Parcialmente ejecutada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 23931,Remitido,F,2336/007,26,0,02/09/2025,EXPRESO CARGO SA,485042,22.5%,140.00,T,,9Lx6Mu2V
 42019,9402336 INDUSTRIAS ALIMENTARIAS DEL SUD S.A. ✮✮,Parcialmente ejecutada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 23931,Remitido,F,2336/008,0,0,02/09/2025,EXPRESO CARGO SA,485042,22.5%,336.00,T,,4To3Gr0Z
 42019,9402336 INDUSTRIAS ALIMENTARIAS DEL SUD S.A. ✮✮,Parcialmente ejecutada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 23931,Remitido,F,MUESTRA ESPECIAL,0,0,02/09/2025,EXPRESO CARGO SA,485042,100.0%,420.00,T,,2Sr2Wv3Z
 42168,1067 DIPAC SA ✮✮✮,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 23939,Remitido,F,CAS-PPAR1048T043,0,0,03/09/2025,RICARDO PIERONI,496117,54.7%,360.00,T,9Tj7Li2O,0Ql9Gi1V
 42172,178 DROGUERIA DEL SUD S.A. ✮✮,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 23933,Remitido,F,CAS-PPAR1048T040,0,0,03/09/2025,TRANSPORTE TOMASSINI,496502,34.3%,408.24,T,5Mx5Rs0E,0Ut2Zv0U
 42173,178 DROGUERIA DEL SUD S.A. ✮✮,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 23934,Remitido,F,CAS-PPAR1048T040,0,0,03/09/2025,EXPRESO LANCIONI,496605,34.3%,453.60,T,5Mx5Rs0E,0Ut2Zv0U
 42174,178 DROGUERIA DEL SUD S.A. ✮✮,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 23935,Remitido,F,CAS-PPAR1048T040,0,0,03/09/2025,EXPRESO LUJAN DEL CUYO SA,496606,34.3%,90.72,T,5Mx5Rs0E,2Uv7Bb0L
-42175,178 DROGUERIA DEL SUD S.A. ✮✮,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 23936,Remitido,F,CAS-PPAR1048T040,0,0,03/09/2025,EXPRESO LANCIONI,496607,34.3%,601.02,T,5Mx5Rs0E,2Uv7Bb0L
+42175,178 DROGUERIA DEL SUD S.A. ✮✮,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 23936,Remitido,F,CAS-PPAR1048T040,0,0,03/09/2025,EXPRESO LANCIONI,496607,34.3%,601.02,T,5Mx5Rs0E,8Ky5Hq9D
 42175,178 DROGUERIA DEL SUD S.A. ✮✮,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 23936,Remitido,F,PPA1048F,0,0,03/09/2025,EXPRESO LANCIONI,496607,18.3%,131.04,T,5Mx5Rs0E,5Mx5Rs0E
 42177,178 DROGUERIA DEL SUD S.A. ✮✮,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 23937,Remitido,F,PPA1048F,0,0,03/09/2025,EXPRESO LUJAN DEL CUYO SA,496611,18.6%,65.78,T,5Mx5Rs0E,5Mx5Rs0E
 42149,4095 REFINERIA DEL CENTRO SA ✮✮✮,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Liberada,F,CAS-PPAR10072T045,0,120,03/09/2025,EXPRESO SANTA ROSA,495112,62.4%,1476.00,,1Bj3Wa5S,3Ny6Zw2O
@@ -367,7 +367,7 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 42139,9400422 LACTEOS TONUTTI S.R.L. ✮✮,Parcialmente ejecutada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 23953,Remitido,F,CAS-PPHR10048XT045,0,0,04/09/2025,TRANSPORTE MOSTTO,494374,31.0%,840.00,T,3Nb5Vf8A,7Rx7Ub2H
 42191,9400461 ELDO OMAR MOSCONI S.R.L. ,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Liberada,F,CAS-PPAR10048T047,0,60,04/09/2025,FELICI JORGE ARIEL,497508,46.6%,535.80,,,7Rx7Ub2H
 42169,143 EPTA ARGENTINA S.A. ✮✮✮,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 23962,Remitido,F,PVC648B,0,0,05/09/2025,FELICI JORGE ARIEL,496254,68.6%,4572.00,T,1Tu2Pr5C,8Xq9Re2A
-42175,178 DROGUERIA DEL SUD S.A. ✮✮,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 23956,Remitido,F,CAS-PPAR1048T040,0,0,05/09/2025,EXPRESO LANCIONI,496607,34.3%,283.50,T,5Mx5Rs0E,8Ky5Hq9D
+42175,178 DROGUERIA DEL SUD S.A. ✮✮,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 23956,Remitido,F,CAS-PPAR1048T040,0,0,05/09/2025,EXPRESO LANCIONI,496607,34.3%,283.50,T,5Mx5Rs0E,2Uv7Bb0L
 42176,178 DROGUERIA DEL SUD S.A. ✮✮,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 23958,Remitido,F,CAS-PPAR1048T040,0,0,05/09/2025,TRANSPORTE TOMASSINI,496608,34.3%,158.76,T,5Mx5Rs0E,5Mx5Rs0E
 42177,178 DROGUERIA DEL SUD S.A. ✮✮,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 23957,Remitido,F,CAS-PPAR1048T040,0,0,05/09/2025,EXPRESO LUJAN DEL CUYO SA,496611,34.3%,90.72,T,5Mx5Rs0E,5Mx5Rs0E
 42178,178 DROGUERIA DEL SUD S.A. ✮✮,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 23955,Remitido,F,CAS-PPAR1048T040,0,0,05/09/2025,EXPRESO LANCIONI,496616,34.3%,294.84,T,5Mx5Rs0E,5Mx5Rs0E
