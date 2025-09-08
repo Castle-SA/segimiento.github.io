@@ -166,8 +166,8 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 42067,4517 HIPER PACK ROSARIO DE CERRA VALERIA BEATRIZ,Parcialmente ejecutada,Todo Aprobado,Ejecución de pedido de artículo 23826,Enviado,F,MTS548B,0,0,21/08/2025,RICARDO PIERONI,488484,27.0%,.00,T,3Ny6Zw2O
 42067,4517 HIPER PACK ROSARIO DE CERRA VALERIA BEATRIZ,Parcialmente ejecutada,Todo Aprobado,Ejecución de pedido de artículo 23826,Enviado,F,PPA1048F,0,0,21/08/2025,RICARDO PIERONI,488484,13.9%,.00,T,3Ny6Zw2O
 42067,4517 HIPER PACK ROSARIO DE CERRA VALERIA BEATRIZ,Parcialmente ejecutada,Todo Aprobado,Ejecución de pedido de artículo 23826,Enviado,F,PPAR1048M,0,0,21/08/2025,RICARDO PIERONI,488484,29.1%,.00,T,3Ny6Zw2O
-42067,4517 HIPER PACK ROSARIO DE CERRA VALERIA BEATRIZ,Parcialmente ejecutada,Todo Aprobado,Factura de venta 38135,Abierta,F,PPAR524T,0,72,21/08/2025,RICARDO PIERONI,488484,100.0%,18.00,,3Ny6Zw2O
 42067,4517 HIPER PACK ROSARIO DE CERRA VALERIA BEATRIZ,Parcialmente ejecutada,Todo Aprobado,Ejecución de pedido de artículo 23826,Enviado,F,PPAR524T,0,72,21/08/2025,RICARDO PIERONI,488484,100.0%,18.00,T,3Ny6Zw2O
+42067,4517 HIPER PACK ROSARIO DE CERRA VALERIA BEATRIZ,Parcialmente ejecutada,Todo Aprobado,Factura de venta 38135,Abierta,F,PPAR524T,0,72,21/08/2025,RICARDO PIERONI,488484,100.0%,18.00,,3Ny6Zw2O
 42074,3676 FRIGORIFICO MARK SA,Facturada,Todo Aprobado,Ejecución de pedido de artículo 23824,Enviado,F,PVC612R,0,0,21/08/2025,RETIRAN,489153,67.7%,.00,T,2Nw2Uj9H
 42085,674 KRETZ SA,Facturada,Todo Aprobado,Ejecución de pedido de artículo 23819,Enviado,F,CAS-PPAR1072T043,0,0,21/08/2025,EXPRESO BRIO SRL,489803,45.1%,.00,T,0Io3Fg7R
 42092,9400945 LAMED S.A.,Facturada,Todo Aprobado,Ejecución de pedido de artículo 23820,Enviado,F,CAS-PPA1048T040,0,0,21/08/2025,RICARDO PIERONI,490524,43.1%,.00,T,9Dw9Wh0V
@@ -243,7 +243,7 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 42019,9402336 INDUSTRIAS ALIMENTARIAS DEL SUD S.A.,Parcialmente ejecutada,Todo Aprobado,Orden de trabajo ,Liberada,F,2336/003,0,12,28/08/2025,EXPRESO CARGO SA,485042,22.5%,168.00,,
 42019,9402336 INDUSTRIAS ALIMENTARIAS DEL SUD S.A.,Parcialmente ejecutada,Todo Aprobado,Orden de trabajo ,Liberada,F,2336/004,0,12,28/08/2025,EXPRESO CARGO SA,485042,22.5%,168.00,,
 42019,9402336 INDUSTRIAS ALIMENTARIAS DEL SUD S.A.,Parcialmente ejecutada,Todo Aprobado,Orden de trabajo ,Liberada,F,2336/006,0,24,28/08/2025,EXPRESO CARGO SA,485042,22.5%,336.00,,
-42019,9402336 INDUSTRIAS ALIMENTARIAS DEL SUD S.A.,Parcialmente ejecutada,Todo Aprobado,Orden de trabajo ,En curso,F,2336/007,0,26,28/08/2025,EXPRESO CARGO SA,485042,22.5%,364.00,,
+42019,9402336 INDUSTRIAS ALIMENTARIAS DEL SUD S.A.,Parcialmente ejecutada,Todo Aprobado,Orden de trabajo ,Ensamblada,F,2336/007,26,0,28/08/2025,EXPRESO CARGO SA,485042,22.5%,364.00,,
 42087,9402317 ANDREANI LOGISTICA SA,Facturada,Todo Aprobado,Ejecución de pedido de artículo 23882,Enviado,F,MUESTRA ESPECIAL,0,0,28/08/2025,RETIRAN,489914,100.0%,.00,T,
 42087,9402317 ANDREANI LOGISTICA SA,Facturada,Todo Aprobado,Ejecución de pedido de artículo 23882,Enviado,F,MUESTRA ESPECIAL,0,0,28/08/2025,RETIRAN,489914,100.0%,.00,T,
 42090,9402290 BI MERCANTIL SAS,Facturada,Todo Aprobado,Ejecución de pedido de artículo 23884,Enviado,F,CAS-PPA548T040,0,0,28/08/2025,TRANSPORTE MOSTTO,490296,34.0%,.00,T,6Cx3Az0M
@@ -299,8 +299,8 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 42125,1087 FALCONE BODETTO S.A.,Parcialmente ejecutada,Todo Aprobado,Ejecución de pedido de artículo 23888,Enviado,F,CAS-PPAR1048T043,0,0,29/08/2025,RICARDO PIERONI,493432,74.8%,.00,T,2Vf5Jo3E
 42125,1087 FALCONE BODETTO S.A.,Parcialmente ejecutada,Todo Aprobado,Factura de venta 38202,Abierta,F,PPAR1024T,0,72,29/08/2025,RICARDO PIERONI,493432,67.8%,64.80,,2Vf5Jo3E
 42129,3577 TIEMPO FELIZ SA,Facturada,Todo Aprobado,Ejecución de pedido de artículo 23904,Enviado,F,3577/001,0,0,29/08/2025,EXPRESO CARGO SA,493824,49.5%,.00,T,5Cj2Fy8V
-42137,3089 ARNEG ARGENTINA S.A.,Parcialmente ejecutada,Todo Aprobado,Factura de venta 38195,Abierta,T,3089/082,0,3678,29/08/2025,RICARDO PIERONI,494252,53.2%,4597.50,,7Rx7Ub2H
 42137,3089 ARNEG ARGENTINA S.A.,Parcialmente ejecutada,Todo Aprobado,Ejecución de pedido de artículo 23892,Enviado,T,3089/082,0,3678,29/08/2025,RICARDO PIERONI,494252,53.2%,4597.50,T,7Rx7Ub2H
+42137,3089 ARNEG ARGENTINA S.A.,Parcialmente ejecutada,Todo Aprobado,Factura de venta 38195,Abierta,T,3089/082,0,3678,29/08/2025,RICARDO PIERONI,494252,53.2%,4597.50,,7Rx7Ub2H
 42143,15515 DISTRIBUIDORA DIQUE SRL,Facturada,Todo Aprobado,Ejecución de pedido de artículo 23894,Enviado,F,CAS-PPA1048T040,0,0,29/08/2025,RICARDO PIERONI,494550,33.6%,.00,T,0Xf3Bl8T
 42143,15515 DISTRIBUIDORA DIQUE SRL,Facturada,Todo Aprobado,Ejecución de pedido de artículo 23894,Enviado,F,H11/48,0,0,29/08/2025,RICARDO PIERONI,494550,0.0%,.00,T,0Xf3Bl8T
 42144,12662 PRINTEMPS S.R.L.,Facturada,Todo Aprobado,Ejecución de pedido de artículo 23920,Enviado,F,64621-00003-00,0,0,29/08/2025,RICARDO PIERONI,494676,60.9%,.00,T,2Sp0Fe1F
@@ -314,7 +314,7 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 42109,9400049 COMPAÑIA AMERICANA DE ALIMENTOS S.A.,Parcialmente ejecutada,Todo Aprobado,Ejecución de pedido de artículo 23924,Enviado,F,CAS-PPHR10048XT045,0,0,31/08/2025,EXPRESO CARGO SA,491886,45.2%,.00,T,2Jl6Ja1C
 42010,15 IND. JOHN DEERE ARGENTINA S.A.,Facturada,Todo Aprobado,Ejecución de pedido de artículo 23928,Enviado,T,0015/014,0,0,02/09/2025,FELICI JORGE ARIEL,484590,83.0%,-104.00,T,8Ky5Hq9D
 42019,9402336 INDUSTRIAS ALIMENTARIAS DEL SUD S.A.,Parcialmente ejecutada,Todo Aprobado,Ejecución de pedido de artículo 23931,Enviado,F,2336/005,0,0,02/09/2025,EXPRESO CARGO SA,485042,22.5%,.00,T,
-42019,9402336 INDUSTRIAS ALIMENTARIAS DEL SUD S.A.,Parcialmente ejecutada,Todo Aprobado,Ejecución de pedido de artículo 23931,Enviado,F,2336/007,0,26,02/09/2025,EXPRESO CARGO SA,485042,22.5%,364.00,T,
+42019,9402336 INDUSTRIAS ALIMENTARIAS DEL SUD S.A.,Parcialmente ejecutada,Todo Aprobado,Ejecución de pedido de artículo 23931,Enviado,F,2336/007,26,0,02/09/2025,EXPRESO CARGO SA,485042,22.5%,364.00,T,
 42019,9402336 INDUSTRIAS ALIMENTARIAS DEL SUD S.A.,Parcialmente ejecutada,Todo Aprobado,Ejecución de pedido de artículo 23931,Enviado,F,2336/008,0,0,02/09/2025,EXPRESO CARGO SA,485042,22.5%,.00,T,
 42019,9402336 INDUSTRIAS ALIMENTARIAS DEL SUD S.A.,Parcialmente ejecutada,Todo Aprobado,Ejecución de pedido de artículo 23931,Enviado,F,MUESTRA ESPECIAL,0,0,02/09/2025,EXPRESO CARGO SA,485042,100.0%,.00,T,
 42089,4048 EL EMPORIO DE LA GOMA SRL,Facturada,Todo Aprobado,Ejecución de pedido de artículo 23923,Enviado,F,PPA1048F,0,0,02/09/2025,CONTE HNOS Y CIA SA,490041,18.9%,.00,T,5Nn8Fo2O
