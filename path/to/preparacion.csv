@@ -34,7 +34,7 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 41957,178 DROGUERIA DEL SUD S.A. ✮✮,Facturada,Todo Aprobado,Ejecución de pedido de artículo 23773,Enviado,F,CAS-PPAR1048T043,0,0,15/08/2025,EXPRESO CARGO SA,481232,25.4%,.00,T,5Mx5Rs0E,6Ib6Fj6R
 42047,1809 MERCOMAX SA ✮✮,Facturada,Todo Aprobado,Ejecución de pedido de artículo 23775,Enviado,F,CAS-PPAR1048T043,0,0,15/08/2025,EXPRESO CARGO SA,487054,38.8%,.00,T,5Rr7Ys4Y,5Mx5Rs0E
 42050,18293 DULCOR SA ✮✮,Parcialmente ejecutada,Todo Aprobado,Ejecución de pedido de artículo 23774,Enviado,F,CAS-PPAR1048T043,0,0,15/08/2025,EXPRESO LUJAN DEL CUYO SA,487055,38.8%,.00,T,0Jn1Mv5H,5Mx5Rs0E
-42050,18293 DULCOR SA ✮✮,Parcialmente ejecutada,Todo Aprobado,Factura de venta 38085,Abierta,F,PPAR15048T,0,90,15/08/2025,EXPRESO LUJAN DEL CUYO SA,487055,49.7%,1237.50,,0Jn1Mv5H,
+42050,18293 DULCOR SA ✮✮,Parcialmente ejecutada,Todo Aprobado,Factura de venta 38085,Abierta,F,PPAR15048T,0,90,15/08/2025,EXPRESO LUJAN DEL CUYO SA,487055,49.7%,1237.50,,0Jn1Mv5H,7Rx7Ub2H
 41919,3051 FRIMETAL S.A. ✮✮,Facturada,Todo Aprobado,Ejecución de pedido de artículo 23761,Enviado,F,3051/010,0,0,15/08/2025,FELICI JORGE ARIEL,479023,59.2%,.00,T,3Dw0Uk2K,3Pt0Oq8I
 41919,3051 FRIMETAL S.A. ✮✮,Facturada,Todo Aprobado,Ejecución de pedido de artículo 23761,Enviado,F,3051/011,0,0,15/08/2025,FELICI JORGE ARIEL,479023,58.8%,.00,T,3Dw0Uk2K,6Ls2Pd3Q
 41919,3051 FRIMETAL S.A. ✮✮,Facturada,Todo Aprobado,Ejecución de pedido de artículo 23771,Enviado,F,PPAR1048M,0,0,15/08/2025,FELICI JORGE ARIEL,479023,29.6%,.00,T,3Dw0Uk2K,9Qb8Fy5U
@@ -232,7 +232,7 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 41863,132 MAHLE VALVULAS DE ARGENTINA SA ✮✮✮,Facturada,Todo Aprobado,Ejecución de pedido de artículo 23896,Enviado,F,3351/002,0,0,29/08/2025,EXPRESO SANTA ROSA,476628,75.7%,.00,T,6Ls2Pd3Q,5Ow8Cg8A
 42143,15515 DISTRIBUIDORA DIQUE SRL ✮✮,Facturada,Todo Aprobado,Ejecución de pedido de artículo 23894,Enviado,F,CAS-PPA1048T040,0,0,29/08/2025,RICARDO PIERONI,494550,33.6%,.00,T,0Xf3Bl8T,7Xr0Sq4A
 42143,15515 DISTRIBUIDORA DIQUE SRL ✮✮,Facturada,Todo Aprobado,Ejecución de pedido de artículo 23894,Enviado,F,H11/48,0,0,29/08/2025,RICARDO PIERONI,494550,0.0%,.00,T,0Xf3Bl8T,5Pj9Xf1N
-42050,18293 DULCOR SA ✮✮,Parcialmente ejecutada,Todo Aprobado,Ejecución de pedido de artículo 23919,Enviado,F,PPAR15048T,0,90,29/08/2025,EXPRESO LUJAN DEL CUYO SA,487055,49.7%,1237.50,T,0Jn1Mv5H,3Dw0Uk2K
+42050,18293 DULCOR SA ✮✮,Parcialmente ejecutada,Todo Aprobado,Ejecución de pedido de artículo 23919,Enviado,F,PPAR15048T,0,90,29/08/2025,EXPRESO LUJAN DEL CUYO SA,487055,49.7%,1237.50,T,0Jn1Mv5H,
 41838,202 FRIGORIFICO DE AVES SOYCHU SA ✮✮✮,Facturada,Todo Aprobado,Ejecución de pedido de artículo 23916,Enviado,F,PPHR1216B,0,0,29/08/2025,EXPRESO CARGO SA,475918,45.7%,.00,T,5Ow8Cg8A,2Gq6Ps1R
 41839,202 FRIGORIFICO DE AVES SOYCHU SA ✮✮✮,Facturada,Todo Aprobado,Ejecución de pedido de artículo 23918,Enviado,F,PPHR1216B,0,0,29/08/2025,EXPRESO CARGO SA,475919,45.7%,.00,T,5Ow8Cg8A,2Gq6Ps1R
 41841,202 FRIGORIFICO DE AVES SOYCHU SA ✮✮✮,Facturada,Todo Aprobado,Ejecución de pedido de artículo 23913,Enviado,F,PPHR1216B,0,0,29/08/2025,EXPRESO CARGO SA,475924,45.7%,.00,T,5Ow8Cg8A,6Kx5Tt1L
@@ -243,8 +243,8 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 41703,3089 ARNEG ARGENTINA S.A. ✮✮✮,Facturada,Todo Aprobado,Ejecución de pedido de artículo 23893,Enviado,T,3089/082,0,0,29/08/2025,FELICI JORGE ARIEL,467260,49.5%,.00,T,7Rx7Ub2H,8Wb3Xi2L
 41833,3089 ARNEG ARGENTINA S.A. ✮✮✮,Parcialmente ejecutada,Todo Aprobado,Ejecución de pedido de artículo 23890,Enviado,T,3089/082,0,5850,29/08/2025,FELICI JORGE ARIEL,475784,52.2%,7312.50,T,7Rx7Ub2H,0Vc7Du3D
 42101,3089 ARNEG ARGENTINA S.A. ✮✮✮,Facturada,Todo Aprobado,Ejecución de pedido de artículo 23891,Enviado,T,3089/082,0,0,29/08/2025,RICARDO PIERONI,491257,53.2%,.00,T,7Rx7Ub2H,2Wy4Vz4B
-42137,3089 ARNEG ARGENTINA S.A. ✮✮✮,Parcialmente ejecutada,Todo Aprobado,Factura de venta 38195,Abierta,T,3089/082,0,3678,29/08/2025,RICARDO PIERONI,494252,53.2%,4597.50,,7Rx7Ub2H,8Sb1On8S
-42137,3089 ARNEG ARGENTINA S.A. ✮✮✮,Parcialmente ejecutada,Todo Aprobado,Ejecución de pedido de artículo 23892,Enviado,T,3089/082,0,3678,29/08/2025,RICARDO PIERONI,494252,53.2%,4597.50,T,7Rx7Ub2H,2Ck7El7W
+42137,3089 ARNEG ARGENTINA S.A. ✮✮✮,Parcialmente ejecutada,Todo Aprobado,Ejecución de pedido de artículo 23892,Enviado,T,3089/082,0,3678,29/08/2025,RICARDO PIERONI,494252,53.2%,4597.50,T,7Rx7Ub2H,8Sb1On8S
+42137,3089 ARNEG ARGENTINA S.A. ✮✮✮,Parcialmente ejecutada,Todo Aprobado,Factura de venta 38195,Abierta,T,3089/082,0,3678,29/08/2025,RICARDO PIERONI,494252,53.2%,4597.50,,7Rx7Ub2H,2Ck7El7W
 42129,3577 TIEMPO FELIZ SA ✮✮✮,Facturada,Todo Aprobado,Ejecución de pedido de artículo 23904,Enviado,F,3577/001,0,0,29/08/2025,EXPRESO CARGO SA,493824,49.5%,.00,T,5Cj2Fy8V,0Jn1Mv5H
 41916,3646 EDUARDO STERTZ E HIJOS SRL ,Facturada,Todo Aprobado,Ejecución de pedido de artículo 23909,Enviado,F,PPHR1216B,0,0,29/08/2025,TRANSPORTE AGUILAR S.R.L.,478794,50.2%,.00,T,8Mc1Gw5Y,
 41976,3909 LIBECO FILM SA ✮✮✮,Parcialmente ejecutada,Todo Aprobado,Ejecución de pedido de artículo 23908,Enviado,F,PPAR1048M,0,0,29/08/2025,EXPRESO CARGO SA,482458,29.7%,.00,T,4Vs0Qf0C,0Ph8Mv3F
@@ -277,7 +277,7 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 42018,9402336 INDUSTRIAS ALIMENTARIAS DEL SUD S.A. ✮✮,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Liberada,F,2336/014,0,12,29/08/2025,EXPRESO CARGO SA,485041,22.5%,168.00,,,7Un2Ij7V
 42018,9402336 INDUSTRIAS ALIMENTARIAS DEL SUD S.A. ✮✮,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Ensamblada,F,MUESTRA ESPECIAL,7,0,29/08/2025,EXPRESO CARGO SA,485041,100.0%,420.00,,,4Sf9Dp0L
 41948,9402942 CABAÑA EL FORTIN S.A. ,Facturada,Todo Aprobado,Ejecución de pedido de artículo 23910,Enviado,F,PPHR1216B,0,0,29/08/2025,TRANSPORTE ITALIA SRL,480966,60.6%,.00,T,,0Wm2Xw7K
-42050,18293 DULCOR SA ✮✮,Parcialmente ejecutada,Todo Aprobado,Factura de venta 38224,Abierta,F,PPAR15048T,0,90,31/08/2025,EXPRESO LUJAN DEL CUYO SA,487055,49.7%,1237.50,,0Jn1Mv5H,7Rx7Ub2H
+42050,18293 DULCOR SA ✮✮,Parcialmente ejecutada,Todo Aprobado,Factura de venta 38224,Abierta,F,PPAR15048T,0,90,31/08/2025,EXPRESO LUJAN DEL CUYO SA,487055,49.7%,1237.50,,0Jn1Mv5H,3Dw0Uk2K
 41976,3909 LIBECO FILM SA ✮✮✮,Parcialmente ejecutada,Todo Aprobado,Factura de venta 38214,Pagado por completo,F,PPAR524T,0,72,31/08/2025,EXPRESO CARGO SA,482458,100.0%,20.16,,4Vs0Qf0C,0Ph8Mv3F
 42109,9400049 COMPAÑIA AMERICANA DE ALIMENTOS S.A. ✮✮,Parcialmente ejecutada,Todo Aprobado,Ejecución de pedido de artículo 23924,Enviado,F,CAS-PPHR10048XT045,0,0,31/08/2025,EXPRESO CARGO SA,491886,45.2%,.00,T,2Jl6Ja1C,8Ou2Yz9L
 41999,9400536 MILKAUT SA ✮✮,Parcialmente ejecutada,Todo Aprobado,Factura de venta 38226,Abierta,F,PPHR15048XT,0,59,31/08/2025,RICARDO PIERONI,484098,44.7%,1220.71,,8Ny2Or7G,0Te3Bc5F
