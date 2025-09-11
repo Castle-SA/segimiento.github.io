@@ -227,8 +227,8 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 41703,3089 ARNEG ARGENTINA S.A. ✮✮✮,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 23893,Remitido,T,3089/082,0,0,29/08/2025,FELICI JORGE ARIEL,467260,49.5%,7360.00,T,7Rx7Ub2H,
 41833,3089 ARNEG ARGENTINA S.A. ✮✮✮,Parcialmente ejecutada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 23890,Remitido,T,3089/082,0,5850,29/08/2025,FELICI JORGE ARIEL,475784,52.2%,2187.50,T,7Rx7Ub2H,
 42101,3089 ARNEG ARGENTINA S.A. ✮✮✮,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 23891,Remitido,T,3089/082,0,0,29/08/2025,RICARDO PIERONI,491257,53.2%,2500.00,T,7Rx7Ub2H,0Qu5Fi8T
-42137,3089 ARNEG ARGENTINA S.A. ✮✮✮,Parcialmente ejecutada,Todo Aprobado,Factura de venta 38195,Abierta,T,3089/082,0,3678,29/08/2025,RICARDO PIERONI,494252,53.2%,4597.50,,7Rx7Ub2H,0Qu5Fi8T
-42137,3089 ARNEG ARGENTINA S.A. ✮✮✮,Parcialmente ejecutada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 23892,Remitido,T,3089/082,0,3678,29/08/2025,RICARDO PIERONI,494252,53.2%,1652.50,T,7Rx7Ub2H,7Rx7Ub2H
+42137,3089 ARNEG ARGENTINA S.A. ✮✮✮,Parcialmente ejecutada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 23892,Remitido,T,3089/082,0,3678,29/08/2025,RICARDO PIERONI,494252,53.2%,1652.50,T,7Rx7Ub2H,0Qu5Fi8T
+42137,3089 ARNEG ARGENTINA S.A. ✮✮✮,Parcialmente ejecutada,Todo Aprobado,Factura de venta 38195,Abierta,T,3089/082,0,3678,29/08/2025,RICARDO PIERONI,494252,53.2%,4597.50,,7Rx7Ub2H,7Rx7Ub2H
 42129,3577 TIEMPO FELIZ SA ✮✮✮,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 23904,Remitido,F,3577/001,0,0,29/08/2025,EXPRESO CARGO SA,493824,49.5%,424.80,T,5Cj2Fy8V,0Mw8Gz3K
 41916,3646 EDUARDO STERTZ E HIJOS SRL ,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 23909,Remitido,F,PPHR1216B,0,0,29/08/2025,TRANSPORTE AGUILAR S.R.L.,478794,50.2%,237.60,T,8Mc1Gw5Y,5Rr7Ys4Y
 41976,3909 LIBECO FILM SA ✮✮✮,Parcialmente ejecutada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 23908,Remitido,F,PPAR1048M,0,0,29/08/2025,EXPRESO CARGO SA,482458,29.7%,97.20,T,4Vs0Qf0C,5Hd9Vg2B
@@ -377,6 +377,8 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 42199,3051 FRIMETAL S.A. ✮✮,Parcialmente ejecutada,Todo Aprobado,Pedido ,Recepción pendiente,T,3051/017,0,28000,11/09/2025,FELICI JORGE ARIEL,498189,45.7%,535.564,,3Dw0Uk2K,
 42239,3089 ARNEG ARGENTINA S.A. ✮✮✮,Facturación pendiente,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 23992,Remitido,F,PER3040U,0,0,11/09/2025,RICARDO PIERONI,501243,71.1%,600.00,F,7Rx7Ub2H,7Rx7Ub2H
 42237,3598 DEL VALLE EMBALAJES SRL ✮✮✮,Facturación pendiente/parcialmente ejecutada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 23993,Remitido,F,MTS518B,0,0,11/09/2025,RICARDO PIERONI,501242,34.7%,691.20,F,0Ph8Mv3F,0Jn1Mv5H
+42232,894 R.V.ZACCHINO S.A. ✮✮✮,Facturación pendiente/parcialmente ejecutada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 23997,Remitido,F,CAS-PPAR1048T043,0,0,11/09/2025,RICARDO PIERONI,500981,69.9%,270.00,F,9Ik1Jj1Q,6Ls2Pd3Q
+42232,894 R.V.ZACCHINO S.A. ✮✮✮,Facturación pendiente/parcialmente ejecutada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 23997,Remitido,F,PPAR1048M,0,0,11/09/2025,RICARDO PIERONI,500981,55.3%,270.00,F,9Ik1Jj1Q,5Rg6Oq8Y
 42231,9400018 SEND SRL ✮✮,Facturación pendiente,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 23995,Remitido,F,CAS-PPAR1048T043,0,0,11/09/2025,RICARDO PIERONI,501109,46.9%,183.60,F,3Ql9Lb2K,7Xt9Gc1E
 42198,9400079 PESQUERA SANTA CRUZ SA ,Facturación pendiente,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 23996,Remitido,F,H11/72,0,0,11/09/2025,TRANSPORTE CRUZ DEL SUR SA,498012,51.1%,130.74,F,8Cf1Ra3G,0We8Yn4Q
 42222,2515 CONGELADOS ARTICO SA ✮✮✮,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Liberada,F,CAS-PPAR1072T043,0,720,12/09/2025,TRANSPORTE TOMASSINI,500448,47.6%,943.20,,8Rn3En3G,6Ng7Hp1X
@@ -384,9 +386,7 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 42240,3051 FRIMETAL S.A. ✮✮,Ejecución de la orden pendiente,Todo Aprobado, ,,F,MTS548B,0,1728,12/09/2025,FELICI JORGE ARIEL,501244,36.7%,3.468.126,,3Dw0Uk2K,
 42237,3598 DEL VALLE EMBALAJES SRL ✮✮✮,Facturación pendiente/parcialmente ejecutada,Todo Aprobado, ,,F,CAS-PPAR10048T045,0,120,12/09/2025,RICARDO PIERONI,501242,64.3%,1020.00,,0Ph8Mv3F,0Jn1Mv5H
 42225,4389 FOOD ARTS SA ,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Liberada,F,CAS-PPAR1048T040,0,3600,12/09/2025,TRANSPORTE TOMASSINI,500632,34.4%,2268.00,,3Px3Tl3X,0Ph8Mv3F
-42232,894 R.V.ZACCHINO S.A. ✮✮✮,Ejecución de la orden pendiente,Todo Aprobado, ,,F,CAS-PPAR1048T043,180,0,12/09/2025,RICARDO PIERONI,500981,69.9%,270.00,,9Ik1Jj1Q,6Ls2Pd3Q
-42232,894 R.V.ZACCHINO S.A. ✮✮✮,Ejecución de la orden pendiente,Todo Aprobado, ,,F,PPAR1024T,0,216,12/09/2025,RICARDO PIERONI,500981,55.7%,151.20,,9Ik1Jj1Q,6Ls2Pd3Q
-42232,894 R.V.ZACCHINO S.A. ✮✮✮,Ejecución de la orden pendiente,Todo Aprobado, ,,F,PPAR1048M,180,0,12/09/2025,RICARDO PIERONI,500981,55.3%,270.00,,9Ik1Jj1Q,5Rg6Oq8Y
+42232,894 R.V.ZACCHINO S.A. ✮✮✮,Facturación pendiente/parcialmente ejecutada,Todo Aprobado, ,,F,PPAR1024T,0,216,12/09/2025,RICARDO PIERONI,500981,55.7%,151.20,,9Ik1Jj1Q,6Ls2Pd3Q
 42242,9402422 VALBO S A I C Y F ✮✮✮,Ejecución de la orden pendiente,Todo Aprobado, ,,F,MTS548B,0,108,12/09/2025,EXPRESO CARGO SA,501693,36.5%,216.00,,,
 42029,17046 SUPER S A SOC URUGUAYENSE DE PRODUCTORES DE ENTRE RIOS SOC ANON ✮✮,Ejecución de la orden pendiente,Todo Aprobado, ,,F,CAS-PPAR1072T043,144,0,16/09/2025,EXPRESO CARGO SA,485540,47.8%,197.28,,0Qu5Fi8T,2Au6Re6F
 42233,3089 ARNEG ARGENTINA S.A. ✮✮✮,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Liberada,F,3089/021,0,30000,16/09/2025,RICARDO PIERONI,501112,29.2%,807.00,,7Rx7Ub2H,2Ck7El7W
