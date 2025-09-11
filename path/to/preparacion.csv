@@ -246,9 +246,9 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 42154,918 PEDRIN III SRL ✮✮✮,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 23901,Remitido,F,CAS-PPAR1048T043,0,0,29/08/2025,RICARDO PIERONI,495343,46.6%,459.00,T,1Xs7Zy5E,7Xt9Gc1E
 42065,9400049 COMPAÑIA AMERICANA DE ALIMENTOS S.A. ✮✮,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 23906,Remitido,F,CAS-PPAR10048T047,0,0,29/08/2025,EXPRESO CARGO SA,488154,52.5%,595.98,T,2Jl6Ja1C,3Dw0Uk2K
 42151,9400290 TOMAX SRL ✮✮,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 23902,Remitido,F,PPAR15048T,0,0,29/08/2025,EXPRESO CARGO SA,495214,0.0%,.00,T,7Zv2Of0S,7Rx7Ub2H
-41999,9400536 MILKAUT SA ✮✮,Parcialmente ejecutada,Todo Aprobado,Factura de venta 01358,Abierta,F,PPHR15048XT,0,59,29/08/2025,RICARDO PIERONI,484098,44.7%,1220.71,,8Ny2Or7G,7Zv2Of0S
+41999,9400536 MILKAUT SA ✮✮,Parcialmente ejecutada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 23917,Remitido,F,PPHR15048XT,0,59,29/08/2025,RICARDO PIERONI,484098,44.7%,889.67,T,8Ny2Or7G,7Zv2Of0S
 41999,9400536 MILKAUT SA ✮✮,Parcialmente ejecutada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 23887,Remitido,F,PPHR15048XT,0,59,29/08/2025,RICARDO PIERONI,484098,44.7%,3351.78,T,8Ny2Or7G,9Xw3Zi2V
-41999,9400536 MILKAUT SA ✮✮,Parcialmente ejecutada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 23917,Remitido,F,PPHR15048XT,0,59,29/08/2025,RICARDO PIERONI,484098,44.7%,889.67,T,8Ny2Or7G,3Jc0Cw5E
+41999,9400536 MILKAUT SA ✮✮,Parcialmente ejecutada,Todo Aprobado,Factura de venta 01358,Abierta,F,PPHR15048XT,0,59,29/08/2025,RICARDO PIERONI,484098,44.7%,1220.71,,8Ny2Or7G,3Jc0Cw5E
 42012,9400609 PAN S COMPANY SA ✮✮✮,Ejecución de la orden pendiente,Todo Aprobado, ,,F,PPHR15048XT,0,54,29/08/2025,EXPRESO CARGO SA,484600,42.9%,1084.86,,9Qb8Fy5U,7Rx7Ub2H
 41783,9400962 CRYSTAL-ICE SRL ✮✮✮,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 23899,Remitido,F,CAS-PPAR1048T040,0,0,29/08/2025,RICARDO PIERONI,471799,43.7%,324.00,T,4Is2Rn8E,8Iv9Nk5M
 41783,9400962 CRYSTAL-ICE SRL ✮✮✮,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 23899,Remitido,F,CAS-PPA1048T040,0,0,29/08/2025,RICARDO PIERONI,471799,43.8%,435.60,T,4Is2Rn8E,5Mx5Rs0E
@@ -345,8 +345,8 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 42141,9402697 KLATT PACK SRL ,Ejecución de la orden pendiente,Todo Aprobado, ,,F,BV002,0,60,08/09/2025,EXPRESO CARGO SA,494526,50.0%,342.00,,,9Zm8At4G
 42002,143 EPTA ARGENTINA S.A. ✮✮✮,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 23973,Remitido,F,0143/024,0,0,09/09/2025,FELICI JORGE ARIEL,484209,50.3%,3776.00,T,1Tu2Pr5C,1Bj3Wa5S
 42199,3051 FRIMETAL S.A. ✮✮,Parcialmente ejecutada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 23975,Remitido,F,07055-00007-22,0,0,09/09/2025,FELICI JORGE ARIEL,498189,48.5%,3.201.905,T,3Dw0Uk2K,7Rx7Ub2H
-42153,3089 ARNEG ARGENTINA S.A. ✮✮✮,Parcialmente ejecutada,Todo Aprobado,Factura de venta 38282,Abierta,F,MTS548B,0,90,09/09/2025,RICARDO PIERONI,495269,36.4%,202.50,,7Rx7Ub2H,3Dw0Uk2K
 42153,3089 ARNEG ARGENTINA S.A. ✮✮✮,Parcialmente ejecutada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 23978,Remitido,F,MTS548B,0,90,09/09/2025,RICARDO PIERONI,495269,36.4%,688.50,T,7Rx7Ub2H,3Dw0Uk2K
+42153,3089 ARNEG ARGENTINA S.A. ✮✮✮,Parcialmente ejecutada,Todo Aprobado,Factura de venta 38282,Abierta,F,MTS548B,0,90,09/09/2025,RICARDO PIERONI,495269,36.4%,202.50,,7Rx7Ub2H,3Dw0Uk2K
 42219,3255 JOSE LLENES SACIF ✮✮,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 23974,Remitido,F,CAS-PPAR1048T043,0,0,09/09/2025,EXPRESO CARGO SA,500315,41.2%,415.80,T,8Uz0Uq7T,7Rx7Ub2H
 42073,9400868 SINTARYC S A I C ✮✮,Parcialmente ejecutada,Todo Aprobado,Factura de venta 38276,Abierta,F,PPHR15048XT,0,600,09/09/2025,EXPRESO CARGO SA,489042,39.3%,11340.00,,9Gs4Xo3J,0Te3Bc5F
 42073,9400868 SINTARYC S A I C ✮✮,Parcialmente ejecutada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 23977,Remitido,F,CAS-PPHR10048XT045,0,0,09/09/2025,EXPRESO CARGO SA,489042,23.3%,1890.00,T,9Gs4Xo3J,0Te3Bc5F
