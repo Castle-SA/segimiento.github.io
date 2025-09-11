@@ -1,7 +1,7 @@
 Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. Especial,Pedido,Artículo,Cantidad,Faltante,Fecha,Transportista,ID,GP,,,,
 41903,1531 PAPELTECNICA SAIC ✮✮,Parcialmente ejecutada,Todo Aprobado,Factura de venta 37981,Pagado por completo,F,CAS-PPHR1048XT045,0,36,04/08/2025,FELICI JORGE ARIEL,478011,36.7%,51.12,,6Tm5Az5M,7Qv9Mi1Z
 41874,9400115 BEST COLD SRL ✮✮✮,Parcialmente ejecutada,Todo Aprobado,Factura de venta 37971,Pagado por completo,F,MTP548B,0,1476,04/08/2025,FELICI JORGE ARIEL,476698,34.6%,2730.60,,8Xq9Re2A,0Xf3Bl8T
-41871,4095 REFINERIA DEL CENTRO SA ✮✮,Parcialmente ejecutada,Todo Aprobado,Factura de venta 37989,Abierta,F,PPAR10072T,0,24,06/08/2025,EXPRESO SANTA ROSA,476658,33.5%,295.20,,1Bj3Wa5S,3Ny6Zw2O
+41871,4095 REFINERIA DEL CENTRO SA ✮✮,Parcialmente ejecutada,Todo Aprobado,Factura de venta 37989,Pagado por completo,F,PPAR10072T,0,24,06/08/2025,EXPRESO SANTA ROSA,476658,33.5%,295.20,,1Bj3Wa5S,3Ny6Zw2O
 41871,4095 REFINERIA DEL CENTRO SA ✮✮,Parcialmente ejecutada,Todo Aprobado,Factura de venta 38050,Abierta,F,PPAR10072T,0,24,12/08/2025,EXPRESO SANTA ROSA,476658,33.5%,295.20,,1Bj3Wa5S,3Ny6Zw2O
 41952,1171 AUTOSAL SA ✮✮,Facturada,Todo Aprobado,Ejecución de pedido de artículo 23753,Enviado,F,74662-00003-01,0,0,13/08/2025,RETIRAN,480973,41.9%,.00,T,2Uv7Bb0L,7Ei3Zh4Q
 41952,1171 AUTOSAL SA ✮✮,Facturada,Todo Aprobado,Ejecución de pedido de artículo 23753,Enviado,F,60462-00005-00,0,0,13/08/2025,RETIRAN,480973,47.2%,.00,T,2Uv7Bb0L,3Hy2Ia2F
@@ -32,7 +32,7 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 42039,3089 ARNEG ARGENTINA S.A. ✮✮✮,Facturada,Todo Aprobado,Ejecución de pedido de artículo 23766,Enviado,F,3089/029,0,0,15/08/2025,RICARDO PIERONI,486145,26.7%,.00,T,7Rx7Ub2H,0Vc7Du3D
 42046,3096 FRECICAR SRL ✮✮,Facturada,Todo Aprobado,Ejecución de pedido de artículo 23762,Enviado,F,CF518T,0,0,15/08/2025,RICARDO PIERONI,486807,87.7%,.00,T,9Zc0Jy4O,7Rx7Ub2H
 42058,4016 BLACK BAMBOO ENTERPRISES SA ,Parcialmente ejecutada,Todo Aprobado,Ejecución de pedido de artículo 23770,Enviado,F,CAS-PPA1072T040,0,960,15/08/2025,EXPRESO LUJAN DEL CUYO SA,487691,47.1%,844.80,T,5Hd9Vg2B,0Ph8Mv3F
-42055,4381 IBERCONSA DE ARGENTINA SA ✮✮,Facturada,Todo Aprobado,Ejecución de pedido de artículo 23769,Enviado,F,CAS-PPAR1072T043,0,0,15/08/2025,TRANSPORTE TOMASSINI,487497,40.4%,.00,T,9Lx6Mu2V,2Aa9Oj0E
+42055,4381 IBERCONSA DE ARGENTINA SA ✮✮,Facturada,Todo Aprobado,Ejecución de pedido de artículo 23769,Enviado,F,CAS-PPAR1072T043,0,0,15/08/2025,TRANSPORTE TOMASSINI,487497,40.4%,.00,T,9Lx6Mu2V,
 42053,449 DITEC S R L ✮✮,Facturada,Todo Aprobado,Ejecución de pedido de artículo 23763,Enviado,F,60950-00000-00,0,0,15/08/2025,EXPRESO CARGO SA,487384,46.8%,.00,T,5Xf2Ag4D,2Nw2Uj9H
 42053,449 DITEC S R L ✮✮,Facturada,Todo Aprobado,Ejecución de pedido de artículo 23763,Enviado,F,64958-00003-00,0,0,15/08/2025,EXPRESO CARGO SA,487384,28.2%,.00,T,5Xf2Ag4D,3Qo4Fx7M
 42053,449 DITEC S R L ✮✮,Facturada,Todo Aprobado,Ejecución de pedido de artículo 23763,Enviado,F,0727/004,0,0,15/08/2025,EXPRESO CARGO SA,487384,33.4%,.00,T,5Xf2Ag4D,3Qo4Fx7M
@@ -62,7 +62,7 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 42047,1809 MERCOMAX SA ✮✮,Facturada,Todo Aprobado,Ejecución de pedido de artículo 23791,Enviado,F,CAS-PPAR1072T043,0,0,19/08/2025,EXPRESO CARGO SA,487054,38.3%,.00,T,5Rr7Ys4Y,8Ky5Hq9D
 42066,3598 DEL VALLE EMBALAJES SRL ✮✮✮,Parcialmente ejecutada,Todo Aprobado,Factura de venta 38103,Pagado por completo,F,PPAR1024T,0,720,19/08/2025,RICARDO PIERONI,488353,41.7%,345.60,,0Ph8Mv3F,5Rr7Ys4Y
 42066,3598 DEL VALLE EMBALAJES SRL ✮✮✮,Parcialmente ejecutada,Todo Aprobado,Ejecución de pedido de artículo 23792,Enviado,F,PPAR15096T,0,0,19/08/2025,RICARDO PIERONI,488353,62.3%,.00,T,0Ph8Mv3F,0Jn1Mv5H
-42055,4381 IBERCONSA DE ARGENTINA SA ✮✮,Facturada,Todo Aprobado,Ejecución de pedido de artículo 23794,Enviado,F,CAS-PPAR1072T043,0,0,19/08/2025,TRANSPORTE TOMASSINI,487497,40.4%,.00,T,9Lx6Mu2V,
+42055,4381 IBERCONSA DE ARGENTINA SA ✮✮,Facturada,Todo Aprobado,Ejecución de pedido de artículo 23794,Enviado,F,CAS-PPAR1072T043,0,0,19/08/2025,TRANSPORTE TOMASSINI,487497,40.4%,.00,T,9Lx6Mu2V,2Aa9Oj0E
 42068,4516 RAPECA ARGENTINA SA ✮✮,Facturada,Todo Aprobado,Ejecución de pedido de artículo 23793,Enviado,F,MTS572B,0,0,19/08/2025,EXPRESO CARGO SA,488485,27.2%,.00,T,2Aa9Oj0E,4Xz9An3R
 42068,4516 RAPECA ARGENTINA SA ✮✮,Facturada,Todo Aprobado,Ejecución de pedido de artículo 23793,Enviado,F,PPA1548TE,0,0,19/08/2025,EXPRESO CARGO SA,488485,47.2%,.00,T,2Aa9Oj0E,8Cf1Ra3G
 41975,4628 KELES MARIO LEONARDO ✮✮✮,Facturada,Todo Aprobado,Ejecución de pedido de artículo 23789,Enviado,F,3901/001,0,0,19/08/2025,RICARDO PIERONI,482358,47.5%,.00,T,6Kx5Tt1L,2Uj4Kr4Y
@@ -118,8 +118,8 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 42067,4517 HIPER PACK ROSARIO DE CERRA VALERIA BEATRIZ ✮✮✮,Parcialmente ejecutada,Todo Aprobado,Ejecución de pedido de artículo 23826,Enviado,F,MTS548B,0,0,21/08/2025,RICARDO PIERONI,488484,27.0%,.00,T,3Ny6Zw2O,9Ry7Wa5R
 42067,4517 HIPER PACK ROSARIO DE CERRA VALERIA BEATRIZ ✮✮✮,Parcialmente ejecutada,Todo Aprobado,Ejecución de pedido de artículo 23826,Enviado,F,PPA1048F,0,0,21/08/2025,RICARDO PIERONI,488484,13.9%,.00,T,3Ny6Zw2O,1Bj3Wa5S
 42067,4517 HIPER PACK ROSARIO DE CERRA VALERIA BEATRIZ ✮✮✮,Parcialmente ejecutada,Todo Aprobado,Ejecución de pedido de artículo 23826,Enviado,F,PPAR1048M,0,0,21/08/2025,RICARDO PIERONI,488484,29.1%,.00,T,3Ny6Zw2O,
-42067,4517 HIPER PACK ROSARIO DE CERRA VALERIA BEATRIZ ✮✮✮,Parcialmente ejecutada,Todo Aprobado,Ejecución de pedido de artículo 23826,Enviado,F,PPAR524T,0,72,21/08/2025,RICARDO PIERONI,488484,100.0%,18.00,T,3Ny6Zw2O,0Io3Fg7R
-42067,4517 HIPER PACK ROSARIO DE CERRA VALERIA BEATRIZ ✮✮✮,Parcialmente ejecutada,Todo Aprobado,Factura de venta 38135,Abierta,F,PPAR524T,0,72,21/08/2025,RICARDO PIERONI,488484,100.0%,18.00,,3Ny6Zw2O,0Bz8Ix7O
+42067,4517 HIPER PACK ROSARIO DE CERRA VALERIA BEATRIZ ✮✮✮,Parcialmente ejecutada,Todo Aprobado,Factura de venta 38135,Abierta,F,PPAR524T,0,72,21/08/2025,RICARDO PIERONI,488484,100.0%,18.00,,3Ny6Zw2O,0Io3Fg7R
+42067,4517 HIPER PACK ROSARIO DE CERRA VALERIA BEATRIZ ✮✮✮,Parcialmente ejecutada,Todo Aprobado,Ejecución de pedido de artículo 23826,Enviado,F,PPAR524T,0,72,21/08/2025,RICARDO PIERONI,488484,100.0%,18.00,T,3Ny6Zw2O,0Bz8Ix7O
 42098,6272 PAPELERA SAMAKI SRL ,Facturada,Todo Aprobado,Ejecución de pedido de artículo 23823,Enviado,F,CAS-PPAR1048T043,0,0,21/08/2025,EXPRESO CARGO SA,490887,45.8%,.00,T,3Cz8Fy3Y,3Dw0Uk2K
 42098,6272 PAPELERA SAMAKI SRL ,Facturada,Todo Aprobado,Ejecución de pedido de artículo 23823,Enviado,F,MTS518B,0,0,21/08/2025,EXPRESO CARGO SA,490887,44.0%,.00,T,3Cz8Fy3Y,3Dw0Uk2K
 42097,629 INDUSTRIAS QUIMICAS BG SRL ✮✮✮,Facturada,Todo Aprobado,Ejecución de pedido de artículo 23825,Enviado,F,CH5235,0,0,21/08/2025,RICARDO PIERONI,490886,70.9%,.00,T,0Ze2Hm4P,4Is2Rn8E
