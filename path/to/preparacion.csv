@@ -19,7 +19,7 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 42030,3089 ARNEG ARGENTINA S.A. ✮✮✮,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 23765,Remitido,F,3089/086,0,0,15/08/2025,RICARDO PIERONI,485541,70.8%,360.00,T,7Rx7Ub2H,
 42039,3089 ARNEG ARGENTINA S.A. ✮✮✮,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 23766,Remitido,F,3089/029,0,0,15/08/2025,RICARDO PIERONI,486145,26.7%,216.00,T,7Rx7Ub2H,2Au6Re6F
 42046,3096 FRECICAR SRL ✮✮,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 23762,Remitido,F,CF518T,0,0,15/08/2025,RICARDO PIERONI,486807,87.7%,450.00,T,9Zc0Jy4O,8Sb1On8S
-42058,4016 BLACK BAMBOO ENTERPRISES SA ,Parcialmente ejecutada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 23770,Remitido,F,CAS-PPA1072T040,0,960,15/08/2025,EXPRESO LUJAN DEL CUYO SA,487691,47.1%,1034.88,T,5Hd9Vg2B,7Rx7Ub2H
+42058,4016 BLACK BAMBOO ENTERPRISES SA ,Parcialmente ejecutada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 23770,Remitido,F,CAS-PPA1072T040,0,960,15/08/2025,EXPRESO LUJAN DEL CUYO SA,487691,47.1%,1034.88,T,5Hd9Vg2B,2Jl6Ja1C
 42055,4381 IBERCONSA DE ARGENTINA SA ✮✮,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 23769,Remitido,F,CAS-PPAR1072T043,0,0,15/08/2025,TRANSPORTE TOMASSINI,487497,40.4%,2592.00,T,9Lx6Mu2V,3Ny6Zw2O
 42053,449 DITEC S R L ✮✮,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 23763,Remitido,F,60950-00000-00,0,0,15/08/2025,EXPRESO CARGO SA,487384,46.8%,156.00,T,5Xf2Ag4D,0Ph8Mv3F
 42053,449 DITEC S R L ✮✮,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 23763,Remitido,F,64958-00003-00,0,0,15/08/2025,EXPRESO CARGO SA,487384,28.2%,168.00,T,5Xf2Ag4D,0Ph8Mv3F
@@ -42,7 +42,7 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 42040,3089 ARNEG ARGENTINA S.A. ✮✮✮,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 23777,Remitido,F,3089/034,0,0,18/08/2025,RICARDO PIERONI,486245,51.5%,600.00,T,7Rx7Ub2H,8Wb3Xi2L
 42040,3089 ARNEG ARGENTINA S.A. ✮✮✮,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 23777,Remitido,F,3089/035,0,0,18/08/2025,RICARDO PIERONI,486245,92.2%,3750.00,T,7Rx7Ub2H,8Wb3Xi2L
 42058,4016 BLACK BAMBOO ENTERPRISES SA ,Parcialmente ejecutada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 23783,Remitido,F,CAS-PPA1072T040,0,960,18/08/2025,EXPRESO LUJAN DEL CUYO SA,487691,47.1%,1182.72,T,5Hd9Vg2B,7Rx7Ub2H
-42058,4016 BLACK BAMBOO ENTERPRISES SA ,Parcialmente ejecutada,Todo Aprobado,Orden de trabajo ,Liberada,F,CAS-PPA1072T040,0,960,18/08/2025,EXPRESO LUJAN DEL CUYO SA,487691,47.1%,844.80,,5Hd9Vg2B,2Jl6Ja1C
+42058,4016 BLACK BAMBOO ENTERPRISES SA ,Parcialmente ejecutada,Todo Aprobado,Orden de trabajo ,Liberada,F,CAS-PPA1072T040,0,960,18/08/2025,EXPRESO LUJAN DEL CUYO SA,487691,47.1%,844.80,,5Hd9Vg2B,7Rx7Ub2H
 41749,4726 WADE SA ,Parcialmente ejecutada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 23786,Remitido,F,PPAR1048T,0,0,18/08/2025,EXPRESO CARGO SA,469581,50.5%,393.12,T,3Hy2Ia2F,2Uj4Kr4Y
 42033,9400066 XEITOSIÑO SA ✮✮,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 23784,Remitido,F,CAS-PPAR1072T043,0,0,18/08/2025,TRANSPORTE TOMASSINI,485673,38.3%,2505.60,T,2Wy4Vz4B,7Xt9Gc1E
 42056,9400079 PESQUERA SANTA CRUZ SA ,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 23776,Remitido,F,CAS-PPAR1072T043,0,0,18/08/2025,TRANSPORTE TOMASSINI,487498,40.4%,5184.00,T,8Cf1Ra3G,7Xt9Gc1E
@@ -107,7 +107,7 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 42067,4517 HIPER PACK ROSARIO DE CERRA VALERIA BEATRIZ ✮✮✮,Parcialmente ejecutada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 23826,Remitido,F,PPA1048F,0,0,21/08/2025,RICARDO PIERONI,488484,13.9%,61.92,T,3Ny6Zw2O,6Ng7Hp1X
 42067,4517 HIPER PACK ROSARIO DE CERRA VALERIA BEATRIZ ✮✮✮,Parcialmente ejecutada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 23826,Remitido,F,PPAR1048M,0,0,21/08/2025,RICARDO PIERONI,488484,29.1%,61.92,T,3Ny6Zw2O,9Xw3Zi2V
 42067,4517 HIPER PACK ROSARIO DE CERRA VALERIA BEATRIZ ✮✮✮,Parcialmente ejecutada,Todo Aprobado,Factura de venta 38135,Abierta,F,PPAR524T,0,72,21/08/2025,RICARDO PIERONI,488484,100.0%,18.00,,3Ny6Zw2O,9Ry7Wa5R
-42067,4517 HIPER PACK ROSARIO DE CERRA VALERIA BEATRIZ ✮✮✮,Parcialmente ejecutada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 23826,Remitido,F,PPAR524T,0,72,21/08/2025,RICARDO PIERONI,488484,100.0%,90.00,T,3Ny6Zw2O,9Ry7Wa5R
+42067,4517 HIPER PACK ROSARIO DE CERRA VALERIA BEATRIZ ✮✮✮,Parcialmente ejecutada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 23826,Remitido,F,PPAR524T,0,72,21/08/2025,RICARDO PIERONI,488484,100.0%,90.00,T,3Ny6Zw2O,1Bj3Wa5S
 42098,6272 PAPELERA SAMAKI SRL ,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 23823,Remitido,F,CAS-PPAR1048T043,0,0,21/08/2025,EXPRESO CARGO SA,490887,45.8%,295.20,T,3Cz8Fy3Y,8Ej8At4Q
 42098,6272 PAPELERA SAMAKI SRL ,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 23823,Remitido,F,MTS518B,0,0,21/08/2025,EXPRESO CARGO SA,490887,44.0%,806.40,T,3Cz8Fy3Y,5Oy9Im9F
 42097,629 INDUSTRIAS QUIMICAS BG SRL ✮✮✮,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 23825,Remitido,F,CH5235,0,0,21/08/2025,RICARDO PIERONI,490886,70.9%,348.80,T,0Ze2Hm4P,1Vf8Uo1P
@@ -227,8 +227,8 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 42154,918 PEDRIN III SRL ✮✮✮,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 23901,Remitido,F,CAS-PPAR1048T043,0,0,29/08/2025,RICARDO PIERONI,495343,46.6%,459.00,T,1Xs7Zy5E,6Ls2Pd3Q
 42065,9400049 COMPAÑIA AMERICANA DE ALIMENTOS S.A. ✮✮,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 23906,Remitido,F,CAS-PPAR10048T047,0,0,29/08/2025,EXPRESO CARGO SA,488154,52.5%,595.98,T,2Jl6Ja1C,5Rg6Oq8Y
 42151,9400290 TOMAX SRL ✮✮,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 23902,Remitido,F,PPAR15048T,0,0,29/08/2025,EXPRESO CARGO SA,495214,0.0%,.00,T,7Zv2Of0S,8Ou2Yz9L
+41999,9400536 MILKAUT SA ✮✮,Parcialmente ejecutada,Todo Aprobado,Factura de venta 01358,Abierta,F,PPHR15048XT,0,59,29/08/2025,RICARDO PIERONI,484098,44.7%,1220.71,,8Ny2Or7G,1Qd9By7M
 41999,9400536 MILKAUT SA ✮✮,Parcialmente ejecutada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 23917,Remitido,F,PPHR15048XT,0,59,29/08/2025,RICARDO PIERONI,484098,44.7%,889.67,T,8Ny2Or7G,7Rx7Ub2H
-41999,9400536 MILKAUT SA ✮✮,Parcialmente ejecutada,Todo Aprobado,Factura de venta 01358,Abierta,F,PPHR15048XT,0,59,29/08/2025,RICARDO PIERONI,484098,44.7%,1220.71,,8Ny2Or7G,7Rx7Ub2H
 41999,9400536 MILKAUT SA ✮✮,Parcialmente ejecutada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 23887,Remitido,F,PPHR15048XT,0,59,29/08/2025,RICARDO PIERONI,484098,44.7%,3351.78,T,8Ny2Or7G,7Rx7Ub2H
 42012,9400609 PAN S COMPANY SA ✮✮✮,Ejecución de la orden pendiente,Todo Aprobado, ,,F,PPHR15048XT,0,54,29/08/2025,EXPRESO CARGO SA,484600,42.9%,1084.86,,9Qb8Fy5U,0Cu0Hq8R
 41783,9400962 CRYSTAL-ICE SRL ✮✮✮,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 23899,Remitido,F,CAS-PPAR1048T040,0,0,29/08/2025,RICARDO PIERONI,471799,43.7%,324.00,T,4Is2Rn8E,7Rx7Ub2H
@@ -245,7 +245,7 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 42050,18293 DULCOR SA ✮✮,Parcialmente ejecutada,Todo Aprobado,Factura de venta 38224,Abierta,F,PPAR15048T,0,90,31/08/2025,EXPRESO LUJAN DEL CUYO SA,487055,49.7%,1237.50,,0Jn1Mv5H,2Uv7Bb0L
 41976,3909 LIBECO FILM SA ✮✮✮,Parcialmente ejecutada,Todo Aprobado,Factura de venta 38214,Pagado por completo,F,PPAR524T,0,72,31/08/2025,EXPRESO CARGO SA,482458,100.0%,20.16,,4Vs0Qf0C,5Hd9Vg2B
 42109,9400049 COMPAÑIA AMERICANA DE ALIMENTOS S.A. ✮✮,Parcialmente ejecutada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 23924,Remitido,F,CAS-PPHR10048XT045,0,0,31/08/2025,EXPRESO CARGO SA,491886,45.2%,3220.00,T,2Jl6Ja1C,5Rg6Oq8Y
-41999,9400536 MILKAUT SA ✮✮,Parcialmente ejecutada,Todo Aprobado,Factura de venta 38226,Abierta,F,PPHR15048XT,0,59,31/08/2025,RICARDO PIERONI,484098,44.7%,1220.71,,8Ny2Or7G,1Qd9By7M
+41999,9400536 MILKAUT SA ✮✮,Parcialmente ejecutada,Todo Aprobado,Factura de venta 38226,Abierta,F,PPHR15048XT,0,59,31/08/2025,RICARDO PIERONI,484098,44.7%,1220.71,,8Ny2Or7G,7Rx7Ub2H
 42010,15 IND. JOHN DEERE ARGENTINA S.A. ✮✮✮,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 23928,Remitido,T,0015/014,0,0,02/09/2025,FELICI JORGE ARIEL,484590,83.0%,1504.00,T,8Ky5Hq9D,6Ng7Hp1X
 42171,3051 FRIMETAL S.A. ✮✮,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 23927,Remitido,F,1823/002,0,0,02/09/2025,RETIRAN,496497,28.8%,1.795.841,T,3Dw0Uk2K,9Qb8Fy5U
 42089,4048 EL EMPORIO DE LA GOMA SRL ✮✮,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 23923,Remitido,F,PPA1048F,0,0,02/09/2025,CONTE HNOS Y CIA SA,490041,18.9%,131.04,T,5Nn8Fo2O,2Jl6Ja1C
@@ -266,7 +266,7 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 42175,178 DROGUERIA DEL SUD S.A. ✮✮,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 23936,Remitido,F,PPA1048F,0,0,03/09/2025,EXPRESO LANCIONI,496607,18.3%,131.04,T,5Mx5Rs0E,6Ib6Fj6R
 42177,178 DROGUERIA DEL SUD S.A. ✮✮,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 23937,Remitido,F,PPA1048F,0,0,03/09/2025,EXPRESO LUJAN DEL CUYO SA,496611,18.6%,65.78,T,5Mx5Rs0E,4Bf8Ax7P
 42067,4517 HIPER PACK ROSARIO DE CERRA VALERIA BEATRIZ ✮✮✮,Parcialmente ejecutada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 23932,Remitido,F,CAS-PPAR548T043,0,0,03/09/2025,RICARDO PIERONI,488484,34.0%,39.96,T,3Ny6Zw2O,3Qo4Fx7M
-42067,4517 HIPER PACK ROSARIO DE CERRA VALERIA BEATRIZ ✮✮✮,Parcialmente ejecutada,Todo Aprobado,Factura de venta 38236,Abierta,F,PPAR524T,0,72,03/09/2025,RICARDO PIERONI,488484,100.0%,18.00,,3Ny6Zw2O,1Bj3Wa5S
+42067,4517 HIPER PACK ROSARIO DE CERRA VALERIA BEATRIZ ✮✮✮,Parcialmente ejecutada,Todo Aprobado,Factura de venta 38236,Abierta,F,PPAR524T,0,72,03/09/2025,RICARDO PIERONI,488484,100.0%,18.00,,3Ny6Zw2O,9Ry7Wa5R
 42023,655 SWIFT SA ARGENTINA ✮✮,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 23938,Remitido,F,PPAR1072T,0,0,03/09/2025,EXPRESO LUJAN DEL CUYO SA,485272,46.7%,1717.20,T,8Wb3Xi2L,2Jl6Ja1C
 42189,"9403070 ACOFAR COOP. FARMACEUTICA,DE CREDITO,VIVIENDA Y CONSUMO LTDA ",Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 23941,Remitido,F,CAS-PPAR1048T043,0,0,03/09/2025,TRANSPORTE TOMASSINI,497405,43.4%,576.00,T,,9Zm8At4G
 42190,"9403070 ACOFAR COOP. FARMACEUTICA,DE CREDITO,VIVIENDA Y CONSUMO LTDA ",Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 23940,Remitido,F,CAS-PPAR1048T043,0,0,03/09/2025,TRANSPORTE TOMASSINI,497507,43.4%,576.00,T,,6Qa0Ib0C
