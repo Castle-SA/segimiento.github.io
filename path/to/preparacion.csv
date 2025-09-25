@@ -156,7 +156,7 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 42199,3051 FRIMETAL S.A. ,Parcialmente ejecutada,Todo Aprobado,Ejecución de pedido de artículo 23975,Enviado,F,07055-00007-22,0,0,09/09/2025,FELICI JORGE ARIEL,498189,48.5%,.00,T,3Dw0Uk2K,6Bb0Mu1P
 42153,3089 ARNEG ARGENTINA S.A. ✮✮,Facturada,Todo Aprobado,Ejecución de pedido de artículo 23978,Enviado,F,MTS548B,0,0,09/09/2025,RICARDO PIERONI,495269,36.4%,-40.50,T,7Rx7Ub2H,9Qb8Fy5U
 42219,3255 JOSE LLENES SACIF ✮✮,Facturada,Todo Aprobado,Ejecución de pedido de artículo 23974,Enviado,F,CAS-PPAR1048T043,0,0,09/09/2025,EXPRESO CARGO SA,500315,41.2%,.00,T,8Uz0Uq7T,1Rf6Ez5C
-42073,9400868 SINTARYC S A I C ✮✮,Parcialmente ejecutada,Todo Aprobado,Factura de venta 38276,Abierta,F,PPHR15048XT,0,464,09/09/2025,EXPRESO CARGO SA,489042,39.3%,8769.60,,9Gs4Xo3J,0We8Yn4Q
+42073,9400868 SINTARYC S A I C ✮✮,Parcialmente ejecutada,Todo Aprobado,Factura de venta 38276,Abierta,F,PPHR15048XT,0,464,09/09/2025,EXPRESO CARGO SA,489042,39.3%,8769.60,,9Gs4Xo3J,
 42073,9400868 SINTARYC S A I C ✮✮,Parcialmente ejecutada,Todo Aprobado,Ejecución de pedido de artículo 23977,Enviado,F,CAS-PPHR10048XT045,0,0,09/09/2025,EXPRESO CARGO SA,489042,23.3%,.00,T,9Gs4Xo3J,0Ph8Mv3F
 42212,9402942 CABAÑA EL FORTIN S.A. ,Facturada,Todo Aprobado,Ejecución de pedido de artículo 23976,Enviado,F,PPHR1216B,0,0,09/09/2025,TRANSPORTE ITALIA SRL,498834,52.0%,.00,T,,7Qv9Mi1Z
 42115,1029 DREAN SA ,Ejecución de la orden pendiente,Todo Aprobado, ,,F,MTP548B,0,1512,10/09/2025,EXPRESO CARGO SA,492597,36.6%,2887.92,,6Ng7Hp1X,3Dw0Uk2K
@@ -274,8 +274,8 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 41970,3051 FRIMETAL S.A. ,Parcialmente ejecutada,Todo Aprobado,Factura de venta 01368,Abierta,T,MTS548B,72,900,18/09/2025,FELICI JORGE ARIEL,481828,25.9%,1915.62,,3Dw0Uk2K,2Uv7Bb0L
 42137,3089 ARNEG ARGENTINA S.A. ✮✮,Facturada,Todo Aprobado,Ejecución de pedido de artículo 24066,Enviado,T,3089/082,0,0,18/09/2025,RICARDO PIERONI,494252,53.2%,-2735.00,T,7Rx7Ub2H,6Ls2Pd3Q
 42283,4048 EL EMPORIO DE LA GOMA SRL ✮✮,Facturada,Todo Aprobado,Ejecución de pedido de artículo 24059,Enviado,F,PPAR1048T,0,0,18/09/2025,CONTE HNOS Y CIA SA,504882,42.4%,.00,T,5Nn8Fo2O,5Xf2Ag4D
-42192,4095 REFINERIA DEL CENTRO SA ✮✮,Facturada,Todo Aprobado,Ejecución de pedido de artículo 24067,Enviado,F,CAS-PPA1072T043,0,0,18/09/2025,EXPRESO SANTA ROSA,497406,40.0%,.00,T,1Bj3Wa5S,8Cf1Ra3G
 42192,4095 REFINERIA DEL CENTRO SA ✮✮,Facturada,Todo Aprobado,Ejecución de pedido de artículo 24057,Enviado,F,CAS-PPA1072T043,0,0,18/09/2025,EXPRESO SANTA ROSA,497406,40.0%,.00,T,1Bj3Wa5S,8Cf1Ra3G
+42192,4095 REFINERIA DEL CENTRO SA ✮✮,Facturada,Todo Aprobado,Ejecución de pedido de artículo 24067,Enviado,F,CAS-PPA1072T043,0,0,18/09/2025,EXPRESO SANTA ROSA,497406,40.0%,.00,T,1Bj3Wa5S,8Cf1Ra3G
 42281,4655 DELPACK SRL ✮✮✮✮,Parcialmente ejecutada,Todo Aprobado,Ejecución de pedido de artículo 24058,Enviado,F,PPAR1048T,0,0,18/09/2025,TRANSPORTE TOMASSINI,504857,38.8%,.00,T,9Em3Po7X,3Ny6Zw2O
 42281,4655 DELPACK SRL ✮✮✮✮,Parcialmente ejecutada,Todo Aprobado,Factura de venta 38357,Abierta,F,CAS-PPAR10048T047,0,336,18/09/2025,TRANSPORTE TOMASSINI,504857,46.7%,3000.48,,9Em3Po7X,3Ny6Zw2O
 42287,5019 GRANJA TRES ARROYOS SACAFEI ✮✮,Facturada,Todo Aprobado,Ejecución de pedido de artículo 24061,Enviado,F,PPAR1048T,0,0,18/09/2025,EXPRESO CARGO SA,504998,46.2%,.00,T,0Ql9Gi1V,2Nw2Uj9H
@@ -283,7 +283,7 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 42282,9400603 E.A.C.E. Y E. BURBUJAS S.A. ,Ejecución de la orden pendiente,Todo Aprobado, ,,F,CAS-PPAR10072T047,1,0,18/09/2025,EXPRESO CARGO SA,504871,0.0%,.00,,0Li1Kj8Q,7Xt9Gc1E
 42282,9400603 E.A.C.E. Y E. BURBUJAS S.A. ,Ejecución de la orden pendiente,Todo Aprobado, ,,F,PPAR15048T,0,1,18/09/2025,EXPRESO CARGO SA,504871,0.0%,.00,,0Li1Kj8Q,7Xt9Gc1E
 42282,9400603 E.A.C.E. Y E. BURBUJAS S.A. ,Ejecución de la orden pendiente,Todo Aprobado, ,,F,CAS-PPAR1048T043,0,1,18/09/2025,EXPRESO CARGO SA,504871,0.0%,.00,,0Li1Kj8Q,7Xt9Gc1E
-42073,9400868 SINTARYC S A I C ✮✮,Parcialmente ejecutada,Todo Aprobado,Factura de venta 38368,Abierta,F,PPHR15048XT,0,464,18/09/2025,EXPRESO CARGO SA,489042,39.3%,8769.60,,9Gs4Xo3J,
+42073,9400868 SINTARYC S A I C ✮✮,Parcialmente ejecutada,Todo Aprobado,Factura de venta 38368,Abierta,F,PPHR15048XT,0,464,18/09/2025,EXPRESO CARGO SA,489042,39.3%,8769.60,,9Gs4Xo3J,0We8Yn4Q
 42073,9400868 SINTARYC S A I C ✮✮,Parcialmente ejecutada,Todo Aprobado,Ejecución de pedido de artículo 24069,Enviado,F,CAS-PPHR10048XT045,0,0,18/09/2025,EXPRESO CARGO SA,489042,23.3%,.00,T,9Gs4Xo3J,0Xf3Bl8T
 42218,9402059 BUENA PROA SA ✮✮,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Liberada,F,9402059/001,0,720,18/09/2025,TRANSPORTE TOMASSINI,500058,48.5%,1476.00,,5Ym6Nh1E,9Xw3Zi2V
 42284,9402185 MONCHAMP INDUSTRIAS SRL ✮✮✮,Facturada,Todo Aprobado,Ejecución de pedido de artículo 24068,Enviado,F,MVAQUA180,0,0,18/09/2025,RETIRAN,504883,44.8%,.00,T,7Ck6Zj2S,9Xw3Zi2V
@@ -359,8 +359,8 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 42331,4305 LA PIARA SRL ✮✮,Parcialmente ejecutada,Todo Aprobado,Ejecución de pedido de artículo 24107,Enviado,F,H11/CPE,0,0,25/09/2025,TRANSPORTE AGUILAR S.R.L.,507317,40.9%,.00,T,7My0Kb3O,5Hd9Vg2B
 42331,4305 LA PIARA SRL ✮✮,Parcialmente ejecutada,Todo Aprobado,Factura de venta 38410,Abierta,F,PPA1548TE,0,360,25/09/2025,TRANSPORTE AGUILAR S.R.L.,507317,49.6%,464.40,,7My0Kb3O,2Me3Fc7D
 42331,4305 LA PIARA SRL ✮✮,Parcialmente ejecutada,Todo Aprobado,Ejecución de pedido de artículo 24107,Enviado,F,PPA1548TE,0,360,25/09/2025,TRANSPORTE AGUILAR S.R.L.,507317,49.6%,464.40,T,7My0Kb3O,2Me3Fc7D
-42348,4894 VANOLI Y CIA SA ✮✮,Parcialmente ejecutada,Todo Aprobado,Factura de venta 38412,Abierta,F,CAS-PPAR1048T043,0,180,25/09/2025,EXPRESO CARGO SA,508580,41.2%,138.60,,1Qt0Ac5G,3Ny6Zw2O
-42348,4894 VANOLI Y CIA SA ✮✮,Parcialmente ejecutada,Todo Aprobado,Ejecución de pedido de artículo 24110,Enviado,F,CAS-PPAR1048T043,0,180,25/09/2025,EXPRESO CARGO SA,508580,41.2%,138.60,T,1Qt0Ac5G,2Aa9Oj0E
+42348,4894 VANOLI Y CIA SA ✮✮,Parcialmente ejecutada,Todo Aprobado,Ejecución de pedido de artículo 24110,Enviado,F,CAS-PPAR1048T043,0,180,25/09/2025,EXPRESO CARGO SA,508580,41.2%,138.60,T,1Qt0Ac5G,3Ny6Zw2O
+42348,4894 VANOLI Y CIA SA ✮✮,Parcialmente ejecutada,Todo Aprobado,Factura de venta 38412,Abierta,F,CAS-PPAR1048T043,0,180,25/09/2025,EXPRESO CARGO SA,508580,41.2%,138.60,,1Qt0Ac5G,2Aa9Oj0E
 42349,4904 SUSTENPACK SRL ✮✮,Facturada,Todo Aprobado,Ejecución de pedido de artículo 24111,Enviado,F,PPAR1048T,0,0,25/09/2025,RICARDO PIERONI,508699,62.3%,.00,T,4Ur2Tu0Z,2Aa9Oj0E
 42342,56 CIRUBON S.A. ✮✮,Facturada,Todo Aprobado,Ejecución de pedido de artículo 24105,Enviado,F,6158/001,0,0,25/09/2025,RETIRAN,507927,62.7%,.00,T,0Wm2Xw7K,1Kc0Xm1P
 42342,56 CIRUBON S.A. ✮✮,Facturada,Todo Aprobado,Ejecución de pedido de artículo 24105,Enviado,F,BV002,0,0,25/09/2025,RETIRAN,507927,69.0%,.00,T,0Wm2Xw7K,1Kc0Xm1P
