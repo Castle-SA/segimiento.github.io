@@ -60,7 +60,7 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 42184,454 ESPINOZA HUGO ALEJANDRO (FLEXON) ✮✮✮✮,Facturada,Todo Aprobado,Ejecución de pedido de artículo 23951,Enviado,F,04968-00150-00,0,0,04/09/2025,RETIRAN,496958,56.7%,.00,T,9Zm8At4G,5Hd9Vg2B
 42188,5088 DIMAX SRL ✮✮,Facturada,Todo Aprobado,Ejecución de pedido de artículo 23943,Enviado,F,PVC612R,0,0,04/09/2025,RETIRAN,497287,62.7%,.00,T,9Yp3Mt2N,3Ny6Zw2O
 41282,583 TERRAGENE SA ✮✮,Facturada,Todo Aprobado,Ejecución de pedido de artículo 23952,Enviado,F,04965-00014-00,0,0,04/09/2025,RICARDO PIERONI,441859,42.1%,.00,T,5Pl6Eg8H,2Aa9Oj0E
-41819,763 HIJOS DE GARBER SRL ,Facturada,Todo Aprobado,Ejecución de pedido de artículo 23944,Enviado,F,PPHR1216B,0,0,04/09/2025,EXPRESO CARGO SA,474980,50.1%,.00,T,0Zw3Xq6V,2Uj4Kr4Y
+41819,763 HIJOS DE GARBER SRL ✮✮,Facturada,Todo Aprobado,Ejecución de pedido de artículo 23944,Enviado,F,PPHR1216B,0,0,04/09/2025,EXPRESO CARGO SA,474980,50.1%,.00,T,0Zw3Xq6V,2Uj4Kr4Y
 42139,9400422 LACTEOS TONUTTI S.R.L. ✮✮,Parcialmente ejecutada,Todo Aprobado,Factura de venta 38257,Abierta,F,PPHR15048XT,0,60,04/09/2025,TRANSPORTE MOSTTO,494374,45.5%,1260.00,,3Nb5Vf8A,6Ng7Hp1X
 42139,9400422 LACTEOS TONUTTI S.R.L. ✮✮,Parcialmente ejecutada,Todo Aprobado,Ejecución de pedido de artículo 23953,Enviado,F,CAS-PPHR10048XT045,0,0,04/09/2025,TRANSPORTE MOSTTO,494374,31.0%,.00,T,3Nb5Vf8A,7Ir5If6T
 42169,143 EPTA ARGENTINA S.A. ✮✮,Facturada,Todo Aprobado,Ejecución de pedido de artículo 23962,Enviado,F,PVC648B,0,0,05/09/2025,FELICI JORGE ARIEL,496254,68.6%,.00,T,1Tu2Pr5C,8Xq9Re2A
@@ -140,7 +140,7 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 41749,4726 WADE SA ✮✮,Facturada,Todo Aprobado,Ejecución de pedido de artículo 24008,Enviado,F,CAS-PPAR10072T043,0,0,12/09/2025,EXPRESO CARGO SA,469581,57.0%,.00,T,3Hy2Ia2F,7Rx7Ub2H
 42247,918 PEDRIN III SRL ✮✮,Facturada,Todo Aprobado,Ejecución de pedido de artículo 24006,Enviado,F,CAS-PPAR1048T043,0,0,12/09/2025,RICARDO PIERONI,501912,46.9%,.00,T,1Xs7Zy5E,0Ze2Hm4P
 42216,9400126 IBERPESCA SA ,Facturada,Todo Aprobado,Ejecución de pedido de artículo 24005,Enviado,F,CAS-PPAR10072T043,0,0,12/09/2025,TRANSPORTE TOMASSINI,499957,50.5%,.00,T,7Qe0Xm8H,1Vf8Uo1P
-42170,9400774 CORREO OFICIAL DE LA REPUBLICA ARGENTINA SA ,Parcialmente ejecutada,Todo Aprobado,Ejecución de pedido de artículo 24013,Enviado,F,9400774/001,0,11520,12/09/2025,EXPRESO CARGO SA,496260,21.5%,10137.60,T,8Iv9Nk5M,2Vf5Jo3E
+42170,9400774 CORREO OFICIAL DE LA REPUBLICA ARGENTINA SA ,Parcialmente ejecutada,Todo Aprobado,Ejecución de pedido de artículo 24013,Enviado,F,9400774/001,0,11520,12/09/2025,EXPRESO CARGO SA,496260,21.5%,10137.60,T,8Iv9Nk5M,5Dr6Pr8I
 42019,9402336 INDUSTRIAS ALIMENTARIAS DEL SUD S.A. ✮✮,Facturada,Todo Aprobado,Ejecución de pedido de artículo 24007,Enviado,F,2336/002,0,0,12/09/2025,EXPRESO CARGO SA,485042,22.5%,.00,T,,7Rx7Ub2H
 42019,9402336 INDUSTRIAS ALIMENTARIAS DEL SUD S.A. ✮✮,Facturada,Todo Aprobado,Ejecución de pedido de artículo 24007,Enviado,F,2336/003,0,0,12/09/2025,EXPRESO CARGO SA,485042,22.5%,.00,T,,7Rx7Ub2H
 42019,9402336 INDUSTRIAS ALIMENTARIAS DEL SUD S.A. ✮✮,Facturada,Todo Aprobado,Ejecución de pedido de artículo 24007,Enviado,F,2336/004,0,0,12/09/2025,EXPRESO CARGO SA,485042,22.5%,.00,T,,7Rx7Ub2H
@@ -160,8 +160,8 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 42252,4558 FUSION SAN LUIS S A ✮✮,Facturada,Todo Aprobado,Ejecución de pedido de artículo 24019,Enviado,F,CAS-PPAR1048T043,0,0,15/09/2025,EXPRESO LUJAN DEL CUYO SA,502258,46.9%,.00,T,6Yr2Cu9X,2Me3Fc7D
 42258,4932 WELLINGTON FOOD SA ,Facturada,Todo Aprobado,Ejecución de pedido de artículo 24015,Enviado,F,CAS-PPAR1048T043,0,0,15/09/2025,EXPRESO SANTA ROSA,502780,43.6%,.00,T,2Ck7El7W,3Ny6Zw2O
 42256,831 COLFER INDUSTRIAL SH ✮✮,Facturada,Todo Aprobado,Ejecución de pedido de artículo 24020,Enviado,F,CAS-PPAR548T043,0,0,15/09/2025,EXPRESO CARGO SA,502550,35.7%,.00,T,2Cu4Bb2H,6Cx3Az0M
-42257,9400761 TECNOLOGIA GRAFICA SRL ✮✮✮✮,Parcialmente ejecutada,Todo Aprobado,Ejecución de pedido de artículo 24022,Enviado,F,MTS512B,0,0,15/09/2025,EXPRESO LUJAN DEL CUYO SA,502671,37.1%,.00,T,3Px0Qz6Z,7Va0Bu1J
-42257,9400761 TECNOLOGIA GRAFICA SRL ✮✮✮✮,Parcialmente ejecutada,Todo Aprobado,Ejecución de pedido de artículo 24022,Enviado,F,CAS-PPAR1048T043,0,0,15/09/2025,EXPRESO LUJAN DEL CUYO SA,502671,46.9%,.00,T,3Px0Qz6Z,5Dr6Pr8I
+42257,9400761 TECNOLOGIA GRAFICA SRL ✮✮✮,Parcialmente ejecutada,Todo Aprobado,Ejecución de pedido de artículo 24022,Enviado,F,MTS512B,0,0,15/09/2025,EXPRESO LUJAN DEL CUYO SA,502671,37.1%,.00,T,3Px0Qz6Z,7Va0Bu1J
+42257,9400761 TECNOLOGIA GRAFICA SRL ✮✮✮,Parcialmente ejecutada,Todo Aprobado,Ejecución de pedido de artículo 24022,Enviado,F,CAS-PPAR1048T043,0,0,15/09/2025,EXPRESO LUJAN DEL CUYO SA,502671,46.9%,.00,T,3Px0Qz6Z,5Dr6Pr8I
 42267,1067 DIPAC SA ✮✮,Facturada,Todo Aprobado,Ejecución de pedido de artículo 24024,Enviado,F,CAS-PPAR1048T043,0,0,16/09/2025,RICARDO PIERONI,503447,54.9%,.00,T,9Tj7Li2O,3Hy2Ia2F
 42059,1188 DENSO MANUFACTURING ARGENTINA SA ✮✮,Facturada,Todo Aprobado,Ejecución de pedido de artículo 24038,Enviado,F,MTS548B,0,0,16/09/2025,EXPRESO CARGO SA,487853,31.1%,.00,T,2Me3Fc7D,6Ng7Hp1X
 42181,132 MAHLE VALVULAS DE ARGENTINA SA ,Facturada,Todo Aprobado,Ejecución de pedido de artículo 24027,Enviado,F,0132/003,0,0,16/09/2025,EXPRESO SANTA ROSA,496833,50.1%,.00,T,6Ls2Pd3Q,5Ow8Cg8A
@@ -227,7 +227,7 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 42006,690 CEVA DE ARGENTINA SRL ,Facturada,Todo Aprobado,Ejecución de pedido de artículo 24073,Enviado,F,0690/010,0,0,19/09/2025,FELICI JORGE ARIEL,484428,97.4%,.00,T,3Pt0Oq8I,6Ng7Hp1X
 42007,690 CEVA DE ARGENTINA SRL ,Facturada,Todo Aprobado,Ejecución de pedido de artículo 24072,Enviado,F,2025/001,0,0,19/09/2025,FELICI JORGE ARIEL,484534,58.4%,.00,T,3Pt0Oq8I,9Ry7Wa5R
 42304,89 PEUGEOT CITROEN ARGENTINA S.A. ,Facturada,Todo Aprobado,Ejecución de pedido de artículo 24075,Enviado,F,0089/007,0,0,19/09/2025,RETIRAN,506183,62.0%,.00,T,6Xg2Vq7X,0Mw8Gz3K
-42170,9400774 CORREO OFICIAL DE LA REPUBLICA ARGENTINA SA ,Parcialmente ejecutada,Todo Aprobado,Orden de trabajo ,En curso,F,9400774/001,0,11520,19/09/2025,EXPRESO CARGO SA,496260,21.5%,10137.60,,8Iv9Nk5M,5Dr6Pr8I
+42170,9400774 CORREO OFICIAL DE LA REPUBLICA ARGENTINA SA ,Parcialmente ejecutada,Todo Aprobado,Orden de trabajo ,En curso,F,9400774/001,0,11520,19/09/2025,EXPRESO CARGO SA,496260,21.5%,10137.60,,8Iv9Nk5M,2Vf5Jo3E
 42274,9400794 MATADERO FRIGORIFICO UNION SA ✮✮✮✮,Facturada,Todo Aprobado,Ejecución de pedido de artículo 24074,Enviado,F,PPAR1048T,0,0,19/09/2025,LA CAROLINA,504070,42.4%,.00,T,3Eo9Wi3V,2Vf5Jo3E
 42182,9400962 CRYSTAL-ICE SRL ✮✮,Facturada,Todo Aprobado,Ejecución de pedido de artículo 24071,Enviado,F,9400962/008,0,0,19/09/2025,RICARDO PIERONI,496834,26.8%,.00,T,4Is2Rn8E,6Ls2Pd3Q
 42182,9400962 CRYSTAL-ICE SRL ✮✮,Facturada,Todo Aprobado,Ejecución de pedido de artículo 24071,Enviado,F,9400962/009,0,0,19/09/2025,RICARDO PIERONI,496834,-7.6%,.00,T,4Is2Rn8E,6Ls2Pd3Q
@@ -414,7 +414,7 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 42311,690 CEVA DE ARGENTINA SRL ,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Liberada,F,2025/001,0,1000,,FELICI JORGE ARIEL,506811,59.9%,3010.00,,3Pt0Oq8I,0Bz8Ix7O
 42109,9400049 COMPAÑIA AMERICANA DE ALIMENTOS S.A. ,Parcialmente ejecutada,Todo Aprobado,Orden de trabajo ,Liberada,F,CAS-PPHR10048XT045,0,526,,EXPRESO CARGO SA,491886,30.9%,7364.00,,2Jl6Ja1C,3Cz8Fy3Y
 41875,9400115 BEST COLD SRL ✮✮,Ejecución de la orden pendiente,Todo Aprobado, ,,F,MTP548B,0,1620,,FELICI JORGE ARIEL,476699,34.6%,2997.00,,8Xq9Re2A,5Oy9Im9F
-42257,9400761 TECNOLOGIA GRAFICA SRL ✮✮✮✮,Parcialmente ejecutada,Todo Aprobado,Orden de trabajo ,Liberada,F,9400761/001,0,360,,EXPRESO LUJAN DEL CUYO SA,502671,50.1%,424.80,,3Px0Qz6Z,5Dr6Pr8I
+42257,9400761 TECNOLOGIA GRAFICA SRL ✮✮✮,Parcialmente ejecutada,Todo Aprobado,Orden de trabajo ,Liberada,F,9400761/001,0,360,,EXPRESO LUJAN DEL CUYO SA,502671,50.1%,424.80,,3Px0Qz6Z,5Dr6Pr8I
 42146,9401929 PETROPACK S.A. ✮✮,Ejecución de la orden pendiente,Todo Aprobado, ,,F,PPAR1024T,0,1224,,TRANSPORTE MOSTTO,494777,42.3%,636.48,,8Ou2Yz9L,7Ei3Zh4Q
 42076,9402018 FARMACIA LA FRANCO SOCIEDAD DE RESPONSABILIDAD LIMITADA ✮✮✮✮,Ejecución de la orden pendiente,Todo Aprobado, ,,F,PPAR524T,0,432,,TRANSPORTE TOMASSINI,489368,100.0%,125.28,,4Xz9An3R,3Nb5Vf8A
 42083,9402907 SAF ARGENTINA SOCIEDAD ANONIMA ,Ejecución de la orden pendiente,Todo Aprobado, ,,F,PPAR15048T,0,2,,EXPRESO CARGO SA,489798,100.0%,.00,,,7Rx7Ub2H
