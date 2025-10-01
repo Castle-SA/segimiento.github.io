@@ -145,8 +145,8 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 42235,12662 PRINTEMPS S.R.L. ✮✮,Facturada,Todo Aprobado,Ejecución de pedido de artículo 24017,Enviado,F,2662/004,0,0,15/09/2025,RICARDO PIERONI,501216,45.1%,.00,T,2Sp0Fe1F,1Rf6Ez5C
 42265,12815 INDUSTRIAS AVICOLAS SA ✮✮,Facturada,Todo Aprobado,Ejecución de pedido de artículo 24023,Enviado,F,PPHR1216B,0,0,15/09/2025,RETIRAN,503442,0.0%,.00,T,4Jk9Hq6A,0Ql9Gi1V
 42029,17046 SUPER S A SOC URUGUAYENSE DE PRODUCTORES DE ENTRE RIOS SOC ANON ✮✮,Facturada,Todo Aprobado,Ejecución de pedido de artículo 24021,Enviado,F,CAS-PPAR1072T043,0,0,15/09/2025,EXPRESO CARGO SA,485540,47.8%,.00,T,0Qu5Fi8T,7Xr0Sq4A
+42200,3060 AVICOLA TELOS SA ✮✮,Parcialmente ejecutada,Todo Aprobado,Factura de venta 38320,Pagado por completo,F,PPA1548TE,0,468,15/09/2025,TRANSPORTE SONGINI,498190,51.9%,631.80,,7Un2Ij7V,8Tz8Ui3Y
 42200,3060 AVICOLA TELOS SA ✮✮,Parcialmente ejecutada,Todo Aprobado,Ejecución de pedido de artículo 24016,Enviado,F,PPA1548TE,0,468,15/09/2025,TRANSPORTE SONGINI,498190,51.9%,631.80,T,7Un2Ij7V,1Fr4Ch9I
-42200,3060 AVICOLA TELOS SA ✮✮,Parcialmente ejecutada,Todo Aprobado,Factura de venta 38320,Pagado por completo,F,PPA1548TE,0,468,15/09/2025,TRANSPORTE SONGINI,498190,51.9%,631.80,,7Un2Ij7V,9Aq0Ft5G
 42200,3060 AVICOLA TELOS SA ✮✮,Parcialmente ejecutada,Todo Aprobado,Ejecución de pedido de artículo 24016,Enviado,F,H11/CPE,0,0,15/09/2025,TRANSPORTE SONGINI,498190,0.0%,.00,T,7Un2Ij7V,4Py6Ze4H
 42262,3086 MULTIORIGINAL PARTS SA ✮✮,Facturada,Todo Aprobado,Ejecución de pedido de artículo 24014,Enviado,F,CAS-PPAR1048T043,0,0,15/09/2025,EXPRESO TAS,503048,41.4%,.00,T,1Fr4Ch9I,4Py6Ze4H
 42233,3089 ARNEG ARGENTINA S.A. ✮✮,Facturada,Todo Aprobado,Ejecución de pedido de artículo 24018,Enviado,F,3089/021,0,0,15/09/2025,RICARDO PIERONI,501112,29.2%,.00,T,7Rx7Ub2H,3Pt0Oq8I
@@ -256,7 +256,7 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 42080,1029 DREAN SA ,Facturada,Todo Aprobado,Ejecución de pedido de artículo 24117,Enviado,F,1029/001,0,0,25/09/2025,EXPRESO CARGO SA,489583,61.1%,.00,T,6Ng7Hp1X,2Df5Fp8J
 42217,1412 F R I A R SA ,Parcialmente ejecutada,Todo Aprobado,Ejecución de pedido de artículo 24108,Enviado,F,CAS-PPAR1072T043,0,960,25/09/2025,TRANSPORTE PEDRITO,499958,44.1%,1180.80,T,1Vf8Uo1P,8Xq9Re2A
 42200,3060 AVICOLA TELOS SA ✮✮,Parcialmente ejecutada,Todo Aprobado,Factura de venta 38411,Abierta,F,PPA1548TE,0,468,25/09/2025,TRANSPORTE SONGINI,498190,51.9%,631.80,,7Un2Ij7V,8Tz8Ui3Y
-42200,3060 AVICOLA TELOS SA ✮✮,Parcialmente ejecutada,Todo Aprobado,Ejecución de pedido de artículo 24109,Enviado,F,PPA1548TE,0,468,25/09/2025,TRANSPORTE SONGINI,498190,51.9%,631.80,T,7Un2Ij7V,8Tz8Ui3Y
+42200,3060 AVICOLA TELOS SA ✮✮,Parcialmente ejecutada,Todo Aprobado,Ejecución de pedido de artículo 24109,Enviado,F,PPA1548TE,0,468,25/09/2025,TRANSPORTE SONGINI,498190,51.9%,631.80,T,7Un2Ij7V,9Aq0Ft5G
 42292,3089 ARNEG ARGENTINA S.A. ✮✮,Facturada,Todo Aprobado,Ejecución de pedido de artículo 24118,Enviado,F,3089/029,0,0,25/09/2025,RICARDO PIERONI,505374,26.7%,.00,T,7Rx7Ub2H,8Ky5Hq9D
 42292,3089 ARNEG ARGENTINA S.A. ✮✮,Facturada,Todo Aprobado,Ejecución de pedido de artículo 24118,Enviado,F,3089/035,0,0,25/09/2025,RICARDO PIERONI,505374,80.5%,.00,T,7Rx7Ub2H,9Qb8Fy5U
 42292,3089 ARNEG ARGENTINA S.A. ✮✮,Facturada,Todo Aprobado,Ejecución de pedido de artículo 24118,Enviado,F,3089/034,0,0,25/09/2025,RICARDO PIERONI,505374,80.6%,.00,T,7Rx7Ub2H,9Qb8Fy5U
@@ -265,9 +265,9 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 42293,3089 ARNEG ARGENTINA S.A. ✮✮,Facturada,Todo Aprobado,Ejecución de pedido de artículo 24113,Enviado,F,CAS-PPAR1072T043,0,0,25/09/2025,RICARDO PIERONI,505377,46.1%,.00,T,7Rx7Ub2H,0Ph8Mv3F
 42294,3089 ARNEG ARGENTINA S.A. ✮✮,Parcialmente ejecutada,Todo Aprobado,Ejecución de pedido de artículo 24119,Enviado,F,3089/078,0,0,25/09/2025,RICARDO PIERONI,505379,51.4%,.00,T,7Rx7Ub2H,4Xc6El8T
 42350,333 ABERALDO PONGOLINI SRL ✮✮✮✮,Facturada,Todo Aprobado,Ejecución de pedido de artículo 24114,Enviado,F,P579,0,0,25/09/2025,RETIRAN,508823,53.7%,.00,T,5Rd7Dx6P,
+42339,3598 DEL VALLE EMBALAJES SRL ✮✮,Parcialmente ejecutada,Todo Aprobado,Factura de venta 38417,Abierta,F,CAS-PPAR10048T043,27,21,25/09/2025,RICARDO PIERONI,507911,50.6%,408.00,,0Ph8Mv3F,0Bz8Ix7O
 42339,3598 DEL VALLE EMBALAJES SRL ✮✮,Parcialmente ejecutada,Todo Aprobado,Ejecución de pedido de artículo 24115,Enviado,F,CAS-PPAR10048T043,27,21,25/09/2025,RICARDO PIERONI,507911,50.6%,408.00,T,0Ph8Mv3F,0Qu5Fi8T
-42339,3598 DEL VALLE EMBALAJES SRL ✮✮,Parcialmente ejecutada,Todo Aprobado,Factura de venta 38417,Abierta,F,CAS-PPAR10048T043,27,21,25/09/2025,RICARDO PIERONI,507911,50.6%,408.00,,0Ph8Mv3F,0Qu5Fi8T
-42339,3598 DEL VALLE EMBALAJES SRL ✮✮,Parcialmente ejecutada,Todo Aprobado,Factura de venta 38417,Abierta,F,MTS548B,0,720,25/09/2025,RICARDO PIERONI,507911,23.2%,1396.80,,0Ph8Mv3F,0Un8Nt2U
+42339,3598 DEL VALLE EMBALAJES SRL ✮✮,Parcialmente ejecutada,Todo Aprobado,Factura de venta 38417,Abierta,F,MTS548B,0,720,25/09/2025,RICARDO PIERONI,507911,23.2%,1396.80,,0Ph8Mv3F,7Rx7Ub2H
 42339,3598 DEL VALLE EMBALAJES SRL ✮✮,Parcialmente ejecutada,Todo Aprobado,Ejecución de pedido de artículo 24115,Enviado,F,PPAR1048T,0,0,25/09/2025,RICARDO PIERONI,507911,36.4%,.00,T,0Ph8Mv3F,3Dw0Uk2K
 42298,3676 FRIGORIFICO MARK SA ✮✮,Facturada,Todo Aprobado,Ejecución de pedido de artículo 24123,Enviado,F,PVC612R,0,0,25/09/2025,RETIRAN,505606,67.1%,.00,T,2Nw2Uj9H,3Dw0Uk2K
 42230,3771 PILISAR SA ✮✮,Facturación pendiente,Todo Aprobado,Ejecución de pedido de artículo 24122,Enviado,F,CAS-PPAR1072T043,0,0,25/09/2025,EXPRESO CARGO SA,500980,43.2%,.00,F,6Qa0Ib0C,7Rx7Ub2H
@@ -275,10 +275,10 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 42335,4050 FAPERSA ICSA ✮✮,Facturada,Todo Aprobado,Ejecución de pedido de artículo 24103,Enviado,F,PPA1548TE,0,0,25/09/2025,TRANSPORTE PEDRITO,507446,47.2%,.00,T,5Pv6Sm4S,5Rr7Ys4Y
 42335,4050 FAPERSA ICSA ✮✮,Facturada,Todo Aprobado,Ejecución de pedido de artículo 24103,Enviado,F,PPAR1048M,0,0,25/09/2025,TRANSPORTE PEDRITO,507446,21.1%,.00,T,5Pv6Sm4S,0Jn1Mv5H
 42331,4305 LA PIARA SRL ✮✮,Parcialmente ejecutada,Todo Aprobado,Ejecución de pedido de artículo 24107,Enviado,F,H11/CPE,0,0,25/09/2025,TRANSPORTE AGUILAR S.R.L.,507317,40.9%,.00,T,7My0Kb3O,9Lx6Mu2V
-42331,4305 LA PIARA SRL ✮✮,Parcialmente ejecutada,Todo Aprobado,Factura de venta 38410,Abierta,F,PPA1548TE,0,360,25/09/2025,TRANSPORTE AGUILAR S.R.L.,507317,49.6%,464.40,,7My0Kb3O,9Lx6Mu2V
 42331,4305 LA PIARA SRL ✮✮,Parcialmente ejecutada,Todo Aprobado,Ejecución de pedido de artículo 24107,Enviado,F,PPA1548TE,0,360,25/09/2025,TRANSPORTE AGUILAR S.R.L.,507317,49.6%,464.40,T,7My0Kb3O,9Lx6Mu2V
-42348,4894 VANOLI Y CIA SA ✮✮,Parcialmente ejecutada,Todo Aprobado,Factura de venta 38412,Abierta,F,CAS-PPAR1048T043,0,180,25/09/2025,EXPRESO CARGO SA,508580,41.2%,138.60,,1Qt0Ac5G,3Ny6Zw2O
+42331,4305 LA PIARA SRL ✮✮,Parcialmente ejecutada,Todo Aprobado,Factura de venta 38410,Abierta,F,PPA1548TE,0,360,25/09/2025,TRANSPORTE AGUILAR S.R.L.,507317,49.6%,464.40,,7My0Kb3O,9Lx6Mu2V
 42348,4894 VANOLI Y CIA SA ✮✮,Parcialmente ejecutada,Todo Aprobado,Ejecución de pedido de artículo 24110,Enviado,F,CAS-PPAR1048T043,0,180,25/09/2025,EXPRESO CARGO SA,508580,41.2%,138.60,T,1Qt0Ac5G,3Ny6Zw2O
+42348,4894 VANOLI Y CIA SA ✮✮,Parcialmente ejecutada,Todo Aprobado,Factura de venta 38412,Abierta,F,CAS-PPAR1048T043,0,180,25/09/2025,EXPRESO CARGO SA,508580,41.2%,138.60,,1Qt0Ac5G,3Ny6Zw2O
 42349,4904 SUSTENPACK SRL ✮✮,Facturada,Todo Aprobado,Ejecución de pedido de artículo 24111,Enviado,F,PPAR1048T,0,0,25/09/2025,RICARDO PIERONI,508699,62.3%,.00,T,4Ur2Tu0Z,3Ny6Zw2O
 42342,56 CIRUBON S.A. ✮✮,Facturada,Todo Aprobado,Ejecución de pedido de artículo 24105,Enviado,F,6158/001,0,0,25/09/2025,RETIRAN,507927,62.7%,.00,T,0Wm2Xw7K,4Jl3Vt9D
 42342,56 CIRUBON S.A. ✮✮,Facturada,Todo Aprobado,Ejecución de pedido de artículo 24105,Enviado,F,BV002,0,0,25/09/2025,RETIRAN,507927,69.0%,.00,T,0Wm2Xw7K,9Gs4Xo3J
@@ -305,9 +305,9 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 42354,9403199 PANAMERICAN CARGO S.A. ✮✮✮✮,Facturada,Todo Aprobado,Ejecución de pedido de artículo 24112,Enviado,F,H11/48,0,0,25/09/2025,EXPRESO CARGO SA,508958,64.3%,.00,T,,
 42352,383 JOHNSON ACERO S.A. Industrial y Comercial ✮✮✮,Facturada,Todo Aprobado,Ejecución de pedido de artículo 24125,Enviado,F,MTS518B,0,0,26/09/2025,RICARDO PIERONI,508724,37.3%,.00,T,6Bb0Mu1P,8Ds2Kv5E
 42148,22 CARRARO ARGENTINA S.A. ,Facturada,Todo Aprobado,Ejecución de pedido de artículo 24131,Enviado,F,BV001,0,0,29/09/2025,EXPRESO CARGO SA,494796,78.3%,.00,T,8Bb5Dn1K,5Mx5Rs0E
-42339,3598 DEL VALLE EMBALAJES SRL ✮✮,Parcialmente ejecutada,Todo Aprobado,Factura de venta 38427,Abierta,F,CAS-PPAR10048T043,27,21,29/09/2025,RICARDO PIERONI,507911,50.6%,408.00,,0Ph8Mv3F,0Bz8Ix7O
+42339,3598 DEL VALLE EMBALAJES SRL ✮✮,Parcialmente ejecutada,Todo Aprobado,Factura de venta 38427,Abierta,F,CAS-PPAR10048T043,27,21,29/09/2025,RICARDO PIERONI,507911,50.6%,408.00,,0Ph8Mv3F,0Qu5Fi8T
 42339,3598 DEL VALLE EMBALAJES SRL ✮✮,Parcialmente ejecutada,Todo Aprobado,Ejecución de pedido de artículo 24130,Enviado,F,MTS524B,0,0,29/09/2025,RICARDO PIERONI,507911,25.2%,.00,T,0Ph8Mv3F,7Rx7Ub2H
-42339,3598 DEL VALLE EMBALAJES SRL ✮✮,Parcialmente ejecutada,Todo Aprobado,Factura de venta 38427,Abierta,F,MTS548B,0,720,29/09/2025,RICARDO PIERONI,507911,23.2%,1396.80,,0Ph8Mv3F,7Rx7Ub2H
+42339,3598 DEL VALLE EMBALAJES SRL ✮✮,Parcialmente ejecutada,Todo Aprobado,Factura de venta 38427,Abierta,F,MTS548B,0,720,29/09/2025,RICARDO PIERONI,507911,23.2%,1396.80,,0Ph8Mv3F,0Un8Nt2U
 42187,3769 GAROFOLI CONSTRUCCIONES SRL ✮✮,Parcialmente ejecutada,Todo Aprobado,Ejecución de pedido de artículo 24129,Enviado,F,CAS-PPAR10048T043,0,0,29/09/2025,RODRIGUEZ HNOS. TRANSP. SA,497188,50.6%,.00,T,7Qv9Mi1Z,2Wy4Vz4B
 42187,3769 GAROFOLI CONSTRUCCIONES SRL ✮✮,Parcialmente ejecutada,Todo Aprobado,Factura de venta 38428,Abierta,F,CAS-PPAR1072T043,0,360,29/09/2025,RODRIGUEZ HNOS. TRANSP. SA,497188,40.7%,417.60,,7Qv9Mi1Z,2Wy4Vz4B
 42187,3769 GAROFOLI CONSTRUCCIONES SRL ✮✮,Parcialmente ejecutada,Todo Aprobado,Ejecución de pedido de artículo 24129,Enviado,F,MTS518B,0,0,29/09/2025,RODRIGUEZ HNOS. TRANSP. SA,497188,37.3%,.00,T,7Qv9Mi1Z,8Sb1On8S
@@ -338,7 +338,7 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 42289,9400100 ABBOUD MARCELO BANAIOT ,Facturada,Todo Aprobado,Ejecución de pedido de artículo 24145,Enviado,F,CAS-PPA1048T040,0,0,30/09/2025,EXPRESO CARGO SA,505023,23.2%,.00,T,5Pj9Xf1N,3Dw0Uk2K
 42289,9400100 ABBOUD MARCELO BANAIOT ,Facturada,Todo Aprobado,Ejecución de pedido de artículo 24144,Enviado,F,CAS-PPA1048T040,0,0,30/09/2025,EXPRESO CARGO SA,505023,23.2%,.00,T,5Pj9Xf1N,3Dw0Uk2K
 42380,9400417 DON EMILIO S.R.L ✮✮,Facturada,Todo Aprobado,Ejecución de pedido de artículo 24143,Enviado,F,PPAR10048T,0,0,30/09/2025,RETIRAN,510752,38.6%,.00,T,4Ev1Va1N,7Qv9Mi1Z
-42170,9400774 CORREO OFICIAL DE LA REPUBLICA ARGENTINA SA ,Parcialmente ejecutada,Todo Aprobado,Ejecución de pedido de artículo 24142,Enviado,F,9400774/001,0,1512,30/09/2025,EXPRESO CARGO SA,496260,21.5%,1330.56,T,8Iv9Nk5M,5Rg6Oq8Y
+42170,9400774 CORREO OFICIAL DE LA REPUBLICA ARGENTINA SA ,Parcialmente ejecutada,Todo Aprobado,Ejecución de pedido de artículo 24142,Enviado,F,9400774/001,0,1512,30/09/2025,EXPRESO CARGO SA,496260,21.5%,1330.56,T,8Iv9Nk5M,6Ls2Pd3Q
 42370,9403199 PANAMERICAN CARGO S.A. ✮✮✮✮,Facturada,Todo Aprobado,Ejecución de pedido de artículo 24139,Enviado,F,CH5235,0,0,30/09/2025,EXPRESO CARGO SA,510310,68.3%,-12.00,T,,1Bj3Wa5S
 42370,9403199 PANAMERICAN CARGO S.A. ✮✮✮✮,Facturada,Todo Aprobado,Ejecución de pedido de artículo 24139,Enviado,F,PVC636A,0,0,30/09/2025,EXPRESO CARGO SA,510310,67.9%,.00,T,,
 42370,9403199 PANAMERICAN CARGO S.A. ✮✮✮✮,Facturada,Todo Aprobado,Ejecución de pedido de artículo 24139,Enviado,F,PVC636B,0,0,30/09/2025,EXPRESO CARGO SA,510310,66.0%,.00,T,,
@@ -389,8 +389,8 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 42373,132 MAHLE VALVULAS DE ARGENTINA SA ,Ejecución de la orden pendiente,Todo Aprobado, ,,F,04169-00056-93,5,0,10/11/2025,EXPRESO SANTA ROSA,510373,54.5%,134.00,,6Ls2Pd3Q,2Mu2Vl2K
 42373,132 MAHLE VALVULAS DE ARGENTINA SA ,Ejecución de la orden pendiente,Todo Aprobado, ,,F,04169-00058-93,3,0,10/11/2025,EXPRESO SANTA ROSA,510373,54.1%,80.40,,6Ls2Pd3Q,3Gj7Vu0K
 42373,132 MAHLE VALVULAS DE ARGENTINA SA ,Ejecución de la orden pendiente,Todo Aprobado, ,,F,04169-00059-93,2,0,10/11/2025,EXPRESO SANTA ROSA,510373,53.2%,53.60,,6Ls2Pd3Q,6Ls2Pd3Q
-42385,9402414 TRAVAGLIANTE RODOLFO CARLOS ,Ejecución de la orden pendiente,Todo Aprobado, ,,F,MVAQUA180,20,0,12/11/2025,RETIRAN,511123,45.1%,198.00,,,3Dw0Uk2K
-42385,9402414 TRAVAGLIANTE RODOLFO CARLOS ,Ejecución de la orden pendiente,Todo Aprobado, ,,F,MVAQUA1810HG,0,20,12/11/2025,RETIRAN,511123,100.0%,198.00,,,5Mx5Rs0E
+42385,9402414 TRAVAGLIANTE ,Ejecución de la orden pendiente,Todo Aprobado, ,,F,MVAQUA180,20,0,12/11/2025,RETIRAN,511123,45.1%,198.00,,,3Dw0Uk2K
+42385,9402414 TRAVAGLIANTE ,Ejecución de la orden pendiente,Todo Aprobado, ,,F,MVAQUA1810HG,0,20,12/11/2025,RETIRAN,511123,100.0%,198.00,,,5Mx5Rs0E
 41283,583 TERRAGENE SA ✮✮,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Liberada,F,04965-00014-00,0,150,11/12/2025,FELICI JORGE ARIEL,441960,42.1%,7500.00,,5Pl6Eg8H,3Qo4Fx7M
 42167,1189 SAFER SYSTEMS SOUTH AMERICA S.A. ✮✮,Ejecución de la orden pendiente,Todo Aprobado,Pedido ,Recepción pendiente,T,1189/002,0,250,02/01/2026,TRANSPORTE TOMASSINI,496083,64.8%,3000.00,,0Te3Bc5F,4Is2Rn8E
 41099,102 VOLKSWAGEN ARGENTINA S.A. ✮✮,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Liberada,T,0103/001,0,200,,EXPRESO CARGO SA,431539,37.8%,363.243,,7Kh2Zf0E,0Bz8Ix7O
@@ -428,7 +428,7 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 42282,9400603 E.A.C.E. Y E. BURBUJAS S.A. ,Ejecución de la orden pendiente,Todo Aprobado, ,,F,PPAR15048T,0,1,,EXPRESO CARGO SA,504871,100.0%,.00,,0Li1Kj8Q,8Wb3Xi2L
 42282,9400603 E.A.C.E. Y E. BURBUJAS S.A. ,Ejecución de la orden pendiente,Todo Aprobado, ,,F,CAS-PPAR1048T043,0,1,,EXPRESO CARGO SA,504871,100.0%,.00,,0Li1Kj8Q,9Tj7Li2O
 42257,9400761 TECNOLOGIA GRAFICA SRL ✮✮✮,Parcialmente ejecutada,Todo Aprobado,Orden de trabajo ,Liberada,F,9400761/001,0,360,,EXPRESO LUJAN DEL CUYO SA,502671,50.1%,424.80,,3Px0Qz6Z,6Ls2Pd3Q
-42170,9400774 CORREO OFICIAL DE LA REPUBLICA ARGENTINA SA ,Parcialmente ejecutada,Todo Aprobado,Orden de trabajo ,En curso,F,9400774/001,0,1512,,EXPRESO CARGO SA,496260,21.5%,1330.56,,8Iv9Nk5M,6Ls2Pd3Q
+42170,9400774 CORREO OFICIAL DE LA REPUBLICA ARGENTINA SA ,Parcialmente ejecutada,Todo Aprobado,Orden de trabajo ,En curso,F,9400774/001,0,1512,,EXPRESO CARGO SA,496260,21.5%,1330.56,,8Iv9Nk5M,5Rg6Oq8Y
 42367,9400962 CRYSTAL-ICE SRL ✮✮,Ejecución de la orden pendiente,Todo Aprobado, ,,F,CAS-PPA1048T040,5.904,1836,,RICARDO PIERONI,509908,31.1%,4257.00,,4Is2Rn8E,0We8Yn4Q
 42367,9400962 CRYSTAL-ICE SRL ✮✮,Ejecución de la orden pendiente,Todo Aprobado, ,,F,CAS-PPAR1048T040,0,1620,,RICARDO PIERONI,509908,30.9%,972.00,,4Is2Rn8E,
 42367,9400962 CRYSTAL-ICE SRL ✮✮,Ejecución de la orden pendiente,Todo Aprobado, ,,F,CAS-PPAR1048T043,0,360,,RICARDO PIERONI,509908,38.7%,266.40,,4Is2Rn8E,0Ph8Mv3F
