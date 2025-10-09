@@ -18,7 +18,7 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 41923,260 SUCESION DE BARCIA CLAUDIO RODRIGO ,Facturada,Todo Aprobado,Ejecución de pedido de artículo 23980,Enviado,F,MTS512B,0,0,10/09/2025,RICARDO PIERONI,479208,32.0%,.00,T,6Ib6Fj6R,5Mx5Rs0E
 41923,260 SUCESION DE BARCIA CLAUDIO RODRIGO ,Facturada,Todo Aprobado,Ejecución de pedido de artículo 23980,Enviado,F,MTS518B,0,0,10/09/2025,RICARDO PIERONI,479208,37.3%,.00,T,6Ib6Fj6R,5Mx5Rs0E
 41923,260 SUCESION DE BARCIA CLAUDIO RODRIGO ,Facturada,Todo Aprobado,Ejecución de pedido de artículo 23980,Enviado,F,MTS524B,0,0,10/09/2025,RICARDO PIERONI,479208,28.4%,.00,T,6Ib6Fj6R,5Mx5Rs0E
-42199,3051 FRIMETAL S.A. ,Parcialmente ejecutada,Todo Aprobado,Ejecución de pedido de artículo 23985,Enviado,F,3051/017,19200,8800,10/09/2025,FELICI JORGE ARIEL,498189,45.7%,535.564,T,3Dw0Uk2K,6Bb0Mu1P
+42199,3051 FRIMETAL S.A. ,Parcialmente ejecutada,Todo Aprobado,Ejecución de pedido de artículo 23985,Enviado,F,3051/017,19200,8800,10/09/2025,FELICI JORGE ARIEL,498189,45.7%,535.564,T,3Dw0Uk2K,9Pk0Ny6V
 42206,3051 FRIMETAL S.A. ,Facturada,Todo Aprobado,Ejecución de pedido de artículo 23986,Enviado,F,3051/011,0,0,10/09/2025,FELICI JORGE ARIEL,498535,59.6%,.00,T,3Dw0Uk2K,8Rn3En3G
 42206,3051 FRIMETAL S.A. ,Facturada,Todo Aprobado,Ejecución de pedido de artículo 23986,Enviado,F,PPAR1048M,0,0,10/09/2025,FELICI JORGE ARIEL,498535,27.6%,.00,T,3Dw0Uk2K,3Ys9An8W
 42206,3051 FRIMETAL S.A. ,Facturada,Todo Aprobado,Ejecución de pedido de artículo 23986,Enviado,F,1823/002,0,0,10/09/2025,FELICI JORGE ARIEL,498535,28.0%,.00,T,3Dw0Uk2K,7Cb8Sw3V
@@ -184,7 +184,7 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 42294,3089 ARNEG ARGENTINA S.A. ✮✮,Parcialmente ejecutada,Todo Aprobado,Ejecución de pedido de artículo 24119,Enviado,F,3089/078,0,0,25/09/2025,RICARDO PIERONI,505379,51.4%,.00,T,7Rx7Ub2H,4Xc6El8T
 42350,333 ABERALDO PONGOLINI SRL ✮✮✮✮,Facturada,Todo Aprobado,Ejecución de pedido de artículo 24114,Enviado,F,P579,0,0,25/09/2025,RETIRAN,508823,53.7%,.00,T,5Rd7Dx6P,2Au6Re6F
 42339,3598 DEL VALLE EMBALAJES SRL ✮✮,Parcialmente ejecutada,Todo Aprobado,Ejecución de pedido de artículo 24115,Enviado,F,CAS-PPAR10048T043,0,0,25/09/2025,RICARDO PIERONI,507911,50.6%,.00,T,0Ph8Mv3F,7Rx7Ub2H
-42339,3598 DEL VALLE EMBALAJES SRL ✮✮,Parcialmente ejecutada,Todo Aprobado,Factura de venta 38417,Abierta,F,MTS548B,0,720,25/09/2025,RICARDO PIERONI,507911,23.2%,1396.80,,0Ph8Mv3F,3Dw0Uk2K
+42339,3598 DEL VALLE EMBALAJES SRL ✮✮,Parcialmente ejecutada,Todo Aprobado,Factura de venta 38417,Abierta,F,MTS548B,0,720,25/09/2025,RICARDO PIERONI,507911,23.2%,1396.80,,0Ph8Mv3F,2Wy4Vz4B
 42339,3598 DEL VALLE EMBALAJES SRL ✮✮,Parcialmente ejecutada,Todo Aprobado,Ejecución de pedido de artículo 24115,Enviado,F,PPAR1048T,0,0,25/09/2025,RICARDO PIERONI,507911,36.4%,.00,T,0Ph8Mv3F,2Wy4Vz4B
 42298,3676 FRIGORIFICO MARK SA ✮✮,Facturada,Todo Aprobado,Ejecución de pedido de artículo 24123,Enviado,F,PVC612R,0,0,25/09/2025,RETIRAN,505606,67.1%,.00,T,2Nw2Uj9H,2Wy4Vz4B
 42230,3771 PILISAR SA ✮✮,Facturación pendiente,Todo Aprobado,Ejecución de pedido de artículo 24122,Enviado,F,CAS-PPAR1072T043,0,0,25/09/2025,EXPRESO CARGO SA,500980,43.2%,.00,F,6Qa0Ib0C,7Es1Xz6T
@@ -220,13 +220,13 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 42352,383 JOHNSON ACERO S.A. Industrial y Comercial ✮✮✮,Facturada,Todo Aprobado,Ejecución de pedido de artículo 24125,Enviado,F,MTS518B,0,0,26/09/2025,RICARDO PIERONI,508724,37.3%,.00,T,6Bb0Mu1P,5Rr7Ys4Y
 42148,22 CARRARO ARGENTINA S.A. ,Facturada,Todo Aprobado,Ejecución de pedido de artículo 24131,Enviado,F,BV001,0,0,29/09/2025,EXPRESO CARGO SA,494796,78.3%,.00,T,8Bb5Dn1K,5Mx5Rs0E
 42339,3598 DEL VALLE EMBALAJES SRL ✮✮,Parcialmente ejecutada,Todo Aprobado,Ejecución de pedido de artículo 24130,Enviado,F,MTS524B,0,0,29/09/2025,RICARDO PIERONI,507911,25.2%,.00,T,0Ph8Mv3F,3Dw0Uk2K
-42339,3598 DEL VALLE EMBALAJES SRL ✮✮,Parcialmente ejecutada,Todo Aprobado,Factura de venta 38427,Abierta,F,MTS548B,0,720,29/09/2025,RICARDO PIERONI,507911,23.2%,1396.80,,0Ph8Mv3F,2Wy4Vz4B
+42339,3598 DEL VALLE EMBALAJES SRL ✮✮,Parcialmente ejecutada,Todo Aprobado,Factura de venta 38427,Abierta,F,MTS548B,0,720,29/09/2025,RICARDO PIERONI,507911,23.2%,1396.80,,0Ph8Mv3F,3Dw0Uk2K
 42187,3769 GAROFOLI CONSTRUCCIONES SRL ✮✮,Parcialmente ejecutada,Todo Aprobado,Ejecución de pedido de artículo 24129,Enviado,F,CAS-PPAR10048T043,0,0,29/09/2025,RODRIGUEZ HNOS. TRANSP. SA,497188,50.6%,.00,T,7Qv9Mi1Z,7Rx7Ub2H
 42187,3769 GAROFOLI CONSTRUCCIONES SRL ✮✮,Parcialmente ejecutada,Todo Aprobado,Factura de venta 38428,Abierta,F,CAS-PPAR1072T043,0,360,29/09/2025,RODRIGUEZ HNOS. TRANSP. SA,497188,40.7%,417.60,,7Qv9Mi1Z,7Rx7Ub2H
 42187,3769 GAROFOLI CONSTRUCCIONES SRL ✮✮,Parcialmente ejecutada,Todo Aprobado,Ejecución de pedido de artículo 24129,Enviado,F,MTS518B,0,0,29/09/2025,RODRIGUEZ HNOS. TRANSP. SA,497188,37.3%,.00,T,7Qv9Mi1Z,7Rx7Ub2H
 42187,3769 GAROFOLI CONSTRUCCIONES SRL ✮✮,Parcialmente ejecutada,Todo Aprobado,Ejecución de pedido de artículo 24129,Enviado,F,MTS524B,0,0,29/09/2025,RODRIGUEZ HNOS. TRANSP. SA,497188,27.6%,.00,T,7Qv9Mi1Z,7Rx7Ub2H
-42187,3769 GAROFOLI CONSTRUCCIONES SRL ✮✮,Parcialmente ejecutada,Todo Aprobado,Factura de venta 38428,Abierta,F,MTS536B,0,72,29/09/2025,RODRIGUEZ HNOS. TRANSP. SA,497188,38.0%,108.00,,7Qv9Mi1Z,7Rx7Ub2H
 42187,3769 GAROFOLI CONSTRUCCIONES SRL ✮✮,Parcialmente ejecutada,Todo Aprobado,Ejecución de pedido de artículo 24129,Enviado,F,MTS536B,0,72,29/09/2025,RODRIGUEZ HNOS. TRANSP. SA,497188,38.0%,108.00,T,7Qv9Mi1Z,7Rx7Ub2H
+42187,3769 GAROFOLI CONSTRUCCIONES SRL ✮✮,Parcialmente ejecutada,Todo Aprobado,Factura de venta 38428,Abierta,F,MTS536B,0,72,29/09/2025,RODRIGUEZ HNOS. TRANSP. SA,497188,38.0%,108.00,,7Qv9Mi1Z,7Rx7Ub2H
 42187,3769 GAROFOLI CONSTRUCCIONES SRL ✮✮,Parcialmente ejecutada,Todo Aprobado,Factura de venta 38428,Abierta,F,MTS548B,0,180,29/09/2025,RODRIGUEZ HNOS. TRANSP. SA,497188,36.5%,360.00,,7Qv9Mi1Z,8Ds2Kv5E
 42187,3769 GAROFOLI CONSTRUCCIONES SRL ✮✮,Parcialmente ejecutada,Todo Aprobado,Factura de venta 38428,Abierta,F,PPAR15048T,0,60,29/09/2025,RODRIGUEZ HNOS. TRANSP. SA,497188,37.5%,825.00,,7Qv9Mi1Z,0Mw8Gz3K
 42340,3965 PRO DE MAN SA ✮✮,Facturada,Todo Aprobado,Ejecución de pedido de artículo 24126,Enviado,F,PPAR1072T,0,0,29/09/2025,FELICI JORGE ARIEL,507912,32.5%,.00,T,0Ye3Eq5F,0Jn1Mv5H
@@ -286,7 +286,6 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 42387,1099 ROBERTO CALZAVARA SRL ✮✮,Parcialmente ejecutada,Todo Aprobado,Ejecución de pedido de artículo 24161,Enviado,F,CAS-PPAR1048T040,0,864,03/10/2025,RICARDO PIERONI,511125,42.5%,622.08,T,9Ir4Dd6D,3Hy2Ia2F
 42387,1099 ROBERTO CALZAVARA SRL ✮✮,Parcialmente ejecutada,Todo Aprobado,Factura de venta 38461,Abierta,F,CAS-PPAR1048T040,0,864,03/10/2025,RICARDO PIERONI,511125,42.5%,622.08,,9Ir4Dd6D,3Hy2Ia2F
 42387,1099 ROBERTO CALZAVARA SRL ✮✮,Parcialmente ejecutada,Todo Aprobado,Ejecución de pedido de artículo 24161,Enviado,F,PPA1548TE,0,0,03/10/2025,RICARDO PIERONI,511125,45.4%,.00,T,9Ir4Dd6D,6Ng7Hp1X
-42383,3089 ARNEG ARGENTINA S.A. ✮✮,Ejecución de la orden pendiente,Todo Aprobado, ,,F,CAS-MTS548B,72,0,03/10/2025,RICARDO PIERONI,511020,31.0%,162.00,,7Rx7Ub2H,
 42388,655 SWIFT SA ARGENTINA ,Ejecución de la orden pendiente,Todo Aprobado, ,,F,CAS-PPAR1072T043,0,3600,03/10/2025,EXPRESO BRIO SRL,511265,45.9%,4860.00,,8Wb3Xi2L,9Ry7Wa5R
 42385,"9402414 TRAVAGLIANTE, RODOLFO CARLOS ✮✮✮✮",Facturada,Todo Aprobado,Ejecución de pedido de artículo 24162,Enviado,F,MVAQUA180,0,0,03/10/2025,RETIRAN,511123,45.1%,.00,T,,5Mx5Rs0E
 42385,"9402414 TRAVAGLIANTE, RODOLFO CARLOS ✮✮✮✮",Facturada,Todo Aprobado,Ejecución de pedido de artículo 24162,Enviado,F,MVAQUA1810HG,0,0,03/10/2025,RETIRAN,511123,100.0%,.00,T,,5Mx5Rs0E
@@ -358,7 +357,6 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 42420,2660 VICUNHA ARGENTINA SA (Tintoreria Ullum) ,Parcialmente ejecutada,Todo Aprobado, ,,F,CAS-PPAR1048T040,0,392,08/10/2025,EXPRESO CARGO SA,513210,42.7%,282.24,,5Dr6Pr8I,3Dw0Uk2K
 42361,3086 MULTIORIGINAL PARTS SA ✮✮,Facturada,Todo Aprobado,Ejecución de pedido de artículo 24191,Enviado,F,CAS-PPAR1048T043,0,0,08/10/2025,TRANSPORTE TOMASSINI,509180,43.3%,.00,T,1Fr4Ch9I,1Tu2Pr5C
 42393,3089 ARNEG ARGENTINA S.A. ✮✮,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Liberada,F,3089/029,0,50000,08/10/2025,RICARDO PIERONI,511632,26.7%,270.00,,7Rx7Ub2H,
-42395,3089 ARNEG ARGENTINA S.A. ✮✮,Ejecución de la orden pendiente,Todo Aprobado, ,,F,CAS-MTS548B,504,0,08/10/2025,RICARDO PIERONI,511634,31.1%,1134.00,,7Rx7Ub2H,
 42187,3769 GAROFOLI CONSTRUCCIONES SRL ✮✮,Parcialmente ejecutada,Todo Aprobado,Factura de venta 38485,Abierta,F,CAS-PPAR1072T043,0,360,08/10/2025,RODRIGUEZ HNOS. TRANSP. SA,497188,40.7%,417.60,,7Qv9Mi1Z,7Rx7Ub2H
 42187,3769 GAROFOLI CONSTRUCCIONES SRL ✮✮,Parcialmente ejecutada,Todo Aprobado,Factura de venta 38485,Abierta,F,MTS536B,0,72,08/10/2025,RODRIGUEZ HNOS. TRANSP. SA,497188,38.0%,108.00,,7Qv9Mi1Z,7Rx7Ub2H
 42187,3769 GAROFOLI CONSTRUCCIONES SRL ✮✮,Parcialmente ejecutada,Todo Aprobado,Factura de venta 38485,Abierta,F,MTS548B,0,180,08/10/2025,RODRIGUEZ HNOS. TRANSP. SA,497188,36.5%,360.00,,7Qv9Mi1Z,9Hm9Dl7F
@@ -375,6 +373,8 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 42332,9402636 FRUNAT S.A. ✮✮,Facturada,Todo Aprobado,Ejecución de pedido de artículo 24187,Enviado,F,CAS-PPAR1048T043,0,0,08/10/2025,EXPRESO LANCIONI,507444,41.6%,.00,T,,5Mx5Rs0E
 42422,9402909 EL ALMACEN SRL ✮✮,Facturada,Todo Aprobado,Ejecución de pedido de artículo 24190,Enviado,F,CAS-PPAR1048T043,0,0,08/10/2025,RICARDO PIERONI,513428,43.6%,.00,T,,4Is2Rn8E
 42423,2915 COMPANIA LA PILARICA SA ✮✮,Ejecución de la orden pendiente,Todo Aprobado, ,,F,CAS-PPAR548T043,720,0,09/10/2025,RICARDO PIERONI,513586,33.9%,273.60,,8Ds2Kv5E,6Kx5Tt1L
+42383,3089 ARNEG ARGENTINA S.A. ✮✮,Facturación pendiente,Todo Aprobado,Ejecución de pedido de artículo 24196,Enviado,F,CAS-MTS548B,0,0,09/10/2025,RICARDO PIERONI,511020,31.0%,.00,F,7Rx7Ub2H,
+42395,3089 ARNEG ARGENTINA S.A. ✮✮,Facturación pendiente,Todo Aprobado,Ejecución de pedido de artículo 24197,Enviado,F,CAS-MTS548B,0,0,09/10/2025,RICARDO PIERONI,511634,31.1%,.00,F,7Rx7Ub2H,
 42430,12787 FLEXCOLOR SRL ✮✮,Ejecución de la orden pendiente,Todo Aprobado, ,,F,MTS518B,192,0,10/10/2025,EXPRESO BRIO SRL,514201,39.0%,147.84,,3Jc0Cw5E,4Gf8Oa0H
 42430,12787 FLEXCOLOR SRL ✮✮,Ejecución de la orden pendiente,Todo Aprobado, ,,F,PPA1548TE,396,0,10/10/2025,EXPRESO BRIO SRL,514201,39.8%,487.08,,3Jc0Cw5E,0Zw3Xq6V
 42427,3029 DARK SRL ✮✮✮,Ejecución de la orden pendiente,Todo Aprobado, ,,F,CAS-PPAR1048T043,180,0,10/10/2025,RICARDO PIERONI,514089,43.6%,153.00,,7Va0Bu1J,4Vs0Qf0C
@@ -414,7 +414,7 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 42217,1412 F R I A R SA ,Parcialmente ejecutada,Todo Aprobado,Orden de trabajo ,Liberada,F,CAS-PPAR1072T043,0,960,,TRANSPORTE PEDRITO,499958,44.1%,1180.80,,1Vf8Uo1P,1Bj3Wa5S
 41903,1531 PAPELTECNICA SAIC ✮✮,Parcialmente ejecutada,Todo Aprobado, ,,F,PPHR1048T,36,0,,FELICI JORGE ARIEL,478011,30.3%,51.12,,6Tm5Az5M,8Ky5Hq9D
 42049,18293 DULCOR SA ✮✮,Ejecución de la orden pendiente,Todo Aprobado, ,,F,PPAR15048T,0,144,,EXPRESO CARGO SA,487155,49.7%,1980.00,,0Jn1Mv5H,9Zc0Jy4O
-42199,3051 FRIMETAL S.A. ,Parcialmente ejecutada,Todo Aprobado,Pedido ,Facturación pendiente/parcialmente recibido,T,3051/017,19200,8800,,FELICI JORGE ARIEL,498189,45.7%,535.564,,3Dw0Uk2K,9Pk0Ny6V
+42199,3051 FRIMETAL S.A. ,Parcialmente ejecutada,Todo Aprobado,Pedido ,Facturación pendiente/parcialmente recibido,T,3051/017,19200,8800,,FELICI JORGE ARIEL,498189,45.7%,535.564,,3Dw0Uk2K,6Bb0Mu1P
 42240,3051 FRIMETAL S.A. ,Parcialmente ejecutada,Todo Aprobado, ,,F,CAS-MTS548B,1188,0,,FELICI JORGE ARIEL,501244,22.1%,2.384.337,,3Dw0Uk2K,8Tz8Ui3Y
 42245,3051 FRIMETAL S.A. ,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Ensamblada,F,0272/003,120,0,,FELICI JORGE ARIEL,501845,33.3%,11.015.883,,3Dw0Uk2K,1Fr4Ch9I
 42291,3089 ARNEG ARGENTINA S.A. ✮✮,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Ensamblada,F,3089/022,15000,0,,RICARDO PIERONI,505365,27.4%,616.50,,7Rx7Ub2H,9Qb8Fy5U
