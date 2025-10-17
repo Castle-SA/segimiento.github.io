@@ -152,7 +152,7 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 42344,3089 ARNEG ARGENTINA S.A. ✮✮,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Ensamblada,F,3089/041,10000,0,01/10/2025,RICARDO PIERONI,508492,98.6%,1060.00,,7Rx7Ub2H,3Pt0Oq8I
 42344,3089 ARNEG ARGENTINA S.A. ✮✮,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Ensamblada,F,3089/040,20000,0,01/10/2025,RICARDO PIERONI,508492,96.8%,6320.00,,7Rx7Ub2H,3Pt0Oq8I
 42344,3089 ARNEG ARGENTINA S.A. ✮✮,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Ensamblada,F,3089/067,10000,0,01/10/2025,RICARDO PIERONI,508492,99.1%,1660.00,,7Rx7Ub2H,6Ls2Pd3Q
-42345,3089 ARNEG ARGENTINA S.A. ✮✮,Parcialmente ejecutada,Todo Aprobado,Orden de trabajo ,Ensamblada,F,3089/041,4000,0,01/10/2025,RICARDO PIERONI,508502,81.0%,424.00,,7Rx7Ub2H,9Qb8Fy5U
+42345,3089 ARNEG ARGENTINA S.A. ✮✮,Parcialmente ejecutada,Todo Aprobado,Orden de trabajo ,Ensamblada,F,3089/041,4000,0,01/10/2025,RICARDO PIERONI,508502,81.0%,424.00,,7Rx7Ub2H,8Ky5Hq9D
 42345,3089 ARNEG ARGENTINA S.A. ✮✮,Parcialmente ejecutada,Todo Aprobado,Orden de trabajo ,Ensamblada,F,3089/067,2000,0,01/10/2025,RICARDO PIERONI,508502,82.3%,332.00,,7Rx7Ub2H,9Qb8Fy5U
 42384,1188 DENSO MANUFACTURING ARGENTINA SA ✮✮,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 24149,Remitido,F,04169-00057-93,0,0,02/10/2025,EXPRESO CARGO SA,511021,47.9%,440.00,T,2Me3Fc7D,7Ei3Zh4Q
 42375,12662 PRINTEMPS S.R.L. ✮✮,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 24148,Remitido,F,04965-00176-00,0,0,02/10/2025,RICARDO PIERONI,510496,47.5%,1886.40,T,2Sp0Fe1F,6Ng7Hp1X
@@ -189,7 +189,7 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 42400,2012 BIZCOCHOS CAMPEON SRL ✮✮,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 24167,Remitido,F,H11/CPE,0,0,06/10/2025,RICARDO PIERONI,512233,0.0%,.00,T,8Ew3Yq4Q,3Dw0Uk2K
 42402,2020 RETENES SAV SA ✮✮,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 24164,Remitido,F,CAS-PPAR1048T043,0,0,06/10/2025,RICARDO PIERONI,512242,60.1%,432.00,T,8Ja8Rp6M,5Mx5Rs0E
 42391,3086 MULTIORIGINAL PARTS SA ✮✮,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 24163,Remitido,F,CAS-PPAR1048T043,0,0,06/10/2025,RICARDO PIERONI,511528,39.9%,230.40,T,1Fr4Ch9I,8Tz8Ui3Y
-42345,3089 ARNEG ARGENTINA S.A. ✮✮,Parcialmente ejecutada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 24171,Remitido,F,3089/041,4000,0,06/10/2025,RICARDO PIERONI,508502,81.0%,636.00,T,7Rx7Ub2H,8Ky5Hq9D
+42345,3089 ARNEG ARGENTINA S.A. ✮✮,Parcialmente ejecutada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 24171,Remitido,F,3089/041,4000,0,06/10/2025,RICARDO PIERONI,508502,81.0%,636.00,T,7Rx7Ub2H,9Qb8Fy5U
 42345,3089 ARNEG ARGENTINA S.A. ✮✮,Parcialmente ejecutada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 24171,Remitido,F,3089/040,0,0,06/10/2025,RICARDO PIERONI,508502,82.0%,6320.00,T,7Rx7Ub2H,9Qb8Fy5U
 42345,3089 ARNEG ARGENTINA S.A. ✮✮,Parcialmente ejecutada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 24171,Remitido,F,3089/067,2000,0,06/10/2025,RICARDO PIERONI,508502,82.3%,1328.00,T,7Rx7Ub2H,9Qb8Fy5U
 42339,3598 DEL VALLE EMBALAJES SRL ✮✮,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 24169,Remitido,F,CAS-PPAR1048T043,0,0,06/10/2025,RICARDO PIERONI,507911,41.4%,1524.60,T,0Ph8Mv3F,0Vc7Du3D
@@ -355,6 +355,7 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 42476,15294 PROMAPLA SRL ✮✮✮,Ejecución de la orden pendiente,Todo Aprobado, ,,F,CAS-PPAR1072T043,0,360,17/10/2025,RICARDO PIERONI,516750,40.6%,442.80,,6Hd9Bz5N,1Bj3Wa5S
 42333,18293 DULCOR SA ✮✮,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 24267,Remitido,F,PPAR1048T,0,0,17/10/2025,EXPRESO LUJAN DEL CUYO SA,507544,36.4%,554.40,T,0Jn1Mv5H,3Dw0Uk2K
 42470,2515 CONGELADOS ARTICO SA ✮✮,Ejecución de la orden pendiente,Todo Aprobado, ,,F,CAS-PPAR1072T043,0,720,17/10/2025,TRANSPORTE TOMASSINI,516513,44.3%,943.20,,8Rn3En3G,3Dw0Uk2K
+42268,3490 ALTO IMPACTO SRL (VERTIGO) ,Facturación pendiente,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 24272,Remitido,F,PPAR1048T,0,0,17/10/2025,RICARDO PIERONI,503556,45.6%,388.80,F,1Wa0Iu6X,4Ev1Va1N
 42449,4379 FRANCHRIS2010 SRL ✮✮,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 24263,Remitido,F,PPAR1048T,0,0,17/10/2025,TRANSPORTE TOMASSINI,515381,40.2%,738.00,T,,7Zr9Rh6S
 42067,4517 HIPER PACK ROSARIO DE CERRA VALERIA BEATRIZ ✮✮,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 24259,Remitido,F,PPAR524T,0,0,17/10/2025,RICARDO PIERONI,488484,100.0%,18.00,T,3Ny6Zw2O,2Jl6Ja1C
 42477,611 QUESOS DON ATILIO SA ✮✮✮✮,Parcialmente ejecutada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 24269,Remitido,F,PPA1548TE,0,0,17/10/2025,TRANSPORTE TOMASSINI,516961,42.2%,322.56,T,8Br5Ap2B,9Ry7Wa5R
@@ -386,7 +387,7 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 42455,3089 ARNEG ARGENTINA S.A. ✮✮,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Ensamblada,F,3089/017,5000,0,20/10/2025,RICARDO PIERONI,515721,28.4%,397.00,,7Rx7Ub2H,
 42455,3089 ARNEG ARGENTINA S.A. ✮✮,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Liberada,F,3089/011,0,5000,20/10/2025,RICARDO PIERONI,515721,29.8%,475.00,,7Rx7Ub2H,
 42455,3089 ARNEG ARGENTINA S.A. ✮✮,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Ensamblada,F,3089/014,15000,0,20/10/2025,RICARDO PIERONI,515721,41.3%,510.00,,7Rx7Ub2H,
-42455,3089 ARNEG ARGENTINA S.A. ✮✮,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Liberada,F,3089/015,0,15000,20/10/2025,RICARDO PIERONI,515721,30.0%,744.00,,7Rx7Ub2H,
+42455,3089 ARNEG ARGENTINA S.A. ✮✮,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Ensamblada,F,3089/015,15000,0,20/10/2025,RICARDO PIERONI,515721,30.0%,744.00,,7Rx7Ub2H,
 42478,56 CIRUBON S.A. ✮✮,Ejecución de la orden pendiente,Todo Aprobado, ,,F,BV002,0,300,20/10/2025,RETIRAN,517064,65.2%,2457.00,,0Wm2Xw7K,1Kc0Xm1P
 42478,56 CIRUBON S.A. ✮✮,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Ensamblada,F,6158/001,2,0,20/10/2025,RETIRAN,517064,62.7%,376.00,,0Wm2Xw7K,1Kc0Xm1P
 42466,731 SKF ARGENTINA SA ,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Ensamblada,F,3351/002,2000,0,20/10/2025,EXPRESO CARGO SA,516240,80.4%,460.00,,2Nu2Qe5H,8Yp8Ld0P
@@ -394,7 +395,7 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 42481,9400290 TOMAX SRL ✮✮,Ejecución de la orden pendiente,Todo Aprobado, ,,F,PPAR1048T,108,0,20/10/2025,EXPRESO CARGO SA,517480,40.2%,88.56,,7Zv2Of0S,6Ng7Hp1X
 42463,4306 KIRPLASTIC SA ✮✮✮,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Ensamblada,F,04968-00157-00,2,0,21/10/2025,EXPRESO CARGO SA,515895,28.2%,365.34,,0Dg5Qb4L,5Hd9Vg2B
 42463,4306 KIRPLASTIC SA ✮✮✮,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Ensamblada,F,04968-00158-00,24,0,21/10/2025,EXPRESO CARGO SA,515895,27.8%,2346.72,,0Dg5Qb4L,2Me3Fc7D
-42467,5019 GRANJA TRES ARROYOS SACAFEI ✮✮,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Liberada,F,PPHR1216B,0,288,21/10/2025,EXPRESO CARGO SA,516361,52.6%,403.20,,0Ql9Gi1V,9Gs4Xo3J
+42467,5019 GRANJA TRES ARROYOS SACAFEI ✮✮,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Ensamblada,F,PPHR1216B,288,0,21/10/2025,EXPRESO CARGO SA,516361,52.6%,403.20,,0Ql9Gi1V,9Gs4Xo3J
 42474,9400126 IBERPESCA SA ,Ejecución de la orden pendiente,Todo Aprobado, ,,F,CAS-PPAR10072T045,0,200,21/10/2025,TRANSPORTE TOMASSINI,516516,64.2%,2584.00,,7Qe0Xm8H,3Dw0Uk2K
 42480,4306 KIRPLASTIC SA ✮✮✮,Ejecución de la orden pendiente,Todo Aprobado, ,,F,MVAQUA180,40,0,22/10/2025,RETIRAN,517431,100.0%,.00,,0Dg5Qb4L,2Me3Fc7D
 42461,5019 GRANJA TRES ARROYOS SACAFEI ✮✮,Ejecución de la orden pendiente,Todo Aprobado, ,,F,CAS-PPAR10072T043,40,0,22/10/2025,EXPRESO CARGO SA,515739,54.2%,596.40,,0Ql9Gi1V,0Ph8Mv3F
@@ -406,8 +407,8 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 42364,9402597 EMMAPEL SA ✮✮✮✮,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Liberada,F,9400152/001,0,360,24/10/2025,EXPRESO LUJAN DEL CUYO SA,509594,5.7%,450.00,,,5Mx5Rs0E
 42321,1029 DREAN SA ,Ejecución de la orden pendiente,Todo Aprobado, ,,F,MTP548B,0,1008,27/10/2025,EXPRESO CARGO SA,507069,36.6%,1925.28,,6Ng7Hp1X,0Sl1Br5D
 42324,1029 DREAN SA ,Ejecución de la orden pendiente,Todo Aprobado, ,,F,PPAR1048T,180,0,27/10/2025,EXPRESO CARGO SA,507072,46.2%,163.80,,6Ng7Hp1X,0Ql9Gi1V
-42456,202 FRIGORIFICO DE AVES SOYCHU SA ✮✮,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Liberada,F,PVC612R,0,288,27/10/2025,EXPRESO CARGO SA,515722,35.7%,288.00,,5Ow8Cg8A,6Ib6Fj6R
-42456,202 FRIGORIFICO DE AVES SOYCHU SA ✮✮,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Liberada,F,PPHR1216B,0,324,27/10/2025,EXPRESO CARGO SA,515722,34.7%,327.24,,5Ow8Cg8A,9Zc0Jy4O
+42456,202 FRIGORIFICO DE AVES SOYCHU SA ✮✮,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Ensamblada,F,PVC612R,288,0,27/10/2025,EXPRESO CARGO SA,515722,35.7%,288.00,,5Ow8Cg8A,6Ib6Fj6R
+42456,202 FRIGORIFICO DE AVES SOYCHU SA ✮✮,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Ensamblada,F,PPHR1216B,324,0,27/10/2025,EXPRESO CARGO SA,515722,34.7%,327.24,,5Ow8Cg8A,9Zc0Jy4O
 42456,202 FRIGORIFICO DE AVES SOYCHU SA ✮✮,Ejecución de la orden pendiente,Todo Aprobado, ,,F,CAS-PPA1048T040,540,0,27/10/2025,EXPRESO CARGO SA,515722,40.2%,340.20,,5Ow8Cg8A,4Bf8Ax7P
 42459,202 FRIGORIFICO DE AVES SOYCHU SA ✮✮,Ejecución de la orden pendiente,Todo Aprobado, ,,F,CAS-PPA1048T040,30,438,27/10/2025,EXPRESO CARGO SA,515731,40.2%,294.84,,5Ow8Cg8A,2Uv7Bb0L
 42440,9400536 MILKAUT SA ✮✮,Ejecución de la orden pendiente,Todo Aprobado, ,,F,PPHR15048XT,0,396,28/10/2025,RICARDO PIERONI,515097,44.9%,8193.24,,8Ny2Or7G,7Qv9Mi1Z
@@ -423,7 +424,7 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 42436,499 NARDI Y HERRERO S R L ✮✮✮✮,Ejecución de la orden pendiente,Todo Aprobado, ,,T,0499/001,0,167,10/11/2025,RICARDO PIERONI,514971,95.5%,434.20,,6Sm5Hs5Z,3Ny6Zw2O
 42462,5019 GRANJA TRES ARROYOS SACAFEI ✮✮,Ejecución de la orden pendiente,Todo Aprobado, ,,F,CAS-PPAR10072T043,40,0,17/11/2025,EXPRESO CARGO SA,515740,54.2%,596.40,,0Ql9Gi1V,4Jl3Vt9D
 42457,202 FRIGORIFICO DE AVES SOYCHU SA ✮✮,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Liberada,F,PVC612R,0,288,24/11/2025,EXPRESO CARGO SA,515727,35.7%,288.00,,5Ow8Cg8A,6Ng7Hp1X
-42457,202 FRIGORIFICO DE AVES SOYCHU SA ✮✮,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Liberada,F,PPHR1216B,0,324,24/11/2025,EXPRESO CARGO SA,515727,34.7%,327.24,,5Ow8Cg8A,5Pj9Xf1N
+42457,202 FRIGORIFICO DE AVES SOYCHU SA ✮✮,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Ensamblada,F,PPHR1216B,324,0,24/11/2025,EXPRESO CARGO SA,515727,34.7%,327.24,,5Ow8Cg8A,5Pj9Xf1N
 42457,202 FRIGORIFICO DE AVES SOYCHU SA ✮✮,Ejecución de la orden pendiente,Todo Aprobado, ,,F,CAS-PPA1048T040,540,0,24/11/2025,EXPRESO CARGO SA,515727,40.2%,340.20,,5Ow8Cg8A,
 42460,202 FRIGORIFICO DE AVES SOYCHU SA ✮✮,Ejecución de la orden pendiente,Todo Aprobado, ,,F,CAS-PPA1048T040,0,468,24/11/2025,EXPRESO CARGO SA,515732,40.2%,294.84,,5Ow8Cg8A,2Uv7Bb0L
 42437,499 NARDI Y HERRERO S R L ✮✮✮✮,Ejecución de la orden pendiente,Todo Aprobado, ,,T,0499/001,0,167,10/12/2025,RICARDO PIERONI,515071,95.5%,434.20,,6Sm5Hs5Z,3Ny6Zw2O
@@ -434,7 +435,7 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 41832,5019 GRANJA TRES ARROYOS SACAFEI ✮✮,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Ensamblada,F,5019/005,60,0,12/12/2025,EXPRESO CARGO SA,475783,35.5%,840.00,,0Ql9Gi1V,2Aa9Oj0E
 39934,67 FORD ARGENTINA S.C.A. ✮✮,Ejecución de la orden pendiente,Todo Aprobado, ,,F,BV002,8660,27040,15/12/2025,ALMAR ROSARIO SRL,346461,57.0%,239904.00,,0Bz8Ix7O,6Cx3Az0M
 42458,202 FRIGORIFICO DE AVES SOYCHU SA ✮✮,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Liberada,F,PVC612R,0,288,29/12/2025,EXPRESO CARGO SA,515728,35.7%,288.00,,5Ow8Cg8A,0Ut2Zv0U
-42458,202 FRIGORIFICO DE AVES SOYCHU SA ✮✮,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Liberada,F,PPHR1216B,0,324,29/12/2025,EXPRESO CARGO SA,515728,34.7%,327.24,,5Ow8Cg8A,0Ut2Zv0U
+42458,202 FRIGORIFICO DE AVES SOYCHU SA ✮✮,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Ensamblada,F,PPHR1216B,324,0,29/12/2025,EXPRESO CARGO SA,515728,34.7%,327.24,,5Ow8Cg8A,0Ut2Zv0U
 42167,1189 SAFER SYSTEMS SOUTH AMERICA S.A. ✮✮,Ejecución de la orden pendiente,Todo Aprobado,Pedido ,Recepción pendiente,T,1189/002,0,250,02/01/2026,TRANSPORTE TOMASSINI,496083,64.8%,3000.00,,0Te3Bc5F,3Hy2Ia2F
 42438,499 NARDI Y HERRERO S R L ✮✮✮✮,Ejecución de la orden pendiente,Todo Aprobado, ,,T,0499/001,0,166,09/01/2026,RICARDO PIERONI,515072,95.5%,431.60,,6Sm5Hs5Z,3Ny6Zw2O
 41099,102 VOLKSWAGEN ARGENTINA S.A. ✮✮,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Liberada,T,0103/001,0,200,,EXPRESO CARGO SA,431539,37.8%,363.243,,7Kh2Zf0E,0Bz8Ix7O
@@ -448,7 +449,6 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 42199,3051 FRIMETAL S.A. ,Parcialmente ejecutada,Todo Aprobado,Pedido ,Parcialmente recibida,T,3051/017,19200,8800,,FELICI JORGE ARIEL,498189,45.7%,535.564,,3Dw0Uk2K,0Bz8Ix7O
 42286,3051 FRIMETAL S.A. ,Ejecución de la orden pendiente,Todo Aprobado, ,,F,MTS548B,0,1008,,FELICI JORGE ARIEL,504997,22.9%,1.947.892,,3Dw0Uk2K,9Ms2Pn8I
 42314,3051 FRIMETAL S.A. ,Ejecución de la orden pendiente,Todo Aprobado, ,,F,MTS548B,0,1008,,FELICI JORGE ARIEL,506964,25.5%,2016.00,,3Dw0Uk2K,8Rn3En3G
-42268,3490 ALTO IMPACTO SRL (VERTIGO) ,Ejecución de la orden pendiente,Todo Aprobado, ,,F,PPAR1048T,432,0,,RICARDO PIERONI,503556,45.6%,388.80,,1Wa0Iu6X,4Ev1Va1N
 42162,3769 GAROFOLI CONSTRUCCIONES SRL ✮✮,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Cerrada,F,PEG2070M,0,1,,RODRIGUEZ HNOS. TRANSP. SA,495930,100.0%,.00,,7Qv9Mi1Z,0Qu5Fi8T
 42162,3769 GAROFOLI CONSTRUCCIONES SRL ✮✮,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Ensamblada,F,PEG5L1570M,1,0,,RODRIGUEZ HNOS. TRANSP. SA,495930,100.0%,.00,,7Qv9Mi1Z,7Rx7Ub2H
 42186,3769 GAROFOLI CONSTRUCCIONES SRL ✮✮,Ejecución de la orden pendiente,Todo Aprobado, ,,F,PPHR15048XT,0,150,,RODRIGUEZ HNOS. TRANSP. SA,497187,40.9%,2925.00,,7Qv9Mi1Z,7Rx7Ub2H
