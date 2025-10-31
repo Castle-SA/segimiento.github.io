@@ -365,7 +365,7 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 42562,132 MAHLE VALVULAS DE ARGENTINA SA ,Facturada,Todo Aprobado,Ejecución de pedido de artículo 24402,Enviado,F,MVAQUA203V,0,0,30/10/2025,EXPRESO SANTA ROSA,523059,46.8%,.00,T,6Ls2Pd3Q,1Bj3Wa5S
 42555,1809 MERCOMAX SA ✮✮,Facturada,Todo Aprobado,Ejecución de pedido de artículo 24399,Enviado,F,PPAR1048T,0,0,30/10/2025,EXPRESO CARGO SA,522668,34.7%,.00,T,5Rr7Ys4Y,2Uv7Bb0L
 42559,3051 FRIMETAL S.A. ,Facturada,Todo Aprobado,Ejecución de pedido de artículo 24404,Enviado,F,0272/003,0,0,30/10/2025,FELICI JORGE ARIEL,523035,34.1%,.00,T,3Dw0Uk2K,9Qb8Fy5U
-42522,3089 ARNEG ARGENTINA S.A. ✮✮,Parcialmente ejecutada,Todo Aprobado,Ejecución de pedido de artículo 24403,Enviado,F,3089/079,0,35000,30/10/2025,FELICI JORGE ARIEL,520978,50.9%,1225.00,T,7Rx7Ub2H,0Un8Nt2U
+42522,3089 ARNEG ARGENTINA S.A. ✮✮,Parcialmente ejecutada,Todo Aprobado,Ejecución de pedido de artículo 24403,Enviado,F,3089/079,0,35000,30/10/2025,FELICI JORGE ARIEL,520978,50.9%,1225.00,T,7Rx7Ub2H,7Rx7Ub2H
 42526,3089 ARNEG ARGENTINA S.A. ✮✮,Parcialmente ejecutada,Todo Aprobado,Ejecución de pedido de artículo 24406,Enviado,F,3089/029,0,0,30/10/2025,RICARDO PIERONI,521170,26.7%,.00,T,7Rx7Ub2H,3Dw0Uk2K
 42526,3089 ARNEG ARGENTINA S.A. ✮✮,Parcialmente ejecutada,Todo Aprobado,Ejecución de pedido de artículo 24406,Enviado,F,3089/035,0,0,30/10/2025,RICARDO PIERONI,521170,80.5%,.00,T,7Rx7Ub2H,3Dw0Uk2K
 42186,3769 GAROFOLI CONSTRUCCIONES SRL ✮✮,Parcialmente ejecutada,Todo Aprobado,Ejecución de pedido de artículo 24400,Enviado,F,PPHR15048XT,0,96,30/10/2025,RODRIGUEZ HNOS. TRANSP. SA,497187,40.9%,1872.00,T,7Qv9Mi1Z,0Jn1Mv5H
@@ -381,7 +381,7 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 42570,9403199 PANAMERICAN CARGO S.A. ✮✮✮✮,Facturada,Todo Aprobado,Ejecución de pedido de artículo 24405,Enviado,F,BV001,0,0,30/10/2025,EXPRESO CARGO SA,523647,73.6%,.00,T,,6Qa0Ib0C
 42556,1809 MERCOMAX SA ✮✮,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo,,F,CAS-PPAR1072T043,0,1440,31/10/2025,EXPRESO CARGO SA,522853,35.7%,1627.20,,5Rr7Ys4Y,8Ky5Hq9D
 42526,3089 ARNEG ARGENTINA S.A. ✮✮,Parcialmente ejecutada,Todo Aprobado,Orden de trabajo,Liberada,F,CAS-PPAR1072T043,0,200,31/10/2025,RICARDO PIERONI,521170,42.8%,254.00,,7Rx7Ub2H,3Dw0Uk2K
-42563,3089 ARNEG ARGENTINA S.A. ✮✮,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Liberada,F,PVC672B,0,96,31/10/2025,RICARDO PIERONI,523159,60.1%,725.76,,7Rx7Ub2H,7Rx7Ub2H
+42563,3089 ARNEG ARGENTINA S.A. ✮✮,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Ensamblada,F,PVC672B,96,0,31/10/2025,RICARDO PIERONI,523159,60.1%,725.76,,7Rx7Ub2H,7Rx7Ub2H
 42558,4491 RGB LIGHTING SYSTEMS SA ,Facturación pendiente,Todo Aprobado,Ejecución de pedido de artículo 24408,Enviado,F,04965-00008-00,0,0,31/10/2025,EXPRESO CARGO SA,522869,47.0%,.00,F,6Jq8Na4R,3Ny6Zw2O
 42566,9400023 AVERY DENNISON DE ARGENTINA SRL ,Facturación pendiente,Todo Aprobado,Ejecución de pedido de artículo 24409,Enviado,F,PVC636R,0,0,31/10/2025,EXPRESO LUJAN DEL CUYO SA,523270,65.7%,.00,F,6Zc8Io1K,2Jl6Ja1C
 42566,9400023 AVERY DENNISON DE ARGENTINA SRL ,Facturación pendiente,Todo Aprobado,Ejecución de pedido de artículo 24409,Enviado,F,PVC624R,0,0,31/10/2025,EXPRESO LUJAN DEL CUYO SA,523270,65.6%,.00,F,6Zc8Io1K,3Dw0Uk2K
@@ -448,7 +448,7 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 42314,3051 FRIMETAL S.A. ,Ejecución de la orden pendiente,Todo Aprobado, ,,F,MTS548B,0,1008,,FELICI JORGE ARIEL,506964,25.5%,2016.00,,3Dw0Uk2K,1Wa0Iu6X
 42517,3051 FRIMETAL S.A. ,Parcialmente ejecutada,Todo Aprobado,Orden de trabajo ,Liberada,F,0272/003,0,160,,FELICI JORGE ARIEL,520557,31.0%,13.425.848,,3Dw0Uk2K,9Qb8Fy5U
 42522,3089 ARNEG ARGENTINA S.A. ✮✮,Parcialmente ejecutada,Todo Aprobado,Orden de trabajo ,Liberada,F,3089/078,0,50000,,FELICI JORGE ARIEL,520978,51.4%,1450.00,,7Rx7Ub2H,7Rx7Ub2H
-42522,3089 ARNEG ARGENTINA S.A. ✮✮,Parcialmente ejecutada,Todo Aprobado,Orden de trabajo ,En curso,F,3089/079,0,35000,,FELICI JORGE ARIEL,520978,50.9%,1225.00,,7Rx7Ub2H,7Rx7Ub2H
+42522,3089 ARNEG ARGENTINA S.A. ✮✮,Parcialmente ejecutada,Todo Aprobado,Orden de trabajo ,En curso,F,3089/079,0,35000,,FELICI JORGE ARIEL,520978,50.9%,1225.00,,7Rx7Ub2H,0Un8Nt2U
 42525,3089 ARNEG ARGENTINA S.A. ✮✮,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Liberada,T,3089/080,0,50000,,RICARDO PIERONI,521167,51.6%,2095.00,,7Rx7Ub2H,3Dw0Uk2K
 42542,3089 ARNEG ARGENTINA S.A. ✮✮,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Liberada,T,3089/078,0,50000,,RICARDO PIERONI,521991,51.4%,1450.00,,7Rx7Ub2H,8Sb1On8S
 42542,3089 ARNEG ARGENTINA S.A. ✮✮,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Liberada,T,3089/079,0,25000,,RICARDO PIERONI,521991,51.4%,885.00,,7Rx7Ub2H,2Ck7El7W
