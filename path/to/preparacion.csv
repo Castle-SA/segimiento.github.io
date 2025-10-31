@@ -7,7 +7,7 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 41874,9400115 BEST COLD SRL ✮✮,Parcialmente ejecutada,Todo Aprobado,Factura de venta 38344,Pagado por completo,F,MTP548B,0,756,17/09/2025,FELICI JORGE ARIEL,476698,34.6%,1398.60,,8Xq9Re2A,3Dw0Uk2K
 42281,4655 DELPACK SRL ✮✮,Parcialmente ejecutada,Todo Aprobado,Factura de venta 38357,Pagado por completo,F,CAS-PPAR10048T047,0,96,18/09/2025,TRANSPORTE TOMASSINI,504857,46.7%,857.28,,9Em3Po7X,2Aa9Oj0E
 42353,9403199 PANAMERICAN CARGO S.A. ✮✮✮✮,Parcialmente ejecutada,Todo Aprobado,Factura de venta 38418,Pagado por completo,F,LC579,0,2400,25/09/2025,EXPRESO CARGO SA,508956,62.8%,1032.00,,,4Is2Rn8E
-42337,132 MAHLE VALVULAS DE ARGENTINA SA ,Parcialmente ejecutada,Todo Aprobado,Factura de venta 38436,Abierta,F,LC579,0,4800,30/09/2025,EXPRESO SANTA ROSA,507779,46.2%,1516.80,,6Ls2Pd3Q,5Ow8Cg8A
+42337,132 MAHLE VALVULAS DE ARGENTINA SA ,Parcialmente ejecutada,Todo Aprobado,Factura de venta 38436,Pagado por completo,F,LC579,0,4800,30/09/2025,EXPRESO SANTA ROSA,507779,46.2%,1516.80,,6Ls2Pd3Q,5Ow8Cg8A
 42384,1188 DENSO MANUFACTURING ARGENTINA SA ✮✮,Facturada,Todo Aprobado,Ejecución de pedido de artículo 24149,Enviado,F,04169-00057-93,0,0,02/10/2025,EXPRESO CARGO SA,511021,47.9%,.00,T,2Me3Fc7D,3Hy2Ia2F
 42375,12662 PRINTEMPS S.R.L. ✮✮,Facturada,Todo Aprobado,Ejecución de pedido de artículo 24148,Enviado,F,04965-00176-00,0,0,02/10/2025,RICARDO PIERONI,510496,47.5%,.00,T,2Sp0Fe1F,1Bj3Wa5S
 42296,12877 BRIKET SA ✮✮,Facturada,Todo Aprobado,Ejecución de pedido de artículo 24147,Enviado,F,0272/004,0,0,02/10/2025,FELICI JORGE ARIEL,505492,34.8%,.00,T,6Rp2Ce7I,5Ow8Cg8A
@@ -134,7 +134,7 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 42282,9400603 E.A.C.E. Y E. BURBUJAS S.A. ,Facturada,Todo Aprobado,Ejecución de pedido de artículo 24230,Enviado,F,CAS-PPAR10072T043,0,0,14/10/2025,EXPRESO CARGO SA,504871,0.0%,.00,T,0Li1Kj8Q,7Qv9Mi1Z
 42282,9400603 E.A.C.E. Y E. BURBUJAS S.A. ,Facturada,Todo Aprobado,Ejecución de pedido de artículo 24230,Enviado,F,PPAR15048T,0,0,14/10/2025,EXPRESO CARGO SA,504871,100.0%,.00,T,0Li1Kj8Q,7Va0Bu1J
 42282,9400603 E.A.C.E. Y E. BURBUJAS S.A. ,Facturada,Todo Aprobado,Ejecución de pedido de artículo 24230,Enviado,F,CAS-PPAR1048T043,0,0,14/10/2025,EXPRESO CARGO SA,504871,100.0%,.00,T,0Li1Kj8Q,5Dr6Pr8I
-42448,9400716 RAFAELA ALIMENTOS SA ,Parcialmente ejecutada,Todo Aprobado,Orden de trabajo,Abierta,F,CAS-PPA15048T047,0,168,14/10/2025,EXPRESO SANTA ROSA,515488,59.2%,1849.68,,8Ej8At4Q,2Vf5Jo3E
+42448,9400716 RAFAELA ALIMENTOS SA ,Parcialmente ejecutada,Todo Aprobado,Orden de trabajo,Abierta,F,CAS-PPA15048T047,0,168,14/10/2025,EXPRESO SANTA ROSA,515488,59.2%,1849.68,,8Ej8At4Q,5Dr6Pr8I
 42448,9400716 RAFAELA ALIMENTOS SA ,Parcialmente ejecutada,Todo Aprobado,Ejecución de pedido de artículo 24229,Enviado,F,PPAR15048T,0,0,14/10/2025,EXPRESO SANTA ROSA,515488,30.3%,.00,T,8Ej8At4Q,2Vf5Jo3E
 42073,9400868 SINTARYC S A I C ✮✮,Facturada,Todo Aprobado,Ejecución de pedido de artículo 24234,Enviado,F,CAS-PPHR10048XT045,0,0,14/10/2025,EXPRESO CARGO SA,489042,23.3%,.00,T,9Gs4Xo3J,6Ls2Pd3Q
 42416,94010 VISUAR SA ✮✮,Facturada,Todo Aprobado,Ejecución de pedido de artículo 24231,Enviado,F,CAS-PPAR10048T047,0,0,14/10/2025,EXPRESO CARGO SA,512925,44.0%,.00,T,4Gf8Oa0H,3Nb5Vf8A
@@ -179,7 +179,7 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 42311,690 CEVA DE ARGENTINA SRL ,Facturada,Todo Aprobado,Ejecución de pedido de artículo 24271,Enviado,F,2025/001,0,0,17/10/2025,FELICI JORGE ARIEL,506811,59.9%,.00,T,3Pt0Oq8I,6Fx1Id6N
 42401,86 EST GRAFICO IMPRESORES SA ✮✮,Facturada,Todo Aprobado,Ejecución de pedido de artículo 24265,Enviado,F,PPAR1048T,0,0,17/10/2025,EXPRESO CARGO SA,512241,40.2%,.00,T,9Xw3Zi2V,9Or7Px4G
 42401,86 EST GRAFICO IMPRESORES SA ✮✮,Facturada,Todo Aprobado,Ejecución de pedido de artículo 24265,Enviado,F,H11/48,0,0,17/10/2025,EXPRESO CARGO SA,512241,54.4%,.00,T,9Xw3Zi2V,8Cf1Ra3G
-42448,9400716 RAFAELA ALIMENTOS SA ,Parcialmente ejecutada,Todo Aprobado,Orden de trabajo,Abierta,F,CAS-PPA15048T047,0,168,17/10/2025,EXPRESO SANTA ROSA,515488,59.2%,1849.68,,8Ej8At4Q,5Dr6Pr8I
+42448,9400716 RAFAELA ALIMENTOS SA ,Parcialmente ejecutada,Todo Aprobado,Orden de trabajo,Abierta,F,CAS-PPA15048T047,0,168,17/10/2025,EXPRESO SANTA ROSA,515488,59.2%,1849.68,,8Ej8At4Q,2Vf5Jo3E
 42448,9400716 RAFAELA ALIMENTOS SA ,Parcialmente ejecutada,Todo Aprobado,Ejecución de pedido de artículo 24264,Enviado,F,PPAR1048T,0,0,17/10/2025,EXPRESO SANTA ROSA,515488,36.4%,.00,T,8Ej8At4Q,2Vf5Jo3E
 42146,9401929 PETROPACK S.A. ✮✮,Facturada,Todo Aprobado,Ejecución de pedido de artículo 24261,Enviado,F,PPAR524T,0,0,17/10/2025,TRANSPORTE MOSTTO,494777,99.9%,.00,T,8Ou2Yz9L,1Mp3Zb8B
 42465,9402017 NUNZIO SRL ✮✮,Facturada,Todo Aprobado,Ejecución de pedido de artículo 24266,Enviado,F,PPAR1048T,0,0,17/10/2025,RICARDO PIERONI,516108,57.4%,.00,T,3Ww3Di0Q,8Ou2Yz9L
@@ -280,7 +280,7 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 42444,9403199 PANAMERICAN CARGO S.A. ✮✮✮✮,Parcialmente ejecutada,Todo Aprobado,Factura de venta 38630,Pagado por completo,F,LC579,0,12000,23/10/2025,EXPRESO CARGO SA,515326,60.5%,5160.00,,,7Qv9Mi1Z
 42444,9403199 PANAMERICAN CARGO S.A. ✮✮✮✮,Parcialmente ejecutada,Todo Aprobado,Ejecución de pedido de artículo 24327,Enviado,F,PER2633V,0,0,23/10/2025,EXPRESO CARGO SA,515326,99.3%,.00,T,,
 42452,9403199 PANAMERICAN CARGO S.A. ✮✮✮✮,Parcialmente ejecutada,Todo Aprobado,Ejecución de pedido de artículo 24328,Enviado,F,PER2633V,0,0,23/10/2025,EXPRESO CARGO SA,515627,99.3%,-690.00,T,,8Cf1Ra3G
-42452,9403199 PANAMERICAN CARGO S.A. ✮✮✮✮,Parcialmente ejecutada,Todo Aprobado,Factura de venta 38633,Abierta,F,PER3040U,0,1750,23/10/2025,EXPRESO CARGO SA,515627,64.9%,3062.50,,,7Un2Ij7V
+42452,9403199 PANAMERICAN CARGO S.A. ✮✮✮✮,Parcialmente ejecutada,Todo Aprobado,Factura de venta 38633,Abierta,F,PER3040U,0,1750,23/10/2025,EXPRESO CARGO SA,515627,64.9%,3062.50,,,3Dw0Uk2K
 42498,12662 PRINTEMPS S.R.L. ✮✮,Facturada,Todo Aprobado,Ejecución de pedido de artículo 24342,Enviado,F,64621-00003-00,0,0,24/10/2025,RICARDO PIERONI,518853,61.1%,.00,T,2Sp0Fe1F,0Io3Fg7R
 42498,12662 PRINTEMPS S.R.L. ✮✮,Facturada,Todo Aprobado,Ejecución de pedido de artículo 24342,Enviado,F,04965-00176-00,0,0,24/10/2025,RICARDO PIERONI,518853,48.2%,.00,T,2Sp0Fe1F,2Jk3Fr6K
 42498,12662 PRINTEMPS S.R.L. ✮✮,Facturada,Todo Aprobado,Ejecución de pedido de artículo 24342,Enviado,F,2662/004,0,0,24/10/2025,RICARDO PIERONI,518853,46.2%,.00,T,2Sp0Fe1F,4Is2Rn8E
@@ -355,7 +355,7 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 42444,9403199 PANAMERICAN CARGO S.A. ✮✮✮✮,Parcialmente ejecutada,Todo Aprobado,Factura de venta 38686,Pagado por completo,F,LC579,0,12000,29/10/2025,EXPRESO CARGO SA,515326,60.5%,5160.00,,,7Qv9Mi1Z
 42444,9403199 PANAMERICAN CARGO S.A. ✮✮✮✮,Parcialmente ejecutada,Todo Aprobado,Ejecución de pedido de artículo 24387,Enviado,F,PER3040U,0,0,29/10/2025,EXPRESO CARGO SA,515326,64.9%,-175.00,T,,
 42452,9403199 PANAMERICAN CARGO S.A. ✮✮✮✮,Parcialmente ejecutada,Todo Aprobado,Ejecución de pedido de artículo 24388,Enviado,F,PER2633V,0,0,29/10/2025,EXPRESO CARGO SA,515627,99.3%,-690.00,T,,3Dw0Uk2K
-42452,9403199 PANAMERICAN CARGO S.A. ✮✮✮✮,Parcialmente ejecutada,Todo Aprobado,Factura de venta 38687,Pagado por completo,F,PER3040U,0,1750,29/10/2025,EXPRESO CARGO SA,515627,64.9%,3062.50,,,3Dw0Uk2K
+42452,9403199 PANAMERICAN CARGO S.A. ✮✮✮✮,Parcialmente ejecutada,Todo Aprobado,Factura de venta 38687,Pagado por completo,F,PER3040U,0,1750,29/10/2025,EXPRESO CARGO SA,515627,64.9%,3062.50,,,7Un2Ij7V
 42452,9403199 PANAMERICAN CARGO S.A. ✮✮✮✮,Parcialmente ejecutada,Todo Aprobado,Ejecución de pedido de artículo 24388,Enviado,F,PER3040U,0,1750,29/10/2025,EXPRESO CARGO SA,515627,64.9%,3062.50,T,,7Un2Ij7V
 42565,1099 ROBERTO CALZAVARA SRL ✮✮,Facturada,Todo Aprobado,Ejecución de pedido de artículo 24392,Enviado,F,55533-00001-11,0,0,30/10/2025,RICARDO PIERONI,523169,45.1%,.00,T,9Ir4Dd6D,7Ei3Zh4Q
 42505,12849 FERRERO ARGENTINA SA ,Parcialmente ejecutada,Todo Aprobado,Ejecución de pedido de artículo 24398,Enviado,F,CAS-PPAR1072T043,0,24,30/10/2025,EXPRESO CARGO SA,519234,40.9%,29.52,T,5Oy9Im9F,7Rx7Ub2H
@@ -408,7 +408,7 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 42500,9402336 INDUSTRIAS ALIMENTARIAS DEL SUD S.A. ,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Liberada,F,2336/003,0,14,04/11/2025,EXPRESO CARGO SA,518870,18.9%,196.00,,,7Rx7Ub2H
 42500,9402336 INDUSTRIAS ALIMENTARIAS DEL SUD S.A. ,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Liberada,F,2336/004,0,14,04/11/2025,EXPRESO CARGO SA,518870,18.9%,196.00,,,7Rx7Ub2H
 42500,9402336 INDUSTRIAS ALIMENTARIAS DEL SUD S.A. ,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Ensamblada,F,2336/005,40,0,04/11/2025,EXPRESO CARGO SA,518870,18.9%,560.00,,,7Rx7Ub2H
-42500,9402336 INDUSTRIAS ALIMENTARIAS DEL SUD S.A. ,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Liberada,F,2336/006,0,40,04/11/2025,EXPRESO CARGO SA,518870,18.9%,560.00,,,0Te3Bc5F
+42500,9402336 INDUSTRIAS ALIMENTARIAS DEL SUD S.A. ,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Ensamblada,F,2336/006,40,0,04/11/2025,EXPRESO CARGO SA,518870,18.9%,560.00,,,0Te3Bc5F
 42500,9402336 INDUSTRIAS ALIMENTARIAS DEL SUD S.A. ,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Liberada,F,2336/007,0,14,04/11/2025,EXPRESO CARGO SA,518870,18.9%,196.00,,,0Te3Bc5F
 42500,9402336 INDUSTRIAS ALIMENTARIAS DEL SUD S.A. ,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Liberada,F,2336/008,0,14,04/11/2025,EXPRESO CARGO SA,518870,18.9%,196.00,,,9Tj7Li2O
 42500,9402336 INDUSTRIAS ALIMENTARIAS DEL SUD S.A. ,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Liberada,F,2336/009,0,14,04/11/2025,EXPRESO CARGO SA,518870,18.9%,196.00,,,1Tu2Pr5C
@@ -416,7 +416,7 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 42531,3598 DEL VALLE EMBALAJES SRL ✮✮,Ejecución de la orden pendiente,Todo Aprobado, ,,F,PPAR15096T,60,0,10/11/2025,RICARDO PIERONI,521366,56.7%,1650.00,,0Ph8Mv3F,5Rr7Ys4Y
 42436,499 NARDI Y HERRERO S R L ✮✮✮✮,Ejecución de la orden pendiente,Todo Aprobado, ,,T,0499/001,0,167,10/11/2025,RICARDO PIERONI,514971,95.5%,434.20,,6Sm5Hs5Z,2Nw2Uj9H
 42462,5019 GRANJA TRES ARROYOS SACAFEI ✮✮,Ejecución de la orden pendiente,Todo Aprobado, ,,F,CAS-PPAR10072T043,40,0,17/11/2025,EXPRESO CARGO SA,515740,54.2%,596.40,,0Ql9Gi1V,9Ry7Wa5R
-42569,9400774 CORREO OFICIAL DE LA REPUBLICA ARGENTINA SA ,Ejecución de la orden pendiente,Todo Aprobado, ,,F,9400774/001,0,1512,17/11/2025,EXPRESO CARGO SA,523519,41.6%,1330.56,,8Iv9Nk5M,1Hy0Vd3I
+42569,9400774 CORREO OFICIAL DE LA REPUBLICA ARGENTINA SA ,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Liberada,F,9400774/001,0,1512,17/11/2025,EXPRESO CARGO SA,523519,41.6%,1330.56,,8Iv9Nk5M,1Hy0Vd3I
 42457,202 FRIGORIFICO DE AVES SOYCHU SA ✮✮,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Ensamblada,F,PVC612R,288,0,24/11/2025,EXPRESO CARGO SA,515727,35.7%,288.00,,5Ow8Cg8A,5Mx5Rs0E
 42457,202 FRIGORIFICO DE AVES SOYCHU SA ✮✮,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Ensamblada,F,PPHR1216B,324,0,24/11/2025,EXPRESO CARGO SA,515727,34.7%,327.24,,5Ow8Cg8A,5Mx5Rs0E
 42457,202 FRIGORIFICO DE AVES SOYCHU SA ✮✮,Ejecución de la orden pendiente,Todo Aprobado, ,,F,CAS-PPA1048T040,540,0,24/11/2025,EXPRESO CARGO SA,515727,40.2%,340.20,,5Ow8Cg8A,5Mx5Rs0E
