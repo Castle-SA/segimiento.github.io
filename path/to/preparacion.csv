@@ -3,7 +3,7 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 42066,3598 DEL VALLE EMBALAJES SRL ✮✮,Parcialmente ejecutada,Todo Aprobado,Factura de venta 38103,Pagado por completo,F,PPAR1024T,0,720,19/08/2025,RICARDO PIERONI,488353,41.7%,345.60,,0Ph8Mv3F,5Xf2Ag4D
 42066,3598 DEL VALLE EMBALAJES SRL ✮✮,Parcialmente ejecutada,Todo Aprobado,Factura de venta 38112,Pagado por completo,F,PPAR1024T,0,720,20/08/2025,RICARDO PIERONI,488353,41.7%,345.60,,0Ph8Mv3F,
 41874,9400115 BEST COLD SRL ✮✮,Parcialmente ejecutada,Todo Aprobado,Factura de venta 38344,Pagado por completo,F,MTP548B,0,756,17/09/2025,FELICI JORGE ARIEL,476698,34.6%,1398.60,,8Xq9Re2A,9Aq0Ft5G
-42281,4655 DELPACK SRL ✮✮,Parcialmente ejecutada,Todo Aprobado,Factura de venta 38357,Pagado por completo,F,CAS-PPAR10048T047,0,1,18/09/2025,TRANSPORTE TOMASSINI,504857,46.7%,8.93,,9Em3Po7X,0Bz8Ix7O
+42281,4655 DELPACK SRL ✮✮,Parcialmente ejecutada,Todo Aprobado,Factura de venta 38357,Pagado por completo,F,CAS-PPAR10048T047,0,1,18/09/2025,TRANSPORTE TOMASSINI,504857,46.7%,8.93,,9Em3Po7X,
 42281,4655 DELPACK SRL ✮✮,Parcialmente ejecutada,Todo Aprobado,Factura de venta 38479,Pagado por completo,F,CAS-PPAR10048T047,0,1,07/10/2025,TRANSPORTE TOMASSINI,504857,46.7%,8.93,,9Em3Po7X,9Ry7Wa5R
 42430,12787 FLEXCOLOR SRL ✮✮,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 24201,Remitido,F,MTS518B,0,0,09/10/2025,EXPRESO BRIO SRL,514201,39.0%,147.84,T,3Jc0Cw5E,4Gf8Oa0H
 42430,12787 FLEXCOLOR SRL ✮✮,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 24201,Remitido,F,PPA1548TE,0,0,09/10/2025,EXPRESO BRIO SRL,514201,39.8%,487.08,T,3Jc0Cw5E,4Gf8Oa0H
@@ -50,7 +50,7 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 42277,3490 ALTO IMPACTO SRL (VERTIGO) ,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 24218,Remitido,F,3490/001,0,0,14/10/2025,RICARDO PIERONI,504484,43.4%,432.00,T,1Wa0Iu6X,5Xf2Ag4D
 42339,3598 DEL VALLE EMBALAJES SRL ✮✮,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 24222,Remitido,F,CAS-MTS548B,0,0,14/10/2025,RICARDO PIERONI,507911,20.0%,1396.80,T,0Ph8Mv3F,9Lx6Mu2V
 42187,3769 GAROFOLI CONSTRUCCIONES SRL ✮✮,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 24224,Remitido,F,MTS548B,0,0,14/10/2025,RODRIGUEZ HNOS. TRANSP. SA,497188,36.5%,144.00,T,7Qv9Mi1Z,7Rx7Ub2H
-42281,4655 DELPACK SRL ✮✮,Parcialmente ejecutada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 24232,Remitido,F,CAS-PPAR10048T047,0,1,14/10/2025,TRANSPORTE TOMASSINI,504857,46.7%,1071.60,T,9Em3Po7X,
+42281,4655 DELPACK SRL ✮✮,Parcialmente ejecutada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 24232,Remitido,F,CAS-PPAR10048T047,0,1,14/10/2025,TRANSPORTE TOMASSINI,504857,46.7%,1071.60,T,9Em3Po7X,9Ry7Wa5R
 42281,4655 DELPACK SRL ✮✮,Parcialmente ejecutada,Todo Aprobado,Factura de venta 38534,Pagado por completo,F,CAS-PPAR10048T047,0,1,14/10/2025,TRANSPORTE TOMASSINI,504857,46.7%,8.93,,9Em3Po7X,0Bz8Ix7O
 42389,4872 PAMPA GLOBAL TRADE S.A ,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 24219,Remitido,F,PPAR15048T,0,0,14/10/2025,RICARDO PIERONI,511390,49.7%,3300.00,T,4Rs4Vh2H,5Nn8Fo2O
 42439,569 CONAM SRL ✮✮,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 24240,Remitido,F,MTS572B,0,0,14/10/2025,EXPRESO CARGO SA,515096,18.5%,1080.00,T,5Ko0Ey7A,8Cf1Ra3G
@@ -142,8 +142,8 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 42344,3089 ARNEG ARGENTINA S.A. ✮✮,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 24303,Remitido,F,3089/041,0,0,21/10/2025,RICARDO PIERONI,508492,98.6%,742.00,T,7Rx7Ub2H,
 42344,3089 ARNEG ARGENTINA S.A. ✮✮,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 24303,Remitido,F,3089/040,0,0,21/10/2025,RICARDO PIERONI,508492,96.8%,5846.00,T,7Rx7Ub2H,4Ev1Va1N
 42344,3089 ARNEG ARGENTINA S.A. ✮✮,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 24303,Remitido,F,3089/067,0,0,21/10/2025,RICARDO PIERONI,508492,99.1%,1660.00,T,7Rx7Ub2H,2Au6Re6F
-42281,4655 DELPACK SRL ✮✮,Parcialmente ejecutada,Todo Aprobado,Orden de trabajo,Abierta,F,CAS-PPAR10048T047,0,1,21/10/2025,TRANSPORTE TOMASSINI,504857,46.7%,8.93,,9Em3Po7X,9Ry7Wa5R
-42281,4655 DELPACK SRL ✮✮,Parcialmente ejecutada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 24296,Remitido,F,CAS-PPAR10048T047,0,1,21/10/2025,TRANSPORTE TOMASSINI,504857,46.7%,160.74,T,9Em3Po7X,0Io3Fg7R
+42281,4655 DELPACK SRL ✮✮,Parcialmente ejecutada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 24296,Remitido,F,CAS-PPAR10048T047,0,1,21/10/2025,TRANSPORTE TOMASSINI,504857,46.7%,160.74,T,9Em3Po7X,1Bj3Wa5S
+42281,4655 DELPACK SRL ✮✮,Parcialmente ejecutada,Todo Aprobado,Orden de trabajo,Abierta,F,CAS-PPAR10048T047,0,1,21/10/2025,TRANSPORTE TOMASSINI,504857,46.7%,8.93,,9Em3Po7X,
 42478,56 CIRUBON S.A. ✮✮,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 24305,Remitido,F,BV002,0,0,21/10/2025,RETIRAN,517064,65.2%,2457.00,T,0Wm2Xw7K,1Fr4Ch9I
 42478,56 CIRUBON S.A. ✮✮,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 24305,Remitido,F,6158/001,0,0,21/10/2025,RETIRAN,517064,62.7%,376.00,T,0Wm2Xw7K,9Or7Px4G
 42501,6631 PILKINGTON AUTOMOTIVE ARGENTINA SA ✮✮,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 24298,Remitido,F,PPAR1048T,0,0,21/10/2025,EXPRESO CARGO SA,518871,38.8%,1296.00,T,8Gy5Vz0B,7Su4Me5K
@@ -327,7 +327,7 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 42525,3089 ARNEG ARGENTINA S.A. ✮✮,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 24435,Remitido,T,3089/080,0,0,04/11/2025,RICARDO PIERONI,521167,51.6%,2136.90,T,7Rx7Ub2H,2Ck7El7W
 42542,3089 ARNEG ARGENTINA S.A. ✮✮,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 24436,Remitido,T,3089/078,0,0,04/11/2025,RICARDO PIERONI,521991,51.4%,1334.00,T,7Rx7Ub2H,7Rx7Ub2H
 42542,3089 ARNEG ARGENTINA S.A. ✮✮,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 24436,Remitido,T,3089/078,0,0,04/11/2025,RICARDO PIERONI,521991,51.4%,14.50,T,7Rx7Ub2H,7Rx7Ub2H
-42281,4655 DELPACK SRL ✮✮,Parcialmente ejecutada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 24430,Remitido,F,CAS-PPAR10048T047,0,1,04/11/2025,TRANSPORTE TOMASSINI,504857,46.7%,535.80,T,9Em3Po7X,
+42281,4655 DELPACK SRL ✮✮,Parcialmente ejecutada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 24430,Remitido,F,CAS-PPAR10048T047,0,1,04/11/2025,TRANSPORTE TOMASSINI,504857,46.7%,535.80,T,9Em3Po7X,0Io3Fg7R
 42580,769 PROSEIND SA ✮✮,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 24434,Remitido,F,64958-00004-00,0,0,04/11/2025,RICARDO PIERONI,524440,32.2%,684.00,T,7Ii4Et8I,7Va0Bu1J
 42513,814 OBLAK HNOS SACIFI ✮✮,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 24431,Remitido,F,07063-00001-24,0,0,04/11/2025,EXPRESO CARGO SA,519835,29.3%,1630.00,T,1Hy0Vd3I,5Dr6Pr8I
 42579,86 EST GRAFICO IMPRESORES SA ✮✮,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 24433,Remitido,F,PPAR1048T,0,0,04/11/2025,EXPRESO CARGO SA,524338,40.2%,826.56,T,9Xw3Zi2V,2Vf5Jo3E
@@ -375,7 +375,7 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 42620,105 SCANIA ARGENTINA SAU ✮✮,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 24462,Remitido,F,LC579,0,0,07/11/2025,LA SEVILLANITA SRL,526313,80.6%,3720.00,T,2Yb2Zq5E,0Ql9Gi1V
 42613,4095 REFINERIA DEL CENTRO SA ✮✮,Ejecución de la orden pendiente,Todo Aprobado, ,,F,MUESTRA ESPECIAL,5,0,07/11/2025,EXPRESO SANTA ROSA,525783,0.0%,.00,,1Bj3Wa5S,3Ny6Zw2O
 42626,4329 COMPANIA ELABORADORA DE PASTAS SA ✮✮,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 24463,Remitido,F,CAS-PPAR10048T047,0,0,07/11/2025,RETIRAN,526549,62.6%,159.12,T,0Un8Nt2U,3Qo4Fx7M
-42281,4655 DELPACK SRL ✮✮,Parcialmente ejecutada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 24464,Remitido,F,CAS-PPAR10048T047,0,1,07/11/2025,TRANSPORTE TOMASSINI,504857,46.7%,312.55,T,9Em3Po7X,1Bj3Wa5S
+42281,4655 DELPACK SRL ✮✮,Parcialmente ejecutada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 24464,Remitido,F,CAS-PPAR10048T047,0,1,07/11/2025,TRANSPORTE TOMASSINI,504857,46.7%,312.55,T,9Em3Po7X,0Bz8Ix7O
 42281,4655 DELPACK SRL ✮✮,Parcialmente ejecutada,Todo Aprobado,Orden de trabajo,Abierta,F,CAS-PPAR10048T047,0,1,07/11/2025,TRANSPORTE TOMASSINI,504857,46.7%,8.93,,9Em3Po7X,2Uj4Kr4Y
 42618,9400048 DFQ CORRUGADOS SAS ✮✮✮✮,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 24465,Remitido,F,PPAR1048T,0,0,07/11/2025,RICARDO PIERONI,526109,33.8%,532.80,T,6Vy4Xi2I,6Ls2Pd3Q
 42614,9402349 FRONTERA LIVING SA ✮✮,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 24466,Remitido,F,PPAR1048T,0,0,07/11/2025,EXPRESO LUJAN DEL CUYO SA,525682,40.2%,590.40,T,,7Qv9Mi1Z
