@@ -277,8 +277,8 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 42646,9401460 INDUBOL SA ✮✮,Ejecución de la orden pendiente,Todo Aprobado, ,,F,MUESTRA ESPECIAL,1,0,11/11/2025,BARRY LATIMER,527824,100.0%,.00,,1Qd9By7M,
 42639,9402660 HORSE ARGENTINA SA ,Facturada,Todo Aprobado,Ejecución de pedido de artículo 24493,Enviado,F,V20,0,0,11/11/2025,EXPRESO CARGO SA,527444,60.7%,.00,T,,
 42441,9403251 PRODUCTOS BARILOCHE S. A. ,Facturada,Todo Aprobado,Ejecución de pedido de artículo 24489,Enviado,F,5094/001,0,0,11/11/2025,EXPRESO SANTA ROSA,515211,60.4%,.00,T,,
-42115,1029 DREAN SA ,Parcialmente ejecutada,Todo Aprobado,Ejecución de pedido de artículo 24500,Enviado,F,CAS-MTS548B,0,36,12/11/2025,EXPRESO CARGO SA,492597,19.1%,68.76,T,6Ng7Hp1X,5Pl6Eg8H
-42115,1029 DREAN SA ,Parcialmente ejecutada,Todo Aprobado,Orden de trabajo,Abierta,F,CAS-MTS548B,0,36,12/11/2025,EXPRESO CARGO SA,492597,19.1%,68.76,,6Ng7Hp1X,2Df5Fp8J
+42115,1029 DREAN SA ,Parcialmente ejecutada,Todo Aprobado,Orden de trabajo,Abierta,F,CAS-MTS548B,0,36,12/11/2025,EXPRESO CARGO SA,492597,19.1%,68.76,,6Ng7Hp1X,5Pl6Eg8H
+42115,1029 DREAN SA ,Parcialmente ejecutada,Todo Aprobado,Ejecución de pedido de artículo 24500,Enviado,F,CAS-MTS548B,0,36,12/11/2025,EXPRESO CARGO SA,492597,19.1%,68.76,T,6Ng7Hp1X,2Df5Fp8J
 42683,12794 ACEROLATINA SA ✮✮,Ejecución de la orden pendiente,Todo Aprobado, ,,F,MUESTRA ESPECIAL,1,0,12/11/2025,EXPRESO CARGO SA,529664,100.0%,.00,,7Ir5If6T,5Ow8Cg8A
 42684,12794 ACEROLATINA SA ✮✮,Ejecución de la orden pendiente,Todo Aprobado, ,,F,MUESTRA ESPECIAL,1,0,12/11/2025,EXPRESO CARGO SA,529665,100.0%,.00,,7Ir5If6T,5Ow8Cg8A
 42680,1343 NEWSAN SA ✮✮,Facturada,Todo Aprobado,Ejecución de pedido de artículo 24498,Enviado,F,PPAR1048T,0,0,12/11/2025,EXPRESO CARGO SA,529454,36.4%,.00,T,1Xr6So1J,3Dw0Uk2K
@@ -355,12 +355,12 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 42692,1343 NEWSAN SA ✮✮,Parcialmente ejecutada,Todo Aprobado,Ejecución de pedido de artículo 24542,Enviado,F,CAS-PPAR10072T047,0,0,18/11/2025,RETIRAN,529813,100.0%,.00,T,1Xr6So1J,3Dw0Uk2K
 42755,18293 DULCOR SA ✮✮,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo,,F,CAS-PPAR1048T043,0,360,18/11/2025,EXPRESO LANCIONI,533298,36.7%,277.20,,0Jn1Mv5H,6Ng7Hp1X
 42755,18293 DULCOR SA ✮✮,Ejecución de la orden pendiente,Todo Aprobado, ,,F,PPAR15048T,0,162,18/11/2025,EXPRESO LANCIONI,533298,44.2%,2227.50,,0Jn1Mv5H,0Bz8Ix7O
-42756,18293 DULCOR SA ✮✮,Parcialmente ejecutada,Todo Aprobado,Ejecución de pedido de artículo 24540,Enviado,F,CAS-PPAR10048T047,0,60,18/11/2025,EXPRESO LANCIONI,533398,45.8%,549.60,T,0Jn1Mv5H,9Pk0Ny6V
-42756,18293 DULCOR SA ✮✮,Parcialmente ejecutada,Todo Aprobado,Orden de trabajo,Abierta,F,CAS-PPAR10048T047,0,60,18/11/2025,EXPRESO LANCIONI,533398,45.8%,549.60,,0Jn1Mv5H,6Bb0Mu1P
+42756,18293 DULCOR SA ✮✮,Parcialmente ejecutada,Todo Aprobado,Orden de trabajo,Abierta,F,CAS-PPAR10048T047,0,60,18/11/2025,EXPRESO LANCIONI,533398,45.8%,549.60,,0Jn1Mv5H,9Pk0Ny6V
+42756,18293 DULCOR SA ✮✮,Parcialmente ejecutada,Todo Aprobado,Ejecución de pedido de artículo 24540,Enviado,F,CAS-PPAR10048T047,0,60,18/11/2025,EXPRESO LANCIONI,533398,45.8%,549.60,T,0Jn1Mv5H,6Bb0Mu1P
 42757,18293 DULCOR SA ✮✮,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo,,F,CAS-PPAR1048T043,0,360,18/11/2025,EXPRESO LANCIONI,533498,36.7%,277.20,,0Jn1Mv5H,9Ms2Pn8I
 42757,18293 DULCOR SA ✮✮,Ejecución de la orden pendiente,Todo Aprobado, ,,F,PPAR15048T,0,162,18/11/2025,EXPRESO LANCIONI,533498,44.2%,2227.50,,0Jn1Mv5H,8Rn3En3G
-42729,1906 SOFTBOND SA ✮✮,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo,,F,CAS-PPA1048T043,0,936,18/11/2025,EXPRESO CARGO SA,531709,35.6%,645.84,,0Ij4Pc0C,8Rn3En3G
-42729,1906 SOFTBOND SA ✮✮,Ejecución de la orden pendiente,Todo Aprobado, ,,F,H11/48,4,0,18/11/2025,EXPRESO CARGO SA,531709,60.2%,100.00,,0Ij4Pc0C,3Ys9An8W
+42729,1906 SOFTBOND SA ✮✮,Ejecución de la orden pendiente,Todo Aprobado, ,,F,H11/48,4,0,18/11/2025,EXPRESO CARGO SA,531709,60.2%,100.00,,0Ij4Pc0C,8Rn3En3G
+42729,1906 SOFTBOND SA ✮✮,Ejecución de la orden pendiente,Todo Aprobado, ,,F,PPAR1048T,936,0,18/11/2025,EXPRESO CARGO SA,531709,29.0%,645.84,,0Ij4Pc0C,3Ys9An8W
 42588,2410 LUIS SOLIMENO E HIJOS SA ,Parcialmente ejecutada,Todo Aprobado,Orden de trabajo,Abierta,F,CAS-PPAR10048T047,0,240,18/11/2025,TRANSPORTE TOMASSINI,524699,41.6%,2040.00,,3Gh0Ze9O,
 42588,2410 LUIS SOLIMENO E HIJOS SA ,Parcialmente ejecutada,Todo Aprobado,Ejecución de pedido de artículo 24535,Enviado,F,CAS-PPAR10048T047,0,240,18/11/2025,TRANSPORTE TOMASSINI,524699,41.6%,2040.00,T,3Gh0Ze9O,
 42752,279 HONDA MOTOR DE ARGENTINA S.A. ✮✮,Facturada,Todo Aprobado,Ejecución de pedido de artículo 24538,Enviado,F,04169-00058-93,0,0,18/11/2025,EXPRESO CARGO SA,532984,41.9%,.00,T,1Rf6Ez5C,8Wb3Xi2L
