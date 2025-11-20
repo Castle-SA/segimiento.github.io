@@ -322,8 +322,7 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 42634,1171 AUTOSAL SA ✮✮,Facturada,Todo Aprobado,Ejecución de pedido de artículo 24533,Enviado,F,0272/003,0,0,18/11/2025,EXPRESO CARGO SA,527210,38.2%,.00,T,2Uv7Bb0L,4Gf8Oa0H
 42692,1343 NEWSAN SA ✮✮,Parcialmente ejecutada,Todo Aprobado,Factura de venta 38837,Pagado por completo,F,CAS-PPHR10072XT045,0,2,18/11/2025,RETIRAN,529813,100.0%,.00,,1Xr6So1J,6Ib6Fj6R
 42692,1343 NEWSAN SA ✮✮,Parcialmente ejecutada,Todo Aprobado,Ejecución de pedido de artículo 24542,Enviado,F,CAS-PPAR10072T047,0,0,18/11/2025,RETIRAN,529813,100.0%,.00,T,1Xr6So1J,6Ib6Fj6R
-42755,18293 DULCOR SA ✮✮,Ejecución de la orden pendiente,Todo Aprobado, ,,F,PPAR15048T,0,162,18/11/2025,EXPRESO LANCIONI,533298,44.2%,2227.50,,0Jn1Mv5H,4Vs0Qf0C
-42755,18293 DULCOR SA ✮✮,Ejecución de la orden pendiente,Todo Aprobado, ,,F,PPAR1048T,360,0,18/11/2025,EXPRESO LANCIONI,533298,36.4%,277.20,,0Jn1Mv5H,4Vs0Qf0C
+42755,18293 DULCOR SA ✮✮,Facturación pendiente/parcialmente ejecutada,Todo Aprobado, ,,F,PPAR15048T,0,162,18/11/2025,EXPRESO LANCIONI,533298,44.2%,2227.50,,0Jn1Mv5H,4Vs0Qf0C
 42756,18293 DULCOR SA ✮✮,Facturada,Todo Aprobado,Ejecución de pedido de artículo 24540,Enviado,F,CAS-PPAR10048T047,0,0,18/11/2025,EXPRESO LANCIONI,533398,45.8%,.00,T,0Jn1Mv5H,2Uv7Bb0L
 42757,18293 DULCOR SA ✮✮,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo,,F,CAS-PPAR1048T043,0,360,18/11/2025,EXPRESO LANCIONI,533498,36.7%,277.20,,0Jn1Mv5H,0Bz8Ix7O
 42757,18293 DULCOR SA ✮✮,Ejecución de la orden pendiente,Todo Aprobado, ,,F,PPAR15048T,0,162,18/11/2025,EXPRESO LANCIONI,533498,44.2%,2227.50,,0Jn1Mv5H,9Pk0Ny6V
@@ -428,6 +427,7 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 42783,9403252 EDUARDO GHERBEZZA S. A. S. ✮✮✮✮,Facturada,Todo Aprobado,Ejecución de pedido de artículo 24559,Enviado,F,MVAQUA180,0,0,19/11/2025,RETIRAN,534169,40.9%,.00,T,,
 42734,1028 VIPAL SA ✮✮,Parcialmente ejecutada,Todo Aprobado,Ejecución de pedido de artículo 24566,Enviado,F,PPAR1048T,0,180,20/11/2025,FELICI JORGE ARIEL,532042,38.8%,144.00,T,1Kq9Oc2R,0Bz8Ix7O
 42734,1028 VIPAL SA ✮✮,Parcialmente ejecutada,Todo Aprobado,Factura de venta 38866,Abierta,F,PPAR1048T,0,180,20/11/2025,FELICI JORGE ARIEL,532042,38.8%,144.00,,1Kq9Oc2R,7Kh2Zf0E
+42755,18293 DULCOR SA ✮✮,Facturación pendiente/parcialmente ejecutada,Todo Aprobado,Ejecución de pedido de artículo 24575,Enviado,F,PPAR1048T,0,0,20/11/2025,EXPRESO LANCIONI,533298,36.4%,.00,F,0Jn1Mv5H,4Vs0Qf0C
 42756,18293 DULCOR SA ✮✮,Facturada,Todo Aprobado,Ejecución de pedido de artículo 24569,Enviado,F,CAS-PPAR10048T047,0,0,20/11/2025,EXPRESO LANCIONI,533398,45.8%,.00,T,0Jn1Mv5H,6Ng7Hp1X
 42526,3089 ARNEG ARGENTINA S.A. ✮✮,Facturada,Todo Aprobado,Ejecución de pedido de artículo 24568,Enviado,F,CAS-PPAR1072T043,0,0,20/11/2025,RICARDO PIERONI,521170,42.8%,-20.32,T,7Rx7Ub2H,3Jg1St8F
 42814,3089 ARNEG ARGENTINA S.A. ✮✮,Facturada,Todo Aprobado,Ejecución de pedido de artículo 24561,Enviado,F,MTS536B,0,0,20/11/2025,RICARDO PIERONI,534762,45.0%,.00,T,7Rx7Ub2H,2Jl6Ja1C
