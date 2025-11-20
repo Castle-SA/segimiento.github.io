@@ -402,7 +402,7 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 42669,655 SWIFT SA ARGENTINA ,Ejecución de la orden pendiente,Todo Aprobado, ,,F,MUESTRA ESPECIAL,1,0,19/11/2025,EXPRESO BRIO SRL,529181,100.0%,.00,,8Wb3Xi2L,7Ei3Zh4Q
 42687,655 SWIFT SA ARGENTINA ,Ejecución de la orden pendiente,Todo Aprobado, ,,F,MUESTRA ESPECIAL,5,0,19/11/2025,BARRY LATIMER,529668,100.0%,.00,,8Wb3Xi2L,3Nb5Vf8A
 42821,655 SWIFT SA ARGENTINA ,Facturada,Todo Aprobado,Ejecución de pedido de artículo 24560,Enviado,F,PPHR15048XT,0,0,19/11/2025,RETIRAN,535174,45.2%,.00,T,8Wb3Xi2L,3Nb5Vf8A
-42577,6631 PILKINGTON AUTOMOTIVE ARGENTINA SA ✮✮,Parcialmente ejecutada,Todo Aprobado,Ejecución de pedido de artículo 24554,Enviado,F,6631/003,0,5,19/11/2025,EXPRESO CARGO SA,524308,48.4%,23.25,T,8Gy5Vz0B,0We8Yn4Q
+42577,6631 PILKINGTON AUTOMOTIVE ARGENTINA SA ✮✮,Parcialmente ejecutada,Todo Aprobado,Ejecución de pedido de artículo 24554,Enviado,F,6631/003,0,5,19/11/2025,EXPRESO CARGO SA,524308,48.4%,23.25,T,8Gy5Vz0B,
 42731,682 MAYO TRANSFORMADORES S.R.L. ✮✮,Facturada,Todo Aprobado,Ejecución de pedido de artículo 24552,Enviado,F,CF512T,0,0,19/11/2025,RICARDO PIERONI,531875,73.0%,.00,T,0We8Yn4Q,8Ou2Yz9L
 42731,682 MAYO TRANSFORMADORES S.R.L. ✮✮,Facturada,Todo Aprobado,Ejecución de pedido de artículo 24552,Enviado,F,MTS512B,0,0,19/11/2025,RICARDO PIERONI,531875,43.0%,.00,T,0We8Yn4Q,8Bb5Dn1K
 42731,682 MAYO TRANSFORMADORES S.R.L. ✮✮,Facturada,Todo Aprobado,Ejecución de pedido de artículo 24552,Enviado,F,PPAR1048T,0,0,19/11/2025,RICARDO PIERONI,531875,42.4%,.00,T,0We8Yn4Q,1Bj3Wa5S
@@ -439,8 +439,8 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 42462,5019 GRANJA TRES ARROYOS SACAFEI ✮✮,Facturada,Todo Aprobado,Ejecución de pedido de artículo 24562,Enviado,F,CAS-PPAR10072T043,0,0,20/11/2025,EXPRESO CARGO SA,515740,54.2%,.00,T,0Ql9Gi1V,8Gy5Vz0B
 42710,623 BM SEÑALIZACIONES S.A. ✮✮,Facturación pendiente,Todo Aprobado,Ejecución de pedido de artículo 24563,Enviado,F,PPAR1048T,0,0,20/11/2025,RICARDO PIERONI,530111,45.6%,.00,F,3Ys9An8W,6Ls2Pd3Q
 42713,9400018 SEND SRL ✮✮,Facturación pendiente,Todo Aprobado,Ejecución de pedido de artículo 24565,Enviado,F,PPAR1048T,0,0,20/11/2025,RICARDO PIERONI,530372,42.4%,.00,F,3Ql9Lb2K,8Iv9Nk5M
-42804,9400945 LAMED S.A. ,Facturación pendiente,Todo Aprobado,Ejecución de pedido de artículo 24564,Enviado,F,CAS-PPA1048T040,0,0,20/11/2025,RICARDO PIERONI,534299,39.4%,.00,F,9Dw9Wh0V,9Lx6Mu2V
-42804,9400945 LAMED S.A. ,Facturación pendiente,Todo Aprobado,Ejecución de pedido de artículo 24564,Enviado,F,PPAR1048T,0,0,20/11/2025,RICARDO PIERONI,534299,38.8%,.00,F,9Dw9Wh0V,4To3Gr0Z
+42804,9400945 LAMED S.A. ,Facturada,Todo Aprobado,Ejecución de pedido de artículo 24564,Enviado,F,CAS-PPA1048T040,0,0,20/11/2025,RICARDO PIERONI,534299,39.4%,.00,T,9Dw9Wh0V,9Lx6Mu2V
+42804,9400945 LAMED S.A. ,Facturada,Todo Aprobado,Ejecución de pedido de artículo 24564,Enviado,F,PPAR1048T,0,0,20/11/2025,RICARDO PIERONI,534299,38.8%,.00,T,9Dw9Wh0V,4To3Gr0Z
 42815,3051 FRIMETAL S.A. ,Ejecución de la orden pendiente,Todo Aprobado, ,,F,PPAR1048M,72,0,21/11/2025,FELICI JORGE ARIEL,534763,40.3%,64.825,,3Dw0Uk2K,3Dw0Uk2K
 42523,3089 ARNEG ARGENTINA S.A. ✮✮,Ejecución de la orden pendiente,Todo Aprobado, ,,F,3089/052,0,4000,23/11/2025,FELICI GERARDO FABIAN,520980,19.6%,3680.00,,7Rx7Ub2H,0Jn1Mv5H
 42810,1149 EL DORADO SA ,Ejecución de la orden pendiente,Todo Aprobado, ,,F,MTP536B,7392,0,24/11/2025,FELICI JORGE ARIEL,534631,17.7%,9166.08,,9Yg2Bd3D,4Is2Rn8E
@@ -512,7 +512,7 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 42709,3089 ARNEG ARGENTINA S.A. ✮✮,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Ensamblada,F,3089/079,30000,0,,RICARDO PIERONI,530212,51.4%,1062.00,,7Rx7Ub2H,7Rx7Ub2H
 42709,3089 ARNEG ARGENTINA S.A. ✮✮,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Liberada,F,3089/080,0,80000,,RICARDO PIERONI,530212,51.6%,3352.00,,7Rx7Ub2H,7Rx7Ub2H
 42162,3769 GAROFOLI CONSTRUCCIONES SRL ✮✮,Parcialmente ejecutada,Todo Aprobado,Orden de trabajo ,Cerrada,F,PEG2070M,0,1,,RODRIGUEZ HNOS. TRANSP. SA,495930,100.0%,.00,,7Qv9Mi1Z,0Ph8Mv3F
-42577,6631 PILKINGTON AUTOMOTIVE ARGENTINA SA ✮✮,Parcialmente ejecutada,Todo Aprobado,Pedido ,Facturación pendiente/parcialmente recibido,T,6631/003,0,5,,EXPRESO CARGO SA,524308,48.4%,23.25,,8Gy5Vz0B,
+42577,6631 PILKINGTON AUTOMOTIVE ARGENTINA SA ✮✮,Parcialmente ejecutada,Todo Aprobado,Pedido ,Facturación pendiente/parcialmente recibido,T,6631/003,0,5,,EXPRESO CARGO SA,524308,48.4%,23.25,,8Gy5Vz0B,0We8Yn4Q
 42718,6658 ESTANCIAS DE PATAGONIA SA ✮✮,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Liberada,F,PVC612B,0,288,,TRANSPORTE TOMASSINI,530693,68.4%,504.00,,7Zf9Gj0I,0Ph8Mv3F
 41875,9400115 BEST COLD SRL ✮✮,Ejecución de la orden pendiente,Todo Aprobado, ,,F,MTP548B,0,1620,,FELICI JORGE ARIEL,476699,34.6%,2997.00,,8Xq9Re2A,5Mx5Rs0E
 42305,9400312 SABORISIMO S.A. (FACHITAS) ,Ejecución de la orden pendiente,Todo Aprobado, ,,F,PPHR15048XT,1,0,,EXPRESO CARGO SA,506218,100.0%,.00,,7Ip7Qv8Y,7Qv9Mi1Z
