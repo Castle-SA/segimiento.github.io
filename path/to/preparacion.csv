@@ -211,8 +211,8 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 42696,3089 ARNEG ARGENTINA S.A. ✮✮,Parcialmente ejecutada,Todo Aprobado,Ejecución de pedido de artículo 24524,Enviado,F,PVC672B,0,0,17/11/2025,RICARDO PIERONI,529837,60.3%,.00,T,7Rx7Ub2H,9Zc0Jy4O
 42648,449 DITEC S R L ,Facturada,Todo Aprobado,Ejecución de pedido de artículo 24526,Enviado,F,MUESTRA ESPECIAL,0,0,17/11/2025,RETIRAN,527831,100.0%,.00,T,5Xf2Ag4D,0Ph8Mv3F
 42632,655 SWIFT SA ARGENTINA ,Facturada,Todo Aprobado,Ejecución de pedido de artículo 24527,Enviado,F,CAS-PPAR1072T043,0,0,17/11/2025,EXPRESO LUJAN DEL CUYO SA,526974,46.2%,.00,T,8Wb3Xi2L,3Dw0Uk2K
-42720,88 LACTEOS PUYEHUE S.R.L. ,Parcialmente ejecutada,Todo Aprobado,Factura de venta 38819,Abierta,F,PPA1548TE,0,72,17/11/2025,TRANSPORTE EL DIABLO ROJO,530898,35.7%,82.80,,2Cq0Kg9P,5Rg6Oq8Y
 42720,88 LACTEOS PUYEHUE S.R.L. ,Parcialmente ejecutada,Todo Aprobado,Ejecución de pedido de artículo 24522,Enviado,F,PPA1548TE,0,72,17/11/2025,TRANSPORTE EL DIABLO ROJO,530898,35.7%,82.80,T,2Cq0Kg9P,5Rg6Oq8Y
+42720,88 LACTEOS PUYEHUE S.R.L. ,Parcialmente ejecutada,Todo Aprobado,Factura de venta 38819,Abierta,F,PPA1548TE,0,72,17/11/2025,TRANSPORTE EL DIABLO ROJO,530898,35.7%,82.80,,2Cq0Kg9P,5Rg6Oq8Y
 42474,9400126 IBERPESCA SA ✮✮,Facturada,Todo Aprobado,Ejecución de pedido de artículo 24534,Enviado,F,CAS-PPAR10072T047,0,0,17/11/2025,TRANSPORTE TOMASSINI,516516,41.4%,.00,T,7Qe0Xm8H,0Xf3Bl8T
 42725,9402287 GRAELLS NELSON ANTONIO ✮✮,Facturada,Todo Aprobado,Ejecución de pedido de artículo 24520,Enviado,F,CAS-PPA1048T040,0,0,17/11/2025,RICARDO PIERONI,531328,30.9%,.00,T,0Ux3Ra3D,
 42698,9402328 ARGENPACK CORRUGADOS SA ✮✮,Facturada,Todo Aprobado,Ejecución de pedido de artículo 24528,Enviado,F,BV001,0,0,17/11/2025,EXPRESO CARGO SA,529845,70.2%,.00,T,ulwBCyTv,
@@ -410,15 +410,15 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 42707,9400962 CRYSTAL-ICE SRL ✮✮,Facturada,Todo Aprobado,Ejecución de pedido de artículo 24650,Enviado,F,9400962/013,0,0,25/11/2025,RICARDO PIERONI,530110,45.0%,.00,T,4Is2Rn8E,5Mx5Rs0E
 42835,94010 VISUAR SA ✮✮,Facturada,Todo Aprobado,Ejecución de pedido de artículo 24660,Enviado,F,MUESTRA ESPECIAL,0,0,25/11/2025,EXPRESO CARGO SA,536627,100.0%,.00,T,4Gf8Oa0H,4Is2Rn8E
 42810,1149 EL DORADO SA ,Facturación pendiente/parcialmente ejecutada,Todo Aprobado,Ejecución de pedido de artículo 24662,Enviado,F,MTP536B,0,0,26/11/2025,FELICI JORGE ARIEL,534631,17.7%,.00,F,9Yg2Bd3D,4Rs4Vh2H
+42842,12849 FERRERO ARGENTINA SA ,Facturación pendiente,Todo Aprobado,Ejecución de pedido de artículo 24666,Enviado,F,CAS-PPAR1072T043,0,0,26/11/2025,EXPRESO CARGO SA,537039,39.9%,.00,F,5Oy9Im9F,5Ow8Cg8A
 42746,12877 BRIKET SA ✮✮,Facturación pendiente/parcialmente ejecutada,Todo Aprobado,Ejecución de pedido de artículo 24664,Enviado,F,0272/004,0,0,26/11/2025,FELICI JORGE ARIEL,532462,36.0%,.00,F,6Rp2Ce7I,3Gj7Vu0K
 42561,1412 F R I A R SA ,Facturación pendiente,Todo Aprobado,Ejecución de pedido de artículo 24661,Enviado,F,CAS-PPAR1072T043,0,0,26/11/2025,TRANSPORTE SNAIDER,523058,37.4%,.00,F,1Vf8Uo1P,3Dw0Uk2K
 42838,143 EPTA ARGENTINA S.A. ✮✮,Facturación pendiente/parcialmente ejecutada,Todo Aprobado,Ejecución de pedido de artículo 24665,Enviado,F,MTS536B,0,0,26/11/2025,RICARDO PIERONI,536801,57.7%,.00,F,1Tu2Pr5C,6Ib6Fj6R
 42813,15 IND. JOHN DEERE ARGENTINA S.A. ✮✮,Ejecución de la orden pendiente,Todo Aprobado, ,,F,BV001,120,0,26/11/2025,FELICI JORGE ARIEL,534761,87.1%,2154.00,,8Ky5Hq9D,0Ut2Zv0U
+42839,547 SIGMA SA ,Facturación pendiente,Todo Aprobado,Ejecución de pedido de artículo 24667,Enviado,F,H11/CPE,0,0,26/11/2025,RETIRAN,536914,43.4%,.00,F,1Bb7Lv4H,6Cx3Az0M
 42841,9400962 CRYSTAL-ICE SRL ✮✮,Ejecución de la orden pendiente,Todo Aprobado, ,,F,CAS-PPA1048T040,1620,0,26/11/2025,RICARDO PIERONI,537026,28.5%,891.00,,4Is2Rn8E,1Vf8Uo1P
 42837,9401627 ENCABO NICOLAS ✮✮,Facturación pendiente,Todo Aprobado,Ejecución de pedido de artículo 24663,Enviado,F,PVC636R,0,0,26/11/2025,TRANSPORTE CRUZ DEL SUR SA,536673,53.7%,.00,F,8Pl9Fu8A,7Qv9Mi1Z
-42842,12849 FERRERO ARGENTINA SA ,Ejecución de la orden pendiente,Todo Aprobado, ,,F,CAS-PPAR1072T043,240,0,27/11/2025,EXPRESO CARGO SA,537039,39.9%,295.20,,5Oy9Im9F,5Ow8Cg8A
 42840,3051 FRIMETAL S.A. ,Ejecución de la orden pendiente,Todo Aprobado, ,,F,PPAR1048M,180,0,27/11/2025,FELICI JORGE ARIEL,537016,38.2%,159.269,,3Dw0Uk2K,1Fr4Ch9I
-42839,547 SIGMA SA ,Ejecución de la orden pendiente,Todo Aprobado, ,,F,H11/CPE,2,0,27/11/2025,RETIRAN,536914,43.4%,64.00,,1Bb7Lv4H,6Cx3Az0M
 42838,143 EPTA ARGENTINA S.A. ✮✮,Facturación pendiente/parcialmente ejecutada,Todo Aprobado,Orden de trabajo ,Liberada,F,PVC648B,0,720,28/11/2025,RICARDO PIERONI,536801,69.1%,4572.00,,1Tu2Pr5C,9Zc0Jy4O
 42655,814 OBLAK HNOS SACIFI ✮✮,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Ensamblada,F,07063-00001-24,200,0,28/11/2025,EXPRESO CARGO SA,528772,29.8%,1630.00,,1Hy0Vd3I,8Wb3Xi2L
 42649,4016 BLACK BAMBOO ENTERPRISES SA ,Ejecución de la orden pendiente,Todo Aprobado, ,,F,CAS-PPA1072T040,1632,0,01/12/2025,EXPRESO LUJAN DEL CUYO SA,527857,31.3%,1403.52,,5Hd9Vg2B,2Jl6Ja1C
