@@ -37,8 +37,8 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 42625,9400816 MORELLI SRL ✮✮,Facturada,Todo Aprobado,Ejecución de pedido de artículo 24491,Enviado,F,CAS-MTS548B,0,0,11/11/2025,RICARDO PIERONI,526318,24.1%,.00,T,2Au6Re6F,5Mx5Rs0E
 42639,9402660 HORSE ARGENTINA SA ,Facturada,Todo Aprobado,Ejecución de pedido de artículo 24493,Enviado,F,V20,0,0,11/11/2025,EXPRESO CARGO SA,527444,60.7%,.00,T,,
 42441,9403251 PRODUCTOS BARILOCHE S. A. ,Facturada,Todo Aprobado,Ejecución de pedido de artículo 24489,Enviado,F,5094/001,0,0,11/11/2025,EXPRESO SANTA ROSA,515211,60.4%,.00,T,,
-42115,1029 DREAN SA ,Parcialmente ejecutada,Todo Aprobado,Ejecución de pedido de artículo 24500,Enviado,F,CAS-MTS548B,0,36,12/11/2025,EXPRESO CARGO SA,492597,19.1%,68.76,T,6Ng7Hp1X,2Df5Fp8J
-42115,1029 DREAN SA ,Parcialmente ejecutada,Todo Aprobado,Orden de trabajo,Abierta,F,CAS-MTS548B,0,36,12/11/2025,EXPRESO CARGO SA,492597,19.1%,68.76,,6Ng7Hp1X,0Ut2Zv0U
+42115,1029 DREAN SA ,Parcialmente ejecutada,Todo Aprobado,Orden de trabajo,Abierta,F,CAS-MTS548B,0,36,12/11/2025,EXPRESO CARGO SA,492597,19.1%,68.76,,6Ng7Hp1X,2Df5Fp8J
+42115,1029 DREAN SA ,Parcialmente ejecutada,Todo Aprobado,Ejecución de pedido de artículo 24500,Enviado,F,CAS-MTS548B,0,36,12/11/2025,EXPRESO CARGO SA,492597,19.1%,68.76,T,6Ng7Hp1X,0Ut2Zv0U
 42680,1343 NEWSAN SA ✮✮,Facturada,Todo Aprobado,Ejecución de pedido de artículo 24498,Enviado,F,PPAR1048T,0,0,12/11/2025,EXPRESO CARGO SA,529454,36.4%,.00,T,1Xr6So1J,8Mc1Gw5Y
 42582,15 IND. JOHN DEERE ARGENTINA S.A. ✮✮,Facturada,Todo Aprobado,Ejecución de pedido de artículo 24502,Enviado,F,0015/016,0,0,12/11/2025,FELICI JORGE ARIEL,524569,74.9%,.00,T,8Ky5Hq9D,0Ut2Zv0U
 42651,3958 CN SERVICIOS SRL ✮✮✮✮,Facturada,Todo Aprobado,Ejecución de pedido de artículo 24501,Enviado,F,PPAR524T,0,0,12/11/2025,RICARDO PIERONI,528244,100.0%,.00,T,1Mr2Cv3E,3Ny6Zw2O
@@ -164,7 +164,7 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 42683,12794 ACEROLATINA SA ✮✮,Facturada,Todo Aprobado,Ejecución de pedido de artículo 24595,Enviado,F,MUESTRA ESPECIAL,0,0,21/11/2025,EXPRESO CARGO SA,529664,100.0%,.00,T,7Ir5If6T,5Ow8Cg8A
 42684,12794 ACEROLATINA SA ✮✮,Facturada,Todo Aprobado,Ejecución de pedido de artículo 24593,Enviado,F,MUESTRA ESPECIAL,0,0,21/11/2025,EXPRESO CARGO SA,529665,100.0%,.00,T,7Ir5If6T,5Ow8Cg8A
 42769,12837 FRIGORIFICO SAN FRANCISCO S.A ✮✮,Facturada,Todo Aprobado,Ejecución de pedido de artículo 24628,Enviado,F,MUESTRA ESPECIAL,0,0,21/11/2025,EXPRESO LUJAN DEL CUYO SA,534151,100.0%,.00,T,9Ry7Wa5R,5Ow8Cg8A
-42746,12877 BRIKET SA ✮✮,Parcialmente ejecutada,Todo Aprobado,Ejecución de pedido de artículo 24632,Enviado,F,0272/004,0,0,21/11/2025,FELICI JORGE ARIEL,532462,36.0%,.00,T,6Rp2Ce7I,6Ls2Pd3Q
+42746,12877 BRIKET SA ✮✮,Parcialmente ejecutada,Todo Aprobado,Ejecución de pedido de artículo 24632,Enviado,F,0272/004,0,0,21/11/2025,FELICI JORGE ARIEL,532462,36.0%,.00,T,6Rp2Ce7I,1Bj3Wa5S
 42746,12877 BRIKET SA ✮✮,Parcialmente ejecutada,Todo Aprobado,Orden de trabajo,Abierta,F,CAS-MTS548B,0,1224,21/11/2025,FELICI JORGE ARIEL,532462,22.8%,2448.00,,6Rp2Ce7I,1Bj3Wa5S
 42768,12877 BRIKET SA ✮✮,Facturada,Todo Aprobado,Ejecución de pedido de artículo 24622,Enviado,F,MUESTRA ESPECIAL,0,0,21/11/2025,RETIRAN,534148,100.0%,.00,T,6Rp2Ce7I,8Xq9Re2A
 42788,132 MAHLE VALVULAS DE ARGENTINA SA ✮✮,Facturada,Todo Aprobado,Ejecución de pedido de artículo 24644,Enviado,F,MUESTRA ESPECIAL,0,0,21/11/2025,RETIRAN,534275,100.0%,.00,T,6Ls2Pd3Q,7Qv9Mi1Z
@@ -189,7 +189,7 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 42807,3829 LEDESMA S.A.A.I ✮✮,Facturada,Todo Aprobado,Ejecución de pedido de artículo 24649,Enviado,F,MUESTRA ESPECIAL,0,0,21/11/2025,EXPRESO LUJAN DEL CUYO SA,534504,100.0%,.00,T,9Cy1Wk5Q,0Ph8Mv3F
 42809,4010 ASIR SA (DISTRISUR) ✮✮,Facturada,Todo Aprobado,Ejecución de pedido de artículo 24604,Enviado,F,PPAR1048T,0,0,21/11/2025,RICARDO PIERONI,534506,59.2%,.00,T,1Rh7Xp6S,2Aa9Oj0E
 42686,4095 REFINERIA DEL CENTRO SA ✮✮,Facturada,Todo Aprobado,Ejecución de pedido de artículo 24596,Enviado,F,MUESTRA ESPECIAL,0,0,21/11/2025,EXPRESO SANTA ROSA,529667,100.0%,.00,T,1Bj3Wa5S,3Qo4Fx7M
-42705,4095 REFINERIA DEL CENTRO SA ✮✮,Facturada,Todo Aprobado,Ejecución de pedido de artículo 24576,Enviado,F,CAS-PPHR1072XT045,0,0,21/11/2025,EXPRESO SANTA ROSA,529956,42.4%,-36.36,T,1Bj3Wa5S,4Xz9An3R
+42705,4095 REFINERIA DEL CENTRO SA ✮✮,Facturada,Todo Aprobado,Ejecución de pedido de artículo 24576,Enviado,F,CAS-PPHR1072XT045,0,0,21/11/2025,EXPRESO SANTA ROSA,529956,42.4%,-36.36,T,1Bj3Wa5S,8Cf1Ra3G
 42789,4188 DOMITEC SA ,Facturada,Todo Aprobado,Ejecución de pedido de artículo 24636,Enviado,F,MUESTRA ESPECIAL,0,0,21/11/2025,TRANSPORTE SNAIDER,534277,100.0%,.00,T,4Md8Pr6J,1Bj3Wa5S
 42779,4381 IBERCONSA DE ARGENTINA SA ,Facturada,Todo Aprobado,Ejecución de pedido de artículo 24600,Enviado,F,MUESTRA ESPECIAL,0,0,21/11/2025,TRANSPORTE TOMASSINI,534165,100.0%,.00,T,9Lx6Mu2V,
 42785,4381 IBERCONSA DE ARGENTINA SA ,Facturada,Todo Aprobado,Ejecución de pedido de artículo 24633,Enviado,F,MUESTRA ESPECIAL,0,0,21/11/2025,EXPRESO CARGO SA,534270,100.0%,.00,T,9Lx6Mu2V,
@@ -244,7 +244,7 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 42835,94010 VISUAR SA ✮✮,Facturada,Todo Aprobado,Ejecución de pedido de artículo 24660,Enviado,F,MUESTRA ESPECIAL,0,0,25/11/2025,EXPRESO CARGO SA,536627,100.0%,.00,T,4Gf8Oa0H,3Dw0Uk2K
 42810,1149 EL DORADO SA ,Parcialmente ejecutada,Todo Aprobado,Ejecución de pedido de artículo 24662,Enviado,F,MTP536B,0,0,26/11/2025,FELICI JORGE ARIEL,534631,17.7%,.00,T,9Yg2Bd3D,1Rf6Ez5C
 42842,12849 FERRERO ARGENTINA SA ,Facturada,Todo Aprobado,Ejecución de pedido de artículo 24666,Enviado,F,CAS-PPAR1072T043,0,0,26/11/2025,EXPRESO CARGO SA,537039,39.9%,.00,T,5Oy9Im9F,2Mu2Vl2K
-42746,12877 BRIKET SA ✮✮,Parcialmente ejecutada,Todo Aprobado,Ejecución de pedido de artículo 24664,Enviado,F,0272/004,0,0,26/11/2025,FELICI JORGE ARIEL,532462,36.0%,.00,T,6Rp2Ce7I,1Bj3Wa5S
+42746,12877 BRIKET SA ✮✮,Parcialmente ejecutada,Todo Aprobado,Ejecución de pedido de artículo 24664,Enviado,F,0272/004,0,0,26/11/2025,FELICI JORGE ARIEL,532462,36.0%,.00,T,6Rp2Ce7I,6Ls2Pd3Q
 42746,12877 BRIKET SA ✮✮,Parcialmente ejecutada,Todo Aprobado,Orden de trabajo,Abierta,F,CAS-MTS548B,0,1224,26/11/2025,FELICI JORGE ARIEL,532462,22.8%,2448.00,,6Rp2Ce7I,1Bj3Wa5S
 42561,1412 F R I A R SA ,Facturada,Todo Aprobado,Ejecución de pedido de artículo 24661,Enviado,F,CAS-PPAR1072T043,0,0,26/11/2025,TRANSPORTE SNAIDER,523058,37.4%,.00,T,1Vf8Uo1P,6Ib6Fj6R
 42838,143 EPTA ARGENTINA S.A. ✮✮,Facturada,Todo Aprobado,Ejecución de pedido de artículo 24665,Enviado,F,MTS536B,0,0,26/11/2025,RICARDO PIERONI,536801,57.7%,.00,T,1Tu2Pr5C,6Ng7Hp1X
@@ -264,7 +264,7 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 42841,9400962 CRYSTAL-ICE SRL ✮✮,Facturada,Todo Aprobado,Ejecución de pedido de artículo 24676,Enviado,F,CAS-PPA1048T040,0,0,26/11/2025,RICARDO PIERONI,537026,28.5%,.00,T,4Is2Rn8E,
 42646,9401460 INDUBOL SA ✮✮,Facturada,Todo Aprobado,Ejecución de pedido de artículo 24677,Enviado,F,MUESTRA ESPECIAL,0,0,26/11/2025,BARRY LATIMER,527824,100.0%,.00,T,1Qd9By7M,3Dw0Uk2K
 42837,9401627 ENCABO NICOLAS ✮✮,Facturada,Todo Aprobado,Ejecución de pedido de artículo 24663,Enviado,F,PVC636R,0,0,26/11/2025,TRANSPORTE CRUZ DEL SUR SA,536673,53.7%,.00,T,8Pl9Fu8A,3Dw0Uk2K
-42818,1331 FRIGORIFICO QUALITA SA ✮✮✮✮,Facturada,Todo Aprobado,Ejecución de pedido de artículo 24685,Enviado,F,CAS-PPAR1048T045,0,0,27/11/2025,EXPRESO LUJAN DEL CUYO SA,534866,56.4%,.00,T,1Gt4Sb8C,2Au6Re6F
+42818,1331 FRIGORIFICO QUALITA SA ✮✮✮✮,Facturada,Todo Aprobado,Ejecución de pedido de artículo 24685,Enviado,F,CAS-PPAR1048T045,0,0,27/11/2025,EXPRESO LUJAN DEL CUYO SA,534866,56.4%,.00,T,1Gt4Sb8C,5Pj9Xf1N
 42757,18293 DULCOR SA ✮✮,Parcialmente ejecutada,Todo Aprobado,Factura de venta 38987,Pagado por completo,F,PPAR15048T,0,162,27/11/2025,EXPRESO LANCIONI,533498,44.2%,2227.50,,0Jn1Mv5H,1Wa0Iu6X
 42757,18293 DULCOR SA ✮✮,Parcialmente ejecutada,Todo Aprobado,Ejecución de pedido de artículo 24686,Enviado,F,CAS-PPAR1048T045,0,0,27/11/2025,EXPRESO LANCIONI,533498,56.4%,.00,T,0Jn1Mv5H,1Wa0Iu6X
 42557,2660 VICUNHA ARGENTINA SA (Tintoreria Ullum) ✮✮,Facturada,Todo Aprobado,Ejecución de pedido de artículo 24681,Enviado,F,MTS518B,0,0,27/11/2025,EXPRESO CARGO SA,522868,37.3%,.00,T,5Dr6Pr8I,
@@ -278,7 +278,7 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 42734,1028 VIPAL SA ✮✮,Facturada,Todo Aprobado,Ejecución de pedido de artículo 24688,Enviado,F,CAS-PPAR1048T045,0,0,28/11/2025,FELICI JORGE ARIEL,532042,58.1%,.00,T,1Kq9Oc2R,5Pl6Eg8H
 42744,12787 FLEXCOLOR SRL ✮✮,Facturada,Todo Aprobado,Ejecución de pedido de artículo 24698,Enviado,F,PPA1548TE,0,0,28/11/2025,EXPRESO BRIO SRL,532355,39.8%,.00,T,3Jc0Cw5E,5Ow8Cg8A
 42753,12851 MAXIMO BAUDUCCO SACIF ✮✮✮,Facturada,Todo Aprobado,Ejecución de pedido de artículo 24690,Enviado,F,VCI420,0,0,28/11/2025,RETIRAN,533084,67.6%,-14.00,T,9Vs6Ri4U,3Gj7Vu0K
-42818,1331 FRIGORIFICO QUALITA SA ✮✮✮✮,Facturada,Todo Aprobado,Ejecución de pedido de artículo 24710,Enviado,F,CAS-PPAR1048T045,0,0,28/11/2025,EXPRESO LUJAN DEL CUYO SA,534866,56.4%,.00,T,1Gt4Sb8C,5Pj9Xf1N
+42818,1331 FRIGORIFICO QUALITA SA ✮✮✮✮,Facturada,Todo Aprobado,Ejecución de pedido de artículo 24710,Enviado,F,CAS-PPAR1048T045,0,0,28/11/2025,EXPRESO LUJAN DEL CUYO SA,534866,56.4%,.00,T,1Gt4Sb8C,2Au6Re6F
 42828,2020 RETENES SAV SA ✮✮,Facturada,Todo Aprobado,Ejecución de pedido de artículo 24693,Enviado,F,CAS-PPAR1048T045,0,0,28/11/2025,RICARDO PIERONI,535756,72.1%,.00,T,8Ja8Rp6M,9Qb8Fy5U
 42712,2395 LARTEX SRL ✮✮,Parcialmente ejecutada,Todo Aprobado,Ejecución de pedido de artículo 24701,Enviado,F,CAS-PPA1072T040,336,0,28/11/2025,EXPRESO DIEMAR,530371,32.1%,292.32,T,3Tb7Jg4M,3Dw0Uk2K
 42861,2915 COMPANIA LA PILARICA SA ✮✮,Facturada,Todo Aprobado,Ejecución de pedido de artículo 24700,Enviado,F,PPA1548TE,0,0,28/11/2025,EXPRESO CARGO SA,538332,37.8%,.00,T,8Ds2Kv5E,
@@ -318,7 +318,7 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 42738,1029 DREAN SA ,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo,,F,CAS-MTS548B,0,2016,02/12/2025,EXPRESO CARGO SA,532247,19.1%,3850.56,,6Ng7Hp1X,0Ql9Gi1V
 42740,1029 DREAN SA ,Facturada,Todo Aprobado,Ejecución de pedido de artículo 24730,Enviado,F,0272/005,0,0,02/12/2025,EXPRESO CARGO SA,532249,36.1%,.00,T,6Ng7Hp1X,0Ql9Gi1V
 42745,1029 DREAN SA ,Facturada,Todo Aprobado,Ejecución de pedido de artículo 24731,Enviado,F,PVC636A,0,0,02/12/2025,EXPRESO CARGO SA,532456,49.5%,.00,T,6Ng7Hp1X,3Hy2Ia2F
-42873,12877 BRIKET SA ✮✮,Parcialmente ejecutada,Todo Aprobado,Ejecución de pedido de artículo 24720,Enviado,F,0272/004,0,0,02/12/2025,FELICI JORGE ARIEL,539035,36.5%,.00,T,6Rp2Ce7I,6Ng7Hp1X
+42873,12877 BRIKET SA ✮✮,Parcialmente ejecutada,Todo Aprobado,Ejecución de pedido de artículo 24720,Enviado,F,0272/004,0,0,02/12/2025,FELICI JORGE ARIEL,539035,36.5%,.00,T,6Rp2Ce7I,8Ky5Hq9D
 42873,12877 BRIKET SA ✮✮,Parcialmente ejecutada,Todo Aprobado,Orden de trabajo,Abierta,F,CAS-MTS548B,0,612,02/12/2025,FELICI JORGE ARIEL,539035,23.4%,1224.00,,6Rp2Ce7I,8Ky5Hq9D
 42475,1650 ARAG ARGENTINA SA ✮✮,Facturada,Todo Aprobado,Ejecución de pedido de artículo 24732,Enviado,F,1650/002,0,0,02/12/2025,RICARDO PIERONI,516650,50.5%,.00,T,8Yp8Ld0P,5Mx5Rs0E
 42860,2688 BARK S.A. ✮✮,Parcialmente ejecutada,Todo Aprobado,Orden de trabajo,Abierta,F,CAS-PPA15048T047,0,102,02/12/2025,EXPRESO CARGO SA,538232,51.3%,1213.80,,5Nj3Sn5W,
@@ -326,8 +326,8 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 42653,322 SIDERSA S.A. ,Facturada,Todo Aprobado,Ejecución de pedido de artículo 24727,Enviado,F,MF525T,0,0,02/12/2025,EXPRESO BRIO SRL,528647,60.9%,.00,T,7Ia9Mm7L,9Lx6Mu2V
 42877,383 JOHNSON ACERO S.A. Industrial y Comercial ✮✮✮,Facturada,Todo Aprobado,Ejecución de pedido de artículo 24729,Enviado,F,64621-00048-00,0,0,02/12/2025,RICARDO PIERONI,539294,57.3%,.00,T,6Bb0Mu1P,3Ny6Zw2O
 42849,3902 INDUSTRIAS PROFILA S.A. ✮✮✮✮,Facturada,Todo Aprobado,Ejecución de pedido de artículo 24721,Enviado,F,MVAQUA180,0,0,02/12/2025,RETIRAN,537381,47.7%,.00,T,3Hc1Jg5T,3Ny6Zw2O
-42649,4016 BLACK BAMBOO ENTERPRISES SA ,Parcialmente ejecutada,Todo Aprobado,Ejecución de pedido de artículo 24722,Enviado,F,CAS-PPA1072T040,0,336,02/12/2025,EXPRESO LUJAN DEL CUYO SA,527857,31.3%,288.96,T,5Hd9Vg2B,2Aa9Oj0E
-42649,4016 BLACK BAMBOO ENTERPRISES SA ,Parcialmente ejecutada,Todo Aprobado,Orden de trabajo,Abierta,F,CAS-PPA1072T040,0,336,02/12/2025,EXPRESO LUJAN DEL CUYO SA,527857,31.3%,288.96,,5Hd9Vg2B,
+42649,4016 BLACK BAMBOO ENTERPRISES SA ,Parcialmente ejecutada,Todo Aprobado,Orden de trabajo,Abierta,F,CAS-PPA1072T040,0,336,02/12/2025,EXPRESO LUJAN DEL CUYO SA,527857,31.3%,288.96,,5Hd9Vg2B,2Aa9Oj0E
+42649,4016 BLACK BAMBOO ENTERPRISES SA ,Parcialmente ejecutada,Todo Aprobado,Ejecución de pedido de artículo 24722,Enviado,F,CAS-PPA1072T040,0,336,02/12/2025,EXPRESO LUJAN DEL CUYO SA,527857,31.3%,288.96,T,5Hd9Vg2B,
 42721,4095 REFINERIA DEL CENTRO SA ✮✮,Facturada,Todo Aprobado,Ejecución de pedido de artículo 24728,Enviado,F,CAS-PPHR10048XT045,0,0,02/12/2025,EXPRESO SANTA ROSA,531052,31.9%,.00,T,1Bj3Wa5S,1Kc0Xm1P
 42737,583 TERRAGENE SA ✮✮,Facturada,Todo Aprobado,Ejecución de pedido de artículo 24726,Enviado,F,04965-00011-00,0,0,02/12/2025,RICARDO PIERONI,532043,55.5%,.00,T,5Pl6Eg8H,2Pi6Wv1H
 42857,9400048 DFQ CORRUGADOS SAS ✮✮✮✮,Facturada,Todo Aprobado,Ejecución de pedido de artículo 24724,Enviado,F,CAS-PPAR1048T045,0,0,02/12/2025,RICARDO PIERONI,537909,54.8%,.00,T,6Vy4Xi2I,6Ga9Nq0N
@@ -342,7 +342,7 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 42318,1029 DREAN SA ,Facturada,Todo Aprobado,Ejecución de pedido de artículo 24743,Enviado,F,MTP548B,0,0,03/12/2025,EXPRESO CARGO SA,507067,36.6%,.00,T,6Ng7Hp1X,0Sl1Br5D
 42321,1029 DREAN SA ,Facturada,Todo Aprobado,Ejecución de pedido de artículo 24744,Enviado,F,MTP548B,0,0,03/12/2025,EXPRESO CARGO SA,507069,36.6%,.00,T,6Ng7Hp1X,7Rx7Ub2H
 42742,1029 DREAN SA ,Facturada,Todo Aprobado,Ejecución de pedido de artículo 24749,Enviado,F,0272/003,0,0,03/12/2025,EXPRESO CARGO SA,532251,37.1%,.00,T,6Ng7Hp1X,7Ei3Zh4Q
-42873,12877 BRIKET SA ✮✮,Parcialmente ejecutada,Todo Aprobado,Ejecución de pedido de artículo 24741,Enviado,F,0272/004,0,0,03/12/2025,FELICI JORGE ARIEL,539035,36.5%,.00,T,6Rp2Ce7I,8Ky5Hq9D
+42873,12877 BRIKET SA ✮✮,Parcialmente ejecutada,Todo Aprobado,Ejecución de pedido de artículo 24741,Enviado,F,0272/004,0,0,03/12/2025,FELICI JORGE ARIEL,539035,36.5%,.00,T,6Rp2Ce7I,6Ng7Hp1X
 42873,12877 BRIKET SA ✮✮,Parcialmente ejecutada,Todo Aprobado,Orden de trabajo,Abierta,F,CAS-MTS548B,0,612,03/12/2025,FELICI JORGE ARIEL,539035,23.4%,1224.00,,6Rp2Ce7I,8Ky5Hq9D
 42834,1606 DANES SRL ✮✮,Facturada,Todo Aprobado,Ejecución de pedido de artículo 24735,Enviado,F,MTS518B,0,0,03/12/2025,RETIRAN,536345,42.0%,.00,T,1Km7Ai4M,5Mx5Rs0E
 42627,199 ARDENT SRL ✮✮✮✮,Facturada,Todo Aprobado,Ejecución de pedido de artículo 24734,Enviado,F,8864/001,0,0,03/12/2025,TRANSPORTE TOMASSINI,526649,75.6%,.00,T,9Gv4Nw5R,1Fr4Ch9I
@@ -371,7 +371,7 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 42896,178 DROGUERIA DEL SUD S.A. ✮✮,Facturada,Todo Aprobado,Ejecución de pedido de artículo 24760,Enviado,F,CAS-PPAR1048T040,0,0,04/12/2025,EXPRESO LUJAN DEL CUYO SA,540948,32.4%,.00,T,5Mx5Rs0E,4Vs0Qf0C
 42896,178 DROGUERIA DEL SUD S.A. ✮✮,Facturada,Todo Aprobado,Ejecución de pedido de artículo 24760,Enviado,F,PPA1048F,0,0,04/12/2025,EXPRESO LUJAN DEL CUYO SA,540948,20.1%,.00,T,5Mx5Rs0E,4Vs0Qf0C
 42867,3029 DARK SRL ✮✮✮,Facturada,Todo Aprobado,Ejecución de pedido de artículo 24754,Enviado,F,CAS-PPAR1048T045,0,0,04/12/2025,RICARDO PIERONI,538629,60.1%,.00,T,7Va0Bu1J,4Ev1Va1N
-42705,4095 REFINERIA DEL CENTRO SA ✮✮,Facturada,Todo Aprobado,Ejecución de pedido de artículo 24755,Enviado,F,CAS-PPHR1072XT045,0,0,04/12/2025,EXPRESO SANTA ROSA,529956,42.4%,-36.36,T,1Bj3Wa5S,8Cf1Ra3G
+42705,4095 REFINERIA DEL CENTRO SA ✮✮,Facturada,Todo Aprobado,Ejecución de pedido de artículo 24755,Enviado,F,CAS-PPHR1072XT045,0,0,04/12/2025,EXPRESO SANTA ROSA,529956,42.4%,-36.36,T,1Bj3Wa5S,4Xz9An3R
 42874,4095 REFINERIA DEL CENTRO SA ✮✮,Parcialmente ejecutada,Todo Aprobado,Orden de trabajo,Abierta,F,CAS-PPHR10072XT045,0,120,04/12/2025,EXPRESO SANTA ROSA,539045,41.7%,2402.40,,1Bj3Wa5S,6Ng7Hp1X
 42874,4095 REFINERIA DEL CENTRO SA ✮✮,Parcialmente ejecutada,Todo Aprobado,Ejecución de pedido de artículo 24756,Enviado,F,CAS-PPHR1072XT045,0,1596,04/12/2025,EXPRESO SANTA ROSA,539045,42.5%,3223.92,T,1Bj3Wa5S,9Xw3Zi2V
 42874,4095 REFINERIA DEL CENTRO SA ✮✮,Parcialmente ejecutada,Todo Aprobado,Orden de trabajo,Abierta,F,CAS-PPHR1072XT045,0,1596,04/12/2025,EXPRESO SANTA ROSA,539045,42.5%,3223.92,,1Bj3Wa5S,9Ry7Wa5R
@@ -462,7 +462,7 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 42488,202 FRIGORIFICO DE AVES SOYCHU SA ✮✮,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Ensamblada,F,PPHR1216B,216,0,16/12/2025,EXPRESO CARGO SA,518007,34.2%,218.16,,5Ow8Cg8A,1Wa0Iu6X
 42488,202 FRIGORIFICO DE AVES SOYCHU SA ✮✮,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Ensamblada,F,PVC612R,144,0,16/12/2025,EXPRESO CARGO SA,518007,35.3%,144.00,,5Ow8Cg8A,1Tu2Pr5C
 42923,4095 REFINERIA DEL CENTRO SA ✮✮,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo,,F,CAS-PPHR1072XT045,0,2700,17/12/2025,EXPRESO SANTA ROSA,542854,42.5%,5454.00,,1Bj3Wa5S,9Ry7Wa5R
-42846,102 VOLKSWAGEN ARGENTINA S.A. ✮✮,Ejecución de la orden pendiente,Todo Aprobado, ,,F,0103/001,0,200,19/12/2025,EXPRESO CARGO SA,537325,47.2%,336.00,,7Kh2Zf0E,7Kh2Zf0E
+42846,102 VOLKSWAGEN ARGENTINA S.A. ✮✮,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Liberada,F,0103/001,0,200,19/12/2025,EXPRESO CARGO SA,537325,47.2%,336.00,,7Kh2Zf0E,7Kh2Zf0E
 42852,2872 INBELT SRL ✮✮✮✮,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Liberada,F,2872/002,0,360,19/12/2025,RICARDO PIERONI,537597,95.0%,450.00,,5Pm5Ef5K,
 42884,4674 GIORNO S A (GRUPO VALASTRO) ✮✮,Ejecución de la orden pendiente,Todo Aprobado, ,,F,CAS-PPAR1072T043,3.840,0,19/12/2025,TRANSPORTE TOMASSINI,540233,36.4%,4454.40,,1Jm9Zf6J,9Dw9Wh0V
 42458,202 FRIGORIFICO DE AVES SOYCHU SA ✮✮,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Ensamblada,F,PVC612R,288,0,29/12/2025,EXPRESO CARGO SA,515728,35.7%,288.00,,5Ow8Cg8A,9Tj7Li2O
