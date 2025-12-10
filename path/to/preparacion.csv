@@ -85,8 +85,8 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 42715,4306 KIRPLASTIC SA ✮✮,Facturada,Todo Aprobado,Ejecución de pedido de artículo 24545,Enviado,F,MVAQUA180,0,0,18/11/2025,RETIRAN,530374,44.8%,.00,T,0Dg5Qb4L,9Gs4Xo3J
 41283,583 TERRAGENE SA ✮✮,Facturada,Todo Aprobado,Ejecución de pedido de artículo 24543,Enviado,F,04965-00011-00,0,0,18/11/2025,FELICI JORGE ARIEL,441960,57.8%,.00,T,5Pl6Eg8H,3Cz8Fy3Y
 42617,655 SWIFT SA ARGENTINA ,Facturada,Todo Aprobado,Ejecución de pedido de artículo 24541,Enviado,F,CAS-PPAR10048T047,0,0,18/11/2025,EXPRESO BRIO SRL,526098,51.9%,.00,T,8Wb3Xi2L,3Dw0Uk2K
-42606,9400962 CRYSTAL-ICE SRL ✮✮,Facturada,Todo Aprobado,Ejecución de pedido de artículo 24539,Enviado,F,9400962/010,0,0,18/11/2025,RICARDO PIERONI,525332,45.6%,.00,T,4Is2Rn8E,5Mx5Rs0E
 42606,9400962 CRYSTAL-ICE SRL ✮✮,Facturada,Todo Aprobado,Ejecución de pedido de artículo 24546,Enviado,F,9400962/010,0,0,18/11/2025,RICARDO PIERONI,525332,45.6%,.00,T,4Is2Rn8E,5Mx5Rs0E
+42606,9400962 CRYSTAL-ICE SRL ✮✮,Facturada,Todo Aprobado,Ejecución de pedido de artículo 24539,Enviado,F,9400962/010,0,0,18/11/2025,RICARDO PIERONI,525332,45.6%,.00,T,4Is2Rn8E,5Mx5Rs0E
 42638,"9403070 ACOFAR COOP. FARMACEUTICA,DE CREDITO,VIVIENDA Y CONSUMO LTDA ✮✮",Facturada,Todo Aprobado,Ejecución de pedido de artículo 24531,Enviado,F,PPAR1048T,0,0,18/11/2025,TRANSPORTE TOMASSINI,527240,38.8%,.00,T,,
 42640,"9403070 ACOFAR COOP. FARMACEUTICA,DE CREDITO,VIVIENDA Y CONSUMO LTDA ✮✮",Facturada,Todo Aprobado,Ejecución de pedido de artículo 24532,Enviado,F,PPAR1048T,0,0,18/11/2025,TRANSPORTE TOMASSINI,527445,38.8%,.00,T,,
 42729,1906 SOFTBOND SA ✮✮,Facturada,Todo Aprobado,Ejecución de pedido de artículo 24553,Enviado,F,H11/48,0,0,19/11/2025,EXPRESO CARGO SA,531709,60.2%,.00,T,0Ij4Pc0C,2Uv7Bb0L
@@ -384,8 +384,8 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 42922,3060 AVICOLA TELOS SA ✮✮,Facturada,Todo Aprobado,Ejecución de pedido de artículo 24775,Enviado,F,H11/CPE,0,0,09/12/2025,TRANSPORTE SONGINI,542665,32.0%,.00,T,7Un2Ij7V,
 42696,3089 ARNEG ARGENTINA S.A. ✮✮,Facturada,Todo Aprobado,Ejecución de pedido de artículo 24768,Enviado,F,MTP548B,0,0,09/12/2025,RICARDO PIERONI,529837,46.7%,.00,T,7Rx7Ub2H,3Dw0Uk2K
 42871,3089 ARNEG ARGENTINA S.A. ✮✮,Parcialmente ejecutada,Todo Aprobado,Ejecución de pedido de artículo 24776,Enviado,F,3089/077,0,0,09/12/2025,RICARDO PIERONI,538839,51.3%,.00,T,7Rx7Ub2H,0Mw8Gz3K
-42871,3089 ARNEG ARGENTINA S.A. ✮✮,Parcialmente ejecutada,Todo Aprobado,Orden de trabajo ,Ensamblada,F,3089/078,0,0,09/12/2025,RICARDO PIERONI,538839,51.4%,-29.00,,7Rx7Ub2H,7Es1Xz6T
-42871,3089 ARNEG ARGENTINA S.A. ✮✮,Parcialmente ejecutada,Todo Aprobado,Ejecución de pedido de artículo 24776,Enviado,F,3089/078,0,0,09/12/2025,RICARDO PIERONI,538839,51.4%,-29.00,T,7Rx7Ub2H,0Mq0Wi5F
+42871,3089 ARNEG ARGENTINA S.A. ✮✮,Parcialmente ejecutada,Todo Aprobado,Ejecución de pedido de artículo 24776,Enviado,F,3089/078,0,0,09/12/2025,RICARDO PIERONI,538839,51.4%,-29.00,T,7Rx7Ub2H,7Es1Xz6T
+42871,3089 ARNEG ARGENTINA S.A. ✮✮,Parcialmente ejecutada,Todo Aprobado,Orden de trabajo ,Ensamblada,F,3089/078,0,0,09/12/2025,RICARDO PIERONI,538839,51.4%,-29.00,,7Rx7Ub2H,0Mq0Wi5F
 42871,3089 ARNEG ARGENTINA S.A. ✮✮,Parcialmente ejecutada,Todo Aprobado,Orden de trabajo ,Liberada,F,3089/082,0,5000,09/12/2025,RICARDO PIERONI,538839,49.5%,6250.00,,7Rx7Ub2H,9Zc0Jy4O
 42914,3598 DEL VALLE EMBALAJES SRL ✮✮,Facturada,Todo Aprobado,Ejecución de pedido de artículo 24772,Enviado,F,4088/002,0,0,09/12/2025,RICARDO PIERONI,541920,43.5%,.00,T,0Ph8Mv3F,9Lx6Mu2V
 42918,3603 COMPANIA INTRODUCTORA DE BUENOS AIRES SA ,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo,,F,CAS-PPAR1048T040,0,360,09/12/2025,EXPRESO CARGO SA,542267,39.7%,252.00,,3Uo2Ut4U,9Lx6Mu2V
@@ -422,7 +422,7 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 42932,4239 EXPORTACIONES AGROINDUSTRIALES ARGENTINAS S.A. ,Ejecución de la orden pendiente,Todo Aprobado, ,,F,CAS-PPA1048T040,2592,0,11/12/2025,TRANSPORTE TOMASSINI,543342,29.8%,1451.52,,2Uv5Cp6O,0Ph8Mv3F
 42934,9400945 LAMED S.A. ✮✮,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo,,F,CAS-PPAR1048T043,0,540,11/12/2025,RICARDO PIERONI,543445,39.2%,432.00,,9Dw9Wh0V,5Mx5Rs0E
 42934,9400945 LAMED S.A. ✮✮,Ejecución de la orden pendiente,Todo Aprobado, ,,F,PPA1048F,72,0,11/12/2025,RICARDO PIERONI,543445,-17.3%,90.00,,9Dw9Wh0V,5Mx5Rs0E
-42906,12662 PRINTEMPS S.R.L. ✮✮,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Liberada,F,04965-00176-00,0,288,12/12/2025,RICARDO PIERONI,541124,48.3%,3772.80,,2Sp0Fe1F,7Rx7Ub2H
+42906,12662 PRINTEMPS S.R.L. ✮✮,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Ensamblada,F,04965-00176-00,288,0,12/12/2025,RICARDO PIERONI,541124,48.3%,3772.80,,2Sp0Fe1F,7Rx7Ub2H
 41832,5019 GRANJA TRES ARROYOS SACAFEI ✮✮,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Liberada,F,5019/002,0,360,12/12/2025,EXPRESO CARGO SA,475783,28.0%,324.00,,0Ql9Gi1V,5Nn8Fo2O
 41832,5019 GRANJA TRES ARROYOS SACAFEI ✮✮,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Liberada,F,5019/003,0,60,12/12/2025,EXPRESO CARGO SA,475783,39.3%,594.00,,0Ql9Gi1V,6Cx3Az0M
 41832,5019 GRANJA TRES ARROYOS SACAFEI ✮✮,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Liberada,F,5019/004,0,192,12/12/2025,EXPRESO CARGO SA,475783,36.0%,268.80,,0Ql9Gi1V,6Cx3Az0M
