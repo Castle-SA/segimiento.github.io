@@ -24,7 +24,7 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 42690,3363 GUALTIERI HNOS SA ✮✮,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 24513,Remitido,F,PPAR1048T,0,0,14/11/2025,EXPRESO LANCIONI,529699,36.4%,2494.80,T,1Sz3Yg2S,3Jg1St8F
 42643,4695 LAMARENCOCHE S.R.L. ✮✮✮,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 24516,Remitido,F,PPAR1048T,0,0,14/11/2025,TRANSPORTE TOMASSINI,527569,40.2%,295.20,T,3Fj8Xp5I,
 42676,6142 PAPELERA DEL SUR SRL ✮✮,Parcialmente ejecutada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 24518,Remitido,F,MTS548B,0,0,14/11/2025,RICARDO PIERONI,529237,100.0%,144.00,T,9Rc3Gf4C,2Jl6Ja1C
-42676,6142 PAPELERA DEL SUR SRL ✮✮,Parcialmente ejecutada,Todo Aprobado,Factura de venta 38813,Abierta,F,PPAR1024T,0,540,14/11/2025,RICARDO PIERONI,529237,40.4%,280.80,,9Rc3Gf4C,2Jl6Ja1C
+42676,6142 PAPELERA DEL SUR SRL ✮✮,Parcialmente ejecutada,Todo Aprobado,Factura de venta 38813,Abierta,F,PPAR1024T,0,540,14/11/2025,RICARDO PIERONI,529237,40.4%,280.80,,9Rc3Gf4C,3Dw0Uk2K
 42676,6142 PAPELERA DEL SUR SRL ✮✮,Parcialmente ejecutada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 24518,Remitido,F,PPAR1048M,0,0,14/11/2025,RICARDO PIERONI,529237,38.9%,64.80,T,9Rc3Gf4C,3Dw0Uk2K
 42676,6142 PAPELERA DEL SUR SRL ✮✮,Parcialmente ejecutada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 24518,Remitido,F,PPAR1048T,0,0,14/11/2025,RICARDO PIERONI,529237,38.8%,432.00,T,9Rc3Gf4C,3Dw0Uk2K
 42676,6142 PAPELERA DEL SUR SRL ✮✮,Parcialmente ejecutada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 24518,Remitido,F,PPAR524T,0,0,14/11/2025,RICARDO PIERONI,529237,99.9%,93.60,T,9Rc3Gf4C,3Dw0Uk2K
@@ -253,7 +253,7 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 42865,3089 ARNEG ARGENTINA S.A. ✮✮,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 24716,Remitido,F,3089/014,0,0,28/11/2025,RICARDO PIERONI,538513,44.0%,1020.00,T,7Rx7Ub2H,7Rx7Ub2H
 42865,3089 ARNEG ARGENTINA S.A. ✮✮,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 24716,Remitido,F,3089/022,0,0,28/11/2025,RICARDO PIERONI,538513,43.4%,1233.00,T,7Rx7Ub2H,7Rx7Ub2H
 42865,3089 ARNEG ARGENTINA S.A. ✮✮,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 24716,Remitido,F,3089/016,0,0,28/11/2025,RICARDO PIERONI,538513,33.4%,1956.00,T,7Rx7Ub2H,7Rx7Ub2H
-42866,3089 ARNEG ARGENTINA S.A. ✮✮,Parcialmente ejecutada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 24717,Remitido,F,3089/029,50000,0,28/11/2025,RICARDO PIERONI,538521,26.7%,270.00,T,7Rx7Ub2H,9Hm9Dl7F
+42866,3089 ARNEG ARGENTINA S.A. ✮✮,Parcialmente ejecutada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 24717,Remitido,F,3089/029,50000,0,28/11/2025,RICARDO PIERONI,538521,26.7%,270.00,T,7Rx7Ub2H,8Ds2Kv5E
 42866,3089 ARNEG ARGENTINA S.A. ✮✮,Parcialmente ejecutada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 24717,Remitido,F,CAS-PPAR1072T043,0,0,28/11/2025,RICARDO PIERONI,538521,41.9%,60.96,T,7Rx7Ub2H,0Mw8Gz3K
 42848,3096 FRECICAR SRL ✮✮,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 24692,Remitido,F,CAS-PPAR1048T045,0,0,28/11/2025,RICARDO PIERONI,537380,60.7%,428.40,T,9Zc0Jy4O,0Jn1Mv5H
 42847,3993 PESQUERA VERAZ SA ,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 24713,Remitido,F,CAS-PPAR1048T045,0,0,28/11/2025,TRANSPORTE TOMASSINI,537330,100.0%,.00,T,5Ow0Bi3L,0Ph8Mv3F
@@ -409,16 +409,17 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 42942,1911 OBEN ARGENTINA SA ✮✮,Facturación pendiente,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 24810,Remitido,F,PPAR1048M,0,0,11/12/2025,EXPRESO CARGO SA,543971,40.9%,167.40,F,2Hk3Ao8U,0Bz8Ix7O
 42942,1911 OBEN ARGENTINA SA ✮✮,Facturación pendiente,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 24811,Remitido,F,CAS-PPAR1048T045,0,0,11/12/2025,EXPRESO CARGO SA,543971,60.6%,306.00,F,2Hk3Ao8U,9Pk0Ny6V
 42924,3096 FRECICAR SRL ✮✮,Parcialmente ejecutada,Todo Aprobado,Orden de trabajo,Abierta,F,CAS-PPAR1048T045,0,360,11/12/2025,RICARDO PIERONI,542855,62.8%,324.00,,9Zc0Jy4O,3Jg1St8F
-42817,3598 DEL VALLE EMBALAJES SRL ✮✮,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo,,F,CAS-PPAR1048T045,2088,1512,11/12/2025,RICARDO PIERONI,534765,55.1%,2772.00,,0Ph8Mv3F,9Lx6Mu2V
+42817,3598 DEL VALLE EMBALAJES SRL ✮✮,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo,,F,CAS-PPAR1048T045,1080,2520,11/12/2025,RICARDO PIERONI,534765,55.1%,2772.00,,0Ph8Mv3F,9Lx6Mu2V
 42935,3771 PILISAR SA ✮✮,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo,,F,CAS-PPAR1048T043,0,108,11/12/2025,EXPRESO CARGO SA,543558,36.8%,83.16,,6Qa0Ib0C,5Hd9Vg2B
 42946,3862 FAMEIM SA ✮✮,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 24801,Remitido,F,CAS-PPAR1072T043,0,0,11/12/2025,EXPRESO BRIO SRL,544217,40.0%,147.60,T,2Sr4Oc0K,7Zr9Rh6S
 42946,3862 FAMEIM SA ✮✮,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 24802,Remitido,F,CAS-PPAR1048T045,0,0,11/12/2025,EXPRESO BRIO SRL,544217,59.2%,59.04,T,2Sr4Oc0K,7Rx7Ub2H
 42937,4063 GLUPS SRL ✮✮,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo,,F,CAS-PPAR1048T043,0,1080,11/12/2025,EXPRESO CARGO SA,543560,39.2%,864.00,,2Ys1Jc8S,3Ny6Zw2O
 42437,499 NARDI Y HERRERO S R L ✮✮✮✮,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 24796,Remitido,T,0499/001,0,0,11/12/2025,RICARDO PIERONI,515071,95.5%,390.00,T,6Sm5Hs5Z,6Cx3Az0M
-42676,6142 PAPELERA DEL SUR SRL ✮✮,Parcialmente ejecutada,Todo Aprobado,Factura de venta 39087,Abierta,F,PPAR1024T,0,540,11/12/2025,RICARDO PIERONI,529237,40.4%,280.80,,9Rc3Gf4C,3Dw0Uk2K
+42676,6142 PAPELERA DEL SUR SRL ✮✮,Parcialmente ejecutada,Todo Aprobado,Factura de venta 39087,Abierta,F,PPAR1024T,0,540,11/12/2025,RICARDO PIERONI,529237,40.4%,280.80,,9Rc3Gf4C,2Jl6Ja1C
 42947,690 CEVA DE ARGENTINA SRL ✮✮,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 24800,Remitido,F,2025/001,0,0,11/12/2025,FELICI JORGE ARIEL,544375,60.1%,3010.00,T,3Pt0Oq8I,7Xt9Gc1E
 42948,690 CEVA DE ARGENTINA SRL ✮✮,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 24805,Remitido,F,0690/010,0,0,11/12/2025,FELICI JORGE ARIEL,544377,97.6%,4100.00,T,3Pt0Oq8I,7Xt9Gc1E
 42916,9400444 CRONI SA ✮✮,Facturación pendiente/parcialmente ejecutada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 24809,Remitido,F,CAS-PPHR10048XT045,66,24,11/12/2025,EXPRESO CARGO SA,542030,44.5%,413.70,F,0Rx5Fn3N,3Jc0Cw5E
+42957,9400716 RAFAELA ALIMENTOS SA ,Facturación pendiente,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 24812,Remitido,F,CAS-PPAR1048T045,0,0,11/12/2025,EXPRESO SANTA ROSA,544999,52.2%,705.60,F,8Ej8At4Q,0Te3Bc5F
 42934,9400945 LAMED S.A. ✮✮,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo,,F,CAS-PPAR1048T043,0,540,11/12/2025,RICARDO PIERONI,543445,39.2%,432.00,,9Dw9Wh0V,4Is2Rn8E
 42934,9400945 LAMED S.A. ✮✮,Ejecución de la orden pendiente,Todo Aprobado, ,,F,PPA1048F,72,0,11/12/2025,RICARDO PIERONI,543445,-17.3%,90.00,,9Dw9Wh0V,4Is2Rn8E
 42878,9400962 CRYSTAL-ICE SRL ✮✮,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 24804,Remitido,F,CAS-PPA1048T040,0,0,11/12/2025,RICARDO PIERONI,539408,28.6%,3564.00,T,4Is2Rn8E,7Qv9Mi1Z
@@ -485,7 +486,7 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 41833,3089 ARNEG ARGENTINA S.A. ✮✮,Parcialmente ejecutada,Todo Aprobado,Orden de trabajo ,Cerrada,T,3089/082,0,5850,,FELICI JORGE ARIEL,475784,52.2%,7312.50,,7Rx7Ub2H,0Vc7Du3D
 42523,3089 ARNEG ARGENTINA S.A. ✮✮,Ejecución de la orden pendiente,Todo Aprobado, ,,T,3089/052,0,4000,,FELICI GERARDO FABIAN,520980,19.6%,3680.00,,7Rx7Ub2H,1Rf6Ez5C
 42708,3089 ARNEG ARGENTINA S.A. ✮✮,Ejecución de la orden pendiente,Todo Aprobado, ,,T,3089/052,0,4200,,RICARDO PIERONI,530210,7.6%,3864.00,,7Rx7Ub2H,2Wy4Vz4B
-42866,3089 ARNEG ARGENTINA S.A. ✮✮,Parcialmente ejecutada,Todo Aprobado,Orden de trabajo ,Ensamblada,F,3089/029,50000,0,,RICARDO PIERONI,538521,26.7%,270.00,,7Rx7Ub2H,8Ds2Kv5E
+42866,3089 ARNEG ARGENTINA S.A. ✮✮,Parcialmente ejecutada,Todo Aprobado,Orden de trabajo ,Ensamblada,F,3089/029,50000,0,,RICARDO PIERONI,538521,26.7%,270.00,,7Rx7Ub2H,9Hm9Dl7F
 42748,383 JOHNSON ACERO S.A. Industrial y Comercial ✮✮✮,Ejecución de la orden pendiente,Todo Aprobado, ,,F,MTS548B,0,1080,,RICARDO PIERONI,532575,25.5%,2160.00,,6Bb0Mu1P,2Me3Fc7D
 42824,9400215 CARLOS MAXIMILIANO BASILIO ✮✮✮✮,Ejecución de la orden pendiente,Todo Aprobado, ,,F,PPHPR100144B028,0,1,,EXPRESO CARGO SA,535319,100.0%,.00,,0Fo4Wq8J,0We8Yn4Q
 42305,9400312 SABORISIMO S.A. (FACHITAS) ,Ejecución de la orden pendiente,Todo Aprobado, ,,F,PPHR15048XT,1,0,,EXPRESO CARGO SA,506218,100.0%,.00,,7Ip7Qv8Y,9Xw3Zi2V
