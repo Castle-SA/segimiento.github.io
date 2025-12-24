@@ -237,7 +237,7 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 42900,178 DROGUERIA DEL SUD S.A. ✮✮,Facturada,Todo Aprobado,Ejecución de pedido de artículo 24819,Enviado,F,CAS-PPAR1048T040,0,0,12/12/2025,EXPRESO LUJAN DEL CUYO SA,540952,32.4%,.00,T,5Mx5Rs0E,3Dw0Uk2K
 42801,3051 FRIMETAL S.A. ,Facturada,Todo Aprobado,Ejecución de pedido de artículo 24825,Enviado,F,3051-04943-36,0,0,12/12/2025,FELICI JORGE ARIEL,534295,23.3%,.00,T,3Dw0Uk2K,9Qb8Fy5U
 42871,3089 ARNEG ARGENTINA S.A. ✮✮,Facturada,Todo Aprobado,Ejecución de pedido de artículo 24821,Enviado,F,3089/082,0,0,12/12/2025,RICARDO PIERONI,538839,49.5%,-350.00,T,7Rx7Ub2H,2Wy4Vz4B
-42817,3598 DEL VALLE EMBALAJES SRL ✮✮,Facturada,Todo Aprobado,Ejecución de pedido de artículo 24822,Enviado,F,CAS-PPAR1048T045,0,0,12/12/2025,RICARDO PIERONI,534765,55.1%,.00,T,0Ph8Mv3F,0Mw8Gz3K
+42817,3598 DEL VALLE EMBALAJES SRL ✮✮,Facturada,Todo Aprobado,Ejecución de pedido de artículo 24822,Enviado,F,CAS-PPAR1048T045,0,0,12/12/2025,RICARDO PIERONI,534765,55.1%,.00,T,0Ph8Mv3F,9Hm9Dl7F
 42918,3603 COMPANIA INTRODUCTORA DE BUENOS AIRES SA ,Facturada,Todo Aprobado,Ejecución de pedido de artículo 24820,Enviado,F,CAS-PPAR1048T040,0,0,12/12/2025,EXPRESO CARGO SA,542267,39.7%,.00,T,3Uo2Ut4U,0Jn1Mv5H
 42907,88 LACTEOS PUYEHUE S.R.L. ,Facturada,Todo Aprobado,Ejecución de pedido de artículo 24823,Enviado,F,H11/CPE,0,0,12/12/2025,TRANSPORTE EL DIABLO ROJO,541235,38.4%,.00,T,2Cq0Kg9P,3Dw0Uk2K
 42907,88 LACTEOS PUYEHUE S.R.L. ,Facturada,Todo Aprobado,Ejecución de pedido de artículo 24823,Enviado,F,PPA1548TE,0,0,12/12/2025,TRANSPORTE EL DIABLO ROJO,541235,39.1%,.00,T,2Cq0Kg9P,3Dw0Uk2K
@@ -294,8 +294,8 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 42852,2872 INBELT SRL ✮✮✮✮,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Liberada,F,2872/002,0,360,19/12/2025,RICARDO PIERONI,537597,95.0%,450.00,,5Pm5Ef5K,1Tu2Pr5C
 42985,3051 FRIMETAL S.A. ,Facturada,Todo Aprobado,Ejecución de pedido de artículo 24847,Enviado,F,2280/004,0,0,19/12/2025,FELICI JORGE ARIEL,547241,60.4%,-546.348,T,3Dw0Uk2K,
 42986,3051 FRIMETAL S.A. ,Facturada,Todo Aprobado,Ejecución de pedido de artículo 24848,Enviado,F,MTP548B,0,0,19/12/2025,FELICI JORGE ARIEL,547257,36.3%,.00,T,3Dw0Uk2K,
-42708,3089 ARNEG ARGENTINA S.A. ✮✮,Parcialmente ejecutada,Todo Aprobado,Factura de venta 39140,Abierta,T,3089/052,0,700,19/12/2025,RICARDO PIERONI,530210,7.6%,644.00,,7Rx7Ub2H,2Au6Re6F
-42708,3089 ARNEG ARGENTINA S.A. ✮✮,Parcialmente ejecutada,Todo Aprobado,Ejecución de pedido de artículo 24849,Enviado,T,3089/052,0,700,19/12/2025,RICARDO PIERONI,530210,7.6%,644.00,T,7Rx7Ub2H,1Fr4Ch9I
+42708,3089 ARNEG ARGENTINA S.A. ✮✮,Parcialmente ejecutada,Todo Aprobado,Ejecución de pedido de artículo 24849,Enviado,T,3089/052,0,700,19/12/2025,RICARDO PIERONI,530210,7.6%,644.00,T,7Rx7Ub2H,2Au6Re6F
+42708,3089 ARNEG ARGENTINA S.A. ✮✮,Parcialmente ejecutada,Todo Aprobado,Factura de venta 39140,Abierta,T,3089/052,0,700,19/12/2025,RICARDO PIERONI,530210,7.6%,644.00,,7Rx7Ub2H,1Fr4Ch9I
 43003,3255 JOSE LLENES SACIF ✮✮,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo,,F,CAS-PPAR1048T043,0,540,19/12/2025,EXPRESO CARGO SA,548159,36.9%,415.80,,8Uz0Uq7T,7Rx7Ub2H
 42964,4733 TECNOSISTEM SRL ✮✮,Facturada,Todo Aprobado,Ejecución de pedido de artículo 24851,Enviado,F,MTP548B,0,0,19/12/2025,EXPRESO CARGO SA,545522,53.8%,.00,T,4Mf4Bj0L,2Nw2Uj9H
 42719,89 PEUGEOT CITROEN ARGENTINA S.A. ,Facturación pendiente,Todo Aprobado,Ejecución de pedido de artículo 24852,Enviado,F,0089/007,0,0,19/12/2025,EXPRESO CARGO SA,530797,66.2%,.00,F,6Xg2Vq7X,3Dw0Uk2K
@@ -305,7 +305,7 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 42943,2283 RECKITT BENCKISER ARGENTINA SA ,Facturada,Todo Aprobado,Ejecución de pedido de artículo 24861,Enviado,F,PPHR15048XT,0,0,22/12/2025,EXPRESO LUJAN DEL CUYO SA,544110,0.0%,.00,T,8Kv1Jo3K,3Ys9An8W
 43006,260 SUCESION DE BARCIA CLAUDIO RODRIGO ,Ejecución de la orden pendiente,Todo Aprobado, ,,F,MTP548B,432,0,22/12/2025,RICARDO PIERONI,548642,40.0%,864.00,,6Ib6Fj6R,9Tj7Li2O
 42954,300 GESTAMP CORDOBA S.A. ✮✮,Facturada,Todo Aprobado,Ejecución de pedido de artículo 24860,Enviado,F,V20,0,0,22/12/2025,RETIRAN,544854,64.3%,.00,T,0Ai6Rj2W,9Qb8Fy5U
-42817,3598 DEL VALLE EMBALAJES SRL ✮✮,Facturada,Todo Aprobado,Ejecución de pedido de artículo 24854,Enviado,F,CAS-PPAR1048T045,0,0,22/12/2025,RICARDO PIERONI,534765,55.1%,.00,T,0Ph8Mv3F,9Hm9Dl7F
+42817,3598 DEL VALLE EMBALAJES SRL ✮✮,Facturada,Todo Aprobado,Ejecución de pedido de artículo 24854,Enviado,F,CAS-PPAR1048T045,0,0,22/12/2025,RICARDO PIERONI,534765,55.1%,.00,T,0Ph8Mv3F,0Mw8Gz3K
 42984,3676 FRIGORIFICO MARK SA ✮✮,Facturada,Todo Aprobado,Ejecución de pedido de artículo 24857,Enviado,F,PVC612R,0,0,22/12/2025,RETIRAN,547006,67.7%,.00,T,2Nw2Uj9H,0Jn1Mv5H
 42937,4063 GLUPS SRL ✮✮,Facturada,Todo Aprobado,Ejecución de pedido de artículo 24855,Enviado,F,CAS-PPAR1048T045,0,0,22/12/2025,EXPRESO CARGO SA,543560,58.2%,.00,T,2Ys1Jc8S,8Cf1Ra3G
 42884,4674 GIORNO S A (GRUPO VALASTRO) ✮✮,Parcialmente ejecutada,Todo Aprobado,Ejecución de pedido de artículo 24856,Enviado,F,CAS-PPAR1072T043,18,582,22/12/2025,TRANSPORTE TOMASSINI,540233,36.4%,696.00,T,1Jm9Zf6J,
@@ -354,6 +354,7 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 43023,9403267 SERVICIOS INDUSTRIALES SRL ,Parcialmente ejecutada,Todo Aprobado,Ejecución de pedido de artículo 24864,Enviado,F,V20,0,0,23/12/2025,RETIRAN,549800,100.0%,.00,T,,5Mx5Rs0E
 43026,12662 PRINTEMPS S.R.L. ✮✮,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo,,F,CAS-PPAR1048T043,0,360,24/12/2025,RICARDO PIERONI,550151,42.8%,306.00,,2Sp0Fe1F,5Ow8Cg8A
 43015,3051 FRIMETAL S.A. ,Ejecución de la orden pendiente,Todo Aprobado, ,,F,MTP548B,1116,0,24/12/2025,FELICI JORGE ARIEL,549416,35.9%,2.088.244,,3Dw0Uk2K,
+43031,3086 MULTIORIGINAL PARTS SA ✮✮,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo,,F,CAS-PPAR1048T043,0,756,26/12/2025,TRANSPORTE TOMASSINI,550794,39.2%,604.80,,1Fr4Ch9I,
 43028,690 CEVA DE ARGENTINA SRL ✮✮,Ejecución de la orden pendiente,Todo Aprobado, ,,F,0690/010,800,0,26/12/2025,FELICI JORGE ARIEL,550294,97.6%,3280.00,,3Pt0Oq8I,9Or7Px4G
 42941,12662 PRINTEMPS S.R.L. ✮✮,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Liberada,F,12662/001,0,540,29/12/2025,RICARDO PIERONI,543970,6.8%,675.00,,2Sp0Fe1F,7Rx7Ub2H
 42941,12662 PRINTEMPS S.R.L. ✮✮,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Liberada,F,12662/002,0,540,29/12/2025,RICARDO PIERONI,543970,6.8%,675.00,,2Sp0Fe1F,7Rx7Ub2H
@@ -384,6 +385,7 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 42978,94010 VISUAR SA ✮✮,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Liberada,F,1823/002,0,192,12/01/2026,EXPRESO CARGO SA,546719,46.3%,5472.00,,4Gf8Oa0H,3Dw0Uk2K
 43001,15 IND. JOHN DEERE ARGENTINA S.A. ✮✮,Ejecución de la orden pendiente,Todo Aprobado, ,,F,0015/014/VCI,0,3000,19/01/2026,FELICI JORGE ARIEL,548038,80.5%,1320.00,,8Ky5Hq9D,5Pj9Xf1N
 43002,15 IND. JOHN DEERE ARGENTINA S.A. ✮✮,Ejecución de la orden pendiente,Todo Aprobado, ,,F,0015/015/VCI,0,3000,19/01/2026,FELICI JORGE ARIEL,548138,80.2%,1770.00,,8Ky5Hq9D,
+43030,2556 TEJIDOS LATINOS SA ✮✮,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Liberada,F,2556/001,0,312,20/01/2026,EXPRESO CARGO SA,550674,65.5%,664.56,,0Cb5Za6D,9Aq0Ft5G
 42761,5019 GRANJA TRES ARROYOS SACAFEI ✮✮,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Liberada,F,5019/005,0,40,22/01/2026,EXPRESO CARGO SA,534005,64.3%,888.00,,0Ql9Gi1V,6Ng7Hp1X
 42533,3598 DEL VALLE EMBALAJES SRL ✮✮,Ejecución de la orden pendiente,Todo Aprobado, ,,F,PPAR15096T,0,60,27/01/2026,RICARDO PIERONI,521373,56.7%,1650.00,,0Ph8Mv3F,8Ds2Kv5E
 42739,583 TERRAGENE SA ✮✮,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Ensamblada,F,04965-00011-00,300,0,28/01/2026,FELICI JORGE ARIEL,532248,55.5%,4200.00,,5Pl6Eg8H,0Bz8Ix7O
