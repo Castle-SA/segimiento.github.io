@@ -6,7 +6,7 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 42676,6142 PAPELERA DEL SUR SRL ✮✮,Parcialmente ejecutada,Todo Aprobado,Factura de venta 38813,Pagado por completo,F,PPAR1024T,0,540,14/11/2025,RICARDO PIERONI,529237,40.4%,280.80,,9Rc3Gf4C,6Cx3Az0M
 42692,1343 NEWSAN SA ✮✮,Parcialmente ejecutada,Todo Aprobado,Factura de venta 38837,Pagado por completo,F,CAS-PPHR10072XT045,0,2,18/11/2025,RETIRAN,529813,100.0%,.00,,1Xr6So1J,3Dw0Uk2K
 42755,18293 DULCOR SA ✮✮,Parcialmente ejecutada,Todo Aprobado,Factura de venta 38875,Pagado por completo,F,PPAR15048T,0,162,20/11/2025,EXPRESO LANCIONI,533298,44.2%,2227.50,,0Jn1Mv5H,2Gq6Ps1R
-42746,12877 BRIKET SA ✮✮,Parcialmente ejecutada,Todo Aprobado,Factura de venta 38905,Pagado por completo,F,CAS-MTS548B,0,1224,21/11/2025,FELICI JORGE ARIEL,532462,22.8%,2448.00,,6Rp2Ce7I,6Ng7Hp1X
+42746,12877 BRIKET SA ✮✮,Parcialmente ejecutada,Todo Aprobado,Factura de venta 38905,Pagado por completo,F,CAS-MTS548B,0,1224,21/11/2025,FELICI JORGE ARIEL,532462,22.8%,2448.00,,6Rp2Ce7I,8Ky5Hq9D
 42736,1029 DREAN SA ,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo,,F,CAS-MTS548B,0,2016,25/11/2025,EXPRESO CARGO SA,532245,19.1%,3850.56,,6Ng7Hp1X,7Rx7Ub2H
 42832,105 SCANIA ARGENTINA SAU ✮✮,Facturada,Todo Aprobado,Ejecución de pedido de artículo 24652,Enviado,F,LC579,0,0,25/11/2025,LA SEVILLANITA SRL,536326,67.7%,.00,T,2Yb2Zq5E,0Io3Fg7R
 42836,12877 BRIKET SA ✮✮,Facturada,Todo Aprobado,Ejecución de pedido de artículo 24659,Enviado,F,MUESTRA ESPECIAL,0,0,25/11/2025,RETIRAN,536633,100.0%,.00,T,6Rp2Ce7I,8Ky5Hq9D
@@ -24,7 +24,7 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 42810,1149 EL DORADO SA ✮✮,Parcialmente ejecutada,Todo Aprobado,Ejecución de pedido de artículo 24662,Enviado,F,MTP536B,0,0,26/11/2025,FELICI JORGE ARIEL,534631,17.7%,.00,T,9Yg2Bd3D,4Is2Rn8E
 42842,12849 FERRERO ARGENTINA SA ,Facturada,Todo Aprobado,Ejecución de pedido de artículo 24666,Enviado,F,CAS-PPAR1072T043,0,0,26/11/2025,EXPRESO CARGO SA,537039,39.9%,.00,T,5Oy9Im9F,1Bj3Wa5S
 42746,12877 BRIKET SA ✮✮,Parcialmente ejecutada,Todo Aprobado,Ejecución de pedido de artículo 24664,Enviado,F,0272/004,0,0,26/11/2025,FELICI JORGE ARIEL,532462,36.0%,.00,T,6Rp2Ce7I,8Xq9Re2A
-42746,12877 BRIKET SA ✮✮,Parcialmente ejecutada,Todo Aprobado,Factura de venta 38969,Pagado por completo,F,CAS-MTS548B,0,1224,26/11/2025,FELICI JORGE ARIEL,532462,22.8%,2448.00,,6Rp2Ce7I,8Ky5Hq9D
+42746,12877 BRIKET SA ✮✮,Parcialmente ejecutada,Todo Aprobado,Factura de venta 38969,Pagado por completo,F,CAS-MTS548B,0,1224,26/11/2025,FELICI JORGE ARIEL,532462,22.8%,2448.00,,6Rp2Ce7I,6Ng7Hp1X
 42561,1412 F R I A R SA ,Facturada,Todo Aprobado,Ejecución de pedido de artículo 24661,Enviado,F,CAS-PPAR1072T043,0,0,26/11/2025,TRANSPORTE SNAIDER,523058,37.4%,.00,T,1Vf8Uo1P,6Ib6Fj6R
 42838,143 EPTA ARGENTINA S.A. ✮✮,Facturada,Todo Aprobado,Ejecución de pedido de artículo 24665,Enviado,F,MTS536B,0,0,26/11/2025,RICARDO PIERONI,536801,57.7%,.00,T,1Tu2Pr5C,6Ib6Fj6R
 42838,143 EPTA ARGENTINA S.A. ✮✮,Facturada,Todo Aprobado,Ejecución de pedido de artículo 24672,Enviado,F,PVC648B,0,0,26/11/2025,RICARDO PIERONI,536801,69.1%,.00,T,1Tu2Pr5C,6Ib6Fj6R
@@ -352,12 +352,12 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 43018,9402290 BI MERCANTIL SAS ✮✮,Facturada,Todo Aprobado,Ejecución de pedido de artículo 24886,Enviado,F,PPA1548TE,0,0,23/12/2025,TRANSPORTE MOSTTO,549575,33.3%,.00,T,6Cx3Az0M,0Cu0Hq8R
 43023,9403267 SERVICIOS INDUSTRIALES SRL ,Parcialmente ejecutada,Todo Aprobado,Factura de venta 39158,Pagado por completo,F,BV002,0,2,23/12/2025,RETIRAN,549800,100.0%,.00,,,5Mx5Rs0E
 43023,9403267 SERVICIOS INDUSTRIALES SRL ,Parcialmente ejecutada,Todo Aprobado,Ejecución de pedido de artículo 24864,Enviado,F,V20,0,0,23/12/2025,RETIRAN,549800,100.0%,.00,T,,5Mx5Rs0E
-43026,12662 PRINTEMPS S.R.L. ✮✮,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo,,F,CAS-PPAR1048T043,0,360,24/12/2025,RICARDO PIERONI,550151,42.8%,306.00,,2Sp0Fe1F,5Ow8Cg8A
 43015,3051 FRIMETAL S.A. ,Ejecución de la orden pendiente,Todo Aprobado, ,,F,MTP548B,1116,0,24/12/2025,FELICI JORGE ARIEL,549416,35.9%,2.088.244,,3Dw0Uk2K,
 43031,3086 MULTIORIGINAL PARTS SA ✮✮,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo,,F,CAS-PPAR1048T043,0,756,26/12/2025,TRANSPORTE TOMASSINI,550794,39.2%,604.80,,1Fr4Ch9I,
 43028,690 CEVA DE ARGENTINA SRL ✮✮,Ejecución de la orden pendiente,Todo Aprobado, ,,F,0690/010,800,0,26/12/2025,FELICI JORGE ARIEL,550294,97.6%,3280.00,,3Pt0Oq8I,8Ej8At4Q
 42941,12662 PRINTEMPS S.R.L. ✮✮,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Liberada,F,12662/001,0,540,29/12/2025,RICARDO PIERONI,543970,6.8%,675.00,,2Sp0Fe1F,5Ow8Cg8A
 42941,12662 PRINTEMPS S.R.L. ✮✮,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Liberada,F,12662/002,0,540,29/12/2025,RICARDO PIERONI,543970,6.8%,675.00,,2Sp0Fe1F,5Ow8Cg8A
+43026,12662 PRINTEMPS S.R.L. ✮✮,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo,,F,CAS-PPAR1048T043,0,360,29/12/2025,RICARDO PIERONI,550151,42.8%,306.00,,2Sp0Fe1F,5Ow8Cg8A
 42458,202 FRIGORIFICO DE AVES SOYCHU SA ✮✮,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Ensamblada,F,PVC612R,288,0,29/12/2025,EXPRESO CARGO SA,515728,35.7%,288.00,,5Ow8Cg8A,4Vs0Qf0C
 42458,202 FRIGORIFICO DE AVES SOYCHU SA ✮✮,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Ensamblada,F,PPHR1216B,324,0,29/12/2025,EXPRESO CARGO SA,515728,34.7%,327.24,,5Ow8Cg8A,4Vs0Qf0C
 42816,132 MAHLE VALVULAS DE ARGENTINA SA ✮✮,Ejecución de la orden pendiente,Todo Aprobado, ,,F,FLJSPET12016V,20,0,31/12/2025,EXPRESO SANTA ROSA,534764,8.0%,1160.00,,6Ls2Pd3Q,7Xr0Sq4A
