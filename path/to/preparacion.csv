@@ -179,7 +179,7 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 42676,6142 PAPELERA DEL SUR SRL ✮✮,Parcialmente ejecutada,Todo Aprobado,Factura de venta 39087,Pagado por completo,F,PPAR1024T,0,540,11/12/2025,RICARDO PIERONI,529237,40.4%,280.80,,9Rc3Gf4C,4Jl3Vt9D
 42947,690 CEVA DE ARGENTINA SRL ✮✮,Facturada,Todo Aprobado,Ejecución de pedido de artículo 24800,Enviado,F,2025/001,0,0,11/12/2025,FELICI JORGE ARIEL,544375,60.1%,.00,T,3Pt0Oq8I,
 42948,690 CEVA DE ARGENTINA SRL ✮✮,Facturada,Todo Aprobado,Ejecución de pedido de artículo 24805,Enviado,F,0690/010,0,0,11/12/2025,FELICI JORGE ARIEL,544377,97.6%,.00,T,3Pt0Oq8I,
-42916,9400444 CRONI SA ✮✮,Facturada,Todo Aprobado,Ejecución de pedido de artículo 24809,Enviado,F,CAS-PPHR10048XT045,0,0,11/12/2025,EXPRESO CARGO SA,542030,44.5%,.00,T,0Rx5Fn3N,5Oy9Im9F
+42916,9400444 CRONI SA ✮✮,Facturada,Todo Aprobado,Ejecución de pedido de artículo 24809,Enviado,F,CAS-PPHR10048XT045,0,0,11/12/2025,EXPRESO CARGO SA,542030,44.5%,.00,T,0Rx5Fn3N,8Ej8At4Q
 42823,9400716 RAFAELA ALIMENTOS SA ,Parcialmente ejecutada,Todo Aprobado,Ejecución de pedido de artículo 24813,Enviado,F,CAS-PPA15048T045,0,0,11/12/2025,EXPRESO SANTA ROSA,535187,59.2%,.00,T,8Ej8At4Q,3Dw0Uk2K
 42957,9400716 RAFAELA ALIMENTOS SA ,Facturada,Todo Aprobado,Ejecución de pedido de artículo 24812,Enviado,F,CAS-PPAR1048T045,0,0,11/12/2025,EXPRESO SANTA ROSA,544999,52.2%,-5.60,T,8Ej8At4Q,3Dw0Uk2K
 42878,9400962 CRYSTAL-ICE SRL ✮✮,Facturada,Todo Aprobado,Ejecución de pedido de artículo 24804,Enviado,F,CAS-PPA1048T040,0,0,11/12/2025,RICARDO PIERONI,539408,28.6%,.00,T,4Is2Rn8E,7Ii4Et8I
@@ -239,7 +239,7 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 42945,629 INDUSTRIAS QUIMICAS BG SRL ✮✮,Facturada,Todo Aprobado,Ejecución de pedido de artículo 24838,Enviado,F,PPA1548TE,0,0,16/12/2025,RICARDO PIERONI,544113,45.5%,.00,T,0Ze2Hm4P,3Qo4Fx7M
 42945,629 INDUSTRIAS QUIMICAS BG SRL ✮✮,Facturada,Todo Aprobado,Ejecución de pedido de artículo 24838,Enviado,F,CAS-PPAR1048T045,0,0,16/12/2025,RICARDO PIERONI,544113,66.5%,.00,T,0Ze2Hm4P,4Xz9An3R
 42972,9400422 LACTEOS TONUTTI S.R.L. ,Ejecución de la orden pendiente,Todo Aprobado, ,,F,PPHR15048XT,0,60,16/12/2025,TRANSPORTE MOSTTO,546471,42.7%,1200.00,,3Nb5Vf8A,8Cf1Ra3G
-42916,9400444 CRONI SA ✮✮,Facturada,Todo Aprobado,Ejecución de pedido de artículo 24834,Enviado,F,CAS-PPHR10048XT045,0,0,16/12/2025,EXPRESO CARGO SA,542030,44.5%,.00,T,0Rx5Fn3N,8Ej8At4Q
+42916,9400444 CRONI SA ✮✮,Facturada,Todo Aprobado,Ejecución de pedido de artículo 24834,Enviado,F,CAS-PPHR10048XT045,0,0,16/12/2025,EXPRESO CARGO SA,542030,44.5%,.00,T,0Rx5Fn3N,5Oy9Im9F
 42988,4305 LA PIARA SRL ✮✮,Facturada,Todo Aprobado,Ejecución de pedido de artículo 24844,Enviado,F,H11/CPE,0,0,17/12/2025,TRANSPORTE AGUILAR S.R.L.,547367,42.8%,.00,T,7My0Kb3O,8Cf1Ra3G
 42988,4305 LA PIARA SRL ✮✮,Facturada,Todo Aprobado,Ejecución de pedido de artículo 24844,Enviado,F,PPA1548TE,0,0,17/12/2025,TRANSPORTE AGUILAR S.R.L.,547367,43.1%,.00,T,7My0Kb3O,8Cf1Ra3G
 42934,9400945 LAMED S.A. ✮✮,Facturada,Todo Aprobado,Ejecución de pedido de artículo 24843,Enviado,F,PPA1048F,0,0,17/12/2025,RICARDO PIERONI,543445,-17.3%,.00,T,9Dw9Wh0V,6Ng7Hp1X
@@ -327,6 +327,7 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 42458,202 FRIGORIFICO DE AVES SOYCHU SA ✮✮,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Ensamblada,F,PVC612R,288,0,29/12/2025,EXPRESO CARGO SA,515728,35.7%,288.00,,5Ow8Cg8A,3Dw0Uk2K
 42458,202 FRIGORIFICO DE AVES SOYCHU SA ✮✮,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Ensamblada,F,PPHR1216B,324,0,29/12/2025,EXPRESO CARGO SA,515728,34.7%,327.24,,5Ow8Cg8A,3Dw0Uk2K
 43038,3089 ARNEG ARGENTINA S.A. ✮✮,Ejecución de la orden pendiente,Todo Aprobado, ,,F,MUESTRA ESPECIAL,1,0,29/12/2025,RETIRAN,551507,100.0%,.00,,7Rx7Ub2H,0Vc7Du3D
+43035,918 PEDRIN III SRL ,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo,,F,CAS-PPAR1048T043,0,540,29/12/2025,RICARDO PIERONI,551175,42.8%,459.00,,1Xs7Zy5E,8Yp8Ld0P
 43033,9402017 NUNZIO SRL ✮✮,Ejecución de la orden pendiente,Todo Aprobado, ,,F,CAS-PPAR1048T045,216,0,29/12/2025,RICARDO PIERONI,551030,70.9%,248.40,,3Ww3Di0Q,6Ls2Pd3Q
 42816,132 MAHLE VALVULAS DE ARGENTINA SA ✮✮,Ejecución de la orden pendiente,Todo Aprobado, ,,F,FLJSPET12016V,20,0,31/12/2025,EXPRESO SANTA ROSA,534764,8.0%,1160.00,,6Ls2Pd3Q,2Uv7Bb0L
 42902,9402597 EMMAPEL SA ✮✮✮✮,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Liberada,F,2597/001,0,360,31/12/2025,EXPRESO LUJAN DEL CUYO SA,540957,100.0%,450.00,,,0Xf3Bl8T
