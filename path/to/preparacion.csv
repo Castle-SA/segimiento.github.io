@@ -5,7 +5,7 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 42692,1343 NEWSAN SA ✮✮,Parcialmente ejecutada,Todo Aprobado,Factura de venta 38837,Pagado por completo,F,CAS-PPHR10072XT045,0,2,18/11/2025,RETIRAN,529813,100.0%,.00,,1Xr6So1J,1Bj3Wa5S
 42736,1029 DREAN SA ,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo,,F,CAS-MTS548B,0,2016,25/11/2025,EXPRESO CARGO SA,532245,19.1%,3850.56,,6Ng7Hp1X,5Pl6Eg8H
 42738,1029 DREAN SA ,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo,,F,CAS-MTS548B,0,2016,02/12/2025,EXPRESO CARGO SA,532247,19.1%,3850.56,,6Ng7Hp1X,2Df5Fp8J
-42872,9401929 PETROPACK S.A. ✮✮,Parcialmente ejecutada,Todo Aprobado,Factura de venta 39032,Abierta,F,PPAR524T,0,651,02/12/2025,TRANSPORTE MOSTTO,538934,99.9%,162.75,,8Ou2Yz9L,0Mw8Gz3K
+42872,9401929 PETROPACK S.A. ✮✮,Parcialmente ejecutada,Todo Aprobado,Factura de venta 39032,Pagado por completo,F,PPAR524T,0,651,02/12/2025,TRANSPORTE MOSTTO,538934,99.9%,162.75,,8Ou2Yz9L,0Mw8Gz3K
 42880,1067 DIPAC SA ✮✮,Parcialmente ejecutada,Todo Aprobado,Factura de venta 39054,Pagado por completo,F,PPAR1024T,0,1440,04/12/2025,RICARDO PIERONI,539725,36.0%,720.00,,9Tj7Li2O,0Ql9Gi1V
 42880,1067 DIPAC SA ✮✮,Parcialmente ejecutada,Todo Aprobado,Factura de venta 39054,Pagado por completo,F,PPAR524T,0,360,04/12/2025,RICARDO PIERONI,539725,100.0%,104.40,,9Tj7Li2O,0Wm2Xw7K
 42915,1029 DREAN SA ,Facturada,Todo Aprobado,Ejecución de pedido de artículo 24773,Enviado,F,07063-00009-24,0,0,09/12/2025,EXPRESO CARGO SA,542021,48.4%,.00,T,6Ng7Hp1X,0Ut2Zv0U
@@ -88,12 +88,12 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 42907,88 LACTEOS PUYEHUE S.R.L. ,Facturada,Todo Aprobado,Ejecución de pedido de artículo 24823,Enviado,F,H11/CPE,0,0,12/12/2025,TRANSPORTE EL DIABLO ROJO,541235,38.4%,.00,T,2Cq0Kg9P,3Ny6Zw2O
 42907,88 LACTEOS PUYEHUE S.R.L. ,Facturada,Todo Aprobado,Ejecución de pedido de artículo 24823,Enviado,F,PPA1548TE,0,0,12/12/2025,TRANSPORTE EL DIABLO ROJO,541235,39.1%,.00,T,2Cq0Kg9P,3Ny6Zw2O
 42907,88 LACTEOS PUYEHUE S.R.L. ,Facturada,Todo Aprobado,Ejecución de pedido de artículo 24823,Enviado,F,CAS-PPAR10048T047,0,0,12/12/2025,TRANSPORTE EL DIABLO ROJO,541235,47.0%,.00,T,2Cq0Kg9P,2Aa9Oj0E
-42829,9402003 BERSANO SRL ✮✮,Parcialmente ejecutada,Todo Aprobado,Orden de trabajo ,En curso,F,4604/001,0,168,12/12/2025,RICARDO PIERONI,535856,31.1%,174.72,,7Hm4Iw2H,8Yp8Ld0P
+42829,9402003 BERSANO SRL ✮✮,Parcialmente ejecutada,Todo Aprobado,Orden de trabajo ,En curso,F,4604/001,0,168,12/12/2025,RICARDO PIERONI,535856,31.1%,174.72,,7Hm4Iw2H,6Ll4Vl5M
 42898,178 DROGUERIA DEL SUD S.A. ✮✮,Facturada,Todo Aprobado,Ejecución de pedido de artículo 24830,Enviado,F,CAS-PPAR1048T040,0,0,15/12/2025,TRANSPORTE TOMASSINI,540950,32.4%,.00,T,5Mx5Rs0E,2Au6Re6F
 42955,2515 CONGELADOS ARTICO SA ✮✮,Facturada,Todo Aprobado,Ejecución de pedido de artículo 24827,Enviado,F,CAS-PPAR1072T043,0,0,15/12/2025,TRANSPORTE TOMASSINI,544855,43.6%,.00,T,8Rn3En3G,7Rx7Ub2H
 42850,3089 ARNEG ARGENTINA S.A. ✮✮,Parcialmente ejecutada,Todo Aprobado,Orden de trabajo ,Ensamblada,T,3089/051,6000,0,15/12/2025,RICARDO PIERONI,537483,80.7%,816.00,,7Rx7Ub2H,1Wa0Iu6X
 42850,3089 ARNEG ARGENTINA S.A. ✮✮,Parcialmente ejecutada,Todo Aprobado,Orden de trabajo ,Ensamblada,T,3089/039,6000,0,15/12/2025,RICARDO PIERONI,537483,82.0%,1182.00,,7Rx7Ub2H,1Wa0Iu6X
-42869,3089 ARNEG ARGENTINA S.A. ✮✮,Parcialmente ejecutada,Todo Aprobado,Orden de trabajo ,Ensamblada,F,3089/067,12000,0,15/12/2025,RICARDO PIERONI,538729,82.3%,1992.00,,7Rx7Ub2H,6Ls2Pd3Q
+42869,3089 ARNEG ARGENTINA S.A. ✮✮,Parcialmente ejecutada,Todo Aprobado,Orden de trabajo ,Ensamblada,F,3089/067,12000,0,15/12/2025,RICARDO PIERONI,538729,82.3%,1992.00,,7Rx7Ub2H,3Pt0Oq8I
 42874,4095 REFINERIA DEL CENTRO SA ✮✮,Facturada,Todo Aprobado,Ejecución de pedido de artículo 24832,Enviado,F,CAS-PPHR10072XT045,0,0,15/12/2025,EXPRESO SANTA ROSA,539045,41.7%,-80.08,T,1Bj3Wa5S,7Rx7Ub2H
 42874,4095 REFINERIA DEL CENTRO SA ✮✮,Facturada,Todo Aprobado,Ejecución de pedido de artículo 24832,Enviado,F,CAS-PPHR1072XT045,0,0,15/12/2025,EXPRESO SANTA ROSA,539045,42.5%,-24.24,T,1Bj3Wa5S,7Rx7Ub2H
 42874,4095 REFINERIA DEL CENTRO SA ✮✮,Facturada,Todo Aprobado,Ejecución de pedido de artículo 24832,Enviado,F,H11/72,0,0,15/12/2025,EXPRESO SANTA ROSA,539045,54.0%,.00,T,1Bj3Wa5S,3Dw0Uk2K
@@ -119,7 +119,7 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 42988,4305 LA PIARA SRL ✮✮,Facturada,Todo Aprobado,Ejecución de pedido de artículo 24844,Enviado,F,PPA1548TE,0,0,17/12/2025,TRANSPORTE AGUILAR S.R.L.,547367,43.1%,.00,T,7My0Kb3O,7Rx7Ub2H
 42934,9400945 LAMED S.A. ✮✮,Facturada,Todo Aprobado,Ejecución de pedido de artículo 24843,Enviado,F,PPA1048F,0,0,17/12/2025,RICARDO PIERONI,543445,-17.3%,.00,T,9Dw9Wh0V,9Ry7Wa5R
 42934,9400945 LAMED S.A. ✮✮,Facturada,Todo Aprobado,Ejecución de pedido de artículo 24843,Enviado,F,CAS-PPAR1048T045,0,0,17/12/2025,RICARDO PIERONI,543445,58.2%,.00,T,9Dw9Wh0V,1Bj3Wa5S
-42829,9402003 BERSANO SRL ✮✮,Parcialmente ejecutada,Todo Aprobado,Ejecución de pedido de artículo 24845,Enviado,F,4604/001,0,168,17/12/2025,RICARDO PIERONI,535856,31.1%,174.72,T,7Hm4Iw2H,6Ll4Vl5M
+42829,9402003 BERSANO SRL ✮✮,Parcialmente ejecutada,Todo Aprobado,Ejecución de pedido de artículo 24845,Enviado,F,4604/001,0,168,17/12/2025,RICARDO PIERONI,535856,31.1%,174.72,T,7Hm4Iw2H,8Yp8Ld0P
 42993,9402274 KATEMBAL SRL ✮✮,Facturada,Todo Aprobado,Ejecución de pedido de artículo 24846,Enviado,F,VCI420,0,0,17/12/2025,EXPRESO CARGO SA,547762,32.7%,.00,T,6Jt9Pv6M,4Jk9Hq6A
 42846,102 VOLKSWAGEN ARGENTINA S.A. ✮✮,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Liberada,F,0103/001,0,200,19/12/2025,EXPRESO CARGO SA,537325,47.2%,336.00,,7Kh2Zf0E,0Bz8Ix7O
 43004,1149 EL DORADO SA ✮✮,Facturada,Todo Aprobado,Ejecución de pedido de artículo 24850,Enviado,F,MTP536B,0,0,19/12/2025,FELICI JORGE ARIEL,548282,26.6%,.00,T,9Yg2Bd3D,3Hy2Ia2F
@@ -155,7 +155,7 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 42974,3051 FRIMETAL S.A. ,Facturada,Todo Aprobado,Ejecución de pedido de artículo 24871,Enviado,F,PPAR1048M,0,0,23/12/2025,FELICI JORGE ARIEL,546686,36.9%,.00,T,3Dw0Uk2K,2Uv7Bb0L
 42974,3051 FRIMETAL S.A. ,Facturada,Todo Aprobado,Ejecución de pedido de artículo 24871,Enviado,F,3051/010,0,0,23/12/2025,FELICI JORGE ARIEL,546686,59.3%,.00,T,3Dw0Uk2K,6Ng7Hp1X
 42974,3051 FRIMETAL S.A. ,Facturada,Todo Aprobado,Ejecución de pedido de artículo 24871,Enviado,F,MTP548B,0,0,23/12/2025,FELICI JORGE ARIEL,546686,36.3%,.00,T,3Dw0Uk2K,0Bz8Ix7O
-42975,3051 FRIMETAL S.A. ,Parcialmente ejecutada,Todo Aprobado,Ejecución de pedido de artículo 24874,Enviado,F,64621-00036-00,0,352,23/12/2025,FELICI JORGE ARIEL,546687,35.0%,2.654.537,T,3Dw0Uk2K,6Bb0Mu1P
+42975,3051 FRIMETAL S.A. ,Parcialmente ejecutada,Todo Aprobado,Ejecución de pedido de artículo 24874,Enviado,F,64621-00036-00,0,352,23/12/2025,FELICI JORGE ARIEL,546687,35.0%,2.654.537,T,3Dw0Uk2K,9Pk0Ny6V
 42997,3051 FRIMETAL S.A. ,Facturada,Todo Aprobado,Ejecución de pedido de artículo 24872,Enviado,F,07055-00007-22,0,0,23/12/2025,FELICI JORGE ARIEL,547919,46.9%,.00,T,3Dw0Uk2K,8Rn3En3G
 42997,3051 FRIMETAL S.A. ,Facturada,Todo Aprobado,Ejecución de pedido de artículo 24872,Enviado,F,PPAR1048M,0,0,23/12/2025,FELICI JORGE ARIEL,547919,35.6%,.00,T,3Dw0Uk2K,3Ys9An8W
 42997,3051 FRIMETAL S.A. ,Facturada,Todo Aprobado,Ejecución de pedido de artículo 24872,Enviado,F,MTP548B,0,0,23/12/2025,FELICI JORGE ARIEL,547919,35.7%,.00,T,3Dw0Uk2K,7Cb8Sw3V
@@ -225,7 +225,7 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 42850,3089 ARNEG ARGENTINA S.A. ✮✮,Parcialmente ejecutada,Todo Aprobado,Ejecución de pedido de artículo 24935,Enviado,T,3089/051,6000,0,30/12/2025,RICARDO PIERONI,537483,80.7%,816.00,T,7Rx7Ub2H,1Tu2Pr5C
 42850,3089 ARNEG ARGENTINA S.A. ✮✮,Parcialmente ejecutada,Todo Aprobado,Ejecución de pedido de artículo 24935,Enviado,T,3089/039,6000,0,30/12/2025,RICARDO PIERONI,537483,82.0%,1182.00,T,7Rx7Ub2H,0Tn2Lb2H
 42850,3089 ARNEG ARGENTINA S.A. ✮✮,Parcialmente ejecutada,Todo Aprobado,Ejecución de pedido de artículo 24935,Enviado,T,3089/052,0,0,30/12/2025,RICARDO PIERONI,537483,7.6%,.00,T,7Rx7Ub2H,9Qb8Fy5U
-42869,3089 ARNEG ARGENTINA S.A. ✮✮,Parcialmente ejecutada,Todo Aprobado,Ejecución de pedido de artículo 24934,Enviado,F,3089/067,12000,0,30/12/2025,RICARDO PIERONI,538729,82.3%,1992.00,T,7Rx7Ub2H,3Pt0Oq8I
+42869,3089 ARNEG ARGENTINA S.A. ✮✮,Parcialmente ejecutada,Todo Aprobado,Ejecución de pedido de artículo 24934,Enviado,F,3089/067,12000,0,30/12/2025,RICARDO PIERONI,538729,82.3%,1992.00,T,7Rx7Ub2H,6Ls2Pd3Q
 42869,3089 ARNEG ARGENTINA S.A. ✮✮,Parcialmente ejecutada,Todo Aprobado,Ejecución de pedido de artículo 24934,Enviado,F,3089/049,0,0,30/12/2025,RICARDO PIERONI,538729,81.6%,.00,T,7Rx7Ub2H,9Qb8Fy5U
 42869,3089 ARNEG ARGENTINA S.A. ✮✮,Parcialmente ejecutada,Todo Aprobado,Ejecución de pedido de artículo 24934,Enviado,F,3089/068,0,0,30/12/2025,RICARDO PIERONI,538729,82.6%,.00,T,7Rx7Ub2H,8Ky5Hq9D
 42869,3089 ARNEG ARGENTINA S.A. ✮✮,Parcialmente ejecutada,Todo Aprobado,Ejecución de pedido de artículo 24934,Enviado,F,3089/040,0,0,30/12/2025,RICARDO PIERONI,538729,82.0%,.00,T,7Rx7Ub2H,9Qb8Fy5U
@@ -328,7 +328,7 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 43020,2025 CELSUR LOGISTICA S.A. ,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Liberada,F,PEG5L1570B,0,2,,EXPRESO CARGO SA,549781,0.0%,.00,,5Hz1Mp3S,5Mx5Rs0E
 42958,272 TALLERES METALURGICOS BAMBI S.A. ✮✮,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Ensamblada,F,07063-00001-24,2,0,,RETIRAN,545139,0.0%,.00,,6Sy2Dr1B,2Gq6Ps1R
 42952,3014 PAPELERA ENTRE RIOS S.A. ✮✮,Parcialmente ejecutada,Todo Aprobado,Orden de trabajo ,Liberada,F,64621-00004-00,0,200,,RETIRAN,544609,31.0%,1910.00,,3Jn8Ia2B,6Kx5Tt1L
-42975,3051 FRIMETAL S.A. ,Parcialmente ejecutada,Todo Aprobado,Orden de trabajo ,En curso,F,64621-00036-00,0,352,,FELICI JORGE ARIEL,546687,35.0%,2.654.537,,3Dw0Uk2K,9Pk0Ny6V
+42975,3051 FRIMETAL S.A. ,Parcialmente ejecutada,Todo Aprobado,Orden de trabajo ,En curso,F,64621-00036-00,0,352,,FELICI JORGE ARIEL,546687,35.0%,2.654.537,,3Dw0Uk2K,6Bb0Mu1P
 41833,3089 ARNEG ARGENTINA S.A. ✮✮,Parcialmente ejecutada,Todo Aprobado,Orden de trabajo ,Cerrada,T,3089/082,0,5850,,FELICI JORGE ARIEL,475784,52.2%,7312.50,,7Rx7Ub2H,9Tj7Li2O
 42523,3089 ARNEG ARGENTINA S.A. ✮✮,Ejecución de la orden pendiente,Todo Aprobado, ,,T,3089/052,1300,2700,,FELICI GERARDO FABIAN,520980,19.6%,3680.00,,7Rx7Ub2H,5Ko0Ey7A
 42980,3089 ARNEG ARGENTINA S.A. ✮✮,Parcialmente ejecutada,Todo Aprobado,Orden de trabajo ,Ensamblada,F,3089/041,18000,0,,RICARDO PIERONI,546734,81.0%,1908.00,,7Rx7Ub2H,0Ph8Mv3F
