@@ -13,7 +13,7 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 42955,2515 CONGELADOS ARTICO SA ✮✮,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 24827,Remitido,F,CAS-PPAR1072T043,0,0,15/12/2025,TRANSPORTE TOMASSINI,544855,43.6%,943.20,T,8Rn3En3G,5Mx5Rs0E
 42850,3089 ARNEG ARGENTINA S.A. ✮✮,Parcialmente ejecutada,Todo Aprobado,Orden de trabajo ,Ensamblada,T,3089/051,6000,0,15/12/2025,RICARDO PIERONI,537483,80.7%,816.00,,7Rx7Ub2H,8Ny2Or7G
 42850,3089 ARNEG ARGENTINA S.A. ✮✮,Parcialmente ejecutada,Todo Aprobado,Orden de trabajo ,Ensamblada,T,3089/039,6000,0,15/12/2025,RICARDO PIERONI,537483,82.0%,1182.00,,7Rx7Ub2H,8Ny2Or7G
-42869,3089 ARNEG ARGENTINA S.A. ✮✮,Parcialmente ejecutada,Todo Aprobado,Orden de trabajo ,Ensamblada,F,3089/067,12000,0,15/12/2025,RICARDO PIERONI,538729,82.3%,1992.00,,7Rx7Ub2H,1Wa0Iu6X
+42869,3089 ARNEG ARGENTINA S.A. ✮✮,Parcialmente ejecutada,Todo Aprobado,Orden de trabajo ,Ensamblada,F,3089/067,12000,0,15/12/2025,RICARDO PIERONI,538729,82.3%,1992.00,,7Rx7Ub2H,0Tn2Lb2H
 42874,4095 REFINERIA DEL CENTRO SA ✮✮,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 24832,Remitido,F,CAS-PPHR10072XT045,0,0,15/12/2025,EXPRESO SANTA ROSA,539045,41.7%,2482.48,T,1Bj3Wa5S,0Qu5Fi8T
 42874,4095 REFINERIA DEL CENTRO SA ✮✮,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 24832,Remitido,F,CAS-PPHR1072XT045,0,0,15/12/2025,EXPRESO SANTA ROSA,539045,42.5%,2472.48,T,1Bj3Wa5S,0Qu5Fi8T
 42874,4095 REFINERIA DEL CENTRO SA ✮✮,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 24832,Remitido,F,H11/72,0,0,15/12/2025,EXPRESO SANTA ROSA,539045,54.0%,695.10,T,1Bj3Wa5S,7Rx7Ub2H
@@ -38,14 +38,14 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 42988,4305 LA PIARA SRL ✮✮,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 24844,Remitido,F,PPA1548TE,0,0,17/12/2025,TRANSPORTE AGUILAR S.R.L.,547367,43.1%,664.20,T,7My0Kb3O,7Rx7Ub2H
 42934,9400945 LAMED S.A. ✮✮,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 24843,Remitido,F,PPA1048F,0,0,17/12/2025,RICARDO PIERONI,543445,-17.3%,90.00,T,9Dw9Wh0V,4Jl3Vt9D
 42934,9400945 LAMED S.A. ✮✮,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 24843,Remitido,F,CAS-PPAR1048T045,0,0,17/12/2025,RICARDO PIERONI,543445,58.2%,432.00,T,9Dw9Wh0V,9Gs4Xo3J
-42829,9402003 BERSANO SRL ✮✮,Parcialmente ejecutada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 24845,Remitido,F,4604/001,0,168,17/12/2025,RICARDO PIERONI,535856,31.1%,873.60,T,7Hm4Iw2H,5Nn8Fo2O
+42829,9402003 BERSANO SRL ✮✮,Parcialmente ejecutada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 24845,Remitido,F,4604/001,0,168,17/12/2025,RICARDO PIERONI,535856,31.1%,873.60,T,7Hm4Iw2H,2Uj4Kr4Y
 42993,9402274 KATEMBAL SRL ✮✮,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 24846,Remitido,F,VCI420,0,0,17/12/2025,EXPRESO CARGO SA,547762,32.7%,504.90,T,6Jt9Pv6M,0Mw8Gz3K
 42846,102 VOLKSWAGEN ARGENTINA S.A. ✮✮,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Liberada,F,0103/001,0,200,19/12/2025,EXPRESO CARGO SA,537325,47.2%,336.00,,7Kh2Zf0E,0Bz8Ix7O
 43004,1149 EL DORADO SA ✮✮,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 24850,Remitido,F,MTP536B,0,0,19/12/2025,FELICI JORGE ARIEL,548282,26.6%,5832.96,T,9Yg2Bd3D,1Bj3Wa5S
 42852,2872 INBELT SRL ✮✮✮✮,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Liberada,F,2872/002,0,360,19/12/2025,RICARDO PIERONI,537597,95.0%,450.00,,5Pm5Ef5K,3Dw0Uk2K
 42985,3051 FRIMETAL S.A. ,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 24847,Remitido,F,2280/004,0,0,19/12/2025,FELICI JORGE ARIEL,547241,60.4%,3.278.089,T,3Dw0Uk2K,4Vs0Qf0C
 42986,3051 FRIMETAL S.A. ,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 24848,Remitido,F,MTP548B,0,0,19/12/2025,FELICI JORGE ARIEL,547257,36.3%,2.305.966,T,3Dw0Uk2K,4Vs0Qf0C
-42708,3089 ARNEG ARGENTINA S.A. ✮✮,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 24849,Remitido,T,3089/052,0,0,19/12/2025,RICARDO PIERONI,530210,7.6%,3220.00,T,7Rx7Ub2H,4Py6Ze4H
+42708,3089 ARNEG ARGENTINA S.A. ✮✮,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 24849,Remitido,T,3089/052,0,0,19/12/2025,RICARDO PIERONI,530210,7.6%,3220.00,T,7Rx7Ub2H,9Tj7Li2O
 42964,4733 TECNOSISTEM SRL ✮✮,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 24851,Remitido,F,MTP548B,0,0,19/12/2025,EXPRESO CARGO SA,545522,53.8%,3744.00,T,4Mf4Bj0L,0Mw8Gz3K
 42971,5019 GRANJA TRES ARROYOS SACAFEI ✮✮,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Ensamblada,F,PPHR1216B,756,0,19/12/2025,EXPRESO CARGO SA,546362,46.6%,945.00,,0Ql9Gi1V,0Jn1Mv5H
 42971,5019 GRANJA TRES ARROYOS SACAFEI ✮✮,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Ensamblada,F,PVC612R,1008,0,19/12/2025,EXPRESO CARGO SA,546362,51.9%,1360.80,,0Ql9Gi1V,5Rr7Ys4Y
@@ -58,10 +58,10 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 42817,3598 DEL VALLE EMBALAJES SRL ✮✮,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 24854,Remitido,F,CAS-PPAR1048T045,0,0,22/12/2025,RICARDO PIERONI,534765,55.1%,415.80,T,0Ph8Mv3F,
 42984,3676 FRIGORIFICO MARK SA ✮✮,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 24857,Remitido,F,PVC612R,0,0,22/12/2025,RETIRAN,547006,67.7%,578.88,T,2Nw2Uj9H,
 42937,4063 GLUPS SRL ✮✮,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 24855,Remitido,F,CAS-PPAR1048T045,0,0,22/12/2025,EXPRESO CARGO SA,543560,58.2%,288.00,T,2Ys1Jc8S,0Bz8Ix7O
-42884,4674 GIORNO S A (GRUPO VALASTRO) ✮✮,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 24856,Remitido,F,CAS-PPAR1072T043,0,0,22/12/2025,TRANSPORTE TOMASSINI,540233,36.4%,2088.00,T,1Jm9Zf6J,8Ds2Kv5E
-43021,9402705 CENTRO DE EMBALAJES S A ,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 24862,Remitido,F,CAS-PPA1048T040,0,0,22/12/2025,RETIRAN,549796,0.0%,.00,T,5Dt0Yb6M,7Ir5If6T
-43021,9402705 CENTRO DE EMBALAJES S A ,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 24862,Remitido,F,CAS-PPAR10048T047,0,0,22/12/2025,RETIRAN,549796,0.0%,.00,T,5Dt0Yb6M,8El3Qk6P
-43021,9402705 CENTRO DE EMBALAJES S A ,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 24862,Remitido,F,CAS-PPAR1072T043,0,0,22/12/2025,RETIRAN,549796,0.0%,.00,T,5Dt0Yb6M,8Gy5Vz0B
+42884,4674 GIORNO S A (GRUPO VALASTRO) ✮✮,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 24856,Remitido,F,CAS-PPAR1072T043,0,0,22/12/2025,TRANSPORTE TOMASSINI,540233,36.4%,2088.00,T,1Jm9Zf6J,7Rx7Ub2H
+43021,9402705 CENTRO DE EMBALAJES S A ,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 24862,Remitido,F,CAS-PPA1048T040,0,0,22/12/2025,RETIRAN,549796,0.0%,.00,T,5Dt0Yb6M,8El3Qk6P
+43021,9402705 CENTRO DE EMBALAJES S A ,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 24862,Remitido,F,CAS-PPAR10048T047,0,0,22/12/2025,RETIRAN,549796,0.0%,.00,T,5Dt0Yb6M,8Gy5Vz0B
+43021,9402705 CENTRO DE EMBALAJES S A ,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 24862,Remitido,F,CAS-PPAR1072T043,0,0,22/12/2025,RETIRAN,549796,0.0%,.00,T,5Dt0Yb6M,7Ii4Et8I
 43004,1149 EL DORADO SA ✮✮,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 24867,Remitido,F,MTP536B,0,0,23/12/2025,FELICI JORGE ARIEL,548282,26.6%,3333.12,T,9Yg2Bd3D,0Io3Fg7R
 42962,12662 PRINTEMPS S.R.L. ✮✮,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 24868,Remitido,F,04965-00176-00,0,0,23/12/2025,RICARDO PIERONI,545381,47.9%,3772.80,T,2Sp0Fe1F,4Gf8Oa0H
 42962,12662 PRINTEMPS S.R.L. ✮✮,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 24868,Remitido,F,2662/004,0,0,23/12/2025,RICARDO PIERONI,545381,45.9%,786.00,T,2Sp0Fe1F,0Zw3Xq6V
@@ -86,7 +86,7 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 42998,430 EMPAQUE S.A. ✮✮,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 24876,Remitido,F,PPAR1048M,0,0,23/12/2025,TRANSPORTE CRUZ DEL SUR SA,547930,37.8%,324.00,T,4Oq4Xr3M,8Sb1On8S
 42998,430 EMPAQUE S.A. ✮✮,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 24876,Remitido,F,MTS524B,0,0,23/12/2025,TRANSPORTE CRUZ DEL SUR SA,547930,27.7%,72.00,T,4Oq4Xr3M,2Ck7El7W
 43027,4516 RAPECA ARGENTINA SA ,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 24883,Remitido,F,PPA1548TE,0,0,23/12/2025,EXPRESO CARGO SA,550152,41.2%,428.40,T,2Aa9Oj0E,7Rx7Ub2H
-42884,4674 GIORNO S A (GRUPO VALASTRO) ✮✮,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 24866,Remitido,F,CAS-PPAR1072T043,0,0,23/12/2025,TRANSPORTE TOMASSINI,540233,36.4%,1670.40,T,1Jm9Zf6J,7Rx7Ub2H
+42884,4674 GIORNO S A (GRUPO VALASTRO) ✮✮,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 24866,Remitido,F,CAS-PPAR1072T043,0,0,23/12/2025,TRANSPORTE TOMASSINI,540233,36.4%,1670.40,T,1Jm9Zf6J,8Ds2Kv5E
 42760,5019 GRANJA TRES ARROYOS SACAFEI ✮✮,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 24877,Remitido,F,5019/005,0,0,23/12/2025,EXPRESO CARGO SA,533898,64.3%,888.00,T,0Ql9Gi1V,5Rr7Ys4Y
 43009,690 CEVA DE ARGENTINA SRL ✮✮,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 24863,Remitido,F,2025/001,0,0,23/12/2025,FELICI JORGE ARIEL,548954,60.0%,2287.60,T,3Pt0Oq8I,7Rx7Ub2H
 42953,9400962 CRYSTAL-ICE SRL ✮✮,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 24873,Remitido,F,CAS-PPA1048T040,0,0,23/12/2025,RICARDO PIERONI,544853,28.6%,1782.00,T,4Is2Rn8E,4Xz9An3R
@@ -138,12 +138,12 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 42286,3051 FRIMETAL S.A. ,Parcialmente ejecutada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 24925,Remitido,F,MTP548B,180,0,30/12/2025,FELICI JORGE ARIEL,504997,37.9%,1.600.054,T,3Dw0Uk2K,2Gq6Ps1R
 42314,3051 FRIMETAL S.A. ,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 24929,Remitido,F,MTP548B,0,0,30/12/2025,FELICI JORGE ARIEL,506964,40.0%,2016.00,T,3Dw0Uk2K,2Gq6Ps1R
 43031,3086 MULTIORIGINAL PARTS SA ✮✮,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 24916,Remitido,F,PPAR1048T,0,0,30/12/2025,TRANSPORTE TOMASSINI,550794,46.3%,604.80,T,1Fr4Ch9I,1Fr4Ch9I
-42708,3089 ARNEG ARGENTINA S.A. ✮✮,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 24936,Remitido,T,3089/052,0,0,30/12/2025,RICARDO PIERONI,530210,7.6%,644.00,T,7Rx7Ub2H,9Tj7Li2O
+42708,3089 ARNEG ARGENTINA S.A. ✮✮,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 24936,Remitido,T,3089/052,0,0,30/12/2025,RICARDO PIERONI,530210,7.6%,644.00,T,7Rx7Ub2H,4Py6Ze4H
 42850,3089 ARNEG ARGENTINA S.A. ✮✮,Parcialmente ejecutada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 24935,Remitido,T,3089/029,0,0,30/12/2025,RICARDO PIERONI,537483,26.7%,135.00,T,7Rx7Ub2H,5Ko0Ey7A
 42850,3089 ARNEG ARGENTINA S.A. ✮✮,Parcialmente ejecutada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 24935,Remitido,T,3089/051,6000,0,30/12/2025,RICARDO PIERONI,537483,80.7%,1904.00,T,7Rx7Ub2H,8Ny2Or7G
 42850,3089 ARNEG ARGENTINA S.A. ✮✮,Parcialmente ejecutada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 24935,Remitido,T,3089/039,6000,0,30/12/2025,RICARDO PIERONI,537483,82.0%,2758.00,T,7Rx7Ub2H,8Ny2Or7G
 42850,3089 ARNEG ARGENTINA S.A. ✮✮,Parcialmente ejecutada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 24935,Remitido,T,3089/052,0,0,30/12/2025,RICARDO PIERONI,537483,7.6%,1840.00,T,7Rx7Ub2H,1Wa0Iu6X
-42869,3089 ARNEG ARGENTINA S.A. ✮✮,Parcialmente ejecutada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 24934,Remitido,F,3089/067,12000,0,30/12/2025,RICARDO PIERONI,538729,82.3%,2988.00,T,7Rx7Ub2H,0Tn2Lb2H
+42869,3089 ARNEG ARGENTINA S.A. ✮✮,Parcialmente ejecutada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 24934,Remitido,F,3089/067,12000,0,30/12/2025,RICARDO PIERONI,538729,82.3%,2988.00,T,7Rx7Ub2H,1Wa0Iu6X
 42869,3089 ARNEG ARGENTINA S.A. ✮✮,Parcialmente ejecutada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 24934,Remitido,F,3089/049,0,0,30/12/2025,RICARDO PIERONI,538729,81.6%,2260.00,T,7Rx7Ub2H,9Qb8Fy5U
 42869,3089 ARNEG ARGENTINA S.A. ✮✮,Parcialmente ejecutada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 24934,Remitido,F,3089/068,0,0,30/12/2025,RICARDO PIERONI,538729,82.6%,1285.00,T,7Rx7Ub2H,3Pt0Oq8I
 42869,3089 ARNEG ARGENTINA S.A. ✮✮,Parcialmente ejecutada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 24934,Remitido,F,3089/040,0,0,30/12/2025,RICARDO PIERONI,538729,82.0%,1580.00,T,7Rx7Ub2H,3Pt0Oq8I
@@ -157,7 +157,7 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 42823,9400716 RAFAELA ALIMENTOS SA ,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 24923,Remitido,F,PPAR15048T,0,0,30/12/2025,EXPRESO SANTA ROSA,535187,42.3%,132.12,T,8Ej8At4Q,0Ph8Mv3F
 42973,9401442 JUGOS SA ✮✮,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 24932,Remitido,F,PPAR1048T,0,0,30/12/2025,TRANSPORTE TOMASSINI,546583,49.4%,612.00,T,1Vg0Xb6N,0Bz8Ix7O
 43048,9402290 BI MERCANTIL SAS ✮✮,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 24915,Remitido,F,H11/48,0,0,30/12/2025,TRANSPORTE MOSTTO,551985,55.4%,230.00,T,6Cx3Az0M,3Cz8Fy3Y
-43023,9403267 SERVICIOS INDUSTRIALES SRL ,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 24926,Remitido,F,BV002,0,0,30/12/2025,RETIRAN,549800,100.0%,.00,T,,7Gs5Gq1V
+43023,9403267 SERVICIOS INDUSTRIALES SRL ,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 24926,Remitido,F,BV002,0,0,30/12/2025,RETIRAN,549800,100.0%,.00,T,,7Qv9Mi1Z
 42902,9402597 EMMAPEL SA ✮✮✮✮,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Liberada,F,2597/001,0,360,31/12/2025,EXPRESO LUJAN DEL CUYO SA,540957,100.0%,450.00,,,0Bz8Ix7O
 42994,3494 TECHNO PACK DE MASCHERPA MARIA PAULA ✮✮,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo,,F,CAS-PPAR10096T045,0,68,02/01/2026,EXPRESO CARGO SA,547870,56.7%,952.00,,4Qq9Xb0L,
 42969,4095 REFINERIA DEL CENTRO SA ✮✮,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo,,F,CAS-PPHR10048XT045,46,56,02/01/2026,EXPRESO SANTA ROSA,546158,46.1%,1448.40,,1Bj3Wa5S,3Dw0Uk2K
@@ -228,8 +228,8 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 43058,9401192 COPECA SA ✮✮,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 24989,Remitido,F,PPAR15048T,0,0,08/01/2026,EXPRESO TAS,552891,53.8%,1237.50,T,7Ur8Rq3A,1Bj3Wa5S
 43089,9401456 EFUS S.R.L ✮✮,Ejecución de la orden pendiente,Todo Aprobado, ,,F,CAS-PPAR10048T047,90,0,08/01/2026,EXPRESO CARGO SA,554301,44.5%,803.70,,4Tk0Ap0J,0Bz8Ix7O
 43022,9402185 MONCHAMP INDUSTRIAS SRL ✮✮,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 24987,Remitido,F,MUESTRA ESPECIAL,0,0,08/01/2026,RETIRAN,549797,100.0%,.00,T,7Ck6Zj2S,9Dw9Wh0V
-43096,9403266 KADAE S A ✮✮✮✮,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 24984,Remitido,F,MVAQUA180,0,0,08/01/2026,RETIRAN,555148,48.9%,213.00,T,,7Su4Me5K
-43087,9403272 S A BALBICO C I F I ,Ejecución de la orden pendiente,Todo Aprobado, ,,F,MUESTRA ESPECIAL,1,0,08/01/2026,EXPRESO CARGO SA,554285,100.0%,.00,,,7Va0Bu1J
+43096,9403266 KADAE S A ✮✮✮✮,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 24984,Remitido,F,MVAQUA180,0,0,08/01/2026,RETIRAN,555148,48.9%,213.00,T,,7Gs5Gq1V
+43087,9403272 S A BALBICO C I F I ,Ejecución de la orden pendiente,Todo Aprobado, ,,F,MUESTRA ESPECIAL,1,0,08/01/2026,EXPRESO CARGO SA,554285,100.0%,.00,,,5Dr6Pr8I
 43040,1029 DREAN SA ,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 24997,Remitido,F,1153/001,0,0,09/01/2026,EXPRESO CARGO SA,551629,55.7%,1980.00,T,6Ng7Hp1X,7Rx7Ub2H
 43110,12877 BRIKET SA ✮✮,Parcialmente ejecutada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 24995,Remitido,F,0272/004,0,392,09/01/2026,FELICI JORGE ARIEL,556997,36.2%,2496.00,T,6Rp2Ce7I,5Ow8Cg8A
 43080,132 MAHLE VALVULAS DE ARGENTINA SA ✮✮,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 24998,Remitido,F,04169-00056-93,0,0,09/01/2026,EXPRESO SANTA ROSA,553563,54.5%,160.80,T,6Ls2Pd3Q,2Mu2Vl2K
@@ -281,7 +281,7 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 43119,3636 JULICROC SA ,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo,,F,CAS-PPA1048T043,0,540,13/01/2026,TRANSPORTE MOSTTO,557799,35.8%,372.60,,3Fa0Qy2E,
 43114,9402185 MONCHAMP INDUSTRIAS SRL ✮✮,Ejecución de la orden pendiente,Todo Aprobado, ,,F,MVAQUA180,40,0,13/01/2026,RETIRAN,557361,44.8%,394.40,,7Ck6Zj2S,0Mw8Gz3K
 43116,9403271 PARANA REPRESENTACIONES S.R.L ,Ejecución de la orden pendiente,Todo Aprobado, ,,F,CH5235,40,0,13/01/2026,TRANSPORTE MOSTTO,557496,28.7%,71.20,,,7Qv9Mi1Z
-43116,9403271 PARANA REPRESENTACIONES S.R.L ,Ejecución de la orden pendiente,Todo Aprobado, ,,F,PPAR1048T,0,720,13/01/2026,TRANSPORTE MOSTTO,557496,46.3%,576.00,,,7Qv9Mi1Z
+43116,9403271 PARANA REPRESENTACIONES S.R.L ,Ejecución de la orden pendiente,Todo Aprobado, ,,F,PPAR1048T,0,720,13/01/2026,TRANSPORTE MOSTTO,557496,46.3%,576.00,,,7Va0Bu1J
 43128,3096 FRECICAR SRL ✮✮,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo,,F,CAS-PPAR1048T043,0,504,14/01/2026,RICARDO PIERONI,558450,42.9%,428.40,,9Zc0Jy4O,7Rx7Ub2H
 43112,9402081 OLEOHIDRAULICA EL TORITO SA ,Ejecución de la orden pendiente,Todo Aprobado, ,,F,MVAQUA180,20,0,14/01/2026,RETIRAN,557286,100.0%,.00,,5Zl6Sa3R,6Cx3Az0M
 43103,3051 FRIMETAL S.A. ,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Ensamblada,F,07055-00007-22,108,0,15/01/2026,FELICI JORGE ARIEL,555915,47.0%,1.400.073,,3Dw0Uk2K,3Ys9An8W
@@ -333,5 +333,5 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 43090,3769 GAROFOLI CONSTRUCCIONES SRL ✮✮,Ejecución de la orden pendiente,Todo Aprobado, ,,T,MTS518B,1440,0,,RODRIGUEZ HNOS. TRANSP. SA,554499,37.3%,1080.00,,7Qv9Mi1Z,1Fr4Ch9I
 43090,3769 GAROFOLI CONSTRUCCIONES SRL ✮✮,Ejecución de la orden pendiente,Todo Aprobado, ,,T,MTS524B,1080,0,,RODRIGUEZ HNOS. TRANSP. SA,554499,27.8%,1080.00,,7Qv9Mi1Z,8Wb3Xi2L
 42824,9400215 CARLOS MAXIMILIANO BASILIO ✮✮✮✮,Ejecución de la orden pendiente,Todo Aprobado, ,,F,PPHPR100144B028,0,1,,EXPRESO CARGO SA,535319,100.0%,.00,,0Fo4Wq8J,3Ny6Zw2O
-42829,9402003 BERSANO SRL ✮✮,Parcialmente ejecutada,Todo Aprobado,Orden de trabajo ,En curso,F,4604/001,0,168,,RICARDO PIERONI,535856,31.1%,174.72,,7Hm4Iw2H,2Uj4Kr4Y
-42083,9402907 SAF ARGENTINA SOCIEDAD ANONIMA ,Ejecución de la orden pendiente,Todo Aprobado, ,,F,PPAR15048T,2,0,,EXPRESO CARGO SA,489798,100.0%,.00,,,7Ii4Et8I
+42829,9402003 BERSANO SRL ✮✮,Parcialmente ejecutada,Todo Aprobado,Orden de trabajo ,En curso,F,4604/001,0,168,,RICARDO PIERONI,535856,31.1%,174.72,,7Hm4Iw2H,5Nn8Fo2O
+42083,9402907 SAF ARGENTINA SOCIEDAD ANONIMA ,Ejecución de la orden pendiente,Todo Aprobado, ,,F,PPAR15048T,2,0,,EXPRESO CARGO SA,489798,100.0%,.00,,,7Su4Me5K
