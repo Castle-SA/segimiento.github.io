@@ -11,11 +11,11 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 42676,6142 PAPELERA DEL SUR SRL ✮✮,Parcialmente ejecutada,Todo Aprobado,Factura de venta 39087,Pagado por completo,F,PPAR1024T,0,540,11/12/2025,RICARDO PIERONI,529237,40.4%,280.80,,9Rc3Gf4C,3Jg1St8F
 42898,178 DROGUERIA DEL SUD S.A. ✮✮,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 24830,Remitido,F,CAS-PPAR1048T040,0,0,15/12/2025,TRANSPORTE TOMASSINI,540950,32.4%,314.455,T,5Mx5Rs0E,8Xq9Re2A
 42955,2515 CONGELADOS ARTICO SA ✮✮,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 24827,Remitido,F,CAS-PPAR1072T043,0,0,15/12/2025,TRANSPORTE TOMASSINI,544855,43.6%,943.20,T,8Rn3En3G,0Ut2Zv0U
-42850,3089 ARNEG ARGENTINA S.A. ✮✮,Parcialmente ejecutada,Todo Aprobado,Orden de trabajo ,Ensamblada,T,3089/051,6000,0,15/12/2025,RICARDO PIERONI,537483,80.7%,816.00,,7Rx7Ub2H,1Fr4Ch9I
+42850,3089 ARNEG ARGENTINA S.A. ✮✮,Parcialmente ejecutada,Todo Aprobado,Orden de trabajo ,Ensamblada,T,3089/051,6000,0,15/12/2025,RICARDO PIERONI,537483,80.7%,816.00,,7Rx7Ub2H,9Aq0Ft5G
 42850,3089 ARNEG ARGENTINA S.A. ✮✮,Parcialmente ejecutada,Todo Aprobado,Orden de trabajo ,Ensamblada,T,3089/039,6000,0,15/12/2025,RICARDO PIERONI,537483,82.0%,1182.00,,7Rx7Ub2H,4Py6Ze4H
 42869,3089 ARNEG ARGENTINA S.A. ✮✮,Parcialmente ejecutada,Todo Aprobado,Orden de trabajo ,Ensamblada,F,3089/067,12000,0,15/12/2025,RICARDO PIERONI,538729,82.3%,1992.00,,7Rx7Ub2H,8Ny2Or7G
 42874,4095 REFINERIA DEL CENTRO SA ✮✮,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 24832,Remitido,F,CAS-PPHR10072XT045,0,0,15/12/2025,EXPRESO SANTA ROSA,539045,41.7%,2482.48,T,1Bj3Wa5S,0Vc7Du3D
-42874,4095 REFINERIA DEL CENTRO SA ✮✮,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 24832,Remitido,F,CAS-PPHR1072XT045,0,0,15/12/2025,EXPRESO SANTA ROSA,539045,42.5%,2472.48,T,1Bj3Wa5S,1Rf6Ez5C
+42874,4095 REFINERIA DEL CENTRO SA ✮✮,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 24832,Remitido,F,CAS-PPHR1072XT045,0,0,15/12/2025,EXPRESO SANTA ROSA,539045,42.5%,2472.48,T,1Bj3Wa5S,0Vc7Du3D
 42874,4095 REFINERIA DEL CENTRO SA ✮✮,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 24832,Remitido,F,H11/72,0,0,15/12/2025,EXPRESO SANTA ROSA,539045,54.0%,695.10,T,1Bj3Wa5S,1Rf6Ez5C
 42959,611 QUESOS DON ATILIO SA ,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 24829,Remitido,F,H11/CPE,0,0,15/12/2025,TRANSPORTE TOMASSINI,545159,37.1%,87.00,T,8Br5Ap2B,3Jg1St8F
 42959,611 QUESOS DON ATILIO SA ,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 24829,Remitido,F,PPA1548TE,0,0,15/12/2025,TRANSPORTE TOMASSINI,545159,45.3%,322.56,T,8Br5Ap2B,3Jg1St8F
@@ -80,9 +80,9 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 42997,3051 FRIMETAL S.A. ,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 24872,Remitido,F,MTP548B,0,0,23/12/2025,FELICI JORGE ARIEL,547919,35.7%,1.342.703,T,3Dw0Uk2K,4Vs0Qf0C
 42997,3051 FRIMETAL S.A. ,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 24872,Remitido,F,3051/010,0,0,23/12/2025,FELICI JORGE ARIEL,547919,58.8%,335.68,T,3Dw0Uk2K,4Vs0Qf0C
 42980,3089 ARNEG ARGENTINA S.A. ✮✮,Parcialmente ejecutada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 24869,Remitido,F,3089/029,0,0,23/12/2025,RICARDO PIERONI,546734,26.7%,216.00,T,7Rx7Ub2H,1Tu2Pr5C
-42874,4095 REFINERIA DEL CENTRO SA ✮✮,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 24879,Remitido,F,CAS-PPHR1072XT045,0,0,23/12/2025,EXPRESO SANTA ROSA,539045,42.5%,775.68,T,1Bj3Wa5S,0Vc7Du3D
-42923,4095 REFINERIA DEL CENTRO SA ✮✮,Parcialmente ejecutada,Todo Aprobado,Orden de trabajo,Abierta,F,CAS-PPHR1072XT045,0,1812,23/12/2025,EXPRESO SANTA ROSA,542854,42.5%,3660.24,,1Bj3Wa5S,1Rf6Ez5C
+42874,4095 REFINERIA DEL CENTRO SA ✮✮,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 24879,Remitido,F,CAS-PPHR1072XT045,0,0,23/12/2025,EXPRESO SANTA ROSA,539045,42.5%,775.68,T,1Bj3Wa5S,1Rf6Ez5C
 42923,4095 REFINERIA DEL CENTRO SA ✮✮,Parcialmente ejecutada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 24880,Remitido,F,CAS-PPHR1072XT045,0,1812,23/12/2025,EXPRESO SANTA ROSA,542854,42.5%,1793.76,T,1Bj3Wa5S,1Rf6Ez5C
+42923,4095 REFINERIA DEL CENTRO SA ✮✮,Parcialmente ejecutada,Todo Aprobado,Orden de trabajo,Abierta,F,CAS-PPHR1072XT045,0,1812,23/12/2025,EXPRESO SANTA ROSA,542854,42.5%,3660.24,,1Bj3Wa5S,1Rf6Ez5C
 42998,430 EMPAQUE S.A. ✮✮,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 24876,Remitido,F,PPAR1048M,0,0,23/12/2025,TRANSPORTE CRUZ DEL SUR SA,547930,37.8%,324.00,T,4Oq4Xr3M,3Dw0Uk2K
 42998,430 EMPAQUE S.A. ✮✮,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 24876,Remitido,F,MTS524B,0,0,23/12/2025,TRANSPORTE CRUZ DEL SUR SA,547930,27.7%,72.00,T,4Oq4Xr3M,3Dw0Uk2K
 43027,4516 RAPECA ARGENTINA SA ,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 24883,Remitido,F,PPA1548TE,0,0,23/12/2025,EXPRESO CARGO SA,550152,41.2%,428.40,T,2Aa9Oj0E,2Wy4Vz4B
@@ -140,7 +140,7 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 43031,3086 MULTIORIGINAL PARTS SA ✮✮,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 24916,Remitido,F,PPAR1048T,0,0,30/12/2025,TRANSPORTE TOMASSINI,550794,46.3%,604.80,T,1Fr4Ch9I,3Ys9An8W
 42708,3089 ARNEG ARGENTINA S.A. ✮✮,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 24936,Remitido,T,3089/052,0,0,30/12/2025,RICARDO PIERONI,530210,7.6%,644.00,T,7Rx7Ub2H,1Wa0Iu6X
 42850,3089 ARNEG ARGENTINA S.A. ✮✮,Parcialmente ejecutada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 24935,Remitido,T,3089/029,0,0,30/12/2025,RICARDO PIERONI,537483,26.7%,135.00,T,7Rx7Ub2H,8Tz8Ui3Y
-42850,3089 ARNEG ARGENTINA S.A. ✮✮,Parcialmente ejecutada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 24935,Remitido,T,3089/051,6000,0,30/12/2025,RICARDO PIERONI,537483,80.7%,1904.00,T,7Rx7Ub2H,9Aq0Ft5G
+42850,3089 ARNEG ARGENTINA S.A. ✮✮,Parcialmente ejecutada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 24935,Remitido,T,3089/051,6000,0,30/12/2025,RICARDO PIERONI,537483,80.7%,1904.00,T,7Rx7Ub2H,1Fr4Ch9I
 42850,3089 ARNEG ARGENTINA S.A. ✮✮,Parcialmente ejecutada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 24935,Remitido,T,3089/039,6000,0,30/12/2025,RICARDO PIERONI,537483,82.0%,2758.00,T,7Rx7Ub2H,4Py6Ze4H
 42850,3089 ARNEG ARGENTINA S.A. ✮✮,Parcialmente ejecutada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 24935,Remitido,T,3089/052,0,0,30/12/2025,RICARDO PIERONI,537483,7.6%,1840.00,T,7Rx7Ub2H,9Tj7Li2O
 42869,3089 ARNEG ARGENTINA S.A. ✮✮,Parcialmente ejecutada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 24934,Remitido,F,3089/067,12000,0,30/12/2025,RICARDO PIERONI,538729,82.3%,2988.00,T,7Rx7Ub2H,8Ny2Or7G
@@ -215,7 +215,7 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 43066,178 DROGUERIA DEL SUD S.A. ✮✮,Parcialmente ejecutada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 24976,Remitido,F,CAS-PPAR1048T040,0,0,08/01/2026,EXPRESO LANCIONI,553029,33.0%,839.16,T,5Mx5Rs0E,2Uv7Bb0L
 43067,178 DROGUERIA DEL SUD S.A. ✮✮,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 24977,Remitido,F,CAS-PPAR1048T040,0,0,08/01/2026,EXPRESO LANCIONI,553030,33.0%,294.84,T,5Mx5Rs0E,7Xr0Sq4A
 43068,178 DROGUERIA DEL SUD S.A. ✮✮,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 24978,Remitido,F,CAS-PPAR1048T040,0,0,08/01/2026,TRANSPORTE RAOSA SRL,553031,33.0%,567.00,T,5Mx5Rs0E,5Pj9Xf1N
-43069,178 DROGUERIA DEL SUD S.A. ✮✮,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 24979,Remitido,F,CAS-PPAR1048T040,0,0,08/01/2026,EXPRESO LANCIONI,553032,33.0%,113.40,T,5Mx5Rs0E,8Mc1Gw5Y
+43069,178 DROGUERIA DEL SUD S.A. ✮✮,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 24979,Remitido,F,CAS-PPAR1048T040,0,0,08/01/2026,EXPRESO LANCIONI,553032,33.0%,113.40,T,5Mx5Rs0E,2Au6Re6F
 43098,2638 QUE RICO SA ,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 24985,Remitido,F,MUESTRA ESPECIAL,0,0,08/01/2026,EXPRESO CARGO SA,555257,100.0%,.00,T,0Sl1Br5D,5Mx5Rs0E
 43091,279 HONDA MOTOR DE ARGENTINA S.A. ✮✮,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 24981,Remitido,F,04169-00056-93,0,0,08/01/2026,EXPRESO CARGO SA,554400,40.6%,919.863,T,1Rf6Ez5C,5Mx5Rs0E
 43091,279 HONDA MOTOR DE ARGENTINA S.A. ✮✮,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 24981,Remitido,F,04169-00058-93,0,0,08/01/2026,EXPRESO CARGO SA,554400,40.1%,919.863,T,1Rf6Ez5C,5Mx5Rs0E
@@ -236,7 +236,7 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 43080,132 MAHLE VALVULAS DE ARGENTINA SA ✮✮,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 24998,Remitido,F,04169-00056-93,0,0,09/01/2026,EXPRESO SANTA ROSA,553563,54.5%,160.80,T,6Ls2Pd3Q,5Ow8Cg8A
 43080,132 MAHLE VALVULAS DE ARGENTINA SA ✮✮,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 24998,Remitido,F,04169-00058-93,0,0,09/01/2026,EXPRESO SANTA ROSA,553563,54.0%,214.40,T,6Ls2Pd3Q,5Ow8Cg8A
 43080,132 MAHLE VALVULAS DE ARGENTINA SA ✮✮,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 24998,Remitido,F,04169-00059-93,0,0,09/01/2026,EXPRESO SANTA ROSA,553563,53.2%,53.60,T,6Ls2Pd3Q,5Ow8Cg8A
-43069,178 DROGUERIA DEL SUD S.A. ✮✮,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 24993,Remitido,F,CAS-PPAR1048T040,0,0,09/01/2026,EXPRESO LANCIONI,553032,33.0%,340.20,T,5Mx5Rs0E,2Au6Re6F
+43069,178 DROGUERIA DEL SUD S.A. ✮✮,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 24993,Remitido,F,CAS-PPAR1048T040,0,0,09/01/2026,EXPRESO LANCIONI,553032,33.0%,340.20,T,5Mx5Rs0E,8Mc1Gw5Y
 43070,178 DROGUERIA DEL SUD S.A. ✮✮,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 24988,Remitido,F,CAS-PPAR1048T040,0,0,09/01/2026,TRANSPORTE TOMASSINI,553033,33.0%,317.52,T,5Mx5Rs0E,3Dw0Uk2K
 43020,2025 CELSUR LOGISTICA S.A. ,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 24999,Remitido,F,PEG5L1570B,0,0,09/01/2026,EXPRESO CARGO SA,549781,0.0%,.00,T,5Hz1Mp3S,5Pj9Xf1N
 43030,2556 TEJIDOS LATINOS SA ✮✮,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 24990,Remitido,F,2556/001,0,0,09/01/2026,EXPRESO CARGO SA,550674,65.5%,664.56,T,0Cb5Za6D,2Uv7Bb0L
@@ -264,6 +264,7 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 43105,9402290 BI MERCANTIL SAS ✮✮,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo,,F,CAS-PPA1072T040,1059,21,12/01/2026,TRANSPORTE MOSTTO,556267,31.0%,918.00,,6Cx3Az0M,6Ll4Vl5M
 43106,9402290 BI MERCANTIL SAS ✮✮,Ejecución de la orden pendiente,Todo Aprobado, ,,F,H11/CPE,1,0,12/01/2026,TRANSPORTE MOSTTO,556368,0.0%,.00,,6Cx3Az0M,8Yp8Ld0P
 43082,9402631 CAPELLA ELEONOR ANALIA ✮✮✮✮,Facturación pendiente,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 25003,Remitido,F,CAS-PPAR10048T047,0,0,12/01/2026,EXPRESO LUJAN DEL CUYO SA,553820,48.4%,288.00,F,,2Jl6Ja1C
+43121,1906 SOFTBOND SA ✮✮,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo,,F,CAS-PPA1048T043,0,828,13/01/2026,EXPRESO CARGO SA,557953,35.8%,571.32,,0Ij4Pc0C,3Dw0Uk2K
 43117,26 SPICER EJES PESADOS SA ✮✮,Ejecución de la orden pendiente,Todo Aprobado, ,,F,FLJSPET12016V,6,0,13/01/2026,EXPRESO CARGO SA,557688,-2.6%,312.00,,0Wt2Wp0H,5Mx5Rs0E
 43119,3636 JULICROC SA ,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo,,F,CAS-PPA15048T045,0,120,13/01/2026,TRANSPORTE MOSTTO,557799,57.0%,1254.00,,3Fa0Qy2E,
 43119,3636 JULICROC SA ,Ejecución de la orden pendiente,Todo Aprobado, ,,F,CAS-PPA1072T043,360,0,13/01/2026,TRANSPORTE MOSTTO,557799,35.6%,374.40,,3Fa0Qy2E,
@@ -287,6 +288,7 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 42739,583 TERRAGENE SA ✮✮,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Ensamblada,F,04965-00011-00,300,0,28/01/2026,FELICI JORGE ARIEL,532248,55.5%,4200.00,,5Pl6Eg8H,0Jn1Mv5H
 43046,4229 TRADE COMMUNICATION SA ,Ejecución de la orden pendiente,Todo Aprobado, ,,F,0433/004,0,12500,29/01/2026,EXPRESO CARGO SA,551978,54.0%,3750.00,,5Ok6Fk3E,7Rx7Ub2H
 43052,9402378 PEDRO NOSSOVITCH Y CIA S A ✮✮✮✮,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Liberada,F,9402378/001,0,720,29/01/2026,EXPRESO CARGO SA,552463,43.4%,849.60,,,8Cf1Ra3G
+43122,4095 REFINERIA DEL CENTRO SA ✮✮,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo,,F,CAS-PPHR10048XT045,0,102,02/02/2026,EXPRESO SANTA ROSA,557954,46.1%,1448.40,,1Bj3Wa5S,0Qu5Fi8T
 43081,9400422 LACTEOS TONUTTI S.R.L. ,Ejecución de la orden pendiente,Todo Aprobado, ,,F,PPHR15048XT,60,0,02/02/2026,TRANSPORTE MOSTTO,553717,42.3%,1200.00,,3Nb5Vf8A,3Ny6Zw2O
 42979,94010 VISUAR SA ✮✮,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Liberada,F,1823/002,0,192,09/02/2026,EXPRESO CARGO SA,546720,46.3%,5472.00,,4Gf8Oa0H,8Cf1Ra3G
 43019,9402660 HORSE ARGENTINA SA ,Ejecución de la orden pendiente,Todo Aprobado, ,,F,V20,750,0,04/03/2026,EXPRESO CARGO SA,549681,60.7%,2.727.966,,,3Dw0Uk2K
