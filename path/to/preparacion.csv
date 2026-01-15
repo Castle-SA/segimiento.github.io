@@ -18,7 +18,7 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 42934,9400945 LAMED S.A. ✮✮,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 24843,Remitido,F,CAS-PPAR1048T045,0,0,17/12/2025,RICARDO PIERONI,543445,58.2%,432.00,T,9Dw9Wh0V,
 42829,9402003 BERSANO SRL ✮✮,Parcialmente ejecutada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 24845,Remitido,F,4604/001,0,168,17/12/2025,RICARDO PIERONI,535856,31.1%,873.60,T,7Hm4Iw2H,7Rx7Ub2H
 42993,9402274 KATEMBAL SRL ✮✮,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 24846,Remitido,F,VCI420,0,0,17/12/2025,EXPRESO CARGO SA,547762,32.7%,504.90,T,6Jt9Pv6M,3Dw0Uk2K
-42846,102 VOLKSWAGEN ARGENTINA S.A. ✮✮,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Liberada,F,0103/001,0,200,19/12/2025,EXPRESO CARGO SA,537325,47.2%,336.00,,7Kh2Zf0E,0Bz8Ix7O
+42846,102 VOLKSWAGEN ARGENTINA S.A. ✮✮,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Liberada,T,0103/001,0,200,19/12/2025,EXPRESO CARGO SA,537325,47.2%,336.00,,7Kh2Zf0E,0Bz8Ix7O
 43004,1149 EL DORADO SA ✮✮,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 24850,Remitido,F,MTP536B,0,0,19/12/2025,FELICI JORGE ARIEL,548282,26.6%,5832.96,T,9Yg2Bd3D,1Bj3Wa5S
 42985,3051 FRIMETAL S.A. ,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 24847,Remitido,F,2280/004,0,0,19/12/2025,FELICI JORGE ARIEL,547241,60.4%,3.278.089,T,3Dw0Uk2K,4Py6Ze4H
 42986,3051 FRIMETAL S.A. ,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 24848,Remitido,F,MTP548B,0,0,19/12/2025,FELICI JORGE ARIEL,547257,36.3%,2.305.966,T,3Dw0Uk2K,4Py6Ze4H
@@ -221,7 +221,7 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 43100,1067 DIPAC SA ✮✮✮,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 25007,Remitido,F,PPAR1048T,0,0,12/01/2026,RICARDO PIERONI,555468,47.6%,590.40,T,9Tj7Li2O,3Hy2Ia2F
 43113,143 EPTA ARGENTINA S.A. ✮✮,Ejecución de la orden pendiente,Todo Aprobado, ,,F,MTS536B,336,0,12/01/2026,RICARDO PIERONI,557170,57.7%,739.20,,1Tu2Pr5C,7Qv9Mi1Z
 43104,2660 VICUNHA ARGENTINA SA (Tintoreria Ullum) ✮✮,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 25004,Remitido,F,CAS-PPA1048T040,0,0,12/01/2026,EXPRESO CARGO SA,556067,45.7%,259.20,T,5Dr6Pr8I,4Vs0Qf0C
-43076,3089 ARNEG ARGENTINA S.A. ✮✮,Parcialmente ejecutada,Todo Aprobado,Orden de trabajo ,En curso,F,3089/082,0,6120,12/01/2026,RICARDO PIERONI,553345,49.5%,7650.00,,7Rx7Ub2H,8Wb3Xi2L
+43076,3089 ARNEG ARGENTINA S.A. ✮✮,Parcialmente ejecutada,Todo Aprobado,Orden de trabajo ,En curso,F,3089/082,0,6120,12/01/2026,RICARDO PIERONI,553345,49.5%,7650.00,,7Rx7Ub2H,1Fr4Ch9I
 43025,4095 REFINERIA DEL CENTRO SA ✮✮,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 25002,Remitido,F,H11/72,0,0,12/01/2026,EXPRESO SANTA ROSA,549911,54.0%,695.10,T,1Bj3Wa5S,7Es1Xz6T
 43118,4674 GIORNO S A (GRUPO VALASTRO) ✮✮,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 25005,Remitido,F,MUESTRA ESPECIAL,0,0,12/01/2026,CORREO ARGENTINO,557788,100.0%,.00,T,1Jm9Zf6J,9Lx6Mu2V
 43109,4894 VANOLI Y CIA SA ✮✮,Ejecución de la orden pendiente,Todo Aprobado, ,,F,PPAR1048T,0,540,12/01/2026,EXPRESO CARGO SA,556871,44.2%,415.80,,1Qt0Ac5G,8Cf1Ra3G
@@ -257,7 +257,7 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 43076,3089 ARNEG ARGENTINA S.A. ✮✮,Parcialmente ejecutada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 25020,Remitido,F,3089/079,0,0,14/01/2026,RICARDO PIERONI,553345,51.4%,1805.40,T,7Rx7Ub2H,4Ev1Va1N
 43076,3089 ARNEG ARGENTINA S.A. ✮✮,Parcialmente ejecutada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 25020,Remitido,F,3089/080,0,0,14/01/2026,RICARDO PIERONI,553345,51.6%,2136.90,T,7Rx7Ub2H,2Au6Re6F
 43076,3089 ARNEG ARGENTINA S.A. ✮✮,Parcialmente ejecutada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 25020,Remitido,F,3089/029,0,0,14/01/2026,RICARDO PIERONI,553345,26.7%,270.00,T,7Rx7Ub2H,2Au6Re6F
-43076,3089 ARNEG ARGENTINA S.A. ✮✮,Parcialmente ejecutada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 25020,Remitido,F,3089/082,0,6120,14/01/2026,RICARDO PIERONI,553345,49.5%,1100.00,T,7Rx7Ub2H,1Fr4Ch9I
+43076,3089 ARNEG ARGENTINA S.A. ✮✮,Parcialmente ejecutada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 25020,Remitido,F,3089/082,0,6120,14/01/2026,RICARDO PIERONI,553345,49.5%,1100.00,T,7Rx7Ub2H,8Wb3Xi2L
 43128,3096 FRECICAR SRL ✮✮,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo,,F,CAS-PPAR1048T043,0,504,14/01/2026,RICARDO PIERONI,558450,42.9%,428.40,,9Zc0Jy4O,0Vc7Du3D
 43094,4674 GIORNO S A (GRUPO VALASTRO) ✮✮,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 25019,Remitido,F,PPAR1072T,0,0,14/01/2026,TRANSPORTE TOMASSINI,554878,43.1%,2784.00,T,1Jm9Zf6J,
 43105,9402290 BI MERCANTIL SAS ✮✮,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 25022,Remitido,F,CAS-PPA1048T040,0,0,14/01/2026,TRANSPORTE MOSTTO,556267,20.2%,882.00,T,6Cx3Az0M,6Ng7Hp1X
