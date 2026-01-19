@@ -11,7 +11,7 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 42676,6142 PAPELERA DEL SUR SRL ✮✮,Parcialmente ejecutada,Todo Aprobado,Factura de venta 39087,Pagado por completo,F,PPAR1024T,0,540,11/12/2025,RICARDO PIERONI,529237,40.4%,280.80,,9Rc3Gf4C,2Aa9Oj0E
 42850,3089 ARNEG ARGENTINA S.A. ✮✮,Parcialmente ejecutada,Todo Aprobado,Orden de trabajo ,Ensamblada,T,3089/051,6000,0,15/12/2025,RICARDO PIERONI,537483,80.7%,816.00,,7Rx7Ub2H,
 42850,3089 ARNEG ARGENTINA S.A. ✮✮,Parcialmente ejecutada,Todo Aprobado,Orden de trabajo ,Ensamblada,T,3089/039,6000,0,15/12/2025,RICARDO PIERONI,537483,82.0%,1182.00,,7Rx7Ub2H,
-42869,3089 ARNEG ARGENTINA S.A. ✮✮,Parcialmente ejecutada,Todo Aprobado,Orden de trabajo ,Ensamblada,F,3089/067,12000,0,15/12/2025,RICARDO PIERONI,538729,82.3%,1992.00,,7Rx7Ub2H,4Ev1Va1N
+42869,3089 ARNEG ARGENTINA S.A. ✮✮,Parcialmente ejecutada,Todo Aprobado,Orden de trabajo ,Ensamblada,F,3089/067,12000,0,15/12/2025,RICARDO PIERONI,538729,82.3%,1992.00,,7Rx7Ub2H,
 42846,102 VOLKSWAGEN ARGENTINA S.A. ✮✮,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Liberada,T,0103/001,0,200,19/12/2025,EXPRESO CARGO SA,537325,47.2%,336.00,,7Kh2Zf0E,0Bz8Ix7O
 42971,5019 GRANJA TRES ARROYOS SACAFEI ✮✮,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Ensamblada,F,PPHR1216B,756,0,19/12/2025,EXPRESO CARGO SA,546362,46.6%,945.00,,0Ql9Gi1V,3Ny6Zw2O
 42971,5019 GRANJA TRES ARROYOS SACAFEI ✮✮,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Ensamblada,F,PVC612R,1008,0,19/12/2025,EXPRESO CARGO SA,546362,51.9%,1360.80,,0Ql9Gi1V,3Ny6Zw2O
@@ -39,7 +39,7 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 42974,3051 FRIMETAL S.A. ,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 24871,Remitido,F,PPAR1048M,0,0,23/12/2025,FELICI JORGE ARIEL,546686,36.9%,252.221,T,3Dw0Uk2K,8Ny2Or7G
 42974,3051 FRIMETAL S.A. ,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 24871,Remitido,F,3051/010,0,0,23/12/2025,FELICI JORGE ARIEL,546686,59.3%,169.558,T,3Dw0Uk2K,8Ny2Or7G
 42974,3051 FRIMETAL S.A. ,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 24871,Remitido,F,MTP548B,0,0,23/12/2025,FELICI JORGE ARIEL,546686,36.3%,1.492.096,T,3Dw0Uk2K,8Ny2Or7G
-42975,3051 FRIMETAL S.A. ,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 24874,Remitido,F,64621-00036-00,0,0,23/12/2025,FELICI JORGE ARIEL,546687,35.0%,361.982,T,3Dw0Uk2K,8Ny2Or7G
+42975,3051 FRIMETAL S.A. ,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 24874,Remitido,F,64621-00036-00,0,0,23/12/2025,FELICI JORGE ARIEL,546687,35.0%,361.982,T,3Dw0Uk2K,1Wa0Iu6X
 42997,3051 FRIMETAL S.A. ,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 24872,Remitido,F,07055-00007-22,0,0,23/12/2025,FELICI JORGE ARIEL,547919,46.9%,468.268,T,3Dw0Uk2K,1Tu2Pr5C
 42997,3051 FRIMETAL S.A. ,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 24872,Remitido,F,PPAR1048M,0,0,23/12/2025,FELICI JORGE ARIEL,547919,35.6%,93.624,T,3Dw0Uk2K,0Tn2Lb2H
 42997,3051 FRIMETAL S.A. ,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 24872,Remitido,F,MTP548B,0,0,23/12/2025,FELICI JORGE ARIEL,547919,35.7%,1.342.703,T,3Dw0Uk2K,1Wa0Iu6X
@@ -106,7 +106,7 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 42850,3089 ARNEG ARGENTINA S.A. ✮✮,Parcialmente ejecutada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 24935,Remitido,T,3089/051,6000,0,30/12/2025,RICARDO PIERONI,537483,80.7%,1904.00,T,7Rx7Ub2H,
 42850,3089 ARNEG ARGENTINA S.A. ✮✮,Parcialmente ejecutada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 24935,Remitido,T,3089/039,6000,0,30/12/2025,RICARDO PIERONI,537483,82.0%,2758.00,T,7Rx7Ub2H,
 42850,3089 ARNEG ARGENTINA S.A. ✮✮,Parcialmente ejecutada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 24935,Remitido,T,3089/052,0,0,30/12/2025,RICARDO PIERONI,537483,7.6%,1840.00,T,7Rx7Ub2H,
-42869,3089 ARNEG ARGENTINA S.A. ✮✮,Parcialmente ejecutada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 24934,Remitido,F,3089/067,12000,0,30/12/2025,RICARDO PIERONI,538729,82.3%,2988.00,T,7Rx7Ub2H,
+42869,3089 ARNEG ARGENTINA S.A. ✮✮,Parcialmente ejecutada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 24934,Remitido,F,3089/067,12000,0,30/12/2025,RICARDO PIERONI,538729,82.3%,2988.00,T,7Rx7Ub2H,4Ev1Va1N
 42869,3089 ARNEG ARGENTINA S.A. ✮✮,Parcialmente ejecutada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 24934,Remitido,F,3089/049,0,0,30/12/2025,RICARDO PIERONI,538729,81.6%,2260.00,T,7Rx7Ub2H,2Au6Re6F
 42869,3089 ARNEG ARGENTINA S.A. ✮✮,Parcialmente ejecutada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 24934,Remitido,F,3089/068,0,0,30/12/2025,RICARDO PIERONI,538729,82.6%,1285.00,T,7Rx7Ub2H,2Au6Re6F
 42869,3089 ARNEG ARGENTINA S.A. ✮✮,Parcialmente ejecutada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 24934,Remitido,F,3089/040,0,0,30/12/2025,RICARDO PIERONI,538729,82.0%,1580.00,T,7Rx7Ub2H,1Fr4Ch9I
@@ -253,9 +253,9 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 43152,18293 DULCOR SA ✮✮,Parcialmente ejecutada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 25035,Remitido,F,PPAR15048T,0,0,15/01/2026,EXPRESO LANCIONI,560308,53.8%,2475.00,T,0Jn1Mv5H,5Mx5Rs0E
 43141,2515 CONGELADOS ARTICO SA ✮✮,Parcialmente ejecutada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 25028,Remitido,F,CAS-PPAR1072T043,22,434,15/01/2026,TRANSPORTE TOMASSINI,559640,43.7%,1289.04,T,8Rn3En3G,4Vs0Qf0C
 43141,2515 CONGELADOS ARTICO SA ✮✮,Parcialmente ejecutada,Todo Aprobado,Orden de trabajo,Abierta,F,CAS-PPAR1072T043,22,434,15/01/2026,TRANSPORTE TOMASSINI,559640,43.7%,597.36,,8Rn3En3G,4Vs0Qf0C
-42952,3014 PAPELERA ENTRE RIOS S.A. ✮✮,Parcialmente ejecutada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 25038,Remitido,F,64621-00004-00,0,144,15/01/2026,RETIRAN,544609,31.0%,534.80,T,3Jn8Ia2B,8Tz8Ui3Y
-42975,3051 FRIMETAL S.A. ,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 25043,Remitido,F,64621-00036-00,0,0,15/01/2026,FELICI JORGE ARIEL,546687,35.0%,2.654.537,T,3Dw0Uk2K,1Wa0Iu6X
-43059,3051 FRIMETAL S.A. ,Parcialmente ejecutada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 25042,Remitido,T,64621-00036-00,0,326,15/01/2026,FELICI JORGE ARIEL,553022,33.9%,552.40,T,3Dw0Uk2K,3Pt0Oq8I
+42952,3014 PAPELERA ENTRE RIOS S.A. ✮✮,Parcialmente ejecutada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 25038,Remitido,F,64621-00004-00,0,144,15/01/2026,RETIRAN,544609,31.0%,534.80,T,3Jn8Ia2B,1Wa0Iu6X
+42975,3051 FRIMETAL S.A. ,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 25043,Remitido,F,64621-00036-00,0,0,15/01/2026,FELICI JORGE ARIEL,546687,35.0%,2.654.537,T,3Dw0Uk2K,8Ny2Or7G
+43059,3051 FRIMETAL S.A. ,Parcialmente ejecutada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 25042,Remitido,T,64621-00036-00,0,326,15/01/2026,FELICI JORGE ARIEL,553022,33.9%,552.40,T,3Dw0Uk2K,6Ls2Pd3Q
 43090,3769 GAROFOLI CONSTRUCCIONES SRL ✮✮,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 25033,Remitido,T,0674/003,0,0,15/01/2026,RODRIGUEZ HNOS. TRANSP. SA,554499,42.0%,330.40,T,7Qv9Mi1Z,7Rx7Ub2H
 43090,3769 GAROFOLI CONSTRUCCIONES SRL ✮✮,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 25033,Remitido,T,1771/001,0,0,15/01/2026,RODRIGUEZ HNOS. TRANSP. SA,554499,42.6%,165.15,T,7Qv9Mi1Z,8Ds2Kv5E
 43090,3769 GAROFOLI CONSTRUCCIONES SRL ✮✮,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 25033,Remitido,T,64958-00001-00,0,0,15/01/2026,RODRIGUEZ HNOS. TRANSP. SA,554499,44.3%,345.60,T,7Qv9Mi1Z,9Hm9Dl7F
@@ -283,15 +283,15 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 43103,3051 FRIMETAL S.A. ,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 25045,Remitido,F,MTP548B,0,0,16/01/2026,FELICI JORGE ARIEL,555915,35.4%,3.947.636,T,3Dw0Uk2K,0Ph8Mv3F
 43103,3051 FRIMETAL S.A. ,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 25045,Remitido,F,PPAR1048M,0,0,16/01/2026,FELICI JORGE ARIEL,555915,35.2%,777.576,T,3Dw0Uk2K,0Ph8Mv3F
 43133,3051 FRIMETAL S.A. ,Parcialmente ejecutada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 25046,Remitido,F,3051/010,0,0,16/01/2026,FELICI JORGE ARIEL,558974,58.7%,333.427,T,3Dw0Uk2K,4Xc6El8T
-43133,3051 FRIMETAL S.A. ,Parcialmente ejecutada,Todo Aprobado,Factura de venta 39331,Abierta,F,MTP548B,0,360,16/01/2026,FELICI JORGE ARIEL,558974,35.2%,666.846,,3Dw0Uk2K,7Rx7Ub2H
-43133,3051 FRIMETAL S.A. ,Parcialmente ejecutada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 25047,Remitido,F,MTP548B,0,360,16/01/2026,FELICI JORGE ARIEL,558974,35.2%,533.477,T,3Dw0Uk2K,
+43133,3051 FRIMETAL S.A. ,Parcialmente ejecutada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 25047,Remitido,F,MTP548B,0,360,16/01/2026,FELICI JORGE ARIEL,558974,35.2%,533.477,T,3Dw0Uk2K,7Rx7Ub2H
+43133,3051 FRIMETAL S.A. ,Parcialmente ejecutada,Todo Aprobado,Factura de venta 39331,Abierta,F,MTP548B,0,360,16/01/2026,FELICI JORGE ARIEL,558974,35.2%,666.846,,3Dw0Uk2K,
 43133,3051 FRIMETAL S.A. ,Parcialmente ejecutada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 25046,Remitido,F,PPAR1048M,0,0,16/01/2026,FELICI JORGE ARIEL,558974,34.7%,309.987,T,3Dw0Uk2K,
 43156,3051 FRIMETAL S.A. ,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 25044,Remitido,F,PPAR1048M,0,0,16/01/2026,FELICI JORGE ARIEL,560719,35.6%,530.538,T,3Dw0Uk2K,
 43158,3086 MULTIORIGINAL PARTS SA ✮✮,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo,,F,CAS-PPAR1048T043,0,540,16/01/2026,RICARDO PIERONI,560841,39.3%,432.00,,1Fr4Ch9I,
 43119,3636 JULICROC SA ,Parcialmente ejecutada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 25050,Remitido,F,CAS-PPA1072T043,0,0,16/01/2026,TRANSPORTE AGUILAR S.R.L.,557799,35.6%,374.40,T,3Fa0Qy2E,7Rx7Ub2H
 43119,3636 JULICROC SA ,Parcialmente ejecutada,Todo Aprobado,Orden de trabajo,Abierta,F,CAS-PPA1048T043,0,540,16/01/2026,TRANSPORTE AGUILAR S.R.L.,557799,35.8%,372.60,,3Fa0Qy2E,7Rx7Ub2H
-43119,3636 JULICROC SA ,Parcialmente ejecutada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 25050,Remitido,F,CAS-PPA15048T047,0,93,16/01/2026,TRANSPORTE AGUILAR S.R.L.,557799,44.6%,282.15,T,3Fa0Qy2E,7Rx7Ub2H
 43119,3636 JULICROC SA ,Parcialmente ejecutada,Todo Aprobado,Orden de trabajo,Abierta,F,CAS-PPA15048T047,0,93,16/01/2026,TRANSPORTE AGUILAR S.R.L.,557799,44.6%,971.85,,3Fa0Qy2E,7Rx7Ub2H
+43119,3636 JULICROC SA ,Parcialmente ejecutada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 25050,Remitido,F,CAS-PPA15048T047,0,93,16/01/2026,TRANSPORTE AGUILAR S.R.L.,557799,44.6%,282.15,T,3Fa0Qy2E,7Rx7Ub2H
 43149,9402196 TOTALPACK ,Ejecución de la orden pendiente,Todo Aprobado, ,,F,MUESTRA ESPECIAL,0,1,16/01/2026,BARRY LATIMER,560272,100.0%,.00,,2Mc0Kj7V,7Qv9Mi1Z
 43124,1029 DREAN SA ,Ejecución de la orden pendiente,Todo Aprobado, ,,F,MTP548B,0,1224,19/01/2026,EXPRESO CARGO SA,558218,37.2%,2337.84,,6Ng7Hp1X,0Ql9Gi1V
 42941,12662 PRINTEMPS S.R.L. ✮✮,Parcialmente ejecutada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 25053,Remitido,F,12662/002,0,0,19/01/2026,RICARDO PIERONI,543970,6.8%,675.00,T,2Sp0Fe1F,4Rs4Vh2H
@@ -320,10 +320,12 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 43161,3051 FRIMETAL S.A. ,Ejecución de la orden pendiente,Todo Aprobado, ,,F,MTP548B,0,432,20/01/2026,FELICI JORGE ARIEL,560965,35.7%,805.622,,3Dw0Uk2K,
 43093,9400962 CRYSTAL-ICE SRL ✮✮,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Liberada,F,9400962/011,0,360,20/01/2026,RICARDO PIERONI,554759,19.3%,518.40,,4Is2Rn8E,1Fr4Ch9I
 43168,132 MAHLE VALVULAS DE ARGENTINA SA ✮✮,Ejecución de la orden pendiente,Todo Aprobado, ,,F,MVAQUA203V,360,0,21/01/2026,EXPRESO SANTA ROSA,561315,46.8%,3549.60,,6Ls2Pd3Q,2Uv7Bb0L
+43181,2065 CHITARRONI S.A. ✮✮,Ejecución de la orden pendiente,Todo Aprobado, ,,F,PPA1548TE,360,0,21/01/2026,RICARDO PIERONI,562221,58.0%,540.00,,3Or5Ev6A,2Gq6Ps1R
 43177,4517 HIPER PACK ROSARIO DE CERRA VALERIA BEATRIZ ✮✮,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo,,F,CAS-PPAR1048T043,0,288,21/01/2026,RICARDO PIERONI,561878,39.2%,230.40,,3Ny6Zw2O,8Cf1Ra3G
 43177,4517 HIPER PACK ROSARIO DE CERRA VALERIA BEATRIZ ✮✮,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo,,F,CAS-PPAR548T043,0,108,21/01/2026,RICARDO PIERONI,561878,31.2%,39.96,,3Ny6Zw2O,8Cf1Ra3G
 43177,4517 HIPER PACK ROSARIO DE CERRA VALERIA BEATRIZ ✮✮,Ejecución de la orden pendiente,Todo Aprobado, ,,F,MTS524B,72,0,21/01/2026,RICARDO PIERONI,561878,28.7%,72.00,,3Ny6Zw2O,8Kv1Jo3K
 43177,4517 HIPER PACK ROSARIO DE CERRA VALERIA BEATRIZ ✮✮,Ejecución de la orden pendiente,Todo Aprobado, ,,F,PPAR524T,0,576,21/01/2026,RICARDO PIERONI,561878,99.9%,144.00,,3Ny6Zw2O,5Hd9Vg2B
+43180,5078 GRANJA SRL ✮✮,Ejecución de la orden pendiente,Todo Aprobado, ,,F,PPA1548TE,360,0,21/01/2026,RICARDO PIERONI,562119,48.8%,442.80,,8Xs6Zk8N,3Ny6Zw2O
 43171,34 ARGENTAL S.A.I.C. ✮✮,Ejecución de la orden pendiente,Todo Aprobado, ,,F,VCI420,222.6,0,22/01/2026,RICARDO PIERONI,561436,49.6%,2003.40,,7Rh7In1Q,3Dw0Uk2K
 43162,4359 INDUSTRIAS BRAFH SA ,Ejecución de la orden pendiente,Todo Aprobado, ,,F,PVC648R,1,0,22/01/2026,RETIRAN,561079,0.0%,.00,,9Hy8Nf6Y,
 43167,9403278 GIAVENO LUCIANO ,Ejecución de la orden pendiente,Todo Aprobado, ,,F,MVAQUA180,20,0,22/01/2026,RETIRAN,561308,100.0%,.00,,,1Qd9By7M
@@ -369,8 +371,8 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 43065,178 DROGUERIA DEL SUD S.A. ✮✮,Parcialmente ejecutada,Todo Aprobado,Orden de trabajo ,Liberada,F,PPA1048F,0,36,,EXPRESO LUJAN DEL CUYO SA,553028,18.9%,65.52,,5Mx5Rs0E,
 43066,178 DROGUERIA DEL SUD S.A. ✮✮,Parcialmente ejecutada,Todo Aprobado,Orden de trabajo ,Liberada,F,PPA1048F,0,72,,EXPRESO LANCIONI,553029,18.9%,131.04,,5Mx5Rs0E,2Uv7Bb0L
 42958,272 TALLERES METALURGICOS BAMBI S.A. ✮✮,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Ensamblada,F,07063-00001-24,2,0,,RETIRAN,545139,0.0%,.00,,6Sy2Dr1B,9Ms2Pn8I
-42952,3014 PAPELERA ENTRE RIOS S.A. ✮✮,Parcialmente ejecutada,Todo Aprobado,Orden de trabajo ,En curso,F,64621-00004-00,0,144,,RETIRAN,544609,31.0%,1375.20,,3Jn8Ia2B,1Wa0Iu6X
-43059,3051 FRIMETAL S.A. ,Parcialmente ejecutada,Todo Aprobado,Orden de trabajo ,En curso,T,64621-00036-00,0,326,,FELICI JORGE ARIEL,553022,33.9%,2.433.546,,3Dw0Uk2K,6Ls2Pd3Q
+42952,3014 PAPELERA ENTRE RIOS S.A. ✮✮,Parcialmente ejecutada,Todo Aprobado,Orden de trabajo ,En curso,F,64621-00004-00,0,144,,RETIRAN,544609,31.0%,1375.20,,3Jn8Ia2B,8Tz8Ui3Y
+43059,3051 FRIMETAL S.A. ,Parcialmente ejecutada,Todo Aprobado,Orden de trabajo ,En curso,T,64621-00036-00,0,326,,FELICI JORGE ARIEL,553022,33.9%,2.433.546,,3Dw0Uk2K,3Pt0Oq8I
 41833,3089 ARNEG ARGENTINA S.A. ✮✮,Parcialmente ejecutada,Todo Aprobado,Orden de trabajo ,Cerrada,T,3089/082,0,5850,,FELICI JORGE ARIEL,475784,52.2%,7312.50,,7Rx7Ub2H,
 42523,3089 ARNEG ARGENTINA S.A. ✮✮,Ejecución de la orden pendiente,Todo Aprobado, ,,T,3089/052,1300,2700,,FELICI GERARDO FABIAN,520980,19.6%,3680.00,,7Rx7Ub2H,
 42980,3089 ARNEG ARGENTINA S.A. ✮✮,Parcialmente ejecutada,Todo Aprobado,Orden de trabajo ,Ensamblada,F,3089/041,18000,0,,RICARDO PIERONI,546734,81.0%,1908.00,,7Rx7Ub2H,8Wb3Xi2L
