@@ -2,8 +2,8 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 42066,3598 DEL VALLE EMBALAJES SRL ✮✮,Parcialmente ejecutada,Todo Aprobado,Factura de venta 38103,Pagado por completo,F,PPAR1024T,0,720,19/08/2025,RICARDO PIERONI,488353,41.7%,345.60,,0Ph8Mv3F,2Wy4Vz4B
 42066,3598 DEL VALLE EMBALAJES SRL ✮✮,Parcialmente ejecutada,Todo Aprobado,Factura de venta 38112,Pagado por completo,F,PPAR1024T,0,720,20/08/2025,RICARDO PIERONI,488353,41.7%,345.60,,0Ph8Mv3F,2Wy4Vz4B
 42676,6142 PAPELERA DEL SUR SRL ✮✮,Parcialmente ejecutada,Todo Aprobado,Factura de venta 38813,Pagado por completo,F,PPAR1024T,0,540,14/11/2025,RICARDO PIERONI,529237,40.4%,280.80,,9Rc3Gf4C,2Aa9Oj0E
-42736,1029 DREAN SA ,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo,,F,CAS-MTS548B,0,2016,25/11/2025,EXPRESO CARGO SA,532245,19.1%,3850.56,,6Ng7Hp1X,2Df5Fp8J
-42738,1029 DREAN SA ,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo,,F,CAS-MTS548B,0,2016,02/12/2025,EXPRESO CARGO SA,532247,19.1%,3850.56,,6Ng7Hp1X,0Ut2Zv0U
+42736,1029 DREAN SA ,Ejecución de la orden pendiente,Todo Aprobado, ,,F,CAS-MTS548B,2016,0,25/11/2025,EXPRESO CARGO SA,532245,19.1%,3850.56,,6Ng7Hp1X,2Df5Fp8J
+42738,1029 DREAN SA ,Ejecución de la orden pendiente,Todo Aprobado, ,,F,CAS-MTS548B,2016,0,02/12/2025,EXPRESO CARGO SA,532247,19.1%,3850.56,,6Ng7Hp1X,0Ut2Zv0U
 42872,9401929 PETROPACK S.A. ✮✮,Parcialmente ejecutada,Todo Aprobado,Factura de venta 39032,Pagado por completo,F,PPAR524T,0,651,02/12/2025,TRANSPORTE MOSTTO,538934,99.9%,162.75,,8Ou2Yz9L,8Gy5Vz0B
 42880,1067 DIPAC SA ✮✮✮,Parcialmente ejecutada,Todo Aprobado,Factura de venta 39054,Pagado por completo,F,PPAR1024T,0,1440,04/12/2025,RICARDO PIERONI,539725,36.0%,720.00,,9Tj7Li2O,3Hy2Ia2F
 42880,1067 DIPAC SA ✮✮✮,Parcialmente ejecutada,Todo Aprobado,Factura de venta 39054,Pagado por completo,F,PPAR524T,0,360,04/12/2025,RICARDO PIERONI,539725,100.0%,104.40,,9Tj7Li2O,6Ng7Hp1X
@@ -156,7 +156,7 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 43066,178 DROGUERIA DEL SUD S.A. ✮✮,Parcialmente ejecutada,Todo Aprobado,Ejecución de pedido de artículo 24976,Enviado,F,CAS-PPAR1048T040,0,0,08/01/2026,EXPRESO LANCIONI,553029,33.0%,.00,T,5Mx5Rs0E,
 43067,178 DROGUERIA DEL SUD S.A. ✮✮,Facturada,Todo Aprobado,Ejecución de pedido de artículo 24977,Enviado,F,CAS-PPAR1048T040,0,0,08/01/2026,EXPRESO LANCIONI,553030,33.0%,.00,T,5Mx5Rs0E,0Ut2Zv0U
 43068,178 DROGUERIA DEL SUD S.A. ✮✮,Facturada,Todo Aprobado,Ejecución de pedido de artículo 24978,Enviado,F,CAS-PPAR1048T040,0,0,08/01/2026,TRANSPORTE RAOSA SRL,553031,33.0%,.00,T,5Mx5Rs0E,2Uv7Bb0L
-43069,178 DROGUERIA DEL SUD S.A. ✮✮,Facturada,Todo Aprobado,Ejecución de pedido de artículo 24979,Enviado,F,CAS-PPAR1048T040,0,0,08/01/2026,EXPRESO LANCIONI,553032,33.0%,.00,T,5Mx5Rs0E,2Uv7Bb0L
+43069,178 DROGUERIA DEL SUD S.A. ✮✮,Facturada,Todo Aprobado,Ejecución de pedido de artículo 24979,Enviado,F,CAS-PPAR1048T040,0,0,08/01/2026,EXPRESO LANCIONI,553032,33.0%,.00,T,5Mx5Rs0E,8Ky5Hq9D
 43098,2638 QUE RICO SA ,Facturada,Todo Aprobado,Ejecución de pedido de artículo 24985,Enviado,F,MUESTRA ESPECIAL,0,0,08/01/2026,EXPRESO CARGO SA,555257,100.0%,.00,T,0Sl1Br5D,4Vs0Qf0C
 43091,279 HONDA MOTOR DE ARGENTINA S.A. ✮✮,Facturada,Todo Aprobado,Ejecución de pedido de artículo 24981,Enviado,F,04169-00056-93,0,0,08/01/2026,EXPRESO CARGO SA,554400,40.6%,.00,T,1Rf6Ez5C,9Pk0Ny6V
 43091,279 HONDA MOTOR DE ARGENTINA S.A. ✮✮,Facturada,Todo Aprobado,Ejecución de pedido de artículo 24981,Enviado,F,04169-00058-93,0,0,08/01/2026,EXPRESO CARGO SA,554400,40.1%,.00,T,1Rf6Ez5C,6Bb0Mu1P
@@ -174,7 +174,7 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 43080,132 MAHLE VALVULAS DE ARGENTINA SA ✮✮,Facturada,Todo Aprobado,Ejecución de pedido de artículo 24998,Enviado,F,04169-00056-93,0,0,09/01/2026,EXPRESO SANTA ROSA,553563,54.5%,.00,T,6Ls2Pd3Q,3Gj7Vu0K
 43080,132 MAHLE VALVULAS DE ARGENTINA SA ✮✮,Facturada,Todo Aprobado,Ejecución de pedido de artículo 24998,Enviado,F,04169-00058-93,0,0,09/01/2026,EXPRESO SANTA ROSA,553563,54.0%,.00,T,6Ls2Pd3Q,6Ls2Pd3Q
 43080,132 MAHLE VALVULAS DE ARGENTINA SA ✮✮,Facturada,Todo Aprobado,Ejecución de pedido de artículo 24998,Enviado,F,04169-00059-93,0,0,09/01/2026,EXPRESO SANTA ROSA,553563,53.2%,.00,T,6Ls2Pd3Q,1Bj3Wa5S
-43069,178 DROGUERIA DEL SUD S.A. ✮✮,Facturada,Todo Aprobado,Ejecución de pedido de artículo 24993,Enviado,F,CAS-PPAR1048T040,0,0,09/01/2026,EXPRESO LANCIONI,553032,33.0%,.00,T,5Mx5Rs0E,8Ky5Hq9D
+43069,178 DROGUERIA DEL SUD S.A. ✮✮,Facturada,Todo Aprobado,Ejecución de pedido de artículo 24993,Enviado,F,CAS-PPAR1048T040,0,0,09/01/2026,EXPRESO LANCIONI,553032,33.0%,.00,T,5Mx5Rs0E,2Uv7Bb0L
 43070,178 DROGUERIA DEL SUD S.A. ✮✮,Facturada,Todo Aprobado,Ejecución de pedido de artículo 24988,Enviado,F,CAS-PPAR1048T040,0,0,09/01/2026,TRANSPORTE TOMASSINI,553033,33.0%,.00,T,5Mx5Rs0E,5Mx5Rs0E
 43020,2025 CELSUR LOGISTICA S.A. ,Facturada,Todo Aprobado,Ejecución de pedido de artículo 24999,Enviado,F,PEG5L1570B,0,0,09/01/2026,EXPRESO CARGO SA,549781,0.0%,.00,T,5Hz1Mp3S,3Dw0Uk2K
 43030,2556 TEJIDOS LATINOS SA ✮✮,Facturada,Todo Aprobado,Ejecución de pedido de artículo 24990,Enviado,F,2556/001,0,0,09/01/2026,EXPRESO CARGO SA,550674,65.5%,.00,T,0Cb5Za6D,4Vs0Qf0C
@@ -265,7 +265,7 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 43119,3636 JULICROC SA ,Parcialmente ejecutada,Todo Aprobado,Orden de trabajo,Abierta,F,CAS-PPA15048T047,0,93,16/01/2026,TRANSPORTE AGUILAR S.R.L.,557799,44.6%,971.85,,3Fa0Qy2E,7Rx7Ub2H
 43119,3636 JULICROC SA ,Parcialmente ejecutada,Todo Aprobado,Ejecución de pedido de artículo 25050,Enviado,F,CAS-PPA15048T047,0,93,16/01/2026,TRANSPORTE AGUILAR S.R.L.,557799,44.6%,971.85,T,3Fa0Qy2E,7Rx7Ub2H
 42995,1029 DREAN SA ,Facturada,Todo Aprobado,Ejecución de pedido de artículo 25061,Enviado,F,0272/003,0,0,19/01/2026,EXPRESO CARGO SA,547887,37.0%,.00,T,6Ng7Hp1X,3Dw0Uk2K
-43124,1029 DREAN SA ,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo,,F,CAS-MTS548B,0,1224,19/01/2026,EXPRESO CARGO SA,558218,10.6%,2337.84,,6Ng7Hp1X,0Ql9Gi1V
+43124,1029 DREAN SA ,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo,,F,CAS-MTS548B,828,396,19/01/2026,EXPRESO CARGO SA,558218,10.6%,2337.84,,6Ng7Hp1X,0Ql9Gi1V
 42941,12662 PRINTEMPS S.R.L. ✮✮,Facturada,Todo Aprobado,Ejecución de pedido de artículo 25053,Enviado,F,12662/002,0,0,19/01/2026,RICARDO PIERONI,543970,6.8%,.00,T,2Sp0Fe1F,4Gf8Oa0H
 43113,143 EPTA ARGENTINA S.A. ✮✮,Facturada,Todo Aprobado,Ejecución de pedido de artículo 25055,Enviado,F,MTS536B,0,0,19/01/2026,RICARDO PIERONI,557170,57.7%,.00,T,1Tu2Pr5C,6Tm5Az5M
 43001,15 IND. JOHN DEERE ARGENTINA S.A. ✮✮,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Liberada,T,0015/014/VCI,0,3000,19/01/2026,FELICI JORGE ARIEL,548038,80.5%,1320.00,,8Ky5Hq9D,5Pj9Xf1N
@@ -305,8 +305,8 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 43093,9400962 CRYSTAL-ICE SRL ✮✮,Facturada,Todo Aprobado,Ejecución de pedido de artículo 25084,Enviado,F,9400962/011,0,0,20/01/2026,RICARDO PIERONI,554759,19.3%,.00,T,4Is2Rn8E,2Jl6Ja1C
 43079,9402422 VALBO S A I C Y F ✮✮,Facturada,Todo Aprobado,Ejecución de pedido de artículo 25073,Enviado,F,CAS-PPAR1048T043,0,0,20/01/2026,RETIRAN,553459,52.1%,.00,T,,7Rx7Ub2H
 43167,9403278 GIAVENO LUCIANO ,Facturada,Todo Aprobado,Ejecución de pedido de artículo 25076,Enviado,F,MVAQUA180,0,0,20/01/2026,RETIRAN,561308,100.0%,.00,T,,7Rx7Ub2H
-43178,102 VOLKSWAGEN ARGENTINA S.A. ✮✮,Facturación pendiente/parcialmente ejecutada,Todo Aprobado,Orden de trabajo ,En curso,F,0685/002,0,200,21/01/2026,EXPRESO CARGO SA,562012,41.1%,18.616,,7Kh2Zf0E,7Kh2Zf0E
-43178,102 VOLKSWAGEN ARGENTINA S.A. ✮✮,Facturación pendiente/parcialmente ejecutada,Todo Aprobado,Ejecución de pedido de artículo 25092,Enviado,F,0685/002,0,200,21/01/2026,EXPRESO CARGO SA,562012,41.1%,18.616,F,7Kh2Zf0E,5Pl6Eg8H
+43178,102 VOLKSWAGEN ARGENTINA S.A. ✮✮,Facturación pendiente/parcialmente ejecutada,Todo Aprobado,Ejecución de pedido de artículo 25092,Enviado,F,0685/002,0,200,21/01/2026,EXPRESO CARGO SA,562012,41.1%,18.616,F,7Kh2Zf0E,7Kh2Zf0E
+43178,102 VOLKSWAGEN ARGENTINA S.A. ✮✮,Facturación pendiente/parcialmente ejecutada,Todo Aprobado,Orden de trabajo ,En curso,F,0685/002,0,200,21/01/2026,EXPRESO CARGO SA,562012,41.1%,18.616,,7Kh2Zf0E,5Pl6Eg8H
 43083,12815 INDUSTRIAS AVICOLAS SA ✮✮,Parcialmente ejecutada,Todo Aprobado,Ejecución de pedido de artículo 25089,Enviado,F,PPHR1216B,108,0,21/01/2026,TRANSPORTE MOSTTO,553967,41.9%,124.20,T,4Jk9Hq6A,7Rx7Ub2H
 43134,132 MAHLE VALVULAS DE ARGENTINA SA ✮✮,Facturada,Todo Aprobado,Ejecución de pedido de artículo 25085,Enviado,F,3351/001,0,0,21/01/2026,EXPRESO SANTA ROSA,559110,74.4%,.00,T,6Ls2Pd3Q,1Bj3Wa5S
 43134,132 MAHLE VALVULAS DE ARGENTINA SA ✮✮,Facturada,Todo Aprobado,Ejecución de pedido de artículo 25085,Enviado,F,3351/003,0,0,21/01/2026,EXPRESO SANTA ROSA,559110,75.5%,.00,T,6Ls2Pd3Q,1Bj3Wa5S
