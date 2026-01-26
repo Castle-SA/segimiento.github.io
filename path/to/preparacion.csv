@@ -192,7 +192,7 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 43071,5019 GRANJA TRES ARROYOS SACAFEI ✮✮,Facturada,Todo Aprobado,Ejecución de pedido de artículo 25031,Enviado,F,5019/005,0,0,15/01/2026,EXPRESO CARGO SA,553034,65.2%,.00,T,0Ql9Gi1V,7Rx7Ub2H
 43050,9400962 CRYSTAL-ICE SRL ✮✮,Facturada,Todo Aprobado,Ejecución de pedido de artículo 25034,Enviado,F,CAS-PPA1048T040,0,0,15/01/2026,RICARDO PIERONI,552085,28.6%,.00,T,4Is2Rn8E,7Rx7Ub2H
 43089,9401456 EFUS S.R.L ✮✮,Facturada,Todo Aprobado,Ejecución de pedido de artículo 25037,Enviado,F,CAS-PPAR10048T047,0,0,15/01/2026,EXPRESO CARGO SA,554301,44.5%,.00,T,4Tk0Ap0J,3Dw0Uk2K
-42987,9401460 INDUBOL SA ✮✮,Parcialmente ejecutada,Todo Aprobado,Ejecución de pedido de artículo 25039,Enviado,T,64621-00048-00,0,91,15/01/2026,RICARDO PIERONI,547266,51.8%,1213.94,T,1Qd9By7M,4Is2Rn8E
+42987,9401460 INDUBOL SA ✮✮,Parcialmente ejecutada,Todo Aprobado,Ejecución de pedido de artículo 25039,Enviado,T,64621-00048-00,0,91,15/01/2026,RICARDO PIERONI,547266,51.8%,1213.94,T,1Qd9By7M,3Dw0Uk2K
 43106,9402290 BI MERCANTIL SAS ✮✮,Facturada,Todo Aprobado,Ejecución de pedido de artículo 25032,Enviado,F,H11/CPE,0,0,15/01/2026,TRANSPORTE MOSTTO,556368,0.0%,.00,T,6Cx3Az0M,5Dr6Pr8I
 43079,9402422 VALBO S A I C Y F ✮✮,Facturada,Todo Aprobado,Ejecución de pedido de artículo 25029,Enviado,F,H11/48,0,0,15/01/2026,RETIRAN,553459,52.8%,.00,T,,6Ls2Pd3Q
 43079,9402422 VALBO S A I C Y F ✮✮,Facturada,Todo Aprobado,Ejecución de pedido de artículo 25029,Enviado,F,MTP548B,0,0,15/01/2026,RETIRAN,553459,40.0%,.00,T,,5Rg6Oq8Y
@@ -254,7 +254,7 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 43079,9402422 VALBO S A I C Y F ✮✮,Facturada,Todo Aprobado,Ejecución de pedido de artículo 25073,Enviado,F,CAS-PPAR1048T043,0,0,20/01/2026,RETIRAN,553459,52.1%,.00,T,,5Rg6Oq8Y
 43167,9403278 GIAVENO LUCIANO ,Facturada,Todo Aprobado,Ejecución de pedido de artículo 25076,Enviado,F,MVAQUA180,0,0,20/01/2026,RETIRAN,561308,100.0%,.00,T,,8Ou2Yz9L
 43178,102 VOLKSWAGEN ARGENTINA S.A. ✮✮,Facturación pendiente,Todo Aprobado,Ejecución de pedido de artículo 25092,Enviado,F,0685/002,0,0,21/01/2026,EXPRESO CARGO SA,562012,41.1%,.00,T,7Kh2Zf0E,5Pl6Eg8H
-43083,12815 INDUSTRIAS AVICOLAS SA ✮✮,Facturada,Todo Aprobado,Ejecución de pedido de artículo 25089,Enviado,F,PPHR1216B,0,0,21/01/2026,TRANSPORTE MOSTTO,553967,41.9%,.00,T,4Jk9Hq6A,0Ql9Gi1V
+43083,12815 INDUSTRIAS AVICOLAS SA ✮✮,Facturada,Todo Aprobado,Ejecución de pedido de artículo 25089,Enviado,F,PPHR1216B,0,0,21/01/2026,TRANSPORTE MOSTTO,553967,41.9%,.00,T,4Jk9Hq6A,7Rx7Ub2H
 43134,132 MAHLE VALVULAS DE ARGENTINA SA ✮✮,Facturada,Todo Aprobado,Ejecución de pedido de artículo 25085,Enviado,F,3351/001,0,0,21/01/2026,EXPRESO SANTA ROSA,559110,74.4%,.00,T,6Ls2Pd3Q,1Bj3Wa5S
 43134,132 MAHLE VALVULAS DE ARGENTINA SA ✮✮,Facturada,Todo Aprobado,Ejecución de pedido de artículo 25085,Enviado,F,3351/003,0,0,21/01/2026,EXPRESO SANTA ROSA,559110,75.5%,.00,T,6Ls2Pd3Q,1Bj3Wa5S
 43134,132 MAHLE VALVULAS DE ARGENTINA SA ✮✮,Facturada,Todo Aprobado,Ejecución de pedido de artículo 25085,Enviado,F,BV002,0,0,21/01/2026,EXPRESO SANTA ROSA,559110,76.0%,.00,T,6Ls2Pd3Q,8Xq9Re2A
@@ -304,14 +304,14 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 43119,3636 JULICROC SA ,Parcialmente ejecutada,Todo Aprobado,Orden de trabajo,Abierta,F,CAS-PPA1048T043,0,540,23/01/2026,TRANSPORTE AGUILAR S.R.L.,557799,35.8%,372.60,,3Fa0Qy2E,2Wy4Vz4B
 43119,3636 JULICROC SA ,Parcialmente ejecutada,Todo Aprobado,Ejecución de pedido de artículo 25111,Enviado,F,CAS-PPA15048T047,0,0,23/01/2026,TRANSPORTE AGUILAR S.R.L.,557799,44.6%,-31.35,T,3Fa0Qy2E,2Ck7El7W
 43050,9400962 CRYSTAL-ICE SRL ✮✮,Facturada,Todo Aprobado,Ejecución de pedido de artículo 25113,Enviado,F,CAS-PPA1048T040,0,0,23/01/2026,RICARDO PIERONI,552085,28.6%,.00,T,4Is2Rn8E,1Kp7Az6D
-43192,9400962 CRYSTAL-ICE SRL ✮✮,Parcialmente ejecutada,Todo Aprobado,Ejecución de pedido de artículo 25114,Enviado,F,CAS-PPA1048T040,1332,576,23/01/2026,RICARDO PIERONI,563391,28.8%,1049.40,T,4Is2Rn8E,1Fr4Ch9I
-43192,9400962 CRYSTAL-ICE SRL ✮✮,Parcialmente ejecutada,Todo Aprobado,Orden de trabajo,Abierta,F,CAS-PPA1048T040,1332,576,23/01/2026,RICARDO PIERONI,563391,28.8%,1049.40,,4Is2Rn8E,9Or7Px4G
+43192,9400962 CRYSTAL-ICE SRL ✮✮,Parcialmente ejecutada,Todo Aprobado,Orden de trabajo,Abierta,F,CAS-PPA1048T040,1332,576,23/01/2026,RICARDO PIERONI,563391,28.8%,1049.40,,4Is2Rn8E,1Fr4Ch9I
+43192,9400962 CRYSTAL-ICE SRL ✮✮,Parcialmente ejecutada,Todo Aprobado,Ejecución de pedido de artículo 25114,Enviado,F,CAS-PPA1048T040,1332,576,23/01/2026,RICARDO PIERONI,563391,28.8%,1049.40,T,4Is2Rn8E,9Or7Px4G
 43132,9402660 HORSE ARGENTINA SA ,Facturación pendiente,Todo Aprobado,Ejecución de pedido de artículo 25116,Enviado,F,V20/NEUTRA,0,0,23/01/2026,EXPRESO CARGO SA,558872,60.3%,.00,F,,7Xt9Gc1E
-43197,1171 AUTOSAL SA ,Facturación pendiente,Todo Aprobado,Ejecución de pedido de artículo 25135,Enviado,F,DT550G,0,0,26/01/2026,EXPRESO CARGO SA,563769,39.7%,.00,F,2Uv7Bb0L,4Is2Rn8E
-43197,1171 AUTOSAL SA ,Facturación pendiente,Todo Aprobado,Ejecución de pedido de artículo 25135,Enviado,F,DT550N,0,0,26/01/2026,EXPRESO CARGO SA,563769,39.7%,.00,F,2Uv7Bb0L,1Rf6Ez5C
+43197,1171 AUTOSAL SA ,Facturada,Todo Aprobado,Ejecución de pedido de artículo 25135,Enviado,F,DT550G,0,0,26/01/2026,EXPRESO CARGO SA,563769,39.7%,.00,T,2Uv7Bb0L,4Is2Rn8E
+43197,1171 AUTOSAL SA ,Facturada,Todo Aprobado,Ejecución de pedido de artículo 25135,Enviado,F,DT550N,0,0,26/01/2026,EXPRESO CARGO SA,563769,39.7%,.00,T,2Uv7Bb0L,1Rf6Ez5C
 43199,12662 PRINTEMPS S.R.L. ✮✮,Facturada,Todo Aprobado,Ejecución de pedido de artículo 25123,Enviado,F,H11/48,0,0,26/01/2026,RICARDO PIERONI,564199,56.2%,.00,T,2Sp0Fe1F,0Zw3Xq6V
 43199,12662 PRINTEMPS S.R.L. ✮✮,Facturada,Todo Aprobado,Ejecución de pedido de artículo 25123,Enviado,F,H11/48,0,0,26/01/2026,RICARDO PIERONI,564199,0.0%,.00,T,2Sp0Fe1F,0Zw3Xq6V
-43083,12815 INDUSTRIAS AVICOLAS SA ✮✮,Facturada,Todo Aprobado,Ejecución de pedido de artículo 25132,Enviado,F,PPHR1216B,0,0,26/01/2026,TRANSPORTE MOSTTO,553967,41.9%,.00,T,4Jk9Hq6A,7Rx7Ub2H
+43083,12815 INDUSTRIAS AVICOLAS SA ✮✮,Facturada,Todo Aprobado,Ejecución de pedido de artículo 25132,Enviado,F,PPHR1216B,0,0,26/01/2026,TRANSPORTE MOSTTO,553967,41.9%,.00,T,4Jk9Hq6A,0Ql9Gi1V
 43135,1386 FRIGORIFICO PALADINI SA ✮✮,Facturada,Todo Aprobado,Ejecución de pedido de artículo 25122,Enviado,F,PPAR15048T,0,0,26/01/2026,RICARDO PIERONI,559224,53.1%,-54.169,T,0Ut2Zv0U,2Uv7Bb0L
 43133,3051 FRIMETAL S.A. ,Facturada,Todo Aprobado,Ejecución de pedido de artículo 25124,Enviado,F,CAS-MTS548B,0,0,26/01/2026,FELICI JORGE ARIEL,558974,7.8%,.00,T,3Dw0Uk2K,1Wa0Iu6X
 42533,3598 DEL VALLE EMBALAJES SRL ✮✮,Facturada,Todo Aprobado,Ejecución de pedido de artículo 25125,Enviado,F,PPAR15096T,0,0,26/01/2026,RICARDO PIERONI,521373,56.7%,.00,T,0Ph8Mv3F,3Dw0Uk2K
@@ -322,8 +322,8 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 43210,9400018 SEND SRL ✮✮,Facturada,Todo Aprobado,Ejecución de pedido de artículo 25128,Enviado,F,CAS-PPAR1048T043,0,0,26/01/2026,RICARDO PIERONI,564955,54.8%,.00,T,3Ql9Lb2K,1Kc0Xm1P
 43193,9400182 IDRIS PATAGONIA SA ,Parcialmente ejecutada,Todo Aprobado,Ejecución de pedido de artículo 25126,Enviado,F,CAS-PPAR1048T043,0,2988,26/01/2026,TRANSPORTE CRUZ DEL SUR SA,563499,50.2%,2300.76,T,7Wz3Al6N,9Ry7Wa5R
 43193,9400182 IDRIS PATAGONIA SA ,Parcialmente ejecutada,Todo Aprobado,Orden de trabajo,Abierta,F,CAS-PPAR1048T043,0,2988,26/01/2026,TRANSPORTE CRUZ DEL SUR SA,563499,50.2%,2300.76,,7Wz3Al6N,0Io3Fg7R
-43204,9400945 LAMED S.A. ✮✮,Facturación pendiente,Todo Aprobado,Ejecución de pedido de artículo 25134,Enviado,F,CAS-PPA1048T040,0,0,26/01/2026,RICARDO PIERONI,564680,43.2%,.00,F,9Dw9Wh0V,3Cz8Fy3Y
-43204,9400945 LAMED S.A. ✮✮,Facturación pendiente,Todo Aprobado,Ejecución de pedido de artículo 25130,Enviado,F,CAS-PPAR1048T043,0,0,26/01/2026,RICARDO PIERONI,564680,50.1%,.00,T,9Dw9Wh0V,3Cz8Fy3Y
+43204,9400945 LAMED S.A. ✮✮,Facturada,Todo Aprobado,Ejecución de pedido de artículo 25134,Enviado,F,CAS-PPA1048T040,0,0,26/01/2026,RICARDO PIERONI,564680,43.2%,.00,T,9Dw9Wh0V,3Cz8Fy3Y
+43204,9400945 LAMED S.A. ✮✮,Facturada,Todo Aprobado,Ejecución de pedido de artículo 25130,Enviado,F,CAS-PPAR1048T043,0,0,26/01/2026,RICARDO PIERONI,564680,50.1%,.00,T,9Dw9Wh0V,3Cz8Fy3Y
 42979,94010 VISUAR SA ✮✮,Facturada,Todo Aprobado,Ejecución de pedido de artículo 25131,Enviado,F,1823/002,0,0,26/01/2026,EXPRESO CARGO SA,546720,46.3%,.00,T,4Gf8Oa0H,1Vf8Uo1P
 43198,9402185 MONCHAMP INDUSTRIAS SRL ✮✮,Facturada,Todo Aprobado,Ejecución de pedido de artículo 25129,Enviado,F,MVAQUA180,0,0,26/01/2026,RETIRAN,563996,44.8%,.00,T,7Ck6Zj2S,7Gs5Gq1V
 43212,2855 EDGAR A CIRIBE SA ✮✮,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo,,F,CAS-PPAR1048T043,0,360,28/01/2026,EXPRESO BRIO SRL,565292,53.2%,295.20,,4Ub9Qt5T,6Bb0Mu1P
@@ -375,6 +375,6 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 42523,3089 ARNEG ARGENTINA S.A. ✮✮,Ejecución de la orden pendiente,Todo Aprobado, ,,T,3089/052,1300,2700,,FELICI GERARDO FABIAN,520980,19.6%,3680.00,,7Rx7Ub2H,9Qb8Fy5U
 43196,3676 FRIGORIFICO MARK SA ✮✮,Ejecución de la orden pendiente,Todo Aprobado, ,,F,PVC612R,432,0,,RETIRAN,563605,67.5%,864.00,,2Nw2Uj9H,7Rx7Ub2H
 42920,690 CEVA DE ARGENTINA SRL ✮✮,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Ensamblada,F,BV002,50,0,,FELICI JORGE ARIEL,542642,76.5%,387.50,,3Pt0Oq8I,2Aa9Oj0E
-42987,9401460 INDUBOL SA ✮✮,Parcialmente ejecutada,Todo Aprobado,Orden de trabajo ,En curso,T,64621-00048-00,0,91,,RICARDO PIERONI,547266,51.8%,1213.94,,1Qd9By7M,3Dw0Uk2K
+42987,9401460 INDUBOL SA ✮✮,Parcialmente ejecutada,Todo Aprobado,Orden de trabajo ,En curso,T,64621-00048-00,0,91,,RICARDO PIERONI,547266,51.8%,1213.94,,1Qd9By7M,4Is2Rn8E
 42829,9402003 BERSANO SRL ✮✮,Parcialmente ejecutada,Todo Aprobado,Orden de trabajo ,En curso,F,4604/001,0,168,,RICARDO PIERONI,535856,31.1%,174.72,,7Hm4Iw2H,2Pi6Wv1H
 42083,9402907 SAF ARGENTINA SOCIEDAD ANONIMA ,Ejecución de la orden pendiente,Todo Aprobado, ,,F,PPAR15048T,2,0,,EXPRESO CARGO SA,489798,100.0%,.00,,,7Xt9Gc1E
