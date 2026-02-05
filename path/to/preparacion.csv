@@ -199,8 +199,8 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 43168,132 MAHLE VALVULAS DE ARGENTINA SA ✮✮,Facturada,Todo Aprobado,Ejecución de pedido de artículo 25091,Enviado,F,MVAQUA203V,0,0,21/01/2026,EXPRESO SANTA ROSA,561315,46.8%,.00,T,6Ls2Pd3Q,7Qv9Mi1Z
 43191,3060 AVICOLA TELOS SA ✮✮,Facturada,Todo Aprobado,Ejecución de pedido de artículo 25096,Enviado,F,PPA1548TE,0,0,21/01/2026,TRANSPORTE SONGINI,563172,53.3%,.00,T,7Un2Ij7V,7Rx7Ub2H
 43183,3603 COMPANIA INTRODUCTORA DE BUENOS AIRES SA ✮✮,Facturada,Todo Aprobado,Ejecución de pedido de artículo 25088,Enviado,F,CAS-PPAR1048T043,0,0,21/01/2026,EXPRESO CARGO SA,562355,30.5%,.00,T,3Uo2Ut4U,0Ph8Mv3F
-43186,3769 GAROFOLI CONSTRUCCIONES SRL ✮✮,Parcialmente ejecutada,Todo Aprobado,Ejecución de pedido de artículo 25090,Enviado,F,MTS572B,0,76,21/01/2026,RODRIGUEZ HNOS. TRANSP. SA,562666,18.6%,228.00,T,7Qv9Mi1Z,3Ny6Zw2O
 43186,3769 GAROFOLI CONSTRUCCIONES SRL ✮✮,Parcialmente ejecutada,Todo Aprobado,Factura de venta 39369,Abierta,F,MTS572B,0,76,21/01/2026,RODRIGUEZ HNOS. TRANSP. SA,562666,18.6%,228.00,,7Qv9Mi1Z,3Ny6Zw2O
+43186,3769 GAROFOLI CONSTRUCCIONES SRL ✮✮,Parcialmente ejecutada,Todo Aprobado,Ejecución de pedido de artículo 25090,Enviado,F,MTS572B,0,76,21/01/2026,RODRIGUEZ HNOS. TRANSP. SA,562666,18.6%,228.00,T,7Qv9Mi1Z,3Ny6Zw2O
 43182,3922 EMPRECO ARGENTINA DE NICOLAS C DELENIKAS ✮✮✮,Facturada,Todo Aprobado,Ejecución de pedido de artículo 25093,Enviado,F,04968-00149-00,0,0,21/01/2026,EXPRESO CARGO SA,562250,47.8%,.00,T,8Nu5Gj8P,9Gs4Xo3J
 42969,4095 REFINERIA DEL CENTRO SA ✮✮,Facturada,Todo Aprobado,Ejecución de pedido de artículo 25095,Enviado,F,CAS-PPHR10048XT045,0,0,21/01/2026,EXPRESO SANTA ROSA,546158,46.1%,.00,T,1Bj3Wa5S,2Yb2Zq5E
 43177,4517 HIPER PACK ROSARIO DE CERRA VALERIA BEATRIZ ✮✮,Parcialmente ejecutada,Todo Aprobado,Ejecución de pedido de artículo 25086,Enviado,F,CAS-PPAR1048T043,0,0,21/01/2026,RICARDO PIERONI,561878,39.2%,.00,T,3Ny6Zw2O,5Nn8Fo2O
@@ -392,6 +392,8 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 43288,9402697 KLATT PACK SRL ✮✮,Ejecución de la orden pendiente,Todo Aprobado, ,,F,VCI410,74,0,04/02/2026,EXPRESO CARGO SA,570066,67.2%,518.00,,,4Sf9Dp0L
 43288,9402697 KLATT PACK SRL ✮✮,Ejecución de la orden pendiente,Todo Aprobado, ,,F,VCI420,37,0,04/02/2026,EXPRESO CARGO SA,570066,62.7%,340.40,,,9Zm8At4G
 43302,9400945 LAMED S.A. ✮✮,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Liberada,F,PPA1048F,0,108,05/02/2026,RICARDO PIERONI,571113,11.1%,141.48,,9Dw9Wh0V,0We8Yn4Q
+43310,3029 DARK SRL ✮✮✮,Ejecución de la orden pendiente,Todo Aprobado, ,,F,CAS-PPAR1048T043,180,0,06/02/2026,RICARDO PIERONI,571845,54.9%,153.00,,7Va0Bu1J,1Rf6Ez5C
+43310,3029 DARK SRL ✮✮✮,Ejecución de la orden pendiente,Todo Aprobado, ,,F,FLJPP30012B,4,0,06/02/2026,RICARDO PIERONI,571845,4.6%,160.00,,7Va0Bu1J,0Bz8Ix7O
 43279,3089 ARNEG ARGENTINA S.A. ✮✮,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Ensamblada,F,3089/017,15000,0,06/02/2026,RICARDO PIERONI,569048,38.1%,1191.00,,7Rx7Ub2H,
 43306,56 CIRUBON S.A. ✮✮,Ejecución de la orden pendiente,Todo Aprobado, ,,F,BV002,0,100,06/02/2026,RETIRAN,571558,77.7%,819.00,,0Wm2Xw7K,3Dw0Uk2K
 43307,3598 DEL VALLE EMBALAJES SRL ✮✮,Ejecución de la orden pendiente,Todo Aprobado, ,,F,PPHR15048XT,0,60,09/02/2026,RICARDO PIERONI,571666,40.6%,1170.00,,0Ph8Mv3F,2Jl6Ja1C
