@@ -1,11 +1,11 @@
 Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. Especial,Pedido,Artículo,Cantidad,Faltante,Fecha,Transportista,ID,GP,,,,
 42066,3598 DEL VALLE EMBALAJES SRL ✮✮,Parcialmente ejecutada,Todo Aprobado,Factura de venta 38103,Pagado por completo,F,PPAR1024T,0,720,19/08/2025,RICARDO PIERONI,488353,41.7%,345.60,,0Ph8Mv3F,9Lx6Mu2V
 42066,3598 DEL VALLE EMBALAJES SRL ✮✮,Parcialmente ejecutada,Todo Aprobado,Factura de venta 38112,Pagado por completo,F,PPAR1024T,0,720,20/08/2025,RICARDO PIERONI,488353,41.7%,345.60,,0Ph8Mv3F,9Lx6Mu2V
-42676,6142 PAPELERA DEL SUR SRL ✮✮,Parcialmente ejecutada,Todo Aprobado,Factura de venta 38813,Pagado por completo,F,PPAR1024T,0,540,14/11/2025,RICARDO PIERONI,529237,40.4%,280.80,,9Rc3Gf4C,2Jl6Ja1C
+42676,6142 PAPELERA DEL SUR SRL ✮✮,Parcialmente ejecutada,Todo Aprobado,Factura de venta 38813,Pagado por completo,F,PPAR1024T,0,540,14/11/2025,RICARDO PIERONI,529237,40.4%,280.80,,9Rc3Gf4C,3Dw0Uk2K
 42872,9401929 PETROPACK S.A. ✮✮,Parcialmente ejecutada,Todo Aprobado,Factura de venta 39032,Pagado por completo,F,PPAR524T,0,651,02/12/2025,TRANSPORTE MOSTTO,538934,99.9%,162.75,,8Ou2Yz9L,7Rx7Ub2H
 42880,1067 DIPAC SA ✮✮✮,Parcialmente ejecutada,Todo Aprobado,Factura de venta 39054,Pagado por completo,F,PPAR1024T,0,1440,04/12/2025,RICARDO PIERONI,539725,36.0%,720.00,,9Tj7Li2O,3Hy2Ia2F
 42880,1067 DIPAC SA ✮✮✮,Parcialmente ejecutada,Todo Aprobado,Factura de venta 39054,Pagado por completo,F,PPAR524T,0,360,04/12/2025,RICARDO PIERONI,539725,100.0%,104.40,,9Tj7Li2O,3Hy2Ia2F
-42676,6142 PAPELERA DEL SUR SRL ✮✮,Parcialmente ejecutada,Todo Aprobado,Factura de venta 39087,Pagado por completo,F,PPAR1024T,0,540,11/12/2025,RICARDO PIERONI,529237,40.4%,280.80,,9Rc3Gf4C,3Dw0Uk2K
+42676,6142 PAPELERA DEL SUR SRL ✮✮,Parcialmente ejecutada,Todo Aprobado,Factura de venta 39087,Pagado por completo,F,PPAR1024T,0,540,11/12/2025,RICARDO PIERONI,529237,40.4%,280.80,,9Rc3Gf4C,2Jl6Ja1C
 43043,4874 TIENDA DE AROMAS SRL ✮✮,Parcialmente ejecutada,Todo Aprobado,Factura de venta 39226,Pagado por completo,F,PPAR524T,0,360,06/01/2026,TRANSPORTE TOMASSINI,551701,100.0%,104.40,,3Bt9Eu0Q,6Cx3Az0M
 43100,1067 DIPAC SA ✮✮✮,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 25007,Remitido,F,PPAR1048T,0,0,12/01/2026,RICARDO PIERONI,555468,47.6%,590.40,T,9Tj7Li2O,6Ng7Hp1X
 43104,2660 VICUNHA ARGENTINA SA (Tintoreria Ullum) ✮✮,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 25004,Remitido,F,CAS-PPA1048T040,0,0,12/01/2026,EXPRESO CARGO SA,556067,45.7%,259.20,T,5Dr6Pr8I,8Ky5Hq9D
@@ -148,7 +148,7 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 43072,5019 GRANJA TRES ARROYOS SACAFEI ✮✮,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 25107,Remitido,F,5019/004,0,0,22/01/2026,EXPRESO CARGO SA,553135,64.8%,426.24,T,0Ql9Gi1V,0Mw8Gz3K
 43073,5019 GRANJA TRES ARROYOS SACAFEI ✮✮,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 25106,Remitido,F,5019/003,0,0,22/01/2026,EXPRESO CARGO SA,553136,65.2%,1332.00,T,0Ql9Gi1V,0Ze2Hm4P
 43073,5019 GRANJA TRES ARROYOS SACAFEI ✮✮,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 25106,Remitido,F,5019/002,0,0,22/01/2026,EXPRESO CARGO SA,553136,61.9%,266.40,T,0Ql9Gi1V,3Cz8Fy3Y
-43193,9400182 IDRIS PATAGONIA SA ,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 25103,Remitido,F,CAS-PPAR1048T043,0,0,22/01/2026,TRANSPORTE CRUZ DEL SUR SA,563499,50.2%,609.84,T,7Wz3Al6N,7Xt9Gc1E
+43193,9400182 IDRIS PATAGONIA SA ,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 25103,Remitido,F,CAS-PPAR1048T043,0,0,22/01/2026,TRANSPORTE CRUZ DEL SUR SA,563499,50.2%,609.84,T,7Wz3Al6N,7Rx7Ub2H
 43178,102 VOLKSWAGEN ARGENTINA S.A. ✮✮,Facturación pendiente,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 25112,Remitido,F,0685/002,0,0,23/01/2026,EXPRESO CARGO SA,562012,41.1%,18.616,F,7Kh2Zf0E,5Pl6Eg8H
 43129,2492 FRIGORIFICO ALBERDI SA ✮✮,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 25115,Remitido,F,CAS-PPA1072T040,0,0,23/01/2026,TRANSPORTE ÑANDUBAY SA,558553,34.8%,2.70,T,0Vc7Du3D,8Ny2Or7G
 43129,2492 FRIGORIFICO ALBERDI SA ✮✮,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 25117,Remitido,F,CAS-PPA1072T040,0,0,23/01/2026,TRANSPORTE ÑANDUBAY SA,558553,34.8%,213.30,T,0Vc7Du3D,8Ny2Or7G
@@ -161,7 +161,7 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 43188,3089 ARNEG ARGENTINA S.A. ✮✮,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 25121,Remitido,F,3089/076,0,0,23/01/2026,RICARDO PIERONI,562883,50.4%,506.10,T,7Rx7Ub2H,7Rx7Ub2H
 43119,3636 JULICROC SA ,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 25111,Remitido,F,CAS-PPA15048T047,0,0,23/01/2026,TRANSPORTE AGUILAR S.R.L.,557799,44.6%,1003.20,T,3Fa0Qy2E,2Me3Fc7D
 43050,9400962 CRYSTAL-ICE SRL ✮✮,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 25113,Remitido,F,CAS-PPA1048T040,0,0,23/01/2026,RICARDO PIERONI,552085,28.6%,594.00,T,4Is2Rn8E,1Xs7Zy5E
-43192,9400962 CRYSTAL-ICE SRL ✮✮,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 25114,Remitido,F,CAS-PPA1048T040,0,0,23/01/2026,RICARDO PIERONI,563391,28.8%,2514.60,T,4Is2Rn8E,0Cu0Hq8R
+43192,9400962 CRYSTAL-ICE SRL ✮✮,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 25114,Remitido,F,CAS-PPA1048T040,0,0,23/01/2026,RICARDO PIERONI,563391,28.8%,2514.60,T,4Is2Rn8E,8Ew3Yq4Q
 43132,9402660 HORSE ARGENTINA SA ✮✮,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 25116,Remitido,F,V20/NEUTRA,0,0,23/01/2026,EXPRESO CARGO SA,558872,60.3%,2.808.523,T,,
 43197,1171 AUTOSAL SA ,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 25135,Remitido,F,DT550G,0,0,26/01/2026,EXPRESO CARGO SA,563769,39.7%,744.00,T,2Uv7Bb0L,2Jk3Fr6K
 43197,1171 AUTOSAL SA ,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 25135,Remitido,F,DT550N,0,0,26/01/2026,EXPRESO CARGO SA,563769,39.7%,744.00,T,2Uv7Bb0L,4Is2Rn8E
@@ -174,7 +174,7 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 42971,5019 GRANJA TRES ARROYOS SACAFEI ✮✮,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 25133,Remitido,F,PPHR1216B,0,0,26/01/2026,EXPRESO CARGO SA,546362,46.6%,900.00,T,0Ql9Gi1V,8Ja8Rp6M
 42971,5019 GRANJA TRES ARROYOS SACAFEI ✮✮,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 25133,Remitido,F,PVC612R,0,0,26/01/2026,EXPRESO CARGO SA,546362,51.9%,1360.80,T,0Ql9Gi1V,9Dw9Wh0V
 43210,9400018 SEND SRL ✮✮,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 25128,Remitido,F,CAS-PPAR1048T043,0,0,26/01/2026,RICARDO PIERONI,564955,54.8%,153.00,T,3Ql9Lb2K,6Ls2Pd3Q
-43193,9400182 IDRIS PATAGONIA SA ,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 25126,Remitido,F,CAS-PPAR1048T043,0,0,26/01/2026,TRANSPORTE CRUZ DEL SUR SA,563499,50.2%,415.80,T,7Wz3Al6N,3Dw0Uk2K
+43193,9400182 IDRIS PATAGONIA SA ,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 25126,Remitido,F,CAS-PPAR1048T043,0,0,26/01/2026,TRANSPORTE CRUZ DEL SUR SA,563499,50.2%,415.80,T,7Wz3Al6N,7Rx7Ub2H
 43204,9400945 LAMED S.A. ✮✮,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 25134,Remitido,F,CAS-PPA1048T040,0,0,26/01/2026,RICARDO PIERONI,564680,43.2%,372.60,T,9Dw9Wh0V,1Qd9By7M
 43204,9400945 LAMED S.A. ✮✮,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 25130,Remitido,F,CAS-PPAR1048T043,0,0,26/01/2026,RICARDO PIERONI,564680,50.1%,415.80,T,9Dw9Wh0V,7Rx7Ub2H
 42979,94010 VISUAR SA ✮✮,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 25131,Remitido,F,1823/002,0,0,26/01/2026,EXPRESO CARGO SA,546720,46.3%,5472.00,T,4Gf8Oa0H,9Xw3Zi2V
@@ -185,7 +185,7 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 43161,3051 FRIMETAL S.A. ,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 25144,Remitido,F,CAS-MTS548B,0,0,27/01/2026,FELICI JORGE ARIEL,560965,8.6%,805.622,T,3Dw0Uk2K,0Qu5Fi8T
 43154,3261 MANFREY COOP DE TAMBEROS DE COMERC E INDUSTRIALIZACION LTDA ,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 25141,Remitido,F,CAS-PPAR1048T043,0,0,27/01/2026,RICARDO PIERONI,560601,25.3%,468.00,T,9Me2Cl4P,3Jg1St8F
 43217,814 OBLAK HNOS SACIFI ✮✮,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 25143,Remitido,F,07063-00001-24,0,0,27/01/2026,EXPRESO CARGO SA,565645,28.4%,1222.50,T,1Hy0Vd3I,8Wb3Xi2L
-43193,9400182 IDRIS PATAGONIA SA ,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 25139,Remitido,F,CAS-PPAR1048T043,0,0,27/01/2026,TRANSPORTE CRUZ DEL SUR SA,563499,50.2%,1330.56,T,7Wz3Al6N,7Rx7Ub2H
+43193,9400182 IDRIS PATAGONIA SA ,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 25139,Remitido,F,CAS-PPAR1048T043,0,0,27/01/2026,TRANSPORTE CRUZ DEL SUR SA,563499,50.2%,1330.56,T,7Wz3Al6N,7Xt9Gc1E
 43211,9400417 DON EMILIO S.R.L ✮✮,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 25142,Remitido,F,CAS-PPAR10048T047,0,0,27/01/2026,EXPRESO LANCIONI,565058,41.7%,153.00,T,4Ev1Va1N,3Nb5Vf8A
 43205,960 LSG SKY CHEFS ARGENTINA SA ,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 25138,Remitido,F,CAS-PPAR1048T043,0,0,27/01/2026,EXPRESO CARGO SA,564691,53.2%,501.84,T,6Vf5Ir9K,3Dw0Uk2K
 43001,15 IND. JOHN DEERE ARGENTINA S.A. ✮✮,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 25154,Remitido,F,0015/014/VCI,0,0,28/01/2026,FELICI JORGE ARIEL,548038,80.5%,1386.00,T,8Ky5Hq9D,7Xr0Sq4A
@@ -195,7 +195,7 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 43206,4010 ASIR SA (DISTRISUR) ✮✮,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 25147,Remitido,F,PPA1548TE,0,0,28/01/2026,RICARDO PIERONI,564692,65.0%,648.00,T,1Rh7Xp6S,3Ny6Zw2O
 43137,9400100 ABBOUD MARCELO BANAIOT ✮✮,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 25149,Remitido,F,CAS-PPA1048T040,0,0,28/01/2026,EXPRESO CARGO SA,559341,13.2%,7290.00,T,5Pj9Xf1N,5Rg6Oq8Y
 43137,9400100 ABBOUD MARCELO BANAIOT ✮✮,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 25148,Remitido,F,CAS-PPA548T040,0,0,28/01/2026,EXPRESO CARGO SA,559341,20.9%,3726.00,T,5Pj9Xf1N,5Rg6Oq8Y
-43193,9400182 IDRIS PATAGONIA SA ,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 25146,Remitido,F,CAS-PPAR1048T043,0,0,28/01/2026,TRANSPORTE CRUZ DEL SUR SA,563499,50.2%,970.20,T,7Wz3Al6N,7Rx7Ub2H
+43193,9400182 IDRIS PATAGONIA SA ,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 25146,Remitido,F,CAS-PPAR1048T043,0,0,28/01/2026,TRANSPORTE CRUZ DEL SUR SA,563499,50.2%,970.20,T,7Wz3Al6N,3Dw0Uk2K
 43179,9402066 URBAN NEXT SRL ,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 25145,Remitido,F,4887/002,0,0,28/01/2026,EXPRESO CARGO SA,562017,52.0%,424.80,T,2Mu2Vl2K,9Tj7Li2O
 43120,9403274 KALUZA CARLOS LUIS ✮✮✮✮,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 25150,Remitido,F,9403274/001,0,0,28/01/2026,RETIRAN,557689,43.6%,327.57,T,,7Un2Ij7V
 43239,9403277 FUMISCOR SA ,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 25153,Remitido,F,V20,0,0,28/01/2026,EXPRESO CARGO SA,567027,79.3%,3455.00,T,,3Dw0Uk2K
@@ -261,13 +261,13 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 43072,5019 GRANJA TRES ARROYOS SACAFEI ✮✮,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 25180,Remitido,F,PVC612R,0,0,30/01/2026,EXPRESO CARGO SA,553135,51.6%,1360.80,T,0Ql9Gi1V,0Mw8Gz3K
 43072,5019 GRANJA TRES ARROYOS SACAFEI ✮✮,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 25180,Remitido,F,PPHR1216B,0,0,30/01/2026,EXPRESO CARGO SA,553135,46.3%,270.00,T,0Ql9Gi1V,6Ll4Vl5M
 43072,5019 GRANJA TRES ARROYOS SACAFEI ✮✮,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 25197,Remitido,F,PPHR1216B,0,0,30/01/2026,EXPRESO CARGO SA,553135,46.3%,675.00,T,0Ql9Gi1V,8Yp8Ld0P
-43258,655 SWIFT SA ARGENTINA ✮✮,Parcialmente ejecutada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 25173,Remitido,F,CAS-PPAR1072T043,672,1.056,30/01/2026,EXPRESO LUJAN DEL CUYO SA,568281,57.0%,1652.40,T,8Wb3Xi2L,7Ir5If6T
+43258,655 SWIFT SA ARGENTINA ✮✮,Parcialmente ejecutada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 25173,Remitido,F,CAS-PPAR1072T043,672,1056,30/01/2026,EXPRESO LUJAN DEL CUYO SA,568281,57.0%,1652.40,T,8Wb3Xi2L,6Ng7Hp1X
 43258,655 SWIFT SA ARGENTINA ✮✮,Parcialmente ejecutada,Todo Aprobado,Orden de trabajo,Abierta,F,CAS-PPAR1072T043,672,1.056,30/01/2026,EXPRESO LUJAN DEL CUYO SA,568281,57.0%,2332.80,,8Wb3Xi2L,7Su4Me5K
 42920,690 CEVA DE ARGENTINA SRL ✮✮,Facturación pendiente,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 25177,Remitido,F,BV002,0,0,30/01/2026,FELICI JORGE ARIEL,542642,76.5%,465.00,T,3Pt0Oq8I,2Vf5Jo3E
 43115,690 CEVA DE ARGENTINA SRL ✮✮,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 25181,Remitido,F,0690/010,0,0,30/01/2026,FELICI JORGE ARIEL,557495,97.6%,4100.00,T,3Pt0Oq8I,2Vf5Jo3E
 43233,9400155 FORMATO S.A. ✮✮✮✮,Parcialmente ejecutada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 25196,Remitido,F,CAS-PPA1048T040,0,0,30/01/2026,EXPRESO CARGO SA,566512,18.5%,1036.80,T,7Tv4Pl2O,7Xt9Gc1E
 43233,9400155 FORMATO S.A. ✮✮✮✮,Parcialmente ejecutada,Todo Aprobado,Orden de trabajo,Abierta,F,CAS-PPAR448T040,0,20016,30/01/2026,EXPRESO CARGO SA,566512,17.0%,4603.68,,7Tv4Pl2O,7Xt9Gc1E
-43192,9400962 CRYSTAL-ICE SRL ✮✮,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 25191,Remitido,F,CAS-PPA1048T040,0,0,30/01/2026,RICARDO PIERONI,563391,28.8%,1049.40,T,4Is2Rn8E,8Ew3Yq4Q
+43192,9400962 CRYSTAL-ICE SRL ✮✮,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 25191,Remitido,F,CAS-PPA1048T040,0,0,30/01/2026,RICARDO PIERONI,563391,28.8%,1049.40,T,4Is2Rn8E,0Cu0Hq8R
 42083,9402907 SAF ARGENTINA SOCIEDAD ANONIMA ,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 25179,Remitido,F,PPAR15048T,0,0,30/01/2026,EXPRESO CARGO SA,489798,100.0%,.00,T,,2Jl6Ja1C
 43200,9400962 CRYSTAL-ICE SRL ✮✮,Ejecución de la orden pendiente,Todo Aprobado, ,,F,CAS-PPA1048T040,3240,0,02/02/2026,RICARDO PIERONI,564316,28.8%,1782.00,,4Is2Rn8E,0We8Yn4Q
 43138,3089 ARNEG ARGENTINA S.A. ✮✮,Ejecución de la orden pendiente,Todo Aprobado, ,,T,3089/082,0,5000,03/02/2026,RICARDO PIERONI,559549,49.5%,6250.00,,7Rx7Ub2H,7Rx7Ub2H
@@ -275,7 +275,7 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 43261,3811 POSCA EMPAQUES SRL ,Ejecución de la orden pendiente,Todo Aprobado, ,,F,CAS-PPAR1048T043,2,0,03/02/2026,EXPRESO LUJAN DEL CUYO SA,568605,100.0%,.00,,2Ve7Yq0J,0Ph8Mv3F
 43261,3811 POSCA EMPAQUES SRL ,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo,,F,CAS-PPHR1048XT045,0,2,03/02/2026,EXPRESO LUJAN DEL CUYO SA,568605,100.0%,.00,,2Ve7Yq0J,3Ny6Zw2O
 43261,3811 POSCA EMPAQUES SRL ,Ejecución de la orden pendiente,Todo Aprobado, ,,F,PVC648R,4,0,03/02/2026,EXPRESO LUJAN DEL CUYO SA,568605,100.0%,.00,,2Ve7Yq0J,3Ny6Zw2O
-43259,655 SWIFT SA ARGENTINA ✮✮,Parcialmente ejecutada,Todo Aprobado,Factura de venta 39471,Pagado por completo,F,CAS-PPA1072T043,23,785,03/02/2026,FELICI JORGE ARIEL,568389,50.4%,1090.80,,8Wb3Xi2L,7Gs5Gq1V
+43259,655 SWIFT SA ARGENTINA ✮✮,Parcialmente ejecutada,Todo Aprobado,Factura de venta 39471,Pagado por completo,F,CAS-PPA1072T043,23,785,03/02/2026,FELICI JORGE ARIEL,568389,50.4%,1090.80,,8Wb3Xi2L,7Qv9Mi1Z
 43259,655 SWIFT SA ARGENTINA ✮✮,Parcialmente ejecutada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 25200,Remitido,F,CAS-PPA1072T043,23,785,03/02/2026,FELICI JORGE ARIEL,568389,50.4%,1782.00,T,8Wb3Xi2L,7Qv9Mi1Z
 43242,9403252 EDUARDO GHERBEZZA S. A. S. ✮✮✮✮,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 25201,Remitido,F,MVAQUA180,0,0,03/02/2026,RETIRAN,567029,42.1%,188.00,T,,0Ye3Eq5F
 42100,12815 INDUSTRIAS AVICOLAS SA ✮✮,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 25221,Remitido,F,MQ-C50-CAS,0,0,04/02/2026,TRANSPORTE MOSTTO,491153,47.8%,5500.00,T,4Jk9Hq6A,4Gf8Oa0H
@@ -326,8 +326,8 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 43255,629 INDUSTRIAS QUIMICAS BG SRL ✮✮,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 25224,Remitido,F,CH5235,0,0,06/02/2026,RICARDO PIERONI,568152,70.1%,170.00,T,0Ze2Hm4P,0Bz8Ix7O
 43255,629 INDUSTRIAS QUIMICAS BG SRL ✮✮,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 25224,Remitido,F,PPA1548TE,0,0,06/02/2026,RICARDO PIERONI,568152,50.8%,46.08,T,0Ze2Hm4P,2Pi6Wv1H
 43213,655 SWIFT SA ARGENTINA ✮✮,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 25223,Remitido,F,CAS-PPAR1072T043,0,0,06/02/2026,EXPRESO LUJAN DEL CUYO SA,565293,45.3%,259.20,T,8Wb3Xi2L,6Ng7Hp1X
-43258,655 SWIFT SA ARGENTINA ✮✮,Parcialmente ejecutada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 25236,Remitido,F,CAS-PPAR1072T043,672,1056,06/02/2026,EXPRESO LUJAN DEL CUYO SA,568281,57.0%,615.60,T,8Wb3Xi2L,6Ng7Hp1X
-43258,655 SWIFT SA ARGENTINA ✮✮,Parcialmente ejecutada,Todo Aprobado,Orden de trabajo,Abierta,F,CAS-PPAR1072T043,672,1.056,06/02/2026,EXPRESO LUJAN DEL CUYO SA,568281,57.0%,2332.80,,8Wb3Xi2L,7Ii4Et8I
+43258,655 SWIFT SA ARGENTINA ✮✮,Parcialmente ejecutada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 25236,Remitido,F,CAS-PPAR1072T043,672,1.056,06/02/2026,EXPRESO LUJAN DEL CUYO SA,568281,57.0%,615.60,T,8Wb3Xi2L,7Ir5If6T
+43258,655 SWIFT SA ARGENTINA ✮✮,Parcialmente ejecutada,Todo Aprobado,Orden de trabajo,Abierta,F,CAS-PPAR1072T043,672,1056,06/02/2026,EXPRESO LUJAN DEL CUYO SA,568281,57.0%,2332.80,,8Wb3Xi2L,8El3Qk6P
 43283,682 MAYO TRANSFORMADORES S.R.L. ✮✮,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 25222,Remitido,F,CF512T,0,0,06/02/2026,RICARDO PIERONI,569653,73.0%,1500.00,T,0We8Yn4Q,5Dr6Pr8I
 43302,9400945 LAMED S.A. ✮✮,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 25225,Remitido,F,PPA1048F,0,0,06/02/2026,RICARDO PIERONI,571113,11.1%,141.48,T,9Dw9Wh0V,7Rx7Ub2H
 43300,9401627 ENCABO NICOLAS ✮✮,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 25237,Remitido,F,PVC636R,0,0,06/02/2026,TRANSPORTE CRUZ DEL SUR SA,571005,49.6%,876.00,T,8Pl9Fu8A,7Rx7Ub2H
@@ -360,7 +360,7 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 43311,558 LUIS & MIGUEL ZANNIELLO SACI ,Ejecución de la orden pendiente,Todo Aprobado, ,,F,CAS-PPAR1048T043,72,0,09/02/2026,EXPRESO CARGO SA,572051,61.3%,71.28,,2Rl2Nm1Q,1Kp7Az6D
 43326,569 CONAM SRL ✮✮,Ejecución de la orden pendiente,Todo Aprobado, ,,F,MTS572B,0,360,09/02/2026,EXPRESO CARGO SA,572689,17.2%,1080.00,,5Ko0Ey7A,9Or7Px4G
 43301,583 TERRAGENE SA ✮✮,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 25242,Remitido,T,04965-00011-00,0,0,09/02/2026,RICARDO PIERONI,571105,54.7%,3416.00,T,5Pl6Eg8H,5Oy9Im9F
-43259,655 SWIFT SA ARGENTINA ✮✮,Parcialmente ejecutada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 25252,Remitido,F,CAS-PPA1072T043,23,785,09/02/2026,FELICI JORGE ARIEL,568389,50.4%,2527.20,T,8Wb3Xi2L,7Qv9Mi1Z
+43259,655 SWIFT SA ARGENTINA ✮✮,Parcialmente ejecutada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 25252,Remitido,F,CAS-PPA1072T043,23,785,09/02/2026,FELICI JORGE ARIEL,568389,50.4%,2527.20,T,8Wb3Xi2L,7Gs5Gq1V
 43259,655 SWIFT SA ARGENTINA ✮✮,Parcialmente ejecutada,Todo Aprobado,Orden de trabajo,Abierta,F,CAS-PPA1072T043,23,785,09/02/2026,FELICI JORGE ARIEL,568389,50.4%,1090.80,,8Wb3Xi2L,7Qv9Mi1Z
 43319,9400816 MORELLI SRL ✮✮,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 25253,Remitido,F,07063-00040-25,0,0,09/02/2026,RICARDO PIERONI,572472,44.0%,1300.00,T,2Au6Re6F,1Bj3Wa5S
 43319,9400816 MORELLI SRL ✮✮,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 25253,Remitido,F,CAS-MTS548B,0,0,09/02/2026,RICARDO PIERONI,572472,13.4%,576.00,T,2Au6Re6F,7Ip7Qv8Y
@@ -370,20 +370,21 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 43312,9403252 EDUARDO GHERBEZZA S. A. S. ✮✮✮✮,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 25248,Remitido,F,MVAQUA180,0,0,09/02/2026,RETIRAN,572155,42.1%,188.00,T,,
 43292,1029 DREAN SA ,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 25263,Remitido,F,1153/001,0,0,10/02/2026,EXPRESO CARGO SA,570431,55.7%,1980.00,T,6Ng7Hp1X,0Ql9Gi1V
 43293,1029 DREAN SA ,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 25264,Remitido,F,0272/003,0,0,10/02/2026,EXPRESO CARGO SA,570432,36.0%,7440.00,T,6Ng7Hp1X,0Ql9Gi1V
-43304,12815 INDUSTRIAS AVICOLAS SA ✮✮,Facturación pendiente,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 25256,Remitido,F,PPHR1216B,0,0,10/02/2026,TRANSPORTE MOSTTO,571315,41.4%,1679.00,F,4Jk9Hq6A,0Ql9Gi1V
+43304,12815 INDUSTRIAS AVICOLAS SA ✮✮,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 25256,Remitido,F,PPHR1216B,0,0,10/02/2026,TRANSPORTE MOSTTO,571315,41.4%,1679.00,T,4Jk9Hq6A,0Ql9Gi1V
 43340,4048 EL EMPORIO DE LA GOMA SRL ✮✮,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 25259,Remitido,F,CAS-MTS548B,0,0,10/02/2026,EXPRESO LUJAN DEL CUYO SA,574059,13.5%,72.00,T,5Nn8Fo2O,3Ny6Zw2O
 43340,4048 EL EMPORIO DE LA GOMA SRL ✮✮,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 25259,Remitido,F,CAS-PPAR1048T043,0,0,10/02/2026,EXPRESO LUJAN DEL CUYO SA,574059,54.8%,367.20,T,5Nn8Fo2O,3Ny6Zw2O
 43340,4048 EL EMPORIO DE LA GOMA SRL ✮✮,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 25259,Remitido,F,H11/48,0,0,10/02/2026,EXPRESO LUJAN DEL CUYO SA,574059,56.2%,345.00,T,5Nn8Fo2O,3Ny6Zw2O
-43335,4379 FRANCHRIS2010 SRL ✮✮,Facturación pendiente,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 25258,Remitido,F,CAS-PPAR1048T043,0,0,10/02/2026,TRANSPORTE TOMASSINI,573704,53.2%,590.40,F,,2Yb2Zq5E
+43335,4379 FRANCHRIS2010 SRL ✮✮,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 25258,Remitido,F,CAS-PPAR1048T043,0,0,10/02/2026,TRANSPORTE TOMASSINI,573704,53.2%,590.40,T,,2Yb2Zq5E
 43254,4381 IBERCONSA DE ARGENTINA SA ,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 25260,Remitido,F,CAS-PPAR1072T043,0,0,10/02/2026,TRANSPORTE TOMASSINI,568052,50.0%,890.88,T,9Lx6Mu2V,9Ry7Wa5R
 43338,4674 GIORNO S A (GRUPO VALASTRO) ✮✮,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 25262,Remitido,F,H11/72,0,0,10/02/2026,TRANSPORTE TOMASSINI,573954,51.1%,1089.50,T,1Jm9Zf6J,5Nn8Fo2O
 43301,583 TERRAGENE SA ✮✮,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 25257,Remitido,T,04965-00011-00,0,0,10/02/2026,RICARDO PIERONI,571105,54.7%,784.00,T,5Pl6Eg8H,8Ej8At4Q
-43258,655 SWIFT SA ARGENTINA ✮✮,Parcialmente ejecutada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 25261,Remitido,F,CAS-PPAR1072T043,672,1056,10/02/2026,EXPRESO LUJAN DEL CUYO SA,568281,57.0%,1555.20,T,8Wb3Xi2L,8El3Qk6P
-43258,655 SWIFT SA ARGENTINA ✮✮,Parcialmente ejecutada,Todo Aprobado,Orden de trabajo,Abierta,F,CAS-PPAR1072T043,672,1.056,10/02/2026,EXPRESO LUJAN DEL CUYO SA,568281,57.0%,2332.80,,8Wb3Xi2L,8Gy5Vz0B
-43334,9400049 COMPAÑIA AMERICANA DE ALIMENTOS S.A. ,Facturación pendiente,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 25265,Remitido,F,PPHR15048XT,0,0,10/02/2026,EXPRESO CARGO SA,573592,38.8%,5700.00,F,2Jl6Ja1C,9Aq0Ft5G
+43258,655 SWIFT SA ARGENTINA ✮✮,Parcialmente ejecutada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 25261,Remitido,F,CAS-PPAR1072T043,672,1.056,10/02/2026,EXPRESO LUJAN DEL CUYO SA,568281,57.0%,1555.20,T,8Wb3Xi2L,8Gy5Vz0B
+43258,655 SWIFT SA ARGENTINA ✮✮,Parcialmente ejecutada,Todo Aprobado,Orden de trabajo,Abierta,F,CAS-PPAR1072T043,672,1.056,10/02/2026,EXPRESO LUJAN DEL CUYO SA,568281,57.0%,2332.80,,8Wb3Xi2L,7Ii4Et8I
+43334,9400049 COMPAÑIA AMERICANA DE ALIMENTOS S.A. ,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 25265,Remitido,F,PPHR15048XT,0,0,10/02/2026,EXPRESO CARGO SA,573592,38.8%,5700.00,T,2Jl6Ja1C,9Aq0Ft5G
 43219,9400536 MILKAUT SA ✮✮,Parcialmente ejecutada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 25255,Remitido,F,PPHR15048XT,0,240,10/02/2026,RICARDO PIERONI,565882,42.2%,1200.00,T,8Ny2Or7G,8Ou2Yz9L
 43219,9400536 MILKAUT SA ✮✮,Parcialmente ejecutada,Todo Aprobado,Factura de venta 39531,Abierta,F,PPHR15048XT,0,240,10/02/2026,RICARDO PIERONI,565882,42.2%,4800.00,,8Ny2Or7G,1Mp3Zb8B
 43219,9400536 MILKAUT SA ✮✮,Parcialmente ejecutada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 25255,Remitido,F,CAS-PPAR548T043,0,0,10/02/2026,RICARDO PIERONI,565882,25.6%,12.60,T,8Ny2Or7G,1Mp3Zb8B
+43332,9403275 MADERERA DON FIORAVANTI S.R.L. ✮✮✮✮,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 25266,Remitido,F,VCI420,0,0,10/02/2026,EXPRESO LUJAN DEL CUYO SA,573340,53.7%,1145.62,T,,7Un2Ij7V
 43342,4 BEROWOOD SRL ✮✮✮✮,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Ensamblada,F,PPA1048F,108,0,11/02/2026,RICARDO PIERONI,574376,51.4%,259.20,,8El3Qk6P,3Ny6Zw2O
 43232,9400609 PAN S COMPANY SA ✮✮,Ejecución de la orden pendiente,Todo Aprobado, ,,F,PPHR15048XT,0,24,11/02/2026,EXPRESO CARGO SA,566400,41.4%,477.60,,9Qb8Fy5U,8Ou2Yz9L
 43232,9400609 PAN S COMPANY SA ✮✮,Ejecución de la orden pendiente,Todo Aprobado, ,,F,PPAR15048T,96,0,11/02/2026,EXPRESO CARGO SA,566400,54.3%,1334.40,,9Qb8Fy5U,8Bb5Dn1K
