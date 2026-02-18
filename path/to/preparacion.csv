@@ -26,7 +26,7 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 43093,9400962 CRYSTAL-ICE SRL ✮✮,Facturada,Todo Aprobado,Ejecución de pedido de artículo 25084,Enviado,F,9400962/011,0,0,20/01/2026,RICARDO PIERONI,554759,19.3%,.00,T,4Is2Rn8E,3Nb5Vf8A
 43079,9402422 VALBO S A I C Y F ✮✮,Facturada,Todo Aprobado,Ejecución de pedido de artículo 25073,Enviado,F,CAS-PPAR1048T043,0,0,20/01/2026,RETIRAN,553459,52.1%,.00,T,,7Rx7Ub2H
 43167,9403278 GIAVENO LUCIANO ,Facturada,Todo Aprobado,Ejecución de pedido de artículo 25076,Enviado,F,MVAQUA180,0,0,20/01/2026,RETIRAN,561308,100.0%,.00,T,,5Mx5Rs0E
-43178,102 VOLKSWAGEN ARGENTINA S.A. ✮✮,Facturación pendiente,Todo Aprobado,Ejecución de pedido de artículo 25092,Enviado,F,0685/002,0,0,21/01/2026,EXPRESO CARGO SA,562012,41.1%,.00,T,7Kh2Zf0E,5Pl6Eg8H
+43178,102 VOLKSWAGEN ARGENTINA S.A. ✮✮,Facturación pendiente,Todo Aprobado,Ejecución de pedido de artículo 25092,Enviado,F,0685/002,0,0,21/01/2026,EXPRESO CARGO SA,562012,41.1%,.00,T,7Kh2Zf0E,7Kh2Zf0E
 43083,12815 INDUSTRIAS AVICOLAS SA ✮✮,Facturada,Todo Aprobado,Ejecución de pedido de artículo 25089,Enviado,F,PPHR1216B,0,0,21/01/2026,TRANSPORTE MOSTTO,553967,41.9%,.00,T,4Jk9Hq6A,0Zw3Xq6V
 43134,132 MAHLE VALVULAS DE ARGENTINA SA ✮✮,Facturada,Todo Aprobado,Ejecución de pedido de artículo 25085,Enviado,F,3351/001,0,0,21/01/2026,EXPRESO SANTA ROSA,559110,74.4%,.00,T,6Ls2Pd3Q,5Ow8Cg8A
 43134,132 MAHLE VALVULAS DE ARGENTINA SA ✮✮,Facturada,Todo Aprobado,Ejecución de pedido de artículo 25085,Enviado,F,3351/003,0,0,21/01/2026,EXPRESO SANTA ROSA,559110,75.5%,.00,T,6Ls2Pd3Q,5Ow8Cg8A
@@ -59,7 +59,7 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 43073,5019 GRANJA TRES ARROYOS SACAFEI ✮✮,Facturada,Todo Aprobado,Ejecución de pedido de artículo 25106,Enviado,F,5019/003,0,0,22/01/2026,EXPRESO CARGO SA,553136,65.2%,.00,T,0Ql9Gi1V,9Xw3Zi2V
 43073,5019 GRANJA TRES ARROYOS SACAFEI ✮✮,Facturada,Todo Aprobado,Ejecución de pedido de artículo 25106,Enviado,F,5019/002,0,0,22/01/2026,EXPRESO CARGO SA,553136,61.9%,.00,T,0Ql9Gi1V,9Ry7Wa5R
 43193,9400182 IDRIS PATAGONIA SA ,Facturada,Todo Aprobado,Ejecución de pedido de artículo 25103,Enviado,F,CAS-PPAR1048T043,0,0,22/01/2026,TRANSPORTE CRUZ DEL SUR SA,563499,50.2%,.00,T,7Wz3Al6N,2Vf5Jo3E
-43178,102 VOLKSWAGEN ARGENTINA S.A. ✮✮,Facturación pendiente,Todo Aprobado,Ejecución de pedido de artículo 25112,Enviado,F,0685/002,0,0,23/01/2026,EXPRESO CARGO SA,562012,41.1%,.00,F,7Kh2Zf0E,7Kh2Zf0E
+43178,102 VOLKSWAGEN ARGENTINA S.A. ✮✮,Facturación pendiente,Todo Aprobado,Ejecución de pedido de artículo 25112,Enviado,F,0685/002,0,0,23/01/2026,EXPRESO CARGO SA,562012,41.1%,.00,F,7Kh2Zf0E,5Pl6Eg8H
 43129,2492 FRIGORIFICO ALBERDI SA ✮✮,Facturada,Todo Aprobado,Ejecución de pedido de artículo 25115,Enviado,F,CAS-PPA1072T040,0,0,23/01/2026,TRANSPORTE ÑANDUBAY SA,558553,34.8%,.00,T,0Vc7Du3D,8Ny2Or7G
 43129,2492 FRIGORIFICO ALBERDI SA ✮✮,Facturada,Todo Aprobado,Ejecución de pedido de artículo 25117,Enviado,F,CAS-PPA1072T040,0,0,23/01/2026,TRANSPORTE ÑANDUBAY SA,558553,34.8%,.00,T,0Vc7Du3D,8Ny2Or7G
 43129,2492 FRIGORIFICO ALBERDI SA ✮✮,Facturada,Todo Aprobado,Ejecución de pedido de artículo 25115,Enviado,F,2492/001,0,0,23/01/2026,TRANSPORTE ÑANDUBAY SA,558553,43.5%,.00,T,0Vc7Du3D,8Ny2Or7G
@@ -367,7 +367,7 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 43376,3051 FRIMETAL S.A. ,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Liberada,F,1823/002,0,32,25/02/2026,FELICI JORGE ARIEL,577786,29.9%,716.214,,3Dw0Uk2K,
 43187,1029 DREAN SA ,Ejecución de la orden pendiente,Todo Aprobado, ,,F,0272/005,240,0,27/02/2026,EXPRESO CARGO SA,562878,36.5%,2232.00,,6Ng7Hp1X,3Dw0Uk2K
 43366,12662 PRINTEMPS S.R.L. ✮✮,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Ensamblada,F,04965-00176-00,200,0,27/02/2026,RICARDO PIERONI,576797,46.5%,2620.00,,2Sp0Fe1F,4Is2Rn8E
-43366,12662 PRINTEMPS S.R.L. ✮✮,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Liberada,F,2662/001,0,192,27/02/2026,RICARDO PIERONI,576797,52.5%,240.00,,2Sp0Fe1F,4Is2Rn8E
+43366,12662 PRINTEMPS S.R.L. ✮✮,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Ensamblada,F,2662/001,192,0,27/02/2026,RICARDO PIERONI,576797,52.5%,240.00,,2Sp0Fe1F,4Is2Rn8E
 43366,12662 PRINTEMPS S.R.L. ✮✮,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Ensamblada,F,2662/004,300,0,27/02/2026,RICARDO PIERONI,576797,44.5%,786.00,,2Sp0Fe1F,4Is2Rn8E
 43155,3261 MANFREY COOP DE TAMBEROS DE COMERC E INDUSTRIALIZACION LTDA ,Ejecución de la orden pendiente,Todo Aprobado, ,,F,CAS-PPAR1048T043,720,0,27/02/2026,RICARDO PIERONI,560701,25.3%,468.00,,9Me2Cl4P,8Ds2Kv5E
 43359,9402290 BI MERCANTIL SAS ✮✮,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo,,F,CAS-PPA1072T040,792,1368,27/02/2026,TRANSPORTE MOSTTO,576428,26.2%,1749.60,,6Cx3Az0M,3Jc0Cw5E
