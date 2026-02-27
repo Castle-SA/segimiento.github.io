@@ -53,8 +53,8 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 43207,3089 ARNEG ARGENTINA S.A. ✮✮,Facturada,Todo Aprobado,Ejecución de pedido de artículo 25187,Enviado,F,3089/067,0,0,30/01/2026,RICARDO PIERONI,564800,82.3%,.00,T,7Rx7Ub2H,
 43207,3089 ARNEG ARGENTINA S.A. ✮✮,Facturada,Todo Aprobado,Ejecución de pedido de artículo 25187,Enviado,F,3089/039,0,0,30/01/2026,RICARDO PIERONI,564800,82.0%,.00,T,7Rx7Ub2H,
 43207,3089 ARNEG ARGENTINA S.A. ✮✮,Facturada,Todo Aprobado,Ejecución de pedido de artículo 25187,Enviado,F,3089/040,0,0,30/01/2026,RICARDO PIERONI,564800,82.0%,.00,T,7Rx7Ub2H,4Ev1Va1N
-43281,3089 ARNEG ARGENTINA S.A. ✮✮,Parcialmente ejecutada,Todo Aprobado,Ejecución de pedido de artículo 25199,Enviado,T,PER3040U,0,1100,30/01/2026,RICARDO PIERONI,569378,68.9%,2200.00,T,7Rx7Ub2H,1Fr4Ch9I
-43281,3089 ARNEG ARGENTINA S.A. ✮✮,Parcialmente ejecutada,Todo Aprobado,Factura de venta 39463,Abierta,T,PER3040U,0,1100,30/01/2026,RICARDO PIERONI,569378,68.9%,2200.00,,7Rx7Ub2H,8Wb3Xi2L
+43281,3089 ARNEG ARGENTINA S.A. ✮✮,Parcialmente ejecutada,Todo Aprobado,Factura de venta 39463,Abierta,T,PER3040U,0,1100,30/01/2026,RICARDO PIERONI,569378,68.9%,2200.00,,7Rx7Ub2H,1Fr4Ch9I
+43281,3089 ARNEG ARGENTINA S.A. ✮✮,Parcialmente ejecutada,Todo Aprobado,Ejecución de pedido de artículo 25199,Enviado,T,PER3040U,0,1100,30/01/2026,RICARDO PIERONI,569378,68.9%,2200.00,T,7Rx7Ub2H,8Wb3Xi2L
 43218,3829 LEDESMA S.A.A.I ✮✮,Facturada,Todo Aprobado,Ejecución de pedido de artículo 25176,Enviado,F,PPHR15048XT,0,0,30/01/2026,EXPRESO LUJAN DEL CUYO SA,565779,40.7%,.00,T,9Cy1Wk5Q,5Xf2Ag4D
 43162,4359 INDUSTRIAS BRAFH SA ,Facturada,Todo Aprobado,Ejecución de pedido de artículo 25182,Enviado,F,PVC648R,0,0,30/01/2026,RETIRAN,561079,0.0%,.00,T,9Hy8Nf6Y,2Jl6Ja1C
 43072,5019 GRANJA TRES ARROYOS SACAFEI ✮✮,Facturada,Todo Aprobado,Ejecución de pedido de artículo 25180,Enviado,F,PVC612R,0,0,30/01/2026,EXPRESO CARGO SA,553135,51.6%,.00,T,0Ql9Gi1V,3Ny6Zw2O
@@ -118,8 +118,8 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 43288,9402697 KLATT PACK SRL ✮✮,Facturada,Todo Aprobado,Ejecución de pedido de artículo 25230,Enviado,F,VCI410,0,0,06/02/2026,EXPRESO CARGO SA,570066,67.2%,-6.30,T,,7Zv2Of0S
 43288,9402697 KLATT PACK SRL ✮✮,Facturada,Todo Aprobado,Ejecución de pedido de artículo 25230,Enviado,F,VCI420,0,0,06/02/2026,EXPRESO CARGO SA,570066,62.7%,.00,T,,1Qd9By7M
 43331,12672 ENRIQUE CHAO S.R.L. ,Facturada,Todo Aprobado,Ejecución de pedido de artículo 25251,Enviado,F,PPA1548TE,0,0,09/02/2026,TRANSPORTE RAOSA SRL,573218,48.8%,.00,T,8Hn0Co3L,4Is2Rn8E
-43295,15 IND. JOHN DEERE ARGENTINA S.A. ✮✮,Parcialmente ejecutada,Todo Aprobado,Ejecución de pedido de artículo 25249,Enviado,T,04169-00058-93,0,5,09/02/2026,FELICI JORGE ARIEL,570667,48.1%,120.00,T,8Ky5Hq9D,2Au6Re6F
-43295,15 IND. JOHN DEERE ARGENTINA S.A. ✮✮,Parcialmente ejecutada,Todo Aprobado,Factura de venta 39522,Abierta,T,04169-00058-93,0,5,09/02/2026,FELICI JORGE ARIEL,570667,48.1%,120.00,,8Ky5Hq9D,8Mc1Gw5Y
+43295,15 IND. JOHN DEERE ARGENTINA S.A. ✮✮,Parcialmente ejecutada,Todo Aprobado,Factura de venta 39522,Abierta,T,04169-00058-93,0,5,09/02/2026,FELICI JORGE ARIEL,570667,48.1%,120.00,,8Ky5Hq9D,2Au6Re6F
+43295,15 IND. JOHN DEERE ARGENTINA S.A. ✮✮,Parcialmente ejecutada,Todo Aprobado,Ejecución de pedido de artículo 25249,Enviado,T,04169-00058-93,0,5,09/02/2026,FELICI JORGE ARIEL,570667,48.1%,120.00,T,8Ky5Hq9D,8Mc1Gw5Y
 43296,15 IND. JOHN DEERE ARGENTINA S.A. ✮✮,Facturada,Todo Aprobado,Ejecución de pedido de artículo 25250,Enviado,F,04169-00057-93,0,0,09/02/2026,FELICI JORGE ARIEL,570769,51.6%,.00,T,8Ky5Hq9D,3Dw0Uk2K
 43298,2638 QUE RICO SA ✮✮,Facturada,Todo Aprobado,Ejecución de pedido de artículo 25243,Enviado,F,PPHR1216B,0,0,09/02/2026,EXPRESO CARGO SA,570781,59.4%,.00,T,0Sl1Br5D,1Wa0Iu6X
 43279,3089 ARNEG ARGENTINA S.A. ✮✮,Facturada,Todo Aprobado,Ejecución de pedido de artículo 25245,Enviado,F,3089/017,0,0,09/02/2026,RICARDO PIERONI,569048,38.1%,.00,T,7Rx7Ub2H,2Au6Re6F
@@ -350,10 +350,12 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 43408,3089 ARNEG ARGENTINA S.A. ✮✮,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Liberada,F,3089/041,0,40000,02/03/2026,RICARDO PIERONI,580163,79.8%,4000.00,,7Rx7Ub2H,8Sb1On8S
 43408,3089 ARNEG ARGENTINA S.A. ✮✮,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Liberada,F,3089/051,0,40000,02/03/2026,RICARDO PIERONI,580163,79.8%,5200.00,,7Rx7Ub2H,2Ck7El7W
 43408,3089 ARNEG ARGENTINA S.A. ✮✮,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Ensamblada,F,3089/086,3000,0,02/03/2026,RICARDO PIERONI,580163,69.3%,510.00,,7Rx7Ub2H,7Rx7Ub2H
+43440,3598 DEL VALLE EMBALAJES SRL ✮✮,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo,,F,CAS-PPAR1048T043,0,3600,02/03/2026,RICARDO PIERONI,583177,50.1%,2772.00,,0Ph8Mv3F,5Rr7Ys4Y
 43435,3922 EMPRECO ARGENTINA DE NICOLAS C DELENIKAS ✮✮✮,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Liberada,F,04968-00008-00,0,80,02/03/2026,EXPRESO CARGO SA,582448,44.4%,919.20,,8Nu5Gj8P,9Lx6Mu2V
 43327,4095 REFINERIA DEL CENTRO SA ✮✮,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo,,F,CAS-PPHR1072XT045,672,1128,02/03/2026,EXPRESO SANTA ROSA,572895,42.5%,3636.00,,1Bj3Wa5S,2Me3Fc7D
 43419,6142 PAPELERA DEL SUR SRL ✮✮,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo,,F,CAS-PPAR1048T043,0,360,02/03/2026,RICARDO PIERONI,581016,51.8%,288.00,,9Rc3Gf4C,6Ng7Hp1X
 43184,9400536 MILKAUT SA ✮✮,Ejecución de la orden pendiente,Todo Aprobado, ,,F,PPHR15048XT,228,0,02/03/2026,RICARDO PIERONI,562510,43.0%,4560.00,,8Ny2Or7G,7Gs5Gq1V
+43441,1171 AUTOSAL SA ,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo,,F,CAS-PPA1072T040,0,240,03/03/2026,EXPRESO CARGO SA,583264,37.7%,216.00,,2Uv7Bb0L,3Hy2Ia2F
 43019,9402660 HORSE ARGENTINA SA ✮✮,Ejecución de la orden pendiente,Todo Aprobado, ,,T,V20,74,676,04/03/2026,EXPRESO CARGO SA,549681,60.7%,2.727.966,,,7Ip7Qv8Y
 42864,12794 ACEROLATINA SA ✮✮,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Ensamblada,F,CF5240T,100,0,06/03/2026,EXPRESO CARGO SA,538435,81.2%,3890.00,,7Ir5If6T,1Rf6Ez5C
 43421,3089 ARNEG ARGENTINA S.A. ✮✮,Ejecución de la orden pendiente,Todo Aprobado, ,,T,3089/082,0,5000,09/03/2026,RICARDO PIERONI,581237,49.5%,6250.00,,7Rx7Ub2H,7Rx7Ub2H
