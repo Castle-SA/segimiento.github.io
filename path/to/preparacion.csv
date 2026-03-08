@@ -33,7 +33,7 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 43301,583 TERRAGENE SA ✮✮,Facturada,Todo Aprobado,Ejecución de pedido de artículo 25257,Enviado,T,04965-00011-00,0,0,10/02/2026,RICARDO PIERONI,571105,54.7%,.00,T,5Pl6Eg8H,5Xf2Ag4D
 43258,655 SWIFT SA ARGENTINA ✮✮,Facturada,Todo Aprobado,Ejecución de pedido de artículo 25261,Enviado,F,CAS-PPAR1072T043,0,0,10/02/2026,EXPRESO LUJAN DEL CUYO SA,568281,57.0%,.00,T,8Wb3Xi2L,2Me3Fc7D
 43334,9400049 COMPAÑIA AMERICANA DE ALIMENTOS S.A. ,Facturada,Todo Aprobado,Ejecución de pedido de artículo 25265,Enviado,F,PPHR15048XT,0,0,10/02/2026,EXPRESO CARGO SA,573592,38.8%,.00,T,2Jl6Ja1C,9Gs4Xo3J
-43219,9400536 MILKAUT SA ✮✮,Facturada,Todo Aprobado,Ejecución de pedido de artículo 25255,Enviado,F,PPHR15048XT,0,0,10/02/2026,RICARDO PIERONI,565882,42.2%,.00,T,8Ny2Or7G,1Bj3Wa5S
+43219,9400536 MILKAUT SA ✮✮,Facturada,Todo Aprobado,Ejecución de pedido de artículo 25255,Enviado,F,PPHR15048XT,0,0,10/02/2026,RICARDO PIERONI,565882,42.2%,.00,T,8Ny2Or7G,
 43219,9400536 MILKAUT SA ✮✮,Facturada,Todo Aprobado,Ejecución de pedido de artículo 25255,Enviado,F,CAS-PPAR548T043,0,0,10/02/2026,RICARDO PIERONI,565882,25.6%,.00,T,8Ny2Or7G,0Io3Fg7R
 43332,9403275 MADERERA DON FIORAVANTI S.R.L. ✮✮✮✮,Facturada,Todo Aprobado,Ejecución de pedido de artículo 25266,Enviado,F,VCI420,0,0,10/02/2026,EXPRESO LUJAN DEL CUYO SA,573340,53.7%,.00,T,,5Dr6Pr8I
 43333,131 FARMQUIP SRL ✮✮✮,Facturada,Todo Aprobado,Ejecución de pedido de artículo 25280,Enviado,F,CAS-PPAR1048T043,0,0,11/02/2026,RICARDO PIERONI,573492,74.4%,.00,T,3Db1Yg8K,7Rx7Ub2H
@@ -55,7 +55,7 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 43258,655 SWIFT SA ARGENTINA ✮✮,Facturada,Todo Aprobado,Ejecución de pedido de artículo 25275,Enviado,F,CAS-PPAR1072T043,0,0,11/02/2026,EXPRESO LUJAN DEL CUYO SA,568281,57.0%,.00,T,8Wb3Xi2L,2Me3Fc7D
 43316,9400115 BEST COLD SRL ✮✮,Facturada,Todo Aprobado,Ejecución de pedido de artículo 25284,Enviado,F,CAS-MTS548B,0,0,11/02/2026,FELICI JORGE ARIEL,572370,6.4%,.00,T,8Xq9Re2A,3Qo4Fx7M
 43316,9400115 BEST COLD SRL ✮✮,Facturada,Todo Aprobado,Ejecución de pedido de artículo 25284,Enviado,F,CAS-MTS572B,0,0,11/02/2026,FELICI JORGE ARIEL,572370,5.7%,.00,T,8Xq9Re2A,4Xz9An3R
-43219,9400536 MILKAUT SA ✮✮,Facturada,Todo Aprobado,Ejecución de pedido de artículo 25267,Enviado,F,PPHR15048XT,0,0,11/02/2026,RICARDO PIERONI,565882,42.2%,.00,T,8Ny2Or7G,
+43219,9400536 MILKAUT SA ✮✮,Facturada,Todo Aprobado,Ejecución de pedido de artículo 25267,Enviado,F,PPHR15048XT,0,0,11/02/2026,RICARDO PIERONI,565882,42.2%,.00,T,8Ny2Or7G,1Bj3Wa5S
 43232,9400609 PAN S COMPANY SA ✮✮,Facturada,Todo Aprobado,Ejecución de pedido de artículo 25269,Enviado,F,PPHR15048XT,0,0,11/02/2026,EXPRESO CARGO SA,566400,41.4%,.00,T,9Qb8Fy5U,0Bz8Ix7O
 43232,9400609 PAN S COMPANY SA ✮✮,Facturada,Todo Aprobado,Ejecución de pedido de artículo 25269,Enviado,F,PPAR15048T,0,0,11/02/2026,EXPRESO CARGO SA,566400,54.3%,.00,T,9Qb8Fy5U,0Bz8Ix7O
 43286,9402290 BI MERCANTIL SAS ✮✮,Facturada,Todo Aprobado,Ejecución de pedido de artículo 25285,Enviado,F,CAS-PPA1072T040,0,0,11/02/2026,TRANSPORTE MOSTTO,569855,27.5%,.00,T,6Cx3Az0M,3Dw0Uk2K
@@ -161,8 +161,8 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 43233,9400155 FORMATO S.A. ✮✮✮✮,Facturada,Todo Aprobado,Ejecución de pedido de artículo 25362,Enviado,F,CAS-PPAR448T040,0,0,24/02/2026,EXPRESO CARGO SA,566512,17.0%,.00,T,7Tv4Pl2O,1Kc0Xm1P
 43389,9403276 FAM-MA AUTOMOTIVE SOCIEDAD ANONIMA ✮✮,Parcialmente ejecutada,Todo Aprobado,Ejecución de pedido de artículo 25345,Enviado,T,V20,0,980,24/02/2026,EXPRESO CARGO SA,578789,77.0%,6095.60,T,,2Vf5Jo3E
 43389,9403276 FAM-MA AUTOMOTIVE SOCIEDAD ANONIMA ✮✮,Parcialmente ejecutada,Todo Aprobado,Factura de venta 39628,Abierta,T,V20,0,980,24/02/2026,EXPRESO CARGO SA,578789,77.0%,6095.60,,,2Vf5Jo3E
-43390,9403277 FUMISCOR SA ✮✮,Parcialmente ejecutada,Todo Aprobado,Factura de venta 39626,Abierta,T,V20,0,1240,24/02/2026,EXPRESO CARGO SA,579016,77.0%,7712.80,,,2Vf5Jo3E
-43390,9403277 FUMISCOR SA ✮✮,Parcialmente ejecutada,Todo Aprobado,Ejecución de pedido de artículo 25346,Enviado,T,V20,0,1240,24/02/2026,EXPRESO CARGO SA,579016,77.0%,7712.80,T,,8Wb3Xi2L
+43390,9403277 FUMISCOR SA ✮✮,Parcialmente ejecutada,Todo Aprobado,Ejecución de pedido de artículo 25346,Enviado,T,V20,0,1240,24/02/2026,EXPRESO CARGO SA,579016,77.0%,7712.80,T,,2Vf5Jo3E
+43390,9403277 FUMISCOR SA ✮✮,Parcialmente ejecutada,Todo Aprobado,Factura de venta 39626,Abierta,T,V20,0,1240,24/02/2026,EXPRESO CARGO SA,579016,77.0%,7712.80,,,8Wb3Xi2L
 43393,1038 JACOBO SZWOM E HIJOS SAIC ✮✮✮,Facturada,Todo Aprobado,Ejecución de pedido de artículo 25373,Enviado,F,1038/001,0,0,25/02/2026,RICARDO PIERONI,579333,31.6%,.00,T,5Wc6Ni7U,0Ql9Gi1V
 43336,12849 FERRERO ARGENTINA SA ✮✮,Facturada,Todo Aprobado,Ejecución de pedido de artículo 25377,Enviado,F,PPAR1072T,0,0,25/02/2026,EXPRESO CARGO SA,573847,48.4%,.00,T,5Oy9Im9F,0Ql9Gi1V
 43395,132 MAHLE VALVULAS DE ARGENTINA SA ✮✮,Facturada,Todo Aprobado,Ejecución de pedido de artículo 25374,Enviado,F,3351/003,0,0,25/02/2026,EXPRESO SANTA ROSA,579444,75.5%,.00,T,6Ls2Pd3Q,5Ow8Cg8A
