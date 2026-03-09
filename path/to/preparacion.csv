@@ -125,8 +125,8 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 43380,132 MAHLE VALVULAS DE ARGENTINA SA ✮✮,Parcialmente ejecutada,Todo Aprobado,Ejecución de pedido de artículo 25335,Enviado,T,04169-00059-93,0,0,23/02/2026,EXPRESO SANTA ROSA,578154,52.4%,.00,T,6Ls2Pd3Q,5Ow8Cg8A
 43224,202 FRIGORIFICO DE AVES SOYCHU SA ,Facturada,Todo Aprobado,Ejecución de pedido de artículo 25340,Enviado,F,PPHR1216B,0,0,23/02/2026,EXPRESO CARGO SA,566392,32.3%,.00,T,5Ow8Cg8A,8Ky5Hq9D
 43224,202 FRIGORIFICO DE AVES SOYCHU SA ,Facturada,Todo Aprobado,Ejecución de pedido de artículo 25340,Enviado,F,PVC612R,0,0,23/02/2026,EXPRESO CARGO SA,566392,34.0%,.00,T,5Ow8Cg8A,5Mx5Rs0E
-43227,202 FRIGORIFICO DE AVES SOYCHU SA ,Parcialmente ejecutada,Todo Aprobado,Ejecución de pedido de artículo 25341,Enviado,F,PPHR1216B,0,0,23/02/2026,EXPRESO CARGO SA,566395,32.3%,.00,T,5Ow8Cg8A,5Mx5Rs0E
-43227,202 FRIGORIFICO DE AVES SOYCHU SA ,Parcialmente ejecutada,Todo Aprobado,Ejecución de pedido de artículo 25341,Enviado,F,PVC612R,0,0,23/02/2026,EXPRESO CARGO SA,566395,34.0%,.00,T,5Ow8Cg8A,5Mx5Rs0E
+43227,202 FRIGORIFICO DE AVES SOYCHU SA ,Facturación pendiente/parcialmente ejecutada,Todo Aprobado,Ejecución de pedido de artículo 25341,Enviado,F,PPHR1216B,0,0,23/02/2026,EXPRESO CARGO SA,566395,32.3%,.00,T,5Ow8Cg8A,5Mx5Rs0E
+43227,202 FRIGORIFICO DE AVES SOYCHU SA ,Facturación pendiente/parcialmente ejecutada,Todo Aprobado,Ejecución de pedido de artículo 25341,Enviado,F,PVC612R,0,0,23/02/2026,EXPRESO CARGO SA,566395,34.0%,.00,T,5Ow8Cg8A,5Mx5Rs0E
 43385,2097 EL CASERITO S.A. ,Facturada,Todo Aprobado,Ejecución de pedido de artículo 25332,Enviado,F,PPAR1048M,0,0,23/02/2026,EXPRESO LANCIONI,578563,40.0%,.00,T,5Dx1Ud1N,3Dw0Uk2K
 43376,3051 FRIMETAL S.A. ,Facturada,Todo Aprobado,Ejecución de pedido de artículo 25331,Enviado,F,1823/002,0,0,23/02/2026,FELICI JORGE ARIEL,577786,29.9%,.00,T,3Dw0Uk2K,8Tz8Ui3Y
 43308,4188 DOMITEC SA ,Facturada,Todo Aprobado,Ejecución de pedido de artículo 25343,Enviado,F,CAS-PPHR10048B,0,0,23/02/2026,TRANSPORTE RAOSA SRL,571844,24.6%,.00,T,4Md8Pr6J,7Rx7Ub2H
@@ -284,6 +284,7 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 43481,9401929 PETROPACK S.A. ✮✮,Facturada,Todo Aprobado,Ejecución de pedido de artículo 25442,Enviado,F,PPAR100144T,0,0,06/03/2026,TRANSPORTE MOSTTO,586095,38.1%,.00,T,8Ou2Yz9L,1Vf8Uo1P
 43448,132 MAHLE VALVULAS DE ARGENTINA SA ✮✮,Facturación pendiente,Todo Aprobado,Ejecución de pedido de artículo 25452,Enviado,F,MVAQUA203V,0,0,09/03/2026,EXPRESO SANTA ROSA,583891,46.8%,.00,F,6Ls2Pd3Q,6Ls2Pd3Q
 43486,178 DROGUERIA DEL SUD S.A. ✮✮,Facturación pendiente,Todo Aprobado,Ejecución de pedido de artículo 25449,Enviado,F,CAS-PPAR1048T040,0,0,09/03/2026,EXPRESO LANCIONI,586455,29.5%,.00,F,5Mx5Rs0E,2Uv7Bb0L
+43227,202 FRIGORIFICO DE AVES SOYCHU SA ,Facturación pendiente/parcialmente ejecutada,Todo Aprobado,Ejecución de pedido de artículo 25453,Enviado,F,CAS-PPA1048T040,2448,0,09/03/2026,EXPRESO CARGO SA,566395,32.3%,1346.40,F,5Ow8Cg8A,5Mx5Rs0E
 43495,2561 LAGOMARSINO SA ,Ejecución de la orden pendiente,Todo Aprobado, ,,F,CAS-PPAR1048T040,3,0,09/03/2026,EXPRESO CARGO SA,587477,0.0%,.00,,0Tn2Lb2H,2Gq6Ps1R
 43475,2790 DPM S.A. ✮✮,Ejecución de la orden pendiente,Todo Aprobado, ,,F,PPAR512T,0,144,09/03/2026,EXPRESO LUJAN DEL CUYO SA,585631,0.0%,17.28,,8Pq7Bd1J,4Vs0Qf0C
 43475,2790 DPM S.A. ✮✮,Ejecución de la orden pendiente,Todo Aprobado, ,,F,MTS548B,0,108,09/03/2026,EXPRESO LUJAN DEL CUYO SA,585631,19.5%,199.80,,8Pq7Bd1J,4Vs0Qf0C
@@ -333,7 +334,6 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 42864,12794 ACEROLATINA SA ✮✮,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Liberada,F,CF5240T,0,100,,EXPRESO CARGO SA,538435,81.2%,3890.00,,7Ir5If6T,4Gf8Oa0H
 43453,1343 NEWSAN SA ✮✮,Ejecución de la orden pendiente,Todo Aprobado, ,,F,MTS518B,0,1632,,EXPRESO CARGO SA,584289,0.0%,1224.00,,1Xr6So1J,8Xq9Re2A
 43247,15 IND. JOHN DEERE ARGENTINA S.A. ✮✮,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Liberada,T,0015/002,0,500,,FELICI JORGE ARIEL,567342,64.4%,7710.00,,8Ky5Hq9D,2Uv7Bb0L
-43227,202 FRIGORIFICO DE AVES SOYCHU SA ,Parcialmente ejecutada,Todo Aprobado, ,,F,CAS-PPA1048T040,9000,0,,EXPRESO CARGO SA,566395,32.3%,4950.00,,5Ow8Cg8A,5Mx5Rs0E
 41833,3089 ARNEG ARGENTINA S.A. ✮✮,Parcialmente ejecutada,Todo Aprobado,Orden de trabajo ,Cerrada,T,3089/082,0,5850,,FELICI JORGE ARIEL,475784,52.2%,7312.50,,7Rx7Ub2H,1Fr4Ch9I
 42523,3089 ARNEG ARGENTINA S.A. ✮✮,Ejecución de la orden pendiente,Todo Aprobado, ,,T,3089/052,4000,0,,FELICI GERARDO FABIAN,520980,19.6%,3680.00,,7Rx7Ub2H,9Aq0Ft5G
 43076,3089 ARNEG ARGENTINA S.A. ✮✮,Parcialmente ejecutada,Todo Aprobado,Orden de trabajo ,Liberada,T,3089/082,0,6120,,RICARDO PIERONI,553345,49.5%,7650.00,,7Rx7Ub2H,4Py6Ze4H
