@@ -277,7 +277,6 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 43485,769 PROSEIND SA ✮✮,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 25441,Remitido,F,04169-00063-93,0,0,06/03/2026,RICARDO PIERONI,586555,0.5%,375.00,T,7Ii4Et8I,3Ny6Zw2O
 43346,9400155 FORMATO S.A. ✮✮✮✮,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 25446,Remitido,F,CAS-PPAR1048T040,0,0,06/03/2026,EXPRESO CARGO SA,574924,15.8%,4536.00,T,7Tv4Pl2O,9Ry7Wa5R
 43467,9400962 CRYSTAL-ICE SRL ✮✮,Facturación pendiente,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 25447,Remitido,F,9400962/006,0,0,06/03/2026,RICARDO PIERONI,585417,29.0%,338.40,F,4Is2Rn8E,7Rx7Ub2H
-43457,9401272 RED CHAMBER ARGENTINA SA ,Ejecución de la orden pendiente,Todo Aprobado, ,,F,PPAR1048T,7200,0,06/03/2026,TRANSPORTE TOMASSINI,584547,39.0%,5544.00,,2Gk8Ia6Y,1Fr4Ch9I
 43473,9401272 RED CHAMBER ARGENTINA SA ,Ejecución de la orden pendiente,Todo Aprobado, ,,F,CAS-PPAR1072T043,3000,0,06/03/2026,TRANSPORTE TOMASSINI,585630,49.9%,3480.00,,2Gk8Ia6Y,9Or7Px4G
 43472,9401556 NOR-PAN S.A. ,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 25445,Remitido,F,CAS-PPAR10048T047,0,0,06/03/2026,EXPRESO BRIO SRL,585624,0.0%,.00,T,0Qy3Ko3T,5Oy9Im9F
 43472,9401556 NOR-PAN S.A. ,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 25445,Remitido,F,CAS-PPHR10048XT045,0,0,06/03/2026,EXPRESO BRIO SRL,585624,0.0%,.00,T,0Qy3Ko3T,1Vf8Uo1P
@@ -291,7 +290,6 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 43475,2790 DPM S.A. ✮✮,Ejecución de la orden pendiente,Todo Aprobado, ,,F,CAS-MTS548B,108,0,09/03/2026,EXPRESO LUJAN DEL CUYO SA,585631,13.1%,199.80,,8Pq7Bd1J,4Vs0Qf0C
 43484,2915 COMPANIA LA PILARICA SA ✮✮,Ejecución de la orden pendiente,Todo Aprobado, ,,F,PPA1548TE,0,540,09/03/2026,EXPRESO CARGO SA,586454,47.1%,642.60,,8Ds2Kv5E,4Vs0Qf0C
 43421,3089 ARNEG ARGENTINA S.A. ✮✮,Ejecución de la orden pendiente,Todo Aprobado, ,,T,3089/082,0,5000,09/03/2026,RICARDO PIERONI,581237,49.5%,6250.00,,7Rx7Ub2H,
-43483,4063 GLUPS SRL ✮✮,Ejecución de la orden pendiente,Todo Aprobado, ,,F,PPAR1048T,1080,0,09/03/2026,EXPRESO CARGO SA,586341,39.0%,831.60,,2Ys1Jc8S,2Ck7El7W
 43479,430 EMPAQUE S.A. ✮✮,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 25451,Remitido,F,CAS-PPAR1048T043,0,0,09/03/2026,TRANSPORTE CRUZ DEL SUR SA,585993,53.1%,590.40,T,4Oq4Xr3M,7Rx7Ub2H
 43479,430 EMPAQUE S.A. ✮✮,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 25451,Remitido,F,MTS512B,0,0,09/03/2026,TRANSPORTE CRUZ DEL SUR SA,585993,31.1%,72.00,T,4Oq4Xr3M,8Ds2Kv5E
 43476,9401928 MAFRALAC ALIMENTICIA S.R.L. ,Facturada,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 25448,Remitido,F,PPAR15048T,0,0,09/03/2026,EXPRESO LANCIONI,585736,56.1%,3121.20,T,8Xl1Ly4D,2Jl6Ja1C
@@ -300,8 +298,10 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 43480,9402290 BI MERCANTIL SAS ✮✮,Parcialmente ejecutada,Todo Aprobado,Factura de venta 39721,Abierta,F,PPA1548TE,0,288,09/03/2026,TRANSPORTE MOSTTO,586094,40.0%,302.40,,6Cx3Az0M,7Qv9Mi1Z
 43488,9403282 FENIX SERVICIOS GENERALES S.R.L. ✮✮✮✮,Ejecución de la orden pendiente,Todo Aprobado, ,,F,BV004,40,0,09/03/2026,RICARDO PIERONI,586657,80.4%,100.00,,,9Aq0Ft5G
 43487,9403285 DECA MOTORES Y REPUESTOS SRL ,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Ensamblada,F,0101/002,200,0,09/03/2026,EXPRESO CARGO SA,586556,45.2%,1114.00,,,5Rg6Oq8Y
+43483,4063 GLUPS SRL ✮✮,Facturación pendiente,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 25455,Remitido,F,PPAR1048T,0,0,10/03/2026,EXPRESO CARGO SA,586341,39.0%,831.60,F,2Ys1Jc8S,2Ck7El7W
 43490,678 PLASTICOS SUDAMERICANOS S.A. ,Ejecución de la orden pendiente,Todo Aprobado, ,,F,PPA1548TE,0,180,10/03/2026,RICARDO PIERONI,586876,47.5%,216.00,,4To3Gr0Z,0Ph8Mv3F
 43490,678 PLASTICOS SUDAMERICANOS S.A. ,Ejecución de la orden pendiente,Todo Aprobado, ,,F,PPAR1048T,360,0,10/03/2026,RICARDO PIERONI,586876,32.9%,252.00,,4To3Gr0Z,3Ny6Zw2O
+43457,9401272 RED CHAMBER ARGENTINA SA ,Facturación pendiente,Todo Aprobado,Remisionar (Enviar/Embalar/Remisionar) 25454,Remitido,F,PPAR1048T,0,0,10/03/2026,TRANSPORTE TOMASSINI,584547,39.0%,5544.00,F,2Gk8Ia6Y,1Fr4Ch9I
 43489,9402663 FERRUM SA DE CERAMICA Y METALURGIA ,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo,,F,CAS-PPAR548T043,0,3312,10/03/2026,EXPRESO CARGO SA,586760,25.4%,1159.20,,,2Vf5Jo3E
 43496,9400232 DIELO S.A ,Ejecución de la orden pendiente,Todo Aprobado, ,,F,CAS-PPHR10048XT045,90,0,11/03/2026,EXPRESO CARGO SA,587732,46.1%,1278.00,,0Jn5Yb0R,1Bj3Wa5S
 43494,9402388 PASQUALE S. R. L. ,Ejecución de la orden pendiente,Todo Aprobado, ,,F,PPHR15048XT,0,24,11/03/2026,EXPRESO CARGO SA,587377,41.5%,468.00,,,5Dr6Pr8I
@@ -325,14 +325,18 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 43360,9402290 BI MERCANTIL SAS ✮✮,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo,,F,CAS-PPA1072T040,0,2.160,27/03/2026,TRANSPORTE MOSTTO,576528,26.2%,1749.60,,6Cx3Az0M,7Su4Me5K
 43047,4229 TRADE COMMUNICATION SA ✮✮,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Ensamblada,T,0433/004,12500,0,30/03/2026,EXPRESO CARGO SA,551979,54.0%,3750.00,,5Ok6Fk3E,7Rx7Ub2H
 43185,9400536 MILKAUT SA ✮✮,Ejecución de la orden pendiente,Todo Aprobado, ,,F,PPHR15048XT,114,0,01/04/2026,RICARDO PIERONI,562621,43.0%,2280.00,,8Ny2Or7G,0Bz8Ix7O
+43420,12794 ACEROLATINA SA ✮✮,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Liberada,F,CF5240T,0,70,03/04/2026,EXPRESO CARGO SA,581137,81.2%,2723.00,,7Ir5If6T,0Ql9Gi1V
 43429,59 SICA METALURGICA ARGENTINA SA ✮✮✮✮,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Liberada,F,0059/002,0,504,06/04/2026,EXPRESO BRIO SRL,581952,10.6%,660.24,,5Wp7No0K,9Lx6Mu2V
 43321,300 GESTAMP CORDOBA S.A. ✮✮✮,Ejecución de la orden pendiente,Todo Aprobado, ,,T,V20,0,230,16/04/2026,EXPRESO CARGO SA,572579,75.8%,1357.00,,0Ai6Rj2W,0Bz8Ix7O
 43401,1650 ARAG ARGENTINA SA ✮✮,Ejecución de la orden pendiente,Todo Aprobado, ,,T,51618-00004-00,345,155,22/04/2026,RICARDO PIERONI,579686,49.4%,3250.00,,8Yp8Ld0P,6Ib6Fj6R
 43361,9402290 BI MERCANTIL SAS ✮✮,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo,,F,CAS-PPA1072T040,0,2160,28/04/2026,TRANSPORTE MOSTTO,576529,26.2%,1749.60,,6Cx3Az0M,7Gs5Gq1V
+43422,12794 ACEROLATINA SA ✮✮,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Liberada,F,CF5240T,0,70,08/05/2026,EXPRESO CARGO SA,581416,81.2%,2723.00,,7Ir5If6T,0Ql9Gi1V
 43322,300 GESTAMP CORDOBA S.A. ✮✮✮,Ejecución de la orden pendiente,Todo Aprobado, ,,T,V20,0,230,14/05/2026,EXPRESO CARGO SA,572580,75.8%,1357.00,,0Ai6Rj2W,9Pk0Ny6V
 43405,1650 ARAG ARGENTINA SA ✮✮,Ejecución de la orden pendiente,Todo Aprobado, ,,T,51618-00004-00,0,3000,22/05/2026,RICARDO PIERONI,579996,49.4%,19500.00,,8Yp8Ld0P,9Zc0Jy4O
 43362,9402290 BI MERCANTIL SAS ✮✮,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo,,F,CAS-PPA1072T040,0,2160,28/05/2026,TRANSPORTE MOSTTO,576530,26.2%,1749.60,,6Cx3Az0M,7Qv9Mi1Z
+43423,12794 ACEROLATINA SA ✮✮,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Liberada,F,CF5240T,0,70,05/06/2026,EXPRESO CARGO SA,581419,81.2%,2723.00,,7Ir5If6T,0Ql9Gi1V
 43363,9402290 BI MERCANTIL SAS ✮✮,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo,,F,CAS-PPA1072T040,0,2160,29/06/2026,TRANSPORTE MOSTTO,576531,26.2%,1749.60,,6Cx3Az0M,7Qv9Mi1Z
+43424,12794 ACEROLATINA SA ✮✮,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Liberada,F,CF5240T,0,70,10/07/2026,EXPRESO CARGO SA,581439,81.2%,2723.00,,7Ir5If6T,0Ql9Gi1V
 43324,300 GESTAMP CORDOBA S.A. ✮✮✮,Ejecución de la orden pendiente,Todo Aprobado, ,,T,V20,0,230,13/07/2026,EXPRESO CARGO SA,572582,75.8%,1357.00,,0Ai6Rj2W,9Ms2Pn8I
 43325,300 GESTAMP CORDOBA S.A. ✮✮✮,Ejecución de la orden pendiente,Todo Aprobado, ,,T,V20,0,230,13/08/2026,EXPRESO CARGO SA,572583,75.8%,1357.00,,0Ai6Rj2W,8Rn3En3G
 43252,104 A-EVANGELISTA SA ,Ejecución de la orden pendiente,Todo Aprobado,Pedido ,Recepción pendiente,T,0104/001,0,1000,,EXPRESO CARGO SA,567781,92.9%,15000.00,,1Sr4Sc1B,0Ql9Gi1V
