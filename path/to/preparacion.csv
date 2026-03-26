@@ -22,7 +22,7 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 43403,86 EST GRAFICO IMPRESORES SA ✮✮,Facturada,Todo Aprobado,Ejecución de pedido de artículo 25356,Enviado,F,CAS-PPAR1048T043,0,0,24/02/2026,EXPRESO CARGO SA,579776,53.1%,.00,T,9Xw3Zi2V,6Ng7Hp1X
 43410,9400024 ALIMENTARIA MANAL S.A. ,Facturada,Todo Aprobado,Ejecución de pedido de artículo 25355,Enviado,F,PPA1548TE,0,0,24/02/2026,EXPRESO CARGO SA,580452,47.1%,.00,T,8Qv4Kz3A,0Io3Fg7R
 43233,9400155 FORMATO S.A. ✮✮,Facturada,Todo Aprobado,Ejecución de pedido de artículo 25362,Enviado,F,CAS-PPAR448T040,0,0,24/02/2026,EXPRESO CARGO SA,566512,17.0%,.00,T,7Tv4Pl2O,6Cx3Az0M
-43389,9403276 FAM-MA AUTOMOTIVE SOCIEDAD ANONIMA ✮✮,Facturada,Todo Aprobado,Ejecución de pedido de artículo 25345,Enviado,T,V20,0,0,24/02/2026,EXPRESO CARGO SA,578789,77.0%,.00,T,,5Rg6Oq8Y
+43389,9403276 FAM-MA AUTOMOTIVE SOCIEDAD ANONIMA ✮✮,Facturada,Todo Aprobado,Ejecución de pedido de artículo 25345,Enviado,T,V20,0,0,24/02/2026,EXPRESO CARGO SA,578789,77.0%,.00,T,,7Xt9Gc1E
 43390,9403277 FUMISCOR SA ✮✮,Facturada,Todo Aprobado,Ejecución de pedido de artículo 25346,Enviado,T,V20,0,0,24/02/2026,EXPRESO CARGO SA,579016,77.0%,.00,T,,7Xt9Gc1E
 43393,1038 JACOBO SZWOM E HIJOS SAIC ✮✮✮,Facturada,Todo Aprobado,Ejecución de pedido de artículo 25373,Enviado,F,1038/001,0,0,25/02/2026,RICARDO PIERONI,579333,31.6%,.00,T,5Wc6Ni7U,0Ql9Gi1V
 43336,12849 FERRERO ARGENTINA SA ✮✮,Facturada,Todo Aprobado,Ejecución de pedido de artículo 25377,Enviado,F,PPAR1072T,0,0,25/02/2026,EXPRESO CARGO SA,573847,48.4%,.00,T,5Oy9Im9F,0Ql9Gi1V
@@ -260,8 +260,8 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 43564,4733 TECNOSISTEM SRL ✮✮,Facturada,Todo Aprobado,Ejecución de pedido de artículo 25533,Enviado,F,CAS-PPAR1048T045,0,0,20/03/2026,EXPRESO CARGO SA,593410,67.5%,.00,T,4Mf4Bj0L,9Lx6Mu2V
 43564,4733 TECNOSISTEM SRL ✮✮,Facturada,Todo Aprobado,Ejecución de pedido de artículo 25533,Enviado,F,CAS-MTS548B,0,0,20/03/2026,EXPRESO CARGO SA,593410,58.2%,.00,T,4Mf4Bj0L,8Cf1Ra3G
 43543,9400842 LABORATORIOS ASPEN SA ✮✮✮✮,Facturada,Todo Aprobado,Ejecución de pedido de artículo 25530,Enviado,F,9400842/001,0,0,20/03/2026,EXPRESO CARGO SA,592225,46.3%,.00,T,7Nr6Sr5Q,8Cf1Ra3G
+43389,9403276 FAM-MA AUTOMOTIVE SOCIEDAD ANONIMA ✮✮,Facturada,Todo Aprobado,Ejecución de pedido de artículo 25534,Enviado,T,V20,0,0,20/03/2026,EXPRESO CARGO SA,578789,77.0%,.00,T,,5Rg6Oq8Y
 43389,9403276 FAM-MA AUTOMOTIVE SOCIEDAD ANONIMA ✮✮,Facturada,Todo Aprobado,Ejecución de pedido de artículo 25538,Enviado,T,V20,0,0,20/03/2026,EXPRESO CARGO SA,578789,77.0%,.00,T,,7Xt9Gc1E
-43389,9403276 FAM-MA AUTOMOTIVE SOCIEDAD ANONIMA ✮✮,Facturada,Todo Aprobado,Ejecución de pedido de artículo 25534,Enviado,T,V20,0,0,20/03/2026,EXPRESO CARGO SA,578789,77.0%,.00,T,,7Xt9Gc1E
 43390,9403277 FUMISCOR SA ✮✮,Facturada,Todo Aprobado,Ejecución de pedido de artículo 25535,Enviado,T,V20,0,0,20/03/2026,EXPRESO CARGO SA,579016,77.0%,.00,T,,7Xt9Gc1E
 43390,9403277 FUMISCOR SA ✮✮,Facturada,Todo Aprobado,Ejecución de pedido de artículo 25539,Enviado,T,V20,0,0,20/03/2026,EXPRESO CARGO SA,579016,77.0%,.00,T,,7Xt9Gc1E
 43450,1029 DREAN SA ,Facturada,Todo Aprobado,Ejecución de pedido de artículo 25548,Enviado,F,CAS-MTS548B,0,0,23/03/2026,EXPRESO CARGO SA,584057,15.8%,.00,T,6Ng7Hp1X,2Df5Fp8J
@@ -321,6 +321,7 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 43599,105 SCANIA ARGENTINA S.A. ✮✮,Ejecución de la orden pendiente,Todo Aprobado, ,,F,LC579,9600,0,27/03/2026,LA SEVILLANITA SRL,596280,64.5%,2976.00,,2Yb2Zq5E,3Hy2Ia2F
 43600,4655 DELPACK SRL ✮✮,Ejecución de la orden pendiente,Todo Aprobado, ,,F,CAS-PPA15048T047,162,0,27/03/2026,TRANSPORTE TOMASSINI,596400,62.5%,2211.30,,9Em3Po7X,9Lx6Mu2V
 43360,9402290 BI MERCANTIL SAS ✮✮,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo,,F,CAS-PPA1072T040,0,2160,27/03/2026,TRANSPORTE MOSTTO,576528,26.2%,1749.60,,6Cx3Az0M,2Vf5Jo3E
+43604,9403280 ENRIQUES MARCELA ALEJANDRA ,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Liberada,F,04965-00176-00,0,18,27/03/2026,EXPRESO LUJAN DEL CUYO SA,596625,47.8%,234.00,,,3Dw0Uk2K
 43598,9400816 MORELLI SRL ✮✮,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Ensamblada,F,07063-00040-25,20,0,28/03/2026,RICARDO PIERONI,596279,45.0%,1300.00,,2Au6Re6F,9Or7Px4G
 43452,1029 DREAN SA ,Ejecución de la orden pendiente,Todo Aprobado, ,,F,CAS-MTS548B,1008,0,30/03/2026,EXPRESO CARGO SA,584185,15.8%,1925.28,,6Ng7Hp1X,0Ut2Zv0U
 43589,15 IND. JOHN DEERE ARGENTINA S.A. ✮✮,Ejecución de la orden pendiente,Todo Aprobado, ,,F,04169-00061-93,12,0,30/03/2026,FELICI JORGE ARIEL,595732,52.0%,288.00,,8Ky5Hq9D,2Au6Re6F
