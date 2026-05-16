@@ -15,11 +15,11 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 43602,9400232 DIELO S.A ✮✮,Facturada,Todo Aprobado,Ejecución de pedido de artículo 25695,Enviado,F,CAS-PPHR10048XT045,0,0,17/04/2026,EXPRESO CARGO SA,596510,42.2%,.00,T,0Jn5Yb0R,2Vf5Jo3E
 43630,9400334 CAPITAN DEL ESPACIO SA ✮✮,Facturada,Todo Aprobado,Ejecución de pedido de artículo 25694,Enviado,F,9400334/001,0,0,17/04/2026,EXPRESO CARGO SA,598642,58.2%,.00,T,8Hn1Bp7M,
 43730,9402422 VALBO S A I C Y F ✮✮,Facturada,Todo Aprobado,Ejecución de pedido de artículo 25700,Enviado,F,CAS-MTS548B,0,0,17/04/2026,RETIRAN,606440,43.5%,.00,T,,3Jc0Cw5E
-43644,178 DROGUERIA DEL SUD S.A. ✮✮,Facturada,Todo Aprobado,Ejecución de pedido de artículo 25708,Enviado,F,CAS-PPAR1048T045,0,0,20/04/2026,TRANSPORTE RAOSA SRL,599754,48.3%,.00,T,5Mx5Rs0E,2Gq6Ps1R
-43643,178 DROGUERIA DEL SUD S.A. ✮✮,Facturada,Todo Aprobado,Ejecución de pedido de artículo 25707,Enviado,F,CAS-PPAR1048T045,0,0,20/04/2026,TRANSPORTE TOMASSINI,599755,48.3%,.00,T,5Mx5Rs0E,2Gq6Ps1R
-43645,178 DROGUERIA DEL SUD S.A. ✮✮,Facturada,Todo Aprobado,Ejecución de pedido de artículo 25709,Enviado,F,CAS-PPAR1048T045,0,0,20/04/2026,EXPRESO LUJAN DEL CUYO SA,599756,48.3%,.00,T,5Mx5Rs0E,2Gq6Ps1R
-43646,178 DROGUERIA DEL SUD S.A. ✮✮,Facturada,Todo Aprobado,Ejecución de pedido de artículo 25710,Enviado,F,CAS-PPAR1048T045,0,0,20/04/2026,EXPRESO LUJAN DEL CUYO SA,599854,59.6%,.00,T,5Mx5Rs0E,6Kx5Tt1L
-43647,178 DROGUERIA DEL SUD S.A. ✮✮,Facturada,Todo Aprobado,Ejecución de pedido de artículo 25711,Enviado,F,CAS-PPAR1048T045,0,0,20/04/2026,EXPRESO LANCIONI,599954,59.6%,.00,T,5Mx5Rs0E,6Kx5Tt1L
+43644,178 DROGUERIA DEL SUD S.A. ,Facturada,Todo Aprobado,Ejecución de pedido de artículo 25708,Enviado,F,CAS-PPAR1048T045,0,0,20/04/2026,TRANSPORTE RAOSA SRL,599754,48.3%,.00,T,5Mx5Rs0E,2Gq6Ps1R
+43643,178 DROGUERIA DEL SUD S.A. ,Facturada,Todo Aprobado,Ejecución de pedido de artículo 25707,Enviado,F,CAS-PPAR1048T045,0,0,20/04/2026,TRANSPORTE TOMASSINI,599755,48.3%,.00,T,5Mx5Rs0E,2Gq6Ps1R
+43645,178 DROGUERIA DEL SUD S.A. ,Facturada,Todo Aprobado,Ejecución de pedido de artículo 25709,Enviado,F,CAS-PPAR1048T045,0,0,20/04/2026,EXPRESO LUJAN DEL CUYO SA,599756,48.3%,.00,T,5Mx5Rs0E,2Gq6Ps1R
+43646,178 DROGUERIA DEL SUD S.A. ,Facturada,Todo Aprobado,Ejecución de pedido de artículo 25710,Enviado,F,CAS-PPAR1048T045,0,0,20/04/2026,EXPRESO LUJAN DEL CUYO SA,599854,59.6%,.00,T,5Mx5Rs0E,6Kx5Tt1L
+43647,178 DROGUERIA DEL SUD S.A. ,Facturada,Todo Aprobado,Ejecución de pedido de artículo 25711,Enviado,F,CAS-PPAR1048T045,0,0,20/04/2026,EXPRESO LANCIONI,599954,59.6%,.00,T,5Mx5Rs0E,6Kx5Tt1L
 43716,3363 GUALTIERI HNOS SA ✮✮,Facturada,Todo Aprobado,Ejecución de pedido de artículo 25718,Enviado,F,CAS-PPAR1048T045,0,0,20/04/2026,EXPRESO LANCIONI,605515,71.4%,.00,T,1Sz3Yg2S,3Jg1St8F
 43739,4329 COMPANIA ELABORADORA DE PASTAS SA ,Facturada,Todo Aprobado,Ejecución de pedido de artículo 25717,Enviado,F,CAS-PPAR10048T047,0,0,20/04/2026,RETIRAN,607108,71.2%,.00,T,0Un8Nt2U,0Ph8Mv3F
 43739,4329 COMPANIA ELABORADORA DE PASTAS SA ,Facturada,Todo Aprobado,Ejecución de pedido de artículo 25717,Enviado,F,CAS-PPAR1048T045,0,0,20/04/2026,RETIRAN,607108,74.3%,.00,T,0Un8Nt2U,3Ny6Zw2O
@@ -133,8 +133,8 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 43797,143 EPTA ARGENTINA S.A. ✮✮,Facturada,Todo Aprobado,Ejecución de pedido de artículo 25808,Enviado,F,CF548T,0,0,28/04/2026,RICARDO PIERONI,611917,59.1%,.00,T,1Tu2Pr5C,2Uv7Bb0L
 43810,3089 ARNEG ARGENTINA S.A. ✮✮,Facturada,Todo Aprobado,Ejecución de pedido de artículo 25809,Enviado,F,3089/080,0,0,28/04/2026,FELICI JORGE ARIEL,613237,52.3%,.00,T,7Rx7Ub2H,3Dw0Uk2K
 43810,3089 ARNEG ARGENTINA S.A. ✮✮,Facturada,Todo Aprobado,Ejecución de pedido de artículo 25809,Enviado,F,3089/077,0,0,28/04/2026,FELICI JORGE ARIEL,613237,55.8%,.00,T,7Rx7Ub2H,2Wy4Vz4B
-43810,3089 ARNEG ARGENTINA S.A. ✮✮,Facturada,Todo Aprobado,Ejecución de pedido de artículo 25809,Enviado,F,3089/078,0,0,28/04/2026,FELICI JORGE ARIEL,613237,65.5%,.00,T,7Rx7Ub2H,8Sb1On8S
-43810,3089 ARNEG ARGENTINA S.A. ✮✮,Facturada,Todo Aprobado,Ejecución de pedido de artículo 25809,Enviado,F,3089/079,0,0,28/04/2026,FELICI JORGE ARIEL,613237,43.5%,.00,T,7Rx7Ub2H,2Ck7El7W
+43810,3089 ARNEG ARGENTINA S.A. ✮✮,Facturada,Todo Aprobado,Ejecución de pedido de artículo 25809,Enviado,F,3089/078,0,0,28/04/2026,FELICI JORGE ARIEL,613237,65.5%,.00,T,7Rx7Ub2H,2Wy4Vz4B
+43810,3089 ARNEG ARGENTINA S.A. ✮✮,Facturada,Todo Aprobado,Ejecución de pedido de artículo 25809,Enviado,F,3089/079,0,0,28/04/2026,FELICI JORGE ARIEL,613237,43.5%,.00,T,7Rx7Ub2H,7Rx7Ub2H
 43818,9400444 CRONI S.A. ✮✮,Facturada,Todo Aprobado,Ejecución de pedido de artículo 25810,Enviado,F,PPHR15048XT,0,0,28/04/2026,EXPRESO BRIO SRL,614000,43.8%,.00,T,0Rx5Fn3N,6Ls2Pd3Q
 43805,9400856 G P V SOCIEDAD ANONIMA (GRUPO PIERO) ✮✮,Facturada,Todo Aprobado,Ejecución de pedido de artículo 25806,Enviado,F,9400856/001,0,0,28/04/2026,EXPRESO CARGO SA,612697,64.1%,.00,T,0Vu0Tn6O,5Rg6Oq8Y
 43727,9400962 CRYSTAL-ICE SRL ✮✮,Facturada,Todo Aprobado,Ejecución de pedido de artículo 25814,Enviado,F,CAS-PPA1048T045,0,0,28/04/2026,RICARDO PIERONI,606135,54.8%,.00,T,4Is2Rn8E,3Dw0Uk2K
@@ -209,7 +209,7 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 43833,202 FRIGORIFICO DE AVES SOYCHU SA ✮✮,Facturada,Todo Aprobado,Ejecución de pedido de artículo 25860,Enviado,F,PVC612R,0,0,04/05/2026,EXPRESO CARGO SA,615415,44.0%,.00,T,5Ow8Cg8A,8Ny2Or7G
 43659,12709 LABORATORIOS SL SA ✮✮,Facturada,Todo Aprobado,Ejecución de pedido de artículo 25864,Enviado,F,PPA1048F,0,0,05/05/2026,EXPRESO LUJAN DEL CUYO SA,600891,28.8%,.00,T,8Ne5Wn3Y,5Ow8Cg8A
 43851,1386 FRIGORIFICO PALADINI SA ✮✮,Facturada,Todo Aprobado,Ejecución de pedido de artículo 25870,Enviado,F,REPUESTO (I),0,0,05/05/2026,RETIRAN,617603,100.0%,.00,T,0Ut2Zv0U,4Bf8Ax7P
-43646,178 DROGUERIA DEL SUD S.A. ✮✮,Facturada,Todo Aprobado,Ejecución de pedido de artículo 25863,Enviado,F,PPA1048F,0,0,05/05/2026,EXPRESO LUJAN DEL CUYO SA,599854,50.9%,.00,T,5Mx5Rs0E,2Gq6Ps1R
+43646,178 DROGUERIA DEL SUD S.A. ,Facturada,Todo Aprobado,Ejecución de pedido de artículo 25863,Enviado,F,PPA1048F,0,0,05/05/2026,EXPRESO LUJAN DEL CUYO SA,599854,50.9%,.00,T,5Mx5Rs0E,2Gq6Ps1R
 43848,3089 ARNEG ARGENTINA S.A. ✮✮,Parcialmente ejecutada,Todo Aprobado,Ejecución de pedido de artículo 25867,Enviado,T,3089/082,0,12080,05/05/2026,FELICI JORGE ARIEL,617277,49.6%,15100.00,T,7Rx7Ub2H,9Hm9Dl7F
 43857,5078 GRANJA SRL ✮✮,Facturada,Todo Aprobado,Ejecución de pedido de artículo 25871,Enviado,F,PPA1548TE,0,0,05/05/2026,RICARDO PIERONI,618122,64.9%,.00,T,8Xs6Zk8N,4Jl3Vt9D
 43837,674 KRETZ SA ,Facturada,Todo Aprobado,Ejecución de pedido de artículo 25868,Enviado,F,0674/003,0,0,05/05/2026,RETIRAN,615804,37.8%,.00,T,0Io3Fg7R,5Nn8Fo2O
@@ -259,8 +259,8 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 43281,3089 ARNEG ARGENTINA S.A. ✮✮,Facturada,Todo Aprobado,Ejecución de pedido de artículo 25904,Enviado,T,PER3040U,0,0,11/05/2026,RICARDO PIERONI,569378,68.9%,-200.00,T,7Rx7Ub2H,1Rf6Ez5C
 43608,3089 ARNEG ARGENTINA S.A. ✮✮,Facturada,Todo Aprobado,Ejecución de pedido de artículo 25900,Enviado,T,3089/079,0,0,11/05/2026,RICARDO PIERONI,596980,43.7%,-35.40,T,7Rx7Ub2H,0Bz8Ix7O
 43810,3089 ARNEG ARGENTINA S.A. ✮✮,Facturada,Todo Aprobado,Ejecución de pedido de artículo 25901,Enviado,F,3089/080,0,0,11/05/2026,FELICI JORGE ARIEL,613237,52.3%,.00,T,7Rx7Ub2H,2Wy4Vz4B
-43810,3089 ARNEG ARGENTINA S.A. ✮✮,Facturada,Todo Aprobado,Ejecución de pedido de artículo 25901,Enviado,F,3089/078,0,0,11/05/2026,FELICI JORGE ARIEL,613237,65.5%,.00,T,7Rx7Ub2H,2Wy4Vz4B
-43810,3089 ARNEG ARGENTINA S.A. ✮✮,Facturada,Todo Aprobado,Ejecución de pedido de artículo 25901,Enviado,F,3089/079,0,0,11/05/2026,FELICI JORGE ARIEL,613237,43.5%,.00,T,7Rx7Ub2H,7Rx7Ub2H
+43810,3089 ARNEG ARGENTINA S.A. ✮✮,Facturada,Todo Aprobado,Ejecución de pedido de artículo 25901,Enviado,F,3089/078,0,0,11/05/2026,FELICI JORGE ARIEL,613237,65.5%,.00,T,7Rx7Ub2H,8Sb1On8S
+43810,3089 ARNEG ARGENTINA S.A. ✮✮,Facturada,Todo Aprobado,Ejecución de pedido de artículo 25901,Enviado,F,3089/079,0,0,11/05/2026,FELICI JORGE ARIEL,613237,43.5%,.00,T,7Rx7Ub2H,2Ck7El7W
 43811,3089 ARNEG ARGENTINA S.A. ✮✮,Parcialmente ejecutada,Todo Aprobado,Ejecución de pedido de artículo 25899,Enviado,T,3089/080,0,27000,11/05/2026,FELICI JORGE ARIEL,613264,52.3%,1131.30,T,7Rx7Ub2H,7Rx7Ub2H
 43811,3089 ARNEG ARGENTINA S.A. ✮✮,Parcialmente ejecutada,Todo Aprobado,Ejecución de pedido de artículo 25899,Enviado,T,3089/077,0,0,11/05/2026,FELICI JORGE ARIEL,613264,55.8%,.00,T,7Rx7Ub2H,7Rx7Ub2H
 43811,3089 ARNEG ARGENTINA S.A. ✮✮,Parcialmente ejecutada,Todo Aprobado,Ejecución de pedido de artículo 25899,Enviado,T,3089/078,0,27000,11/05/2026,FELICI JORGE ARIEL,613264,65.5%,783.00,T,7Rx7Ub2H,7Rx7Ub2H
