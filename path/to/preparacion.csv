@@ -30,8 +30,8 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 43579,132 MAHLE VALVULAS DE ARGENTINA S.A. ✮✮,Facturada,Todo Aprobado,Ejecución de pedido de artículo 25886,Enviado,F,0132/004,0,0,07/05/2026,EXPRESO SANTA ROSA,595017,72.1%,.00,T,6Ls2Pd3Q,5Ow8Cg8A
 43695,132 MAHLE VALVULAS DE ARGENTINA S.A. ✮✮,Facturada,Todo Aprobado,Ejecución de pedido de artículo 25887,Enviado,F,0132/004,0,0,07/05/2026,EXPRESO SANTA ROSA,603810,72.1%,.00,T,6Ls2Pd3Q,5Ow8Cg8A
 43778,132 MAHLE VALVULAS DE ARGENTINA S.A. ✮✮,Parcialmente ejecutada,Todo Aprobado,Factura de venta 40155,Abierta,T,0132/004,0,1500,07/05/2026,EXPRESO SANTA ROSA,610082,70.6%,1020.00,,6Ls2Pd3Q,5Ow8Cg8A
-43778,132 MAHLE VALVULAS DE ARGENTINA S.A. ✮✮,Parcialmente ejecutada,Todo Aprobado,Ejecución de pedido de artículo 25888,Enviado,T,0132/004,0,1500,07/05/2026,EXPRESO SANTA ROSA,610082,70.6%,1020.00,T,6Ls2Pd3Q,2Mu2Vl2K
-43778,132 MAHLE VALVULAS DE ARGENTINA S.A. ✮✮,Parcialmente ejecutada,Todo Aprobado,Factura de venta 40155,Abierta,T,LC579,1080,7320,07/05/2026,EXPRESO SANTA ROSA,610082,67.7%,2604.00,,6Ls2Pd3Q,1Bj3Wa5S
+43778,132 MAHLE VALVULAS DE ARGENTINA S.A. ✮✮,Parcialmente ejecutada,Todo Aprobado,Ejecución de pedido de artículo 25888,Enviado,T,0132/004,0,1500,07/05/2026,EXPRESO SANTA ROSA,610082,70.6%,1020.00,T,6Ls2Pd3Q,5Ow8Cg8A
+43778,132 MAHLE VALVULAS DE ARGENTINA S.A. ✮✮,Parcialmente ejecutada,Todo Aprobado,Factura de venta 40155,Abierta,T,LC579,1080,7320,07/05/2026,EXPRESO SANTA ROSA,610082,67.7%,2604.00,,6Ls2Pd3Q,8Xq9Re2A
 43883,1386 FRIGORIFICO PALADINI SA ✮✮,Facturada,Todo Aprobado,Ejecución de pedido de artículo 25890,Enviado,F,PPAR15048T,0,0,07/05/2026,FELICI JORGE ARIEL,620884,63.1%,.00,T,0Ut2Zv0U,
 43825,260 SUCESION DE BARCIA CLAUDIO RODRIGO ,Facturada,Todo Aprobado,Ejecución de pedido de artículo 25889,Enviado,F,CAS-MTS548B,0,0,07/05/2026,FELICI GERARDO FABIAN,614857,55.2%,.00,T,6Ib6Fj6R,8Ny2Or7G
 43846,3029 DARK SRL ✮✮,Facturada,Todo Aprobado,Ejecución de pedido de artículo 25884,Enviado,F,FLJPP30012B,0,0,07/05/2026,RICARDO PIERONI,617006,13.3%,.00,T,7Va0Bu1J,
@@ -100,7 +100,7 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 43779,26 SPICER EJES PESADOS SA ✮✮,Facturada,Todo Aprobado,Ejecución de pedido de artículo 25941,Enviado,F,60022-00001-00,0,0,14/05/2026,EXPRESO CARGO SA,610183,60.4%,.00,T,0Wt2Wp0H,8Ny2Or7G
 43514,279 HONDA MOTOR DE ARGENTINA S.A. ✮✮,Facturada,Todo Aprobado,Ejecución de pedido de artículo 25939,Enviado,T,60951-00000-00,0,0,14/05/2026,EXPRESO CARGO SA,589489,44.2%,.00,T,1Rf6Ez5C,3Pt0Oq8I
 43702,279 HONDA MOTOR DE ARGENTINA S.A. ✮✮,Facturada,Todo Aprobado,Ejecución de pedido de artículo 25935,Enviado,T,04169-00056-93,0,0,14/05/2026,EXPRESO CARGO SA,604214,47.4%,.00,T,1Rf6Ez5C,3Pt0Oq8I
-43722,3096 FRECICAR S.R.L. ✮✮,Facturada,Todo Aprobado,Ejecución de pedido de artículo 25936,Enviado,T,04169-00056-93,0,0,14/05/2026,FELICI GERARDO FABIAN,605786,55.2%,.00,T,9Zc0Jy4O,2Ck7El7W
+43722,3096 FRECICAR S.R.L. ✮✮,Facturada,Todo Aprobado,Ejecución de pedido de artículo 25936,Enviado,T,04169-00056-93,0,0,14/05/2026,FELICI GERARDO FABIAN,605786,55.2%,.00,T,9Zc0Jy4O,8Sb1On8S
 43915,569 CONAM SRL ✮✮,Facturada,Todo Aprobado,Ejecución de pedido de artículo 25934,Enviado,F,CAS-MTS572B,0,0,14/05/2026,EXPRESO CARGO SA,623955,40.6%,.00,T,5Ko0Ey7A,7Rx7Ub2H
 43908,682 MAYO TRANSFORMADORES S.R.L. ✮✮,Facturada,Todo Aprobado,Ejecución de pedido de artículo 25937,Enviado,T,CAS-PPAR1048T043,0,0,14/05/2026,FELICI JORGE ARIEL,623304,60.0%,.00,T,0We8Yn4Q,3Ny6Zw2O
 43908,682 MAYO TRANSFORMADORES S.R.L. ✮✮,Facturada,Todo Aprobado,Ejecución de pedido de artículo 25937,Enviado,T,CF512T,0,0,14/05/2026,FELICI JORGE ARIEL,623304,73.5%,.00,T,0We8Yn4Q,3Ny6Zw2O
@@ -114,18 +114,18 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 43884,2999 TECNOVO SA ,Facturada,Todo Aprobado,Ejecución de pedido de artículo 25945,Enviado,F,CAS-PPAR1072T047,0,0,15/05/2026,TRANSPORTE AGUILAR S.R.L.,621013,53.9%,.00,T,5Ng0Ij9H,0Ph8Mv3F
 43891,4661 ARCORE SACI ,Facturada,Todo Aprobado,Ejecución de pedido de artículo 25947,Enviado,F,CAS-PPAR1048T043,0,0,15/05/2026,RETIRAN,621894,0.0%,.00,T,5Cp7Jx6W,
 43923,742 CYM MATERIALES SA ✮✮✮,Facturada,Todo Aprobado,Ejecución de pedido de artículo 25948,Enviado,F,MVAQUA180,0,0,15/05/2026,RETIRAN,625057,30.9%,.00,T,7Id6Py7O,3Qo4Fx7M
-43913,9400962 CRYSTAL-ICE SRL ✮✮,Parcialmente ejecutada,Todo Aprobado,Factura de venta 40219,Pagado por completo,F,CAS-PPA1048T040,180,3060,15/05/2026,RICARDO PIERONI,623734,91.2%,2203.20,,4Is2Rn8E,4Jk9Hq6A
+43913,9400962 CRYSTAL-ICE SRL ✮✮,Parcialmente ejecutada,Todo Aprobado,Factura de venta 40219,Pagado por completo,F,CAS-PPA1048T040,180,3060,15/05/2026,RICARDO PIERONI,623734,91.2%,2203.20,,4Is2Rn8E,7Rx7Ub2H
 43913,9400962 CRYSTAL-ICE SRL ✮✮,Parcialmente ejecutada,Todo Aprobado,Ejecución de pedido de artículo 25949,Enviado,F,CAS-PPA1048T043,0,0,15/05/2026,RICARDO PIERONI,623734,45.2%,.00,T,4Is2Rn8E,1Kp7Az6D
 43920,960 LSG SKY CHEFS ARGENTINA SA ,Facturada,Todo Aprobado,Ejecución de pedido de artículo 25946,Enviado,F,CH523EXR,0,0,15/05/2026,EXPRESO CARGO SA,624555,0.0%,.00,T,6Vf5Ir9K,7Rx7Ub2H
 43757,1029 DREAN SA ,Facturada,Todo Aprobado,Ejecución de pedido de artículo 25960,Enviado,F,MTS548B,0,0,18/05/2026,EXPRESO CARGO SA,608686,22.5%,.00,T,6Ng7Hp1X,2Df5Fp8J
-43899,105 SCANIA ARGENTINA S.A. ✮✮,Parcialmente ejecutada,Todo Aprobado,Ejecución de pedido de artículo 25952,Enviado,T,LC579,0,6000,18/05/2026,LA SEVILLANITA SRL,622617,64.5%,1860.00,T,2Yb2Zq5E,0Wm2Xw7K
-43899,105 SCANIA ARGENTINA S.A. ✮✮,Parcialmente ejecutada,Todo Aprobado,Factura de venta 40221,Abierta,T,LC579,0,6000,18/05/2026,LA SEVILLANITA SRL,622617,64.5%,1860.00,,2Yb2Zq5E,7Ei3Zh4Q
+43899,105 SCANIA ARGENTINA S.A. ✮✮,Parcialmente ejecutada,Todo Aprobado,Factura de venta 40221,Abierta,T,LC579,0,6000,18/05/2026,LA SEVILLANITA SRL,622617,64.5%,1860.00,,2Yb2Zq5E,0Wm2Xw7K
+43899,105 SCANIA ARGENTINA S.A. ✮✮,Parcialmente ejecutada,Todo Aprobado,Ejecución de pedido de artículo 25952,Enviado,T,LC579,0,6000,18/05/2026,LA SEVILLANITA SRL,622617,64.5%,1860.00,T,2Yb2Zq5E,7Ei3Zh4Q
 43894,12662 PRINTEMPS S.R.L. ✮✮,Facturada,Todo Aprobado,Ejecución de pedido de artículo 25950,Enviado,F,12662/001,0,0,18/05/2026,RICARDO PIERONI,622032,36.0%,.00,T,2Sp0Fe1F,4Is2Rn8E
 43898,4188 DOMITEC SA ,Facturada,Todo Aprobado,Ejecución de pedido de artículo 25951,Enviado,F,CAS-PPHR10048B,0,0,18/05/2026,TRANSPORTE RAOSA SRL,622476,35.7%,.00,T,4Md8Pr6J,0Jn1Mv5H
 43925,4894 VANOLI Y CIA SA ✮✮,Facturada,Todo Aprobado,Ejecución de pedido de artículo 25953,Enviado,F,CAS-PPAR1048T043,0,0,18/05/2026,EXPRESO CARGO SA,625272,46.6%,.00,T,1Qt0Ac5G,5Hd9Vg2B
 43934,86 EST GRAFICO IMPRESORES SA ✮✮,Facturada,Todo Aprobado,Ejecución de pedido de artículo 25955,Enviado,F,CAS-PPAR1048T043,0,0,18/05/2026,EXPRESO CARGO SA,625751,63.8%,.00,T,9Xw3Zi2V,9Xw3Zi2V
-43921,9402018 FARMACIA LA FRANCO SOCIEDAD DE RESPONSABILIDAD LIMITADA ✮✮✮✮,Parcialmente ejecutada,Todo Aprobado,Factura de venta 40228,Abierta,T,PPAR524T,0,648,18/05/2026,TRANSPORTE TOMASSINI,624639,39.5%,246.24,,4Xz9An3R,1Vf8Uo1P
-43921,9402018 FARMACIA LA FRANCO SOCIEDAD DE RESPONSABILIDAD LIMITADA ✮✮✮✮,Parcialmente ejecutada,Todo Aprobado,Ejecución de pedido de artículo 25958,Enviado,T,PPAR524T,0,648,18/05/2026,TRANSPORTE TOMASSINI,624639,39.5%,246.24,T,4Xz9An3R,2Jl6Ja1C
+43921,9402018 FARMACIA LA FRANCO SOCIEDAD DE RESPONSABILIDAD LIMITADA ✮✮✮✮,Parcialmente ejecutada,Todo Aprobado,Ejecución de pedido de artículo 25958,Enviado,T,PPAR524T,0,648,18/05/2026,TRANSPORTE TOMASSINI,624639,39.5%,246.24,T,4Xz9An3R,1Vf8Uo1P
+43921,9402018 FARMACIA LA FRANCO SOCIEDAD DE RESPONSABILIDAD LIMITADA ✮✮✮✮,Parcialmente ejecutada,Todo Aprobado,Factura de venta 40228,Abierta,T,PPAR524T,0,648,18/05/2026,TRANSPORTE TOMASSINI,624639,39.5%,246.24,,4Xz9An3R,2Jl6Ja1C
 43921,9402018 FARMACIA LA FRANCO SOCIEDAD DE RESPONSABILIDAD LIMITADA ✮✮✮✮,Parcialmente ejecutada,Todo Aprobado,Ejecución de pedido de artículo 25958,Enviado,T,CAS-PPAR548T045,0,0,18/05/2026,TRANSPORTE TOMASSINI,624639,61.7%,.00,T,4Xz9An3R,2Jl6Ja1C
 43799,9402328 ARGENPACK CORRUGADOS SA ✮✮,Facturada,Todo Aprobado,Ejecución de pedido de artículo 25956,Enviado,F,BV001,0,0,18/05/2026,EXPRESO CARGO SA,612192,46.6%,-75.80,T,ulwBCyTv,5Dr6Pr8I
 43932,9402697 KLATT PACK SRL ✮✮,Facturada,Todo Aprobado,Ejecución de pedido de artículo 25959,Enviado,F,BV002,0,0,18/05/2026,EXPRESO CARGO SA,625599,70.2%,.00,T,,5Cj2Fy8V
@@ -141,7 +141,7 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 43866,690 CEVA DE ARGENTINA SRL ,Facturada,Todo Aprobado,Ejecución de pedido de artículo 25969,Enviado,T,2025/001,0,0,19/05/2026,FELICI JORGE ARIEL,619278,62.5%,.00,T,3Pt0Oq8I,0Ph8Mv3F
 43868,690 CEVA DE ARGENTINA SRL ,Facturada,Todo Aprobado,Ejecución de pedido de artículo 25968,Enviado,T,BV002,0,0,19/05/2026,FELICI JORGE ARIEL,619478,69.7%,.00,T,3Pt0Oq8I,9Gs4Xo3J
 43868,690 CEVA DE ARGENTINA SRL ,Facturada,Todo Aprobado,Ejecución de pedido de artículo 25968,Enviado,T,LC579,0,0,19/05/2026,FELICI JORGE ARIEL,619478,73.0%,.00,T,3Pt0Oq8I,2Nw2Uj9H
-43913,9400962 CRYSTAL-ICE SRL ✮✮,Parcialmente ejecutada,Todo Aprobado,Factura de venta 40236,Pagado por completo,F,CAS-PPA1048T040,180,3060,19/05/2026,RICARDO PIERONI,623734,91.2%,2203.20,,4Is2Rn8E,7Rx7Ub2H
+43913,9400962 CRYSTAL-ICE SRL ✮✮,Parcialmente ejecutada,Todo Aprobado,Factura de venta 40236,Pagado por completo,F,CAS-PPA1048T040,180,3060,19/05/2026,RICARDO PIERONI,623734,91.2%,2203.20,,4Is2Rn8E,4Jk9Hq6A
 43913,9400962 CRYSTAL-ICE SRL ✮✮,Parcialmente ejecutada,Todo Aprobado,Ejecución de pedido de artículo 25967,Enviado,F,CAS-PPA1048T043,0,0,19/05/2026,RICARDO PIERONI,623734,45.2%,.00,T,4Is2Rn8E,1Kp7Az6D
 43944,9402054 GRANIX S.A. ,Facturada,Todo Aprobado,Ejecución de pedido de artículo 25962,Enviado,F,PPHR15048XT,0,0,19/05/2026,BARRY LATIMER,626742,100.0%,.00,T,8Rf6Ml6Z,3Dw0Uk2K
 43933,9402533 DISTRIBUIR S.A. ,Facturada,Todo Aprobado,Ejecución de pedido de artículo 25966,Enviado,F,2094/003,0,0,19/05/2026,BARRY LATIMER,625750,0.0%,.00,T,,2Vf5Jo3E
@@ -183,8 +183,8 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 43362,9402290 BI MERCANTIL SAS ✮✮,Facturada,Todo Aprobado,Ejecución de pedido de artículo 25994,Enviado,F,CAS-PPA1072T043,0,0,22/05/2026,TRANSPORTE MOSTTO,576530,36.5%,.00,T,6Cx3Az0M,2Pi6Wv1H
 43808,9402290 BI MERCANTIL SAS ✮✮,Facturada,Todo Aprobado,Ejecución de pedido de artículo 25988,Enviado,F,PPAR15048T,0,0,22/05/2026,TRANSPORTE MOSTTO,613027,0.0%,.00,T,6Cx3Az0M,7Ir5If6T
 43808,9402290 BI MERCANTIL SAS ✮✮,Facturada,Todo Aprobado,Ejecución de pedido de artículo 25988,Enviado,F,PPHR15048XT,0,0,22/05/2026,TRANSPORTE MOSTTO,613027,0.0%,.00,T,6Cx3Az0M,8El3Qk6P
-43974,9402663 FERRUM SA DE CERAMICA Y METALURGIA ,Parcialmente ejecutada,Todo Aprobado,Orden de trabajo,Abierta,F,CAS-PPAR548T043,0,2520,22/05/2026,EXPRESO CARGO SA,629988,36.8%,1083.60,,,9Tj7Li2O
-43974,9402663 FERRUM SA DE CERAMICA Y METALURGIA ,Parcialmente ejecutada,Todo Aprobado,Ejecución de pedido de artículo 25992,Enviado,F,CAS-PPAR548T043,0,2520,22/05/2026,EXPRESO CARGO SA,629988,36.8%,1083.60,T,,1Hy0Vd3I
+43974,9402663 FERRUM SA DE CERAMICA Y METALURGIA ,Parcialmente ejecutada,Todo Aprobado,Ejecución de pedido de artículo 25992,Enviado,F,CAS-PPAR548T043,0,2520,22/05/2026,EXPRESO CARGO SA,629988,36.8%,1083.60,T,,9Tj7Li2O
+43974,9402663 FERRUM SA DE CERAMICA Y METALURGIA ,Parcialmente ejecutada,Todo Aprobado,Orden de trabajo,Abierta,F,CAS-PPAR548T043,0,2520,22/05/2026,EXPRESO CARGO SA,629988,36.8%,1083.60,,,1Hy0Vd3I
 43953,9403195 WURTH ARGENTINA S.A. ,Facturada,Todo Aprobado,Ejecución de pedido de artículo 25984,Enviado,F,PEG5L1570M,0,0,22/05/2026,BARRY LATIMER,627836,0.0%,.00,T,,9Aq0Ft5G
 43869,1029 DREAN SA ,Facturada,Todo Aprobado,Ejecución de pedido de artículo 26001,Enviado,F,1153/001,0,0,26/05/2026,EXPRESO CARGO SA,619578,54.5%,.00,T,6Ng7Hp1X,3Dw0Uk2K
 43959,12706 LA GAUCHITA SACI ✮✮,Facturada,Todo Aprobado,Ejecución de pedido de artículo 26006,Enviado,F,PPA1048T040,0,0,26/05/2026,CORREO ANDREANI SA,628123,29.6%,.00,T,0Pq7Yr6O,4Gf8Oa0H
@@ -193,14 +193,14 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 43976,131 FARMQUIP SRL ✮✮✮,Facturada,Todo Aprobado,Ejecución de pedido de artículo 26002,Enviado,F,CH523EXR,0,0,26/05/2026,FELICI JORGE ARIEL,630251,73.6%,.00,T,3Db1Yg8K,5Ow8Cg8A
 43976,131 FARMQUIP SRL ✮✮✮,Facturada,Todo Aprobado,Ejecución de pedido de artículo 26002,Enviado,F,HWF125,0,0,26/05/2026,FELICI JORGE ARIEL,630251,63.4%,.00,T,3Db1Yg8K,5Ow8Cg8A
 43976,131 FARMQUIP SRL ✮✮✮,Facturada,Todo Aprobado,Ejecución de pedido de artículo 26002,Enviado,F,CAS-PPAR1048T047,0,0,26/05/2026,FELICI JORGE ARIEL,630251,71.0%,.00,T,3Db1Yg8K,5Ow8Cg8A
-43778,132 MAHLE VALVULAS DE ARGENTINA S.A. ✮✮,Parcialmente ejecutada,Todo Aprobado,Factura de venta 40273,Abierta,T,0132/004,0,1500,26/05/2026,EXPRESO SANTA ROSA,610082,70.6%,1020.00,,6Ls2Pd3Q,5Ow8Cg8A
+43778,132 MAHLE VALVULAS DE ARGENTINA S.A. ✮✮,Parcialmente ejecutada,Todo Aprobado,Factura de venta 40273,Abierta,T,0132/004,0,1500,26/05/2026,EXPRESO SANTA ROSA,610082,70.6%,1020.00,,6Ls2Pd3Q,3Gj7Vu0K
 43778,132 MAHLE VALVULAS DE ARGENTINA S.A. ✮✮,Parcialmente ejecutada,Todo Aprobado,Ejecución de pedido de artículo 26005,Enviado,T,BV002,0,0,26/05/2026,EXPRESO SANTA ROSA,610082,74.7%,.00,T,6Ls2Pd3Q,1Bj3Wa5S
-43778,132 MAHLE VALVULAS DE ARGENTINA S.A. ✮✮,Parcialmente ejecutada,Todo Aprobado,Ejecución de pedido de artículo 26005,Enviado,T,LC579,1080,7320,26/05/2026,EXPRESO SANTA ROSA,610082,67.7%,2604.00,T,6Ls2Pd3Q,8Xq9Re2A
+43778,132 MAHLE VALVULAS DE ARGENTINA S.A. ✮✮,Parcialmente ejecutada,Todo Aprobado,Ejecución de pedido de artículo 26005,Enviado,T,LC579,1080,7320,26/05/2026,EXPRESO SANTA ROSA,610082,67.7%,2604.00,T,6Ls2Pd3Q,1Bj3Wa5S
 43778,132 MAHLE VALVULAS DE ARGENTINA S.A. ✮✮,Parcialmente ejecutada,Todo Aprobado,Factura de venta 40273,Abierta,T,LC579,1080,7320,26/05/2026,EXPRESO SANTA ROSA,610082,67.7%,2604.00,,6Ls2Pd3Q,8Xq9Re2A
 43763,15 INDUSTRIAS JOHN DEERE ARGENTINA S.A. ✮✮,Facturada,Todo Aprobado,Ejecución de pedido de artículo 26015,Enviado,T,04169-00058-93,0,0,26/05/2026,FELICI JORGE ARIEL,608332,48.8%,.00,T,8Ky5Hq9D,2Uv7Bb0L
 43938,15 INDUSTRIAS JOHN DEERE ARGENTINA S.A. ✮✮,Facturada,Todo Aprobado,Ejecución de pedido de artículo 26017,Enviado,T,04169-00058-93,0,0,26/05/2026,FELICI JORGE ARIEL,626279,49.3%,.00,T,8Ky5Hq9D,5Mx5Rs0E
-43981,1650 ARAG ARGENTINA SA ✮✮,Parcialmente ejecutada,Todo Aprobado,Ejecución de pedido de artículo 26000,Enviado,F,1650/002,0,408,26/05/2026,FELICI JORGE ARIEL,630694,51.4%,1632.00,T,8Yp8Ld0P,7Rx7Ub2H
-43981,1650 ARAG ARGENTINA SA ✮✮,Parcialmente ejecutada,Todo Aprobado,Factura de venta 40279,Pagado por completo,F,1650/002,0,408,26/05/2026,FELICI JORGE ARIEL,630694,51.4%,1632.00,,8Yp8Ld0P,3Dw0Uk2K
+43981,1650 ARAG ARGENTINA SA ✮✮,Parcialmente ejecutada,Todo Aprobado,Factura de venta 40279,Pagado por completo,F,1650/002,0,408,26/05/2026,FELICI JORGE ARIEL,630694,51.4%,1632.00,,8Yp8Ld0P,7Rx7Ub2H
+43981,1650 ARAG ARGENTINA SA ✮✮,Parcialmente ejecutada,Todo Aprobado,Ejecución de pedido de artículo 26000,Enviado,F,1650/002,0,408,26/05/2026,FELICI JORGE ARIEL,630694,51.4%,1632.00,T,8Yp8Ld0P,3Dw0Uk2K
 43828,202 FRIGORIFICO DE AVES SOYCHU SA ✮✮,Facturada,Todo Aprobado,Ejecución de pedido de artículo 25996,Enviado,F,PPHR1216B,0,0,26/05/2026,EXPRESO CARGO SA,615311,42.0%,.00,T,5Ow8Cg8A,6Kx5Tt1L
 43828,202 FRIGORIFICO DE AVES SOYCHU SA ✮✮,Facturada,Todo Aprobado,Ejecución de pedido de artículo 25996,Enviado,F,PVC612R,0,0,26/05/2026,EXPRESO CARGO SA,615311,44.0%,.00,T,5Ow8Cg8A,4Vs0Qf0C
 43828,202 FRIGORIFICO DE AVES SOYCHU SA ✮✮,Facturada,Todo Aprobado,Ejecución de pedido de artículo 25996,Enviado,F,CAS-PPA1048T045,0,0,26/05/2026,EXPRESO CARGO SA,615311,46.8%,.00,T,5Ow8Cg8A,4Vs0Qf0C
@@ -216,7 +216,7 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 43950,2515 CONGELADOS ARTICO SA ✮✮,Facturada,Todo Aprobado,Ejecución de pedido de artículo 26003,Enviado,F,PPAR1072T,0,0,26/05/2026,TRANSPORTE TOMASSINI,627515,59.3%,.00,T,8Rn3En3G,5Ko0Ey7A
 43734,279 HONDA MOTOR DE ARGENTINA S.A. ✮✮,Facturada,Todo Aprobado,Ejecución de pedido de artículo 26014,Enviado,T,04169-00056-93,0,0,26/05/2026,EXPRESO CARGO SA,606865,46.6%,.00,T,1Rf6Ez5C,6Ls2Pd3Q
 43734,279 HONDA MOTOR DE ARGENTINA S.A. ✮✮,Facturada,Todo Aprobado,Ejecución de pedido de artículo 26014,Enviado,T,04169-00058-93,0,0,26/05/2026,EXPRESO CARGO SA,606865,46.1%,.00,T,1Rf6Ez5C,9Qb8Fy5U
-43722,3096 FRECICAR S.R.L. ✮✮,Facturada,Todo Aprobado,Ejecución de pedido de artículo 26012,Enviado,T,04169-00056-93,0,0,26/05/2026,FELICI GERARDO FABIAN,605786,55.2%,.00,T,9Zc0Jy4O,8Sb1On8S
+43722,3096 FRECICAR S.R.L. ✮✮,Facturada,Todo Aprobado,Ejecución de pedido de artículo 26012,Enviado,T,04169-00056-93,0,0,26/05/2026,FELICI GERARDO FABIAN,605786,55.2%,.00,T,9Zc0Jy4O,2Ck7El7W
 43982,3769 GAROFOLI CONSTRUCCIONES SRL ✮✮,Facturada,Todo Aprobado,Ejecución de pedido de artículo 26004,Enviado,F,CAS-MTS572B,0,0,26/05/2026,RODRIGUEZ HNOS. TRANSP. SA,630812,34.9%,.00,T,7Qv9Mi1Z,7Es1Xz6T
 43983,4379 FRANCHRIS2010 SRL ✮✮,Facturada,Todo Aprobado,Ejecución de pedido de artículo 26018,Enviado,F,CAS-PPAR10048T047,0,0,26/05/2026,TRANSPORTE TOMASSINI,630914,63.0%,.00,T,,3Jg1St8F
 43983,4379 FRANCHRIS2010 SRL ✮✮,Facturada,Todo Aprobado,Ejecución de pedido de artículo 26018,Enviado,F,CAS-PPAR1048T043,0,0,26/05/2026,TRANSPORTE TOMASSINI,630914,61.0%,.00,T,,3Jg1St8F
@@ -224,8 +224,8 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 43686,449 DITEC S.R.L. ,Parcialmente ejecutada,Todo Aprobado,Factura de venta 40285,Abierta,T,60950-00001-00,0,6,26/05/2026,EXPRESO CARGO SA,603356,54.4%,180.00,,5Xf2Ag4D,5Xf2Ag4D
 43896,449 DITEC S.R.L. ,Facturada,Todo Aprobado,Ejecución de pedido de artículo 26011,Enviado,T,60950-00000-00,0,0,26/05/2026,EXPRESO CARGO SA,622250,54.0%,.00,T,5Xf2Ag4D,5Xf2Ag4D
 43867,690 CEVA DE ARGENTINA SRL ,Facturada,Todo Aprobado,Ejecución de pedido de artículo 26008,Enviado,F,0690/010,0,0,26/05/2026,FELICI JORGE ARIEL,619378,55.2%,.00,T,3Pt0Oq8I,4Jl3Vt9D
-43962,866 SOCOTHERM AMERICAS SA ✮✮,Parcialmente ejecutada,Todo Aprobado,Factura de venta 40287,Abierta,F,50600-00001-00,0,23,26/05/2026,EXPRESO CARGO SA,628449,50.7%,575.00,,8Og1Ql4E,9Ry7Wa5R
-43962,866 SOCOTHERM AMERICAS SA ✮✮,Parcialmente ejecutada,Todo Aprobado,Ejecución de pedido de artículo 25999,Enviado,F,50600-00001-00,0,23,26/05/2026,EXPRESO CARGO SA,628449,50.7%,575.00,T,8Og1Ql4E,1Bj3Wa5S
+43962,866 SOCOTHERM AMERICAS SA ✮✮,Parcialmente ejecutada,Todo Aprobado,Ejecución de pedido de artículo 25999,Enviado,F,50600-00001-00,0,23,26/05/2026,EXPRESO CARGO SA,628449,50.7%,575.00,T,8Og1Ql4E,9Ry7Wa5R
+43962,866 SOCOTHERM AMERICAS SA ✮✮,Parcialmente ejecutada,Todo Aprobado,Factura de venta 40287,Abierta,F,50600-00001-00,0,23,26/05/2026,EXPRESO CARGO SA,628449,50.7%,575.00,,8Og1Ql4E,1Bj3Wa5S
 43362,9402290 BI MERCANTIL SAS ✮✮,Facturada,Todo Aprobado,Ejecución de pedido de artículo 26010,Enviado,F,CAS-PPA1072T043,0,0,26/05/2026,TRANSPORTE MOSTTO,576530,35.8%,.00,T,6Cx3Az0M,6Ng7Hp1X
 43959,12706 LA GAUCHITA SACI ✮✮,Facturada,Todo Aprobado,Ejecución de pedido de artículo 26025,Enviado,F,CAS-PPA1048T047,0,0,27/05/2026,CORREO ANDREANI SA,628123,40.1%,.00,T,0Pq7Yr6O,4Gf8Oa0H
 43931,12877 BRIKET SA ✮✮,Facturada,Todo Aprobado,Ejecución de pedido de artículo 26027,Enviado,F,MTP548B,0,0,27/05/2026,FELICI JORGE ARIEL,625598,22.8%,.00,T,6Rp2Ce7I,5Ow8Cg8A
@@ -258,17 +258,17 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 43988,9402290 BI MERCANTIL SAS ✮✮,Facturada,Todo Aprobado,Ejecución de pedido de artículo 26033,Enviado,F,PPA1548TE,0,0,28/05/2026,TRANSPORTE MOSTTO,631566,49.1%,.00,T,6Cx3Az0M,7Ii4Et8I
 43861,9402942 CABAÑA EL FORTIN S.A. ,Facturada,Todo Aprobado,Ejecución de pedido de artículo 26040,Enviado,F,PPHR1216B,0,0,28/05/2026,EXPRESO LUJAN DEL CUYO SA,618704,58.3%,.00,T,,6Ls2Pd3Q
 43861,9402942 CABAÑA EL FORTIN S.A. ,Facturada,Todo Aprobado,Ejecución de pedido de artículo 26040,Enviado,F,PVC612R,0,0,28/05/2026,EXPRESO LUJAN DEL CUYO SA,618704,68.0%,.00,T,,5Rg6Oq8Y
-43998,9403325 AZUL AGRUPACION DE COLABORACION EMPRESARIA ,Facturada,Todo Aprobado,Ejecución de pedido de artículo 26044,Enviado,F,CAS-PPA1048T047,0,0,28/05/2026,EXPRESO CARGO SA,632452,42.9%,.00,T,,5Rg6Oq8Y
-43998,9403325 AZUL AGRUPACION DE COLABORACION EMPRESARIA ,Facturada,Todo Aprobado,Ejecución de pedido de artículo 26043,Enviado,F,CAS-PPA1048T047,0,0,28/05/2026,EXPRESO CARGO SA,632452,42.9%,.00,T,,7Xt9Gc1E
+43998,9403325 AZUL AGRUPACION DE COLABORACION EMPRESARIA ,Facturada,Todo Aprobado,Ejecución de pedido de artículo 26043,Enviado,F,CAS-PPA1048T047,0,0,28/05/2026,EXPRESO CARGO SA,632452,42.9%,.00,T,,5Rg6Oq8Y
+43998,9403325 AZUL AGRUPACION DE COLABORACION EMPRESARIA ,Facturada,Todo Aprobado,Ejecución de pedido de artículo 26044,Enviado,F,CAS-PPA1048T047,0,0,28/05/2026,EXPRESO CARGO SA,632452,42.9%,.00,T,,7Xt9Gc1E
 43873,1029 DREAN SA ,Facturada,Todo Aprobado,Ejecución de pedido de artículo 26049,Enviado,F,0272/003,0,0,29/05/2026,EXPRESO CARGO SA,619904,39.4%,.00,T,6Ng7Hp1X,0Sl1Br5D
 43990,1171 AUTOSAL SA ✮✮,Facturada,Todo Aprobado,Ejecución de pedido de artículo 26050,Enviado,F,0272/003,0,0,29/05/2026,EXPRESO CARGO SA,631690,39.5%,.00,T,2Uv7Bb0L,4Is2Rn8E
-43778,132 MAHLE VALVULAS DE ARGENTINA S.A. ✮✮,Parcialmente ejecutada,Todo Aprobado,Factura de venta 40325,Abierta,T,0132/004,0,1500,29/05/2026,EXPRESO SANTA ROSA,610082,70.6%,1020.00,,6Ls2Pd3Q,3Gj7Vu0K
+43778,132 MAHLE VALVULAS DE ARGENTINA S.A. ✮✮,Parcialmente ejecutada,Todo Aprobado,Factura de venta 40325,Abierta,T,0132/004,0,1500,29/05/2026,EXPRESO SANTA ROSA,610082,70.6%,1020.00,,6Ls2Pd3Q,2Mu2Vl2K
 43778,132 MAHLE VALVULAS DE ARGENTINA S.A. ✮✮,Parcialmente ejecutada,Todo Aprobado,Ejecución de pedido de artículo 26056,Enviado,T,3351/001,0,0,29/05/2026,EXPRESO SANTA ROSA,610082,76.9%,.00,T,6Ls2Pd3Q,6Ls2Pd3Q
 43778,132 MAHLE VALVULAS DE ARGENTINA S.A. ✮✮,Parcialmente ejecutada,Todo Aprobado,Factura de venta 40325,Abierta,T,LC579,1080,7320,29/05/2026,EXPRESO SANTA ROSA,610082,67.7%,2604.00,,6Ls2Pd3Q,1Bj3Wa5S
 44016,132 MAHLE VALVULAS DE ARGENTINA S.A. ✮✮,Facturada,Todo Aprobado,Ejecución de pedido de artículo 26057,Enviado,F,MVAQUA203V,0,0,29/05/2026,EXPRESO SANTA ROSA,634390,44.1%,.00,T,6Ls2Pd3Q,4Bf8Ax7P
 43987,2025 CELSUR LOGISTICA S.A. ,Facturada,Todo Aprobado,Ejecución de pedido de artículo 26051,Enviado,F,PEG5L1570B,0,0,29/05/2026,EXPRESO LUJAN DEL CUYO SA,631460,56.3%,.00,T,5Hz1Mp3S,1Wa0Iu6X
-43994,2790 DPM S.A. ,Parcialmente ejecutada,Todo Aprobado,Ejecución de pedido de artículo 26055,Enviado,F,CAS-PPA1048T043,0,11880,29/05/2026,EXPRESO LUJAN DEL CUYO SA,631917,21.7%,5464.80,T,8Pq7Bd1J,8Ky5Hq9D
-43994,2790 DPM S.A. ,Parcialmente ejecutada,Todo Aprobado,Orden de trabajo,Abierta,F,CAS-PPA1048T043,0,11880,29/05/2026,EXPRESO LUJAN DEL CUYO SA,631917,21.7%,5464.80,,8Pq7Bd1J,9Qb8Fy5U
+43994,2790 DPM S.A. ,Parcialmente ejecutada,Todo Aprobado,Orden de trabajo,Abierta,F,CAS-PPA1048T043,0,11880,29/05/2026,EXPRESO LUJAN DEL CUYO SA,631917,21.7%,5464.80,,8Pq7Bd1J,8Ky5Hq9D
+43994,2790 DPM S.A. ,Parcialmente ejecutada,Todo Aprobado,Ejecución de pedido de artículo 26055,Enviado,F,CAS-PPA1048T043,0,11880,29/05/2026,EXPRESO LUJAN DEL CUYO SA,631917,21.7%,5464.80,T,8Pq7Bd1J,9Qb8Fy5U
 43999,3056 LABORATORIOS NOVARA SRL ✮✮,Facturada,Todo Aprobado,Ejecución de pedido de artículo 26048,Enviado,F,CAS-PPAR1048T043,0,0,29/05/2026,FELICI JORGE ARIEL,632566,66.9%,.00,T,1Uf6Rl4U,
 43978,4943 GRUPO COMAT SRL ✮✮✮✮,Facturada,Todo Aprobado,Ejecución de pedido de artículo 26054,Enviado,F,CAS-PPA1048T045,0,0,29/05/2026,RICARDO PIERONI,630437,48.0%,.00,T,2Yo8Yu6I,2Me3Fc7D
 43841,690 CEVA DE ARGENTINA SRL ,Facturada,Todo Aprobado,Ejecución de pedido de artículo 26053,Enviado,F,0690/002,0,0,29/05/2026,FELICI JORGE ARIEL,616158,26.9%,.00,T,3Pt0Oq8I,0Ph8Mv3F
