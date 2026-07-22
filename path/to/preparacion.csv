@@ -167,8 +167,8 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 44269,3089 ARNEG ARGENTINA S.A. ✮✮,Facturada,Todo Aprobado,Ejecución de pedido de artículo 26374,Enviado,F,3089/076,0,0,06/07/2026,FLETE LOCAL,654941,46.7%,.00,T,7Rx7Ub2H,660245
 44269,3089 ARNEG ARGENTINA S.A. ✮✮,Facturada,Todo Aprobado,Ejecución de pedido de artículo 26374,Enviado,F,3089/086,0,0,06/07/2026,FLETE LOCAL,654941,71.4%,.00,T,7Rx7Ub2H,660245
 44264,5048 RURAL SANTA FE SAICYA ✮✮,Parcialmente ejecutada,Todo Aprobado,Ejecución de pedido de artículo 26377,Enviado,F,H11/72,0,0,06/07/2026,EXPRESO LANCIONI,654488,0.0%,.00,T,1Vh6Ki9L,660471
-44264,5048 RURAL SANTA FE SAICYA ✮✮,Parcialmente ejecutada,Todo Aprobado,Ejecución de pedido de artículo 26377,Enviado,F,CAS-PPA1072T043,0,1464,06/07/2026,EXPRESO LANCIONI,654488,38.9%,1259.04,T,1Vh6Ki9L,660471
-44264,5048 RURAL SANTA FE SAICYA ✮✮,Parcialmente ejecutada,Todo Aprobado,Orden de trabajo,Abierta,F,CAS-PPA1072T043,0,1.464,06/07/2026,EXPRESO LANCIONI,654488,38.9%,1259.04,,1Vh6Ki9L,660686
+44264,5048 RURAL SANTA FE SAICYA ✮✮,Parcialmente ejecutada,Todo Aprobado,Ejecución de pedido de artículo 26377,Enviado,F,CAS-PPA1072T043,0,1.464,06/07/2026,EXPRESO LANCIONI,654488,38.9%,1259.04,T,1Vh6Ki9L,660471
+44264,5048 RURAL SANTA FE SAICYA ✮✮,Parcialmente ejecutada,Todo Aprobado,Orden de trabajo,Abierta,F,CAS-PPA1072T043,0,1464,06/07/2026,EXPRESO LANCIONI,654488,38.9%,1259.04,,1Vh6Ki9L,660686
 44107,15 INDUSTRIAS JOHN DEERE ARGENTINA S.A. ✮✮,Facturada,Todo Aprobado,Ejecución de pedido de artículo 26381,Enviado,F,0015/008,0,0,07/07/2026,FLETE LOCAL,641959,82.9%,.00,T,8Ky5Hq9D,660732
 44286,1906 SOFTBOND SA ✮✮,Facturada,Todo Aprobado,Ejecución de pedido de artículo 26379,Enviado,F,CAS-PPA1048T043,0,0,07/07/2026,EXPRESO CARGO SA,656384,48.6%,.00,T,0Ij4Pc0C,660730
 44286,1906 SOFTBOND SA ✮✮,Facturada,Todo Aprobado,Ejecución de pedido de artículo 26379,Enviado,F,H11/48,0,0,07/07/2026,EXPRESO CARGO SA,656384,66.6%,.00,T,0Ij4Pc0C,660730
@@ -177,8 +177,6 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 44317,3089 ARNEG ARGENTINA S.A. ✮✮,Facturada,Todo Aprobado,Ejecución de pedido de artículo 26384,Enviado,F,PER3040U,0,0,07/07/2026,FLETE LOCAL,659329,67.4%,.00,T,7Rx7Ub2H,660949
 44332,3598 DEL VALLE EMBALAJES SRL ✮✮,Facturada,Todo Aprobado,Ejecución de pedido de artículo 26383,Enviado,F,PPHR15048XT,0,0,07/07/2026,FLETE LOCAL,660584,40.3%,.00,T,0Ph8Mv3F,660738
 44289,426 ALTA PLASTICA SA ,Facturada,Todo Aprobado,Ejecución de pedido de artículo 26382,Enviado,F,CAS-PPA1048T043,0,0,07/07/2026,EXPRESO CARGO SA,656640,40.3%,.00,T,2Bk1Dc2Q,660737
-44238,4398 PAMPA FISH SA ✮✮,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Ensamblada,F,4398/002,1080,0,07/07/2026,TRANSPORTE TOMASSINI,652223,78.4%,1198.80,,8Ks1Zs7W,
-44238,4398 PAMPA FISH SA ✮✮,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Ensamblada,F,4398/003,1080,0,07/07/2026,TRANSPORTE TOMASSINI,652223,78.4%,1198.80,,8Ks1Zs7W,
 44135,9400050 CABRALES S.A. ,Facturada,Todo Aprobado,Ejecución de pedido de artículo 26378,Enviado,F,CAS-PPA1048T043,0,0,07/07/2026,TRANSPORTE TOMASSINI,644285,40.6%,.00,T,,660729
 44313,12662 PRINTEMPS S.R.L. ✮✮,Facturada,Todo Aprobado,Ejecución de pedido de artículo 26395,Enviado,F,12662/002,0,0,08/07/2026,FLETE LOCAL,659010,82.1%,.00,T,2Sp0Fe1F,662169
 44316,12706 LA GAUCHITA SACI ✮✮,Facturada,Todo Aprobado,Ejecución de pedido de artículo 26390,Enviado,F,CAS-PPA1048T043,0,0,08/07/2026,FLETE LOCAL,659011,46.3%,.00,T,0Pq7Yr6O,661834
@@ -218,7 +216,6 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 44329,9400961 JUNCOS DIEGO CRISTIAN ✮✮✮✮,Facturada,Todo Aprobado,Ejecución de pedido de artículo 26404,Enviado,F,CAS-PPA1048T043,0,0,10/07/2026,EXPRESO CARGO SA,660269,28.0%,.00,T,0Jm3Bk5S,662696
 44344,9403295 KAELE S.R.L. ✮✮,Facturada,Todo Aprobado,Ejecución de pedido de artículo 26403,Enviado,F,BV002,0,0,10/07/2026,EXPRESO CARGO SA,661953,71.7%,.00,T,3La8Rg7A,662695
 44245,12877 BRIKET SA ✮✮,Facturada,Todo Aprobado,Ejecución de pedido de artículo 26413,Enviado,T,0272/004,0,0,13/07/2026,FLETE LOCAL,652755,17.9%,.00,T,6Rp2Ce7I,662990
-43947,132 MAHLE VALVULAS DE ARGENTINA S.A. ✮✮,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Liberada,F,0132/003,0,360,13/07/2026,EXPRESO SANTA ROSA,626985,50.0%,424.80,,6Ls2Pd3Q,
 44310,18266 ARGENOVA SA ,Facturada,Todo Aprobado,Ejecución de pedido de artículo 26417,Enviado,F,CAS-PPAR1072T043,0,0,13/07/2026,EXPRESO CARGO SA,658360,44.7%,-24.72,T,5Uf6Pg9Q,663228
 44324,2021 SOLAUT S.A. ✮✮,Facturada,Todo Aprobado,Ejecución de pedido de artículo 26418,Enviado,F,H11/CPE,0,0,13/07/2026,FLETE LOCAL,659884,-106500.0%,.00,T,5Rg6Oq8Y,663444
 44324,2021 SOLAUT S.A. ✮✮,Facturada,Todo Aprobado,Ejecución de pedido de artículo 26418,Enviado,F,PPA1548TE,0,0,13/07/2026,FLETE LOCAL,659884,50.4%,.00,T,5Rg6Oq8Y,663444
@@ -266,7 +263,7 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 44300,2993 COTEMINAS ARGENTINA SA ✮✮,Parcialmente ejecutada,Todo Aprobado,Orden de trabajo ,Liberada,F,2993/002,0,120,15/07/2026,CORREO ANDREANI SA,657416,80.2%,696.00,,6Ks3Py8W,
 44346,4517 HIPER PACK ROSARIO DE CERRA VALERIA BEATRIZ ✮✮,Ejecución de la orden pendiente,Todo Aprobado, ,,F,PPAR524T,72,648,15/07/2026,FLETE LOCAL,662062,21.4%,201.60,,3Ny6Zw2O,
 44363,4558 FUSION SAN LUIS S A ,Facturada,Todo Aprobado,Ejecución de pedido de artículo 26437,Enviado,F,PVC648R,0,0,15/07/2026,EXPRESO LUJAN DEL CUYO SA,663840,69.0%,.00,T,6Yr2Cu9X,664431
-44359,5048 RURAL SANTA FE SAICYA ✮✮,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo,,F,CAS-PPA1072T040,0,3000,15/07/2026,EXPRESO LANCIONI,663483,43.0%,2580.00,,1Vh6Ki9L,
+44359,5048 RURAL SANTA FE SAICYA ✮✮,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo,,F,CAS-PPA1072T040,0,3.000,15/07/2026,EXPRESO LANCIONI,663483,43.0%,2580.00,,1Vh6Ki9L,
 44359,5048 RURAL SANTA FE SAICYA ✮✮,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Liberada,F,PPA1072F,0,504,15/07/2026,EXPRESO LANCIONI,663483,-17.1%,882.00,,1Vh6Ki9L,
 44358,569 CONAM SRL ✮✮,Ejecución de la orden pendiente,Todo Aprobado, ,,F,MTS572B,0,360,15/07/2026,EXPRESO CARGO SA,663344,100.0%,1155.60,,5Ko0Ey7A,
 44371,9400507 ALIMENTARIA MONTE CRISTO SRL ,Facturada,Todo Aprobado,Ejecución de pedido de artículo 26441,Enviado,F,CAS-PPAR10048T047,0,0,15/07/2026,EXPRESO CARGO SA,664448,0.0%,.00,T,8Gq3Xq7U,664868
@@ -365,18 +362,17 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 44408,1269 A.F.A. S.C.L. - RAMALLO UNIDAD VA FORMULADORA ✮✮,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo,,F,CAS-PPAR1048T045,48,60,21/07/2026,CORREO ANDREANI SA,667668,44.0%,81.00,,5Zl4Kr6H,
 44369,1412 F R I A R SA ,Facturada,Todo Aprobado,Ejecución de pedido de artículo 26517,Enviado,F,CAS-PPAR1072T043,0,0,21/07/2026,EXPRESO LANCIONI,664321,53.1%,-20.80,T,1Vf8Uo1P,669500
 44425,1658 SPEEDAGRO SRL ,Facturada,Todo Aprobado,Ejecución de pedido de artículo 26506,Enviado,F,CAS-PPAR10072T047,0,0,21/07/2026,RETIRAN,668920,77.3%,.00,T,3Vz7Hk9U,669303
-44376,18266 ARGENOVA SA ,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo,,F,CAS-PPAR1072T043,3944,6064,21/07/2026,EXPRESO CARGO SA,664768,40.8%,10308.24,,5Uf6Pg9Q,
 44422,2492 FRIGORIFICO ALBERDI S.A. ✮✮,Facturada,Todo Aprobado,Ejecución de pedido de artículo 26518,Enviado,F,CAS-PPA1048T040,0,0,21/07/2026,CORREO ANDREANI SA,668661,44.3%,.00,T,0Vc7Du3D,669914
 44421,2515 CONGELADOS ARTICO SA ✮✮,Facturada,Todo Aprobado,Ejecución de pedido de artículo 26510,Enviado,F,CAS-PPAR10048T047,0,0,21/07/2026,TRANSPORTE TOMASSINI,668561,65.6%,.00,T,8Rn3En3G,669322
 44421,2515 CONGELADOS ARTICO SA ✮✮,Facturada,Todo Aprobado,Ejecución de pedido de artículo 26521,Enviado,F,CAS-PPAR1072T043,0,0,21/07/2026,TRANSPORTE TOMASSINI,668561,58.2%,.00,T,8Rn3En3G,670069
 44424,260 SUCESION DE BARCIA CLAUDIO RODRIGO ,Facturada,Todo Aprobado,Ejecución de pedido de artículo 26502,Enviado,F,CAS-PPA1048T040,0,0,21/07/2026,FLETE LOCAL,668810,51.4%,.00,T,6Ib6Fj6R,669296
 44423,279 HONDA MOTOR DE ARGENTINA S.A. ✮✮,Facturada,Todo Aprobado,Ejecución de pedido de artículo 26508,Enviado,F,04169-00063-93,0,0,21/07/2026,EXPRESO CARGO SA,668762,46.8%,.00,T,1Rf6Ez5C,669308
-44423,279 HONDA MOTOR DE ARGENTINA S.A. ✮✮,Facturada,Todo Aprobado,Ejecución de pedido de artículo 26523,Enviado,F,60951-00000-00,0,0,21/07/2026,EXPRESO CARGO SA,668762,46.9%,.00,T,1Rf6Ez5C,670275
 44423,279 HONDA MOTOR DE ARGENTINA S.A. ✮✮,Facturada,Todo Aprobado,Ejecución de pedido de artículo 26508,Enviado,F,60951-00000-00,0,0,21/07/2026,EXPRESO CARGO SA,668762,46.9%,.00,T,1Rf6Ez5C,669308
+44423,279 HONDA MOTOR DE ARGENTINA S.A. ✮✮,Facturada,Todo Aprobado,Ejecución de pedido de artículo 26523,Enviado,F,60951-00000-00,0,0,21/07/2026,EXPRESO CARGO SA,668762,46.9%,.00,T,1Rf6Ez5C,670275
 44423,279 HONDA MOTOR DE ARGENTINA S.A. ✮✮,Facturada,Todo Aprobado,Ejecución de pedido de artículo 26508,Enviado,F,04169-00058-93,0,0,21/07/2026,EXPRESO CARGO SA,668762,56.2%,.00,T,1Rf6Ez5C,669308
 44269,3089 ARNEG ARGENTINA S.A. ✮✮,Facturada,Todo Aprobado,Ejecución de pedido de artículo 26507,Enviado,F,CAS-PPAR1072T043,0,0,21/07/2026,FLETE LOCAL,654941,55.1%,-10.16,T,7Rx7Ub2H,669304
-44418,3922 EMPRECO ARGENTINA DE NICOLAS C DELENIKAS ✮✮✮,Facturación pendiente,Todo Aprobado,Ejecución de pedido de artículo 26512,Enviado,F,04968-00008-00,0,0,21/07/2026,EXPRESO CARGO SA,668242,51.8%,.00,F,8Nu5Gj8P,669367
-44434,3922 EMPRECO ARGENTINA DE NICOLAS C DELENIKAS ✮✮✮,Facturación pendiente,Todo Aprobado,Ejecución de pedido de artículo 26522,Enviado,F,04968-00018-00,0,0,21/07/2026,EXPRESO CARGO SA,669923,53.3%,.00,F,8Nu5Gj8P,670272
+44418,3922 EMPRECO ARGENTINA DE NICOLAS C DELENIKAS ✮✮✮,Facturada,Todo Aprobado,Ejecución de pedido de artículo 26512,Enviado,F,04968-00008-00,0,0,21/07/2026,EXPRESO CARGO SA,668242,51.8%,.00,T,8Nu5Gj8P,669367
+44434,3922 EMPRECO ARGENTINA DE NICOLAS C DELENIKAS ✮✮✮,Facturada,Todo Aprobado,Ejecución de pedido de artículo 26522,Enviado,F,04968-00018-00,0,0,21/07/2026,EXPRESO CARGO SA,669923,53.3%,.00,T,8Nu5Gj8P,670272
 44420,4329 COMPANIA ELABORADORA DE PASTAS SA ✮✮,Facturada,Todo Aprobado,Ejecución de pedido de artículo 26509,Enviado,F,CAS-PPAR10048T047,0,0,21/07/2026,FLETE LOCAL,668459,70.7%,.00,T,0Un8Nt2U,669321
 44294,4381 IBERCONSA DE ARGENTINA SA ,Facturada,Todo Aprobado,Ejecución de pedido de artículo 26516,Enviado,F,CAS-PPAR1072T043,0,0,21/07/2026,TRANSPORTE TOMASSINI,656874,44.7%,-24.72,T,9Lx6Mu2V,669390
 44294,4381 IBERCONSA DE ARGENTINA SA ,Facturada,Todo Aprobado,Ejecución de pedido de artículo 26504,Enviado,F,CAS-PPAR1072T043,0,0,21/07/2026,TRANSPORTE TOMASSINI,656874,44.7%,-24.72,T,9Lx6Mu2V,669300
@@ -384,8 +380,8 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 44136,9400050 CABRALES S.A. ,Facturada,Todo Aprobado,Ejecución de pedido de artículo 26503,Enviado,F,CAS-PPA1048T043,0,0,21/07/2026,TRANSPORTE TOMASSINI,644286,40.6%,.00,T,,669297
 44272,9400066 XEITOSIÑO SA ✮✮,Facturada,Todo Aprobado,Ejecución de pedido de artículo 26515,Enviado,F,CAS-PPAR1072T043,0,0,21/07/2026,TRANSPORTE TOMASSINI,655180,44.7%,-16.48,T,2Wy4Vz4B,669389
 44241,9400079 PESQUERA SANTA CRUZ SA ,Facturada,Todo Aprobado,Ejecución de pedido de artículo 26514,Enviado,F,CAS-PPAR1072T043,0,0,21/07/2026,TRANSPORTE TOMASSINI,652550,44.7%,.00,T,8Cf1Ra3G,669388
-44406,9401261 CABO VIRGENES S.A. ,Facturación pendiente,Todo Aprobado,Ejecución de pedido de artículo 26520,Enviado,F,CAS-PPAR1072T043,0,0,21/07/2026,TRANSPORTE TOMASSINI,667468,40.8%,.00,F,0Ok9Jz1B,670063
-44407,9401261 CABO VIRGENES S.A. ,Facturación pendiente,Todo Aprobado,Ejecución de pedido de artículo 26519,Enviado,F,CAS-PPAR1072T043,0,0,21/07/2026,TRANSPORTE TOMASSINI,667568,40.8%,.00,F,0Ok9Jz1B,670062
+44406,9401261 CABO VIRGENES S.A. ,Facturada,Todo Aprobado,Ejecución de pedido de artículo 26520,Enviado,F,CAS-PPAR1072T043,0,0,21/07/2026,TRANSPORTE TOMASSINI,667468,40.8%,.00,T,0Ok9Jz1B,670063
+44407,9401261 CABO VIRGENES S.A. ,Facturada,Todo Aprobado,Ejecución de pedido de artículo 26519,Enviado,F,CAS-PPAR1072T043,0,0,21/07/2026,TRANSPORTE TOMASSINI,667568,40.8%,.00,T,0Ok9Jz1B,670062
 44426,9402135 ALBERTO G MORO SRL ✮✮✮✮,Facturada,Todo Aprobado,Ejecución de pedido de artículo 26505,Enviado,F,BV004,0,0,21/07/2026,RETIRAN,669024,0.0%,.00,T,3Ql7Hs1H,669301
 44426,9402135 ALBERTO G MORO SRL ✮✮✮✮,Facturada,Todo Aprobado,Ejecución de pedido de artículo 26505,Enviado,F,BV002,0,0,21/07/2026,RETIRAN,669024,0.0%,.00,T,3Ql7Hs1H,669301
 44432,9402422 VALBO S A I C Y F ,Parcialmente ejecutada,Todo Aprobado,Orden de trabajo,Abierta,F,CAS-PPAR1048T043,0,1080,21/07/2026,RETIRAN,669713,41.4%,756.00,,,670388
@@ -393,26 +389,30 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 44405,9402697 KLATT PACK SRL ✮✮,Facturada,Todo Aprobado,Ejecución de pedido de artículo 26501,Enviado,F,BV002,0,0,21/07/2026,EXPRESO CARGO SA,667311,69.6%,.00,T,,669295
 44416,9403298 J L PRODUCTOS ALIMENTICIAS S.A. ,Facturada,Todo Aprobado,Ejecución de pedido de artículo 26511,Enviado,F,CAS-PPAR10048T047,0,0,21/07/2026,CORREO ANDREANI SA,667976,52.2%,.00,T,7Ix8Tu8G,669344
 44416,9403298 J L PRODUCTOS ALIMENTICIAS S.A. ,Facturada,Todo Aprobado,Ejecución de pedido de artículo 26511,Enviado,F,MTP548B,0,0,21/07/2026,CORREO ANDREANI SA,667976,40.5%,-42.00,T,7Ix8Tu8G,669344
-44345,1499 FAIART ARGENTINA SA ✮✮,Facturación pendiente,Todo Aprobado,Ejecución de pedido de artículo 26527,Enviado,F,CAS-PPAR1072T043,0,0,22/07/2026,FLETE LOCAL,661847,54.2%,.00,F,9Pk0Ny6V,670491
+43947,132 MAHLE VALVULAS DE ARGENTINA S.A. ✮✮,Facturada,Todo Aprobado,Ejecución de pedido de artículo 26533,Enviado,F,0132/003,0,0,22/07/2026,EXPRESO SANTA ROSA,626985,50.0%,.00,T,6Ls2Pd3Q,670558
+44345,1499 FAIART ARGENTINA SA ✮✮,Facturada,Todo Aprobado,Ejecución de pedido de artículo 26527,Enviado,F,CAS-PPAR1072T043,0,0,22/07/2026,FLETE LOCAL,661847,54.2%,.00,T,9Pk0Ny6V,670491
 44260,15 INDUSTRIAS JOHN DEERE ARGENTINA S.A. ✮✮,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Liberada,T,0015/014/VCI,0,6100,22/07/2026,FLETE LOCAL,653888,81.8%,2684.00,,8Ky5Hq9D,
-44437,15515 DISTRIBUIDORA DIQUE SRL ✮✮,Facturación pendiente,Todo Aprobado,Ejecución de pedido de artículo 26529,Enviado,F,CAS-PPA1048T040,0,0,22/07/2026,FLETE LOCAL,670170,37.0%,.00,F,0Xf3Bl8T,670514
-44322,2302 PEPSICO DE ARGENTINA S.R.L. ,Facturación pendiente,Todo Aprobado,Ejecución de pedido de artículo 26528,Enviado,F,CAS-PPHR10048XT045,0,0,22/07/2026,TRANSPORTE TOMASSINI,659449,41.2%,.00,F,4zVNVRYK,670492
-44430,3089 ARNEG ARGENTINA S.A. ✮✮,Facturación pendiente,Todo Aprobado,Ejecución de pedido de artículo 26531,Enviado,F,MTP536B,0,0,22/07/2026,FLETE LOCAL,669509,46.2%,.00,F,7Rx7Ub2H,670525
-44427,4081 TERNIUM ARGENTINA S.A. ,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Ensamblada,F,CF548T,4,0,22/07/2026,BARRY LATIMER,669027,0.0%,.00,,1Jy7Za4R,
-44438,6142 PAPELERA DEL SUR SRL ✮✮,Facturación pendiente/parcialmente ejecutada,Todo Aprobado,Ejecución de pedido de artículo 26532,Enviado,F,MTS512B,0,0,22/07/2026,FLETE LOCAL,670282,51.6%,.00,F,9Rc3Gf4C,670548
-44438,6142 PAPELERA DEL SUR SRL ✮✮,Facturación pendiente/parcialmente ejecutada,Todo Aprobado,Ejecución de pedido de artículo 26532,Enviado,F,MTS524B,0,0,22/07/2026,FLETE LOCAL,670282,50.8%,.00,F,9Rc3Gf4C,670548
+44437,15515 DISTRIBUIDORA DIQUE SRL ✮✮,Facturada,Todo Aprobado,Ejecución de pedido de artículo 26529,Enviado,F,CAS-PPA1048T040,0,0,22/07/2026,FLETE LOCAL,670170,37.0%,.00,T,0Xf3Bl8T,670514
+44376,18266 ARGENOVA SA ,Facturación pendiente/parcialmente ejecutada,Todo Aprobado,Ejecución de pedido de artículo 26536,Enviado,F,CAS-PPAR1072T043,200,6064,22/07/2026,EXPRESO CARGO SA,664768,40.8%,6451.92,F,5Uf6Pg9Q,670577
+44322,2302 PEPSICO DE ARGENTINA S.R.L. ,Facturada,Todo Aprobado,Ejecución de pedido de artículo 26528,Enviado,F,CAS-PPHR10048XT045,0,0,22/07/2026,TRANSPORTE TOMASSINI,659449,41.2%,.00,T,4zVNVRYK,670492
+44430,3089 ARNEG ARGENTINA S.A. ✮✮,Facturada,Todo Aprobado,Ejecución de pedido de artículo 26531,Enviado,F,MTP536B,0,0,22/07/2026,FLETE LOCAL,669509,46.2%,.00,T,7Rx7Ub2H,670525
+44427,4081 TERNIUM ARGENTINA S.A. ,Facturación pendiente,Todo Aprobado,Ejecución de pedido de artículo 26535,Enviado,F,CF548T,0,0,22/07/2026,BARRY LATIMER,669027,0.0%,.00,F,1Jy7Za4R,670575
+44238,4398 PAMPA FISH SA ✮✮,Facturada,Todo Aprobado,Ejecución de pedido de artículo 26534,Enviado,F,4398/002,0,0,22/07/2026,TRANSPORTE TOMASSINI,652223,78.4%,.00,T,8Ks1Zs7W,670559
+44238,4398 PAMPA FISH SA ✮✮,Facturada,Todo Aprobado,Ejecución de pedido de artículo 26534,Enviado,F,4398/003,0,0,22/07/2026,TRANSPORTE TOMASSINI,652223,78.4%,.00,T,8Ks1Zs7W,670559
+44438,6142 PAPELERA DEL SUR SRL ✮✮,Parcialmente ejecutada,Todo Aprobado,Ejecución de pedido de artículo 26532,Enviado,F,MTS512B,0,0,22/07/2026,FLETE LOCAL,670282,51.6%,.00,T,9Rc3Gf4C,670548
+44438,6142 PAPELERA DEL SUR SRL ✮✮,Parcialmente ejecutada,Todo Aprobado,Ejecución de pedido de artículo 26532,Enviado,F,MTS524B,0,0,22/07/2026,FLETE LOCAL,670282,50.8%,.00,T,9Rc3Gf4C,670548
+44438,6142 PAPELERA DEL SUR SRL ✮✮,Parcialmente ejecutada,Todo Aprobado,Factura de venta 40787,Abierta,F,PPAR1024T,0,144,22/07/2026,FLETE LOCAL,670282,18.3%,86.40,,9Rc3Gf4C,670552
 44429,9400228 GRUPO EJE S.A. ✮✮,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo,,F,CAS-PPAR1048T040,1476,7164,22/07/2026,EXPRESO CARGO SA,669149,46.4%,5961.60,,0Qk7Tz5E,
-44436,9400609 PAN S COMPANY SA ,Facturación pendiente,Todo Aprobado,Ejecución de pedido de artículo 26530,Enviado,F,PPHR15048XT,0,0,22/07/2026,EXPRESO CARGO SA,670070,34.0%,.00,F,9Qb8Fy5U,670518
-44349,9402328 ARGENPACK CORRUGADOS SA ✮✮,Facturación pendiente,Todo Aprobado,Ejecución de pedido de artículo 26526,Enviado,F,BV001,0,0,22/07/2026,EXPRESO CARGO SA,662445,46.6%,.00,F,ulwBCyTv,670490
+44436,9400609 PAN S COMPANY SA ,Facturada,Todo Aprobado,Ejecución de pedido de artículo 26530,Enviado,F,PPHR15048XT,0,0,22/07/2026,EXPRESO CARGO SA,670070,34.0%,.00,T,9Qb8Fy5U,670518
+44349,9402328 ARGENPACK CORRUGADOS SA ✮✮,Facturada,Todo Aprobado,Ejecución de pedido de artículo 26526,Enviado,F,BV001,0,0,22/07/2026,EXPRESO CARGO SA,662445,46.6%,.00,T,ulwBCyTv,670490
 44214,1386 FRIGORIFICO PALADINI SA ✮✮,Ejecución de la orden pendiente,Todo Aprobado, ,,F,CAS-PPAR1048T043,432,0,23/07/2026,FLETE LOCAL,650746,47.3%,319.68,,0Ut2Zv0U,
-44438,6142 PAPELERA DEL SUR SRL ✮✮,Facturación pendiente/parcialmente ejecutada,Todo Aprobado, ,,F,PPAR1024T,0,144,23/07/2026,FLETE LOCAL,670282,18.3%,86.40,,9Rc3Gf4C,
 44439,9403469 NALDO LOMBARDI S A ,Ejecución de la orden pendiente,Todo Aprobado, ,,F,MUESTRA ESPECIAL,0,6,23/07/2026,ANDREANI LOGISTICA SA,670382,100.0%,.00,,,
 44372,12815 INDUSTRIAS AVICOLAS SA ✮✮,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Liberada,F,PPHR1216B,0,2000,24/07/2026,TRANSPORTE MOSTTO,664449,42.0%,2000.00,,4Jk9Hq6A,
 44413,3089 ARNEG ARGENTINA S.A. ✮✮,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Ensamblada,F,3089/035,4,0,24/07/2026,FLETE LOCAL,667777,98.9%,120.00,,7Rx7Ub2H,
 44413,3089 ARNEG ARGENTINA S.A. ✮✮,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Liberada,F,3089/039,0,30000,24/07/2026,FLETE LOCAL,667777,79.7%,5910.00,,7Rx7Ub2H,
 44413,3089 ARNEG ARGENTINA S.A. ✮✮,Ejecución de la orden pendiente,Todo Aprobado, ,,F,MTP548B,216,0,24/07/2026,FLETE LOCAL,667777,44.4%,486.00,,7Rx7Ub2H,
 44413,3089 ARNEG ARGENTINA S.A. ✮✮,Ejecución de la orden pendiente,Todo Aprobado, ,,F,PER3040U,450,0,24/07/2026,FLETE LOCAL,667777,66.6%,900.00,,7Rx7Ub2H,
-44404,3598 DEL VALLE EMBALAJES SRL ✮✮,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo,,F,CAS-PPAR1048T043,60,1740,24/07/2026,FLETE LOCAL,667169,50.0%,1476.00,,0Ph8Mv3F,
+44404,3598 DEL VALLE EMBALAJES SRL ✮✮,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo,,F,CAS-PPAR1048T043,420,1380,24/07/2026,FLETE LOCAL,667169,50.0%,1476.00,,0Ph8Mv3F,
 44415,9400100 ABBOUD MARCELO BANAIOT ✮✮,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo,,F,CAS-PPA1048T040,9000,7200,24/07/2026,EXPRESO CARGO SA,667975,34.6%,8424.00,,5Pj9Xf1N,
 44277,9400536 MILKAUT SA ✮✮,Ejecución de la orden pendiente,Todo Aprobado, ,,F,CAS-PPAR1048T043,144,0,24/07/2026,FLETE LOCAL,655394,52.9%,122.40,,8Ny2Or7G,
 44277,9400536 MILKAUT SA ✮✮,Ejecución de la orden pendiente,Todo Aprobado, ,,F,PPHR15048XT,252,0,24/07/2026,FLETE LOCAL,655394,40.3%,5848.92,,8Ny2Or7G,
