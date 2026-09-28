@@ -2,7 +2,7 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 43771,12850 ROSARIO ABRASIVOS SRL ✮✮,Parcialmente ejecutada,Todo Aprobado,Factura de venta 40016,Pagado por completo,T,60952-00000-00,0,36,22/04/2026,RICARDO PIERONI,609473,61.8%,622.08,,4Yl5Ld9M,611476
 43771,12850 ROSARIO ABRASIVOS SRL ✮✮,Parcialmente ejecutada,Todo Aprobado,Factura de venta 40283,Pagado por completo,T,60952-00000-00,0,36,26/05/2026,RICARDO PIERONI,609473,61.8%,622.08,,4Yl5Ld9M,631347
 44368,1606 DANES SRL ✮✮,Parcialmente ejecutada,Todo Aprobado,Factura de venta 40713,Pagado por completo,F,MTS518B,0,192,16/07/2026,RETIRAN,664221,6.0%,159.36,,1Km7Ai4M,666049
-44598,3598 DEL VALLE EMBALAJES SRL ✮✮,Parcialmente ejecutada,Todo Aprobado,Factura de venta 40973,Abierta,T,PPAR15096T,0,54,10/08/2026,FELICI JORGE ARIEL,683157,55.5%,1590.30,,0Ph8Mv3F,687792
+44598,3598 DEL VALLE EMBALAJES SRL ✮✮,Parcialmente ejecutada,Todo Aprobado,Factura de venta 40973,Pagado por completo,T,PPAR15096T,0,54,10/08/2026,FELICI JORGE ARIEL,683157,55.5%,1590.30,,0Ph8Mv3F,687792
 44523,9400761 TECNOLOGIA GRAFICA SRL ✮✮,Parcialmente ejecutada,Todo Aprobado,Factura de venta 41044,Pagado por completo,F,MTS518B,0,480,14/08/2026,EXPRESO LUJAN DEL CUYO SA,676597,2.5%,384.00,,3Px0Qz6Z,692208
 44765,2280 I M A P SAIYC ✮✮,Parcialmente ejecutada,Todo Aprobado,Factura de venta 41162,Pagado por completo,F,CAS-PPAR1096T043,0,270,27/08/2026,EXPRESO CARGO SA,704835,11.5%,399.60,,7Ys8On2E,706878
 44766,2410 LUIS SOLIMENO E HIJOS S.A. ,Parcialmente ejecutada,Todo Aprobado,Orden de trabajo,Abierta,F,CAS-PPAR10048T050,0,108,27/08/2026,TRANSPORTE TOMASSINI,704725,56.5%,1018.44,,3Gh0Ze9O,706531
@@ -31,8 +31,8 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 44773,2021 SOLAUT S.A. ✮✮,Facturada,Todo Aprobado,Ejecución de pedido de artículo 26932,Enviado,F,PPA1548TE,0,0,31/08/2026,FLETE LOCAL,705949,52.4%,.00,T,5Rg6Oq8Y,708724
 43324,300 GESTAMP CORDOBA S.A. ,Facturada,Todo Aprobado,Ejecución de pedido de artículo 26958,Enviado,T,V20,0,0,31/08/2026,EXPRESO CARGO SA,572582,75.8%,.00,T,0Ai6Rj2W,711251
 44507,3089 ARNEG ARGENTINA S.A. ✮✮,Facturada,Todo Aprobado,Ejecución de pedido de artículo 26952,Enviado,T,3089/080,0,0,31/08/2026,FELICI JORGE ARIEL,675545,52.0%,.00,T,7Rx7Ub2H,710462
-44749,3089 ARNEG ARGENTINA S.A. ✮✮,Parcialmente ejecutada,Todo Aprobado,Factura de venta 41195,Abierta,T,3089/052,0,4075,31/08/2026,FLETE LOCAL,702571,7.6%,3749.00,,7Rx7Ub2H,709523
 44749,3089 ARNEG ARGENTINA S.A. ✮✮,Parcialmente ejecutada,Todo Aprobado,Ejecución de pedido de artículo 26942,Enviado,T,3089/052,0,4075,31/08/2026,FLETE LOCAL,702571,7.6%,3749.00,T,7Rx7Ub2H,709510
+44749,3089 ARNEG ARGENTINA S.A. ✮✮,Parcialmente ejecutada,Todo Aprobado,Factura de venta 41195,Abierta,T,3089/052,0,4075,31/08/2026,FLETE LOCAL,702571,7.6%,3749.00,,7Rx7Ub2H,709523
 44750,3089 ARNEG ARGENTINA S.A. ✮✮,Facturada,Todo Aprobado,Ejecución de pedido de artículo 26928,Enviado,F,3089/049,0,0,31/08/2026,FLETE LOCAL,702671,-6.0%,.00,T,7Rx7Ub2H,708276
 44795,3598 DEL VALLE EMBALAJES SRL ✮✮,Parcialmente ejecutada,Todo Aprobado,Ejecución de pedido de artículo 26947,Enviado,F,PPHR15048XT,0,0,31/08/2026,FLETE LOCAL,708503,37.0%,.00,T,0Ph8Mv3F,709732
 44725,4095 REFINERIA DEL CENTRO SA ✮✮,Facturada,Todo Aprobado,Ejecución de pedido de artículo 26937,Enviado,F,CAS-PPHR10048XT045,0,0,31/08/2026,EXPRESO SANTA ROSA,698942,49.9%,.00,T,1Bj3Wa5S,709483
@@ -83,7 +83,7 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 44822,4869 TUCCI JUAN BAUTISTA ✮✮✮✮,Ejecución de la orden pendiente,Todo Aprobado, ,,F,PPA1548TE,0,180,07/09/2026,EXPRESO CARGO SA,712701,64.7%,300.60,,3Mw2Iy4X,
 44821,6224 AJEC AUTOADHESIVOS SA ✮✮✮✮,Facturada,Todo Aprobado,Ejecución de pedido de artículo 26988,Enviado,F,PPAR100144T,0,0,07/09/2026,RETIRAN,712493,100.0%,.00,T,0Cu0Hq8R,715121
 44748,655 SWIFT SA ARGENTINA ,Facturada,Todo Aprobado,Ejecución de pedido de artículo 26990,Enviado,F,MUESTRA ESPECIAL,0,0,07/09/2026,FLETE LOCAL,702544,100.0%,.00,T,8Wb3Xi2L,715125
-44799,814 OBLAK HNOS SACIFI ,Facturada,Todo Aprobado,Ejecución de pedido de artículo 26996,Enviado,F,07063-00001-24,0,0,07/09/2026,EXPRESO CARGO SA,709259,28.8%,.00,T,1Hy0Vd3I,715345
+44799,814 OBLAK HNOS SACIFI ✮✮,Facturada,Todo Aprobado,Ejecución de pedido de artículo 26996,Enviado,F,07063-00001-24,0,0,07/09/2026,EXPRESO CARGO SA,709259,28.8%,.00,T,1Hy0Vd3I,715345
 44834,9400009 CERAMICA SAN LORENZO IND Y COM. S.A. ,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo,,F,CAS-PPA1048T040,0,576,07/09/2026,CORREO ANDREANI SA,714109,48.5%,391.68,,9Hm9Dl7F,
 44830,9400350 MARCELO CUETO S A (BREVISS) ✮✮,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo,,F,CAS-PPAR10048T047,0,60,07/09/2026,EXPRESO CARGO SA,713841,49.5%,492.00,,5Rv1Fb7M,
 44823,9400945 LAMED S.A. ✮✮,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo,,F,CAS-PPA1048T040,0,1080,07/09/2026,FLETE LOCAL,712920,55.8%,853.20,,9Dw9Wh0V,
@@ -104,8 +104,8 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 44810,3089 ARNEG ARGENTINA S.A. ✮✮,Parcialmente ejecutada,Todo Aprobado,Ejecución de pedido de artículo 27000,Enviado,F,MF5180T,0,0,09/09/2026,FLETE LOCAL,711122,98.9%,.00,T,7Rx7Ub2H,719239
 44811,3089 ARNEG ARGENTINA S.A. ✮✮,Parcialmente ejecutada,Todo Aprobado,Ejecución de pedido de artículo 27001,Enviado,F,3089/078,0,0,09/09/2026,FLETE LOCAL,711123,31.0%,-14.50,T,7Rx7Ub2H,719349
 44811,3089 ARNEG ARGENTINA S.A. ✮✮,Parcialmente ejecutada,Todo Aprobado,Ejecución de pedido de artículo 27001,Enviado,F,3089/079,40000,0,09/09/2026,FLETE LOCAL,711123,42.9%,1400.00,T,7Rx7Ub2H,719349
-44730,655 SWIFT SA ARGENTINA ,Parcialmente ejecutada,Todo Aprobado,Orden de trabajo,Abierta,F,CAS-PPAR1072T045,2016,1824,09/09/2026,CORREO ANDREANI SA,699952,53.6%,5260.80,,8Wb3Xi2L,719654
 44730,655 SWIFT SA ARGENTINA ,Parcialmente ejecutada,Todo Aprobado,Ejecución de pedido de artículo 27002,Enviado,F,CAS-PPAR1072T045,2016,1824,09/09/2026,CORREO ANDREANI SA,699952,53.6%,5260.80,T,8Wb3Xi2L,719531
+44730,655 SWIFT SA ARGENTINA ,Parcialmente ejecutada,Todo Aprobado,Orden de trabajo,Abierta,F,CAS-PPAR1072T045,2016,1824,09/09/2026,CORREO ANDREANI SA,699952,53.6%,5260.80,,8Wb3Xi2L,719654
 44833,9400856 G P V SOCIEDAD ANONIMA (GRUPO PIERO) ✮✮,Parcialmente ejecutada,Todo Aprobado,Ejecución de pedido de artículo 26999,Enviado,F,9400856/001,0,37,09/09/2026,EXPRESO CARGO SA,713993,60.8%,1110.00,T,0Vu0Tn6O,719235
 44757,1087 FALCONE BODETTO S.A. ✮✮,Parcialmente ejecutada,Todo Aprobado,Orden de trabajo ,Liberada,F,1087/001,0,288,10/09/2026,FELICI GERARDO FABIAN,703713,90.0%,432.00,,2Vf5Jo3E,
 44757,1087 FALCONE BODETTO S.A. ✮✮,Parcialmente ejecutada,Todo Aprobado,Ejecución de pedido de artículo 27005,Enviado,F,PPAR1024T,0,0,10/09/2026,FELICI GERARDO FABIAN,703713,-8.9%,.00,T,2Vf5Jo3E,720519
@@ -176,7 +176,7 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 44890,1114 QUERUCLOR SA ,Facturada,Todo Aprobado,Ejecución de pedido de artículo 27053,Enviado,F,CAS-PPAR10048T047,0,0,17/09/2026,EXPRESO CARGO SA,725608,0.0%,.00,T,9Lr2Jg3H,725771
 44888,2655 LA VALENZIANA S.R.L. ✮✮,Facturada,Todo Aprobado,Ejecución de pedido de artículo 27052,Enviado,F,PER3040U,0,0,17/09/2026,BARRY LATIMER,725494,44.2%,.00,T,2Mi4Jg0L,725767
 44880,4202 DANIEL TIEPPO E HIJOS SRL ✮✮✮✮,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo,,F,CAS-PPAR1048T045,0,360,17/09/2026,EXPRESO CARGO SA,723823,48.0%,403.20,,0Mv3Vp1D,
-44852,6188 WELDING ALLOYS ARGENTINA SA ,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Liberada,T,6188/003,0,2300,17/09/2026,CORREO ANDREANI SA,719966,71.9%,736.00,,2Mf7Nv0O,
+44852,6188 WELDING ALLOYS ARGENTINA SA ,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Ensamblada,T,6188/003,2300,0,17/09/2026,CORREO ANDREANI SA,719966,71.9%,736.00,,2Mf7Nv0O,
 44798,9402336 INDUSTRIAS ALIMENTARIAS DEL SUD S.A. ,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Liberada,F,2336/005,0,72,17/09/2026,EXPRESO CARGO SA,709157,77.2%,1371.60,,,
 44798,9402336 INDUSTRIAS ALIMENTARIAS DEL SUD S.A. ,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Liberada,F,2336/006,0,48,17/09/2026,EXPRESO CARGO SA,709157,77.2%,914.40,,,
 44798,9402336 INDUSTRIAS ALIMENTARIAS DEL SUD S.A. ,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Liberada,F,2336/007,0,48,17/09/2026,EXPRESO CARGO SA,709157,77.2%,914.40,,,
@@ -283,13 +283,12 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 44693,3490 ALTO IMPACTO SRL (VERTIGO) ,Facturada,Todo Aprobado,Ejecución de pedido de artículo 27107,Enviado,F,3490/001,0,0,25/09/2026,FELICI GERARDO FABIAN,692226,82.0%,.00,T,1Wa0Iu6X,732988
 44836,350 CARLOS MAZZIERI Y CIA SA ,Parcialmente ejecutada,Todo Aprobado,Orden de trabajo,Abierta,F,CAS-PPAR1096T043,0,180,25/09/2026,FLETE LOCAL,714777,23.4%,307.80,,2Mn8Wp8I,733232
 44897,4285 FENOVO SA ✮✮✮✮,Facturada,Todo Aprobado,Ejecución de pedido de artículo 27114,Enviado,F,2068/002,0,0,25/09/2026,CORREO ANDREANI SA,726642,91.2%,.00,T,5Ec0Eb9F,733253
-44909,583 TERRAGENE SA ✮✮,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Liberada,F,04965-00011-00,0,450,25/09/2026,FLETE LOCAL,728719,-338.6%,630.00,,5Pl6Eg8H,
 44859,920 DMED S.R.L. ,Parcialmente ejecutada,Todo Aprobado,Ejecución de pedido de artículo 27108,Enviado,F,CAS-PPAR1048T040,0,3600,25/09/2026,FLETE LOCAL,720849,51.5%,2736.00,T,8Ll4Gg3U,732996
 44859,920 DMED S.R.L. ,Parcialmente ejecutada,Todo Aprobado,Orden de trabajo,Abierta,F,CAS-PPAR1048T040,0,3600,25/09/2026,FLETE LOCAL,720849,51.5%,2736.00,,8Ll4Gg3U,733235
 44942,9400051 DER WILL SA ✮✮✮✮,Parcialmente ejecutada,Todo Aprobado,Ejecución de pedido de artículo 27111,Enviado,F,9400051/004,0,360,25/09/2026,EXPRESO CARGO SA,732821,23.1%,788.40,T,5Hn8Ah9T,733238
 44936,12787 FLEXCOLOR SRL ✮✮,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo,,F,CAS-PPAR1048T043,0,468,28/09/2026,EXPRESO LUJAN DEL CUYO SA,732099,58.5%,496.08,,3Jc0Cw5E,
 43941,132 MAHLE VALVULAS DE ARGENTINA S.A. ✮✮,Parcialmente ejecutada,Todo Aprobado,Orden de trabajo ,Liberada,T,3351/001,0,15000,28/09/2026,EXPRESO SANTA ROSA,626509,100.0%,1950.00,,6Ls2Pd3Q,
-44934,3096 FRECICAR S.R.L. ✮✮,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Liberada,F,MF518T,0,100,28/09/2026,FLETE LOCAL,731559,83.0%,500.00,,9Zc0Jy4O,
+44934,3096 FRECICAR S.R.L. ✮✮,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Ensamblada,F,MF518T,100,0,28/09/2026,FLETE LOCAL,731559,83.0%,500.00,,9Zc0Jy4O,
 44945,4872 PAMPA GLOBAL TRADE S.A ✮✮,Ejecución de la orden pendiente,Todo Aprobado, ,,F,PPAR15048T,60,0,28/09/2026,FLETE LOCAL,733262,43.4%,714.00,,4Rs4Vh2H,
 44937,629 INDUSTRIAS QUIMICAS BG SRL ,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo,,F,CAS-PPAR1048T043,0,36,28/09/2026,FLETE LOCAL,732300,59.5%,39.24,,0Ze2Hm4P,
 44937,629 INDUSTRIAS QUIMICAS BG SRL ,Ejecución de la orden pendiente,Todo Aprobado, ,,F,CH5235,80,0,28/09/2026,FLETE LOCAL,732300,52.6%,304.00,,0Ze2Hm4P,
@@ -298,22 +297,17 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 44944,742 CYM MATERIALES SA ✮✮✮,Ejecución de la orden pendiente,Todo Aprobado, ,,F,MVAQUA180,40,0,29/09/2026,FLETE LOCAL,733101,41.3%,478.00,,7Id6Py7O,
 44943,9400141 SANFILIPPO NATALIA ✮✮✮✮,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo,,F,CAS-PPAR1048T043,0,360,29/09/2026,FLETE LOCAL,733000,46.3%,295.20,,,
 44901,12662 PRINTEMPS S.R.L. ✮✮✮,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Liberada,F,64621-00003-00,0,500,30/09/2026,FLETE LOCAL,727179,64.6%,3620.00,,2Sp0Fe1F,
-44084,12877 BRIKET SA ✮✮,Ejecución de la orden pendiente,Todo Aprobado, ,,T,ALU3060SL,0,660,30/09/2026,FLETE LOCAL,639963,99.2%,13266.00,,6Rp2Ce7I,
 44818,132 MAHLE VALVULAS DE ARGENTINA S.A. ✮✮,Parcialmente ejecutada,Todo Aprobado,Orden de trabajo ,Liberada,F,0132/003,0,360,30/09/2026,EXPRESO SANTA ROSA,712247,88.2%,424.80,,6Ls2Pd3Q,
 44938,1650 ARAG ARGENTINA SA ✮✮,Ejecución de la orden pendiente,Todo Aprobado, ,,T,1650/002,48,452,30/09/2026,FLETE LOCAL,732405,49.9%,1900.00,,8Yp8Ld0P,
 44904,3029 DARK SRL ✮✮,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo,,F,CAS-PPAR1048T045,0,108,30/09/2026,FLETE LOCAL,727957,35.6%,97.20,,7Va0Bu1J,
 44904,3029 DARK SRL ✮✮,Ejecución de la orden pendiente,Todo Aprobado, ,,F,FLJPP30012B,3,0,30/09/2026,FLETE LOCAL,727957,16.1%,132.00,,7Va0Bu1J,
-44932,3089 ARNEG ARGENTINA S.A. ✮✮,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Liberada,F,3089/014,0,45000,30/09/2026,FLETE LOCAL,731150,13.0%,1035.00,,7Rx7Ub2H,
-44932,3089 ARNEG ARGENTINA S.A. ✮✮,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Liberada,F,3089/041,0,12000,30/09/2026,FLETE LOCAL,731150,81.2%,1272.00,,7Rx7Ub2H,
-44932,3089 ARNEG ARGENTINA S.A. ✮✮,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Liberada,F,3089/051,0,10000,30/09/2026,FLETE LOCAL,731150,92.6%,1360.00,,7Rx7Ub2H,
-44932,3089 ARNEG ARGENTINA S.A. ✮✮,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo,,F,CAS-PPAR1072T043,0,48,30/09/2026,FLETE LOCAL,731150,48.0%,60.96,,7Rx7Ub2H,
 44913,4095 REFINERIA DEL CENTRO SA ✮✮,Aprobación pendiente,Todo Aprobado,Orden de trabajo,,F,CAS-PPHR1072XT045,0,2700,30/09/2026,EXPRESO SANTA ROSA,729128,48.4%,5805.00,,1Bj3Wa5S,
 44942,9400051 DER WILL SA ✮✮✮✮,Parcialmente ejecutada,Todo Aprobado,Orden de trabajo ,En curso,F,9400051/004,0,360,30/09/2026,EXPRESO CARGO SA,732821,23.1%,788.40,,5Hn8Ah9T,
 44929,9400507 ALIMENTARIA MONTE CRISTO SRL ✮✮,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo,,F,CAS-PPAR10048T047,0,210,30/09/2026,EXPRESO CARGO SA,730640,55.1%,1932.00,,8Gq3Xq7U,
 44760,94010 VISUAR SA ,Ejecución de la orden pendiente,Todo Aprobado, ,,F,1823/002,96,0,30/09/2026,CORREO ANDREANI SA,704139,25.8%,2749.44,,4Gf8Oa0H,
 44006,9402290 BI MERCANTIL SAS ,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo,,F,CAS-PPA1072T040,2.352,2688,30/09/2026,TRANSPORTE MOSTTO,633222,44.9%,4485.60,,6Cx3Az0M,
 44933,3089 ARNEG ARGENTINA S.A. ✮✮,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Liberada,F,3089/029,0,80000,01/10/2026,FLETE LOCAL,731295,100.0%,432.00,,7Rx7Ub2H,
-44933,3089 ARNEG ARGENTINA S.A. ✮✮,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Liberada,F,3089/049,0,10000,01/10/2026,FLETE LOCAL,731295,95.6%,2260.00,,7Rx7Ub2H,
+44933,3089 ARNEG ARGENTINA S.A. ✮✮,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Ensamblada,F,3089/049,10000,0,01/10/2026,FLETE LOCAL,731295,95.6%,2260.00,,7Rx7Ub2H,
 44935,3089 ARNEG ARGENTINA S.A. ✮✮,Ejecución de la orden pendiente,Todo Aprobado, ,,F,MTS536B,0,2880,01/10/2026,FLETE LOCAL,732098,100.0%,4867.20,,7Rx7Ub2H,
 44864,4089 SOBRERO Y CAGNOLO SA ,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo,,F,CAS-PPAR1048T045,0,864,01/10/2026,CORREO ANDREANI SA,721414,32.6%,743.04,,9Or7Px4G,
 44925,86 EST GRAFICO IMPRESORES SA ✮✮,Ejecución de la orden pendiente,Todo Aprobado, ,,F,H11/48,0,4,01/10/2026,EXPRESO CARGO SA,730739,49.2%,60.00,,9Xw3Zi2V,
@@ -332,12 +326,14 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 44744,2871 MAINCAL SA ,Ejecución de la orden pendiente,Todo Aprobado, ,,F,MUESTRA ESPECIAL,1,0,05/10/2026,BARRY LATIMER,701606,100.0%,.00,,5Fg6Om7A,
 44848,143 EPTA ARGENTINA S.A. ✮✮,Ejecución de la orden pendiente,Todo Aprobado,Pedido ,Recepción pendiente,T,0143/025,0,300,07/10/2026,FLETE LOCAL,719384,6.2%,1950.00,,1Tu2Pr5C,
 44853,1736 COMPANY SPY SRL ✮✮,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Liberada,F,1736/002,0,360,08/10/2026,FLETE LOCAL,720066,86.1%,648.00,,7Xr0Sq4A,
-44940,6142 PAPELERA DEL SUR SRL ✮✮,Ejecución de la orden pendiente,Todo Aprobado, ,,F,CAS1048B-CORONA,0,360,08/10/2026,FLETE LOCAL,732608,75.2%,684.00,,9Rc3Gf4C,
+44940,6142 PAPELERA DEL SUR SRL ✮✮,Ejecución de la orden pendiente,Todo Aprobado, ,,F,6142/003,0,360,08/10/2026,FLETE LOCAL,732608,75.1%,684.00,,9Rc3Gf4C,
 44922,9402328 ARGENPACK CORRUGADOS SA ✮✮,Ejecución de la orden pendiente,Todo Aprobado, ,,F,BV001,288,0,08/10/2026,EXPRESO CARGO SA,730538,46.8%,2183.04,,ulwBCyTv,
 44923,9402328 ARGENPACK CORRUGADOS SA ✮✮,Ejecución de la orden pendiente,Todo Aprobado, ,,F,BV001,0,324,08/10/2026,EXPRESO CARGO SA,730638,46.8%,2455.92,,ulwBCyTv,
+44946,3198 CRESKOTEC SA ,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo,,F,CAS-PPA1048T040,0,1080,09/10/2026,EXPRESO CARGO SA,733517,46.9%,691.20,,8Ps5Mh2D,
+44946,3198 CRESKOTEC SA ,Ejecución de la orden pendiente,Todo Aprobado, ,,F,3198/002,0,1080,09/10/2026,EXPRESO CARGO SA,733517,76.0%,1123.20,,8Ps5Mh2D,
 44654,1386 FRIGORIFICO PALADINI SA ✮✮,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo,,F,CAS-PPAR1048T045,180,360,12/10/2026,FELICI JORGE ARIEL,687956,15.7%,375.051,,0Ut2Zv0U,
 44930,723 PABLO JAVIER BONGARZONE (DIMAFER) ✮✮,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Liberada,F,0723/002,0,180,14/10/2026,FLETE LOCAL,730946,81.1%,448.20,,KFyV8WPL,
-44914,655 SWIFT SA ARGENTINA ,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo,,F,CAS-PPAR1072T043,0,1200,19/10/2026,FLETE LOCAL,729341,51.8%,1644.00,,8Wb3Xi2L,
+44914,655 SWIFT SA ARGENTINA ,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo,,F,CAS-PPAR1072T043,0,1.200,19/10/2026,FLETE LOCAL,729341,51.8%,1644.00,,8Wb3Xi2L,
 44915,655 SWIFT SA ARGENTINA ,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo,,F,CAS-PPAR1072T043,0,1512,21/10/2026,EXPRESO LUJAN DEL CUYO SA,729441,51.8%,2071.44,,8Wb3Xi2L,
 44920,178 DROGUERIA DEL SUD S.A. ,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Liberada,F,PPA1048F,0,108,22/10/2026,EXPRESO LUJAN DEL CUYO SA,730086,69.1%,164.16,,5Mx5Rs0E,
 44939,9400962 CRYSTAL-ICE S.R.L. ✮✮,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Liberada,F,9400962/006,0,360,23/10/2026,FLETE LOCAL,732508,83.5%,547.20,,4Is2Rn8E,
@@ -360,6 +356,7 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 44926,9402328 ARGENPACK CORRUGADOS SA ✮✮,Ejecución de la orden pendiente,Todo Aprobado, ,,F,BV001,712,0,29/10/2026,EXPRESO CARGO SA,730444,46.8%,5396.96,,ulwBCyTv,
 44085,12877 BRIKET SA ✮✮,Ejecución de la orden pendiente,Todo Aprobado, ,,T,ALU3060SL,0,660,30/10/2026,FLETE LOCAL,639965,99.2%,13266.00,,6Rp2Ce7I,
 44008,9402290 BI MERCANTIL SAS ,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo,,F,CAS-PPA1072T040,0,5040,30/10/2026,TRANSPORTE MOSTTO,633327,44.9%,4485.60,,6Cx3Az0M,
+44084,12877 BRIKET SA ✮✮,Ejecución de la orden pendiente,Todo Aprobado, ,,T,ALU3060SL,0,660,31/10/2026,FLETE LOCAL,639963,99.2%,13266.00,,6Rp2Ce7I,
 44088,12877 BRIKET SA ✮✮,Ejecución de la orden pendiente,Todo Aprobado, ,,T,ALU3060SL,0,660,02/11/2026,FELICI JORGE ARIEL,640275,99.2%,13266.00,,6Rp2Ce7I,
 44924,9402328 ARGENPACK CORRUGADOS SA ✮✮,Ejecución de la orden pendiente,Todo Aprobado, ,,F,BV001,0,288,20/11/2026,EXPRESO CARGO SA,730738,46.8%,2183.04,,ulwBCyTv,
 44806,9403481 TOPPER ARGENTINA S.A. ,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Liberada,F,9403481/001,0,504,20/11/2026,EXPRESO CARGO SA,710059,-3.5%,1154.16,,,
@@ -400,9 +397,14 @@ Número de documento,Nombre,Estado,Estado Exacto,Orden. Especial?,Estado Orden. 
 44863,3089 ARNEG ARGENTINA S.A. ✮✮,Parcialmente ejecutada,Todo Aprobado,Orden de trabajo ,Liberada,F,3089/011,0,21000,,FLETE LOCAL,721285,6.3%,1344.00,,7Rx7Ub2H,
 44863,3089 ARNEG ARGENTINA S.A. ✮✮,Parcialmente ejecutada,Todo Aprobado,Orden de trabajo ,Liberada,F,3089/016,0,50000,,FLETE LOCAL,721285,2.4%,2050.00,,7Rx7Ub2H,
 44865,3089 ARNEG ARGENTINA S.A. ✮✮,Parcialmente ejecutada,Todo Aprobado,Orden de trabajo ,Liberada,F,3089/078,0,19500,,FLETE LOCAL,721607,31.3%,565.50,,7Rx7Ub2H,
+44932,3089 ARNEG ARGENTINA S.A. ✮✮,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Liberada,F,3089/014,0,45000,,FLETE LOCAL,731150,13.0%,1035.00,,7Rx7Ub2H,
+44932,3089 ARNEG ARGENTINA S.A. ✮✮,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Ensamblada,F,3089/041,12000,0,,FLETE LOCAL,731150,81.2%,1272.00,,7Rx7Ub2H,
+44932,3089 ARNEG ARGENTINA S.A. ✮✮,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Ensamblada,F,3089/051,10000,0,,FLETE LOCAL,731150,92.6%,1360.00,,7Rx7Ub2H,
+44932,3089 ARNEG ARGENTINA S.A. ✮✮,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo,,F,CAS-PPAR1072T043,0,48,,FLETE LOCAL,731150,48.0%,60.96,,7Rx7Ub2H,
 44647,322 SIDERSA S.A. ,Parcialmente ejecutada,Todo Aprobado,Orden de trabajo ,Ensamblada,F,MUESTRA ESPECIAL,1,0,,RETIRAN,687550,100.0%,.00,,7Ia9Mm7L,
 44795,3598 DEL VALLE EMBALAJES SRL ✮✮,Parcialmente ejecutada,Todo Aprobado,Orden de trabajo,,F,CAS-PPAR1048T043,0,3600,,FLETE LOCAL,708503,49.0%,3096.00,,0Ph8Mv3F,
 44602,533 METALBO SRL ✮✮,Parcialmente ejecutada,Todo Aprobado,Orden de trabajo ,En curso,F,07055-00009-22,0,4082,,FELICI JORGE ARIEL,683483,-76.4%,30615.00,,7Wa0Pl2P,
+44909,583 TERRAGENE SA ✮✮,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Liberada,F,04965-00011-00,0,450,,FLETE LOCAL,728719,-338.6%,630.00,,5Pl6Eg8H,
 42920,690 CEVA DE ARGENTINA SRL ✮✮,Facturación pendiente,Todo Aprobado,Orden de trabajo ,Ensamblada,F,BV002,0,0,,FELICI JORGE ARIEL,542642,76.5%,-77.50,,3Pt0Oq8I,
 44833,9400856 G P V SOCIEDAD ANONIMA (GRUPO PIERO) ✮✮,Parcialmente ejecutada,Todo Aprobado,Orden de trabajo ,En curso,F,9400856/001,0,37,,EXPRESO CARGO SA,713993,60.8%,1110.00,,0Vu0Tn6O,
 44807,9403481 TOPPER ARGENTINA S.A. ,Ejecución de la orden pendiente,Todo Aprobado,Orden de trabajo ,Liberada,F,9403481/001,0,504,,EXPRESO CARGO SA,710060,-3.6%,1154.16,,,
